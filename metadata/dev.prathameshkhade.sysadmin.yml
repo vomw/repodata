@@ -1,0 +1,31 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-or-later
+AuthorName: Prathamesh Khade
+AuthorEmail: pkhade2865+sysadmin@gmail.com
+SourceCode: https://github.com/prathameshkhade/SysAdmin
+IssueTracker: https://github.com/prathameshkhade/SysAdmin/issues
+Changelog: https://github.com/prathameshkhade/SysAdmin/releases
+
+AutoName: SysAdmin
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-04-25
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/prathameshkhade/SysAdmin/blob/dev/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,screenshots
+  FastlaneIgnore: changelogs
+  Note: changelogs just have default.txt
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to manage files
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to manage files
+  Status:
+    - 2025-06-30 rebranded from com.sysadmin.sysadmin with v1.1.0
+
+AllowedAPKSigningKeys: 9a14d4662d72630f56e5faad8712642a62dc687137ddea9f99bd20e54d606144
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

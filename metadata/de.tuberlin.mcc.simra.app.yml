@@ -1,0 +1,36 @@
+Categories:
+  - Science & Education
+  - Sports & Health
+License: Apache-2.0
+AuthorName: SimRa Project
+AuthorEmail: ask@mcc.tu-berlin.de
+AuthorWebSite: http://www.mcc.tu-berlin.de/
+WebSite: https://www.digital-future.berlin/en/research/projects/simra/
+SourceCode: https://github.com/simra-project/simra-android
+IssueTracker: https://github.com/simra-project/simra-android/issues
+
+AutoName: SimRa
+
+MaintainerNotes:
+  AppAdded: 2020-09-05
+  Method: manual
+  ManualHint: no last-modified, check https://tubcloud.tu-berlin.de/s/eK46JHtY7F2exq7/download or http://www.redaktion.tu-berlin.de/fileadmin/fg344/simra/SimRa.apk (link from website)
+  X-oldApkUrl: https://www.redaktion.tu-berlin.de/fileadmin/fg344/simra/SimRa.apk
+  ApkUrl: https://tubcloud.tu-berlin.de/s/eK46JHtY7F2exq7/download
+  Fastlane: https://github.com/simra-project/simra-android/tree/master/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD
+  Note: Fastlane video.txt empty, changelogs never updated, EN screenshots duplicated to DE (we have separate ones)
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed for location recording
+    android.permission.ACCESS_COARSE_LOCATION: needed for location recording
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed for location recording
+    android.permission.BLUETOOTH_SCAN: needed to connect to eg. OpenBikeSensor
+  LibIgnore:
+    - /io/sentry
+  Status:
+    - 2022-05-15 had to switch from direct-link to manual as new URL does not give a last-modified header, see https://github.com/simra-project/simra-android/issues/23
+    - 2022-05-15 Sentry is opt-in and self hosted
+
+AllowedAPKSigningKeys: 7d5b30d198215f64cab391a0d79a10c6d43777fe6d1e728f28f28ebef9357abc
+
+ArchivePolicy: 2

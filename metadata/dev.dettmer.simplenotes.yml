@@ -1,0 +1,25 @@
+Categories:
+  - Writing
+License: MIT
+AuthorName: Inventory69
+AuthorWebSite: https://dettmer.dev/
+SourceCode: https://github.com/inventory69/simple-notes-sync
+IssueTracker: https://github.com/inventory69/simple-notes-sync/issues
+Changelog: https://github.com/inventory69/simple-notes-sync/releases
+
+AutoName: Simple Notes
+
+MaintainerNotes:
+  AppAdded: 2025-12-26
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid/i
+  Fastlane: https://github.com/inventory69/simple-notes-sync/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed to connect to e.g. local DAV servers which have no SSL
+
+AllowedAPKSigningKeys: 42a1c613bbc673045af3dc8191bf9cb6456ee44c7dce40c7cfb566facb69f16a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

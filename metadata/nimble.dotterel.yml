@@ -1,0 +1,35 @@
+Categories:
+  - System
+License: GPL-2.0-only
+AuthorName: nimble0
+SourceCode: https://github.com/nimble0/dotterel
+IssueTracker: https://github.com/nimble0/dotterel/issues
+Changelog: https://github.com/nimble0/dotterel/releases
+
+AutoName: Dotterel
+
+MaintainerNotes:
+  AppAdded: 2020-05-22
+  Method: github-release
+  GHSkipPre: 0
+  Fastlane: https://github.com/nimble0/dotterel/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD
+  IntentFilterIgnore:
+    android.view.InputMethod: Dotterel is providing an input method, that is its purpose.
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to access the users’ JSON dictionaries
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to access the users’ JSON dictionaries
+    android.permission.SYSTEM_ALERT_WINDOW: This is used to create overlay dialogs for adding entries to dictionaries or looking up entries in dictionaries.
+  NameSpaces:
+    - /nimble/collections
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last pre-release was 5/2020)
+    - 2023-08-17 last pre-release 5/2022 (still no release yet), last commit 8/2022
+    - 2024-01-10 uses expired debug certificate (see https://gitlab.com/IzzyOnDroid/repo/-/issues/477), opened https://github.com/nimble0/dotterel/issues/33 to get it replaced
+    - 2024-01-20 debug key was replaced with a proper release key (AllowedAPKSigningKeys updated here), but the APK still has some intent-filters, a SigningBlock blob and a few permissions to be clarified (added to the existing issue)
+    - 2025-10-06 upstreamed metadata via https://github.com/nimble0/dotterel/pull/40 – last pre-release 12/2024 (still no stable release)
+
+AllowedAPKSigningKeys: a1b17d0af0dc87596596d3f956a910c337a70507a79f754dca64e782a5b4e18d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

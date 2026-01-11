@@ -1,0 +1,36 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Theron Spiegl
+AuthorEmail: theron@spiegl.dev
+AuthorWebSite: https://flyingcarpet.spiegl.dev/
+SourceCode: https://github.com/spieglt/FlyingCarpet
+IssueTracker: https://github.com/spieglt/FlyingCarpet/issues
+Changelog: https://github.com/spieglt/FlyingCarpet/releases
+
+AutoName: Flying Carpet File Transfer
+
+MaintainerNotes:
+  AppAdded: 2024-01-22
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/spieglt/FlyingCarpet/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/spieglt/FlyingCarpet/issues/65#issuecomment-2028896670
+  PermIgnore:
+    android.permission.NEARBY_WIFI_DEVICES: needed to detect nearby devices to share files with
+    android.permission.BLUETOOTH_SCAN: used for transfer negotiation
+    android.permission.ACCESS_FINE_LOCATION: required by Bluetooth and NearBy
+    android.permission.ACCESS_COARSE_LOCATION: required by Bluetooth and NearBy
+    android.permission.CAMERA: needed by the integrated QR Code scanner
+  Status:
+    - 2024-01-22 has multiple APKs attached, seemingly a different number and sometimes with different versions. Currently, tag v8.0.1 has APKs for v8.0.0; hence UCM=Static
+    - 2024-01-22 requests ACCESS_FINE_LOCATION & ACCESS_COARSE_LOCATION and has DEPENDENCY_INFO_BLOCK,asked for clarification at https://github.com/spieglt/FlyingCarpet/issues/65
+    - 2024-01-23 AppRemoved as source code of the app is not public, see https://github.com/spieglt/FlyingCarpet/issues/65#issuecomment-1905152043
+    - 2024-02-09 source code now made public, reestablishing the app
+
+AllowedAPKSigningKeys: b6b7891c141f0c3c28e757d8dcfe5f18921b6fdb7e710f8e9d6ee4bcfc211405
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

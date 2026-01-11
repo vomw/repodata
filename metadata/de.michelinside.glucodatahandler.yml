@@ -1,0 +1,40 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes libraries of WearOS and Google Mobile Services.
+    de: Die App enthält Bibliotheken von WearOS und Google Mobile Services.
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: pachi81
+SourceCode: https://github.com/pachi81/GlucoDataHandler
+IssueTracker: https://github.com/pachi81/GlucoDataHandler/issues
+Changelog: https://github.com/pachi81/GlucoDataHandler/releases
+
+AutoName: GlucoDataHandler
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-10-26
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /(wear|second)/i
+  Fastlane: https://github.com/pachi81/GlucoDataHandler/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: used to access local http webserver provided by other apps to receive data from
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: optionally used to display glucose values directly on Always On Display (AOD) screen
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed for the floating widget
+  LibIgnore:
+    - /net/dinglisch/android/tasker
+    - /com/joaomgcd/taskerpluginlibrary
+  Status:
+    - 2023-10-26 LibIgnoring Tasker as it is not "promoted" (can be used, is not hidden, but not pushed upon the nose either)
+    - 2024-02-21 scanner reports usesCleartextTraffic DEPENDENCY_INFO_BLOCK android.permission.SYSTEM_ALERT_WINDOW
+    - 2025-05-13 android.accessibilityservice.AccessibilityService – https://github.com/pachi81/GlucoDataHandler/issues/217
+
+AllowedAPKSigningKeys: 6bd63106cc91cf62bf0b164a28e5db23a8055e87d9dbdd50b2dc760bb37b3371
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

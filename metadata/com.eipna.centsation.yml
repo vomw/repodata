@@ -1,0 +1,21 @@
+Categories:
+  - Money
+License: GPL-3.0-only
+AuthorName: Vrixzandro Eliponga
+SourceCode: https://github.com/mowtiie/Centsation
+IssueTracker: https://github.com/mowtiie/Centsation/issues
+Changelog: https://github.com/mowtiie/Centsation/releases
+
+AutoName: Centsation
+
+MaintainerNotes:
+  AppAdded: 2025-06-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/mowtiie/Centsation/tree/master/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 561f3fec72e1f9878c2749d079f8b2175d02131c842955714e63365da5301baa
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,24 @@
+Categories:
+  - Internet
+License: EUPL-1.2
+AuthorName: Öppenlab
+SourceCode: https://codeberg.org/oppenlab/Phaedra
+IssueTracker: https://codeberg.org/oppenlab/Phaedra/issues
+
+AutoName: Phaedra
+
+MaintainerNotes:
+  AppAdded: 2021-01-17
+  Method: codeberg-release
+  GHSkipPre: 1
+  Status:
+    - 2022-05-01 no commits since 3/2021, switching UCM from Tags to Static
+    - 2023-08-08 last release 1/2021, last commit 3/2021
+    - 2025-02-18 author was last active 4 years ago. Disabling updates entirely now.
+    - 2025-11-09 removing author and project website links, as [website](https://oppen.digital/) now shows Casino stuff, and [AuthorWebsite](https://oppenlab.net/) is gone (DNS fail)
+    - 2025-11-28 as it was [reported still working](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/14), we keep it for now
+
+AllowedAPKSigningKeys: b1eb49c60cc4bcbc77f647ee49c55ac12a7127b8878552949dbb4571bc3c67ef
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

@@ -1,0 +1,33 @@
+Categories:
+  - Graphics
+License: AGPL-3.0-only
+AuthorName: Loowiz
+AuthorEmail: loowiz@envs.net
+AuthorWebSite: https://loowiz.envs.net/
+SourceCode: https://codeberg.org/Loowiz/PhotoSwooper
+IssueTracker: https://codeberg.org/Loowiz/PhotoSwooper/issues
+Changelog: https://codeberg.org/Loowiz/PhotoSwooper/releases
+
+AutoName: PhotoSwooper
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-03-26
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/Loowiz/PhotoSwooper/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.READ_MEDIA_VIDEO: to access videos on Android 12+
+    android.permission.READ_MEDIA_IMAGES: to access photos on Android 12+
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted via WRITE_EXTERNAL_STORAGE
+    android.permission.WRITE_EXTERNAL_STORAGE: to delete selected photos
+    android.permission.ACCESS_MEDIA_LOCATION: to show location details of photos in the info drawer
+  Status:
+    - 2025-10-03 scanner reports ACCESS_MEDIA_LOCATION – https://codeberg.org/Loowiz/PhotoSwooper/issues/58
+  X-AutoUpdateMode: Version v%v
+
+AllowedAPKSigningKeys: fa90940dd5a6b6c5f729efd02ffca1da2413f4b30063f8cfd509b446305314b4
+
+UpdateCheckMode: Tags

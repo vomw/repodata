@@ -1,0 +1,45 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Felix Nüsse
+AuthorEmail: felix.nuesse@t-online.de
+AuthorWebSite: http://felixnuesse.de/
+WebSite: https://roundsync.com/
+SourceCode: https://github.com/newhinton/Round-Sync
+IssueTracker: https://github.com/newhinton/Round-Sync/issues
+Changelog: https://github.com/newhinton/Round-Sync/releases
+
+AutoName: Round Sync
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-11-30
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /oss-armeabi-v7a/i
+  Fastlane: https://github.com/newhinton/Round-Sync/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic
+  FastlaneIgnore: screenshots
+  Note: screenshots are heavily framed
+  DoubleList: keep
+  LibIgnore:
+    - /com/sharkaboi/appupdatechecker
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to access files to sync
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to access files to sync
+    android.permission.READ_EXTERNAL_STORAGE: needed to access files to sync
+    android.permission.REQUEST_INSTALL_PACKAGES: needed by the integrated updater, which is disabled by default
+  NameSpaces:
+    - /ca/pkay/rcloneexplorer
+    - /de/felixnuesse/ui
+    - /io/github/x0b/safdav
+  Status:
+    - 2024-04-25 scanner reports DEPENDENCY_INFO_BLOCK android.permission.REQUEST_INSTALL_PACKAGES; removed the update, UCM Tags=>Static until fixed – https://github.com/newhinton/Round-Sync/issues/248
+    - 2024-04-26 author acted quickly and provided an adjusted update, so UCM Static=>Tags
+    - 2024-04-26 update added PlayCore & GMS (probably dragged in by a dependency)
+    - 2024-04-28 new release has PlayStore & GMS libs removed. Adding /com/sharkaboi/appupdatechecker to LibIgnore as it is opt-in.
+
+AllowedAPKSigningKeys: 1f1ee83b8c1174a61d0d18f09ff1215d59e5e63e0b01a4da695b8eb52d16bfe9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,29 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: gdzx
+AuthorWebSite: https://git.dzx.fr/
+SourceCode: https://github.com/gdzx/audiosource
+IssueTracker: https://github.com/gdzx/audiosource/issues
+
+AutoName: Audio Source
+
+MaintainerNotes:
+  AppAdded: 2022-03-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/gdzx/audiosource/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane icon & screenshots are symlinks
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed to access the microphone in order to forward its input
+  DoubleList: keep
+  Status:
+    - 2022-12-11 Tags=>Static (last release 2/2021, last commit 7/2022)
+    - 2024-10-14 development and releases picked up again, so Static=>Tags
+    - 2025-07-20 upstreamed fulldesc via https://github.com/gdzx/audiosource/pull/25
+
+AllowedAPKSigningKeys: 02f25f26fd68c6bbbc79e484a8b7b218b919bb37dd0f18a18a5d7a26ccf33d45
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

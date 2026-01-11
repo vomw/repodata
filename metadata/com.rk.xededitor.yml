@@ -1,0 +1,70 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: Rohit Kushvaha
+SourceCode: https://github.com/Xed-Editor/Xed-Editor
+IssueTracker: https://github.com/Xed-Editor/Xed-Editor/issues
+
+AutoName: Xed Editor
+
+MaintainerNotes:
+  AppAdded: 2024-03-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /xed-editor/i
+  Fastlane: https://github.com/Xed-Editor/Xed-Editor/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: Fastlane is our starter package
+  DoubleList: keep
+  NameSpaces:
+    - /com/rk/activities
+    - /com/rk/application
+    - /com/rk/animations
+    - /com/rk/commands
+    - /com/rk/components
+    - /com/rk/compose/filetree
+    - /com/rk/controlpanel
+    - /com/rk/crashhandler
+    - /com/rk/editor
+    - /com/rk/exec
+    - /com/rk/externaleditor
+    - /com/rk/extension
+    - /com/rk/file
+    - /com/rk/filetree
+    - /com/rk/file_wrapper
+    - /com/rk/icons
+    - /com/rk/karbon_exec
+    - /com/rk/libcommons
+    - /com/rk/libPlugin
+    - /com/rk/librunner
+    - /com/rk/lsp
+    - /com/rk/mutator_engine
+    - /com/rk/mutation
+    - /com/rk/pluginApi
+    - /com/rk/resources
+    - /com/rk/runner
+    - /com/rk/scriptingengine
+    - /com/rk/settings
+    - /com/rk/tabs
+    - /com/rk/terminal
+    - /com/rk/theme
+    - /com/rk/utils
+    - /com/rk/xedplugin
+    - /org/robok/engine
+  FlagIgnore:
+    usesCleartextTraffic: for the local (on-device) HTTP server to handle HTML or Markdown previews
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: to access files for edit anywhere on local storage
+    android.permission.READ_EXTERNAL_STORAGE: to access files for edit anywhere on local storage
+  Status:
+    - 2024-06-22 scanner reports android.permission.QUERY_ALL_PACKAGES – https://github.com/RohitKushvaha01/Xed-Editor/issues/18
+    - 2024-07-23 MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE (added to above issue) => moved away from SAF for performance reasons
+    - 2024-08-11 QUERY_ALL_PACKAGES dropped, was needed to find installed plugins
+    - 2024-10-07 scanner reports usesCleartextTraffic – https://github.com/RohitKushvaha01/Xed-Editor/issues/181
+    - 2026-01-01 android.permission.READ_PHONE_STATE – https://github.com/Xed-Editor/Xed-Editor/issues/1073
+
+AllowedAPKSigningKeys: 8ad6b593b0772c96f9d05e923b610f16aed2792c664f0cd91f0dfd627098346f
+
+ArchivePolicy: 2
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

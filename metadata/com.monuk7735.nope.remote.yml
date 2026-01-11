@@ -1,0 +1,23 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Monu Kumar
+AuthorEmail: monuk7735@gmail.com
+AuthorWebSite: https://monuk7735.com/
+SourceCode: https://github.com/monuk7735/nope-remote
+IssueTracker: https://github.com/monuk7735/nope-remote/issues
+Changelog: https://github.com/monuk7735/nope-remote/releases
+
+AutoName: Nope Remote
+
+MaintainerNotes:
+  AppAdded: 2025-12-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/monuk7735/nope-remote/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 1099818177f54a4901b9c44884ecc0dcd135e631a7cdea0094e8059f1b0d016e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

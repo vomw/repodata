@@ -1,0 +1,21 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: gardockt
+SourceCode: https://codeberg.org/gardockt/termux-terminal-widget
+IssueTracker: https://codeberg.org/gardockt/termux-terminal-widget/issues
+
+AutoName: Termux Terminal Widget
+
+MaintainerNotes:
+  AppAdded: 2023-12-28
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/gardockt/termux-terminal-widget/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: 428752dbfcc03a6bfc9ee8cc78256fbd13be1265f5d37b62438668536fac6803
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

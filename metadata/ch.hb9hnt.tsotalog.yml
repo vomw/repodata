@@ -1,0 +1,26 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: hb9hnt
+SourceCode: https://codeberg.org/hb9hnt/tSotaLog
+IssueTracker: https://codeberg.org/hb9hnt/tSotaLog/issues
+Changelog: https://codeberg.org/hb9hnt/tSotaLog/releases
+
+AutoName: tSotaLog
+
+MaintainerNotes:
+  AppAdded: 2022-03-20
+  Method: codeberg-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/android/plugins
+  Fastlane: https://codeberg.org/hb9hnt/tSotaLog/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,screenshotsJPG
+  Status:
+    - 2022-12-14 asked to fix versionCode https://codeberg.org/hb9hnt/tSotaLog/issues/11#issuecomment-726429
+    - 2024-12-10 last release/commit 11/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 8104531932f8f053209b4e3f2a2d5b413e62d71df9c29a7df8a700210784a68b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

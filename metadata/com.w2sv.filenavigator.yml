@@ -1,0 +1,32 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Janek Zangenberg
+AuthorEmail: zangenbergjanek@googlemail.com
+SourceCode: https://github.com/w2sv/FileNavigator
+IssueTracker: https://github.com/w2sv/FileNavigator/issues
+Changelog: https://github.com/w2sv/FileNavigator/releases
+Donate: https://www.buymeacoffee.com/w2sv
+
+AutoName: File Navigator
+
+MaintainerNotes:
+  AppAdded: 2024-02-27
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed on newer Android versions for file management
+  NameSpaces:
+    - /com/w2sv/database
+    - /com/w2sv/datastorage/database
+    - /com/w2sv/navigator
+  DoubleList: keep
+  Note: uses Triple-T
+  Status:
+    - 2025-07-14 versionCode was not increased with v0.3.1.1 https://github.com/w2sv/FileNavigator/issues/32#issuecomment-3009312292 no reply from dev for 3 weeks, so UCM Tags=>Static now
+    - 2025-11-21 sent another ping as nothing changed (also no new commits)
+
+AllowedAPKSigningKeys: e22bed7909bce21fa5bc900a8c056eaa0773761f70774d1d808bbbafb3aa1958
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

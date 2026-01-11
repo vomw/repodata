@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Lennoard Silva
+AuthorEmail: lennoardrai@gmail.com
+SourceCode: https://github.com/Lennoard/DDGUI
+IssueTracker: https://github.com/Lennoard/DDGUI/issues
+Changelog: https://github.com/Lennoard/DDGUI/releases
+
+AutoName: DD GUI
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2020-05-23
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 5/2020)
+    - 2023-08-06 last commit 6/2020, so most likely dead
+    - 2025-12-04 still working fine on Android 10
+    - 2026-01-09 still no new commits, disabling updates altogether.
+
+AllowedAPKSigningKeys: c38f5d4a1f10a2d9dd1ac4a2a9f8e90b92c37811aff37548e2454a9b670f9fdf
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

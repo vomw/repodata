@@ -1,0 +1,22 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Bandeapart1964
+SourceCode: https://github.com/catpuppyapp/SshKeyMan
+IssueTracker: https://github.com/catpuppyapp/SshKeyMan/issues
+Changelog: https://github.com/catpuppyapp/SshKeyMan/releases
+Donate: https://github.com/catpuppyapp/PuppyGit/blob/main/donate.md
+
+AutoName: SshKeyMan
+
+MaintainerNotes:
+  AppAdded: 2024-11-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/catpuppyapp/SshKeyMan/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 48a23ec089cbf1a50a42789dd0cc44e11399b3c13b506c09551bcebf00bedbe9
+
+AutoUpdateMode: Version .*v%c
+UpdateCheckMode: Tags

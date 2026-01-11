@@ -1,0 +1,23 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: spheras
+AuthorEmail: spherasdev@gmail.com
+WebSite: https://spheras.github.io/backingtrainer/
+SourceCode: https://github.com/spheras/backingtrainer
+IssueTracker: https://github.com/spheras/backingtrainer/issues
+Changelog: https://github.com/spheras/backingtrainer/releases
+
+Name: Backing Trainer
+
+MaintainerNotes:
+  AppAdded: 2017-11-05
+  Method: github-release
+  Status:
+    - 2020-09-19 app was not updated for 2y 0m 5d; switching UCM from Tags to Static
+    - 2023-08-07 last release 9/2018, last commit 9/2018, author last active in 2020 – this is dead, switching off (from Static)
+    - 2025-11-13 [reported still working](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/14)
+
+AllowedAPKSigningKeys: ac36cfe87f17b40ad5602128a5bfe007383d1fca36fa1fa52169d0e65f69ddaa
+
+UpdateCheckMode: None

@@ -1,0 +1,37 @@
+Categories:
+  - System
+  - Internet
+License: GPL-3.0-only
+AuthorName: puutaro
+SourceCode: https://github.com/puutaro/CommandClick
+IssueTracker: https://github.com/puutaro/CommandClick/issues
+Changelog: https://github.com/puutaro/CommandClick/releases
+
+AutoName: CommandClick
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-03-18
+  Method: github-release
+  GHSkipPre: 1
+  FlagIgnore:
+    usesCleartextTraffic: as a web browser, the app needs also to access plain http sites
+  NameSpaces:
+    - /ignore_this_as_not_found
+    - /afu/plume
+  Fastlane: https://github.com/puutaro/CommandClick/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.CAMERA: needed by the integrated QR code scanner
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed for file system operations e.g. from the integrated terminal
+    android.permission.READ_EXTERNAL_STORAGE: needed for file system operations e.g. from the integrated terminal
+    android.permission.WRITE_EXTERNAL_STORAGE: needed for file system operations e.g. from the integrated terminal
+    android.permission.ACCESS_FINE_LOCATION: needed to change certain settings (e.g. WiFi) via QR-Code scans
+    android.permission.ACCESS_COARSE_LOCATION: needed to change certain settings (e.g. WiFi) via QR-Code scans
+  Status:
+    - 2024-02-22 scanner reports ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE android.permission.QUERY_ALL_PACKAGES CAMERA DEPENDENCY_INFO_BLOCK – https://github.com/puutaro/CommandClick/issues/10
+
+AllowedAPKSigningKeys: 4e88f8c3bb8d6b1f3089971f26abb41338fe74b8d1d038c076d3639c1f202ca6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,29 @@
+Categories:
+  - Messaging
+License: MIT
+AuthorName: cuadratico
+AuthorEmail: cu6dr6t1c0@gmail.com
+SourceCode: https://github.com/cuadratico/NowiChat
+IssueTracker: https://github.com/cuadratico/NowiChat/issues
+
+AutoName: NowiChat
+
+MaintainerNotes:
+  AppAdded: 2025-03-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/cuadratico/NowiChat/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,screenshots
+  PermIgnore:
+    android.permission.BLUETOOTH_SCAN: needed to scan for other Bluetooth devices
+    android.permission.ACCESS_COARSE_LOCATION: required by Bluetooth
+    android.permission.ACCESS_FINE_LOCATION: required by Bluetooth
+  Status:
+    - 2025-06-02 signing key changed without a reason given, see https://github.com/cuadratico/NowiChat/issues/2 (UCM Tags=>Static until resolved)
+    - 2025-10-01 still no response, so disabling update check. Foundd the author’s email in their security.md, added it here, and sent a mail to it
+    - 2025-10-20 no more updates; app will be superseded by a successor, see https://github.com/cuadratico/NowiChat/issues/2#issuecomment-3415920461
+
+AllowedAPKSigningKeys: 63a1ba98ff8b3e2de0eea17509b8fab29aa4078e661caed951be106df9254117
+
+AutoUpdateMode: Version V%v
+UpdateCheckMode: None

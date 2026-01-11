@@ -1,0 +1,28 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: CodeDead
+AuthorEmail: admin@codedead.com
+AuthorWebSite: https://codedead.com/
+SourceCode: https://github.com/CodeDead/Advanced-PortChecker-android
+IssueTracker: https://github.com/CodeDead/Advanced-PortChecker-android/issues
+Changelog: https://github.com/CodeDead/Advanced-PortChecker-android/releases
+
+AutoName: Advanced PortChecker
+
+MaintainerNotes:
+  AppAdded: 2023-12-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CodeDead/Advanced-PortChecker-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  Status:
+    - 2024-12-10 last release/commit 12/2023; UCM Tags=>Static
+    - 2025-03-17 development picked up again, with 3 releases this month already; UCM Static=>Tags again
+    - 2025-07-19 upstreamed fastlane DE locale via https://github.com/CodeDead/Advanced-PortChecker-android/pull/11
+
+AllowedAPKSigningKeys: d7b62e971fce13678e83ae548337427a2b8a77968534506ff023bac3d73b2db0
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

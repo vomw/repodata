@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeAssets:
+    en-US: Meditation material is just free-to-use inside this app.
+    de: Das in der App verwendete Meditationsmaterial ist lediglich frei zur Nutzung.
+  NonFreeNet:
+    en-US: Meditation material is downloaded from Github.
+    de: Das Mediationsmaterial wird zur Laufzeit von Github geladen.
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Binary Solutions
+AuthorEmail: support+meditation@binarysolutions.biz
+AuthorWebSite: https://binarysolutions.biz
+SourceCode: https://github.com/vbresan/MindfulnessMeditation
+IssueTracker: https://github.com/vbresan/MindfulnessMeditation/issues
+Changelog: https://github.com/vbresan/MindfulnessMeditation/releases
+
+AutoName: Mindfulness Meditation
+
+MaintainerNotes:
+  AppAdded: 2023-07-28
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid/i
+  Fastlane: https://github.com/vbresan/MindfulnessMeditation/tree/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://github.com/vbresan/MindfulnessMeditation/issues/1
+  Status:
+    - 2025-06-27 last commit/release 2024-04-20 (later commits only documentation); UCM Tags=>Static
+
+AllowedAPKSigningKeys: b5e4495b1fb323aa5ad6b75d463ad49044e325c01962114962001948c78af07f
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Static

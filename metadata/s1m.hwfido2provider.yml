@@ -1,0 +1,27 @@
+Categories:
+  - Security
+License: Apache-2.0
+AuthorName: s1m
+SourceCode: https://codeberg.org/s1m/hw-fido2-provider
+IssueTracker: https://codeberg.org/s1m/hw-fido2-provider/issues
+Changelog: https://codeberg.org/s1m/hw-fido2-provider/releases
+Liberapay: S1m
+
+AutoName: HW Fido2 Provider
+
+MaintainerNotes:
+  AppAdded: 2025-05-07
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/s1m/hw-fido2-provider/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: GMS is microG here
+  LibIgnore:
+    - /com/google/android/gms/fido
+    - /com/google/android/gms/safetynet
+    - /com/google/android/gms
+
+AllowedAPKSigningKeys: 94bd36ba4648d38697cdfcf3385b6c0088ff3d551ce9fc16050ee080b9553ec5
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

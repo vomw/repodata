@@ -1,0 +1,34 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app uses ACRA with handleSilentException (silently sending reports).
+    de: Die App verwendet ACRA mit automatischen Reports.
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Uriah Shaul Mandel
+AuthorEmail: baldphone.contact@gmail.com
+WebSite: https://baldphone.com/
+SourceCode: https://github.com/UriahShaulMandel/BaldPhone
+IssueTracker: https://github.com/UriahShaulMandel/BaldPhone/issues
+
+AutoName: BaldPhone
+
+MaintainerNotes:
+  AppAdded: 2019-04-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/UriahShaulMandel/BaldPhone/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,video,shortdesc,fulldescNL,changelogs,icon
+  FastlaneIgnore: fulldesc,screenshots
+  Note: Fastlane only en-US; fulldesc not well-formated (mixed HTML/plain, missing LFs for Markdown); screenshots named by topics
+  DoubleList: keep
+  DoubleListRef: https://github.com/UriahShaulMandel/BaldPhone/issues/38
+  Status:
+    - 2022-07-28 had to add Tracking as Baldphone uses ACRAs handleSilentException https://github.com/UriahShaulMandel/BaldPhone/issues/935#issuecomment-1198572941
+    - 2022-11-07 Playstore has v14 but Github still only v13, asked for new version at https://github.com/UriahShaulMandel/BaldPhone/issues/1062#issuecomment-1305989618
+    - 2022-12-11 Tags=>Static as Uriah seems AWOL (no responses)
+
+AllowedAPKSigningKeys: b96ed9a119313dab6b810c1f8b0adf09e4e454f966248e5dabd26e20b1514cab
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Static

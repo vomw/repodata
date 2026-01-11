@@ -1,0 +1,29 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: sweakpl
+SourceCode: https://github.com/sweakpl/qralarm-android
+IssueTracker: https://github.com/sweakpl/qralarm-android/issues
+
+AutoName: QRAlarm
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-03-27
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  DoubleListRef: https://github.com/sweakpl/qralarm-android/issues/3#issuecomment-1304791741
+  Fastlane: https://github.com/sweakpl/qralarm-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.CAMERA: needed for the QR Code scanner
+  Status:
+    - 2022-10-27 reached F-Droid at 2022-10-27, author keeps both links in the readme. Asked for keep-or-remove at https://github.com/sweakpl/qralarm-android/issues/3#issuecomment-1304791741
+    - 2024-03-30 scanner reports android.permission.READ_EXTERNAL_STORAGE* DEPENDENCY_INFO_BLOCK – https://github.com/sweakpl/qralarm-android/issues/40
+    - 2025-04-13 3 AFs as ML Kit was added, see https://github.com/sweakpl/qralarm-android/issues/70
+
+AllowedAPKSigningKeys: 9d8890e1971601d1e4e5a1c00ff1e3a1543810d28e1c5be4d2b5c08964b18157
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

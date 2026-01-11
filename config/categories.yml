@@ -1,0 +1,75 @@
+Automation:
+  name: Automation
+  icon: category_automation.png
+Connectivity:
+  name: Connectivity
+  icon: category_connectivity.png
+Development:
+  name: Development
+  icon: category_development.png
+Food:
+  name: Food
+  icon: category_food.png
+Games:
+  name: Games
+  icon: category_games.png
+Graphics:
+  name: Graphics
+  icon: category_graphics.png
+Internet:
+  name: Internet
+  icon: category_internet.png
+Messaging:
+  name: Messaging
+  icon: category_messaging.png
+Money:
+  name: Money
+  icon: category_money.png
+Multimedia:
+  name: Multimedia
+  icon: category_multimedia.png
+Navigation:
+  name: Navigation
+  icon: category_navigation.png
+Office:
+  name: Office
+  icon: category_office.png
+Phone & SMS:
+  name: Phone & SMS
+  icon: category_phone_sms.png
+Reading:
+  name: Reading
+  icon: category_reading.png
+Religion:
+  name: Religion
+  icon: category_religion.png
+Science & Education:
+  name: Science & Education
+  icon: category_science_education.png
+Security:
+  name: Security
+  icon: category_security.png
+Social Network:
+  name: Social Network
+  icon: category_social_network.png
+Sports & Health:
+  name: Sports & Health
+  icon: category_sport_health.png
+System:
+  name: System
+  icon: category_system.png
+Theming:
+  name: Theming
+  icon: category_theming.png
+Time:
+  name: Time
+  icon: category_time.png
+Weather:
+  name: Weather
+  icon: category_weather.png
+Writing:
+  name: Writing
+  icon: category_writing.png
+Xposed:
+  name: Xposed
+  icon: category_xposed.png

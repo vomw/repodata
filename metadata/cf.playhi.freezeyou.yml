@@ -1,0 +1,29 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Playhi
+AuthorEmail: contact@zidon.net
+AuthorWebSite: https://zidon.net/
+WebSite: https://www.freezeyou.net/
+SourceCode: https://github.com/FreezeYou/FreezeYou
+IssueTracker: https://github.com/FreezeYou/FreezeYou
+Translation: https://crwd.in/freezeyou
+
+AutoName: FreezeYou!
+
+MaintainerNotes:
+  AppAdded: 2020-07-06
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/10507#note_833301514
+  Fastlane: https://github.com/FreezeYou/FreezeYou/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,screenshotsJPG
+  Status:
+    - 2022-02-07 author wants to keep the app here, see https://gitlab.com/fdroid/fdroiddata/-/merge_requests/10507#note_833301514
+    - 2023-07-13 UCM Tags => Static (last release 5/2022, last commit 3/2023)
+
+AllowedAPKSigningKeys: 1d73524c80d310248ce0d21225b8eb7b334e43ccd829daacd6a47c5929f1fb67
+
+AutoUpdateMode: Version V.+\(%c\)
+UpdateCheckMode: Static

@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Gigabyte Developers Incorporated
+AuthorEmail: support@gigabytedevelopersinc.com
+AuthorWebSite: https://gigabytedevelopersinc.com/
+SourceCode: https://github.com/gigabytedevelopers/FireFiles
+IssueTracker: https://github.com/gigabytedevelopers/FireFiles/issues
+Changelog: https://github.com/gigabytedevelopers/FireFiles/releases
+
+Name: FireFiles
+
+MaintainerNotes:
+  AppAdded: 2018-01-07
+  Method: github-release
+  ApkMatch: /fdroid/i
+  Status:
+    - 2020-09-19 app was not updated for 2y 7m 5d; switching UCM from Tags to Static
+    - 2023-08-07 last release 2/2018, last commit 5/2018 – this is dead, disabling updates entirely (from Static)
+
+AllowedAPKSigningKeys: 10c18de42c5d807095171a480b8064999ce64efdeef8d81fa41942dad9d7687f
+
+UpdateCheckMode: None

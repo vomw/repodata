@@ -1,0 +1,29 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on GetBible.net (proprietary).
+    de: Die App benötigt zwingend GetBible.net (proprietär).
+Categories:
+  - Religion
+  - Reading
+License: Apache-2.0
+AuthorName: SchweGELBin
+AuthorEmail: schwegelbin@gmail.com
+AuthorWebSite: https://schwegelbin.github.io/
+SourceCode: https://github.com/SchweGELBin/OpenBible2
+IssueTracker: https://github.com/SchweGELBin/OpenBible2/issues
+Changelog: https://github.com/SchweGELBin/OpenBible2/releases
+
+AutoName: OpenBible
+
+MaintainerNotes:
+  AppAdded: 2024-11-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SchweGELBin/OpenBible2/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: cbf40802880b94df64c0467d8fbba69572bf4b5fd75e28e9c0c77992f4237931
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

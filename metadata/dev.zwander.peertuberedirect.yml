@@ -1,0 +1,40 @@
+Categories:
+  - Social Network
+  - Multimedia
+  - Internet
+License: MIT
+AuthorName: Zachary Wander
+AuthorEmail: zachary.wander@gmail.com
+AuthorWebSite: https://zwander.dev/
+SourceCode: https://github.com/zacharee/MastodonRedirect
+IssueTracker: https://github.com/zacharee/MastodonRedirect/issues
+Changelog: https://github.com/zacharee/MastodonRedirect/releases
+Donate: https://patreon.com/zacharywander
+
+AutoName: PeerTube Redirect
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-01-06
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /peertube/i
+  ApkIgnore: /(lemmy|mastodon)/i
+  Fastlane: https://github.com/zacharee/MastodonRedirect/tree/main/peertuberedirect/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: some domains were found having issues without this, though the real transfer then goes via HTTPS.
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: The app needs this for discovering supported Mastodon clients.
+  NameSpaces:
+    - /dev/zwander/shared
+  LibIgnore:
+    - /com/bugsnag
+  Status:
+    - 2025-08-20 upstreaming our fastlane metadata via https://github.com/zacharee/MastodonRedirect/pull/43
+
+AllowedAPKSigningKeys: 755c46bd7ce69565d98004c5b1383df9bd5b4f270de80f3992fb42d822113d0b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

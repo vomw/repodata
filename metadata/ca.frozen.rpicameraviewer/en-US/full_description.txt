@@ -1,0 +1,2 @@
+<p><b>Note:</b> this app seems to be no longer maintained.</p>
+<p><i>RPi Camera Viewer</i> plays a raw H.264 video stream from a Raspberry Pi camera.</p><p>In a nutshell, when you start the program it scans the local network for cameras and shows you the resulting list. Tapping on one of the camera names displays the video from that camera.</p>

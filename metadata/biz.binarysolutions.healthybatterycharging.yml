@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Binary Solutions
+AuthorEmail: support+hbc@binarysolutions.biz
+AuthorWebSite: https://binarysolutions.biz/
+SourceCode: https://github.com/vbresan/HealthyBatteryCharging
+IssueTracker: https://github.com/vbresan/HealthyBatteryCharging/issues
+
+AutoName: Healthy Battery Charging
+
+MaintainerNotes:
+  AppAdded: 2024-05-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/vbresan/HealthyBatteryCharging/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+
+AllowedAPKSigningKeys: eaf45266864c7fdb07eb33bb8c4a1c87259f7ee28f7d3089100336ad265293c6
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Tags

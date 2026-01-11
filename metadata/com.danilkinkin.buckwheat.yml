@@ -1,0 +1,32 @@
+Categories:
+  - Money
+License: GPL-3.0-only
+AuthorName: Danil Зakhvatkin
+AuthorEmail: hello@danilkinkin.com
+AuthorWebSite: https://danilkinkin.com/
+SourceCode: https://github.com/danilkinkin/buckwheat
+IssueTracker: https://github.com/danilkinkin/buckwheat/issues
+Translation: https://translate.buckwheat.app/
+Changelog: https://github.com/danilkinkin/buckwheat/releases
+
+AutoName: 'Buckwheat: Budget manager'
+
+MaintainerNotes:
+  AppAdded: 2022-11-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/danilkinkin/buckwheat/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  Note: keep as long as size stays below 11 MB (2024-03-13 = 3.5 MB); is RB
+  Status:
+    - 2022-11-20 applied the Tracking AF as we got no answer yet concerning Sentry, see https://github.com/danilkinkin/buckwheat/issues/9#issuecomment-1320923788
+    - 2022-11-20 uses end-point at sentry.io, see https://github.com/danilkinkin/buckwheat/blob/b759f37ed04a9e9da0b13241de602a4253e0bd29/sentry.properties
+    - 2022-11-20 sentry performance monitoring is enabled, see https://github.com/danilkinkin/buckwheat/blob/b759f37ed04a9e9da0b13241de602a4253e0bd29/app/src/main/AndroidManifest.xml#L23 (https://docs.sentry.io/platforms/android/performance/instrumentation/automatic-instrumentation/)
+    - 2023-04-09 Sentry was removed with v2.0.0
+    - 2025-06-27 last commit/release 2024-06-22; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 2a9f9a8908770aa0e82b161473cb8f419443447d1e8268e6f6a82f889d7a788f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

@@ -1,0 +1,23 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Shi Yunjin
+AuthorWebSite: https://blog.shiyunjin.com/
+SourceCode: https://github.com/shiyunjin/EasyControlNext
+IssueTracker: https://github.com/shiyunjin/EasyControlNext/issues
+
+AutoName: EasyControlNext
+
+MaintainerNotes:
+  AppAdded: 2025-10-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/shiyunjin/EasyControlNext/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: used for floating window small window display
+
+AllowedAPKSigningKeys: 5846aa6b665b5f0d52d253ce144332894eb7f5205b49c80fffb700d0b0f7482d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

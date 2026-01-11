@@ -1,0 +1,29 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: eddyizm
+AuthorWebSite: https://eddyizm.com/
+WebSite: https://eddyizm.github.io/tempus/
+SourceCode: https://github.com/eddyizm/tempus
+IssueTracker: https://github.com/eddyizm/tempus/issues
+Changelog: https://github.com/eddyizm/tempus/releases
+
+AutoName: Tempus
+
+MaintainerNotes:
+  AppAdded: 2025-10-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /degoogled-arm64/i
+  Fastlane: https://github.com/eddyizm/tempus/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: Fediverse contact https://fosstodon.org/@eddyizm
+  NameSpaces:
+    - /com/cappielloantonio/tempo
+  FlagIgnore:
+    usesCleartextTraffic: for connecting to media servers in the local network
+
+AllowedAPKSigningKeys: b78501b934d04e0aca8d94afd6726a4d1dce65797f1d41710f643c2900eb1d1d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

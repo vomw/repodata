@@ -1,0 +1,21 @@
+Categories:
+  - Graphics
+License: AGPL-3.0-only
+AuthorName: Kerry Shen
+SourceCode: https://github.com/shezik/DrawAnywhere
+IssueTracker: https://github.com/shezik/DrawAnywhere/issues
+Changelog: https://github.com/shezik/DrawAnywhere/releases
+
+AutoName: DrawAnywhere
+
+MaintainerNotes:
+  AppAdded: 2025-08-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/shezik/DrawAnywhere/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 585e346f9eb536f6872ad530ec425403359442df2553ccae3849f6c3003f2460
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

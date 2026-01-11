@@ -1,0 +1,35 @@
+Categories:
+  - Food
+License: GPL-3.0-or-later
+AuthorName: Vishnu Raghav B
+AuthorWebSite: https://www.vishnuraghav.com/
+WebSite: https://enrecipes.vercel.app/
+SourceCode: https://github.com/vishnuraghavb/EnRecipes
+IssueTracker: https://github.com/vishnuraghavb/EnRecipes/issues
+Translation: https://hosted.weblate.org/projects/enrecipes/
+Changelog: https://github.com/vishnuraghavb/EnRecipes/releases
+Donate: https://www.vishnuraghav.com/donate
+Bitcoin: bc1qjxwecmmajnl7qvyzwqqka60tfvcyj9qhy2lpq8
+Liberapay: vishnuraghavb
+
+AutoName: EnRecipes
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-12-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/vishnuraghavb/EnRecipes/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+  Note: dev wants to keep the app here even if it shows up at F-Droid (note by Mondstern)
+  Status:
+    - 2022-05-04 repo disappeared, see https://github.com/vishnuraghavb/EnRecipes-Wiki
+    - 2025-05-15 got tarball from F-Droid
+
+AllowedAPKSigningKeys: fb4ac6b15fc0eccb5f456d487b1ad1c3e393a2aa4450ffe4d59c22c9b99dba79
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None
+
+NoSourceSince: 2.0.2

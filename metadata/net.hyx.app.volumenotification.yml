@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Seht
+AuthorEmail: dev@hyx.net
+AuthorWebSite: https://future.software/
+SourceCode: https://github.com/seht/volumenotification
+IssueTracker: https://github.com/seht/volumenotification/issues
+Changelog: https://github.com/seht/volumenotification/releases
+
+AutoName: Volume Notification
+
+MaintainerNotes:
+  AppAdded: 2017-02-03
+  Method: github-release
+  Status:
+    - 2020-09-19 app was not updated for 1y 0m 11d; switching UCM from Tags to Static
+    - 2023-08-08 last release 9/2019, last commit 10/2019, author still around
+    - 2025-11-13 4 releases in 2024, silence since; keeping UCM=Static
+
+AllowedAPKSigningKeys: c67dd9ad13ec835c63c07b37962a86d1e0e9d0e69e7bc261337f3323ea7fad41
+
+UpdateCheckMode: Static

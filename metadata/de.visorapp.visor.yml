@@ -1,0 +1,24 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Christian Illies
+AuthorEmail: visor-android@christianillies.de
+WebSite: https://www.visorapp.net/
+SourceCode: https://github.com/kloener/visor-android
+IssueTracker: https://github.com/kloener/visor-android/issues
+
+AutoName: Visor
+
+MaintainerNotes:
+  AppAdded: 2016-04-26
+  Method: github-release
+  Note: unmaintained
+  PermIgnore:
+    android.permission.CAMERA: to capture the page for magnification
+  Status:
+    - 2023-08-08 last release 7/2017, last commit 1/2021
+    - 2025-10-03 app status unchanged, but there is a fork multiple versions ahead at https://github.com/morckx/visor-android (unfortunately stalled in 2022 as well)
+
+AllowedAPKSigningKeys: 95d08c228c85ab653aa9620e14e82d0ddfaef65b37cc5c73df9db09dbfea8bc0
+
+UpdateCheckMode: None

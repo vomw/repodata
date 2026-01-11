@@ -1,0 +1,25 @@
+Categories:
+  - Graphics
+License: GPL-3.0-only
+AuthorName: Cyb3r G0d
+SourceCode: https://github.com/CYB3R-G0D/Canvass-app
+IssueTracker: https://github.com/CYB3R-G0D/Canvass-app/issues
+Changelog: https://github.com/CYB3R-G0D/Canvass-app/releases
+
+AutoName: Canvass
+
+MaintainerNotes:
+  AppAdded: 2022-05-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CYB3R-G0D/Canvass-app/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
+  FastlaneIgnore: fulldesc
+  Note: fulldesc formatting broken
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 5/2022, last commit 5/2022)
+
+AllowedAPKSigningKeys: 2ceb6fe52876034c59c7ba26d4e0034fdc5d51e37f5189d78b8afcd4d8cee3ba
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

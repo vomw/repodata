@@ -1,0 +1,29 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-06-07, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-06-07 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: OTR Speed Calculator
+SourceCode: https://github.com/otr-community/android
+IssueTracker: https://github.com/otr-community/android/issues
+Changelog: https://github.com/otr-community/android/releases
+
+AutoName: OTR Speed Calculator
+
+MaintainerNotes:
+  AppAdded: 2022-10-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/otr-community/android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2023-11-18 no commits since 2022-10-23; UCM tags => Static
+    - 2025-07-17 repo archived 2025-06-07, UCM => None
+
+AllowedAPKSigningKeys: 7090ab22893da41735e5f5686abad25e4480ff1162d456c00519e84fa9fb2853
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

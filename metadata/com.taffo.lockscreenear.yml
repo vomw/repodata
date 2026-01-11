@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: AGPL-3.0-only
+AuthorName: Emanuele De Santis
+AuthorEmail: lele.lele358@gmail.com
+SourceCode: https://github.com/EmanueleDeSantis/LockscreenEar
+IssueTracker: https://github.com/EmanueleDeSantis/LockscreenEar/issues
+Changelog: https://github.com/EmanueleDeSantis/LockscreenEar/releases
+
+AutoName: LockscreenEar
+
+MaintainerNotes:
+  AppAdded: 2022-07-27
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-08-18 last release 8/2022, last commit 8/2022; Tags => Static
+    - 2026-01-09 still no new commits, disabling update check entirely
+
+AllowedAPKSigningKeys: a3add3a2b4aa0c65754074efbb95fa23bc50f6194d810ab86b053070fd45fd8b
+
+UpdateCheckMode: None

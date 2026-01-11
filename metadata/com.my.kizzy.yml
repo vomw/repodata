@@ -1,0 +1,42 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Discord.
+    de: Die App baut Verbindungen zu Discord auf.
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Vaibhav
+WebSite: https://kizzy.gitbook.io/kizzy-docs/
+SourceCode: https://github.com/dead8309/Kizzy
+IssueTracker: https://github.com/dead8309/Kizzy/issues
+Translation: https://github.com/dead8309/Kizzy/issues/2#issue-1370365856
+Changelog: https://github.com/dead8309/Kizzy/releases
+
+AutoName: Kizzy
+
+MaintainerNotes:
+  AppAdded: 2022-10-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dead8309/Kizzy/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,video,icon,featureGraphicJPG,screenshotsJPG
+  NameSpaces:
+    - /kizzy/gateway
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed for the app detection feature
+    android.permission.PACKAGE_USAGE_STATS: needed to use the UsageStatsManager to get the last run app
+    android.permission.READ_EXTERNAL_STORAGE: to read custom configs
+    android.permission.WRITE_EXTERNAL_STORAGE: to save custom configs
+    android.permission.MEDIA_CONTENT_CONTROL: needed to extract currently playing media information from notifications
+    android.permission.SYSTEM_ALERT_WINDOW: used to show the alert dialog on the lock screen when tapping the quick settings tile
+  Status:
+    - 2022-10-24 repo disappeared
+    - 2023-06-20 repo back, author asks to pick up again
+    - 2023-10-28 last 3 versions didn’t increase versionCode https://github.com/dead8309/Kizzy/issues/229 (author promised for the future, so quarantine cleaned up already)
+    - 2024-05-20 scanner reports DEPENDENCY_INFO_BLOCK QUERY_ALL_PACKAGES READ_EXTERNAL_STORAGE – https://github.com/dead8309/Kizzy/issues/261
+    - 2024-12-25 scanner reports SYSTEM_ALERT_WINDOW
+
+AllowedAPKSigningKeys: 006cf57063d2fc28a0f351e0ee313142dfc965041470f665e2a204792426e66d
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

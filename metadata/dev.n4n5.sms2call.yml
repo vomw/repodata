@@ -1,0 +1,28 @@
+Categories:
+  - Phone & SMS
+License: MIT
+AuthorName: n4n5
+AuthorWebSite: https://n4n5.dev/
+WebSite: http://sms2call.n4n5.dev/
+SourceCode: https://github.com/Its-Just-Nans/sms2call
+IssueTracker: https://github.com/Its-Just-Nans/sms2call/issues
+
+AutoName: Sms2Call
+
+MaintainerNotes:
+  AppAdded: 2025-01-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Its-Just-Nans/sms2call/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.RECEIVE_SMS: to receive the incoming SMS that shall trigger the phone call
+    android.permission.SYSTEM_ALERT_WINDOW: to allow the app to launch a foreground session when being in background
+  Status:
+    - 2025-01-13 scanner reports DEPENDENCY_INFO_BLOCK SYSTEM_ALERT_WINDOW – https://github.com/Its-Just-Nans/sms2call/issues/1#issuecomment-2588171944
+
+AllowedAPKSigningKeys: 737b94a67c437228469048d6c8a542b7fdea7c0d12ba428d19d85a8cf29029d9
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

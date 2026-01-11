@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: William M.
+AuthorEmail: hello@cominatyou.com
+AuthorWebSite: https://cominatyou.com/
+SourceCode: https://github.com/Solarphlare/BatteryTile
+IssueTracker: https://github.com/Solarphlare/BatteryTile/issues
+Changelog: https://github.com/Solarphlare/BatteryTile/releases
+
+AutoName: Battery Tile
+
+MaintainerNotes:
+  AppAdded: 2023-02-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Solarphlare/BatteryTile/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-08-01 had to rebrand from com.cominatyou.batterytile due to troubles in walled gardens, see https://github.com/Solarphlare/BatteryTile/issues/17
+
+AllowedAPKSigningKeys: 48c1e08d9103d1aa0ea5a8a21cfe2eac274a589eafb0aa35b99019486fb913ea
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,37 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: UrbanVue B.V.
+AuthorEmail: info@urbanvue.nl
+AuthorWebSite: https://urbanvue.nl/
+SourceCode: https://github.com/UrbanVue/linked_camera
+IssueTracker: https://github.com/UrbanVue/linked_camera/issues
+Changelog: https://github.com/UrbanVue/linked_camera/releases
+
+AutoName: Linked Camera
+
+MaintainerNotes:
+  AppAdded: 2026-01-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/UrbanVue/linked_camera/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: required to make photos
+    android.permission.RECORD_AUDIO: required to record audio with videos
+    android.permission.ACCESS_FINE_LOCATION: required to record the location to embed with metadata (GeoTagging)
+    android.permission.ACCESS_COARSE_LOCATION: required to record the location to embed with metadata (GeoTagging)
+    android.permission.INTERNET: for Nextcloud auto-backup
+    android.permission.ACCESS_WIFI_STATE: to check if WiFi is available (to upload only then)
+    android.permission.BLUETOOTH: to support Bluetooth remote shutter devices
+    android.permission.BLUETOOTH_ADMIN: required to manage Bluetooth connections with remote shutter devices
+    android.permission.BLUETOOTH_CONNECT: required to establish connection with paired Bluetooth remote shutters
+    android.permission.BLUETOOTH_SCAN: to scan for Bluetooth remote shutter devices
+    android.permission.WRITE_EXTERNAL_STORAGE: required to save photos/videos to device storage (legacy API support)
+    android.permission.READ_EXTERNAL_STORAGE: required to access saved media for Nextcloud upload
+    android.permission.ACCESS_NETWORK_STATE: to check network availability before attempting uploads
+
+AllowedAPKSigningKeys: 95b4c9f2c51205cb675aa7380a224962d416e1f308077b8ff8ccb95b0e6c610e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

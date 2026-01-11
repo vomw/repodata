@@ -1,0 +1,35 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-01-25, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-01-25 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Keyspace
+AuthorWebSite: https://keyspace.cloud/
+WebSite: https://keyspace.cloud/
+SourceCode: https://github.com/Keyspace-cloud/android
+IssueTracker: https://github.com/Keyspace-cloud/android/issues
+Changelog: https://github.com/Keyspace-cloud/android/releases
+
+AutoName: Keyspace
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-12-10
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/keyspace/keyspacemobile
+  LibIgnore:
+    - /org/acra
+  Status:
+    - 2023-02-06 updater detected ACRA. Seems to be opt-in, but asked upstream just in case at https://github.com/Keyspace-cloud/android/pull/49#issuecomment-1419604132
+    - 2023-02-07 answer received, triggering a crash mail to be confirmed by the user is the only thing enabled. White-listing ACRA then.
+    - 2024-02-22 last release 2/2023, last commit 2/2023, UCM Tags=>Static
+    - 2025-06-09 repo was archived 2025-01-25, UCM=None
+
+AllowedAPKSigningKeys: 4226279cde25ada2e2d0db11e95f5256d2ba295253c4ed563c048a66bacded7b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

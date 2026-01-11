@@ -1,0 +1,24 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: matan h
+AuthorWebSite: https://matan-h.com/
+SourceCode: https://github.com/matan-h/Transfer
+IssueTracker: https://github.com/matan-h/Transfer/issues
+Donate: https://www.buymeacoffee.com/matanh
+
+AutoName: Transfer
+
+MaintainerNotes:
+  AppAdded: 2025-06-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/matan-h/Transfer/tree/v0.2.1/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed for connections in the local network
+
+AllowedAPKSigningKeys: c437518abbc8f2a36fb3804c5b0656f2d4069ce7d4b337bc38f6337310193306
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

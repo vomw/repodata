@@ -1,0 +1,26 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Tom G.
+AuthorEmail: tomgapplicationsdevelopment@gmail.com
+SourceCode: https://github.com/Tommy-Geenexus/exif-eraser
+IssueTracker: https://github.com/Tommy-Geenexus/exif-eraser/issues
+Translation: https://tomgappdev.oneskyapp.com/collaboration/project?id=375350
+Changelog: https://github.com/Tommy-Geenexus/exif-eraser/releases
+
+AutoName: Exif Eraser (No permissions)
+
+MaintainerNotes:
+  AppAdded: 2021-03-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Tommy-Geenexus/exif-eraser/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-08-11 upstreaming our Fastlane via https://github.com/Tommy-Geenexus/exif-eraser/pull/94
+
+AllowedAPKSigningKeys: d910867ce2cf3dcd37db51853ebef8633fd83a142b2642274ed068152ff12201
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

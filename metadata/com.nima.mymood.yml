@@ -1,0 +1,31 @@
+Categories:
+  - Sports & Health
+  - Writing
+License: MIT
+AuthorName: Nima Khajehpour
+AuthorEmail: nima1038khajehpour@gmail.com
+SourceCode: https://github.com/NimaKhajehpour/MyMood
+IssueTracker: https://github.com/NimaKhajehpour/MyMood/issues
+
+AutoName: MyMood
+
+MaintainerNotes:
+  AppAdded: 2023-02-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/NimaKhajehpour/MyMood/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/12555#note_1265864955
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to export/import data
+    android.permission.WRITE_EXTERNAL_STORAGE: to export/import data
+  Status:
+    - 2023-02-04 asked whether to keep once it is on F-Droid, answer is "keep" https://gitlab.com/fdroid/fdroiddata/-/merge_requests/12555#note_1265864955
+    - 2024-12-10 last release/commit 9/2023; UCM Tags=>Static
+    - 2025-03-01 READ_EXTERNAL_STORAGE – https://github.com/NimaKhajehpour/MyMood/issues/47
+
+AllowedAPKSigningKeys: 999abf5c903a2b77a61fde9df495d187f974a62d0182f33d0cc31fd1cd6476b1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,24 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: Mahmoud Habib
+SourceCode: https://github.com/MahmoudRH/D_Note
+IssueTracker: https://github.com/MahmoudRH/D_Note/issues
+
+AutoName: D Note
+
+MaintainerNotes:
+  AppAdded: 2022-07-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/MahmoudRH/D_Note/tree/compose/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2024-02-22 last release 12/2022, last commit 4/2023, UCM Tags=>Static
+    - 2025-09-30 dev seems to pick up again, refactoring
+
+AllowedAPKSigningKeys: b93839fb30603898f8f0775e394ef957b32f46e084442f063121ca45570aeed6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

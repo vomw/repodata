@@ -1,0 +1,25 @@
+Categories:
+  - Sports & Health
+License: AGPL-3.0-only
+AuthorName: Dessalines
+AuthorEmail: tyhou13@gmx.com
+AuthorWebSite: https://github.com/dessalines/habit-maker
+SourceCode: https://github.com/dessalines/habit-maker
+IssueTracker: https://github.com/dessalines/habit-maker/issues
+Changelog: https://github.com/dessalines/habit-maker/releases
+Bitcoin: 1Hefs7miXS5ff5Ck5xvmjKjXf5242KzRtK
+
+AutoName: Habit Maker
+
+MaintainerNotes:
+  AppAdded: 2025-01-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dessalines/habit-maker/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: ea7195cfce638ae6b1a8002ddc0d4863366095ea5b8d95c1cd5e25db0fe2e7c3
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

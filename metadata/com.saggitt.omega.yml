@@ -1,0 +1,26 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: Saul Henriquez
+AuthorEmail: saul_henriquez@hotmail.com
+SourceCode: https://github.com/NeoApplications/Neo-Launcher
+IssueTracker: https://github.com/NeoApplications/Neo-Launcher/issues
+Translation: https://hosted.weblate.org/projects/omegalauncher/
+Changelog: https://github.com/NeoApplications/Neo-Launcher/releases
+
+AutoName: Neo Launcher
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2021-01-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/NeoApplications/Neo-Launcher/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,fulldescMD,shortdesc,changelogs,icon,screenshots
+  Status:
+    - 2025-06-27 last release 2023-12-18; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 6052e0cf17f3eb1a1aeb2c61f4874b1995baff0c159b0bd12c09ffdb2dcf004b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

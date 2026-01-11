@@ -1,0 +1,39 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes libraries of Cronet and GMS.
+    de: Die App enthält Bibliotheken von Cronet und Google Mobile Services.
+Categories:
+  - Multimedia
+  - Internet
+License: AGPL-3.0-only
+AuthorName: NO_ob
+AuthorEmail: no.aisu@protonmail.com
+AuthorWebSite: https://loli.rehab/
+SourceCode: https://github.com/NO-ob/LoliSnatcher_Droid
+IssueTracker: https://github.com/NO-ob/LoliSnatcher_Droid/issues
+Changelog: https://github.com/NO-ob/LoliSnatcher_Droid/releases
+
+AutoName: Loli Snatcher
+
+MaintainerNotes:
+  AppAdded: 2021-06-12
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/NO-ob/LoliSnatcher_Droid/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: needed for people who are self hosting boorus in their local network
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to restore exported settings
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to store exported settings e.g. for backup or transfer to another device
+  Status:
+    - 2024-02-07 scanner reports usesCleartextTraffic READ_EXTERNAL_STORAGE – https://github.com/NO-ob/LoliSnatcher_Droid/issues/245
+    - 2025-08-11 upstreaming our Fastlane via https://github.com/NO-ob/LoliSnatcher_Droid/pull/340
+
+AllowedAPKSigningKeys: e1b0cf8cf51b1f3adb6bce0843aec410a1d8ee037b1d1973bbf75c451b2b80cb
+
+ArchivePolicy: 1
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

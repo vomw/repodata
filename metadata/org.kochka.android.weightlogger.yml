@@ -1,0 +1,29 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services, Garmin Fit, Google Fit.
+    de: Die App enthält Bibliotheken von Google Mobile Services, Garmin Fit, Google Fit.
+Categories:
+  - Sports & Health
+License: Apache-2.0
+AuthorName: Sébastien Vrillaud
+AuthorEmail: weightlogger@kochka.org
+SourceCode: https://github.com/kochka/WeightLogger
+IssueTracker: https://github.com/kochka/WeightLogger/issues
+
+AutoName: WeightLogger
+
+MaintainerNotes:
+  AppAdded: 2017-05-23
+  Method: github-release
+  Fastlane: https://github.com/kochka/WeightLogger/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD
+  Status:
+    - 2020-09-19 app was not updated for 3y 3m 24d; switching UCM from Tags to Static
+    - 2021-01-07 author picked up tagging again, switching back to Tags
+    - 2022-05-01 last commit 5/2021, reversing
+    - 2023-08-08 last release 1/2021, last commit 5/2021
+    - 2025-02-17 first new release; scanner reports DEPENDENCY_INFO_BLOCK android.permission.READ_EXTERNAL_STORAGE – https://github.com/kochka/WeightLogger/issues/78
+
+AllowedAPKSigningKeys: 4bed4b972fdcdabd8bf1377242caf6b107f1786eb5d0f2a81160329d8f669862
+
+UpdateCheckMode: Static

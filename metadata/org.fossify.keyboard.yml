@@ -1,0 +1,31 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Fossify
+AuthorEmail: hello@fossify.org
+AuthorWebSite: https://www.fossify.org/
+SourceCode: https://github.com/FossifyOrg/Keyboard
+IssueTracker: https://github.com/FossifyOrg/Keyboard/issues
+Changelog: https://github.com/FossifyOrg/Keyboard/releases
+
+AutoName: Keyboard
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-07-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FossifyOrg/Keyboard/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/FossifyOrg/Gallery/issues/32#issuecomment-1880161569
+  IntentFilterIgnore:
+    android.view.InputMethod: needed as this is a keyboard app
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted because of WRITE_EXTERNAL_STORAGE
+    android.permission.WRITE_EXTERNAL_STORAGE: to export clipboard contents to a file
+
+AllowedAPKSigningKeys: affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

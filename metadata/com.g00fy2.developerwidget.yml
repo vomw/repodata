@@ -1,0 +1,24 @@
+Categories:
+  - System
+  - Development
+License: MIT
+AuthorName: Thomas Wirth
+AuthorEmail: twirth.development@gmail.com
+SourceCode: https://github.com/G00fY2/DeveloperWidget
+IssueTracker: https://github.com/G00fY2/DeveloperWidget/issues
+Changelog: https://github.com/G00fY2/DeveloperWidget/releases
+
+AutoName: Developer Widget
+
+MaintainerNotes:
+  AppAdded: 2020-01-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/G00fY2/DeveloperWidget/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,title,icon
+  Status:
+    - 2022-11-07 no release since 10/2021, last code commit 9/2022; switch from Tags to Static
+
+AllowedAPKSigningKeys: 9452758c78ffafb29506a8aa2bb04b1acb7bd1ea5b144893b692d770cafabf5e
+
+UpdateCheckMode: Static

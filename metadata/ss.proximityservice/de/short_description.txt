@@ -1,0 +1,1 @@
+Ausschalten der Anzeige mit dem Näherungssensor

@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Sebi
+SourceCode: https://gitlab.com/giwiniswut/android-media-rw-remounter
+IssueTracker: https://gitlab.com/giwiniswut/android-media-rw-remounter/issues
+Changelog: https://gitlab.com/giwiniswut/android-media-rw-remounter/-/releases
+
+AutoName: SDRemount
+
+MaintainerNotes:
+  AppAdded: 2020-10-27
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/giwiniswut/android-media-rw-remounter/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/giwiniswut/android-media-rw-remounter/-/issues/1#note_481838450
+  Status:
+    - 2022-05-01 no commits for about a year, switching UCM from Tags to Static
+    - 2023-08-07 last release 12/2020, last commit 1/2021
+
+AllowedAPKSigningKeys: dc0c567a621361a873e25ee1f9af9ed06b54dd6b5a3d56c35151a5067632679f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

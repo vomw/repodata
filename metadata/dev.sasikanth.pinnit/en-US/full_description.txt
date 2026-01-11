@@ -1,0 +1,1 @@
+<p><i>Pinnit</i> lets you create, manage and pin your notes to your notification panel.</p><dl><dt>Easy to use</dt><dd>One tap to pin, one tap to edit, one swipe to delete. Doesn't get simpler than that.</dd><dt>Dark mode</dt><dd>Even if your phone doesn't support dark mode, we do! You can toggle it right from the homepage.</dd></dl>

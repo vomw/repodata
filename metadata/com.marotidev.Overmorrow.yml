@@ -1,0 +1,30 @@
+Categories:
+  - Weather
+License: GPL-3.0-only
+AuthorName: Maroti Dev
+AuthorEmail: maroti.devel@gmail.com
+SourceCode: https://github.com/bmaroti9/Overmorrow
+IssueTracker: https://github.com/bmaroti9/Overmorrow/issues
+Changelog: https://github.com/bmaroti9/Overmorrow/releases
+
+AutoName: Overmorrow weather
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-05-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/bmaroti9/Overmorrow/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/example/overmorrow
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to show the weather at the current location
+    android.permission.ACCESS_FINE_LOCATION: used to show the weather at the current location
+  Status:
+    - 2025-07-20 upstreamed our DE locale via https://github.com/bmaroti9/Overmorrow/pull/136
+
+AllowedAPKSigningKeys: 9a3c9557aaf34435792ffe18ab502f77aef55c1d5295df60f49f963804de976a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

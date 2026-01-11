@@ -1,0 +1,27 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-or-later
+AuthorName: SECUSO
+AuthorEmail: contact@secuso.org
+AuthorWebSite: https://secuso.aifb.kit.edu/
+SourceCode: https://github.com/SecUSo/Aktivpause
+IssueTracker: https://github.com/SecUSo/Aktivpause/issues
+Changelog: https://github.com/SecUSo/Aktivpause/releases
+AutoName: Aktivpause to Go
+
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2020-04-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SecUSo/Aktivpause/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,title,icon,screenshots
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 7/2020)
+    - 2023-08-08 last release 5/2023, last commit 5/2023
+    - 2025-07-21 upstreamed our fastlane adjustments via https://github.com/SecUSo/Aktivpause/pull/27
+
+AllowedAPKSigningKeys: 466d66dc058f73043e5e9bdd5606fdaec19d8f80c47f44c1807d65775d735c3f
+
+UpdateCheckMode: Static

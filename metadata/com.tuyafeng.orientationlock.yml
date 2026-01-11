@@ -1,0 +1,25 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Yafeng
+AuthorEmail: lakor@foxmail.com
+AuthorWebSite: https://tuyafeng.com/
+SourceCode: https://github.com/tuyafeng/OrientationLock
+IssueTracker: https://github.com/tuyafeng/OrientationLock/issues
+Changelog: https://github.com/tuyafeng/OrientationLock/releases
+
+AutoName: Orientation Lock
+
+MaintainerNotes:
+  AppAdded: 2024-05-28
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed to show the overlay with the controls
+  Status:
+    - 2025-06-27 last commit/release 2024-05-27; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 3df7f89d3b8d1315f05710c914fccbcf3a4e24980afddccb8dcebde90836a390
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

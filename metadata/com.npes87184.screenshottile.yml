@@ -1,0 +1,25 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Yu-Chen Lin
+AuthorEmail: npes87184@gmail.com
+AuthorWebSite: https://npes87184.github.io/aboutme/
+SourceCode: https://github.com/npes87184/ScreenShareTile
+IssueTracker: https://github.com/npes87184/ScreenShareTile/issues
+Changelog: https://github.com/npes87184/ScreenShareTile/releases
+
+AutoName: Screen Share Tile -  Share screenshot from tile
+
+MaintainerNotes:
+  AppAdded: 2021-05-02
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-02-11 Tags => Static as no release since 1/2022 (last commit 2/2022)
+    - 2026-01-09 still no new commits; disabling update checks altogether
+
+AllowedAPKSigningKeys: a533a4a008b15f17345e407cd259039c9a5001968b59e0db18ee5fd6cf32e1f9
+
+ArchivePolicy: 1
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

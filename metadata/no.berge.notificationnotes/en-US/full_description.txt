@@ -1,0 +1,1 @@
+<p><i>Notification notes</i> provides a dismissible, editable, disableable and reordable list. Show notes as notifications, remove notes by swiping left. Edit notes by swiping right.</p>

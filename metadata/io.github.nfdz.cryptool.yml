@@ -1,0 +1,35 @@
+Categories:
+  - Security
+License: MPL-2.0
+AuthorName: nfdz
+AuthorEmail: noe.fernandez@protonmail.com
+AuthorWebSite: https://noefernandez.com/
+SourceCode: https://github.com/nfdz/Cryptool
+IssueTracker: https://github.com/nfdz/Cryptool/issues
+Translation: https://crowdin.com/project/cryptool
+Changelog: https://github.com/nfdz/Cryptool/releases
+
+AutoName: Cryptool
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2019-10-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nfdz/Cryptool/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.SEND_SMS: required by the SMS provider
+    android.permission.RECEIVE_SMS: required by the SMS provider
+    android.permission.READ_SMS: required by the SMS provider
+    android.permission.SYSTEM_ALERT_WINDOW: needed to show floating windows
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 4/2020)
+    - 2023-08-08 last release 3/2023, last commit 4/2023
+    - 2024-07-24 scanner reports DEPENDENCY_INFO_BLOCK SYSTEM_ALERT_WINDOW SEND_SMS RECEIVE_SMS READ_SMS – https://github.com/nfdz/Cryptool/issues/51
+    - 2025-10-28 upstreaming our metadata via https://github.com/nfdz/Cryptool/pull/69
+
+AllowedAPKSigningKeys: 58a51e9ce4582690534c5c709f3b2eeb130eea06cf26372c707e6eb4cbab2916
+
+UpdateCheckMode: Tags

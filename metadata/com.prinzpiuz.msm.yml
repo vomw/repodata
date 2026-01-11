@@ -1,0 +1,39 @@
+Categories:
+  - Connectivity
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: prinzpiuz
+AuthorEmail: prinzpiuz@gmail.com
+AuthorWebSite: https://prinzpiuz.in/
+SourceCode: https://github.com/prinzpiuz/MSM
+IssueTracker: https://github.com/prinzpiuz/MSM/issues
+Changelog: https://github.com/prinzpiuz/MSM/releases
+
+AutoName: MSM
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2020-12-01
+  Method: github-release
+  ManualHint: apk at v1.1.4 identifies as 1.0.0 (2020-12-01); key mismatches, see https://github.com/prinzpiuz/MSM/issues/116
+  GHSkipPre: 1
+  ApkMatch: /v7a-release/i
+  Fastlane: https://github.com/prinzpiuz/MSM/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to manage files locally on the device
+    android.permission.WRITE_EXTERNAL_STORAGE: to manage files locally on the device
+    android.permission.MANAGE_EXTERNAL_STORAGE: to manage files locally on the device
+  Status:
+    - 2023-12-03 v1.6.0 has different signing key now (debug key) https://github.com/prinzpiuz/MSM/issues/116
+    - 2024-01-18 author added a commit that switches to a release key, so next release should have it resolved (clear from https://gitlab.com/IzzyOnDroid/repo/-/issues/475 then)
+    - 2024-01-18 new release uses a proper release key, replaced the current AllowedAPKSigningKeys
+    - 2024-01-18 new release also has MANAGE_EXTERNAL_STORAGE (asked about it in the same issue)
+    - 2025-03-24 since version 1.8.0 the v-prefix has been dropped from release names, but also versionCode was no longer updated; https://github.com/prinzpiuz/MSM/issues/138
+    - 2025-03-30 versioning solved. Asked for DEPENDENCY_INFO_BLOCK to be excluded, and whether Sentry is opt-in. Package name changed from com.example.msm to com.prinzpiuz.msm
+    - 2025-04-21 NonFreeComp (Google Play Core), https://github.com/prinzpiuz/MSM/issues/155
+
+AllowedAPKSigningKeys: d020515d5914245ffec23e87e823ebccac064db4c502f3a6df6a9f519da862de
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

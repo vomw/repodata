@@ -1,0 +1,37 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Yury Shchasny
+AuthorEmail: yuryshchasnydev@gmail.com
+SourceCode: https://gitlab.com/YuryShchasny/recordequalizer
+IssueTracker: https://gitlab.com/YuryShchasny/recordequalizer/-/issues
+
+AutoName: RecordEqualizer
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-05-14
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/YuryShchasny/recordequalizer/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/sb/audio_processor
+    - /com/sb/core
+    - /com/sb/data
+    - /com/sb/domain
+    - /com/sb/equalizer
+    - /com/sb/features
+    - /com/sb/home
+  PermIgnore:
+    android.permission.RECORD_AUDIO: required to record from the microphone
+    android.permission.WRITE_EXTERNAL_STORAGE: to save the recordings
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted because of the write permission
+  Status:
+    - 2025-08-18 upstreaming our Fastlane via https://gitlab.com/YuryShchasny/recordequalizer/-/merge_requests/17
+
+AllowedAPKSigningKeys: caeca8867004bbd79160adef8b0e8f94a898be860a0c3d99688591a53b617c43
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

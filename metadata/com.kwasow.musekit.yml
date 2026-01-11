@@ -1,0 +1,28 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Materialistic
+AuthorEmail: wasowski02@gmail.com
+AuthorWebSite: https://kwasow.github.io/#/
+SourceCode: https://github.com/Kwasow/Musekit
+IssueTracker: https://github.com/Kwasow/Musekit/issues
+Changelog: https://github.com/Kwasow/Musekit/releases
+
+AutoName: Musekit (Metronome &amp; Tuner)
+
+MaintainerNotes:
+  AppAdded: 2023-08-31
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Kwasow/Musekit/tree/main/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed for the tuning feature
+  Status:
+    - 2025-07-20 upstreaming our Fastlane fixes via https://github.com/Kwasow/Musekit/pull/107
+
+AllowedAPKSigningKeys: e98234ab49422fa3326cadc2d939c5cdea1a56e759ca30af01a9eb7121f63a60
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

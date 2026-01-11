@@ -1,0 +1,23 @@
+Categories:
+  - Messaging
+  - Navigation
+  - Phone & SMS
+License: GPL-2.0-only
+AuthorName: Warren Bank
+SourceCode: https://github.com/warren-bank/Android-SMS-Automatic-Reply-GPS
+IssueTracker: https://github.com/warren-bank/Android-SMS-Automatic-Reply-GPS/issues
+Changelog: https://github.com/warren-bank/Android-SMS-Automatic-Reply-GPS/releases
+
+AutoName: SMS my GPS
+
+MaintainerNotes:
+  AppAdded: 2020-10-20
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-12-07 switching UCM from Tags to Static (last release was 11/2020; no commit since)
+    - 2023-08-07 last commit/release 11/2020
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+UpdateCheckMode: Static

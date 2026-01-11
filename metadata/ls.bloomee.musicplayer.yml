@@ -1,0 +1,35 @@
+Categories:
+  - Multimedia
+License: GPL-2.0-only
+AuthorName: Hemant KArya
+AuthorWebSite: https://logiots.pages.dev/
+SourceCode: https://github.com/HemantKArya/BloomeeTunes
+IssueTracker: https://github.com/HemantKArya/BloomeeTunes/issues
+Changelog: https://github.com/HemantKArya/BloomeeTunes/releases
+
+AutoName: Bloomee
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-08-16
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/HemantKArya/BloomeeTunes/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: needed for YouTube streaming links to work
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: needed to access local music files
+    android.permission.READ_EXTERNAL_STORAGE: requested by the flutter_downloader module to access all storage areas for download
+  Status:
+    - 2024-08-16 MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE READ_MEDIA_IMAGES READ_MEDIA_VIDEO? minVer = Android 5; https://gitlab.com/IzzyOnDroid/repo/-/issues/594#note_2050927604
+    - 2025-02-24 usesCleartextTraffic; in addition, versionCode was decreased, so UCM Tags=>Static until solved – https://github.com/HemantKArya/BloomeeTunes/issues/122
+    - 2025-02-26 solved
+
+AllowedAPKSigningKeys: 7df992b9643abd442ad5eac0417503e0d8c4275104a0a66d8cf43df69611a47e
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v%v\+\d+
+UpdateCheckMode: Tags

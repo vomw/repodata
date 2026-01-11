@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Teddysun
+AuthorEmail: i@teddysun.com
+AuthorWebSite: https://teddysun.com/
+SourceCode: https://github.com/teddysun/xray-plugin-android
+IssueTracker: https://github.com/teddysun/xray-plugin-android/issues
+Changelog: https://github.com/teddysun/xray-plugin-android/releases
+
+AutoName: xray
+
+MaintainerNotes:
+  AppAdded: 2021-06-13
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/
+
+AllowedAPKSigningKeys: efdf3c085c548ca1e63fbea07bd4ccce899ac0732f888b9ea21a130da44b872e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

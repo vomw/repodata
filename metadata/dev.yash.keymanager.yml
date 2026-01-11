@@ -1,0 +1,34 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Github (obviously).
+    de: Die App nutzt Verbindungen zu Github (logischerweise).
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-10-03, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-10-03 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Development
+License: MIT
+AuthorName: Yash Garg
+AuthorEmail: yash.garg@outlook.in
+AuthorWebSite: https://yashgarg.co/
+SourceCode: https://github.com/Yash-Garg/KeyManager
+IssueTracker: https://github.com/Yash-Garg/KeyManager/issues
+Changelog: https://github.com/Yash-Garg/KeyManager/releases
+Donate: https://ko-fi.com/yashgarg
+
+AutoName: KeyManager - Manage keys on GitHub
+
+MaintainerNotes:
+  AppAdded: 2021-09-30
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Yash-Garg/KeyManager/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,featureGraphic,icon,screenshots
+  Status:
+    - 2024-12-10 last release 5/2023, last commit 7/2024; UCM Tags=>Static
+    - 2025-10-17 monthly quality check found repo archived
+
+AllowedAPKSigningKeys: 3e0574cb611f96b2927fcbac15b6834c2d4d91e823f705afd2bf5fcfef9ccb22
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

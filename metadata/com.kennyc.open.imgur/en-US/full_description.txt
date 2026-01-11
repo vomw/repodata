@@ -1,0 +1,2 @@
+<p><b>NOTE: This app is no longer maintained.</b> But it still works.Please report should this have changed.</p>
+<p><i>Opengur</i> is an Material Design open-source Imgur client with support for albums, Muzei, Gifs / GifV image formats and more.</p>

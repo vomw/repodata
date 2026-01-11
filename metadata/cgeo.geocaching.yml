@@ -1,0 +1,47 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services and Google Maps.
+    de: Die App enhält Bibliotheken von Google Mobile Services and Google Maps.
+  NonFreeDep:
+    en-US: The app depends on Locus Map.
+    de: Die App benötigt Locus Map.
+  NonFreeNet:
+    en-US: The app connects to Google servers (Maps).
+    de: Die App baut Verbindungen zu Google Servern auf (Maps).
+Categories:
+  - Navigation
+License: Apache-2.0
+AuthorName: c:geo team
+AuthorEmail: support@cgeo.org
+WebSite: https://www.cgeo.org/
+SourceCode: https://github.com/cgeo/cgeo
+IssueTracker: https://github.com/cgeo/cgeo/issues
+Translation: https://crowdin.net/project/cgeo
+Changelog: https://github.com/cgeo/cgeo/releases
+
+MaintainerNotes:
+  AppAdded: 2016-08-09
+  Method: github-release
+  ApkMatch: /foss-release/i
+  Fastlane: https://github.com/cgeo/cgeo/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: geocaching cache descriptions can use external links which could be http only
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed to locate/guide-to GeoCaches
+    android.permission.ACCESS_COARSE_LOCATION: needed to locate/guide-to GeoCaches
+    android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to read  geocaches saved for offline use
+    android.permission.WRITE_EXTERNAL_STORAGE: needed on lower Android versions to save geocaches for offline use
+    android.permission.READ_CONTACTS: used optionally for integration of the c:geo contacts platform
+  NameSpaces:
+    - /cgeo/contacts
+    - /cgeo/org/kxml2
+  Status:
+    - 2024-03-20 scanner reports usesCleartextTraffic DEPENDENCY_INFO_BLOCK ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION android.permission.READ_CONTACTS android.permission.READ_EXTERNAL_STORAGE – https://github.com/cgeo/cgeo/issues/15491
+    - 2025-07-18 added MLKit, blowing the APK size from less than 15 to more than 40 MB – https://github.com/cgeo/cgeo/issues/17142 – solved 2025-09-21
+
+AllowedAPKSigningKeys: 3db1dd8443b96fe9f7680eea4f7f9d0234f8407283ffe3e6a43ad68adcfdc5e4
+
+ArchivePolicy: 2
+AutoUpdateMode: Version market_%c
+UpdateCheckMode: Tags

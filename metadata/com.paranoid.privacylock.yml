@@ -1,0 +1,26 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: HardDev
+AuthorEmail: gritsenko.dhr@gmail.com
+AuthorWebSite: https://hardalgorithm.github.io/
+SourceCode: https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock
+IssueTracker: https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock/issues
+Changelog: https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock/releases
+
+AutoName: 'Paranoid&#39;s Pal - Privacy Lock'
+
+MaintainerNotes:
+  AppAdded: 2024-10-24
+  Method: github-release
+  GHSkipPre: 1
+  X-AutoUpdateMode: Version v%v – uses "latest" instead /o\
+  Fastlane: https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.REQUEST_DELETE_PACKAGES: used to offer self-deinstallation from inside the app, including self-removal from device admin
+
+AllowedAPKSigningKeys: 9b1c77a2063e23e1b37fceffdf6e2e19628ba6c680e04dbf22088884109bf321
+
+UpdateCheckMode: Tags

@@ -1,0 +1,28 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2023-05-14, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2023-05-14 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+  - Xposed
+License: Apache-2.0
+AuthorName: Blue cat
+WebSite: https://forum.xda-developers.com/t/mod-xposed-app-settings-reborn.4141339/
+SourceCode: https://github.com/BlueCat300/XposedAppSettings
+IssueTracker: https://github.com/BlueCat300/XposedAppSettings/issues
+Changelog: https://github.com/BlueCat300/XposedAppSettings/releases
+
+AutoName: App Settings Reborn
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-22
+  Method: none
+  GHSkipPre: 1
+  Status:
+    - 2023-05-17 disabling updates as app repo was archived on 2023-05-14 (last release 5/2023)
+
+AllowedAPKSigningKeys: 0d0dbef23b286929e28f97cce39d7965a9fe31aff4bc434e396b9fe514289293
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

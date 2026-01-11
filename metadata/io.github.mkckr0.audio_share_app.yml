@@ -1,0 +1,30 @@
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: mkckr0
+SourceCode: https://github.com/mkckr0/audio-share
+IssueTracker: https://github.com/mkckr0/audio-share/issues
+Changelog: https://github.com/mkckr0/audio-share/releases
+
+AutoName: Audio Share
+
+MaintainerNotes:
+  AppAdded: 2023-08-21
+  AppRemoved: 2023-10-08 reached F-Droid 2023-09-25
+  AddedBack: 2025-03-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/mkckr0/audio-share/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  Status:
+    - 2023-08-20 author constantly forgets to increase versionCode, see https://github.com/mkckr0/audio-share/issues/2
+    - 2023-08-20 next release came, still same versionCode, but now even signed with a different key…
+    - 2023-08-21 solved; debug key was replaced by a release key, and versionCode is now properly increased.
+    - 2023-10-07 app is available at F-Droid since 2023-09-25 but repo Readme still carries our badge https://github.com/mkckr0/audio-share/issues/2#issuecomment-1751801018
+    - 2023-10-08 badge was removed
+
+AllowedAPKSigningKeys: bdbf8e590127e380a28c328085231647912634b45ffaa20d9e70c96658cb7a40
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

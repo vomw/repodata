@@ -1,0 +1,24 @@
+Categories:
+  - Xposed
+License: GPL-3.0-only
+AuthorName: Erbzur
+AuthorEmail: aivenlyge@gmail.com
+SourceCode: https://github.com/Erbzur/Orange
+IssueTracker: https://github.com/Erbzur/Orange/issues
+Changelog: https://github.com/Erbzur/Orange/releases
+
+AutoName: Orange
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-12-06
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 5/2022, last commit 5/2022)
+    - 2025-11-13 now both 10/2023, keeping UCM=Static
+
+AllowedAPKSigningKeys: 971b39be6245cb930de2cd391fd0828a194f35681e6e7e381462bb5bcda3b16e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

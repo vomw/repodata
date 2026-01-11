@@ -1,0 +1,29 @@
+Categories:
+  - Development
+License: GPL-3.0-only
+AuthorName: Aung Kyaw Paing
+AuthorEmail: dev.aungkyawpaing@gmail.com
+AuthorWebSite: https://aungkyawpaing.dev/
+SourceCode: https://github.com/vincent-paing/CCDroidX
+IssueTracker: https://github.com/vincent-paing/CCDroidX/issues
+Changelog: https://github.com/vincent-paing/CCDroidX/releases
+
+AutoName: CCDroidX
+
+MaintainerNotes:
+  AppAdded: 2022-05-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /floss-release/i
+  NameSpaces:
+    - /dev/aungkyawpaing/wear/datalayer
+  Status:
+    - 2023-04-04 updates disabled as a lot of trackers have been included, see https://github.com/vincent-paing/CCDroidX/issues/6
+    - 2023-07-31 sent another ping suggesting a foss build flavor
+    - 2023-08-24 author provided clean APK which was added manually for now, waiting for name of attachments to releases before re-enabling updates
+    - 2023-08-26 new release now comes with the proper APK, updates re-enabled.
+
+AllowedAPKSigningKeys: 5b7e1dc0c4b7d29fdf6415e3af0ad50d4fbf9e4da55a17197a88ccd1cda23b14
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

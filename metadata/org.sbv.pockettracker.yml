@@ -1,0 +1,26 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-or-later
+AuthorName: David Aderbauer
+AuthorEmail: dave.aderbauer@gmail.com
+SourceCode: https://gitlab.com/Dacid99/pockettracker
+IssueTracker: https://gitlab.com/Dacid99/pockettracker/-/issues
+
+AutoName: PocketTRacker
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-06-15
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/Dacid99/pockettracker/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  Status:
+    - 2024-06-25 scanner reports DEPENDENCY_INFO_BLOCK android.permission.READ_EXTERNAL_STORAGE – https://gitlab.com/Dacid99/pockettracker/-/issues/1
+    - 2024-07-14 app reached F-Droid 2024-06-28, we still keep it here (RB on both ends)
+
+AllowedAPKSigningKeys: 4c6f4fba1821ab6fb1c638a07b47abeb31660f5451a6cf2077cb9d036c5ea174
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

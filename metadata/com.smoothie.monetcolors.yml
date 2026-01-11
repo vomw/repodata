@@ -1,0 +1,23 @@
+Categories:
+  - Graphics
+License: BSD-2-Clause
+AuthorName: Smooth E
+SourceCode: https://github.com/Smooth-E/monet-color-previewer
+IssueTracker: https://github.com/Smooth-E/monet-color-previewer/issues
+Changelog: https://github.com/Smooth-E/monet-color-previewer/releases
+
+AutoName: Previewer
+
+MaintainerNotes:
+  AppAdded: 2023-04-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Smooth-E/monet-color-previewer/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  Status:
+    - 2024-12-10 last release 4/2023, last commit 6/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: e223d3950074a8c60c60e1339adf260739c81381e546b0f0c74b0fe995cc3de6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

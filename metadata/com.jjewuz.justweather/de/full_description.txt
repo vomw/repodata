@@ -1,0 +1,1 @@
+<p><i>JustWeather</i> ist eine einfache Wetter-App. Geben Sie den Namen der Stadt ein und erhalten Sie jetzt genaues Wetter. Weniger Bewegung, mehr Informationen, mehr Geschwindigkeit.</p><p><br><b>Features:</b></p><ul><li>Flexibles Widget</li><li>Thematisierung der Monet-App</li><li>Sprache pro App</li><li>Vorausschauende Zurück-Geste</li></ul>

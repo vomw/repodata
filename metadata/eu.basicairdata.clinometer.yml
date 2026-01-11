@@ -1,0 +1,29 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: BasicAirData
+AuthorWebSite: https://www.basicairdata.eu/
+WebSite: https://www.basicairdata.eu/projects/android/android-clinometer/
+SourceCode: https://github.com/BasicAirData/Clinometer
+IssueTracker: https://github.com/BasicAirData/Clinometer/issues
+Translation: https://crowdin.com/project/clinometer
+Changelog: https://github.com/BasicAirData/Clinometer/releases
+
+AutoName: Clinometer
+
+MaintainerNotes:
+  AppAdded: 2021-09-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/BasicAirData/Clinometer/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshotsJPG
+  Note: Fastlane fulldesc lacks line breaks
+  PermIgnore:
+    android.permission.CAMERA: needed for measurement, see app description and screenshots
+  Status:
+    - 2024-02-22 last release/commit 10/2022, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 3b0e0358037ff2d035caa822936d5043058850c1d6c6315df976d6e0995af54a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

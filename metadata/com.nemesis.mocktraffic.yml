@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: Umut Çamliyurt
+SourceCode: https://github.com/umutcamliyurt/MockTraffic
+IssueTracker: https://github.com/umutcamliyurt/MockTraffic/issues
+
+AutoName: MockTraffic
+
+MaintainerNotes:
+  AppAdded: 2024-10-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/umutcamliyurt/MockTraffic/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  Status:
+    - 2025-07-20 upstreamed our fastlane adjustments via https://github.com/umutcamliyurt/MockTraffic/pull/13
+
+AllowedAPKSigningKeys: 9517b2b8e60fcf339937951669ff18a47d24dfb9ff6cfc915d2aee801667948a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

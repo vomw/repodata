@@ -1,0 +1,26 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app uses Sentry.
+    de: Die App verwendet Sentry.
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: CampbellMG
+SourceCode: https://github.com/CampbellMG/MiniMoods
+IssueTracker: https://github.com/CampbellMG/MiniMoods/issues
+Changelog: https://github.com/CampbellMG/MiniMoods/releases
+
+AutoName: Mini Moods
+
+MaintainerNotes:
+  AppAdded: 2021-05-26
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-11-07 no release since 5/2021, last commit 6/2021; switch from Tags to Static
+    - 2025-11-10 there meanwhile were 2 new releases at PlayStore, but none provided at Github; https://github.com/CampbellMG/MiniMoods/issues/5#issuecomment-3511845077
+
+AllowedAPKSigningKeys: f2acc6860b1e3fe5c2907858be6d99a1e0bf029ad0f21aa3d9a9682bfc82389f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

@@ -1,0 +1,28 @@
+Categories:
+  - Science & Education
+  - Sports & Health
+  - Time
+License: AGPL-3.0-or-later
+AuthorName: Leonardo Colman Lopes
+AuthorWebSite: https://github.com/LeoColman
+SourceCode: https://github.com/LeoColman/Petals
+IssueTracker: https://github.com/LeoColman/Petals/issues
+Translation: https://hosted.weblate.org/engage/petals-app
+Changelog: https://github.com/LeoColman/Petals/releases
+
+AutoName: Petals
+
+MaintainerNotes:
+  AppAdded: 2024-08-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/LeoColman/Petals/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  Note: video.txt 0 byte (and only in fr-FR)
+  DoubleList: keep
+
+AllowedAPKSigningKeys: ccb427adfab961d167978289258f174aadd727b08cf4ebff42136a8a4f751c2c
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

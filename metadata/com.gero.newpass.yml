@@ -1,0 +1,28 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: gero
+SourceCode: https://github.com/6eero/NewPass
+IssueTracker: https://github.com/6eero/NewPass/issues
+Changelog: https://github.com/6eero/NewPass/releases
+
+AutoName: NewPass
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-03-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/6eero/NewPass/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/6eero/NewPass/issues/46
+  Status:
+    - 2024-05-09 scanner reports android.permission.READ_EXTERNAL_STORAGE – https://github.com/6eero/NewPass/issues/35
+    - 2024-05-27 app reached F-Droid 2024-05-09, Readme still carries our badge, asking how to proceed https://github.com/6eero/NewPass/issues/46
+    - 2025-06-27 last commit/release 2024-06-17; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 0dfa8f27f7ec263cd57edc4494534f05197c6bf7f3db830cb6532f0d4dd06ee3
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,24 @@
+Categories:
+  - Xposed
+  - System
+License: EUPL-1.2
+AuthorName: binarynoise
+AuthorEmail: binarynoise@mail.de
+SourceCode: https://github.com/binarynoise/XposedModulets
+IssueTracker: https://github.com/binarynoise/XposedModulets/issues
+Donate: https://paypal.me/binarynoise
+
+AutoName: AntiBrightnessChange
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-10-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/binarynoise/XposedModulets/blob/main/metadata/com.programminghoch10.AntiBrightnessChange
+  FastlaneFeatures: title,shortdesc,fulldescMD
+
+AllowedAPKSigningKeys: 70692bac877fad4481f01c181125ebb66d0e234f45f7e88e4200fb566c7207c9
+
+AutoUpdateMode: Version com.programminghoch10.AntiBrightnessChange-v%c
+UpdateCheckMode: Tags

@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses the CoinGecko API.
+    de: Die App verwendet die CoinGecko API.
+Categories:
+  - Money
+License: Apache-2.0
+AuthorName: arturkowalczyk300
+SourceCode: https://github.com/arturkowalczyk300/android-cryptocurrency-prices
+IssueTracker: https://github.com/arturkowalczyk300/android-cryptocurrency-prices/issues
+Changelog: https://github.com/arturkowalczyk300/android-cryptocurrency-prices/releases
+
+AutoName: CryptocurrencyPrices
+
+MaintainerNotes:
+  AppAdded: 2023-02-28
+  Method: github-release
+  GHSkipPre: 0
+  Status:
+    - 2024-02-05 uses debug certificate https://github.com/arturkowalczyk300/android-cryptocurrency-prices/issues/29
+    - 2024-02-26 switched to release cert
+    - 2024-05-17 no commits since 2023-04-15, UCM Tags => Static
+    - 2026-01-09 project is EOL (see https://github.com/arturkowalczyk300/android-cryptocurrency-prices/issues/29#issuecomment-3729957359), disabling update checks.
+
+AllowedAPKSigningKeys: 81c1d3126eca228dd192139979dd19c3b056ac269ff67ddbd2b5856422482f41
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

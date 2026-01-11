@@ -1,0 +1,22 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: tibarj
+SourceCode: https://github.com/tibarj/tranquilstopwatch
+IssueTracker: https://github.com/tibarj/tranquilstopwatch/issues
+Changelog: https://github.com/tibarj/tranquilstopwatch/releases
+
+AutoName: Tranquil Stopwatch
+
+MaintainerNotes:
+  AppAdded: 2024-08-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/tibarj/tranquilstopwatch/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: fe13fdfa891cc18426e6a361f2839067201a672b5cadd2bbddea8ce25d39a199
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

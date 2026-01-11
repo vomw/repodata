@@ -1,0 +1,39 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: Gezim
+SourceCode: https://github.com/gezimos/inkOS
+IssueTracker: https://github.com/gezimos/inkOS/issues
+Changelog: https://github.com/gezimos/inkOS/releases
+
+AutoName: inkOS
+
+MaintainerNotes:
+  AppAdded: 2025-07-03
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/gezimos/inkOS/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /com/github/gezimos/inkos
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: leftover from before the fork; unused, will be removed with the next release
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to show all apps in the app drawer
+    android.permission.REQUEST_DELETE_PACKAGES: to allow uninstalling unwanted apps
+    android.permission.USE_BIOMETRIC: to use PIN or fingerprint lock for apps or settings
+    android.permission.SYSTEM_ALERT_WINDOW: for overlay features, such as showing notifications or dialogs over other apps
+    android.permission.CAMERA: needed to use camera2api to turn flash light on/off
+    android.permission.READ_PHONE_STATE: used to access the "if phone is connected to data" for turning on/off data
+    android.permission.READ_MEDIA_IMAGES: used for wallpaper selection
+    android.permission.READ_EXTERNAL_STORAGE: used for wallpaper selection
+  Status:
+    - 2025-07-03 android.accessibilityservice.AccessibilityService + DEPENDENCY_INFO_BLOCK – https://github.com/gezimos/inkOS/issues/1#issuecomment-3032469888
+    - 2025-09-05 dev forgot to increase versionCode; UCM Tags=>Static until solved – https://github.com/gezimos/inkOS/issues/1#issuecomment-3259829628
+    - 2025-10-03 fixed, UCM=Tags again
+    - 2025-12-24 CAMERA READ_PHONE_STATE READ_MEDIA_IMAGES READ_EXTERNAL_STORAGE – https://github.com/gezimos/inkOS/issues/52#issuecomment-3691426995
+
+AllowedAPKSigningKeys: 3b2dbdab77c9c3544e59d61097f48d3ac3fb5fe7c0df1cc89192216e4e9c1599
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

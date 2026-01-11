@@ -1,0 +1,32 @@
+Categories:
+  - Multimedia
+License: GPL-2.0-or-later
+AuthorName: Jellyfin
+AuthorEmail: apps@jellyfin.org
+WebSite: https://jellyfin.org/
+SourceCode: https://github.com/jellyfin/jellyfin-android
+IssueTracker: https://github.com/jellyfin/jellyfin-android/issues
+Translation: https://translate.jellyfin.org/projects/jellyfin/jellyfin-android-next
+Changelog: https://github.com/jellyfin/jellyfin-android/releases
+
+AutoName: Jellyfin
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2020-10-18
+  AppRemoved: 2021-11-20 reached F-Droid
+  AddedBack: 2025-03-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /libre-release/i
+  ApkIgnore: /(debug|unsigned)/i
+  Fastlane: https://github.com/jellyfin/jellyfin-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshotsJPG
+  FastlaneIgnore: changelogs
+  Note: Fastlane changelogs just has a dummy default.txt
+  DoubleList: keep
+
+AllowedAPKSigningKeys: d881796ed2a67ff6ef9f676828723c6b1fa18e09388962cba4abc4a594a69131
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

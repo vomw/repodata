@@ -1,0 +1,32 @@
+Categories:
+  - Food
+License: MIT
+AuthorName: Lorenzo Vainigli
+AuthorEmail: lorenzovngl@gmail.com
+SourceCode: https://github.com/lorenzovngl/FoodExpirationDates
+IssueTracker: https://github.com/lorenzovngl/FoodExpirationDates/issues
+Changelog: https://github.com/lorenzovngl/FoodExpirationDates/releases
+
+AutoName: Food Expiration Dates
+
+MaintainerNotes:
+  AppAdded: 2023-04-03
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss\.apk/i
+  ApkIgnore: /debug/i
+  Fastlane: https://github.com/lorenzovngl/FoodExpirationDates/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/lorenzovainigli/foodexpirationdates
+  Status:
+    - 2023-04-28 v0.8+10 added a load of trackers, so it was removed here again and updates disabled until the issue is solved https://github.com/lorenzovngl/FoodExpirationDates/issues/16
+    - 2023-08-24 foss build variant was established, so we switch to that. applicationId changed from com.lorenzovainigli.foodexpirationdates to com.lorenzovainigli.foodexpirationdates.foss
+    - 2024-07-11 vc 31 introduced a bunch of proprietary compontents, so for now UCM Tags=>Static – https://github.com/lorenzovngl/FoodExpirationDates/issues/195
+    - 2024-07-11 Static=>Tags as upstream removed the APK and is working on a fix
+
+AllowedAPKSigningKeys: a44b8da18b456c5f0df1a7dc5af99a04548a800e84b79cb6689e3b22cbb41af7
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

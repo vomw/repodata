@@ -1,0 +1,1 @@
+<p><i>PhotoAffix</i> allows you to combine photos together, in vertical or horizontal orientation, to create one single image. A common use case for this is to create multiple device art screenshots of an app, and combine them together to make a showcase image.</p>

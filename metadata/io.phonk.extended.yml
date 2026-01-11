@@ -1,0 +1,29 @@
+Categories:
+  - Development
+License: GPL-3.0-only
+AuthorName: Victor Diaz
+WebSite: https://phonk.app/
+SourceCode: https://github.com/victordiaz/PHONK
+IssueTracker: https://github.com/victordiaz/PHONK/issues
+Changelog: https://github.com/victordiaz/PHONK/releases
+
+AutoName: PHONK
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-01-22
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /extended-release/i
+  Fastlane: https://github.com/victordiaz/PHONK/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshotsJPG
+  NameSpaces:
+    - /io/phonk
+  Status:
+    - 2024-02-22 last release 1/2023, last commit 7/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 1b24d1184dff87f19c907695ee8bd8a8de6d424e629f6e40fa4fe502ecc00223
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

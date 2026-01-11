@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Arjunsinh Jadeja
+AuthorEmail: mrarjunsinh@gmail.com
+AuthorWebSite: https://arjunsinh.dev/
+SourceCode: https://github.com/itsarjunsinh/elder_launcher
+IssueTracker: https://github.com/itsarjunsinh/elder_launcher/issues
+Changelog: https://github.com/itsarjunsinh/elder_launcher/releases
+
+AutoName: Elder Launcher
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-08-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/itsarjunsinh/elder_launcher/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,title,icon,screenshots,featureGraphic
+  Status:
+    - 2023-02-11 Tags => Static as no release since 2/2022 (last commit 2/2022)
+
+AllowedAPKSigningKeys: 798c18024b9e86614eb0827e86f0372cff7b14785a469f9ebe4504888b104b86
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

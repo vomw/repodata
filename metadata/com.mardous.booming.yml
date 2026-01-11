@@ -1,0 +1,40 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Christian Martínez A.
+SourceCode: https://github.com/mardous/BoomingMusic
+IssueTracker: https://github.com/mardous/BoomingMusic/issues
+Changelog: https://github.com/mardous/BoomingMusic/releases
+
+AutoName: Booming Music
+
+MaintainerNotes:
+  AppAdded: 2025-05-14
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid-release/i
+  ApkIgnore: /normal-release/i
+  Fastlane: https://github.com/mardous/BoomingMusic/tree/master/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: needed to access local audio files to play
+    android.permission.READ_MEDIA_IMAGES: to import custom cover images
+    android.permission.READ_EXTERNAL_STORAGE: needed on lower Android version to access local audio files to play
+    android.permission.FOREGROUND_SERVICE: to keep playback active even when you use another application
+    android.permission.POST_NOTIFICATIONS: to show a notification to provide information about what is playing
+    android.permission.BLUETOOTH: to correctly recognize Bluetooth devices as headphones and to share songs via Bluetooth
+    android.permission.BLUETOOTH_CONNECT: replaces BLUETOOTH on Android 12+ for detecting and interacting with Bluetooth devices
+    android.permission.INTERNET: to download artist images, as well as obtain album/artist information
+    android.permission.ACCESS_NETWORK_STATE: to check internet connection status before downloading content
+    android.permission.WAKE_LOCK: to ensure that music playback stays active in the background for as long as possible
+    android.permission.SCHEDULE_EXACT_ALARM: to accurately configure the Sleep Timer on Android 12+
+    android.permission.MODIFY_AUDIO_SETTINGS: to be able to set a song as a ringtone directly from the app
+    android.permission.WRITE_SETTINGS: needed to set a song as ringtone directly from the app
+  Status:
+    - 2025-05-16 READ_EXTERNAL_STORAGE RECORD_AUDIO – https://github.com/mardous/BoomingMusic/issues/15
+
+AllowedAPKSigningKeys: 971e4ea01b40120df023d00e72111325dcd802def7a1e5e5dbdd192f3c60d7d7
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

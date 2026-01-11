@@ -1,0 +1,34 @@
+Categories:
+  - Automation
+  - System
+License: Apache-2.0
+AuthorName: Henrich Gron
+AuthorEmail: henrich.gron@gmail.com
+SourceCode: https://github.com/henrichg/PhoneProfilesPlusExtender
+IssueTracker: https://github.com/henrichg/PhoneProfilesPlusExtender/issues
+Translation: https://crowdin.com/project/phoneprofilesplus
+Changelog: https://github.com/henrichg/PhoneProfilesPlusExtender/releases
+
+AutoName: PhoneProfilesPlusExtender
+
+MaintainerNotes:
+  AppAdded: 2022-05-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/henrichg/PhoneProfilesPlusExtender/blob/master/fastlane/android/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: see app description (this is an addon to make AS available to the main app)
+  PermIgnore:
+    android.permission.RECEIVE_SMS: to read SMS, required for the SMS/MMS Sensor event
+    android.permission.RECEIVE_MMS: to read MMS, required for the SMS/MMS Sensor event
+    android.permission.PROCESS_OUTGOING_CALLS: to check on outgoing calls, for the Call Sensor event
+    android.permission.READ_CALL_LOG: to check on outgoing calls, for the Call Sensor event
+    android.permission.READ_PHONE_STATE: to check on incoming calls, for the Call Sensor event
+    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: to allow excepting the app from being suspended for battery optimizations
+    sk.henrichg.phoneprofilesplusextender.ACCESSIBILITY_SERVICE_PERMISSION: the app’s own permission. Apps wanting access to it (e.g. PPP) must request it
+
+AllowedAPKSigningKeys: 3ef43286ba71abe2d8c3d2bc07a2268e006c546b48542e4e0bcec17ca7abff0c
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

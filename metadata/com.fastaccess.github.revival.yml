@@ -1,0 +1,33 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Github (obviously).
+    de: Die App baut (logischerweise) Verbindungen zu Github auf.
+Categories:
+  - Development
+  - Internet
+License: GPL-3.0-only
+AuthorName: Alessio Tudisco
+AuthorEmail: apb231@gmail.com
+AuthorWebSite: https://www.lightdestory.com/
+SourceCode: https://github.com/LightDestory/FastHub-RE
+IssueTracker: https://github.com/LightDestory/FastHub-RE/issues
+
+AutoName: FastHub-RE
+
+MaintainerNotes:
+  AppAdded: 2022-08-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/LightDestory/FastHub-RE/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/fastaccess
+    - /com/prettifier/pretty
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 4/2022, last commit 7/2022)
+
+AllowedAPKSigningKeys: e2497e9917c43edd854b1f57000258dd623fd308d9a62962bec3fc10e1d8f0eb
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

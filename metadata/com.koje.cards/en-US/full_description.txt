@@ -1,0 +1,1 @@
+<p>The app includes flashcards for math and Latin. You can also create your own flashcards and exchange them with other users. It is possible to practice with several decks of cards at the same time.</p><p>The flash cards that have so far been answered least correctly are always asked.</p>

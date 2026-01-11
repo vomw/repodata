@@ -1,0 +1,22 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: DylanXie123
+SourceCode: https://github.com/DylanXie123/Num-Plus-Plus
+IssueTracker: https://github.com/DylanXie123/Num-Plus-Plus/issues
+Changelog: https://github.com/DylanXie123/Num-Plus-Plus/releases
+
+AutoName: num++
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-07-10
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-06-23 last commit was 6/2020, hence switched UCM from Tags to Static
+    - 2026-01-09 still no new commits, and issues not responded to for years; disabling updates altogether now.
+
+AllowedAPKSigningKeys: 3edd0a4cfc7ac5b5113181a0430c1a3063b71af2c534ffa73f04a8f4c64e648f
+
+UpdateCheckMode: None

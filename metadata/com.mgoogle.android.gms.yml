@@ -1,0 +1,39 @@
+AntiFeatures:
+  NonFreeAdd:
+    en-US: The sole purpose of this app is to allow apps with proprietary libraries to access GMS, a proprietary service.
+    de: Diese App dient einzig dazu, Apps mit proprietären Bibliotheken den Zugang zu den proprietären GMS zu ermöglichen.
+  NonFreeNet:
+    en-US: The app connects to Google servers (Google authentication).
+    de: Die App baut Verbindungen zu Google Servern auf (Google Authentication).
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-04-06, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-04-06 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Vanced
+AuthorWebSite: https://vancedapp.com/
+SourceCode: https://github.com/TeamVanced/VancedMicroG
+IssueTracker: https://github.com/TeamVanced/VancedMicroG/issues
+Changelog: https://github.com/TeamVanced/VancedMicroG/releases
+
+AutoName: Vanced microG
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-05-07
+  Method: github-release
+  GHSkipPre: 1
+  LibIgnore:
+    - /com/google/android/gms/cast
+    - /com/google/android/gms/maps
+    - /com/google/android/gms
+    - /com/google/firebase/analytics
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 3/2022, last commit 3/2022)
+    - 2024-04-06 repo archived 2024-04-06, UCM Static => None
+
+AllowedAPKSigningKeys: 8b1dfe07a73975ea964192555492e1fe1c8cf4f3490063865ebe3f6bdfbe597d
+
+AutoUpdateMode: Version v.*-%c
+UpdateCheckMode: None

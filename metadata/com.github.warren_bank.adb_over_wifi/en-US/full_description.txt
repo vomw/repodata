@@ -1,0 +1,1 @@
+<p><b>ADB over WiFi</b> is an Android app that toggles a <b>rooted</b> device's Android Debug Bridge daemon (adbd) between USB and WiFi mode. This is a tool useful to Android developers.</p>

@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Đỗ Ngọc Minh Tiến
+AuthorEmail: tien.dnm@outlook.com
+AuthorWebSite: https://info.tiendnm.com/
+SourceCode: https://github.com/tiendnm/zukulock
+IssueTracker: https://github.com/tiendnm/zukulock/issues
+
+AutoName: Screen Lock
+
+MaintainerNotes:
+  AppAdded: 2025-05-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/tiendnm/zukulock/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-06-18 signing key changed, Verified via 2nd channel (email)
+    - 2025-08-18 upstreaming our Fastlane via https://github.com/tiendnm/zukulock/pull/4
+
+AllowedAPKSigningKeys: 99b0fb14ac8f4a0ee3c94e4283a7049c60e53ce247756183d4142ae03f1d0c8c
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

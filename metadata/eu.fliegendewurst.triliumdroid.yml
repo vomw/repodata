@@ -1,0 +1,27 @@
+Categories:
+  - Writing
+License: AGPL-3.0-or-later
+AuthorName: Arne Keller
+AuthorEmail: 2012gdwu+github@posteo.de
+AuthorWebSite: http://fliegendewurst.eu/
+SourceCode: https://github.com/FliegendeWurst/TriliumDroid
+IssueTracker: https://github.com/FliegendeWurst/TriliumDroid/issues
+Changelog: https://github.com/FliegendeWurst/TriliumDroid/releases
+
+AutoName: Trilium Notes
+
+MaintainerNotes:
+  AppAdded: 2024-12-09
+  Method: github-release
+  GHSkipPre: 1
+  X-AutoUpdateMode: Version v%v
+  Fastlane: https://github.com/FliegendeWurst/TriliumDroid/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: for connections to local self-hosted instances
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed for the Geo Map notes
+
+AllowedAPKSigningKeys: 37a80a0b7ae09873f24cd96a42d426ade1e485b8434b19368e15d2f0436ac94d
+
+UpdateCheckMode: Tags

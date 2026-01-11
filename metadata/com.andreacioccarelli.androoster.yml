@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Andrea Cioccarelli
+SourceCode: https://github.com/cioccarellia/androoster
+IssueTracker: https://github.com/cioccarellia/androoster/issues
+Changelog: https://github.com/cioccarellia/androoster/releases
+
+AutoName: Androoster
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2025-03-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/cioccarellia/androoster/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: c07f28e982c2536f63cf48173e9ea9ca8c2ce8dbc19b0f5091c114aadf40d582
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

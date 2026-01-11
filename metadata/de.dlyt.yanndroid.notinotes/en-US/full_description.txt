@@ -1,0 +1,1 @@
+<p><i>NotiNotes</i> is a Notes app for your notification panel. A simple Notes app for Android which only lives in your QS and notification panel. You can hide notifications on the lock screen for more privacy, use swwipe actions and more.</p>

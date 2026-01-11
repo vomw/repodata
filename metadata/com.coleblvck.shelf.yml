@@ -1,0 +1,26 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: Cole
+SourceCode: https://github.com/coleblvck/Shelf
+IssueTracker: https://github.com/coleblvck/Shelf/issues
+Changelog: https://github.com/coleblvck/Shelf/releases
+
+AutoName: Shelf
+
+MaintainerNotes:
+  AppAdded: 2024-06-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/coleblvck/Shelf/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to show installed apps
+  Status:
+    - 2025-06-27 last commit/release 2024-06-26; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 2131c359eea703427477d490ab0ace802ad360037d5214746881467cd37c7cd3
+
+VercodeOperation: '%c-2000'
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

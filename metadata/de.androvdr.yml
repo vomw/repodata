@@ -1,0 +1,28 @@
+Categories:
+  - Connectivity
+  - Multimedia
+License: GPL-2.0-only
+AuthorName: FvK
+AuthorEmail: androvdr@googlemail.com
+WebSite: http://www.vdr-wiki.de/wiki/index.php/AndroVDR
+SourceCode: https://github.com/grmpl/androvdr
+IssueTracker: https://github.com/grmpl/androvdr/issues
+
+AutoName: AndroVDR
+
+MaintainerNotes:
+  AppAdded: 2019-06-25
+  Method: github-repo
+  GHSkipPre: 1
+  GHDownloadDir: https://github.com/grmpl/androvdr/blob/master/androVDR
+  LibIgnore:
+    - /org/acra
+  Note: set to Static as updates are quite unlikely (stale since 2016)
+  Status:
+    - 2022-07-28 white-listing ACRA (which now raises Tracking) as the Readme indicates it was disabled
+    - 2023-08-08 last release 10/2016, last commit 10/2016, but no alternative app available nor any forks noted
+    - 2026-01-09 still no new commits, disabling update check entirely
+
+AllowedAPKSigningKeys: 268a6738114a6732469730b2028c2bc9de5d87b7533f855666806e7d296093fa
+
+UpdateCheckMode: None

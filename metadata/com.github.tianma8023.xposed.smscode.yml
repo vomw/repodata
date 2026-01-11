@@ -1,0 +1,27 @@
+Categories:
+  - Automation
+  - Phone & SMS
+  - Xposed
+License: GPL-3.0-only
+AuthorName: Tianma
+AuthorWebSite: https://tianma8023.github.io/
+SourceCode: https://github.com/tianma8023/XposedSmsCode
+IssueTracker: https://github.com/tianma8023/XposedSmsCode/issues
+Changelog: https://github.com/tianma8023/XposedSmsCode/releases
+
+AutoName: XposedSmsCode
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-22
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/tianma/xsmscode
+  Status:
+    - 2025-03-23 last release/commit 2024-01-05; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 4699741354db183ec6cdbbfbab177b135260a5af52b6edbeb4d361ab28aac1bf
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

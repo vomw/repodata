@@ -1,0 +1,31 @@
+Categories:
+  - Graphics
+License: MIT
+AuthorName: Ilya-Muromets
+AuthorWebSite: https://ilyac.info/
+SourceCode: https://github.com/Ilya-Muromets/Pani
+IssueTracker: https://github.com/Ilya-Muromets/Pani/issues
+Changelog: https://github.com/Ilya-Muromets/Pani/releases
+
+AutoName: Pani
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-02-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Ilya-Muromets/Pani/tree/main/pani/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.CAMERA: needed for camera functionality
+  NameSpaces:
+    - /com/example/android/camera2
+  Status:
+    - 2024-10-22 rebranded from com.android.example.camera2.basic
+    - 2025-08-20 upstreaming our fastlane metadata via https://github.com/Ilya-Muromets/Pani/pull/8
+
+AllowedAPKSigningKeys: 6a7e54a86bee7b3a9840bbca7964acda18ffd470dc615a24ec538397f890e929
+
+AutoUpdateMode: Version pani-apk-%v
+UpdateCheckMode: Tags

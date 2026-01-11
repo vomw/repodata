@@ -1,0 +1,22 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: SpiritCroc
+AuthorEmail: info.modmote@spiritcroc.de
+AuthorWebSite: https://github.com/SpiritCroc/Modular-Remote
+SourceCode: https://github.com/SpiritCroc/Modular-Remote
+IssueTracker: https://github.com/SpiritCroc/Modular-Remote/issues
+
+AutoName: Modular Remote (via Network)
+
+MaintainerNotes:
+  AppAdded: 2023-07-07
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release 7/2023, last commit 12/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 6612ade7e93174a589cf5ba26ed3ab28231a789640546c8f30375ef045bc9242
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

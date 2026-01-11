@@ -1,0 +1,25 @@
+Categories:
+  - System
+License: LGPL-2.1-or-later
+AuthorName: hzy3774
+AuthorEmail: hzy3774@qq.com
+AuthorWebSite: https://huzongyao.github.io/
+SourceCode: https://github.com/hzy3774/AndroidP7zip
+IssueTracker: https://github.com/hzy3774/AndroidP7zip/issues
+Changelog: https://github.com/hzy3774/AndroidP7zip/releases
+
+AutoName: AndroidP7zip
+
+MaintainerNotes:
+  AppAdded: 2021-10-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/hzy3774/AndroidP7zip/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Status:
+    - 2022-07-11 no release since 10/2021, last commit 10/2021; switch from Tags to Static
+
+AllowedAPKSigningKeys: 5f6baf10357e43739e566092dbe001fd9adab8c7d7ebd04e1dfc765dfdfe6b03
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

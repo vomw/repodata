@@ -1,0 +1,32 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: OpenDTU-App
+SourceCode: https://github.com/OpenDTU-App/opendtu-react-native
+IssueTracker: https://github.com/OpenDTU-App/opendtu-react-native/issues
+Changelog: https://github.com/OpenDTU-App/opendtu-react-native/releases
+
+AutoName: opendtu-react-native
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-12-30
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/OpenDTU-App/opendtu-react-native/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed for communication with the ESP which does not have SSL
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: currently needed for OTA updates due to some RN bugs
+    android.permission.WRITE_EXTERNAL_STORAGE: currently needed for OTA updates due to some RN bugs
+  Status:
+    - 2024-02-01 scanner reports usesCleartextTraffic – https://github.com/OpenDTU-App/opendtu-react-native/issues/27
+    - 2024-05-10 READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE have been added, asked at the above issue
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/OpenDTU-App/opendtu-react-native/pull/399
+
+AllowedAPKSigningKeys: 9ebbbfbcb08538a08cb7d2d9eabc99ba1fc225d9133c30e098bda1a398d1a448
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

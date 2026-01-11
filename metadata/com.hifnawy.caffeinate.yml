@@ -1,0 +1,29 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: AbdAlMoniem AlHifnawy
+AuthorEmail: hifnawy_moniem@hotmail.com
+AuthorWebSite: https://abdalmoniem.github.io/
+SourceCode: https://github.com/abdalmoniem/Caffeinate
+IssueTracker: https://github.com/abdalmoniem/Caffeinate/issues
+Translation: https://crowdin.com/project/caffeinate
+Changelog: https://github.com/abdalmoniem/Caffeinate/releases
+
+AutoName: Caffeinate
+
+MaintainerNotes:
+  AppAdded: 2024-06-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/abdalmoniem/Caffeinate/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed to keep a prolonged WAKE_LOCK using an overlay window
+  Status:
+    - 2024-07-14 app reached F-Droid 2024-06-12 (RB) but still carries the IoD badge, so marking it keep
+
+AllowedAPKSigningKeys: 950a5bf98a6c43769d800aac371e83b8a632b55de98349c01dc5419e90edb1ab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

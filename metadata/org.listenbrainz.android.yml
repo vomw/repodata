@@ -1,0 +1,43 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services, Google Play Core, and the Spotify SDK.
+    de: Die App enthält Bibliotheken von Google Mobile Services, Google Play Core, und das Spotify SDK.
+  NonFreeNet:
+    en-US: The app connects to Spotify.
+    de: Die App verbindet sich mit Spotify-Servern.
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: MetaBrainz Foundation
+AuthorEmail: info@metabrainz.org
+AuthorWebSite: https://metabrainz.org/
+SourceCode: https://github.com/metabrainz/listenbrainz-android
+IssueTracker: https://github.com/metabrainz/listenbrainz-android/issues
+Changelog: https://github.com/metabrainz/listenbrainz-android/releases
+Donate: https://metabrainz.org/donate
+
+AutoName: ListenBrainz
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-03-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/metabrainz/listenbrainz-android/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,video,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: needed on newer Android versions to access local music files to play
+    android.permission.READ_EXTERNAL_STORAGE: needed on older Android versions to access local music files to play
+    android.permission.QUERY_ALL_PACKAGES: to pick apps to declare for listen submission
+    android.permission.REQUEST_INSTALL_PACKAGES: for the (optional) integrated self-updater
+  Status:
+    - 2023-03-24 NonFreeNet as for where it sends data to for analysis, and also for Youtube Music
+    - 2024-02-15 scanner reports usesCleartextTraffic READ_PHONE_STATE READ_MEDIA_AUDIO READ_MEDIA_IMAGES READ_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK – https://github.com/metabrainz/listenbrainz-android/issues/367
+    - 2025-09-21 QUERY_ALL_PACKAGES REQUEST_INSTALL_PACKAGES; self updater added – https://github.com/metabrainz/listenbrainz-android/issues/581
+    - 2025-10-11 inclusion policy met again now (update source & implications is outlined), Sentry would become opt-in with next release so Tracking AF can be removed then
+    - 2025-12-30 Sentry has been removed entirely meanwhile
+
+AllowedAPKSigningKeys: 51b0141117bf7f8cc8946c89e6169e23a5fb2a7405a3390ae5576119608b4e24
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

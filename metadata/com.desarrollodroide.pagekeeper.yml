@@ -1,0 +1,36 @@
+Categories:
+  - Internet
+License: Apache-2.0
+AuthorName: Desarrollo Droide
+AuthorEmail: desarrollodroide@gmail.com
+SourceCode: https://github.com/DesarrolloAntonio/Shiori-Android-Client
+IssueTracker: https://github.com/DesarrolloAntonio/Shiori-Android-Client/issues
+Changelog: https://github.com/DesarrolloAntonio/Shiori-Android-Client/releases
+
+AutoName: PageKeeper
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-02-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/DesarrolloAntonio/Shiori-Android-Client/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneIgnore: changelogs
+  Note: changelogs just have default.txt
+  DoubleList: keep
+  FlagIgnore:
+    usesCleartextTraffic: needed to access resources in the local network, like self-hosted servers
+  NameSpaces:
+    - /com/desarrollodroide/common
+    - /com/desarrollodroide/data
+    - /com/desarrollodroide/domain
+    - /com/desarrollodroide/model
+    - /com/desarrollodroide/network
+  Status:
+    - 2024-03-25 scanner reports android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE – https://github.com/DesarrolloAntonio/Shiori-Android-Client/issues/8#issuecomment-2018691738
+
+AllowedAPKSigningKeys: 7d540aebb849a4ad9237dba1ace4f6dc069e91b8cd140496d2206fb3abd9366b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

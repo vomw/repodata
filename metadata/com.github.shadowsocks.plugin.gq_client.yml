@@ -1,0 +1,23 @@
+Categories:
+  - Internet
+  - System
+License: GPL-3.0-or-later
+AuthorName: Andy Wang
+AuthorEmail: cbeuw.andy@gmail.com
+SourceCode: https://github.com/cbeuw/GoQuiet-android
+IssueTracker: https://github.com/cbeuw/GoQuiet-android/issues
+
+AutoName: GoQuiet
+
+MaintainerNotes:
+  AppAdded: 2020-03-07
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2020-09-19 app was not updated for 1y 7m 1d; switching UCM from Tags to Static
+    - 2023-08-07 last release 2/2019, last commit 3/2020 – this has "GoneQuiet" now…
+    - 2026-01-09 still no new commits; disabling update checks entirely now.
+
+AllowedAPKSigningKeys: 670a8d4d3da302886858770e8067f5b381237274132f917e7822bd6914700f24
+
+UpdateCheckMode: None

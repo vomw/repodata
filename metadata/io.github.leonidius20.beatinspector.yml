@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses the Spotify API.
+    de: Die App verwendet die Spotify API.
+Categories:
+  - Science & Education
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Leonidius20
+SourceCode: https://github.com/Leonidius20/BeatInspector
+IssueTracker: https://github.com/Leonidius20/BeatInspector/issues
+Changelog: https://github.com/Leonidius20/BeatInspector/releases
+
+AutoName: BeatInspector
+
+MaintainerNotes:
+  AppAdded: 2024-01-31
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /ua/leonidius/beatinspector
+  Status:
+    - 2025-06-27 last commit/release 2024-06-17; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 119dc8e6c1ab5c87b23286c7e3d89b4b2b311d099a887c4058cba1c81a947636
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

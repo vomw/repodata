@@ -1,0 +1,23 @@
+Categories:
+  - System
+  - Xposed
+License: GPL-3.0-only
+AuthorName: Varun Shanbhag
+SourceCode: https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE
+IssueTracker: https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE/issues
+Changelog: https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE/releases
+
+AutoName: Disable-FLAG_SECURE
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-22
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-12-11 Tags=>Static (last release & commit 5/2021)
+
+AllowedAPKSigningKeys: c0d5cb12508b943489232e31c24f11c3cd1a179d38e02c60ac7b09cf5121f578
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

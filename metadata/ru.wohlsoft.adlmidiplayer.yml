@@ -1,0 +1,26 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Vitaly Novichkov
+AuthorEmail: admin@wohlnet.ru
+SourceCode: https://github.com/Wohlstand/ADLMIDI-Player-Java
+IssueTracker: https://github.com/Wohlstand/ADLMIDI-Player-Java/issues
+Changelog: https://github.com/Wohlstand/ADLMIDI-Player-Java/releases
+
+AutoName: ADLMIDI Player
+
+MaintainerNotes:
+  AppAdded: 2018-06-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Wohlstand/ADLMIDI-Player-Java/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2020-09-19 app was not updated for 1y 6m 16d; switching UCM from Tags to Static
+    - 2023-01-19 new (pre)release with APK
+    - 2024-02-02 all releases since 7/2023 are stable now, disabling pre-release fetching
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/Wohlstand/ADLMIDI-Player-Java/pull/12
+
+AllowedAPKSigningKeys: 167471bd111c86b015a6e19ff7a8526841ee48750fe5ab14e3945c6f69e45a3a
+
+UpdateCheckMode: Tags

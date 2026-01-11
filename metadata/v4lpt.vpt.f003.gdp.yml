@@ -1,0 +1,24 @@
+Categories:
+  - Graphics
+License: GPL-3.0-only
+AuthorName: Valentin
+SourceCode: https://github.com/v4lpt/GDP
+IssueTracker: https://github.com/v4lpt/GDP/issues
+Changelog: https://github.com/v4lpt/GDP/releases
+
+AutoName: VPT#003-GDP - Gesture Drawing Practice
+
+MaintainerNotes:
+  AppAdded: 2024-09-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/v4lpt/GDP/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneIgnore: title
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/588
+
+AllowedAPKSigningKeys: 82424b6cc09e5d3505ca7b4cd11cf401e2e7998582761b00aaec80c96623b3ae
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

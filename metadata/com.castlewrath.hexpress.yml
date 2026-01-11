@@ -1,0 +1,31 @@
+Categories:
+  - Multimedia
+License: Unlicense
+AuthorName: CastleWrath
+AuthorEmail: josipmiskovic@gmail.com
+SourceCode: https://github.com/jmiskovic/hexpress
+IssueTracker: https://github.com/jmiskovic/hexpress/issues
+Changelog: https://github.com/jmiskovic/hexpress/releases
+
+AutoName: Hexpress
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2019-08-05
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Status:
+    - 2020-09-19 app was not updated for 1y 1m 17d; switching UCM from Tags to Static
+    - 2020-09-20 author responded and has added missing tags; switching back from Static to Tags as he (hopefully) is aware now ;)
+    - 2021-03-21 v37 changes packageName from com.castlewrath.hexpress to com.castlewrath.hexpress.embed; disable auto-updates and ask https://github.com/jmiskovic/hexpress/issues/9
+    - 2021-03-22 v37 fixed, auto-updates re-enabled
+    - 2022-05-02 no commit since 3/2021, switching UCM from Tags to Static
+    - 2024-08-04 attention, APK size blew up from 16 MB to 63 MB, see https://github.com/jmiskovic/hexpress/issues/10#issuecomment-2267649263
+    - 2024-09-07 author now provides per-ABI builds, switching to arm64
+    - 2026-01-09 last release/commit 9/2024, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 2bc5f4f1017ac6cc0826437d3ed0a83cc1c015349f1c92e9775df622d9117e86
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Static

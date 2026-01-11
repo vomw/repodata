@@ -1,0 +1,1 @@
+<p>In der App sind Lernkarten für Mathe und Latein enthalten. Sie können aber auch eigene Lernkarten anlegen und mit anderen Nutzern austauschen. Es ist möglich mit mehreren Kartenstapeln gleichzeitig zu üben.</p><p>Es werden immer die Lernkarten abgefragt, die bisher am wenigsten richtig beantwortet wurden.</p>

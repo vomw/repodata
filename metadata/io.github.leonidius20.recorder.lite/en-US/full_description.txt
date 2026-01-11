@@ -1,0 +1,1 @@
+<p><i>Recording Studio</i> is an Android sound recorder app. External effect plugin support is planned for the Full version.</p>

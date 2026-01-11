@@ -1,0 +1,28 @@
+Categories:
+  - Money
+License: MIT
+AuthorName: Doru Moraru
+AuthorWebSite: https://www.doru.uk/
+SourceCode: https://github.com/dorumrr/happytaxes
+IssueTracker: https://github.com/dorumrr/happytaxes/issues
+Changelog: https://github.com/dorumrr/happytaxes/releases
+Donate: https://www.buymeacoffee.com/ossdev
+
+AutoName: HappyTaxes
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-11-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dorumrr/happytaxes/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: for scanning documents
+    android.permission.READ_EXTERNAL_STORAGE: to read documents from storage
+    android.permission.READ_MEDIA_IMAGES: to read (and attach) images
+
+AllowedAPKSigningKeys: 6803c37a6c8efc3ca4747305a15377d2e3680569b4101efbd01e9c5016320b42
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

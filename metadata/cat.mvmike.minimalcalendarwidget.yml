@@ -1,0 +1,29 @@
+Categories:
+  - Theming
+  - Time
+License: BSD-3-Clause
+AuthorName: Miquel Martí
+AuthorEmail: miquelmarti111@gmail.com
+SourceCode: https://github.com/mvmike/min-cal-widget
+IssueTracker: https://github.com/mvmike/min-cal-widget/issues
+Translation: https://hosted.weblate.org/engage/min-cal-widget
+Changelog: https://github.com/mvmike/min-cal-widget/releases
+
+AutoName: MinCal Widget
+
+MaintainerNotes:
+  AppAdded: 2017-11-03
+  AppRemoved: 2021-11-20 reached F-Droid
+  AddedBack: 2025-03-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/mvmike/min-cal-widget/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_CALENDAR: needed to show calendar events in the widget
+
+AllowedAPKSigningKeys: 9dbd191de5f69a66b2af5b2c80f1efa373930828394d61a04caf159e1f2f5fea
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,29 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Jarne Demeulemeester
+SourceCode: https://github.com/jarnedemeulemeester/findroid
+IssueTracker: https://github.com/jarnedemeulemeester/findroid/issues
+Changelog: https://github.com/jarnedemeulemeester/findroid/releases
+
+AutoName: Findroid
+
+MaintainerNotes:
+  AppAdded: 2021-08-18
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/jarnedemeulemeester/findroid/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  Note: video.txt empty
+  DoubleList: keep
+  Status:
+    - 2021-10-22 ArchivePolicy to 1; APK size jumped from 10M to 100M. Asked for per-ABI APKs, see https://github.com/jarnedemeulemeester/findroid/issues/2#issuecomment-949964258
+    - 2021-12-24 XMas present arrived – per-ABI APKs. Added ApkMatch.
+
+AllowedAPKSigningKeys: ecc12086dbddb5faa3e1b650d161fb623f5f24188992c1173339cd5a8b2f8689
+
+ArchivePolicy: 1
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

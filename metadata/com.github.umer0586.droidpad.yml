@@ -1,0 +1,24 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Umer Farooq
+SourceCode: https://github.com/UmerCodez/DroidPad
+IssueTracker: https://github.com/UmerCodez/DroidPad/issues
+Changelog: https://github.com/UmerCodez/DroidPad/releases
+
+AutoName: Droid Pad
+
+MaintainerNotes:
+  AppAdded: 2025-01-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/UmerCodez/DroidPad/blob/v1.4.1/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.CAMERA: used by the integrated QR code scanner
+
+AllowedAPKSigningKeys: cec73bbafd52ff454f9be372367a02b57a151284fafeedbf4613b912c78a8142
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

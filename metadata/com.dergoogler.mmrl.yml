@@ -1,0 +1,42 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Der_Googler
+AuthorWebSite: https://dergoogler.com/
+SourceCode: https://github.com/MMRLApp/MMRL
+IssueTracker: https://github.com/MMRLApp/MMRL/issues
+Translation: https://hosted.weblate.org/engage/mmrlapp/
+Changelog: https://github.com/MMRLApp/MMRL/releases
+
+AutoName: MMRL
+ArchivePolicy: 2
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-01-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /spoofed/i
+  Fastlane: https://github.com/MMRLApp/MMRL/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /com/dergoogler/component
+    - /com/dergoogler/core
+    - /com/dergoogler/plugin
+    - /com/dergoogler/webui
+    - /dev/dergoogler/mmrl
+    - /ext/dergoogler/mmrl
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: used to install modules from storage
+    android.permission.WRITE_EXTERNAL_STORAGE: used to store downloaded modules
+  Status:
+    - 2024-01-13 our updater reported usesCleartextTraffic, asked upstream at https://github.com/DerGoogler/MMRL/issues/107
+    - 2024-01-13 less than an hour later, solved already – flag was removed.
+    - 2024-07-14 reached F-Droid com.dergoogler.mmrl, keeping it though it is not RB as it is needed for our Magisk repo; still carries our badge
+    - 2024-10-07 scanner reports READ_EXTERNAL_STORAGE (WRITE is also declared) – https://github.com/DerGoogler/MMRL/issues/256
+  X-AutoUpdateMode: Version v%v tag naming pattern changes between releases
+
+AllowedAPKSigningKeys: 102c2579a177579073dfc69bdf889ad04de9e7c53726a99d65873ec122183860
+
+UpdateCheckMode: Tags

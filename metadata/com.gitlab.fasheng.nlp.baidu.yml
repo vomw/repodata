@@ -1,0 +1,29 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses Baidu Location Service.
+    de: Die App verwendet den Baidu Location Service.
+  Tracking:
+    en: The app uses Baidu Location Service.
+    de: Die App verwendet den Baidu Location Service.
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: fasheng
+SourceCode: https://gitlab.com/fasheng/baidu-nlp-backend
+IssueTracker: https://gitlab.com/fasheng/baidu-nlp-backend/issues
+Changelog: https://gitlab.com/fasheng/baidu-nlp-backend/-/releases
+
+AutoName: Baidu UnifiedNlp Backend
+
+MaintainerNotes:
+  AppAdded: 2019-11-30
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Status:
+    - 2020-11-29 app was not updated for 1y 0m 5d; switching UCM from Tags to Static
+    - 2023-08-07 last release 11/2019, last commit 1/2020
+    - 2026-01-09 still no new commits; disabling update checks entirely now.
+
+AllowedAPKSigningKeys: fdbf9a73d2bb4ef74cb9f8d16ebe95a9fc6854a430ac5723d65a8a78a9dc9bf8
+
+UpdateCheckMode: None

@@ -1,0 +1,24 @@
+Categories:
+  - Time
+License: Apache-2.0
+AuthorName: Yassine Abouabdellah
+AuthorEmail: aboyassine056@gmail.com
+SourceCode: https://github.com/yassineAbou/Clock
+IssueTracker: https://github.com/yassineAbou/Clock/issues
+Changelog: https://github.com/yassineAbou/Clock/releases
+
+AutoName: Clock
+
+MaintainerNotes:
+  AppAdded: 2024-08-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/yassineAbou/Clock/tree/master/fastlane/metadata/android
+  FastlaneFeatures: video,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2025-08-19 upstreaming our Fastlane metadata via https://github.com/yassineAbou/Clock/pull/8
+
+AllowedAPKSigningKeys: e1307ad97f84973ff1a56b8509a880c122f4fcd0226e8ae1d89c0757200f068f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Daniel Giritzer
+AuthorWebSite: http://page.nwrk.biz/giri
+SourceCode: https://github.com/nwrkbiz/android-xserver
+IssueTracker: https://github.com/nwrkbiz/android-xserver/issues
+Changelog: https://github.com/nwrkbiz/android-xserver/releases
+
+AutoName: X Server
+
+MaintainerNotes:
+  AppAdded: 2020-12-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nwrkbiz/android-xserver/blob/master/demo/src/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /au/com/darkside/xserver
+  Status:
+    - 2022-05-01 no commits since 4/2021, switching UCM from Tags to Static
+    - 2025-04-01 signing key changed, see https://github.com/nwrkbiz/android-xserver/issues/42
+    - 2025-04-10 verified via website
+
+AllowedAPKSigningKeys: 0d033d57b0554b58babd46c7b36ef72282ef15e3979e6b451406132a67fb2779
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

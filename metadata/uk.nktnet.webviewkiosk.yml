@@ -1,0 +1,31 @@
+Categories:
+  - Internet
+License: AGPL-3.0-or-later
+AuthorName: Khiet Tam Nguyen
+AuthorEmail: support@webviewkiosk.nktnet.uk
+WebSite: https://webviewkiosk.nktnet.uk/
+SourceCode: https://github.com/nktnet1/webview-kiosk
+IssueTracker: https://github.com/nktnet1/webview-kiosk/issues
+Changelog: https://github.com/nktnet1/webview-kiosk/releases
+
+AutoName: Webview Kiosk
+
+MaintainerNotes:
+  AppAdded: 2025-09-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nktnet1/webview-kiosk/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: for use with WebApps, e.g. messenger apps
+    android.permission.RECORD_AUDIO: for use with WebApps, e.g. messenger apps
+    android.permission.ACCESS_FINE_LOCATION: for use with WebApps
+    android.permission.ACCESS_COARSE_LOCATION: for use with WebApps
+  Status:
+    - 2025-10-10 CAMERA RECORD_AUDIO ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION – https://github.com/nktnet1/webview-kiosk/issues/44
+    - 2025-10-11 details on camera, microphone, and location access in https://github.com/nktnet1/webview-kiosk/discussions/27
+
+AllowedAPKSigningKeys: 2fe10de0ec70a07f383a87892ca45667214ea13c4eeea4a3254f3a331a7a6b15
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

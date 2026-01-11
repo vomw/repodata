@@ -1,0 +1,38 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+  NonFreeNet:
+    en-US: The app establishes connections to Google servers (Install Referrer library).
+    de: Die App nutzt Verbindungen zu Groogle Servern (Install Referrer library).
+  Tracking:
+    en-US: The app uses the Install Referrer library.
+    de: Die App verwendet die Install Referrer library.
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: Alexander Burdiss
+AuthorEmail: aburdiss@icloud.com
+AuthorWebSite: https://alexanderburdiss.com/
+SourceCode: https://github.com/aburdiss/scale-practice
+IssueTracker: https://github.com/aburdiss/scale-practice/issues
+Changelog: https://github.com/aburdiss/scale-practice/releases
+
+AutoName: Scale Practice
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-11-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/aburdiss/scale-practice/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  DoubleList: keep
+  Status:
+    - 2024-12-28 proprietary tracking libraries have been added (Install Referrer) – https://github.com/aburdiss/ScalePractice/issues/31
+
+AllowedAPKSigningKeys: b2cc9bdf5f43c45f9f4863cca0ee830fedfb746eb313edb22a9a432b0af499f0
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

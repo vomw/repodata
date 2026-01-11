@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app interacts with ladsers.com.
+    de: Die App interagiert mit ladsers.com.
+Categories:
+  - Security
+License: Apache-2.0
+AuthorName: Max Korolev
+AuthorWebSite: https://ladsers.com/
+WebSite: https://ladsers.com/passtable/
+SourceCode: https://github.com/Ladsers/Passtable-Android
+IssueTracker: https://github.com/Ladsers/Passtable-Android/issues
+Changelog: https://github.com/Ladsers/Passtable-Android/releases
+
+AutoName: Passtable
+
+MaintainerNotes:
+  AppAdded: 2024-01-21
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed to display a panel with quick access
+  NameSpaces:
+    - /com/ladsers/passtable
+  Status:
+    - 2024-01-21 reached out about SYSTEM_ALERT_WINDOW and Dependency Info Block at https://github.com/Ladsers/Passtable-Android/discussions/4
+    - 2026-01-09 last commit/release 2/2025, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 2b356803dd459371e76e989b8bf636993c74a26c1e169fb348fb66061b4f6c41
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

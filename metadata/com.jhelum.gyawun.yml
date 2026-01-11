@@ -1,0 +1,38 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to YouTube (obviously).
+    de: Die App baut Verbindungen zu YouTube auf.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Sheikh Haziq
+SourceCode: https://github.com/sheikhhaziq/gyawun
+IssueTracker: https://github.com/sheikhhaziq/gyawun/issues
+Changelog: https://github.com/sheikhhaziq/gyawun/releases
+
+AutoName: Gyavun
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-12-14
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/sheikhhaziq/gyawun/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: used by the integrated streaming server to provide content in the local network
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: to download audio tracks
+    android.permission.READ_EXTERNAL_STORAGE: to read downloaded audio tracks
+  Status:
+    - 2022-12-14 asked for license https://github.com/sheikhhaziq/vibemusic/issues/1 – immediate response, done.
+    - 2023-07-20 repo moved, app renamed from Vibe Music to Gyavun
+    - 2023-10-02 package name changed from com.webyte.vibe_music to com.jhelum.gyawun, asked for how to proceed https://github.com/jhelumcorp/gyawun/issues/108
+    - 2023-11-01 new release with new packageName is out, but no answer to the issue. Implementing proposal then; this package gets sunset and replaced by the other.
+    - 2025-10-13 usesCleartextTraffic READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK – https://github.com/jhelumcorp/gyawun/issues/284
+
+AllowedAPKSigningKeys: d1ce3aba3f77ebc4582f8350dae1815aecce1bf05d678527cce8d0e6cd244ad0
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,24 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Pranshul
+AuthorEmail: pranshul.devmain@gmail.com
+SourceCode: https://github.com/PranshulGG/RecordMaster
+IssueTracker: https://github.com/PranshulGG/RecordMaster/issues
+Changelog: https://github.com/PranshulGG/RecordMaster/releases
+
+AutoName: RecordMaster
+
+MaintainerNotes:
+  AppAdded: 2025-12-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/PranshulGG/RecordMaster/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed to record audio
+
+AllowedAPKSigningKeys: 47d03279a2ccf5a732f3b84505766cd3fb36c6e51a3e34242d6bc04b4d3b9975
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

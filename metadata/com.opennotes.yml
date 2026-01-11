@@ -1,0 +1,20 @@
+Categories:
+  - Writing
+License: GPL-3.0-or-later
+AuthorName: Dhanush Sugganahalli
+SourceCode: https://github.com/Fandroid745/Open-notes
+IssueTracker: https://github.com/Fandroid745/Open-notes/issues
+
+AutoName: Open notes
+
+MaintainerNotes:
+  AppAdded: 2025-09-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Fandroid745/Open-notes/blob/v1.3/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 73c51f64f5969f1fe9cbaf4edea2149bdd5b19c938500dc234a3b0cb202951dc
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

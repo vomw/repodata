@@ -1,0 +1,27 @@
+Categories:
+  - Automation
+License: MIT
+AuthorName: Tharun Birla
+SourceCode: https://github.com/tharunbirla/GestureFlow
+IssueTracker: https://github.com/tharunbirla/GestureFlow/issues
+Changelog: https://github.com/tharunbirla/GestureFlow/releases
+
+AutoName: GestureFlow
+
+MaintainerNotes:
+  AppAdded: 2025-07-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/tharunbirla/GestureFlow/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: to provide seamless gesture control
+  Status:
+    - 2025-10-17 v1.1 uses different signing key https://github.com/tharunbirla/GestureFlow/issues/8
+    - 2025-12-01 still no reply, so UCM=>None
+    - 2025-12-05 solved (original key restored), UCM=>Tags again
+
+AllowedAPKSigningKeys: 496e14998030b3b7bc918bc97f992dc87aedbfe30899c1742d027d8fdae826f6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

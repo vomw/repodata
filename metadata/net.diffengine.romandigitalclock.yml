@@ -1,0 +1,23 @@
+Categories:
+  - Time
+License: Apache-2.0
+AuthorName: David Yockey
+SourceCode: https://github.com/dfyockey/RomanDigital
+IssueTracker: https://github.com/dfyockey/RomanDigital/issues
+Changelog: https://github.com/dfyockey/RomanDigital/releases
+
+AutoName: RomanDigital
+
+MaintainerNotes:
+  AppAdded: 2024-10-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dfyockey/RomanDigital/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Note: alternative contact @dfy@techhub.social (Fediverse)
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 48a768c4ced584b930fe9315333a131e653426e5ceb16bfa5de12dc9403db0f4
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

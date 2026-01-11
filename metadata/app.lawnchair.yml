@@ -1,0 +1,43 @@
+Categories:
+  - System
+  - Theming
+License: Apache-2.0
+AuthorName: Lawnchair
+AuthorEmail: support@lawnchair.info
+AuthorWebSite: https://lawnchair.app/
+WebSite: https://lawnchair.app/
+SourceCode: https://github.com/LawnchairLauncher/lawnchair
+IssueTracker: https://github.com/LawnchairLauncher/lawnchair/issues
+Translation: https://lawnchair.crowdin.com/lawnchair
+Changelog: https://github.com/LawnchairLauncher/lawnchair/releases
+
+AutoName: Lawnchair
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-05-31
+  Method: github-release
+  GHSkipPre: 0
+  Fastlane: https://github.com/LawnchairLauncher/lawnchair/tree/15-dev/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: allows the sleep accessibility action to be performed with a gesture
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to show installed apps in the app drawer
+    android.permission.READ_CONTACTS: used for advanced search
+    android.permission.MANAGE_EXTERNAL_STORAGE: used for advanced search
+    android.permission.READ_EXTERNAL_STORAGE: used for advanced search
+    android.permission.READ_MEDIA_IMAGES: to allow picking images to set as background
+    android.permission.REQUEST_DELETE_PACKAGES: used to uninstall apps on demand via the long-press context menu
+    android.permission.READ_MEDIA_AUDIO: to search audio files
+    android.permission.READ_MEDIA_VIDEO: to search for video files
+  Status:
+    - 2023-08-18 last pre-release 8/2022, last commit yesterday
+    - 2024-02-22 still no new release; UCM Tags=>Static
+    - 2024-04-24 was notified about new update. Scanner reports READ_CONTACTS MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE REQUEST_DELETE_PACKAGES android.accessibilityservice.AccessibilityService – https://github.com/LawnchairLauncher/lawnchair/discussions/4325
+    - 2024-08-23 UCM Static=>Tags again as development has picked up once more
+
+AllowedAPKSigningKeys: 747c3645b357258b2e23e851e53c96747fe0add007e5ba2cd97e8c85572e4dc5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

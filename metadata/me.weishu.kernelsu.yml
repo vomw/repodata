@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: weishu
+AuthorEmail: twsxtd@gmail.com
+AuthorWebSite: https://weishu.me/
+WebSite: https://kernelsu.org/
+SourceCode: https://github.com/tiann/KernelSU
+IssueTracker: https://github.com/tiann/KernelSU/issues
+Translation: https://hosted.weblate.org/engage/kernelsu/
+Changelog: https://github.com/tiann/KernelSU/releases
+
+AutoName: KernelSU
+
+MaintainerNotes:
+  AppAdded: 2023-04-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/tiann/KernelSU/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-08-22 upstreaming our fastlane metadata via https://github.com/tiann/KernelSU/pull/2715
+
+AllowedAPKSigningKeys: c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

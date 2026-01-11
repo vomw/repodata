@@ -1,0 +1,22 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Shalen Mathew
+AuthorEmail: shalenmj@gmail.com
+SourceCode: https://github.com/shalenMathew/MovieFlix_App
+IssueTracker: https://github.com/shalenMathew/MovieFlix_App/issues
+Changelog: https://github.com/shalenMathew/MovieFlix_App/releases
+
+AutoName: MovieFlix
+
+MaintainerNotes:
+  AppAdded: 2025-11-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/shalenMathew/MovieFlix_App/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: ec20b70fd628fef42b53ba82650b7b15b9e83c0b62ed0886365b1e6a2ec72231
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

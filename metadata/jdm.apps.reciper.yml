@@ -1,0 +1,23 @@
+Categories:
+  - Sports & Health
+License: MPL-2.0
+AuthorName: judemont
+AuthorEmail: julien@rmbi.ch
+AuthorWebSite: https://rmbi.ch/jdm
+SourceCode: https://codeberg.org/judemont/reciper
+IssueTracker: https://codeberg.org/judemont/reciper/issues
+
+AutoName: Reciper
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-04-20
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/judemont/reciper/blob/main/fastlane/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 4803a48fa79f089e4b12d611135edf6efa4b4816f8781aba6707e1b310eb73be
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

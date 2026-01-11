@@ -1,0 +1,41 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-10-10, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-10-10 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Social Network
+  - Messaging
+  - Internet
+License: Apache-2.0
+AuthorName: KoalaSat
+AuthorEmail: github@koalasat.xyz
+SourceCode: https://github.com/KoalaSat/nostros
+IssueTracker: https://github.com/KoalaSat/nostros/issues
+Changelog: https://github.com/KoalaSat/nostros/releases
+Bitcoin: bc1q8xjlxxwpsck429zr7ff466yax0k3lhp9fmm2et
+
+AutoName: Nostros
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-01-24
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64/i
+  Fastlane: https://github.com/KoalaSat/nostros/tree/main/fastlane/metadata
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to import the history from JSON
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to export the history as JSON
+  Status:
+    - 2023-02-27 v0.3.0.9-alpha added MLKit with all its dependencies, had to add NonFreeDep,NonFreeNet,Tracking see https://github.com/KoalaSat/nostros/issues/193#issuecomment-1446900077
+    - 2023-03-12 removing anti-features as offending libs are gone
+    - 2024-02-06 uses debug key https://github.com/KoalaSat/nostros/issues/592
+    - 2024-03-12 new APKs will use release key (949348) from now on, prepared that for pinning here.
+    - 2025-03-23 last release 2024-03-12, last code commit 2024-03-13; UCM Tags=>Static
+    - 2025-10-17 monthly quality check found repo archived
+
+AllowedAPKSigningKeys: 949348dc252058d67fae27d7d31f1f21a23d846906d25c8b4c16e51d691e15d7
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

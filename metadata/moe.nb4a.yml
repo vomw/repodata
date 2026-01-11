@@ -1,0 +1,34 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Leeroy Makubaro
+AuthorEmail: nekoha_matsuri@protonmail.com
+AuthorWebSite: https://matsuridayo.github.io/
+SourceCode: https://github.com/MatsuriDayo/NekoBoxForAndroid
+IssueTracker: https://github.com/MatsuriDayo/NekoBoxForAndroid/issues
+
+AutoName: NekoBox for Android
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-03-15
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  NameSpaces:
+    - /moe/matsuri/nb4a
+    - /io/nekohasekai/sagernet
+    - /com/github/shadowsocks
+    - /go/libcore
+  IntentFilterIgnore:
+    android.net.VpnService: needed for the proxy service
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed for the per-app proxy feature
+    android.permission.CAMERA: for scanning qr code to import configs
+  Status:
+    - 2024-10-09 scanner reports QUERY_ALL_PACKAGES CAMERA android.permission.READ_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK – https://github.com/MatsuriDayo/NekoBoxForAndroid/issues/767
+
+AllowedAPKSigningKeys: 35762758ce86a6ec297d9ccac689469bc43b9fed8ae1b27f100a86bbac00a055
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

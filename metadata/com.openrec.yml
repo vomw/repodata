@@ -1,0 +1,29 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-04-21, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-04-21 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: the-weird-aquarian
+SourceCode: https://github.com/StellarSand/OpenRec
+IssueTracker: https://github.com/StellarSand/OpenRec/issues
+
+AutoName: OpenRec
+
+MaintainerNotes:
+  AppAdded: 2021-08-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/StellarSand/OpenRec/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed to make audio recordings
+  Status:
+    - 2022-11-07 no release since 7/2021, last code commit 7/2021; switch from Tags to Static
+    - 2024-05-17 repo has been archived 2024-04-21, UCM Static => None
+
+AllowedAPKSigningKeys: 978c6ce18e96478555d492a1a974d6beec434c35c24e36c27eb32a99a478505d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

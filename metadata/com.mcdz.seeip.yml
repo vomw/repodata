@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: madcodez
+AuthorWebSite: https://mcdz.tech/
+SourceCode: https://github.com/mcdz/LocalIP
+IssueTracker: https://github.com/mcdz/LocalIP/issues
+
+AutoName: Local IP
+
+MaintainerNotes:
+  AppAdded: 2020-09-20
+  Method: github-repo
+  GHSkipPre: 1
+  GHDownloadDir: https://github.com/mcdz/LocalIP/app/release
+  Status:
+    - 2021-12-07 switching AUM from Tags to Static (last release was 6/2020; no commit since)
+    - 2023-08-07 last release 6/2020, last code commit 6/2020
+    - 2024-02-14 no activity since 2020, disabling update checks
+
+AllowedAPKSigningKeys: e8c0bf4b7714ab934a826e31ef3c0f49379b1b79d47ca51663d89b096c7118d4
+
+UpdateCheckMode: None

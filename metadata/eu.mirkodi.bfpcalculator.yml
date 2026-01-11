@@ -1,0 +1,23 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Mirko Di
+AuthorWebSite: https://www.mirkodi.eu/
+SourceCode: https://codeberg.org/mirk0dex/BFP-Calculator
+IssueTracker: https://codeberg.org/mirk0dex/BFP-Calculator/issues
+
+AutoName: BFP Calculator
+
+MaintainerNotes:
+  AppAdded: 2024-03-17
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/mirk0dex/BFP-Calculator/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,screenshots
+  Status:
+    - 2025-06-27 last release 2024-05-05; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 2e63f111a0c839c94b1470284c53b0b972954978b460d0a5f485efa56869dbfe
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

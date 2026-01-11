@@ -1,0 +1,39 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to traewelling.de for push, GitHub for Emoji fonts and line colors and OpenStreetMap and OpenRailwayMap for maps
+    de-DE: Die App nutzt Verbindungen zu traewelling.de für Push Nachrichten, GitHub für Emoji Schriftarten und Linien Farben und OpenStreetMap & OpenRailwayMap für Karten
+Categories:
+  - Navigation
+License: AGPL-3.0-only
+AuthorName: Jonas Heubuch
+AuthorEmail: app@traewelldroid.de
+AuthorWebSite: https://traewelldroid.de/
+WebSite: https://traewelldroid.de/
+SourceCode: https://github.com/Traewelldroid/traewelldroid
+IssueTracker: https://github.com/Traewelldroid/traewelldroid/issues
+Changelog: https://github.com/Traewelldroid/traewelldroid/releases
+
+AutoName: Träwelldroid
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-02-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Traewelldroid/traewelldroid/tree/dev/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter-package
+  DoubleList: keep
+  LibIgnore:
+    - /org/acra
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to obtain the location for check-in
+    android.permission.ACCESS_FINE_LOCATION: needed to obtain the location for check-in
+    android.permission.INTERNET: needed to perform the check-in
+  Status:
+    - 2024-01-13 updater reported usesCleartextTraffic, asked upstream at https://github.com/Traewelldroid/traewelldroid/issues/320
+
+AllowedAPKSigningKeys: 989fb4f387a7ea95f56405841bbae8af0c14ddff0462a1c919d9119944b20efc
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

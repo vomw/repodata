@@ -1,0 +1,24 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Valentin
+SourceCode: https://github.com/v4lpt/YXN
+IssueTracker: https://github.com/v4lpt/YXN/issues
+Changelog: https://github.com/v4lpt/YXN/releases
+
+AutoName: VPT#006-YXN - Yes XOR No?
+
+MaintainerNotes:
+  AppAdded: 2024-08-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/v4lpt/YXN/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneIgnore: title
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/586
+
+AllowedAPKSigningKeys: 82424b6cc09e5d3505ca7b4cd11cf401e2e7998582761b00aaec80c96623b3ae
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

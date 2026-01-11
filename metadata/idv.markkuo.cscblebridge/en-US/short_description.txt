@@ -1,0 +1,1 @@
+bridge ANT+ Cycling Speed/Cadence/HR sensors as Bluetooth LE sensors

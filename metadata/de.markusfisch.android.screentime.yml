@@ -1,0 +1,27 @@
+Categories:
+  - System
+  - Time
+License: Unlicense
+AuthorName: Markus Fisch
+AuthorEmail: mf@markusfisch.de
+AuthorWebSite: https://www.markusfisch.de/
+SourceCode: https://github.com/markusfisch/ScreenTime
+IssueTracker: https://github.com/markusfisch/ScreenTime/issues
+Changelog: https://github.com/markusfisch/ScreenTime/releases
+
+AutoName: Screen Time
+
+MaintainerNotes:
+  AppAdded: 2022-01-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/markusfisch/ScreenTime/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+  Status:
+    - 2025-06-27 last release 2024-04-27; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 83bbfa0cd1c1a049b706e792d44a76e185acc89734494886f230e3cb3e9b07d2
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

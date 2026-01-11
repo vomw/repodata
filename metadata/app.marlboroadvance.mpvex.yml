@@ -1,0 +1,32 @@
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: MarlboroAdvance
+AuthorEmail: marlboroadvance@zohomail.in
+SourceCode: https://github.com/marlboro-advance/mpvEx
+IssueTracker: https://github.com/marlboro-advance/mpvEx/issues
+Changelog: https://github.com/marlboro-advance/mpvEx/releases
+Donate: https://github.com/marlboro-advance/mpvEx#support-the-project
+
+AutoName: mpvEx
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-11-18
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/marlboro-advance/mpvEx/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_VIDEO: to access the videos it shall play
+    android.permission.READ_EXTERNAL_STORAGE: for usb otg and sdcard support, plus tree view for recursive directory video discovery
+    android.permission.MANAGE_EXTERNAL_STORAGE: for usb otg and sdcard support, plus tree view for recursive directory video discovery
+  Status:
+    - 2025-11-21 READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE – https://github.com/marlboro-advance/mpvEx/issues/16#issuecomment-3564789885 (answered 10 minutes later, wow!)
+
+AllowedAPKSigningKeys: 68690654e3ee46d70895a12445dfa98d8c963d13e2de0f8aaa209765cc2c415e
+
+VercodeOperation: '(%c -2) / 10'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

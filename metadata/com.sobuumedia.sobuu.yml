@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on getsobuu.com, where you will need an account at.
+    de: Die App hängt von getsobuu.com ab, wo ein Account benötigt wird.
+Categories:
+  - Reading
+License: Apache-2.0
+AuthorName: Sobuu
+AuthorEmail: info@getsobuu.com
+WebSite: https://getsobuu.com
+SourceCode: https://gitlab.com/sobuu/sobuu
+IssueTracker: https://gitlab.com/sobuu/sobuu/-/issues
+Changelog: https://gitlab.com/sobuu/sobuu/-/releases
+
+AutoName: Sobuu
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-08-07
+  Method: gitlab-tags
+  GHSkipPre: 1
+  ApkMatch: /fdroid-release/i
+  Fastlane: https://gitlab.com/sobuu/sobuu/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: ACRA is optional and disabled by default, see https://gitlab.com/IzzyOnDroid/repo/-/work_items/817#note_2675273030
+  LibIgnore:
+    - /org/acra
+  PermIgnore:
+    android.permission.CAMERA: for the integrated barcode scanner, to scan the ISBN from a book
+    android.permission.ACCESS_NETWORK_STATE: to check if a network connection is available
+
+AllowedAPKSigningKeys: b56c63b6bd0bf31114447748b781ad1bde4b10dbf9c0fc6e61b3dc71550f63a9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

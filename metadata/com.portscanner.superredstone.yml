@@ -1,0 +1,25 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Superredstone
+AuthorWebSite: https://superredstone.github.io/
+SourceCode: https://github.com/Superredstone/Port-Scanner
+IssueTracker: https://github.com/Superredstone/Port-Scanner/issues
+Changelog: https://github.com/Superredstone/Port-Scanner/releases
+Donate: https://ko-fi.com/Superredstone123
+
+AutoName: PortScanner
+
+MaintainerNotes:
+  AppAdded: 2021-06-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Superredstone/Port-Scanner/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  Status:
+    - 2023-08-07 last release 6/2021, last commit 6/2021, author still active
+
+AllowedAPKSigningKeys: 86cf9628f05ab471267edf1865eb6af87da2f5bd0269bcf00dbc915b36e755fd
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

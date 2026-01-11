@@ -1,0 +1,27 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Jucktion
+AuthorWebSite: https://www.jucktion.com/
+SourceCode: https://github.com/jucktion/healthlog
+IssueTracker: https://github.com/jucktion/healthlog/issues
+
+AutoName: healthlog
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-01-06
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64/i
+  Fastlane: https://github.com/jucktion/healthlog/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: used to restore backups
+    android.permission.WRITE_EXTERNAL_STORAGE: used to write backups
+    android.permission.MANAGE_EXTERNAL_STORAGE: used to write backups on higher Android versions
+
+AllowedAPKSigningKeys: 7eb090b7ca92fcad02d5e707d6bf7c07ad245689c324ce776b1bbeb864bd3e72
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

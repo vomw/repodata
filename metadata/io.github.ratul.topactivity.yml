@@ -1,0 +1,32 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Ratul Hasan
+AuthorEmail: ratul.hasan.rahat.bd@gmail.com
+SourceCode: https://github.com/codehasan/Current-Activity
+IssueTracker: https://github.com/codehasan/Current-Activity/issues
+Changelog: https://github.com/codehasan/Current-Activity/releases
+
+AutoName: Current Activity
+
+MaintainerNotes:
+  AppAdded: 2022-06-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/codehasan/Current-Activity/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed to show the moving popup window
+    android.permission.QUERY_ALL_PACKAGES: needed to query the app details to show
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 5/2022, last commit 6/2023)
+    - 2025-11-13 2 new releases this year; keeping UCM=Static for now
+    - 2025-11-13 [reported still working](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/14)
+    - 2025-12-01 new release came in, but signed with wrong key (for 1.5.9 & 2.0.0; and integrated self-updater for 2.0.0) – https://github.com/codehasan/Current-Activity/issues/69
+    - 2025-12-06 verified OTR (via mail)
+    - 2025-12-06 upstreaming our local Fastlane metadata via https://github.com/codehasan/Current-Activity/pull/70
+
+AllowedAPKSigningKeys: 09252c3533c4378957d22ead9165dbd91fb252119e7fce7eb595dcca6c4b6748
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

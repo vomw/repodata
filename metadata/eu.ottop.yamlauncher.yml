@@ -1,0 +1,31 @@
+Categories:
+  - Theming
+  - System
+License: MIT
+AuthorName: Otto Petäjä
+AuthorWebSite: https://ottop.eu/
+SourceCode: https://codeberg.org/ThomasNowProductions/yamlauncher
+IssueTracker: https://codeberg.org/ThomasNowProductions/yamlauncher/issues
+Changelog: https://codeberg.org/ThomasNowProductions/yamlauncher/releases
+
+AutoName: YAM Launcher
+
+MaintainerNotes:
+  AppAdded: 2024-08-13
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/ThomasNowProductions/yamlauncher/src/branch/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: needed for the optional the double tap to lock feature
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed so the launcher can display apps available on the device
+    android.permission.ACCESS_COARSE_LOCATION: used to find the weather location
+    android.permission.REQUEST_DELETE_PACKAGES: needed to be able to uninstall apps from within the drawer
+    android.permission.READ_CONTACTS: for the optional contact search feature
+  DoubleList: keep
+
+AllowedAPKSigningKeys: be988b6bb056e6cdf0bb41d8d8fcdceb966fc404b76504d469dbfcf1e6c867a3
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

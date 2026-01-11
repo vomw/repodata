@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: MIT
+AuthorName: danielshorten
+AuthorEmail: danielshorten@gmail.com
+SourceCode: https://github.com/danielshorten/k9t9
+IssueTracker: https://github.com/danielshorten/k9t9/issues
+Changelog: https://github.com/danielshorten/k9t9/releases
+
+AutoName: K9Keyboard
+
+MaintainerNotes:
+  AppAdded: 2022-09-07
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release 3/2023, last commit 12/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 2c353a2e9b7aadc5a548f358de3e23c576e73c766332f048d13c221587728f48
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

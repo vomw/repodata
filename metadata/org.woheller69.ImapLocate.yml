@@ -1,0 +1,27 @@
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Wolfgang Heller
+AuthorEmail: woheller69@t-online.de
+SourceCode: https://github.com/woheller69/ImapLocate
+IssueTracker: https://github.com/woheller69/ImapLocate/issues
+Changelog: https://github.com/woheller69/ImapLocate/releases
+Donate: https://www.paypal.com/donate?hosted_button_id=XVXQ54LBLZ4AA
+
+AutoName: ImapLocate
+
+MaintainerNotes:
+  AppAdded: 2025-08-22
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/woheller69/ImapLocate/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: to record the current location
+    android.permission.ACCESS_FINE_LOCATION: to record the current location
+    android.permission.ACCESS_BACKGROUND_LOCATION: to also record when the app is in background
+
+AllowedAPKSigningKeys: ed934ec71b86a372bc2e5d9f9efdfbb52a11b897c000bae6a33ac59f7988c6b5
+
+AutoUpdateMode: Version V%v
+UpdateCheckMode: Tags

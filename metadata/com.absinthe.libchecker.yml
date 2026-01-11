@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Absinthe
+AuthorEmail: zhaobozhen2025@gmail.com
+AuthorWebSite: https://absinthe.life/
+SourceCode: https://github.com/LibChecker/LibChecker
+IssueTracker: https://github.com/LibChecker/LibChecker/issues
+Changelog: https://github.com/LibChecker/LibChecker/releases
+
+AutoName: LibChecker - View Apps Info
+
+MaintainerNotes:
+  AppAdded: 2020-07-22
+  AppRemoved: 2022-08-12 arrived at F-Droid 2022-08-02
+  AddedBack: 2024-11-24
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-release/i
+  Fastlane: https://github.com/LibChecker/LibChecker/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to list all apps for scanning
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/667
+
+AllowedAPKSigningKeys: b12e1cfbfe285849d6740018022eec2209feb28c2685df6f4d2f97dbde3b5775
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

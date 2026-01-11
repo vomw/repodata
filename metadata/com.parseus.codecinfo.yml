@@ -1,0 +1,24 @@
+Categories:
+  - Multimedia
+  - System
+License: Apache-2.0
+AuthorName: Krzysztof Nawrot
+AuthorEmail: nawrot.krzysztof@gmail.com
+SourceCode: https://github.com/Parseus/codecinfo
+IssueTracker: https://github.com/Parseus/codecinfo/issues
+Changelog: https://github.com/Parseus/codecinfo/releases
+AutoName: Codec Info
+
+MaintainerNotes:
+  AppAdded: 2020-09-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /mobile-release/i
+  Fastlane: https://github.com/Parseus/codecinfo/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: used up to Android 8 by the theme manager
+
+AllowedAPKSigningKeys: 421e7b05695683015ac0e6c20a38669f14e83f4635fb703cd205697a74ba2463
+
+UpdateCheckMode: Tags

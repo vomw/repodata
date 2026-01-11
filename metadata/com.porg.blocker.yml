@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Narek
+AuthorWebSite: https://fosstodon.org/@narek
+SourceCode: https://gitlab.com/narektor/disconnect
+IssueTracker: https://gitlab.com/narektor/disconnect/-/issues
+Changelog: https://gitlab.com/narektor/disconnect/-/releases
+
+AutoName: Disconnect
+
+MaintainerNotes:
+  AppAdded: 2023-01-08
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Status:
+    - 2024-02-22 last release 12/2022, last commit 4/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: f6cb5383b12005572a56ac02de0bb71302f83f73430bcc38740759d0eadc95ba
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

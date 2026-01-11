@@ -1,0 +1,42 @@
+AntiFeatures:
+  - ApplicationDebuggable
+Categories:
+  - Security
+  - Internet
+License: AGPL-3.0-only
+AuthorName: Mobile-IoT-Security-Lab
+SourceCode: https://github.com/0xdad0/HideDroid
+IssueTracker: https://github.com/0xdad0/HideDroid/issues
+
+AutoName: HideDroid
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2021-10-12
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm\.apk/i
+  FlagIgnore:
+    usesCleartextTraffic: the app needs to filter all traffic
+  IntentFilterIgnore:
+    android.net.VpnService: the app uses Android’s VPNService to filter traffic without the need of root access
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to install the repackaged apps
+    android.permission.REQUEST_DELETE_PACKAGES: needed to uninstall the original app before installing the repackaged one
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted via WRITE_EXTERNAL_STORAGE
+    android.permission.WRITE_EXTERNAL_STORAGE: needed for creating and storing SSL certificates
+  NameSpaces:
+    - /com/dave/anonymization_data
+    - /com/dave/realmdatahelper
+  Note: see https://ieeexplore.ieee.org/abstract/document/9694493 for some background on the app
+  Status:
+    - 2022-12-11 Tags=>Static (last release 10/2021, last commit 2/2022)
+    - 2024-01-08 uses debug certificate https://github.com/Mobile-IoT-Security-Lab/HideDroid/issues/12 (not sure if it is working at all, see issue 11)
+    - 2024-03-10 new release with proper cert, but scanner reports REQUEST_INSTALL_PACKAGES REQUEST_DELETE_PACKAGES READ_EXTERNAL_STORAGE*
+    - 2025-11-13 last release/commit now 3/2024, keeping UCM=Static
+
+AllowedAPKSigningKeys: 7866b2ed2dc735d7138255bd57d6d46367dd89a0b8831ee8d57ded4c03ab0c2a
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

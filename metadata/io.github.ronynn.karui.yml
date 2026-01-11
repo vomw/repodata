@@ -1,0 +1,24 @@
+Categories:
+  - Office
+  - Time
+License: GPL-3.0-only
+AuthorName: ronynn
+AuthorWebSite: https://ronynn.github.io/
+SourceCode: https://github.com/ronynn/karui
+IssueTracker: https://github.com/ronynn/karui/issues
+Changelog: https://github.com/ronynn/karui/releases
+
+AutoName: Karui
+
+MaintainerNotes:
+  AppAdded: 2025-03-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ronynn/karui/blob/1.1/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 131b3899e1160941018c6ad717faca2a608729013e85af4ae870273bdac1919a
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

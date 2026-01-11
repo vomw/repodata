@@ -1,0 +1,38 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes Google Billing library.
+    de: Die App enthält die Google Billing Bibliothek.
+  NonFreeNet:
+    en-US: The app connects to Google servers for iAP.
+    de: Die App verbindet sich zu Google Servern für in-App Billing.
+Categories:
+  - System
+  - Xposed
+License: MIT
+AuthorName: Wardell Bagby
+AuthorEmail: playstore@wardellbagby.com
+AuthorWebSite: https://wardellbagby.com/
+WebSite: https://wardellbagby.com/#project?name=Sensor%20Disabler
+SourceCode: https://github.com/wardellbagby/sensor-disabler
+IssueTracker: https://github.com/wardellbagby/sensor-disabler/issues
+Changelog: https://github.com/wardellbagby/sensor-disabler/releases
+
+AutoName: '[XPOSED] Sensor Disabler'
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-22
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/wardellbagby/sensordisabler
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to select apps to (not) mock sensors for
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 3/2022, last commit 3/2022)
+    - 2026-01-09 still no new commits; disabling update checks altogether
+
+AllowedAPKSigningKeys: 334128c554fadd3dbd658d7fb12071a76f696ebc72d37724695a65ee02cee2ab
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

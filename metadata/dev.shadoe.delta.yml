@@ -1,0 +1,26 @@
+Categories:
+  - System
+  - Connectivity
+License: BSD-3-Clause
+AuthorName: supershadoe
+AuthorEmail: shadoe@shadoe.dev
+AuthorWebSite: https://shadoe.dev/
+SourceCode: https://github.com/supershadoe/delta
+IssueTracker: https://github.com/supershadoe/delta/issues
+Translation: https://crowdin.com/project/delta-app
+Changelog: https://github.com/supershadoe/delta/releases
+
+AutoName: Delta
+
+MaintainerNotes:
+  AppAdded: 2025-03-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/supershadoe/delta/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,screenshots
+  Note: Fastlane is our starter package
+  X-AutoUpdateMode: Version v%v
+
+AllowedAPKSigningKeys: 1bfce50143eab0df7dafc438c8b38703899aeb373615f0f76adc76e3073d9ef9
+
+UpdateCheckMode: Tags

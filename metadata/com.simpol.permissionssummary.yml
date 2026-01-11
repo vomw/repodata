@@ -1,0 +1,29 @@
+Categories:
+  - System
+  - Security
+License: GPL-3.0-only
+AuthorName: SimpolCo
+SourceCode: https://github.com/SimpolCo/Permissions-Summary
+IssueTracker: https://github.com/SimpolCo/Permissions-Summary/issues
+Changelog: https://github.com/SimpolCo/Permissions-Summary/releases
+
+AutoName: Permissions Summary
+
+MaintainerNotes:
+  AppAdded: 2025-08-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SimpolCo/Permissions-Summary/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to find the apps to check
+  Status:
+    - 2025-08-18 upstreaming our Fastlane via https://github.com/SimpolCo/Permissions-Summary/pull/1
+    - 2025-10-02 repo & account disappeard today (reported by our RB updater)
+
+AllowedAPKSigningKeys: d2c71e08959b8467c207f3bac2c4e834d9b05734545fe12dbae3b7c5d09c1512
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None
+NoSourceSince: 1.3.0

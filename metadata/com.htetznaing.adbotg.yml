@@ -1,0 +1,24 @@
+Categories:
+  - Connectivity
+License: BSD-3-Clause
+AuthorName: Khun Htetz Naing
+AuthorWebSite: https://khunhtetznaing.com/
+SourceCode: https://github.com/KhunHtetzNaing/ADB-OTG
+IssueTracker: https://github.com/KhunHtetzNaing/ADB-OTG/issues
+
+AutoName: ADB⚡OTG - Android Debug Bridge On The Go.
+
+MaintainerNotes:
+  AppAdded: 2021-01-26
+  Method: github-repo
+  GHSkipPre: 1
+  GHDownloadDir: https://github.com/KhunHtetzNaing/ADB-OTG/blob/master/app/release
+  Status:
+    - 2021-05-06 [asked for license](https://github.com/KhunHtetzNaing/ADB-OTG/issues/7)
+    - 2022-05-01 no commits since 7/2020, setting UCM from NULL to Static
+    - 2022-11-25 change license from Apache-2 to BSD-3-Clause, see https://github.com/KhunHtetzNaing/ADB-OTG/issues/7#issuecomment-1326022777
+    - 2025-09-29 all releases are gone, UCM=>None
+
+AllowedAPKSigningKeys: 434b6e2072719a25680c8cbdf7f20d27aae05ec7d027e89dc54fdbb1131450ee
+
+UpdateCheckMode: None

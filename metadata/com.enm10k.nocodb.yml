@@ -1,0 +1,23 @@
+Categories:
+  - Office
+License: MIT
+AuthorName: enm10k
+AuthorEmail: enm10k@gmail.com
+SourceCode: https://github.com/enm10k/nocodb-mobile
+IssueTracker: https://github.com/enm10k/nocodb-mobile/issues
+Changelog: https://github.com/enm10k/nocodb-mobile/releases
+
+AutoName: nocodb
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-04-14
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-06-27 last releases lack APKs, https://github.com/enm10k/nocodb-mobile/issues/43
+    - 2026-01-09 still no answer to the issue, and no new APKs, so disabling update checks now entirely.
+
+AllowedAPKSigningKeys: 54223cbb6ff67601183470b8617d50c35bd16c07ce7519eeccddeae27caf9a06
+
+UpdateCheckMode: None

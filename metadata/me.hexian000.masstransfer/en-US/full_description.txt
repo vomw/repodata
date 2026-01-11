@@ -1,0 +1,1 @@
+<p><i>Mass Transfer</i> only transfers files between Android devices. For example: You can share files over Wi-Fi or Wi-Fi direct or hotspot between Android phones using Mass Transfer.</p><p>Goal: "reasonable fast" & "as simple as possible". Very light-weight!</p>

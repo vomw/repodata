@@ -1,0 +1,29 @@
+Categories:
+  - Reading
+  - Multimedia
+License: MIT
+AuthorName: Marcin Simonides
+AuthorEmail: marcin@studio4plus.com
+WebSite: https://msimonides.github.io/homerplayer/
+SourceCode: https://github.com/msimonides/homerplayer
+IssueTracker: https://github.com/msimonides/homerplayer/issues
+Changelog: https://github.com/msimonides/homerplayer/releases
+
+MaintainerNotes:
+  AppAdded: 2017-03-03
+  Method: github-release
+  Fastlane: https://github.com/msimonides/homerplayer/tree/master/fastlane/metadata/android
+  FastlaneFeatures: video,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: part of legacy support (needed on lower Android versions)
+  Status:
+    - 2020-04-14 v0.8 increased number of trackers to 4, see https://github.com/msimonides/homerplayer/issues/20
+    - 2020-12-10 v0.9.4 finally solved that
+    - 2024-02-22 last release/commit 12/2022, UCM Tags=>Static
+    - 2024-12-01 scanner reports android.permission.READ_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK – https://github.com/msimonides/homerplayer/issues/30
+    - 2025-10-02 upstreaming our Fastlane metadata via https://github.com/msimonides/homerplayer/pull/31
+
+AllowedAPKSigningKeys: ba1a8061c601f7ed237d1b316c07fcaf1e74714170bbb6358fc1d323590c95f1
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

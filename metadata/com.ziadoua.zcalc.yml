@@ -1,0 +1,31 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-09-16, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-09-16 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Science & Education
+  - Office
+License: GPL-3.0-only
+AuthorName: Ziad OUALHADJ
+AuthorWebSite: https://ziadoua.github.io/
+SourceCode: https://github.com/ziadOUA/zCalc
+IssueTracker: https://github.com/ziadOUA/zCalc/issues
+Changelog: https://github.com/ziadOUA/zCalc/releases
+
+AutoName: zCard
+
+MaintainerNotes:
+  AppAdded: 2023-05-22
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ziadOUA/zCalc/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
+  Note: fulldesc not correctly formatted, also inclomplete
+  X-AutoUpdateMode: Version v%v v<versionName>-<someOtherVersion>?
+  Status:
+    - 2024-09-25 repo was archived 2024-09-16, UCM Tags=>None
+    - 2024-10-23 reported as still working, see https://gitlab.com/IzzyOnDroid/repo/-/issues/617
+
+AllowedAPKSigningKeys: 4195b35eb16aee827d89839b5e8a899b7c273fc09300c4045e99536d35cb06e8
+
+UpdateCheckMode: None

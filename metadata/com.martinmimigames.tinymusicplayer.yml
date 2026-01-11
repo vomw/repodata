@@ -1,0 +1,27 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: MGGames
+AuthorEmail: martinmimigames@gmail.com
+AuthorWebSite: https://martinmimigames.github.io/
+WebSite: https://martinmimigames.github.io/projects/tiny-music-player/index.html
+SourceCode: https://github.com/martinmimigames/tiny-music-player
+IssueTracker: https://github.com/martinmimigames/tiny-music-player/issues
+Changelog: https://github.com/martinmimigames/tiny-music-player/releases
+
+AutoName: Tiny Music Player
+
+MaintainerNotes:
+  AppAdded: 2022-12-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/martinmimigames/tiny-music-player/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon
+  DoubleList: keep
+  Status:
+    - 2024-02-22 last release 2/2023, last code-commit 2/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: e7de6a6e56d431b54d6e7452a3c9b69f4f0d89115685b1e46c73dfb251c38806
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

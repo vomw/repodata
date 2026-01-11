@@ -1,0 +1,37 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: Rely on wallhaven.cc.
+Categories:
+  - Theming
+License: GPL-3.0-or-later
+AuthorName: Ammar Githam
+AuthorEmail: ammar.githam@outlook.com
+SourceCode: https://github.com/ammargitham/WallFlow
+IssueTracker: https://github.com/ammargitham/WallFlow/issues
+Changelog: https://github.com/ammargitham/WallFlow/releases
+
+AutoName: WallFlow Plus
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-10-05
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-plus-arm64/i
+  NameSpaces:
+    - /com/ammar/wallflow
+  Fastlane: https://github.com/ammargitham/WallFlow/tree/main/src/plus/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/435#note_1590824310
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to access wallpapers in the storage
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to store downloaded wallpapers
+  Status:
+    - 2023-10-05 keep once it shows up at F-Droid, see https://gitlab.com/IzzyOnDroid/repo/-/issues/435#note_1590824310
+    - 2025-06-09 last release 4/2024, last commit 5/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 1546a9c1ffa4482504fa41c8b4d66ebaa387b96bd87cea2a148133876ed87dd4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

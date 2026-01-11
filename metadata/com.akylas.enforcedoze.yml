@@ -1,0 +1,29 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: farfromrefuge
+AuthorWebSite: https://www.akylas.fr/
+SourceCode: https://github.com/farfromrefug/EnforceDoze
+IssueTracker: https://github.com/farfromrefug/EnforceDoze/issues
+Translation: https://hosted.weblate.org/engage/enforcedoze/
+
+AutoName: EnforceDoze
+
+MaintainerNotes:
+  AppAdded: 2024-09-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/farfromrefug/EnforceDoze/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to select apps to doze
+    android.permission.ACCESS_NETWORK_STATE: used to detect hotspot state to not disable wifi/data if hostpot is enabled
+    android.permission.READ_PHONE_STATE: to check if mobile data need to be disabled on Doze if configured
+    android.permission.ACCESS_WIFI_STATE: to check if WiFi needs to be disabled on Doze if configured
+    android.permission.CHANGE_WIFI_STATE: to disable WiFi on Doze if configured
+
+AllowedAPKSigningKeys: 50c3301e181970be7d50b4cd51e44060db6876ebf6adb02e48336db4048e5757
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

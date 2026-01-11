@@ -1,0 +1,1 @@
+<p><i>Android PTT Bluetooth Speaker Sender</i> lets you send your microphon output to a second device running the counter-part application, <a href='fdroid.app:com.github.warren_bank.ptt_bluetooth_speaker.receiver'>Android PTT Bluetooth Speaker Receiver</a>.</p>

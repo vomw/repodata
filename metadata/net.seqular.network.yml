@@ -1,0 +1,31 @@
+Categories:
+  - Social Network
+  - Messaging
+  - Internet
+License: GPL-3.0-only
+AuthorName: Kansu Köse
+AuthorWebSite: https://seqular.net/blog/kansu/
+WebSite: https://seqular.net/en/
+SourceCode: https://github.com/tipone/seqular-android
+IssueTracker: https://github.com/tipone/seqular-android/issues
+Changelog: https://github.com/tipone/seqular-android/releases
+
+AutoName: Seqular
+
+MaintainerNotes:
+  AppAdded: 2025-05-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /-release/i
+  ApkIgnore: /fdroidRelease/i
+  Fastlane: https://github.com/tipone/seqular-android/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.CAMERA: photos can be made from inside the app to include with your toots
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/751
+
+AllowedAPKSigningKeys: ef8dbb3b86102b29ce819501c7d48dc42f494ccee205e881a51a565bea19b4cd
+
+AutoUpdateMode: Version .*-%c
+UpdateCheckMode: Tags

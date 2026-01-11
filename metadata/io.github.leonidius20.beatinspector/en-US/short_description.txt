@@ -1,0 +1,1 @@
+view BPM, key, genre, time signature & avg loudness of a track from Spotify API

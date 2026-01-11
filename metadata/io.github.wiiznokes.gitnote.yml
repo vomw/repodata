@@ -1,0 +1,29 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: wiiznokes
+SourceCode: https://github.com/wiiznokes/gitnote
+IssueTracker: https://github.com/wiiznokes/gitnote/issues
+Changelog: https://github.com/wiiznokes/gitnote/releases
+
+AutoName: GitNote
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-05-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/wiiznokes/gitnote/blob/master/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane graphics are on git-lfs; seem to be corrupted when fetched via git?
+  DoubleList: keep
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to access any place in local storage for syncing with git
+  Status:
+    - 2025-08-19 UCM Tags=>Static as versionCode was not increased
+    - 2025-11-13 graphics in fastlane broken https://github.com/wiiznokes/gitnote/issues/134
+
+AllowedAPKSigningKeys: 02b75e9435709ea903522374bdcbec528cf1cd12771474f1d58e61eaf0565fbb
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

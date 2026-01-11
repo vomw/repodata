@@ -1,0 +1,36 @@
+Categories:
+  - Social Network
+  - Internet
+License: AGPL-3.0-only
+AuthorName: Hamlet Jiang Su
+SourceCode: https://github.com/thunder-app/thunder
+IssueTracker: https://github.com/thunder-app/thunder/issues
+Translation: https://hosted.weblate.org/engage/thunder/
+Changelog: https://github.com/thunder-app/thunder/releases
+
+AutoName: Thunder
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-06-16
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/thunder-app/thunder/blob/develop/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,featureGraphicJPG,screenshotsJPG
+  FastlaneIgnore: video
+  Note: video.txt empty
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed on earlier Android versions to select media to include with posts
+  LibIgnore:
+    - /io/sentry
+  Status:
+    - 2023-06-20 added Tracking; pointed out details to author https://github.com/hjiangsu/thunder/issues/10#issuecomment-1600334989
+    - 2023-06-23 Sentry is now opt-in, AF removed
+    - 2023-10-02 removed AUM due to inconsistencies in tag naming
+    - 2024-01-15 updater reported android:usesCleartextTraffic – https://github.com/thunder-app/thunder/issues/1060
+  X-AutoUpdateMode: Version v%v author switches between v%v, v%v+%c and %v, so we try without
+
+AllowedAPKSigningKeys: 6192d8dd8705133baea655e24883d6af61860682d32b3dc90b8c2ea30b02b596
+
+UpdateCheckMode: Tags

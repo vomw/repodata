@@ -1,0 +1,49 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains non-free libraries (Fido, Google Play Core, Google Mobile Services).
+    de: Die App enthält unfreie Bibliotheken (Fido, Google Play Core, Google Mobile Services).
+  NonFreeNet:
+    en-US: The app establishes connections to Google servers.
+    de: Die App baut Verbindungen zu Google-Servern auf.
+Categories:
+  - Messaging
+License: GPL-3.0-only
+AuthorName: SMSWithoutBorders
+AuthorEmail: developers@smswithoutborders.com
+AuthorWebSite: https://smswithoutborders.com/
+WebSite: https://smswithoutborders.com/
+SourceCode: https://github.com/smswithoutborders/RelaySMS-Android
+IssueTracker: https://github.com/smswithoutborders/RelaySMS-Android/issues
+Changelog: https://github.com/smswithoutborders/RelaySMS-Android/releases
+
+AutoName: SMSWOB
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-03-08
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/example/sw0b_001
+    - /vault/v1
+  Fastlane: https://github.com/smswithoutborders/RelaySMS-Android/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  Note: video.txt empty
+  PermIgnore:
+    android.permission.READ_PHONE_STATE: needed to get the mobile network code to recommend a nearby Gateway client
+    android.permission.READ_CONTACTS: to choose contacts to send to
+    android.permission.READ_SMS: the app communicates over SMS
+    android.permission.RECEIVE_SMS: the app communicates over SMS
+    android.permission.SEND_SMS: the app communicates over SMS
+    android.permission.RECEIVE_MMS: the app communicates over SMS
+    android.permission.RECEIVE_WAP_PUSH: the app communicates over SMS
+  Status:
+    - 2024-07-07 scanner reports CAMERA READ_PHONE_STATE – https://github.com/smswithoutborders/SMSWithoutBorders-App-Android/issues/101
+    - 2025-04-07 android.permission.READ_CONTACTS
+    - 2025-10-23 AFs now seem to be obfuscated; Fido, PlayCore, GMS still show up with extended smali scan, APK also contains PlayService files
+
+AllowedAPKSigningKeys: dee0522c2f17d711e6b468bf212abfd10d346350c8df41c4d474d34c33fc01fc
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Tags

@@ -1,0 +1,1 @@
+verbindet ANT+ Cycling Speed/Cadence/HR-Sensoren als Bluetooth LE-Sensoren

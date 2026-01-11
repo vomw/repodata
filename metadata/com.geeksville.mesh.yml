@@ -1,0 +1,47 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Meshtastic
+AuthorEmail: contact@meshtastic.org
+AuthorWebSite: https://meshtastic.org/
+WebSite: https://meshtastic.org/
+SourceCode: https://github.com/meshtastic/Meshtastic-Android
+IssueTracker: https://github.com/meshtastic/Meshtastic-Android/issues
+Translation: https://crowdin.meshtastic.org/android
+Changelog: https://github.com/meshtastic/Meshtastic-Android/releases
+
+AutoName: Meshtastic
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-01-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid/i
+  Fastlane: https://github.com/meshtastic/Meshtastic-Android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: video,title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneIgnore: changelogs
+  Note: changelogs only have default.txt
+  NameSpaces:
+    - /org/meshtastic
+  FlagIgnore:
+    usesCleartextTraffic: to access the local (on-device) map tileserver
+  PermIgnore:
+    android.permission.BLUETOOTH: needed to connect to radios via Bluetooth
+    android.permission.BLUETOOTH_ADMIN: needed to find radios to connect to via Bluetooth
+    android.permission.BLUETOOTH_CONNECT: needed to connect to radios via Bluetooth
+    android.permission.BLUETOOTH_SCAN: needed to find radios to connect to via Bluetooth
+    android.permission.ACCESS_FINE_LOCATION: needed so radios without GPS can use Android’s GPS
+    android.permission.ACCESS_COARSE_LOCATION: needed so radios without GPS can use Android’s location service
+    android.permission.CAMERA: needed by the integrated QR Code scanner
+  DoubleList: keep
+  Status:
+    - 2024-01-31 scanner reports BLUETOOTH_SCAN ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION ACCESS_BACKGROUND_LOCATION CAMERA – https://github.com/meshtastic/Meshtastic-Android/issues/829
+    - 2024-04-16 app reached F-Droid at 2024-04-03, but still carries our badge. Let’s keep it as long as it stays < 15 MB per APK.
+    - 2025-05-25 usesCleartextTraffic, see https://github.com/meshtastic/Meshtastic-Android/issues/829#issuecomment-2908133496
+    - 2025-09-29 v2.7.1 comes with privacySandbox, Crashlytics, Firebase Analytics, GMS, Firebase; UCM Tags=>Static until solved – https://github.com/meshtastic/Meshtastic-Android/issues/3231#issuecomment-3344350645
+
+AllowedAPKSigningKeys: a93b456568c175db0800a09f06777f892d812432adb8a3df73bc3e7f06c80c6d
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,24 @@
+Categories:
+  - Multimedia
+License: GPL-2.0-only
+AuthorName: Simon Chan
+SourceCode: https://github.com/yume-chan/VolumeManager
+IssueTracker: https://github.com/yume-chan/VolumeManager/issues
+Changelog: https://github.com/yume-chan/VolumeManager/releases
+
+AutoName: Volume Manager
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-08-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/yume-chan/VolumeManager/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,screenshots
+  Status:
+    - 2025-08-18 upstreaming our local Fastlane metadata via https://github.com/yume-chan/VolumeManager/pull/14
+
+AllowedAPKSigningKeys: 74cdd6422595d84f046eab3e96bf29401b2346532300c6155d50122d589235dc
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

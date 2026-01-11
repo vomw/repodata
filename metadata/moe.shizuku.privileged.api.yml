@@ -1,0 +1,33 @@
+AntiFeatures:
+  UpstreamNonFree:
+    en-US: TOS forbids redistribution of modified versions of the app.
+    de: Die nutzungsbedingungen verbieten die Verbreitung modifizierter Versionen der App.
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Rikka apps
+AuthorEmail: support@rikka.app
+AuthorWebSite: https://t.me/RikkaUserGroup
+WebSite: https://shizuku.rikka.app/
+SourceCode: https://github.com/RikkaApps/Shizuku
+IssueTracker: https://github.com/RikkaApps/Shizuku/issues
+Changelog: https://github.com/RikkaApps/Shizuku/releases
+AutoName: Shizuku
+
+MaintainerNotes:
+  AppAdded: 2020-11-16
+  Method: github-release
+  GHSkipPre: 1
+  Note: explicit permission granted to us, see https://github.com/RikkaApps/Shizuku/issues/69#issuecomment-727717512
+  NameSpaces:
+    - /moe/shizuku/manager
+    - /moe/shizuku/starter
+    - /rish_shizuku
+  X-AutoUpdateMode: Version v%v no match possible as versionName has vc+hash appended
+  Status:
+    - 2025-03-23 last release 2024-03-10, last non-weblate commit 2024-04-02; UCM Tags=>Static
+    - 2025-05-29 UpstreamNonFree can *probably* be removed once there is a new release, see https://gitlab.com/IzzyOnDroid/repo/-/issues/101#note_2531089407 & https://github.com/RikkaApps/Shizuku/issues/69#issuecomment-2917010418
+
+AllowedAPKSigningKeys: 268b5590e868fb08bae7e0ac413564cd1ff88f5ccff74af9dbd0dc918e30db30
+
+UpdateCheckMode: Static

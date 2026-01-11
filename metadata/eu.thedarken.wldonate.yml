@@ -1,0 +1,33 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2023-08-19, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2023-08-19 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Matthias Urhahn
+AuthorEmail: darken@darken.eu
+AuthorWebSite: https://darken.eu/
+SourceCode: https://github.com/d4rken-org/wakelock-revamp
+IssueTracker: https://github.com/d4rken-org/wakelock-revamp/issues
+Translation: https://crowdin.com/project/wakelock
+Changelog: https://github.com/d4rken-org/wakelock-revamp/releases
+AutoName: Wakelock v3
+
+MaintainerNotes:
+  AppAdded: 2020-09-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/d4rken-org/wakelock-revamp/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL
+  Status:
+    - 2020-09-19 app was not updated for 1y 4m 0d; switching UCM from Tags to Static
+    - 2021-10-22 switched back to Tags (2 updates this months already)
+    - 2022-12-11 Tags=>Static again; the update on 2021-10-21 was the last and no more commits since 7/2022
+    - 2023-10-02 repo was archived 2023-08-19, UCM Static => None
+    - 2024-10-23 reported as still working, see https://gitlab.com/IzzyOnDroid/repo/-/issues/617
+
+AllowedAPKSigningKeys: d8f53ee160eb071a1e20f4399a999f3102a4bfd45da204f362cc691a847d7eb2
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

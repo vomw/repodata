@@ -1,0 +1,31 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Mohammed-Said Belaid
+AuthorEmail: said.belaid@univ-usto.dz
+SourceCode: https://github.com/msbelaid/PlugBrain
+IssueTracker: https://github.com/msbelaid/PlugBrain/issues
+
+AutoName: PlugBrain 🧠
+
+MaintainerNotes:
+  AppAdded: 2025-07-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/msbelaid/PlugBrain/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: helps the app know when a blocked app is opened
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to select apps to block
+    android.permission.SYSTEM_ALERT_WINDOW: allows the app to display the challenge screen from a background service
+    android.permission.PACKAGE_USAGE_STATS: used to detect the time usage of blocked apps
+    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: to prevent the system from killing the app (optional)
+  Status:
+    - 2025-07-21 android.accessibilityservice.AccessibilityService SYSTEM_ALERT_WINDOW – https://github.com/msbelaid/PlugBrain/issues/29
+    - 2025-08-19 UCM Tags=>Static as versionCode was not increased, see https://github.com/msbelaid/PlugBrain/issues/35 (solved 2025-08-24)
+
+AllowedAPKSigningKeys: 776dfaa24e8316225bd4a1caa00cfdfdd87beb17571e5b3469cfdb92453d4ba9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

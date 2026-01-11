@@ -1,0 +1,1 @@
+<p><i>ShareFileServer</i> lets you share files to your local network. It does so by running a local web server, providing the files you select.</p>

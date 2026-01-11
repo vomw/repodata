@@ -1,0 +1,24 @@
+Categories:
+  - Science & Education
+License: GPL-2.0-only
+AuthorName: Abduaziz Kayumov
+AuthorEmail: kayumovabduaziz@gmail.com
+SourceCode: https://github.com/azizkayumov/flashcard-maker-android
+IssueTracker: https://github.com/azizkayumov/flashcard-maker-android/issues
+
+Name: Flashcard Maker
+
+MaintainerNotes:
+  AppAdded: 2018-01-27
+  Method: github-repo
+  GHDownloadDir: https://github.com/azizkayumov/flashcard-maker-android/blob/master/app/release
+  Fastlane: https://github.com/azizkayumov/flashcard-maker-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: video,title,shortdesc,fulldesc,icon,featureGraphic
+  Status:
+    - 2019-02-15 changed package name (https://github.com/AbduazizKayumov/Flashcard-Maker-Android/issues/1#issuecomment-463911775)
+    - 2021-11-00 only 1 (old) release tagged with APK attached, newer APK(s?) directly inside the repo
+    - 2022-12-11 set to Static (last release & last commit 11/2021)
+
+AllowedAPKSigningKeys: f4e05a5d13c3dae614115a46e7d60876e2689a4404f8133608b57b9eceed42e3
+
+UpdateCheckMode: Static

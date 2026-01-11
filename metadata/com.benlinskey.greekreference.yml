@@ -1,0 +1,27 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-11-08, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-11-08 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Science & Education
+License: Apache-2.0
+AuthorName: Ben Linskey
+AuthorEmail: greekreference@benlinskey.com
+SourceCode: https://github.com/blinskey/greek-reference
+IssueTracker: https://github.com/blinskey/greek-reference/issues
+Changelog: https://github.com/blinskey/greek-reference/releases
+Donate: https://givedirectly.org/
+
+Name: Greek Reference
+
+MaintainerNotes:
+  AppAdded: 2017-03-31
+  Method: github-release
+  Status:
+    - 2024-02-12 while archived in 2017, author picked up again. Asked for APKs again https://github.com/blinskey/greek-reference/issues/158#issuecomment-1939667256
+    - 2025-08-03 we tried to upstream fastlane metadata; unfortunately, Ben feels overloaded already and unable to maintain fastlane as well, so our PR was rejected; https://github.com/blinskey/greek-reference/pull/163
+
+AllowedAPKSigningKeys: 81ed5c8a847a99322da9f0f0f037a526640275a8d99c583c8003fd72d24066fe
+
+ArchivePolicy: 2
+UpdateCheckMode: None

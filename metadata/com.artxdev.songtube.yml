@@ -1,0 +1,41 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to YouTube (obviously).
+    de: Die App baut Verbindungen zu YouTube auf (warum wohl?)
+  NonFreeComp:
+    en-US: The app includes an apk_installer which has no license declared.
+Categories:
+  - Internet
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: SongTube
+AuthorEmail: jesusgabriel.91@gmail.com
+WebSite: https://songtube.github.io/
+SourceCode: https://github.com/SongTube/SongTube-App
+IssueTracker: https://github.com/SongTube/SongTube-App/issues
+Changelog: https://github.com/SongTube/SongTube-App/releases
+
+AutoName: SongTube
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-01-15
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-release/i
+  ApkIgnore: /(x86|arm|songtube)-release/i
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed on lower Android versions to edit a song’s artwork and tags
+    android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to fetch all songs from device
+    android.permission.REQUEST_INSTALL_PACKAGES: used by the opt-in update checker
+    android.permission.READ_MEDIA_IMAGES: needed on newer Android versions to access on-device images for artwork
+    android.permission.READ_MEDIA_VIDEO: needed on newer Android versions to fetch all videos from device
+    android.permission.READ_MEDIA_AUDIO: needed on newer Android versions to fetch all songs from device
+  Status:
+    - 2024-01-31 asked for permissions (MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE REQUEST_INSTALL_PACKAGES) at https://github.com/SongTube/SongTube-App/issues/262
+    - 2025-06-09 last release 3/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 5e0a11820203278a9ce22ab33db75c09398cce76fc0317ae19ca8169614a8c4d
+
+AutoUpdateMode: Version %v\+\d+
+UpdateCheckMode: Static

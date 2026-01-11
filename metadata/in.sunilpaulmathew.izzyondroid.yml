@@ -1,0 +1,31 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: sunilpaulmathew
+AuthorEmail: smartpack.org@gmail.com
+AuthorWebSite: https://smartpack.github.io/
+SourceCode: https://gitlab.com/sunilpaulmathew/izzyondroid
+IssueTracker: https://gitlab.com/sunilpaulmathew/izzyondroid/-/issues
+Donate: https://smartpack.github.io/donation/
+Liberapay: sunilpaulmathew
+
+AutoName: IzzyOnDroid
+
+MaintainerNotes:
+  AppAdded: 2021-08-28
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/sunilpaulmathew/izzyondroid/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: this is the purpose of the app (installing apps/updates)
+    android.permission.QUERY_ALL_PACKAGES: needs to know what apps it must check for updates
+    android.permission.REQUEST_DELETE_PACKAGES: required to uninstall apps
+  DoubleList: keep
+  Status:
+    - 2024-10-07 scanner reports android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE – https://gitlab.com/sunilpaulmathew/izzyondroid/-/issues/11
+
+AllowedAPKSigningKeys: b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

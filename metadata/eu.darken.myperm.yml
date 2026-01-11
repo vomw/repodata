@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeAssets:
+    en-US: The app includes graphical assets which are not libre.
+    de: Die App enthält unfreie Grafik-Assets.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Matthias Urhahn
+AuthorEmail: support@darken.eu
+AuthorWebSite: https://darken.eu/
+SourceCode: https://github.com/d4rken-org/permission-pilot
+IssueTracker: https://github.com/d4rken-org/permission-pilot/issues
+Changelog: https://github.com/d4rken-org/permission-pilot/releases
+
+AutoName: Mystic Permissions
+
+MaintainerNotes:
+  AppAdded: 2022-07-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/d4rken-org/permission-pilot/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphicJPG,screenshotsJPG
+  FastlaneIgnore: changelogs
+  Note: Fastlane was our minimal starter package; changelogs only have default.txt
+  LibIgnore:
+    - /com/bugsnag
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list the apps for permission scan
+  Status:
+    - 2022-07-14 asked whether Bugsnag is opt-in https://github.com/d4rken/mystic-permissions/issues/4 (also, Icon is being requested in issue 2)
+    - 2022-07-15 removing Tracking AF and white-listing Bugsnag as it is unused and will be removed with the next release, see https://github.com/d4rken/mystic-permissions/issues/4#issuecomment-1184747265
+
+AllowedAPKSigningKeys: a9ad5c8855014d4bca1c3d4e60a083ae362d1977897b9ac3be2082fddf0d9c7f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

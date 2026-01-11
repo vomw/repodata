@@ -1,0 +1,23 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Michael Berger
+AuthorEmail: michael.andreas.berger@outlook.com
+SourceCode: https://github.com/synapp009/NeuroCalm
+IssueTracker: https://github.com/synapp009/NeuroCalm/issues
+
+AutoName: NeuroCalm
+
+MaintainerNotes:
+  AppAdded: 2025-07-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/synapp009/NeuroCalm/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneIgnore: changelogs
+  Note: Fastlane changelogs only has default.txt
+
+AllowedAPKSigningKeys: 91edebaa58303ceee25c79c8f0b9902c285396529c33ecb6a273f5d1c30d81b0
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

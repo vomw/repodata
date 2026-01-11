@@ -1,0 +1,41 @@
+Categories:
+  - Navigation
+License: EPL-1.0
+AuthorName: OwnTracks
+AuthorEmail: support@owntracks.org
+AuthorWebSite: https://owntracks.org/
+WebSite: https://owntracks.org/
+SourceCode: https://github.com/owntracks/android
+IssueTracker: https://github.com/owntracks/android/issues
+Changelog: https://github.com/owntracks/android/releases
+
+AutoName: OwnTracks
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2016-03-27
+  AppRemoved: 2022-06-29 reached F-Droid 2022-05-03
+  AddedBack: 2022-10-28
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /release-oss/i
+  ApkIgnore: /release-gms/i
+  DoubleList: keep
+  Fastlane: https://github.com/owntracks/android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  Note: video.txt is empty
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to get your location
+    android.permission.ACCESS_FINE_LOCATION: needed to get your location
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed to get your location when the app is not in foreground
+  Status:
+    - 2023-08-23 signing key changed https://github.com/owntracks/android/issues/1461
+    - 2023-09-03 author proved to hold the old signing key (94e6715957850cf5ec5e78b68587ee7128ba45e7323ba798c0269b4d8c695a99) by attaching a new release using it
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/owntracks/android/pull/2099
+
+AllowedAPKSigningKeys: 1fc4de52d0daa33a9c0e3d67217a77c895b46266ef020fad0d48216a6ad6cb70
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,1 @@
+<p><i>FuckLocation</i> is a simple xposed module that helps you fully control your location. Currently, you may return custom location to specific apps.</p>

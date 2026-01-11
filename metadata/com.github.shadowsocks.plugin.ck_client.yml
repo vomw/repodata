@@ -1,0 +1,27 @@
+Categories:
+  - Internet
+  - System
+License: GPL-3.0-or-later
+AuthorName: Andy Wang
+AuthorEmail: cbeuw.andy@gmail.com
+SourceCode: https://github.com/cbeuw/Cloak-android
+IssueTracker: https://github.com/cbeuw/Cloak-android/issues
+
+AutoName: Cloak
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2020-03-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/cbeuw/Cloak-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD
+  DoubleList: keep
+  Status:
+    - 2024-07-14 often forgets to increase versionCode it seems – https://github.com/cbeuw/Cloak-android/issues/41
+    - 2024-09-08 mark as DoubleList by default
+
+AllowedAPKSigningKeys: 670a8d4d3da302886858770e8067f5b381237274132f917e7822bd6914700f24
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

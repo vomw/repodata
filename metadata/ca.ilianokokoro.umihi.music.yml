@@ -1,0 +1,26 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app needs to connect to YouTube.
+    de: Die App benötigt Verbindungen zu YouTube.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: ilianoKokoro
+SourceCode: https://github.com/ilianoKokoro/umihi-music
+IssueTracker: https://github.com/ilianoKokoro/umihi-music/issues
+Changelog: https://github.com/ilianoKokoro/umihi-music/releases
+
+AutoName: Umihi Music
+
+MaintainerNotes:
+  AppAdded: 2025-08-31
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ilianoKokoro/umihi-music/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: f1f83fa5ebf5a43ee0f4abc8d0add89d9434380ea4e7f296ffe84e1a6610c5bb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

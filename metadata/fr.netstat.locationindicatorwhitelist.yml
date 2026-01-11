@@ -1,0 +1,27 @@
+Categories:
+  - Xposed
+  - System
+License: LGPL-3.0-only
+AuthorName: Gilbert Gilb’s
+SourceCode: https://github.com/gilbsgilbs/LocationIndicatorWhitelist
+IssueTracker: https://github.com/gilbsgilbs/LocationIndicatorWhitelist/issues
+Changelog: https://github.com/gilbsgilbs/LocationIndicatorWhitelist/releases
+
+AutoName: Location Indicator Whitelist
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-04-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/gilbsgilbs/LocationIndicatorWhitelist/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  Note: Fastlane is our starter package
+  Status:
+    - 2024-12-10 last release 4/2023, last commit 12/2023 (after that, only renovatebot); UCM Tags=>Static
+    - 2025-10-04 shipped our Fastlane upstream via https://github.com/gilbsgilbs/LocationIndicatorWhitelist/pull/21
+
+AllowedAPKSigningKeys: 9fcfdf35b66e428c677b885c69a1b31f723f5b65851e9039bdd16fc3192debca
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

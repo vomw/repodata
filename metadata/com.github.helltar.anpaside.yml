@@ -1,0 +1,27 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2023-07-19, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2023-07-19 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Development
+License: MIT
+AuthorName: Helltar
+SourceCode: https://github.com/Helltar/ANPASIDE
+IssueTracker: https://github.com/Helltar/ANPASIDE/issues
+Changelog: https://github.com/Helltar/ANPASIDE/releases
+
+AutoName: ANPASIDE
+
+MaintainerNotes:
+  AppAdded: 2021-11-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Helltar/ANPASIDE/tree/master/fastlane/medatada/android
+  FastlaneFeatures: title,video,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  Status:
+    - 2023-08-17 repo was archived 2023-07-19, disabling update check (was Tags)
+
+AllowedAPKSigningKeys: fda253bf0918e2340c9d155c805d5e52f3b056dba8aac3d857aa9c95d3d3055d
+
+AutoUpdateMode: Version v.+-%c
+UpdateCheckMode: None

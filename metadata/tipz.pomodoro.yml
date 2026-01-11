@@ -1,0 +1,25 @@
+Categories:
+  - Time
+License: Apache-2.0
+AuthorName: TipzTeam
+WebSite: https://xdaforums.com/t/app-2-3-pomodoro-timer-app.4719016/
+SourceCode: https://codeberg.org/TipzTeam/pomodoro
+IssueTracker: https://codeberg.org/TipzTeam/pomodoro/issues
+Changelog: https://codeberg.org/TipzTeam/pomodoro/releases
+
+AutoName: Pomodoro
+
+MaintainerNotes:
+  AppAdded: 2025-03-16
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/TipzTeam/pomodoro/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-08-23 upstreaming our metadata via https://codeberg.org/TipzTeam/pomodoro/pulls/2
+
+AllowedAPKSigningKeys: 7aeba57be6259df5eacb4bab2be9bbfa7850996b304c9ffceb112a954953485d
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

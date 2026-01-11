@@ -1,0 +1,30 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Youtube.
+    de: Die App nutzt Verbindungen zu Youtube.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Mo Agamy
+SourceCode: https://github.com/mostafaalagamy/Metrolist
+IssueTracker: https://github.com/mostafaalagamy/Metrolist/issues
+Changelog: https://github.com/mostafaalagamy/Metrolist/releases
+
+AutoName: Metrolist
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-12-31
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Metrolist\.apk/i
+  Fastlane: https://github.com/mostafaalagamy/Metrolist/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/metrolist
+    - /com/my/kizzy
+
+AllowedAPKSigningKeys: e32c4f2efd7ee9548faee22e45a60425f7728a55a610fd5e8ab9364f74b7bcc9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,33 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-06-29, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-06-29 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Johann Bauer
+AuthorEmail: bauerj@bauerj.eu
+AuthorWebSite: https://bauerj.eu/
+SourceCode: https://github.com/bauerj/paperless_app
+IssueTracker: https://github.com/bauerj/paperless_app/issues
+AutoName: Paperless
+
+MaintainerNotes:
+  AppAdded: 2020-05-16
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi/i
+  Fastlane: https://github.com/bauerj/paperless_app/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescNL,featureGraphicJPG
+  FastlaneIgnore: screenshots
+  Note: Fastlane only en-US; fulldesc not well-formatted and would break (half HTML, no LF between paragraphs); screenshots have many duplicates
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 2/2022, last commit 12/2022)
+    - 2024-11-24 repo was archived 2024-06-29, UCM Static=>None
+    - 2024-12-04 reported as still working fine by multiple responses to https://floss.social/@IzzyOnDroid/113590598842990443
+
+AllowedAPKSigningKeys: 4c43f8020679fd0da69b31a2b27724a40ce034ea1168eb83b1e945dc9632896f
+
+ArchivePolicy: 2
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

@@ -1,0 +1,33 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-05-01, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-05-01 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Office
+License: Apache-2.0
+AuthorName: Cam Patten
+AuthorEmail: campatten.dev@outlook.com
+SourceCode: https://github.com/PamCatten/hot-stuff
+IssueTracker: https://github.com/PamCatten/hot-stuff/issues
+Translation: https://www.transifex.com/pamcatten/hot-stuff/
+Changelog: https://github.com/PamCatten/hot-stuff/releases
+
+AutoName: "Hot Stuff: Offline Inventory"
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-04-14
+  Method: github-release
+  GHSkipPre: 1
+  X-AutoUpdateMode: Version v%v
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: needed to allow inclusion of existing images from storage
+  Status:
+    - 2025-05-21 upstream repo was archived 2025-05-01, UCM Tags=>None
+
+AllowedAPKSigningKeys: eef74f4caae868d2723ed3ed71c9aefdb04384a7bac5718aa5c16eebbcf57ed0
+
+UpdateCheckMode: None

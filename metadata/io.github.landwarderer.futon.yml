@@ -1,0 +1,32 @@
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: Futon App
+AuthorEmail: appfuton@gmail.com
+SourceCode: https://github.com/AppFuton/Futon
+Changelog: https://github.com/AppFuton/Futon/releases
+
+AutoName: Futon
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-12-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/AppFuton/Futon/blob/devel/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.REQUEST_DELETE_PACKAGES: required for managing external manga source plugins and allow their direct uninstallation
+    android.permission.MANAGE_EXTERNAL_STORAGE: required for manga library management on Android 11+
+    android.permission.QUERY_ALL_PACKAGES: for discovering external manga sources
+    android.permission.READ_EXTERNAL_STORAGE: required for manga library management on Android 10 and before
+    android.permission.WRITE_EXTERNAL_STORAGE: required for manga library management on Android 10 and before
+    android.permission.AUTHENTICATE_ACCOUNTS: for the opt-in sync feature (favourites/history)
+    android.permission.GET_ACCOUNTS: for the opt-in sync feature (favourites/history)
+    android.permission.MANAGE_ACCOUNTS: for the opt-in sync feature (favourites/history)
+    android.permission.USE_CREDENTIALS: for the opt-in sync feature (favourites/history)
+
+AllowedAPKSigningKeys: ef48b22ef2c54045531f6e7600c27ec3d03b71221e0b05ffb68e3357cf8e4d40
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

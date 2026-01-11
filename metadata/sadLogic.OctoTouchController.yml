@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+Categories:
+  - Connectivity
+License: AGPL-3.0-only
+AuthorName: Steven De George SR
+AuthorEmail: ehomecreations@gmail.com
+WebSite: https://github.com/jakebullet70/OctoTouchController/wiki
+SourceCode: https://github.com/jakebullet70/OctoTouchController
+IssueTracker: https://github.com/jakebullet70/OctoTouchController/issues
+Changelog: https://github.com/jakebullet70/OctoTouchController/releases
+
+AutoName: OctoTC
+
+MaintainerNotes:
+  AppAdded: 2022-10-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /foss/i
+  Fastlane: https://github.com/jakebullet70/OctoTouchController/blob/V2.X/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /com/rootsoft/oslibrary
+    - /flm/b4a/gesturedetector
+  Status:
+    - 2023-11-09 signing key changed, UCM Tags=>Static https://github.com/jakebullet70/OctoTouchController/issues/61
+    - 2023-11-16 Steven provided latest APK signed with the old key, thus verifying the "legit switch" of keys
+    - 2023-11-29 continued as sadLogic.OctoTouchController.foss for devices running Android 5+ (this one is kept for 4.* and earlier)
+    - 2025-04-13 REQUEST_INSTALL_PACKAGES READ_EXTERNAL_STORAGE* – https://github.com/jakebullet70/OctoTouchController/issues/63
+
+AllowedAPKSigningKeys: 3e287452f7b5efd3e6e0fb90c4eee9f6943da3f9842a36b59fc91215c916a4cd
+
+AutoUpdateMode: Version V%v
+UpdateCheckMode: Tags

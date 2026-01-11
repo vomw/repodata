@@ -1,0 +1,24 @@
+Categories:
+  - Time
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Danylo Biliaiev
+AuthorEmail: daniel.rendox@gmail.com
+AuthorWebSite: https://dev.to/danielrendox
+SourceCode: https://github.com/DanielRendox/RoutineTracker
+IssueTracker: https://github.com/DanielRendox/RoutineTracker/issues
+Changelog: https://github.com/DanielRendox/RoutineTracker/releases
+
+AutoName: Routine Tracker
+
+MaintainerNotes:
+  AppAdded: 2024-03-04
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-03-04 tag name is one version ahead (v0.1.1 carries apk 0.1.0)
+
+AllowedAPKSigningKeys: 95c2fd6691ebd550684747e5a84ada6faccb51f5b1231701b96b549a0ae62a7f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

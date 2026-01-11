@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: MIT
+AuthorName: kdragon
+AuthorEmail: kdrag0n@pm.me
+AuthorWebSite: https://kdrag0n.dev/
+SourceCode: https://github.com/kdrag0n/tipatch
+IssueTracker: https://github.com/kdrag0n/tipatch/issues
+Changelog: https://github.com/kdrag0n/tipatch/releases
+
+AutoName: Tipatch
+
+MaintainerNotes:
+  AppAdded: 2018-08-23
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /lite/
+  LibIgnore:
+    - /io/sentry
+  Status:
+    - 2020-09-19 app was not updated for 1y 9m 23d; switching UCM from Tags to Static
+    - 2022-05-15 app is discontinued, see https://github.com/kdrag0n/tipatch/issues/3#issuecomment-1123099564
+    - 2022-05-15 Sentry is disabled in the lite build used here, see https://github.com/kdrag0n/tipatch/issues/3#issuecomment-1123099564
+    - 2023-08-07 last release 11/2018, last commit 11/2018
+
+AllowedAPKSigningKeys: b428b0a2afd0b29aa638277a48f870d643d85f465e3f4531d86fdae0938b3a97
+
+UpdateCheckMode: None

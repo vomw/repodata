@@ -1,0 +1,27 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: AlfTenDev
+AuthorEmail: alftendev@gmail.com
+SourceCode: https://github.com/Alfio010/notification-listener-android
+IssueTracker: https://github.com/Alfio010/notification-listener-android/issues
+Changelog: https://github.com/Alfio010/notification-listener-android/releases
+
+AutoName: Notifications Recovery
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-02-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Alfio010/notification-listener-android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/android/alftendev
+    - /com/android/whatsappbackup
+
+AllowedAPKSigningKeys: 09cb30ab94a7597cd115c5e117726aa45a5ffe80e1d467f373435c6c86856a8d
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

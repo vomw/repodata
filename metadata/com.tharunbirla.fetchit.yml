@@ -1,0 +1,27 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: Tharun Birla
+SourceCode: https://github.com/tharunbirla/FetchIt
+IssueTracker: https://github.com/tharunbirla/FetchIt/issues
+Changelog: https://github.com/tharunbirla/FetchIt/releases
+
+AutoName: Fetchit
+
+MaintainerNotes:
+  AppAdded: 2024-10-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/tharunbirla/FetchIt/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.WRITE_EXTERNAL_STORAGE: used to save videos to any storage location on Android ≤ 10
+    android.permission.READ_EXTERNAL_STORAGE: implicit by WRITE_EXTERNAL_STORAGE
+  Status:
+    - 2024-10-24 scanner reports READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE READ_MEDIA_IMAGES READ_MEDIA_VIDEO READ_MEDIA_AUDIO – https://github.com/tharunbirla/FetchIt/issues/12
+
+AllowedAPKSigningKeys: 5ed4cb8f82efdc24cd482a165b85a6e4741598e23b0166ebe2a1121d553a0f33
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

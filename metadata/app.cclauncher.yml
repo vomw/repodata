@@ -1,0 +1,31 @@
+Categories:
+  - Navigation
+  - System
+  - Theming
+License: GPL-3.0-only
+AuthorName: MLM Games
+AuthorEmail: mlm.gamestudio@gmail.com
+AuthorWebSite: https://ragebreaker.itch.io/
+SourceCode: https://github.com/mlm-games/CCLauncher
+IssueTracker: https://github.com/mlm-games/CCLauncher/issues
+Changelog: https://github.com/mlm-games/CCLauncher/blob/HEAD/CHANGELOG.md
+
+AutoName: CClauncher
+
+MaintainerNotes:
+  AppAdded: 2025-04-25
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/mlm-games/CCLauncher/blob/compose/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: used for the "double tap to lock" feature
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list all available apps
+    android.permission.REQUEST_DELETE_PACKAGES: used to uninstall apps on request
+
+AllowedAPKSigningKeys: 57f73d58f4049f378ba988eae6edd1cc8cd245e0647e0f83dd669c450f4d056e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

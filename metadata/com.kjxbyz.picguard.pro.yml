@@ -1,0 +1,35 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app uses Sentry.
+    de: Die App verwendet Sentry.
+Categories:
+  - Graphics
+License: GPL-3.0-only
+AuthorName: PicGuard
+AuthorWebSite: https://picguard.app/
+WebSite: https://picguard.app/
+SourceCode: https://github.com/picguard/picguard
+IssueTracker: https://github.com/picguard/picguard/issues
+Changelog: https://github.com/picguard/picguard/releases
+
+AutoName: PicGuard
+
+MaintainerNotes:
+  AppAdded: 2024-11-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /pro_armeabi-v7a/i
+  Fastlane: https://github.com/picguard/picguard/tree/main/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /com/kjxbyz/picguard
+    - /com/kjxbyz/watermarkassistant
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: used to read images for editing
+    android.permission.WRITE_EXTERNAL_STORAGE: used to write edited images
+    android.permission.READ_MEDIA_IMAGES: needed to access images
+
+AllowedAPKSigningKeys: 1f1563316d8907218c21217dbb774568d5bda5d1a2d2675af84e8dac3a07f3b5
+
+AutoUpdateMode: Version v%v\+\d+$
+UpdateCheckMode: Tags

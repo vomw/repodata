@@ -1,0 +1,26 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-02-27, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-02-27 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: MIT
+AuthorName: j-hc
+SourceCode: https://github.com/j-hc/VolumeTile
+IssueTracker: https://github.com/j-hc/VolumeTile/issues
+Donate: https://www.buymeacoffee.com/prxm
+AutoName: Volume Tile
+
+MaintainerNotes:
+  AppAdded: 2023-04-15
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-06 uses debug key https://github.com/j-hc/VolumeTile/issues/2
+    - 2024-02-21 release signed APK available now
+    - 2025-02-27 repo was archived
+
+AllowedAPKSigningKeys: 16aeb5c490e0b854807a782bd17a207340e828ad56292466443d4647e9566bb1
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: None

@@ -1,0 +1,30 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app uses ACRA (crash reporter) with automated reports enabled.
+    de: Die App verwendet den Crash-Reporter ACRA mit aktivierten automatischen Reports.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Robin Jacobs
+AuthorEmail: android-dev@robinj.be
+AuthorWebSite: https://robinj.be/
+SourceCode: https://github.com/RobinJ1995/DistroHopper
+IssueTracker: https://github.com/RobinJ1995/DistroHopper/issues
+Translation: https://www.transifex.com/distrohopper/
+Changelog: https://github.com/RobinJ1995/DistroHopper/releases
+
+MaintainerNotes:
+  AppAdded: 2018-01-21
+  Method: github-release
+  Fastlane: https://github.com/RobinJ1995/DistroHopper/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 6/2020)
+    - 2022-07-28 asked whether ACRA is configured opt-out https://github.com/RobinJ1995/DistroHopper/issues/19#issuecomment-1198597866
+    - 2022-07-30 no answer yet so checking the code; `ACRA.getErrorReporter().handleSilentException(ex);`, yuck… Tracking AF set then. Sends to dev’s own server, though.
+    - 2025-11-01 android.permission.READ_EXTERNAL_STORAGE android.permission.SYSTEM_ALERT_WINDOW – https://github.com/RobinJ1995/DistroHopper/issues/19#issuecomment-3476123863
+
+AllowedAPKSigningKeys: 6d8055b508c9426b5f9d0ff483bec3c160c0a2a8753dfee720cebea364bbd997
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

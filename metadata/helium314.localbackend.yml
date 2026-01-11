@@ -1,0 +1,33 @@
+Categories:
+  - System
+  - Navigation
+License: GPL-3.0-or-later
+AuthorName: Helium314
+AuthorEmail: helium314@disroot.org
+SourceCode: https://github.com/Helium314/Local-NLP-Backend
+IssueTracker: https://github.com/Helium314/Local-NLP-Backend/issues
+Changelog: https://github.com/Helium314/Local-NLP-Backend/releases
+
+AutoName: Local NLP Backend
+
+MaintainerNotes:
+  AppAdded: 2022-09-07
+  AppRemoved: 2022-09-28 reached F-Droid 2022-09-10
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /release/i
+  ApkIgnore: /debug/i
+  Fastlane: https://github.com/Helium314/Local-NLP-Backend/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /org/fitchfamily/android/dejavu
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to collect location data
+    android.permission.ACCESS_FINE_LOCATION: needed to collect location data
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed to collect location data when in background
+
+AllowedAPKSigningKeys: 29c5f93a4c2a7a226af8fbf615a5198a511a76e9bc921acb910640c68632d58d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

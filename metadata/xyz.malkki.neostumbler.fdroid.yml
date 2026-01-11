@@ -1,0 +1,42 @@
+Categories:
+  - Navigation
+License: MIT
+AuthorName: Jaakko Malkki
+AuthorWebSite: https://malkki.xyz/
+SourceCode: https://github.com/mjaakko/NeoStumbler
+IssueTracker: https://github.com/mjaakko/NeoStumbler/issues
+Changelog: https://github.com/mjaakko/NeoStumbler/releases
+
+AutoName: NeoStumbler
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-05-15
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid-.*release/i
+  Fastlane: https://github.com/mjaakko/NeoStumbler/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/mjaakko/NeoStumbler/issues/18#issuecomment-2171687695
+  NameSpaces:
+    - /xyz/malkki/neostumbler
+  FlagIgnore:
+    usesCleartextTraffic: not used by default but intended for use with endpoints in the local network, if specified
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: required to access GPS location
+    android.permission.ACCESS_COARSE_LOCATION: required to access network location
+    android.permission.ACCESS_BACKGROUND_LOCATION: required to access location when the app is not in foreground
+    android.permission.READ_PHONE_STATE: required to collect cell towers
+    android.permission.BLUETOOTH_SCAN: required to see Bluetooth beacons
+    android.permission.ACCESS_WIFI_STATE: required to see WiFi devices
+    android.permission.FOREGROUND_SERVICE_LOCATION: needed to keep the collector running even with the screen switched off
+  Status:
+    - 2024-06-15 showed up at F-Droid 2024-05-14, asked whether to keep at https://github.com/mjaakko/NeoStumbler/issues/18#issuecomment-2168898118 – answer is "keep"
+    - 2024-06-16 scanner reports ACCESS_BACKGROUND_LOCATION usesCleartextTraffic DEPENDENCY_INFO_BLOCK – added to above issue
+    - 2025-04-01 APK size exploded from 4.5MB to 45MB (due to embedded MapLibre native libs), asked for per-ABI builds at https://github.com/mjaakko/NeoStumbler/issues/625 (and set ArchivePolicy to 1 for now)
+
+AllowedAPKSigningKeys: 7f839ac7afc4ff6f1c7fb1348ac10de2f17de8a78d0d812c1f43ae835a5111df
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

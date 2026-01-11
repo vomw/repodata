@@ -1,0 +1,25 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Akane Foundation
+SourceCode: https://github.com/FoedusProgramme/Omni
+IssueTracker: https://github.com/FoedusProgramme/Omni/issues
+Changelog: https://github.com/FoedusProgramme/Omni/releases
+
+AutoName: Omni
+
+MaintainerNotes:
+  AppAdded: 2024-05-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FoedusProgramme/Omni/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: used to show latitude & longitude
+    android.permission.ACCESS_COARSE_LOCATION: used to show latitude & longitude
+    android.permission.INTERNET: optionally used for GeoCoding
+
+AllowedAPKSigningKeys: f451197ad7b80bd1bc981ba38a2c49d471856fb38bcc333676d6e8f8f3ce5d6e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

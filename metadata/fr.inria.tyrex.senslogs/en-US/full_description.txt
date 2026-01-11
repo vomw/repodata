@@ -1,0 +1,1 @@
+<p><i>Senslogs</i> records values from several smartphone sensors such as Accelerometer, Gyroscope, Magnetic Field, NFC,WiFi, GPS, camera, heart rate, proximity. Most of data is stored in files using space separated values.</p>

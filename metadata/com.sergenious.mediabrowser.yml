@@ -1,0 +1,29 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: sergenious
+SourceCode: https://github.com/sergenious/MediaBrowserAndroid
+IssueTracker: https://github.com/sergenious/MediaBrowserAndroid/issues
+Changelog: https://github.com/sergenious/MediaBrowserAndroid/releases
+
+AutoName: Media Browser
+
+MaintainerNotes:
+  AppAdded: 2024-07-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sergenious/MediaBrowserAndroid/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: needed to access the media
+    android.permission.READ_EXTERNAL_STORAGE: needed to access the media
+    android.permission.READ_MEDIA_AUDIO: needed to access the media
+    android.permission.READ_MEDIA_VIDEO: needed to access the media
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to list all files in hierarchical structure
+  Status:
+    - 2024-07-18 scanner reports DEPENDENCY_INFO_BLOCK MANAGE_EXTERNAL_STORAGE – https://github.com/sergenious/MediaBrowserAndroid/issues/3
+
+AllowedAPKSigningKeys: 9783953cba7569471909b6858a148de4627113abfec13eba3c4b2702de7b2671
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

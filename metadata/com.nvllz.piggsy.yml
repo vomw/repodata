@@ -1,0 +1,21 @@
+Categories:
+  - Money
+License: GPL-3.0-only
+AuthorName: nvllz
+SourceCode: https://github.com/nvllz/piggsy
+IssueTracker: https://github.com/nvllz/piggsy/issues
+Changelog: https://github.com/nvllz/piggsy/releases
+
+AutoName: Piggsy
+
+MaintainerNotes:
+  AppAdded: 2025-08-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nvllz/piggsy/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 9242b92c7df80e474b091d6083b273be4912b4aca87e53dae7ffc8530413876e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

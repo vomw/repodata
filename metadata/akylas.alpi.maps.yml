@@ -1,0 +1,43 @@
+Categories:
+  - Navigation
+License: MIT
+AuthorName: Akylas
+AuthorWebSite: https://www.akylas.fr/
+SourceCode: https://github.com/Akylas/alpimaps
+IssueTracker: https://github.com/Akylas/alpimaps/issues
+Translation: https://hosted.weblate.org/projects/alpimaps/
+Changelog: https://github.com/Akylas/alpimaps/releases
+Donate: https://github.com/sponsors/farfromrefug
+
+AutoName: Alpi Maps
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-10-21
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/akylas/carto
+    - /com/tns/binding/tests
+    - /com/tns/gen
+    - /com/tns/internal
+  Fastlane: https://github.com/Akylas/alpimaps/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  FastlaneIgnore: video
+  Note: video.txt empty
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed for navigation
+    android.permission.ACCESS_FINE_LOCATION: needed for navigation
+    android.permission.CAMERA: needed for the peak finder AR view
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to access data generated off-device e.g. using the alpimaps_data_generator
+    android.permission.READ_EXTERNAL_STORAGE: needed to access data generated off-device e.g. using the alpimaps_data_generator
+  Status:
+    - 2023-02-16 v2.0.0.228 now comes with Sentry. Asked concerning its configuration to know whether we need to add Tracking, see https://github.com/Akylas/alpimaps/issues/3
+    - 2023-02-26 NameSpaces /com/tns/gen are generated ones from already present other ones
+    - 2024-02-09 scanner reports ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE CAMERA android.permission.READ_PHONE_STATE – https://github.com/Akylas/alpimaps/issues/15
+    - 2024-05-18 signing key issues, see https://github.com/Akylas/alpimaps/issues/17 – solved 2024-05-19
+
+AllowedAPKSigningKeys: 39ea68809209ba74af24f08eded1cb79d7beb69d473d99ffdf1a51540fa35472
+
+AutoUpdateMode: Version ^android/github/[^/]+/%c$
+UpdateCheckMode: Tags

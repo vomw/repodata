@@ -1,0 +1,30 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Warren Bank
+SourceCode: https://github.com/warren-bank/Android-AirPlay-Client
+IssueTracker: https://github.com/warren-bank/Android-AirPlay-Client/issues
+Changelog: https://github.com/warren-bank/Android-AirPlay-Client/releases
+
+AutoName: DroidPlay
+
+MaintainerNotes:
+  AppAdded: 2023-01-14
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Translations/i
+  FlagIgnore:
+    usesCleartextTraffic: needed for the on-device http server and connections in the LAN
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: to access local audio files for sharing
+    android.permission.READ_MEDIA_IMAGES: to access local image files for sharing
+    android.permission.READ_MEDIA_VIDEO: to access local video files for sharing
+    android.permission.READ_EXTERNAL_STORAGE: to access files for sharing on Android 4.x
+    android.permission.MANAGE_EXTERNAL_STORAGE: to find and access audio, video, and image files everywhere on local storage
+  Status:
+    - 2024-02-22 last release 1/2023, last commit 1/2023, UCM Tags=>Static
+    - 2024-09-01 MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE READ_MEDIA_AUDIO READ_MEDIA_IMAGES READ_MEDIA_VIDEO DEPENDENCY_INFO_BLOCK usesCleartextTraffic – https://github.com/warren-bank/Android-AirPlay-Client/issues/9
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+UpdateCheckMode: Static

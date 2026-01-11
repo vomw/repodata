@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Amir Zaidi
+AuthorEmail: azaidi@live.nl
+SourceCode: https://github.com/amirzaidi/Shade
+IssueTracker: https://github.com/amirzaidi/Shade/issues
+Changelog: https://github.com/amirzaidi/Shade/releases
+
+AutoName: Shade Launcher
+
+MaintainerNotes:
+  AppAdded: 2020-02-01
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-12-07 switching AUM from Tags to Static (last release was 9/2020, no commits since)
+    - 2025-11-10 still no new release, last commit 10/2023; disabling updates altogether
+
+AllowedAPKSigningKeys: c868db479d6b92d660d5f943dd43ec47d56b0c60aaeaadee3096074af75da520
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: None

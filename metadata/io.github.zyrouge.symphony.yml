@@ -1,0 +1,26 @@
+Categories:
+  - Multimedia
+License: AGPL-3.0-only
+AuthorName: ZYROUGE
+AuthorWebSite: https://zyrouge.is-a.dev/
+WebSite: https://zyrouge.github.io/symphony/
+SourceCode: https://github.com/zyrouge/symphony
+IssueTracker: https://github.com/zyrouge/symphony/issues
+
+AutoName: Symphony
+
+MaintainerNotes:
+  AppAdded: 2022-11-16
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  DoubleListRef: https://github.com/zyrouge/symphony/issues/119#issuecomment-1510798835
+  Fastlane: https://github.com/zyrouge/symphony/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  Status:
+    - 2023-04-16 reached F-Droid 2023-04-06. Offered to keep it here if zyrouge disables the integrated updater or makes it opt-in, https://github.com/zyrouge/symphony/issues/119#issuecomment-1510472370
+
+AllowedAPKSigningKeys: d51e49425b54173d80117bee1420a01aca24ff4c05d8156c7950d6a573433ae9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

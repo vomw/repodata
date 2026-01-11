@@ -1,0 +1,42 @@
+Categories:
+  - Internet
+License: LGPL-2.1-only
+AuthorName: VpnHood
+AuthorEmail: support@vpnhood.com
+WebSite: https://github.com/vpnhood/VpnHood/wiki
+SourceCode: https://github.com/vpnhood/VpnHood
+IssueTracker: https://github.com/vpnhood/VpnHood/issues
+Changelog: https://raw.githubusercontent.com/vpnhood/VpnHood/main/CHANGELOG.md
+
+AutoName: VpnHood
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-01-19
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /android-web\.apk$/
+  Fastlane: https://github.com/vpnhood/VpnHood/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneIgnore: changelogs
+  Note: Fastlane is our starter package; added changelogs are just default.txt
+  FlagIgnore:
+    usesCleartextTraffic: This is needed for *internal* traffic (the UI, running on localhost). All VpnHood outbound connections are strongly encrypted.
+  IntentFilterIgnore:
+    android.net.VpnService: This is a VPN client, so it needs the VpnService.
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: This permission is needed to let the VPN client split tunnel traffic for specific apps, giving the flexibility to choose which apps use the tunnel.
+  Status:
+    - 2022-10-09 v2.4.306 adds GMS, Google Ads & Firebase Analytics; removed & disabled updates; https://github.com/vpnhood/VpnHood/issues/136
+    - 2022-10-12 v2.4.310 removed the non-free stuff again; updates re-enabled
+    - 2023-10-05 signing key changed from 24e50ed1a31f0b23c68f10dbf417e319485a4a1328659120eacf8f107c2c9fe8 to 8af624a96e496d8ee2a2a4f8e5e3e537b2544b4a4f85665ee6b74af9bce4d8a9
+    - 2024-10-19 added Google Play Core library. Raised that in the issue for flag and perm https://github.com/vpnhood/VpnHood/issues/449#issuecomment-1900958196
+    - 2024-04-05 new release with only an APK having a new package name (com.vpnhood.client.android.web) being available. Asked whether to switch to that https://github.com/vpnhood/VpnHood/issues/449#issuecomment-2040491291
+    - 2024-04-06 new release (non-web) has fdroidserver crashing because of an androguard bug; UCM Tags=>Static for now – https://sources.debian.org/src/androguard/3.4.0~a1-14/debian/patches/0003-added-error-handling-for-res1-and-res0-must-be-zero.patch/
+    - 2025-01-19 switching over from com.vpnhood.client.android (which was established here 2021-08-14), see https://github.com/vpnhood/VpnHood/issues/449#issuecomment-2600503744
+    - 2025-08-19 upstreaming our Fastlane metadata via https://github.com/vpnhood/VpnHood/pull/721
+
+AllowedAPKSigningKeys: 07491d8a6547058071691e5d5dffc1a8b2c2584e11f27857f49b58d0a6bb7bf4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

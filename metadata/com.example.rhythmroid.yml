@@ -1,0 +1,29 @@
+Categories:
+  - Connectivity
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Astrodevs
+AuthorEmail: Astrodevsofficial@outlook.com
+AuthorWebSite: https://www.astrodevs.online/
+SourceCode: https://github.com/AstroDevs-Team/RhythmRoid
+IssueTracker: https://github.com/AstroDevs-Team/RhythmRoid
+
+AutoName: RhythmRoid
+
+MaintainerNotes:
+  AppAdded: 2022-02-01
+  Method: github-release
+  GHSkipPre: 1
+  FlagIgnore:
+    usesCleartextTraffic: used to access resources in the local network
+  PermIgnore:
+    android.permission.INTERNET: needed to access the local network
+  Status:
+    - 2023-02-11 Tags => Static as no release since 1/2022 (last commit 1/2022)
+    - 2024-02-05 app uses debug cert https://github.com/AioFall/RhythmRoid/issues/2
+    - 2024-03-07 replaced by APK signed with release key
+  X-AutoUpdateMode: Version v%v tag 0.5 has version 1.0
+
+AllowedAPKSigningKeys: 67aedcbbeb94e302bf1a64f9cb98657a03a89ac36cad23ad3ae2e3890452b23f
+
+UpdateCheckMode: Static

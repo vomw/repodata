@@ -1,0 +1,25 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: donmor
+AuthorEmail: donmor3000@hotmail.com
+AuthorWebSite: https://donmor.top/
+SourceCode: https://github.com/donmor/DroidFRPD
+IssueTracker: https://github.com/donmor/DroidFRPD/issues
+Changelog: https://github.com/donmor/DroidFRPD/releases
+
+AutoName: DroidFRPD
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-10-19
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /aarch64\.apk$/i
+  Fastlane: https://github.com/donmor/DroidFRPD/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 46f659b7ea1ec6b85c7c287819d8a805cedc88c3a4a0cfea567331da86205a32
+
+AutoUpdateMode: Version %v\+.*
+UpdateCheckMode: Tags

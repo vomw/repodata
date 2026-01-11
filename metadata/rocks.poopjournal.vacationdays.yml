@@ -1,0 +1,30 @@
+Categories:
+  - Time
+License: Apache-2.0
+AuthorName: Crazy Marvin
+AuthorEmail: marvin@poopjournal.rocks
+AuthorWebSite: https://crazymarvin.com/
+WebSite: https://crazymarvin.com/vacation-days/
+SourceCode: https://github.com/Crazy-Marvin/VacationDays
+IssueTracker: https://github.com/Crazy-Marvin/VacationDays/issues
+Translation: https://hosted.weblate.org/engage/vacation-days/
+Changelog: https://github.com/Crazy-Marvin/VacationDays/releases
+Donate: https://poopjournal.rocks/blog/donate/
+
+AutoName: Vacation Days
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-03-03
+  AppRemoved: 2022-04-30 reached F-Droid at 2022-04-18
+  AddedBack: 2025-03-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Crazy-Marvin/VacationDays/tree/development/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,video,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 0111ee02b4123cdbf7d47d54a2e38472142ee676f842ade511d56ed466f1be53
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

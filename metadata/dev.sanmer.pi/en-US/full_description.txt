@@ -1,0 +1,1 @@
+<p><i>PI</i> is short for "Package Installer". It is just a Package Installer and its function is very simple. In short, my idea is, this app works for me, you can use it if you like, but if you need features that I don't need, then I won't add them. It's just a niche project.</p><p><i>PI</i> requires Shizuku or root to acquire the elevated privileges needed to do its job.</p>

@@ -1,0 +1,31 @@
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: JHubi1
+AuthorEmail: me@jhubi1.com
+AuthorWebSite: https://jhubi1.com/
+SourceCode: https://github.com/JHubi1/ollama-app
+IssueTracker: https://github.com/JHubi1/ollama-app/issues
+Changelog: https://github.com/JHubi1/ollama-app/releases
+
+AutoName: Ollama
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-06-03
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/JHubi1/ollama-app/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /com/example/ollama
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed for import/export of the chat history
+    android.permission.RECORD_AUDIO: required for the optional Voice Mode which can be enabled in settings
+  Status:
+    - 2024-06-14 scanner reports RECORD_AUDIO – https://github.com/JHubi1/ollama-app/issues/23
+
+AllowedAPKSigningKeys: 742d4d30a72f752f122edbc0ca8361182854999fe5eacc128709ebdf2b167507
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

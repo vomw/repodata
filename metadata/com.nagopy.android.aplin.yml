@@ -1,0 +1,34 @@
+AntiFeatures:
+  Ads:
+    en-US: The app uses Google Ads.
+    de: Die App verwendet Google Ads.
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services and Google Ads.
+    de: Die App enthält Bibliotheken von Google Mobile Services und Google Ads.
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: 75py
+AuthorEmail: dev.75py@gmail.com
+AuthorWebSite: https://blog.nagopy.com/
+SourceCode: https://github.com/75py/Aplin
+IssueTracker: https://github.com/75py/Aplin/issues
+Changelog: https://github.com/75py/Aplin/blob/HEAD/CHANGELOG.md
+
+MaintainerNotes:
+  AppAdded: 2017-08-20
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list apps and their details
+  Status:
+    - 2021-06-19 seems abandoned, no response even on issues (was:github-release)
+    - 2022-05-15 has picked up again but no APKs available, see https://github.com/75py/Aplin/issues/123
+    - 2022-06-27 re-enabling updates as APKs are provided again
+    - 2023-07-13 UCM Tags => Static (last release 6/2022, last commit 1/2023)
+    - 2024-03-01 SOURCE_STAMP_V2_BLOCK
+
+AllowedAPKSigningKeys: 15582bfd9799d9f8f759a2dec6277af2e3efefd01a7e4da33689e18a7ba1d798
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

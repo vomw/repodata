@@ -1,0 +1,23 @@
+Categories:
+  - System
+  - Development
+License: Apache-2.0
+AuthorName: EXA Lab
+AuthorEmail: exalabdevelopers@gmail.com
+AuthorWebSite: https://studio-exalab.starinc.xyz/
+SourceCode: https://github.com/EXALAB/AnLinux-Adfree
+IssueTracker: https://github.com/EXALAB/AnLinux-App/issues
+Donate: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E2NV66N8G46KE
+
+AutoName: AnLinux - Run Linux on Android
+
+MaintainerNotes:
+  AppAdded: 2025-03-13
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 507c1f5838ad8d90b775e3de312142c38a63bfbb67e8d9c4ca861c670e139849
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

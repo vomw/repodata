@@ -1,0 +1,22 @@
+Categories:
+  - Writing
+License: MIT
+AuthorName: Aleksandr Iovlev
+SourceCode: https://github.com/Trase1/SimplestNotes-app
+IssueTracker: https://github.com/Trase1/SimplestNotes-app/issues
+Changelog: https://github.com/Trase1/SimplestNotes-app/releases
+Donate: https://boosty.to/trase1/donate
+
+AutoName: Simplest Notes
+
+MaintainerNotes:
+  AppAdded: 2025-07-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Trase1/SimplestNotes-app/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 385ea9045e6ecfc3cccac1ec906f423677fe130ce9e7c19d9277c2b0aacc4026
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

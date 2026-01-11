@@ -1,0 +1,18 @@
+Categories:
+  - System
+License: PublicDomain
+AuthorName: Peter Hearty
+AuthorEmail: peter.hearty.uk@gmail.com
+SourceCode: https://github.com/peterhearty/WipeFiles
+IssueTracker: https://github.com/peterhearty/WipeFiles/issues
+
+MaintainerNotes:
+  AppAdded: 2016-04-25
+  Method: github-release
+  Status:
+    - 2019-05-19 author still maintaining it
+    - 2023-08-08 last release 2/2016, last commit 2/2016; disabling updates (from Static)
+
+AllowedAPKSigningKeys: 56715a517e0994f9a50d7db7e9974a2ac48485f3f0580abafec27fce66ea8d21
+
+UpdateCheckMode: None

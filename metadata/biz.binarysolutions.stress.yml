@@ -1,0 +1,24 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Binary Solutions
+AuthorEmail: support+stress@binarysolutions.biz
+AuthorWebSite: https://binarysolutions.biz/
+SourceCode: https://github.com/vbresan/PerceivedStressScale
+IssueTracker: https://github.com/vbresan/PerceivedStressScale/issues
+Changelog: https://github.com/vbresan/PerceivedStressScale/releases
+
+AutoName: Perceived Stress Scale
+
+MaintainerNotes:
+  AppAdded: 2025-02-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/vbresan/PerceivedStressScale/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 2d46f8324924315657cc64a657b058e210400da1dc6f69dd6082d8ea15b5b052
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Tags

@@ -1,0 +1,24 @@
+Categories:
+  - Security
+License: Apache-2.0
+AuthorName: Rouneant
+AuthorEmail: qmdeve@gmail.com
+SourceCode: https://github.com/Rouneant/Qm-Authenticator-for-Android
+IssueTracker: https://github.com/Rouneant/Qm-Authenticator-for-Android/issues
+Changelog: https://github.com/Rouneant/Qm-Authenticator-for-Android/releases
+
+AutoName: Qm Authenticator
+
+MaintainerNotes:
+  AppAdded: 2025-11-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Rouneant/Qm-Authenticator-for-Android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.CAMERA: for the integrated QR code scanner
+
+AllowedAPKSigningKeys: 46c62f0cc7c0b8d1a7a0b3d4752400ff2a77f854bff60c4246b3f7e53b1c72dc
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

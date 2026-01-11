@@ -1,0 +1,24 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Emma
+AuthorEmail: mensinator.app@gmail.com
+SourceCode: https://github.com/EmmaTellblom/Mensinator
+IssueTracker: https://github.com/EmmaTellblom/Mensinator/issues
+Changelog: https://github.com/EmmaTellblom/Mensinator/releases
+
+AutoName: Mensinator
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-08-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/EmmaTellblom/Mensinator/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 2744c7e700299321b92a4748483a03126efce8284e2adf338edb8a69ee58bb67
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

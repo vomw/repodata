@@ -1,0 +1,27 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: minardil
+SourceCode: https://codeberg.org/minardil/laundrynotes
+IssueTracker: https://codeberg.org/minardil/laundrynotes/issues
+Changelog: https://codeberg.org/minardil/laundrynotes/releases
+Liberapay: Minardil
+Donate: https://buymeacoffee.com/minardil
+
+AutoName: LaundryNotes
+
+MaintainerNotes:
+  AppAdded: 2025-02-26
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/minardil/laundrynotes/src/branch/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  Status:
+    - 2025-12-11 signing key changed, see https://codeberg.org/minardil/laundrynotes/issues/7 – UCM Tags=>Static until clarified
+    - 2025-12-12 verified by mail
+
+AllowedAPKSigningKeys: afbd67fad9be2807411fc238f8c28bc68710220c4a22781ebaacebc3e9ef282f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

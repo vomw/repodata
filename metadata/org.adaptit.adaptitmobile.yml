@@ -1,0 +1,33 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: Adapt It
+AuthorWebSite: https://adapt-it.org/
+WebSite: https://adapt-it.github.io/adapt-it-mobile/
+SourceCode: https://github.com/adapt-it/adapt-it-mobile
+IssueTracker: https://github.com/adapt-it/adapt-it-mobile/issues
+Changelog: https://github.com/adapt-it/adapt-it-mobile/release
+
+AutoName: Adapt It Mobile
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-11-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/adapt-it/adapt-it-mobile/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /cordova/plugins
+  Status:
+    - 2024-02-05 scanner reports android.permission.READ_MEDIA_IMAGES android.permission.READ_MEDIA_AUDIO android.permission.READ_MEDIA_VIDEO android.permission.READ_EXTERNAL_STORAGE – https://github.com/adapt-it/adapt-it-mobile/issues/550
+    - 2024-02-10 scanner says it’s down to android.permission.READ_EXTERNAL_STORAGE
+    - 2024-02-12 no such thing as Adapt Servers says the author (all data stored on-device in SQLite), so removing the AF https://github.com/adapt-it/adapt-it-mobile/issues/550#issuecomment-1939306306
+    - 2024-07-13 above permissions are back, see https://github.com/adapt-it/adapt-it-mobile/issues/550#issuecomment-2227057264
+    - 2025-08-22 upstreaming our local Fastlane metadata via https://github.com/adapt-it/adapt-it-mobile/pull/623
+
+AllowedAPKSigningKeys: 3d6529fdb61d8ae20866196c34662ce19dad025b3face64c3e343508c353a56f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

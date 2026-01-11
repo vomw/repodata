@@ -1,0 +1,27 @@
+Categories:
+  - Xposed
+  - System
+License: AGPL-3.0-only
+AuthorName: David Berdik
+SourceCode: https://github.com/99keshav99/CaptureSposed
+IssueTracker: https://github.com/99keshav99/CaptureSposed/issues
+Changelog: https://github.com/99keshav99/CaptureSposed/releases
+
+AutoName: CaptureSposed
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2024-05-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/99keshav99/CaptureSposed/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  Status:
+    - 2024-05-21 changed author to David Berdik on request of Keshav, see https://github.com/99keshav99/CaptureSposed/issues/6#issuecomment-2121352051
+    - 2024-07-14 reached F-Droid 2024-06-15 but still carries our badge, so marking it for keep (RB on both ends)
+
+AllowedAPKSigningKeys: 724069454af66f5b11d161eda22fc47da99c5a449ba63df06d2c4a336856930b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

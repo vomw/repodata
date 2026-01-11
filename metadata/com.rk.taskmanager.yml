@@ -1,0 +1,27 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Rohit Kushvaha
+AuthorEmail: oldisg131@gmail.com
+SourceCode: https://github.com/RohitKushvaha01/TaskManager
+IssueTracker: https://github.com/RohitKushvaha01/TaskManager/issues
+
+AutoName: TaskManager
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-07-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/RohitKushvaha01/TaskManager/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /com/rk/components
+    - /com/rk/terminal
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to manage the tasks
+
+AllowedAPKSigningKeys: 8ad6b593b0772c96f9d05e923b610f16aed2792c664f0cd91f0dfd627098346f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

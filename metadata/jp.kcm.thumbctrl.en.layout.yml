@@ -1,0 +1,27 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: shiftrot
+SourceCode: https://github.com/shiftrot/caps2ctrl
+IssueTracker: https://github.com/shiftrot/caps2ctrl/issues
+
+AutoName: Caps to Ctrl
+
+MaintainerNotes:
+  AppAdded: 2020-09-19
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /tcen/i
+  ApkIgnore: /basic/i
+  NameSpaces:
+    - /jp/kcm/thumbctrl
+  Status:
+    - 2022-11-07 no release for almost 2y, last commit 1/2022; switch from Tags to Static
+    - 2023-08-08 last release 2/2021, last commit 1/2022, author still active
+    - 2023-10-07 repo & account gone, disabling updates and setting NoSourceSince (last release 8/2023)
+
+AllowedAPKSigningKeys: 61d15d9b2941226284375863706cde2e3b43333fe7c0c8d2e53d15444167392f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None
+NoSourceSince: '1.8'

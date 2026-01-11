@@ -1,0 +1,1 @@
+A secure digital wallet to store your passwords, notes and cards.

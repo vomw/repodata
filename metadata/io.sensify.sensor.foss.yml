@@ -1,0 +1,26 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: JunkieLabs
+AuthorEmail: Junkielabs.dev@gmail.com
+AuthorWebSite: https://junkielabs.in/
+WebSite: https://junkielabs.in/products/apps/sensify
+SourceCode: https://github.com/JunkieLabs/sensify-android
+IssueTracker: https://github.com/JunkieLabs/sensify-android/issues
+
+AutoName: Sensify
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-03-05
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /io/sensify/sensor
+  Status:
+    - 2024-11-21 last release 3/2023, last commit 6/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 6091298f6f0974fe87ced1db616ed8bcebb8b015244b0186deed152105b286bb
+
+AutoUpdateMode: Version Sensify_FOSS_.+
+UpdateCheckMode: Static

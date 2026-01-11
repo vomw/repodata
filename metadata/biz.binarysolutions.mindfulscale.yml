@@ -1,0 +1,25 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Binary Solutions
+AuthorEmail: support+mindfulness@binarysolutions.biz
+AuthorWebSite: https://binarysolutions.biz/
+SourceCode: https://github.com/vbresan/MindfulAttentionAwarenessScale
+IssueTracker: https://github.com/vbresan/MindfulAttentionAwarenessScale/issues
+Changelog: https://github.com/vbresan/MindfulAttentionAwarenessScale/releases
+
+AutoName: Mindful Attention Awareness
+
+MaintainerNotes:
+  AppAdded: 2024-11-18
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /withoutAds-release/i
+  Fastlane: https://github.com/vbresan/MindfulAttentionAwarenessScale/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: d3aa99f2fa578ba9c7923e25283e9119b1da956a53bbaacc85c17e2dc3d07b11
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Tags

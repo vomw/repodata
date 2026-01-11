@@ -1,0 +1,31 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google BillingClient.
+    de: Die App enthält den Google BillingClient.
+  NonFreeNet:
+    en-US: The app connects to Google servers (billing).
+    de: Die App nutzt Verbindungen zu Google Servern (Billing).
+Categories:
+  - Connectivity
+  - Office
+License: GPL-3.0-only
+AuthorName: Georg
+AuthorWebSite: https://georg-sieber.de/
+WebSite: https://georg-sieber.de/?page=app-remotepointer
+SourceCode: https://github.com/schorschii/RemotePointer-Android
+IssueTracker: https://github.com/schorschii/RemotePointer-Android/issues
+Changelog: https://github.com/schorschii/RemotePointer-Android/releases
+
+AutoName: RemotePointer
+
+MaintainerNotes:
+  AppAdded: 2022-03-15
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release 11/2023, last commit 3/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 4d8a9f12fa7692154a3953e5b5b402b60ad252e63a136cbff2390541c48d843f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,22 @@
+Categories:
+  - Xposed
+  - System
+  - Multimedia
+License: MIT
+AuthorName: anago
+SourceCode: https://github.com/auag0/DisableAudioFocus
+IssueTracker: https://github.com/auag0/DisableAudioFocus/issues
+Changelog: https://github.com/auag0/DisableAudioFocus/releases
+
+AutoName: DisableAudioFocus
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2025-06-07
+  Method: github-release
+  GHSkipPre: 1
+
+AllowedAPKSigningKeys: 06c19b8aeb0fdf14bef31ea34834d6ba7a3f38856728ff1fa35e334ef7fc2db1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

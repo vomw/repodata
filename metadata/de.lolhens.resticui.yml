@@ -1,0 +1,33 @@
+Categories:
+  - System
+License: GPL-2.0-only
+AuthorName: Pierre Kisters
+AuthorWebSite: https://lolhens.de/
+SourceCode: https://github.com/lhns/restic-android
+IssueTracker: https://github.com/lhns/restic-android/issues
+Changelog: https://github.com/lhns/restic-android/releases
+
+AutoName: Restic
+
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-11-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/lhns/restic-android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshotsJPG
+  Note: Fastlane is our starter kit
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: required to read files to backup
+    android.permission.MANAGE_EXTERNAL_STORAGE: required to read/write files to/from backup anywhere on local storage
+    android.permission.WRITE_EXTERNAL_STORAGE: required to restore files from backup
+  Status:
+    - 2023-03-09 set to manual as APK has wrong version, see https://github.com/lhns/restic-android/issues/135
+    - 2023-03-11 re-enabled updates and switched to per-ABI-APKs, setting ArchivePolicy to 2, enabling Fastlane
+
+AllowedAPKSigningKeys: 0e39f5b94cc86ab157f937675e2f096b4813edf7bfa1b5b2db98984581f0bdf3
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

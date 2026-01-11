@@ -1,0 +1,31 @@
+AntiFeatures:
+  NonFreeAdd:
+    en-US: Plex Server is not libre.
+    de: Plex Server ist unfrei.
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-09-16, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-09-16 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Connectivity
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Sik&#39;
+AuthorEmail: contact@sikelio.wtf
+SourceCode: https://github.com/sikelio/plexmanager
+IssueTracker: https://github.com/sikelio/plexmanager/issues
+Changelog: https://github.com/sikelio/plexmanager/releases
+
+AutoName: Plex Manager
+
+MaintainerNotes:
+  AppAdded: 2023-05-17
+  Method: github-release
+  GHSkipPre: 1
+  X-AutoUpdateMode: Version v%v currently not matching, see https://github.com/sikelio/plexmanager/issues/59 (already fixed, that was fast; need to adjust after the next release)
+  Status:
+    - 2024-11-06 repo was archived 2024-09-16
+    - 2024-12-05 reported as still working fine by multiple people, see https://floss.social/@IzzyOnDroid/113594956450453646
+
+AllowedAPKSigningKeys: f6b652329987eab6aa87b036d0c3e3544674cf1efd8b4a4e6940042b734fae8a
+
+UpdateCheckMode: None

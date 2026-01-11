@@ -1,0 +1,7 @@
+---
+
+- url: https://izzy.zw.is/fdroid
+  countryCode: US
+
+- url: https://packages.codeberg.org/~izzy/fdroid
+  countryCode: DE

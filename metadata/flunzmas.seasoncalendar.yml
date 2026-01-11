@@ -1,0 +1,35 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-11-08, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-11-08 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Food
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Andreas Boltres
+AuthorWebSite: https://flunzmas.com/
+WebSite: https://flunzmas.com/seasonal-foods-calendar
+SourceCode: https://github.com/seasoncalendar/seasoncalendar
+IssueTracker: https://github.com/seasoncalendar/seasoncalendar/issues
+Changelog: https://github.com/seasoncalendar/seasoncalendar/releases
+AutoName: Saisonkalender
+
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2020-09-19
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  ApkIgnore: /(arm64|x86)/i
+  Fastlane: https://github.com/seasoncalendar/seasoncalendar/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphicJPG,screenshots
+  DoubleList: keep
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 3/2022, last commit 3/2022)
+    - 2025-02-15 disabled updates as source repo was archived 2024-11-08
+
+AllowedAPKSigningKeys: 53e25a95cb60668befae8ea19e7c303e0a20bee3cb32ad1e2f94ac92309f18ed
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

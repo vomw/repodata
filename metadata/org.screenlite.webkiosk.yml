@@ -1,0 +1,34 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: Screenlite
+SourceCode: https://github.com/screenlite/web-kiosk
+IssueTracker: https://github.com/screenlite/web-kiosk/issues
+Changelog: https://github.com/screenlite/web-kiosk/releases
+
+AutoName: Screenlite Web Kiosk
+
+MaintainerNotes:
+  AppAdded: 2025-09-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/screenlite/web-kiosk/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: to access unencrypted websites e.g. in local networks
+  PermIgnore:
+    android.permission.RECEIVE_BOOT_COMPLETED: to automatically start the app when the device boots
+    android.permission.FOREGROUND_SERVICE: required for the StayOnTopService to run in the background
+    android.permission.FOREGROUND_SERVICE_SPECIAL_USE: special use case for kiosk applications
+    android.permission.WAKE_LOCK: to prevent the screen from turning off
+    android.permission.INTERNET: required to load web content to display
+    android.permission.SYSTEM_ALERT_WINDOW: to allow the app to draw over other apps (kiosk mode)
+    android.permission.ACCESS_NETWORK_STATE: to monitor network connectivity for error handling
+  Status:
+    - 2025-09-08 upstreaming our local Fastlane metadata via https://github.com/screenlite/web-kiosk/pull/1
+
+AllowedAPKSigningKeys: dba85542bf1d3597ee9785a79b3080f10b888806d36fa37a1e2844927e833b8b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

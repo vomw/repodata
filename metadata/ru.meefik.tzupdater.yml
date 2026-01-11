@@ -1,0 +1,27 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Anton Skshidlevsky
+AuthorEmail: meefik@gmail.com
+AuthorWebSite: https://meefik.github.io/
+WebSite: https://github.com/meefik/tzupdater/wiki
+SourceCode: https://github.com/meefik/tzupdater
+IssueTracker: https://github.com/meefik/tzupdater/issues
+Changelog: https://github.com/meefik/tzupdater/blob/HEAD/CHANGELOG
+Donate: https://meefik.github.io/donate/
+
+AutoName: Timezone Updater
+
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2018-10-29
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2020-11-01 last update 1y 0m 12d ago, switching UCM from Tags to Static
+    - 2023-08-08 last release 5/2023, last commit 5/2023
+
+AllowedAPKSigningKeys: 78439b51ce79000efad2bae9755a9c673ff5240d2cb9cb5eb01c746519abfb3b
+
+UpdateCheckMode: Static

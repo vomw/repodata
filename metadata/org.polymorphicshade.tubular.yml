@@ -1,0 +1,41 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses YouTube as source for its contents.
+    de: Die App bezieht ihre Videos von YouTube.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: poly
+AuthorEmail: polymorphicshade@gmail.com
+SourceCode: https://github.com/polymorphicshade/Tubular
+IssueTracker: https://github.com/polymorphicshade/Tubular/issues
+Changelog: https://github.com/polymorphicshade/Tubular/releases
+
+AutoName: Tubular
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-01-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/polymorphicshade/Tubular/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed for the floating player
+    android.permission.WRITE_EXTERNAL_STORAGE: used for downloading videos
+    android.permission.READ_EXTERNAL_STORAGE: used to access the downloaded videos
+  NameSpaces:
+    - /org/schabi/newpipe
+  LibIgnore:
+    - /org/acra
+  Status:
+    - 2024-01-29 contacted author for Fastlane, permissions, ACRA & SigningBlob at https://github.com/polymorphicshade/Tubular/issues/7
+    - 2024-01-30 ACRA is the same as with its predecessor (crash report emails)
+    - 2024-02-28 Sylvie reports integrated update checker – https://github.com/polymorphicshade/Tubular/issues/7#issuecomment-1967935714
+    - 2024-05-27 Fastlane changelogs too long – https://github.com/polymorphicshade/Tubular/issues/73
+
+AllowedAPKSigningKeys: 8ad7025a8c911454e2a7b4515e360c52ca63ec0410a042ff46e9ad05b509e187
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

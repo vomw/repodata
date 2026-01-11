@@ -1,0 +1,38 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes the Google BillingClient.
+    de: Die App enthält den Google BillingClient.
+  NonFreeNet:
+    en-US: The app connects to Google servers (billing).
+    de: Die App verbindet sich mit Google Servern (Billing).
+  Tracking:
+    en-US: The app uses the Play Install Referrer Library.
+    de: Die App verwendet die Play Install Referrer Library.
+Categories:
+  - Science & Education
+License: GPL-3.0-or-later
+AuthorName: Michele Salvador
+AuthorEmail: michelesalvador@iol.it
+WebSite: https://www.familygem.app/
+SourceCode: https://github.com/michelesalvador/FamilyGem
+IssueTracker: https://github.com/michelesalvador/FamilyGem/issues
+Translation: https://hosted.weblate.org/projects/family-gem/app/
+Changelog: https://github.com/michelesalvador/FamilyGem/releases
+
+AutoName: Family Gem
+
+MaintainerNotes:
+  AppAdded: 2020-02-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/michelesalvador/FamilyGem/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  FlagIgnore:
+    usesCleartextTraffic: needed to access api.geonames.org which still has no proper cert
+  Status:
+    - 2024-02-09 scanner reports usesCleartextTraffic READ_EXTERNAL_STORAGE READ_MEDIA_IMAGES READ_MEDIA_VIDEO READ_MEDIA_AUDIO – https://github.com/michelesalvador/FamilyGem/issues/131
+    - 2025-09-10 Play Install Referrer Library is no longer detected, but app still requests BIND_GET_INSTALL_REFERRER_SERVICE
+
+AllowedAPKSigningKeys: 063131953dea4ed27623d5d5e7e47cd99a0c90d1f5461d0f09b74d08f15e3496
+
+UpdateCheckMode: Tags

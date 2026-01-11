@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Aaron Wood
+AuthorEmail: me@aaronjwood.com
+AuthorWebSite: https://aaronjwood.com/
+SourceCode: https://github.com/aaronjwood/PortAuthority
+IssueTracker: https://github.com/aaronjwood/PortAuthority/issues
+Changelog: https://github.com/aaronjwood/PortAuthority/releases
+Donate: https://play.google.com/store/apps/details?id=com.aaronjwood.portauthority.donate
+
+MaintainerNotes:
+  AppAdded: 2017-04-04
+  Method: github-release
+  NameSpaces:
+    - /com/aaronjwood/portauthority
+  Status:
+    - 2024-02-22 last release/commit 9/2022, UCM Tags=>Static
+    - 2026-01-09 still dormant, no changes; disabling updates altogether now
+
+AllowedAPKSigningKeys: c16b5f10b12b16aec34ba0c1ba99b12fe549e0a611ed10db7575d1b73c4bc2b4
+
+UpdateCheckMode: None

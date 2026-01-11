@@ -1,0 +1,26 @@
+Categories:
+  - Security
+License: MIT
+AuthorName: duckniii
+AuthorWebSite: https://seeknwander.com/
+SourceCode: https://github.com/duckniii/SeekPrivacy
+IssueTracker: https://github.com/duckniii/SeekPrivacy/issues
+Changelog: https://github.com/duckniii/SeekPrivacy/releases
+
+AutoName: Seek Privacy
+
+MaintainerNotes:
+  AppAdded: 2025-12-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/duckniii/SeekPrivacy/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to read (and then decrypt) the files (legacy)
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to write encrypted files (legacy)
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to write encrypted files (newer Android versions)
+
+AllowedAPKSigningKeys: 2bee8f8b45ad591fb130f9a1152f2e5f2fafd3a04b64366b5b673805d42f9e35
+
+UpdateCheckMode: Tags
+AutoUpdateMode: Version v%v

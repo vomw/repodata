@@ -1,0 +1,44 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Paul Woitaschek
+AuthorEmail: audiobook@posteo.de
+AuthorWebSite: https://woitaschek.de/
+WebSite: https://voice.woitaschek.de/
+SourceCode: https://github.com/PaulWoitaschek/Voice
+IssueTracker: https://github.com/PaulWoitaschek/Voice/issues
+Translation: https://hosted.weblate.org/engage/voice/
+Changelog: https://github.com/PaulWoitaschek/Voice/releases
+
+AutoName: Voice Audiobook Player
+
+MaintainerNotes:
+  AppAdded: 2025-07-01
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /proprietary/i
+  DoubleList: keep
+  Fastlane: https://github.com/PaulWoitaschek/Voice/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /voice/app
+    - /voice/bookmark
+    - /voice/bookOverview
+    - /voice/common
+    - /voice/core
+    - /voice/cover
+    - /voice/data
+    - /voice/documentfile
+    - /voice/folderPicker
+    - /voice/migration
+    - /voice/onboarding
+    - /voice/playback
+    - /voice/playbackScreen
+    - /voice/search
+    - /voice/settings
+    - /voice/sleepTimer
+
+AllowedAPKSigningKeys: 11a4caee0ba3eb5a352d1125abd32925209e896015a5d9ca0fd9f82dae204faa
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

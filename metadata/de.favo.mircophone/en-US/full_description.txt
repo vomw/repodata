@@ -1,0 +1,2 @@
+<p><b>Note:</b> This app is <a href='https://gitlab.com/fdroid/rfp/-/issues/1884#note_719360445' target='_blank' rel='nofollow noopener'>no longer maintained</a>, it's source repository has disappeard in 6/2025 – so there won’t be updates anymore.</p>
+<p><i>Microphone</i> is a simple app that outputs the sound of the built-in microphone.</p><p>To avoid acoustic feedback, the app works only when an audio cable is plugged in or a bluetooth audio receiver is connected to the smartphone.</p><p>The app is ad-free and has no additional settings, so it is easy to use.</p>

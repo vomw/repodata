@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Xiang Rui Meng
+SourceCode: https://github.com/ghmxr/ftpshare
+IssueTracker: https://github.com/ghmxr/ftpshare/issues
+
+AutoName: FTP Share
+
+MaintainerNotes:
+  AppAdded: 2020-04-14
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 4/2020)
+    - 2023-08-07 last commit/release 12/2021
+    - 2026-01-09 still no new commits; disabling update checks entirely now.
+
+AllowedAPKSigningKeys: b429ed9e3bc2583d4c3f70e9a2d6a2a427c8e6b0b292f3ddbae9237aed011d84
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: None

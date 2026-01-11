@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: mthli
+AuthorEmail: matthewlee0725@gmail.com
+AuthorWebSite: https://mthli.github.io/
+SourceCode: https://github.com/mthli/Mount
+IssueTracker: https://github.com/mthli/Mount/issues
+
+Name: App Mount
+
+MaintainerNotes:
+  AppAdded: 2017-04-29
+  Method: github-release
+  Status:
+    - 2019-02-28 asked for status, 2019-11-02 still no answer https://github.com/mthli/Mount/issues/10
+    - 2023-08-08 last release/commit 2/2017 => abandoned, UCM=None
+    - 2025-11-13 [reported still working](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/14)
+
+AllowedAPKSigningKeys: d493e64124ba1466e9fc7a184cfbad78abe2e8d54169742ceadfd6da4adaab4b
+
+UpdateCheckMode: None

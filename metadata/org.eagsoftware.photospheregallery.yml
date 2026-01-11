@@ -1,0 +1,27 @@
+Categories:
+  - Graphics
+License: GPL-3.0-only
+AuthorName: minardil
+SourceCode: https://codeberg.org/minardil/PhotoSphereGallery
+IssueTracker: https://codeberg.org/minardil/PhotoSphereGallery/issues
+Changelog: https://codeberg.org/minardil/PhotoSphereGallery/releases
+Donate: https://buymeacoffee.com/minardil
+Liberapay: Minardil
+
+AutoName: PhotoSphere Gallery
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-09-12
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/minardil/PhotoSphereGallery/src/branch/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: needed to access the photos in e.g. DCIM
+    android.permission.READ_EXTERNAL_STORAGE: to access photos elsewhere
+
+AllowedAPKSigningKeys: 47c264bc2229f09545eda019d27614887e07b905606ef258619467292c2d4b5b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

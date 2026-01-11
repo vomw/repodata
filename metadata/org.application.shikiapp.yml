@@ -1,0 +1,27 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on the Shikimori API.
+    de: Die App greift auf die Shikimori API zu.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: pewaru-333
+SourceCode: https://github.com/pewaru-333/ShikiApp
+IssueTracker: https://github.com/pewaru-333/ShikiApp/issues
+Changelog: https://github.com/pewaru-333/ShikiApp/downloads
+
+AutoName: ShikiApp
+
+MaintainerNotes:
+  AppAdded: 2024-07-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/pewaru-333/ShikiApp/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /org/application
+
+AllowedAPKSigningKeys: b1a781cb8dbf7eb0dae9ff41972cb936e2ccf18b462defefbd0a21d3ac5f113d
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

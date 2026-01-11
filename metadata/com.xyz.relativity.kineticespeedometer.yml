@@ -1,0 +1,22 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: xyz-relativity
+AuthorEmail: xyz.relativity@gmail.com
+SourceCode: https://github.com/xyz-relativity/KinetiE-Speedometer
+IssueTracker: https://github.com/xyz-relativity/KinetiE-Speedometer/issues
+Changelog: https://github.com/xyz-relativity/KinetiE-Speedometer/releases
+
+AutoName: KineticE-Speedometer
+
+MaintainerNotes:
+  AppAdded: 2022-11-21
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release/commit 5/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: ef0f0eeddeabc9b3f6cee6118ab4741322a184a49e485f16ce9fe2f3612254f6
+
+AutoUpdateMode: Version Release-?%v
+UpdateCheckMode: Static

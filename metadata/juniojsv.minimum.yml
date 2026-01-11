@@ -1,0 +1,35 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app uses Sentry, which is enabled by default.
+    de: Die App verwendet Sentry, welches standardmäßig aktiviert ist.
+Categories:
+  - System
+License: MIT
+AuthorName: Jeovane Santos
+AuthorEmail: juniojsv@gmail.com
+SourceCode: https://github.com/JunioJsv/minimum-flutter
+IssueTracker: https://github.com/JunioJsv/minimum-flutter/issues
+Changelog: https://github.com/JunioJsv/minimum-flutter/releases
+
+AutoName: Minimum
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-04-24
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  PermIgnore:
+    android.permission.REQUEST_DELETE_PACKAGES: needed to let you uninstall unwanted apps
+    android.permission.QUERY_ALL_PACKAGES: needed to list all apps in the launcher
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 5/2020)
+    - 2023-08-08 last release 6/2020, last commit 9/2020, author still around
+    - 2024-03-01 all releases were removed https://github.com/JunioJsv/minimum/issues/11
+    - 2024-03-25 fixed now, UCM Static=>Tags again
+    - 2024-07-30 repo and signing key changed. New signing key verified via key rotation. Dev switched from Kotlin (1 MB APKs) to Flutter (22 MB), congrats => ArchivePolicy 1 – https://gitlab.com/IzzyOnDroid/repo/-/issues/572
+    - 2024-08-01 switched back to the old key and to split APKs
+
+AllowedAPKSigningKeys: 6a4d7370a8a01669b6ed5417eed984fc650b02c3d7b99cc5dbbbb586a3200af6
+
+UpdateCheckMode: Tags

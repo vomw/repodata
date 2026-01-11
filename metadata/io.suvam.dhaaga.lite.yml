@@ -1,0 +1,42 @@
+Categories:
+  - Social Network
+  - Messaging
+  - Internet
+License: AGPL-3.0-only
+AuthorName: Debashish Patra
+AuthorEmail: hi@suvam.io
+AuthorWebSite: https://mastodon.social/@suvam
+WebSite: https://suvam.io/dhaaga
+SourceCode: https://github.com/suvam0451/dhaaga
+IssueTracker: https://github.com/suvam0451/dhaaga/issues
+Changelog: https://github.com/suvam0451/dhaaga/releases
+
+AutoName: Dhaaga (Lite)
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-08-01
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Lite/i
+  ApkIgnore: /internal/i
+  Fastlane: https://github.com/suvam0451/dhaaga/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /io/suvam/dhaaga
+    - /third_party
+  PermIgnore:
+    android.permission.INTERNET: to reach your Fediverse instance
+    android.permission.VIBRATE: to provide haptic feedback when actions complete
+  Status:
+    - 2024-12-31 v0.11.0 added a load of proprietary & tracking libs; rolled back, UCM Tags=>None until solved – https://github.com/suvam0451/dhaaga/issues/182
+    - 2025-01-01 fixed; that was an internal release not intended to be picked up by us. Added ApkIgnore for such cases and re-enabled UCM.
+    - 2025-01-07 some are back again, so AFs added; see https://github.com/suvam0451/dhaaga/issues/190
+    - 2025-01-08 fixed again, AFs removed once more
+    - 2025-12-01 v0.17.0 comes with MLKit, GMS, Firebase – rolled back, UCM Tags=>Static – https://github.com/suvam0451/dhaaga/issues/69#issuecomment-3598862939
+    - 2025-12-02 fixed, UCM back to Tags
+
+AllowedAPKSigningKeys: ac1f220934a74f4498bfe8991f2d4c1edc1666b07081d6805840dde933081f03
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

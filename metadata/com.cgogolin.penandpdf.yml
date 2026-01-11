@@ -1,0 +1,22 @@
+Categories:
+  - Office
+License: AGPL-3.0-only
+AuthorName: Christian Gogolin
+AuthorEmail: penandpdf@cgogolin.de
+AuthorWebSite: http://www.cgogolin.de/
+SourceCode: https://github.com/cgogolin/penandpdf
+IssueTracker: https://github.com/cgogolin/penandpdf/issues
+Changelog: https://github.com/cgogolin/penandpdf/releases
+
+AutoName: Pen&PDF
+
+MaintainerNotes:
+  AppAdded: 2017-12-13
+  Method: github-release
+  Note: unmaintained since 7/2019
+  Status:
+    - 2023-03-02 linsui reports it’s still working fine, see https://gitlab.com/fdroid/fdroiddata/-/merge_requests/12686#note_1298725355
+
+AllowedAPKSigningKeys: b0d5139a4a4f91110417dada539e7762bfc043a68099026950cc9add1ab90c04
+
+UpdateCheckMode: None

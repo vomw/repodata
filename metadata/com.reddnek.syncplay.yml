@@ -1,0 +1,46 @@
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: Volnutt
+SourceCode: https://github.com/yuroyami/syncplay-mobile
+IssueTracker: https://github.com/yuroyami/syncplay-mobile/issues
+Changelog: https://github.com/yuroyami/syncplay-mobile/releases
+Donate: https://www.buymeacoffee.com/sillycone
+
+AutoName: SyncPlay
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-08-31
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /exo-only/i
+  Fastlane: https://github.com/yuroyami/syncplay-mobile/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed to allow unencrypted sessions in local environments (LAN)
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to access local media to play and sync
+    android.permission.SYSTEM_ALERT_WINDOW: needed for the Pip (picture-in-picture) feature
+  NameSpaces:
+    - /com/chromaticnoob/colorpreference
+    - /com/reddnek/syncplay
+    - /com/yuroyami/syncplay
+    - /is/xyz/mpv
+  Status:
+    - 2022-07-10 rebranded from com.gintoki.syncplay which was originally added 2022-05-06
+    - 2022-08-31 rebranded again from com.chromaticnoob.syncplay (should it happen once more this year, we better drop the app from the repo) https://github.com/Reddnek/syncplay-android/issues/35
+    - 2023-01-31 rebranded again from com.reddnek.syncplay – sent a reminder to the issue this will be the last time. No grace period this time, we simply rename here as well.
+    - 2023-02-01 rebranding to com.reddnek.syncplay.revamped reversed
+    - 2023-06-03 added MPV, so size exploded and 2 non-free libs (GMS, Firebase) are included; reverted the update and set to static until solved, https://github.com/yuroyami/syncplay-android/issues/66
+    - 2023-07-30 now providing a (multi-arch) exo-only variant which comes without offenders and matches the size limit again. Re-enabling updates.
+    - 2024-01-07 versionCode was decreased, causing v0.13.0 downloaded and deleted daily; Tags => Static, see https://github.com/yuroyami/syncplay-mobile/issues/89
+    - 2024-02-01 scanner reports usesCleartextTraffic & android.permission.READ_EXTERNAL_STORAGE android.permission.SYSTEM_ALERT_WINDOW, reported to the same issue (89)
+    - 2024-04-13 issues from 2024-01-07 & 2024-02-01 solved, UCM back to Tags
+    - 2025-08-14 upstreaming our Fastlane via https://github.com/yuroyami/syncplay-mobile/pull/128
+    - 2025-11-19 update with a wrong signing key, UCM=>Static until solved; see https://github.com/yuroyami/syncplay-mobile/issues/105#issuecomment-3554319884
+
+AllowedAPKSigningKeys: f5e113709479c81bf1db2b7bc6a8d406404ea2cee7bdcf4d3595b590c643c275
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

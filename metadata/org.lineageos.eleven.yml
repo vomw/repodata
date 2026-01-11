@@ -1,0 +1,21 @@
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: dwi336
+SourceCode: https://github.com/dwi336/Eleven
+IssueTracker: https://github.com/dwi336/Eleven/issues
+
+AutoName: Eleven
+
+MaintainerNotes:
+  AppAdded: 2017-08-05
+  Method: github-release-manual
+  GHSkipPre: 1
+  ManualHint: Always sticks to CV/CVC 3.0/3; => now VC is increased but neither VC nor VN match tag name; in 10/2022 they increased it for the first time, but tagName/VN do not match
+  Status:
+    - 2025-02-18 last release/commit 10/2022, author last seen 2022; disabling updates altogether
+
+AllowedAPKSigningKeys: 8434ebbec15e6bc68b8744b25048137ba8ae26f44cdfb913e363d1c54efc6d12
+
+ArchivePolicy: 2
+UpdateCheckMode: None

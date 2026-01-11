@@ -1,0 +1,25 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: Daniel Yrovas
+SourceCode: https://github.com/danielyrovas/linklater
+IssueTracker: https://github.com/danielyrovas/linklater/issues
+
+AutoName: Linklater
+
+MaintainerNotes:
+  AppAdded: 2024-04-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/danielyrovas/linklater/tree/trunk/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed to access self-hosted local LinkDing instances without SSL certificates
+  Status:
+    - 2025-06-27 last commit/release 2024-06-24; UCM Tags=>Static
+    - 2025-09-24 upstreaming fastlane via https://github.com/danielyrovas/linklater/pull/10 (finding new release from 8/2025)
+
+AllowedAPKSigningKeys: 5126bb0a02dda483a171b6fc22578b3902427f73213d76225a99b5634862afca
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

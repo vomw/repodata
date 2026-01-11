@@ -1,0 +1,1 @@
+<p><i>AlgoSorts</i> is an Android app helping you to understand how sorting algorithms work, using the example of animations.</p>

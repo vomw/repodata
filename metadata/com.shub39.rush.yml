@@ -1,0 +1,40 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on the Genius API.
+    de: Die App benötigt die Webdienste der Genius API.
+Categories:
+  - Multimedia
+  - Internet
+License: GPL-3.0-only
+AuthorName: Shubham
+AuthorEmail: cptnshubham39@gmail.com
+AuthorWebSite: https://shub39.netlify.app/
+SourceCode: https://github.com/shub39/Rush
+IssueTracker: https://github.com/shub39/Rush/issues
+Translation: https://hosted.weblate.org/engage/rush/
+Changelog: https://github.com/shub39/Rush/releases
+
+AutoName: Rush
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-07-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/shub39/Rush/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed by the AudioVisualizer
+  NameSpaces:
+    - /rush/app/generated
+  Status:
+    - 2024-10-07 scanner reports READ_EXTERNAL_STORAGE READ_MEDIA_AUDIO – https://github.com/shub39/Rush/issues/36
+    - 2024-12-19 scanner reports READ_MEDIA_IMAGES
+    - 2025-07-24 READ_MEDIA_IMAGES gone again
+    - 2025-10-03 RECORD_AUDIO – https://github.com/shub39/Rush/issues/36#issuecomment-3366927180
+
+AllowedAPKSigningKeys: 0fe1b9f44a4db97ec50948f5189f6b4300716cc6d4843f5698d614a2152e2188
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Răzvan
+SourceCode: https://github.com/calin-darie/extra-keyboard-layouts
+IssueTracker: https://github.com/calin-darie/extra-keyboard-layouts/issues
+Changelog: https://github.com/calin-darie/extra-keyboard-layouts/releases
+
+AutoName: Extra Physical Keyboard Layouts
+
+MaintainerNotes:
+  AppAdded: 2021-02-27
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-11-07 no release since 6/2021, last commit 6/2022; switch from Tags to Static
+    - 2023-08-08 last release 1/2023, last commit 6/2023
+    - 2025-01-25 dev announced development paused indefinitely
+
+AllowedAPKSigningKeys: a0866e65984028ba78c9ecb5f942365c2a2e62b7b8b2f305aa6f4080452589ad
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

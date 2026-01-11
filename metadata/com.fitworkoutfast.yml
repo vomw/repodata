@@ -1,0 +1,35 @@
+Categories:
+  - Sports & Health
+License: BSD-3-Clause
+AuthorName: Michał Urbanek
+AuthorEmail: urbanekmike@gmail.com
+SourceCode: https://github.com/senpl/Fit-workout-fast
+IssueTracker: https://github.com/senpl/Fit-workout-fast/issues
+Changelog: https://github.com/senpl/Fit-workout-fast/releases
+
+AutoName: Workouts’N’Rest - Fast training execution
+
+MaintainerNotes:
+  AppAdded: 2021-01-12
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /debug/i
+  Fastlane: https://github.com/senpl/Fit-workout-fast/tree/masterRemote/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/easyfitness
+    - /pl/senpl/fitnesswithdemonstration
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: used to select sound for when exercises is ends and when rest is ended
+  Status:
+    - 2022-03-26 APKs disappeared from releases. Asked to add them back, see https://github.com/senpl/Fit-workout-fast/issues/1#issuecomment-1079754478
+    - 2022-05-01 still no APKs, so setting UCM from Tags to Static
+    - 2023-08-07 last commit/release 10/2021
+    - 2025-02-02 0.26.02 is a debug build https://github.com/senpl/Fit-workout-fast/issues/5
+    - 2025-02-13 release build arrived, but CAMERA READ_MEDIA_AUDIO DEPENDENCY_INFO_BLOCK + NonFreeDep, added to the issue
+    - 2025-02-19 release build without NonFreeDep, CAMERA permission and DepInfo blob dropped
+
+AllowedAPKSigningKeys: 4d7724ff2aaaabd024d53b3104391dc1675a7af96375a9fcf9e85655a75ffb91
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,26 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-12-03, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-12-03 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: MIT
+AuthorName: saiho
+SourceCode: https://github.com/saiho/ToggleLineageProfiles
+IssueTracker: https://github.com/saiho/ToggleLineageProfiles/issues
+Changelog: https://github.com/saiho/ToggleLineageProfiles/releases
+
+AutoName: Toggle Lineage Profiles
+
+MaintainerNotes:
+  AppAdded: 2022-08-03
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-08-17 no commits since 2022-08-02, Tags => Static
+    - 2025-11-12 now last commit/release 2/2025; keep UCM at Static
+
+AllowedAPKSigningKeys: 431bea002ca87d0a23cc4b805d9c73938ff4c462e55bcebd50664d7454c94aea
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Muntashir Al-Islam
+AuthorEmail: muntashirakon@riseup.net
+SourceCode: https://github.com/MuntashirAkon/CaptivePortalController
+IssueTracker: https://github.com/MuntashirAkon/CaptivePortalController/issues
+Changelog: https://github.com/MuntashirAkon/CaptivePortalController/releases
+
+AutoName: Captive Portal Controller
+
+MaintainerNotes:
+  AppAdded: 2022-10-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/MuntashirAkon/CaptivePortalController/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,screenshotsJPG
+  FastlaneIgnore: icon
+  Note: icon is the standard Android head
+  DoubleList: keep
+  Status:
+    - 2023-04-27 about to enter F-Droid. [asked whether to keep it here](https://gitlab.com/fdroid/rfp/-/issues/2233#note_1369432668)
+    - 2024-02-22 last release/commit 10/2022, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 320c0c0fe8cef873f2b554cb88c837f1512589dcced50c5b25c43c04596760ab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

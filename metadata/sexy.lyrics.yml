@@ -1,0 +1,29 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app obtains lyrics from Genius.com.
+    de: Die App lädt Songtexte von Genius.com.
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: cvzi
+AuthorEmail: cuzi@openmail.cc
+SourceCode: https://github.com/cvzi/Lyrics
+IssueTracker: https://github.com/cvzi/Lyrics/issues
+Changelog: https://github.com/cvzi/Lyrics/releases
+
+AutoName: Lyrics
+
+MaintainerNotes:
+  AppAdded: 2025-07-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/cvzi/Lyrics/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/cvzi/Lyrics/pull/3
+
+AllowedAPKSigningKeys: fac899a61490c1d587431f85f583bf2b31d9f10d6e5074decf7153a383c71db6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

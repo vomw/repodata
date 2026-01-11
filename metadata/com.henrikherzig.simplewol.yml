@@ -1,0 +1,22 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: Henrik Herzig
+SourceCode: https://github.com/herzhenr/simple-wake-on-lan
+IssueTracker: https://github.com/herzhenr/simple-wake-on-lan/issues
+Changelog: https://github.com/herzhenr/simple-wake-on-lan/releases
+
+AutoName: SimpleWoL
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-06-19
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-11-15 last release/commit 2023-08-21/2023-09-23, UCM Tags=>Static
+
+AllowedAPKSigningKeys: f60855adc5fd1717e3b5d42d38d8453d507ce82e1703011a44f17ca45327aaca
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

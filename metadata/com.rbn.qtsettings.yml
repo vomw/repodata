@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: RBN-Apps
+SourceCode: https://github.com/RBN-Apps/Quick-Tile-Settings
+IssueTracker: https://github.com/RBN-Apps/Quick-Tile-Settings/issues
+Changelog: https://github.com/RBN-Apps/Quick-Tile-Settings/releases
+
+AutoName: QuickTile Settings
+
+MaintainerNotes:
+  AppAdded: 2025-05-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/RBN-Apps/Quick-Tile-Settings/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 9766c553571586193a9e0fa7145794aff73201609012ea8cdaff08d85941987b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

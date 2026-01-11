@@ -1,0 +1,28 @@
+Categories:
+  - Multimedia
+License: AGPL-3.0-only
+AuthorName: Aldrin Zigmund Cortez Velasco
+AuthorWebSite: https://aldrinzigmund.com/
+SourceCode: https://github.com/aldrinzigmundv/digilogtv
+IssueTracker: https://github.com/aldrinzigmundv/digilogtv/issues
+Bitcoin: bc1qruus6vnxrww6pqac3hvg6vsepmqv8d66dwjm59
+
+AutoName: Digilog TV
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-09-01
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/example/digilogtv
+  Fastlane: https://github.com/aldrinzigmundv/digilogtv/tree/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: some TV sources are only available on http (not https)
+
+AllowedAPKSigningKeys: b7f90b34d5fd5a92687eb73bb856811c57292eedd65a37a8c759788aa2859f24
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

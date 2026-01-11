@@ -1,0 +1,1 @@
+<p><i>ADB Over Network</i> is a simple switch for adb (Android Debug Bridge) over network. Supports the new Tile API which add in Android N, so you need a Android N device to use the tile. But other functions also work well in Android 4.0.</p>

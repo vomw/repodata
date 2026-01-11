@@ -1,0 +1,23 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Gauravjot Garaya
+AuthorWebSite: https://gauravjot.com/
+SourceCode: https://github.com/gauravjot/android-noad-music-player
+IssueTracker: https://github.com/gauravjot/android-noad-music-player/issues
+Changelog: https://github.com/gauravjot/android-noad-music-player/releases
+
+AutoName: Noad Music Player (open-source)
+
+MaintainerNotes:
+  AppAdded: 2021-07-19
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 6/2022, last commit 6/2022)
+    - 2026-01-09 no new commits, issues not even responded to – disabling updates altogether now.
+
+AllowedAPKSigningKeys: 75dfb002fc7a222f5ad4286877c2ec646770abb59ac6738246158897b4736e16
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

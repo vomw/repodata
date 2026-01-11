@@ -1,0 +1,26 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Choona Guitar Tuner
+AuthorEmail: choonaapp@gmail.com
+SourceCode: https://github.com/rohankhayech/Choona
+IssueTracker: https://github.com/rohankhayech/Choona/issues
+Changelog: https://github.com/rohankhayech/Choona/releases
+
+AutoName: Choona - Guitar Tuner
+
+MaintainerNotes:
+  AppAdded: 2025-04-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/rohankhayech/Choona/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed to get the string’s tune
+  Status:
+    - 2025-08-30 v1.5.0 added GMS & Play Core, https://github.com/rohankhayech/Choona/issues/52
+
+AllowedAPKSigningKeys: c8aa2e57d2177b0f721563ecdcc68051daae4c0177390ef827943c3d7e22a37b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

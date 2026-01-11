@@ -1,0 +1,46 @@
+Categories:
+  - Graphics
+License: Apache-2.0
+AuthorName: Malik Mukhametzyanov
+AuthorEmail: open.t8rin@internet.ru
+SourceCode: https://github.com/T8RIN/ImageToolbox
+IssueTracker: https://github.com/T8RIN/ImageToolbox/issues
+Translation: https://hosted.weblate.org/engage/image-resizer
+Changelog: https://github.com/T8RIN/ImageToolbox/releases
+
+AutoName: Image Resizer (Shrinker)
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-02-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-arm64-v8a/i
+  Fastlane: https://github.com/T8RIN/ImageToolbox/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  NameSpaces:
+    - /com/t8rin/imagetoolbox
+  FlagIgnore:
+    usesCleartextTraffic: to scrape images from non-https websites, too
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed on Android 9 and below to access media
+    android.permission.READ_MEDIA_IMAGES: well, it shall shrink your images, right?
+    android.permission.MANAGE_EXTERNAL_STORAGE: used to read jxl and qoi files, which are not images according to the android system
+    android.permission.ACCESS_MEDIA_LOCATION: needed to work with Exif data
+    android.permission.CAMERA: needed for document scanner and qr code scanner features
+    android.permission.READ_CONTACTS: to create QR codes from contacts
+  DoubleList: keep
+  DoubleListRef: https://github.com/T8RIN/ImageToolbox/issues/3#issuecomment-1510467235
+  Status:
+    - 2023-04-16 app reached F-Droid at 2023-04-06, asked whether to keep https://github.com/T8RIN/ImageResizer/issues/3#issuecomment-1510467235
+    - 2023-08-29 disabled updates as proprietary components were added (7 offenders), see https://github.com/T8RIN/ImageToolbox/issues/412
+    - 2023-09-01 updates re-enabled and ApkMatch adjusted to fetch the new FOSS variant
+    - 2024-04-24 scanner reports android.permission.ACCESS_MEDIA_LOCATION – https://github.com/T8RIN/ImageToolbox/issues/997
+    - 2024-07-07 adds android.permission.CAMERA (added to above issue)
+    - 2025-03-09 android.permission.MANAGE_EXTERNAL_STORAGE – https://github.com/T8RIN/ImageToolbox/issues/1732
+    - 2025-07-15 usesCleartextTraffic + broken fastlane description – https://github.com/T8RIN/ImageToolbox/issues/2060
+
+AllowedAPKSigningKeys: 20d7689de0874f00015ea3e31fa067c15c03457d362d41d5e793db3a864fa534
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,25 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: Tanuj M.
+SourceCode: https://github.com/tanujnotes/Ultra
+IssueTracker: https://github.com/tanujnotes/Ultra/issues
+Changelog: https://github.com/tanujnotes/Ultra/releases
+
+AutoName: Olauncher Light | 22kB
+
+MaintainerNotes:
+  AppAdded: 2021-02-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/tanujnotes/Ultra/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2022-11-07 no release for almost 2y, last commit 5/2022; switch from Tags to Static
+    - 2025-11-23 upstreaming our fastlane tree via https://github.com/tanujnotes/Ultra/pull/10
+
+AllowedAPKSigningKeys: 8a5fb1cb61101b5607b406b078a7f90c7fa2aa0da26e5730591cd86562e42a7f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

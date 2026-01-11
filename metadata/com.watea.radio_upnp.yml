@@ -1,0 +1,32 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: The App is bound to all.api.radio-browser.info (for search).
+    de: Die App ist für die Stationssuche an all.api.radio-browser.info gebunden.
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Watea
+AuthorEmail: fr.watea@gmail.com
+SourceCode: https://github.com/watea/RadioUpnp
+IssueTracker: https://github.com/watea/RadioUpnp/issues
+
+AutoName: RadioUpnp - Radio &amp; UPnP/DLNA
+
+MaintainerNotes:
+  AppAdded: 2022-06-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/watea/RadioUpnp/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter kit
+  FlagIgnore:
+    usesCleartextTraffic: needed to access the many radio stations still using plain http
+  Status:
+    - 2022-11-01 switching UCM from Tags to Static due to tag mismatches, see https://github.com/watea/RadioUpnp/issues/2
+    - 2022-11-07 fixed, back to normal
+    - 2024-10-07 scanner reports DEPENDENCY_INFO_BLOCK android.permission.READ_EXTERNAL_STORAGE – https://github.com/watea/RadioUpnp/issues/18
+
+AllowedAPKSigningKeys: 93e958527972a6d7c786be10c04412f624516cb3b6fa9204da6cc6c9e00ecd2a
+
+AutoUpdateMode: Version V%v
+UpdateCheckMode: Tags

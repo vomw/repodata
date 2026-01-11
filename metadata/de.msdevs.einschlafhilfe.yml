@@ -1,0 +1,31 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Spotify for playing audio books.
+    de: Die App verbindet sich zu Spotify zum Abspielen von Audio Books.
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Marvin Stelter
+AuthorWebSite: https://citroncode.com/
+SourceCode: https://github.com/DonMarv00/DieDreiFragezeichenEinschlafhilfe
+IssueTracker: https://github.com/DonMarv00/DieDreiFragezeichenEinschlafhilfe/issues
+Changelog: https://github.com/DonMarv00/DieDreiFragezeichenEinschlafhilfe/releases
+
+AutoName: Die drei ??? - Einschlafhilfe
+
+MaintainerNotes:
+  AppAdded: 2021-07-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/DonMarv00/DieDreiFragezeichenEinschlafhilfe/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,screenshots
+  Status:
+    - 2023-05-17 UCM Tags => Static as no commits for about a year now
+    - 2023-08-08 last release 6/2022, last commit 6/2022
+    - 2024-02-07 active again, but still uses debug key https://github.com/MarvinStelter/DieDreiFragezeichenEinschlafhilfe/issues/7
+    - 2024-02-18 new release with release key, but Google blob
+
+AllowedAPKSigningKeys: 44662d08acefbda8ff6d008f08bade6e6fdd68a614768576742c4829d0eeec2b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

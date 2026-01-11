@@ -1,0 +1,23 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Eric Park
+AuthorEmail: me@ericswpark.com
+AuthorWebSite: https://ericswpark.com/
+SourceCode: https://github.com/ericswpark/camsung
+IssueTracker: https://github.com/ericswpark/camsung/issues
+Changelog: https://github.com/ericswpark/camsung/releases
+
+AutoName: camsung
+
+MaintainerNotes:
+  AppAdded: 2025-04-30
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ericswpark/camsung/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 0a3dbee17cd38a24ddd7520785135a2e469a8e595bc8b8a4e49f71c40680b30e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

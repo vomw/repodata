@@ -1,0 +1,34 @@
+Categories:
+  - Security
+License: GPL-3.0-or-later
+AuthorName: jmh
+AuthorEmail: support@jmh.me
+WebSite: https://jmh.me/
+SourceCode: https://github.com/stratumauth/app
+IssueTracker: https://github.com/stratumauth/app/issues
+Changelog: https://github.com/stratumauth/app/releases
+
+AutoName: Stratum
+
+MaintainerNotes:
+  AppAdded: 2019-06-26
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64.*fdroid/
+  ApkIgnore: /wearos/i
+  NameSpaces:
+    - /mono/com/google/android/material
+  Fastlane: https://github.com/stratumauth/app/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  PermIgnore:
+    android.permission.CAMERA: needed for the integrated QR Code scanner
+  Status:
+    - 2023-02-04 disabling updates as new version doubled size (60M) and adds 3 more non-free libs, see https://github.com/jamie-mh/AuthenticatorPro/pull/576#issuecomment-1416734987
+    - 2023-02-05 updates re-enabled as issue was fixed, see https://github.com/jamie-mh/AuthenticatorPro/pull/576#issuecomment-1418019197
+    - 2024-11-19 noticed the app has changed its packageName due to PlayStore issues. Asked if we shall switch and go arm64 then, see https://github.com/stratumauth/app/issues/1162#issuecomment-2485382521 (meanwhile Tags=>Static here)
+    - 2024-11-21 switched from me.jmh.authenticatorpro (Authenticator Pro) to com.stratumauth.app (Stratum)
+
+AllowedAPKSigningKeys: b975b325e4f39465df1034d6bc2c11a3926f60cc07b820c51fbe1c757555f28a
+
+ArchivePolicy: 1
+UpdateCheckMode: Tags

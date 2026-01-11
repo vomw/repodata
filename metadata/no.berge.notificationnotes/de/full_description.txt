@@ -1,0 +1,1 @@
+<p><i>Notification notes</i> bietet eine verwerfbare, editierbare, deaktivierbare und sortierbare Liste. Notizen können als Benachrichtigungen anzeigt, durch nach links wischen entfernt, und via nach rechts wischen bearbeitet werden.</p>

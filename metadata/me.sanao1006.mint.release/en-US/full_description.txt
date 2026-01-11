@@ -1,0 +1,1 @@
+<p><i>Mint</i> is a lightweight Misskey Android client. <b>It is still a work in progress!</b> So it might not be as stable or feature-complete as we'd all hope for. Stay tuned for more!</p>

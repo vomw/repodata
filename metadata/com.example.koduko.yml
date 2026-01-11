@@ -1,0 +1,29 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Mazahir
+AuthorEmail: Mazahirnajmi26@gmail.com
+AuthorWebSite: https://mazahir26.github.io/
+SourceCode: https://github.com/Mazahir26/koduko
+IssueTracker: https://github.com/Mazahir26/koduko/issues
+Changelog: https://github.com/Mazahir26/koduko/releases
+Donate: https://www.buymeacoffee.com/mazahir
+
+AutoName: koduko
+
+MaintainerNotes:
+  AppAdded: 2022-08-03
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Status:
+    - 2023-08-18 last release 8/2022, last commit 4/2023; Tags => Static
+    - 2024-01-10 uses expired debug certificate (see https://gitlab.com/IzzyOnDroid/repo/-/issues/477), opened https://github.com/Mazahir26/koduko/issues/23 to get it replaced
+    - 2024-01-22 uses a proper release key now, but forgets to increase versionCode and carries DEPENDENCY_INFO_BLOCK. Switched AllowedAPKSigningKeys and reported in above issue.
+    - 2024-06-27 signing key changed, see https://github.com/Mazahir26/koduko/issues/23#issuecomment-2191904543
+    - 2025-06-27 last commit/release 2024-06-26; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 3956af0e3e8e52320458ba34c855f05e2b5cd17766b898df57a5a021751d5c09
+
+AutoUpdateMode: Version v%v\+\d+
+UpdateCheckMode: Static

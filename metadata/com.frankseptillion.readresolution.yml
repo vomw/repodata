@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: CC0-1.0
+AuthorName: Frank Septillion
+AuthorEmail: frankseptillion@msn.cn
+AuthorWebSite: https://www.septillion.cn/
+SourceCode: https://github.com/Septillion/Detect-Resolution-Android
+IssueTracker: https://github.com/Septillion/Detect-Resolution-Android/issues
+Changelog: https://github.com/Septillion/Detect-Resolution-Android/releases
+
+AutoName: Detect Resolution
+
+MaintainerNotes:
+  AppAdded: 2020-03-18
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-12-11 Tags=>Static (last release/commit 11/2021)
+    - 2026-01-09 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: c059b305e30c1023fc38afdb2559625c7f5ff03278d48a334e7ca353bd4c1b67
+
+UpdateCheckMode: None

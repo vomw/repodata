@@ -1,0 +1,40 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-09-09, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-09-09 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Social Network
+  - Messaging
+  - Internet
+License: AGPL-3.0-only
+AuthorName: Craftplacer
+AuthorWebSite: https://craftplacer.moe/
+WebSite: https://craftplacer.moe/projects/kaiteki/
+SourceCode: https://github.com/Kaiteki-Fedi/Kaiteki
+IssueTracker: https://github.com/Kaiteki-Fedi/Kaiteki/issues
+Translation: https://github.com/Kaiteki-Fedi/Translations/
+Changelog: https://github.com/Kaiteki-Fedi/Kaiteki/releases
+
+AutoName: Kaiteki
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-01-05
+  Method: github-release
+  GHSkipPre: 0
+  ApkMatch: /arm64/i
+  Fastlane: https://github.com/Kaiteki-Fedi/Kaiteki/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,fulldescMD,shortdesc,icon,screenshotsJPG
+  FlagIgnore:
+    usesCleartextTraffic: uses local oauth service, see https://kaiteki.app/help/auth/
+  NameSpaces:
+    - /com/example/kaiteki
+  Status:
+    - 2024-01-08 asked about usesCleartextTraffic at https://github.com/Kaiteki-Fedi/Kaiteki/issues/484
+    - 2024-10-23 repo archived 2024-09-09, UCM Tags=>None
+    - 2024-10-23 reported as still working, see https://gitlab.com/IzzyOnDroid/repo/-/issues/617
+
+AllowedAPKSigningKeys: 14cbdc485772aa44be96b87759312ddf9d35504d3c8ebe5a3099be2d5bbef6ed
+
+AutoUpdateMode: Version weekly-%v
+UpdateCheckMode: None

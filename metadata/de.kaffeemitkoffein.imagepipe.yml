@@ -1,0 +1,21 @@
+Categories:
+  - Graphics
+License: GPL-3.0-or-later
+AuthorName: Pawel Dube
+SourceCode: https://codeberg.org/Starfish/Imagepipe
+IssueTracker: https://codeberg.org/Starfish/Imagepipe/issues
+Changelog: https://codeberg.org/Starfish/Imagepipe/releases
+
+AutoName: Imagepipe
+
+MaintainerNotes:
+  AppAdded: 2025-07-15
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/Starfish/Imagepipe/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 54b3c146f2c9ccd1fe23171320517e2aad9666798d383c52332fff99400a796e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

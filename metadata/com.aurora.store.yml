@@ -1,0 +1,48 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on the Google Play Store servers
+    de: Die App benötigt zwingend die Server des Google Play Store.
+  Tracking:
+    en-US: The list of installed apps and system details are sent to Google Play Store servers, which most likely provides enough data to fingerprint the device
+    de: Die Liste der installierten Apps und Systemdetails werden an die Server des Google Play Store gesendet, was höchstwahrscheinlich genügend Daten für einen Fingerabdruck des Geräts liefert
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Rahul Kumar Patel
+AuthorEmail: whyorean@gmail.com
+WebSite: http://auroraoss.com
+SourceCode: https://gitlab.com/AuroraOSS/AuroraStore
+IssueTracker: https://gitlab.com/AuroraOSS/AuroraStore/issues
+Translation: https://hosted.weblate.org/engage/aurora-store
+Changelog: https://gitlab.com/AuroraOSS/AuroraStore/blob/HEAD/CHANGELOG
+Donate: https://www.paypal.com/paypalme/AuroraDev
+Liberapay: whyorean
+Bitcoin: bc1qu7cy9fepjj309y4r2x3rymve7mw4ff39c8cpe0
+
+AutoName: Aurora Store
+
+MaintainerNotes:
+  AppAdded: 2024-11-05
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/AuroraOSS/AuroraStore/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescNL,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.REQUEST_DELETE_PACKAGES: needed to uninstall apps
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to install/update apps
+    android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: for seemless updates
+    android.permission.QUERY_ALL_PACKAGES: needed to list apps for updates or removal
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed on higher to access the OBB directory to download game files
+    android.permission.READ_EXTERNAL_STORAGE: comes with WRITE_EXTERNAL_STORAGE
+    android.permission.WRITE_EXTERNAL_STORAGE: needed on lower Android versions to access the OBB directory to download game files
+    android.permission.INTERNET: needed to access PlayStore
+    android.permission.USE_CREDENTIALS: needed log in to PlayStore to access e.g. apps you bought
+  Status:
+    - 2024-11-05 added on special request by mail despite already being on F-Droid (RB here but not there)
+    - 2024-12-23 scanner reports MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE – https://gitlab.com/AuroraOSS/AuroraStore/-/issues/1251
+
+AllowedAPKSigningKeys: 4c626157ad02bda3401a7263555f68a79663fc3e13a4d4369a12570941aa280f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

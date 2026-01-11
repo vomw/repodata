@@ -1,0 +1,1 @@
+service that accepts a string and saves it to clipboard

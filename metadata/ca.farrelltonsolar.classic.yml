@@ -1,0 +1,28 @@
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: ClassicDIY
+AuthorEmail: graham.a.ross@gmail.com
+SourceCode: https://github.com/ClassicDIY/ClassicMonitor
+IssueTracker: https://github.com/ClassicDIY/ClassicMonitor/issues
+Changelog: https://github.com/ClassicDIY/ClassicMonitor/releases
+Donate: https://www.buymeacoffee.com/r4K2HIB
+
+AutoName: Classic
+Name: MidniteSolar Classic Monitor
+
+MaintainerNotes:
+  AppAdded: 2023-02-02
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  DoubleListRef: https://github.com/ClassicDIY/ClassicMonitor/issues/26#issuecomment-1416730281
+  NameSpaces:
+    - /ca/farrelltonsolar/uicomponents
+  Status:
+    - 2025-09-26 seems no longer maintained, no reply to issues (including one of us) since 8/2024). UCM Tags=>Static for now, as last release 8/2024
+
+AllowedAPKSigningKeys: 54486b0d5af98f328264dddb6e03e4d487a8aa2a8066276d35f95e8556e9ac0e
+
+AutoUpdateMode: Version V%v
+UpdateCheckMode: Static

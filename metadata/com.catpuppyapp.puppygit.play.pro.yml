@@ -1,0 +1,37 @@
+Categories:
+  - Development
+License: GPL-3.0-only
+AuthorName: Bandeapart1964
+SourceCode: https://github.com/catpuppyapp/PuppyGit
+IssueTracker: https://github.com/catpuppyapp/PuppyGit/issues
+Changelog: https://github.com/catpuppyapp/PuppyGit/releases
+Donate: https://github.com/catpuppyapp/PuppyGit/blob/main/donate.md
+
+AutoName: PuppyGit Pro
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-10-10
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /debug/i
+  Fastlane: https://github.com/catpuppyapp/PuppyGit/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/catpuppyapp/puppygit
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: to recieve app change events, detecting enter/exit an app
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to allow managing local repos anywhere on local storage
+    android.permission.WRITE_EXTERNAL_STORAGE: to allow managing local repos anywhere on local storage
+    android.permission.MANAGE_EXTERNAL_STORAGE: to allow managing local repos anywhere on local storage
+    android.permission.QUERY_ALL_PACKAGES: to obtain a list of available apps to pick from to enable auto pull/push when entering/leaving them
+  Status:
+    - 2024-11-01 repo was moved from https://github.com/Bandeapart1964/PuppyGit by creating a new one, so no redirect. Original repo contains note for the move, so it is legit. Also, reported by the dev themselves at https://gitlab.com/IzzyOnDroid/repo/-/issues/642
+    - 2025-02-02 scanner reports android.accessibilityservice.AccessibilityService QUERY_ALL_PACKAGES – https://github.com/catpuppyapp/PuppyGit/issues/30
+    - 2025-07-19 upstreamed local fastlane adjustments via https://github.com/catpuppyapp/PuppyGit/pull/79
+
+AllowedAPKSigningKeys: 48a23ec089cbf1a50a42789dd0cc44e11399b3c13b506c09551bcebf00bedbe9
+
+AutoUpdateMode: Version \d.*v%c
+UpdateCheckMode: Tags

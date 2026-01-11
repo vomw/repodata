@@ -1,0 +1,1 @@
+Tastaturlayout, das die Hochstelltaste durch eine STRG Taste ersetzt

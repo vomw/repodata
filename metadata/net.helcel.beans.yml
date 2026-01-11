@@ -1,0 +1,21 @@
+Categories:
+  - Science & Education
+  - Navigation
+License: GPL-3.0-or-later
+AuthorName: helcel.net
+SourceCode: https://github.com/helcel-net/beans
+IssueTracker: https://github.com/helcel-net/beans/issues
+
+AutoName: Beans
+
+MaintainerNotes:
+  AppAdded: 2024-07-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/helcel-net/beans/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 6253157e24c96c4beb030669124f927c4a17e5458828e6b78f8e29c4e022af5b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

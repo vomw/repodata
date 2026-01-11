@@ -1,0 +1,24 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: Maksim Karasev
+AuthorWebSite: https://karasevm.com/
+SourceCode: https://github.com/karasevm/PrivateDNSAndroid
+IssueTracker: https://github.com/karasevm/PrivateDNSAndroid/issues
+Changelog: https://github.com/karasevm/PrivateDNSAndroid/releases
+
+AutoName: Private DNS Quick Toggle
+
+MaintainerNotes:
+  AppAdded: 2024-03-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/karasevm/PrivateDNSAndroid/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.WRITE_SECURE_SETTINGS: required to change the private dns settings
+
+AllowedAPKSigningKeys: 1347c51f78d056fb15fe1eeaa1a0f34c6a08e2bfe4bce8ea1a1abd3db7e2c3fb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,25 @@
+Categories:
+  - System
+  - Xposed
+License: MIT
+AuthorName: Juby210
+SourceCode: https://github.com/Juby210/AppInfoFix
+IssueTracker: https://github.com/Juby210/AppInfoFix/issues
+Changelog: https://github.com/Juby210/AppInfoFix/releases
+
+AutoName: AppInfoFix
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-22
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-12-11 Tags=>Static (last release & commit 4/2021)
+    - 2024-09-07 picked up again, so UCM => Tags
+    - 2025-11-13 last release & commit 8/2024, UCM Tags=>Static again
+
+AllowedAPKSigningKeys: e05ff309c992ee2a5d55d6ebac1966d95d861839d6c9c99761bca44f4a602722
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

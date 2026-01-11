@@ -1,0 +1,26 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Alexey Avdyukhin
+AuthorEmail: clusterrr@clusterrr.com
+AuthorWebSite: https://clusterrr.com/
+SourceCode: https://github.com/ClusterM/usb-serial-telnet-server
+IssueTracker: https://github.com/ClusterM/usb-serial-telnet-server/issues
+Changelog: https://github.com/ClusterM/usb-serial-telnet-server/releases
+
+AutoName: USB Serial Telnet Server
+
+MaintainerNotes:
+  AppAdded: 2022-05-30
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ClusterM/usb-serial-telnet-server/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: FAstlane is our starter package
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 7/2022, last commit 7/2022)
+
+AllowedAPKSigningKeys: 2a9e580fbff120a2da62a3f9e729a8e95826f4a6ac7691d253447c46ea76422e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

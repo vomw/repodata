@@ -1,0 +1,42 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Google servers (Youtube).
+    de: Die App baut Verbindungen zu Google Servern auf (YouTube).
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Nguyễn Đức Tuấn Minh
+AuthorWebSite: https://bio.link/maxrave
+SourceCode: https://github.com/maxrave-dev/SimpMusic
+IssueTracker: https://github.com/maxrave-dev/SimpMusic/issues
+Changelog: https://github.com/maxrave-dev/SimpMusic/releases
+
+AutoName: SimpMusic
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-07-28
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-arm64-v8a/i
+  Fastlane: https://github.com/maxrave-dev/SimpMusic/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: This is needed to access your local audio media files.
+  NameSpaces:
+    - /com/maxrave/data
+    - /com/maxrave/kotlinytmusicscraper
+    - /com/maxrave/media3
+    - /org/simpmusic/lyrics
+  LibIgnore:
+    - /org/acra
+  DoubleList: keep
+  DoubleListRef: https://github.com/maxrave-dev/SimpMusic/issues/79
+  Status:
+    - 2024-01-21 scanner reports usesCleartextTraffic, READ_MEDIA_AUDIO, READ_MEDIA_IMAGES, READ_EXTERNAL_STORAGE – https://github.com/maxrave-dev/SimpMusic/issues/227
+    - 2025-10-05 update checker – or self updater? https://github.com/maxrave-dev/SimpMusic/issues/1094#issuecomment-3369219407
+
+AllowedAPKSigningKeys: 76c53bd813ae8f1ce2778f7814b515785719bf9a82c6bee03b8b2dfd706055a1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

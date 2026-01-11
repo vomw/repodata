@@ -1,0 +1,27 @@
+Categories:
+  - Navigation
+License: GPL-2.0-only
+AuthorName: Warren Bank
+SourceCode: https://github.com/warren-bank/Android-Mock-Location
+IssueTracker: https://github.com/warren-bank/Android-Mock-Location/issues
+Changelog: https://github.com/warren-bank/Android-Mock-Location/releases
+
+AutoName: Mock my GPS
+
+MaintainerNotes:
+  AppAdded: 2020-10-20
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /withAospLocation/i
+  ManualHint: Warren’s crazy naming. Now he uses tag names with slashes in ("service/v02.01.08" for versionName "002.01.08-03API")
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: to allow for mock location relative to the real one
+    android.permission.ACCESS_FINE_LOCATION: to allow for mock location relative to the real oneto allow for mock location relative to the real one
+    android.permission.ACCESS_MOCK_LOCATION: the purpose of this app
+    android.permission.SYSTEM_ALERT_WINDOW: nded for the Joystick overlay
+  Status:
+    - 2024-09-13 SYSTEM_ALERT_WINDOW detected – https://github.com/warren-bank/Android-Mock-Location/issues/25
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+UpdateCheckMode: Tags

@@ -1,0 +1,28 @@
+Categories:
+  - Internet
+  - System
+License: MIT
+AuthorName: Doru Moraru
+AuthorWebSite: https://www.doru.uk/
+SourceCode: https://github.com/dorumrr/de1984
+IssueTracker: https://github.com/dorumrr/de1984/issues
+Donate: https://www.buymeacoffee.com/ossdev
+
+AutoName: De1984 Firewall
+
+MaintainerNotes:
+  AppAdded: 2025-10-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dorumrr/de1984/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  IntentFilterIgnore:
+    android.net.VpnService: required for the VPN based firewall
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to list apps for the firewall features
+    android.permission.REQUEST_DELETE_PACKAGES: to allow deleting unwanted apps
+
+AllowedAPKSigningKeys: bab21cbef4a2ff537f079a50ced123da0335759255d945b3d702f3b97bfd575a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,41 @@
+Categories:
+  - Navigation
+License: GPL-2.0-or-later
+AuthorName: Kasidit Yusuf
+AuthorWebSite: https://www.clearevo.com/about/
+SourceCode: https://github.com/ykasidit/bluetooth_gnss
+IssueTracker: https://github.com/ykasidit/bluetooth_gnss/issues
+Changelog: https://github.com/ykasidit/bluetooth_gnss/releases
+
+AutoName: Bluetooth GNSS - GPS, Galileo, GLONASS and BeiDou
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-08-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ykasidit/bluetooth_gnss/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  LibIgnore:
+    - /com/google/android/gms
+  NameSpaces:
+    - /com/clearevo/libbluetooth_gnss_service
+    - /com/clearevo/libecodroidbluetooth
+    - /com/clearevo/libecodroidgnss_parse
+    - /com/flutter_rust_bridge/rust_lib_bluetooth_gnss
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: required to access location
+    android.permission.ACCESS_FINE_LOCATION: required to access location
+    android.permission.BLUETOOTH_SCAN: needed to scan for Bluetooth GPS devices
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted because of WRITE being requested
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to (optionally) log NMEA data to a file of choice
+  Status:
+    - 2024-08-14 scanner reports android.permission.READ_EXTERNAL_STORAGE* – https://github.com/ykasidit/bluetooth_gnss/issues/72
+    - 2025-06-10 fastlane tree was removed at 2024-08-10, most likely by accident – https://github.com/ykasidit/bluetooth_gnss/issues/89
+    - 2025-07-27 v2.0.5 introduces GMS, probably via the Flutter geolocation plugin – https://github.com/ykasidit/bluetooth_gnss/issues/97
+    - 2025-07-31 GMS replaced by microG, see https://github.com/ykasidit/bluetooth_gnss/issues/97#issuecomment-3138280119
+
+AllowedAPKSigningKeys: a7788592bd7fe689a0a3557663391b86f8718c33b201dd045d4ba9d7a575a794
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

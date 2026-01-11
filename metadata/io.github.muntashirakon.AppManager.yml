@@ -1,0 +1,105 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Muntashir Al-Islam
+AuthorEmail: am4android@riseup.net
+WebSite: https://muntashirakon.github.io/AppManager/
+SourceCode: https://github.com/MuntashirAkon/AppManager
+IssueTracker: https://github.com/MuntashirAkon/AppManager/issues
+Translation: https://hosted.weblate.org/projects/app-manager/
+Changelog: https://muntashirakon.github.io/AppManager/en/#ch:changelogs
+
+AutoName: App Manager
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-07-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/MuntashirAkon/AppManager/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /io/github/muntashirakon/adapters
+    - /io/github/muntashirakon/compat
+    - /io/github/muntashirakon/csv
+    - /io/github/muntashirakon/dialog
+    - /io/github/muntashirakon/io
+    - /io/github/muntashirakon/lifecycle
+    - /io/github/muntashirakon/multiselection
+    - /io/github/muntashirakon/preference
+    - /io/github/muntashirakon/proc
+    - /io/github/muntashirakon/svg
+    - /io/github/muntashirakon/text
+    - /io/github/muntashirakon/ui
+    - /io/github/muntashirakon/view
+    - /io/github/muntashirakon/widget
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: to display "UI Tracker" on top of all apps
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to obtain a list of installed apps
+    android.permission.REQUEST_DELETE_PACKAGES: an app manager needs to be able to uninstall apps
+    android.permission.DELETE_PACKAGES: an app manager needs to be able to uninstall apps
+    android.permission.REQUEST_INSTALL_PACKAGES: an app manager should be able to install apps
+    android.permission.INSTALL_PACKAGES: an app manager should be able to install apps
+    android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: needed for seamless updates
+    android.permission.MANAGE_EXTERNAL_STORAGE: to access /sdcard for backup/restore and file manager
+    android.permission.READ_EXTERNAL_STORAGE: to access /sdcard for backup/restore and file manager
+    android.permission.WRITE_EXTERNAL_STORAGE: to access /sdcard for backup/restore and file manager
+    android.permission.SYSTEM_ALERT_WINDOW: to display "UI Tracker" on top of all apps
+    android.permission.READ_PHONE_STATE: to fetch mobile data usage in Android 6.0-8.0
+    android.permission.ACCESS_NETWORK_STATE: to detect whether the system is connected to Wi-Fi for Wireless debugging, display data usage in the App Usage and App Details pages
+    android.permission.ADJUST_RUNTIME_PERMISSIONS_POLICY: to grant/revoke runtime/dangerous/development permissions, only granted to system apps
+    android.permission.BACKUP: to back up/restore Android apps using the native backup APIs, only granted to system apps
+    android.permission.CHANGE_COMPONENT_ENABLED_STATE: to disable/enable an application component, only granted to system apps
+    android.permission.CLEAR_APP_CACHE: to clear cache from an app, only granted to system apps
+    android.permission.CLEAR_APP_USER_DATA: to clear data from an app, only granted to system apps
+    android.permission.DELETE_CACHE_FILES: to clear cache from an app, only granted to system apps since Android Lollipop
+    android.permission.DEVICE_POWER: to enable/disable battery optimisation, only granted to system apps
+    android.permission.DUMP: to use various dump commands available via the command line; granted via ADB/root
+    android.permission.FORCE_STOP_PACKAGES: to force-stop any app, only granted to system apps
+    android.permission.FOREGROUND_SERVICE: to run a foreground service
+    android.permission.FOREGROUND_SERVICE_SPECIAL_USE: to run a foreground service (Android 14+)
+    android.permission.FOREGROUND_SERVICE_DATA_SYNC: to run a foreground service (Android 14+)
+    android.permission.GET_PACKAGE_SIZE: to get an app’s app data size, unused since Android 8.0
+    android.permission.GET_APP_OPS_STATS: to get app ops and their current mode for an app, granted via root/ADB
+    android.permission.GET_RUNTIME_PERMISSIONS: to fetch permission flags for runtime/dangerous/development permissions, only granted to system apps
+    android.permission.GET_TASKS: to fetch running apps and services; returns only the current app since Android 8.0?
+    android.permission.GRANT_RUNTIME_PERMISSIONS: to grant runtime/dangerous/development permissions, only granted to system apps
+    android.permission.INJECT_EVENTS: to execute KEYCODE_ASSIST in order to exploit assistant to run arbitrary activities in ADB mode, only granted to system apps
+    com.android.permission.INSTALL_EXISTING_PACKAGES: to reinstall existing system applications, only granted to system apps
+    android.permission.INSTALL_TEST_ONLY_PACKAGE: to install testOnly applications, only granted to system apps
+    android.permission.INTERACT_ACROSS_USERS: to enable mult-user features, granted via root/ADB
+    android.permission.INTERACT_ACROSS_USERS_FULL: to enable mult-user features, only granted to system apps
+    android.permission.INTERNAL_DELETE_CACHE_FILES: to clear cache from an app, only granted to system apps
+    android.permission.INTERNET: to make socket and the Internet connections. App Manager only connect to a specific set of domains
+    android.permission.KILL_UID: to kill any running processes that belong to an arbitrary UID, only granted to system apps
+    android.permission.MANAGE_APP_OPS_MODES: to get/set the mode of an app op, only granted to system apps
+    android.permission.MANAGE_APPOPS: to get/set the mode of an app op, only granted to system apps
+    android.permission.MANAGE_NETWORK_POLICY: to set/unset net policies for an app (Android 7.0+)
+    android.permission.MANAGE_NOTIFICATION_LISTENERS: to back up/restore notification listeners, only granted to system apps
+    android.permission.MANAGE_USERS: to access user info if the system has more than a user, only granted to system apps
+    android.permission.PACKAGE_USAGE_STATS: to fetch app usage status including app (Android 8.0+) and data usage (Android 6.0+), asked when required
+    android.permission.READ_LOGS: to display logs in the Log Viewer page, granted via root/ADB
+    android.permission.REAL_GET_TASKS: to fetch running apps and services, only granted to system apps
+    android.permission.RECEIVE_BOOT_COMPLETED: to receive boot complete notification when the phone is restarted
+    android.permission.REVOKE_RUNTIME_PERMISSIONS: to revoke runtime/dangerous/development permissions, only granted to system apps
+    android.permission.START_ANY_ACTIVITY: to start any activities (both exported and non-exported), only granted to system apps
+    android.permission.SUSPEND_APPS: to suspend/freeze an app, only granted to system apps
+    android.permission.UPDATE_APP_OPS_STATS: to get/set the mode of an app op, only granted to system apps
+    android.permission.UPDATE_DOMAIN_VERIFICATION_USER_SELECTION: to modify default websites assigned to an app (Android 12+), only granted to system apps
+    android.permission.WAKE_LOCK: to prevent the app from being stopped after the screen goes off
+    android.permission.WRITE_SECURE_SETTINGS: to write to the secure settings in the system, granted via root/ADB
+    com.android.launcher.permission.INSTALL_SHORTCUT: to install a launcher shortcut
+    com.termux.permission.RUN_COMMAND: to run command in Termux from App Manager, asked when required
+    android.permission.ACCESS_HIDDEN_PROFILES: to access user profiles marked as hidden (e.g., Private Space) (Android 15+)
+    android.permission.CHANGE_OVERLAY_PACKAGES: to manage overlay packages used to modify behavior of system apps (Android 8.0+)
+    android.permission.ENFORCE_UPDATE_OWNERSHIP: to take ownership of apps installed by App Manager (Android 14+)
+    android.permission.MANAGE_SENSORS: to manage access to sensors in apps, only granted to system apps (Android 9+)
+    android.permission.POST_NOTIFICATIONS: to post notifications on behalf of App Manager for various operations (Android 13+), optional but recommended
+    android.permission.USE_BIOMETRIC: to provide the "screen lock" feature
+    android.permission.USE_FINGERPRINT: to provide the "screen lock" feature
+
+AllowedAPKSigningKeys: 320c0c0fe8cef873f2b554cb88c837f1512589dcced50c5b25c43c04596760ab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

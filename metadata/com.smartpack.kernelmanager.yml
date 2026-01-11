@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: sunilpaulmathew
+AuthorEmail: sunil.kde@gmail.com
+AuthorWebSite: https://smartpack.github.io/
+WebSite: https://smartpack.github.io/spkm/
+SourceCode: https://github.com/SmartPack/SmartPack-Kernel-Manager
+IssueTracker: https://github.com/SmartPack/SmartPack-Kernel-Manager/issues
+Changelog: https://github.com/SmartPack/SmartPack-Kernel-Manager/releases
+Donate: https://ko-fi.com/sunilpaulmathew
+
+AutoName: SmartPack-Kernel Manager
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2020-10-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SmartPack/SmartPack-Kernel-Manager/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/rfp/-/issues/1587#note_467501823
+  Status:
+    - 2024-12-10 last release/commit 3/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

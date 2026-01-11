@@ -1,0 +1,1 @@
+plays next/prev song instead of opening virtual assistant with 2 taps on earbuds

@@ -1,0 +1,28 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: dn0ne
+SourceCode: https://github.com/dn0ne/lotus
+IssueTracker: https://github.com/dn0ne/lotus/issues
+
+AutoName: Lotus
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-01-08
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/dn0ne/lotus/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /com/dn0ne/player
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: to read music files for playing
+    android.permission.READ_EXTERNAL_STORAGE: to read music files for playing
+
+AllowedAPKSigningKeys: 4f3b3a748017491c07788ecd0f4aba2fffd41bf4cc2ce9ff0100f2a110cffefa
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

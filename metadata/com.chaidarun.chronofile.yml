@@ -1,0 +1,33 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+Categories:
+  - Time
+License: AGPL-3.0-only
+AuthorName: Art Chaidarun
+AuthorWebSite: https://chaidarun.com/
+SourceCode: https://github.com/artnc/chronofile
+IssueTracker: https://github.com/artnc/chronofile/issues
+Changelog: https://github.com/artnc/chronofile/releases
+
+AutoName: Chronofile
+
+MaintainerNotes:
+  AppAdded: 2021-12-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/artnc/chronofile/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is based on our starter package
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: to record coordinates when logging a new activity entry
+    android.permission.ACCESS_FINE_LOCATION: to record coordinates when logging a new activity entry
+  Status:
+    - 2023-02-11 Tags => Static as no release since 12/2021 (last commit 1/2022)
+    - 2025-10-15 DEPENDENCY_INFO_BLOCK ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION – https://github.com/artnc/chronofile/issues/13#issuecomment-3408303694
+
+AllowedAPKSigningKeys: bbac311e25a9438d9480c984b5dd478a51ed00bd382f058d16524001f67e2371
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

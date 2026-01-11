@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app reaches out to Fyydlin.
+    de: Die App greift auf Fyydlin zu.
+Categories:
+  - Multimedia
+  - Internet
+License: GPL-3.0-only
+AuthorName: Xilin Jia
+AuthorWebSite: https://xilinjia.github.io/
+SourceCode: https://github.com/XilinJia/Podcini.X
+IssueTracker: https://github.com/XilinJia/Podcini.X/issues
+Translation: https://app.transifex.com/xilinjia/podcini/dashboard/
+Changelog: https://github.com/XilinJia/Podcini.X/releases
+
+AutoName: Podcini.X
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-01-15
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /free.*arm64/i
+  Fastlane: https://github.com/XilinJia/Podcini.X/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /ac/mdiq/podcini
+  PermIgnore:
+    android.permission.WRITE_EXTERNAL_STORAGE: to store podcasts locally
+    android.permission.READ_EXTERNAL_STORAGE: to read stored podcasts
+
+AllowedAPKSigningKeys: cd1328fb5c2ccf50cb99e3ff076eb5fe88298fe28366989dcf9d9899d5eb6940
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

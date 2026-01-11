@@ -1,0 +1,28 @@
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: Acclorite
+SourceCode: https://github.com/Acclorite/book-story
+IssueTracker: https://github.com/Acclorite/book-story/issues
+Changelog: https://github.com/Acclorite/book-story/releases
+
+AutoName: Book
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-08-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Acclorite/book-story/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to scan the entire device for books
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed on higher Android versions to scan the entire device for books
+  Status:
+    - 2024-08-11 scanner reports READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE – https://github.com/Acclorite/book-story/issues/36
+
+AllowedAPKSigningKeys: a661a0c81f138e53dff32f8fdc1dd19f8130523914027e2c0296fe245131a7d4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

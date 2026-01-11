@@ -1,0 +1,32 @@
+Categories:
+  - Money
+License: AGPL-3.0-or-later
+AuthorName: Sidhant
+AuthorWebSite: https://sidhant947.github.io/
+SourceCode: https://github.com/sidhant947/Wallet
+IssueTracker: https://github.com/sidhant947/Wallet/issues
+Changelog: https://github.com/sidhant947/Wallet/releases
+
+AutoName: Wallet
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-11-20
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/sidhant947/Wallet/tree/main/fastlane/metadata/android
+  FastlaneFeatures: video,title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/example/wallet
+  PermIgnore:
+    android.permission.CAMERA: needed for the QR code scanner
+  Status:
+    - 2024-12-02 APK has a different packageName now? Identifies as com.sidhant.chill_guy (attached APKs from other project, see https://github.com/sidhant947/Wallet/issues/1#issuecomment-2511900466). UCM Tags=>Static for now until clarified/adjusted
+    - 2024-12-10 fixed, correct files attached again; UCM Static-Tags again
+    - 2025-01-29 scanner reports CAMERA WRITE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE – https://github.com/sidhant947/Wallet/issues/6
+
+AllowedAPKSigningKeys: 5e4c3403e16cc60217d29e89773e31656aa77f407f1f3210bd80c370e5413379
+
+AutoUpdateMode: Version V%v
+UpdateCheckMode: Tags

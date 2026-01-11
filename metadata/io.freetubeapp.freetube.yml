@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to YouTube.
+    de: Die App nutzt Verbindungen zu YouTube.
+Categories:
+  - Multimedia
+License: AGPL-3.0-or-later
+AuthorName: MarmadileManteater
+AuthorEmail: MarmadileManteater@proton.me
+AuthorWebSite: https://marmadilemanteater.pythonanywhere.com/
+WebSite: https://marmadilemanteater.pythonanywhere.com/freetube/#/
+SourceCode: https://github.com/MarmadileManteater/FreeTubeAndroid
+IssueTracker: https://github.com/MarmadileManteater/FreeTubeAndroid/issues
+Translation: https://hosted.weblate.org/engage/free-tube/
+Changelog: https://github.com/MarmadileManteater/FreeTubeAndroid/releases
+Bitcoin: 1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS
+
+AutoName: FreeTube
+
+MaintainerNotes:
+  AppAdded: 2023-01-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/MarmadileManteater/FreeTubeAndroid/blob/development/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshotsJPG
+  FastlaneIgnore: changelogs
+  Note: changelogs just has default.txt
+  FlagIgnore:
+    usesCleartextTraffic: used for self-hosted local Invidious instances
+  Status:
+    - 2024-02-24 scanner reports usesCleartextTraffic android.permission.READ_EXTERNAL_STORAGE android.permission.SYSTEM_ALERT_WINDOW – https://github.com/MarmadileManteater/FreeTubeCordova/issues/296
+
+AllowedAPKSigningKeys: 4d9664daae8a83532756adc8777e96a6de9f8497bb60ad1c782adb71fae80fc1
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

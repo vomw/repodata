@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-01-31, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-01-31 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: MIT
+AuthorName: Rikka
+SourceCode: https://github.com/RikkaW/YASNAC
+IssueTracker: https://github.com/RikkaW/YASNAC/issues
+
+AutoName: YASNAC - Yet Another SafetyNet Attestation Checker
+
+MaintainerNotes:
+  AppAdded: 2021-11-16
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 4/2022, last commit 5/2023)
+    - 2024-01-31 repo has been archived, disabling update checks
+  X-AutoUpdateMode: Version v%v -- does not work as versionName has commit hash appended
+
+AllowedAPKSigningKeys: 085322f91f4e091ac8aa89f459d3b042003823d686d26d6c60f66e51fe5ada7b
+
+UpdateCheckMode: None

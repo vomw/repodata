@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Jens Dürr
+SourceCode: https://github.com/jensomato/ReadeckApp
+IssueTracker: https://github.com/jensomato/ReadeckApp/issues
+Changelog: https://github.com/jensomato/ReadeckApp/releases
+
+AutoName: Readeck App
+
+MaintainerNotes:
+  AppAdded: 2025-03-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/jensomato/ReadeckApp/tree/develop/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 534f1f1c839a179258a2eb413c756aa601a69e79e1354783b681c51076e81060
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

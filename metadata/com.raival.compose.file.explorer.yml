@@ -1,0 +1,31 @@
+Categories:
+  - Development
+  - System
+License: GPL-3.0-only
+AuthorName: Raival
+SourceCode: https://github.com/Raival-e/Prism-File-Explorer
+IssueTracker: https://github.com/Raival-e/Prism-File-Explorer/issues
+Donate: https://patreon.com/Raival?
+
+AutoName: File Explorer
+
+MaintainerNotes:
+  AppAdded: 2024-11-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Raival-e/Prism-File-Explorer/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package; embedded APKs are from Android Frameworks, see https://github.com/Raival-e/File-Explorer-Compose/issues/75
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to manage files on Android ≥ 11
+    android.permission.READ_EXTERNAL_STORAGE: needed to manage files on Android ≤ 11
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to manage files on Android ≤ 11
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to install APK files from storage
+    android.permission.QUERY_ALL_PACKAGES: needed to retrieve all apps that can handle a certain file
+  Status:
+    - 2025-07-30 upstreaming our Fastlane via https://github.com/Raival-e/Prism-File-Explorer/pull/110
+
+AllowedAPKSigningKeys: 830166b8bea60c42c6785459043adc1fb3b30537a56a7c90a595cb9e08126c26
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

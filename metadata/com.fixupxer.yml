@@ -1,0 +1,24 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: NeatCode Labs
+AuthorEmail: neatcodelabs@gmail.com
+AuthorWebSite: https://neatcodelabs.com/
+SourceCode: https://github.com/NeatCode-Labs/fixupxer
+IssueTracker: https://github.com/NeatCode-Labs/fixupxer/issues
+Changelog: https://github.com/NeatCode-Labs/fixupxer/releases
+Donate: https://ko-fi.com/neatcodelabs
+
+AutoName: FixupXer - URL Enhancer
+
+MaintainerNotes:
+  AppAdded: 2025-07-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/NeatCode-Labs/fixupxer/blob/main/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 78e36950963a98ea39fe30b955c27364e187feca85a1af6ad10987d15f18ec2f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

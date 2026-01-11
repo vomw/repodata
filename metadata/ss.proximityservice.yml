@@ -1,0 +1,31 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+  SourceArchived:
+    en-US: Upstream repo was archived 2023-08-27, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2023-08-27 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: SSDeveloper
+AuthorEmail: dev@sungsoo.me
+SourceCode: https://github.com/ssaqua/ProximityService
+IssueTracker: https://github.com/ssaqua/ProximityService/issues
+Changelog: https://github.com/ssaqua/ProximityService/releases
+
+AutoName: Proximity Service
+
+MaintainerNotes:
+  AppAdded: 2018-01-13
+  Method: github-release
+  Status:
+    - 2021-06-23 last commit was 4/2020, switch UCM from Tags to Static
+    - 2023-08-08 last release 1/2020, last commit 4/2020
+    - 2023-10-02 repo was archived 2023-08-27, UCM Static => None
+    - 2024-10-23 reported as still working, see https://gitlab.com/IzzyOnDroid/repo/-/issues/617
+    - 2025-11-15 [reported still working and useful](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15#issuecomment-8293652)
+
+AllowedAPKSigningKeys: 0338fd77fcf0dd6bb8687059301c92a60a54e94d2ab1dcaaccff7a6566d8fe7d
+
+UpdateCheckMode: None

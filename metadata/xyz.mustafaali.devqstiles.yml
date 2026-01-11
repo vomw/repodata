@@ -1,0 +1,26 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Mir Mustafa Ali
+AuthorEmail: mustafaali.apps@gmail.com
+AuthorWebSite: https://mustafaali.xyz/
+SourceCode: https://github.com/mustafa01ali/Dev-Tiles
+IssueTracker: https://github.com/mustafa01ali/Dev-Tiles/issues
+
+AutoName: Dev Tiles
+
+MaintainerNotes:
+  AppAdded: 2017-06-24
+  Method: github-release
+  Note: no activity since 11/2017 - no commits, no replies to issues
+  Status:
+    - 2023-08-08 unchanged; disabling updates (from Static)
+    - 2025-11-20 still working fine (and being useful) on Android 10 + 16, see https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15#issuecomment-8373411 ff – keeping it a while longer then.
+
+AllowedAPKSigningKeys: 77e6eeb54b5e0c9b62e78631a3304316b814cbe9d78b9be89dbf3a337227d062
+
+UpdateCheckMode: None

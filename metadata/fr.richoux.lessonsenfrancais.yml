@@ -1,0 +1,25 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Florian Richoux
+AuthorEmail: florian.richoux@gmail.com
+SourceCode: https://github.com/richoux/les_sons_en_francais
+IssueTracker: https://github.com/richoux/les_sons_en_francais/issues
+
+AutoName: Les Sons en Français
+
+MaintainerNotes:
+  AppAdded: 2023-04-06
+  Method: github-release
+  GHSkipPre: 1
+  X-GHDownloadDir: https://github.com/richoux/les_sons_en_francais/blob/master/releases
+  Fastlane: https://github.com/richoux/les_sons_en_francais/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2024-05-17 no commits since 2023-04-24, UCM Tags => Static
+
+AllowedAPKSigningKeys: 1e1226b6de9f1e28428ef0e11a25f30bd76cc591044ae13f8e909d6c4917843f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

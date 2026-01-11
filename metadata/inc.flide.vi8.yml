@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Ravi Agarwal
+AuthorEmail: 8vim@protonmail.com
+SourceCode: https://github.com/8VIM/8VIM
+IssueTracker: https://github.com/8VIM/8VIM/issues
+
+AutoName: VI8
+
+MaintainerNotes:
+  AppAdded: 2020-09-02
+  AppRemoved: 2021-11-20 reached F-Droid
+  AddedBack: 2025-03-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/8VIM/8VIM/tree/master/metadata
+  FastlaneFeatures: title,video,shortdesc,changelogs,icon,screenshots
+  FastlaneIgnore: fulldesc
+  Note: Fastlane only en-US; fulldesc not well-formatted ('<' would break things; Markdown not working due to wrong/missing LF)
+  DoubleList: keep
+  NameSpaces:
+    - /inc/flide/vim8
+  Status:
+    - 2026-01-10 last commit 12/2024, last release 10/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 2808aae6be344d4711f773040f27f48816187c07d1f5bf1a9015b19e4d3f2a48
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

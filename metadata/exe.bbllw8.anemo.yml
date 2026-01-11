@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: 2bllw8
+SourceCode: https://github.com/2bllw8/anemo
+IssueTracker: https://github.com/2bllw8/anemo/issues
+Changelog: https://github.com/2bllw8/anemo/releases
+
+AutoName: Anemo
+
+MaintainerNotes:
+  AppAdded: 2022-01-04
+  AppRemoved: 2022-03-27 reached F-Droid on 2022-03-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/2bllw8/anemo/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 0b264e1331f9554899f2c3ff8dbd1b64b793f12c886ad7e9545cc82bc192bad2
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

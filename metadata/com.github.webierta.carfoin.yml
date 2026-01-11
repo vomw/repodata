@@ -1,0 +1,23 @@
+Categories:
+  - Money
+License: GPL-3.0-or-later
+AuthorName: Webierta
+AuthorWebSite: https://webierta.github.io/
+SourceCode: https://github.com/Webierta/carfoin
+IssueTracker: https://github.com/Webierta/carfoin/issues
+Changelog: https://github.com/Webierta/carfoin/blob/main/CHANGELOG.md
+
+AutoName: Carfoin
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-01-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Webierta/carfoin/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: b567f418811426215529a5fb4b33894ec99e1edb7e48eab112a4c0389851f8e2
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

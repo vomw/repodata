@@ -1,0 +1,32 @@
+Categories:
+  - Social Network
+  - Messaging
+  - Internet
+License: MIT
+AuthorName: dluvian
+SourceCode: https://github.com/dluvian/voyage
+IssueTracker: https://github.com/dluvian/voyage/issues
+Changelog: https://github.com/dluvian/voyage/releases
+
+AutoName: Voyage
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-04-25
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/dluvian/voyage/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE:
+  Status:
+    - 2024-07-31 scanner reports DEPENDENCY_INFO_BLOCK android.permission.READ_EXTERNAL_STORAGE – https://github.com/dluvian/voyage/issues/128
+    - 2024-10-13 issues were disabled, so the permission must remain on warning level as there’s no means of contact anymore
+    - 2025-06-10 fastlane tree has been removed with 9be0ecc8b55179b684678732a7059a9a907004dc at 2024-09-30 (still no issue tracker, so we cannot ask)
+    - 2025-08-07 sent fastlane upstream again via https://github.com/dluvian/voyage/pull/138
+
+AllowedAPKSigningKeys: e9a2b759d0f1e56c66c5ab3c764f4a8c1ed30e8dfc289f29cfca1cc761cc03aa
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

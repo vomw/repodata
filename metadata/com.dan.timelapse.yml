@@ -1,0 +1,22 @@
+Categories:
+  - Graphics
+License: MIT
+AuthorName: Dan
+AuthorEmail: doprea@gmail.com
+SourceCode: https://github.com/danopdev/TimeLapse
+IssueTracker: https://github.com/danopdev/TimeLapse/issues
+
+AutoName: TimeLapse
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-06-13
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-06-27 last release 2023-05-19; UCM Tags=>Static
+
+AllowedAPKSigningKeys: a464db93edcd242985c462c4729dad27dc4ce40da5b47afe521dca8730e6ddfd
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

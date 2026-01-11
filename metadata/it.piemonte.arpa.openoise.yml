@@ -1,0 +1,27 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält vorkompilierten Code der Google Mobile Services.
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Arpa Piemonte
+AuthorEmail: openoise@arpa.piemonte.it
+AuthorWebSite: https://www.arpa.piemonte.it/
+SourceCode: https://github.com/Arpapiemonte/openoise-meter
+IssueTracker: https://github.com/Arpapiemonte/openoise-meter/issues
+
+AutoName: OpeNoise
+
+MaintainerNotes:
+  AppAdded: 2023-08-30
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release/commit 8/2023; UCM Tags=>Static
+    - 2025-11-13 now both 12/2024, keeping UCM=Static
+
+AllowedAPKSigningKeys: 1b97a8bf08870827801856c9efa7a929e6d7b66ee823aa8b3b2b7fb7bb919af4
+
+AutoUpdateMode: Version tag_opennoise_%v
+UpdateCheckMode: Static

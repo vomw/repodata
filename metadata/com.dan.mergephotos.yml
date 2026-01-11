@@ -1,0 +1,23 @@
+Categories:
+  - Graphics
+License: MIT
+AuthorName: Dan
+AuthorEmail: doprea@gmail.com
+SourceCode: https://github.com/danopdev/MergePhotos
+IssueTracker: https://github.com/danopdev/MergePhotos/issues
+Changelog: https://github.com/danopdev/MergePhotos/releases
+
+AutoName: Merge Photos
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-12-30
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-22 last release 1/2023, last commit 4/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: a464db93edcd242985c462c4729dad27dc4ce40da5b47afe521dca8730e6ddfd
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

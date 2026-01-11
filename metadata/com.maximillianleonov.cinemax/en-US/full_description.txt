@@ -1,0 +1,1 @@
+<p>Cinemax is a Movies &amp; TV Shows application with search, list, details, wish list and more.</p>

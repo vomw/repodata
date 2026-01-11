@@ -1,0 +1,32 @@
+Categories:
+  - Time
+License: GPL-3.0-or-later
+AuthorName: SteveZMTstudios
+AuthorWebSite: https://stevezmt.top/
+SourceCode: https://github.com/SteveZMTstudios/calsync
+IssueTracker: https://github.com/SteveZMTstudios/calsync/issues
+Changelog: https://github.com/SteveZMTstudios/calsync/releases
+
+AutoName: 通知日历同步
+
+MaintainerNotes:
+  AppAdded: 2025-10-20
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-arm64/i
+  ApkIgnore: /debug/i
+  Fastlane: https://github.com/SteveZMTstudios/calsync/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_CALENDAR: needed to handle calendar events
+    android.permission.WRITE_CALENDAR: needed to handle calendar events
+    android.permission.QUERY_ALL_PACKAGES: needed for the app picker to display installed apps
+  Status:
+    - 2025-11-21 versionCode was not increased for v0.0.2.1, UCM Tags=>Static until solved; see https://github.com/SteveZMTstudios/calsync/issues/2
+    - 2025-12-26 v0.1.0 has only debug builds; disabling updates altogether for now to not accidentally dragging those in
+    - 2025-12-29 all solved, incl. RB, enabling updates again
+
+AllowedAPKSigningKeys: 7434e65b3493a4096e00af55a9fc200729a539f535e39697ad679b5722dff904
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

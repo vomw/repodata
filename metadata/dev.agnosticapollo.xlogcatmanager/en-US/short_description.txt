@@ -1,0 +1,1 @@
+improve LogcatManager added in Android 13 using Xposed hooks

@@ -1,0 +1,1 @@
+<p>The <i>Gadgetbridge</i> app can export running GPS data from smartwatches and milkha can present the data in the form of stats, tables and graphs. Navigate to the Activities list under <i>Gadgetbridge</i> and click on a run, it should load in milkha.</p>

@@ -1,0 +1,19 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: tiefensuche
+SourceCode: https://github.com/0xf4b1/motionmate
+IssueTracker: https://github.com/0xf4b1/motionmate/issues
+AutoName: MotionMate
+
+MaintainerNotes:
+  AppAdded: 2020-04-04
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 4/2020)
+    - 2023-08-07 last release 7/2022, last commit 10/2022
+
+AllowedAPKSigningKeys: ef01609f7d31ae33eabf44963e2030b5c5f9dcbf3383a4bf95ce37065908ddbb
+
+UpdateCheckMode: Static

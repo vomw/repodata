@@ -1,0 +1,30 @@
+AntiFeatures:
+  NonFreeDep:
+    en-US: Only useful with the Telegram apps.
+    de: Nur zusammen mit einer Telegram-App nützlich.
+  NonFreeNet:
+    en-US: The app connects to Github to load graphics.
+    de: Die App lädt Grafiken von Github.
+Categories:
+  - Theming
+License: EPL-2.0
+AuthorName: G_Alex
+AuthorEmail: sashagorgun@yandex.com
+SourceCode: https://github.com/mi-g-alex/Telegram-Monet
+IssueTracker: https://github.com/mi-g-alex/Telegram-Monet/issues
+Changelog: https://github.com/mi-g-alex/Telegram-Monet/releases
+
+AutoName: TgMonet Theme
+
+MaintainerNotes:
+  AppAdded: 2024-08-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/mi-g-alex/Telegram-Monet/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: 5ab8fb142ecf82597513aa7745a1e85c8687db840edca13e59bc76f2b0bc9c80
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

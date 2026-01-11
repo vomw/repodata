@@ -1,0 +1,41 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses the Google Books API.
+    de: Die App verwendet die Google Books API.
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: BugsDev2
+AuthorEmail: adithyamanikumar@proton.me
+WebSite: https://bugsdev2.github.io/bookaccioWebsite/
+SourceCode: https://github.com/bugsdev2/bookaccio
+IssueTracker: https://github.com/bugsdev2/bookaccio/issues
+Changelog: https://github.com/bugsdev2/bookaccio/releases
+
+AutoName: Bookaccio
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-11-21
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi.v7a/i
+  Fastlane: https://github.com/bugsdev2/bookaccio/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Note: alternative accounts https://gitlab.com/bugsdev2
+  PermIgnore:
+    android.permission.INTERNET: for e.g. fetching book metadata from the Google Books API and updating book details
+    android.permission.READ_EXTERNAL_STORAGE: for reading user data stored in external storage, such as when importing or exporting book data
+    android.permission.READ_MEDIA_IMAGES: to choose book cover from local storage
+    android.permission.WRITE_EXTERNAL_STORAGE: to save and modify data on the device’s external storage, such as exporting or saving book data
+    android.permission.CAMERA: for the integrated barcode scanner
+  DoubleList: keep
+  Status:
+    - 2024-12-18 scanner reports android.permission.SYSTEM_ALERT_WINDOW – https://github.com/bugsdev2/bookaccio/issues/1
+    - 2024-12-20 scanner reports android.permission.RECORD_AUDIO
+    - 2025-01-19 scanner reports READ_MEDIA_IMAGES android.permission.READ_MEDIA_VIDEO
+
+AllowedAPKSigningKeys: ba2fdd5ef4d07daf53cdd06046f96ff611d4f72c070b19e1d11ce0a5d1fb6c29
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

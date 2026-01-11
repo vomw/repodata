@@ -1,0 +1,27 @@
+Categories:
+  - Reading
+  - Internet
+License: MIT
+AuthorName: sk5s
+AuthorEmail: apps@sk5s.com
+AuthorWebSite: https://sk5s.com/
+WebSite: https://weread.sk5s.cyou/
+SourceCode: https://github.com/sk5s/weread
+IssueTracker: https://github.com/sk5s/weread/issues
+Changelog: https://github.com/sk5s/weread/releases
+
+AutoName: Weread - Read it later
+
+MaintainerNotes:
+  AppAdded: 2025-01-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sk5s/weread/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed to access websites only available via unencrypted http
+
+AllowedAPKSigningKeys: 129481f210f7f3bdd54db5d5c90bb8f64b9d7c24a369728dd7f2122981a156a6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

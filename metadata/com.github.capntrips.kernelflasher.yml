@@ -1,0 +1,30 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-09-12, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-09-12 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Captain Trips
+WebSite: https://forum.xda-developers.com/t/dev-kernel-flasher.4439887/
+SourceCode: https://github.com/capntrips/KernelFlasher
+IssueTracker: https://github.com/capntrips/KernelFlasher/issues
+Changelog: https://github.com/capntrips/KernelFlasher/releases
+
+AutoName: Kernel Flasher
+
+ArchivePolicy: 1
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-02-14
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-03-23 last release/commit 2024-03-20; UCM Tags=>Static
+    - 2025-09-12 repo has been archived
+
+AllowedAPKSigningKeys: 6d119523ddeace0ff413c923195067f4dbd2a5ef3e4d4f2a0863f95c57a24ecb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

@@ -1,0 +1,26 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: kawaiiDango
+AuthorEmail: kawaiiDango@protonmail.com
+AuthorWebSite: https://kawaiidango.github.io/pano-scrobbler/
+WebSite: https://kawaiidango.github.io/pano-scrobbler/
+SourceCode: https://github.com/kawaiiDango/pano-scrobbler
+IssueTracker: https://github.com/kawaiiDango/pano-scrobbler/issues
+Translation: https://crowdin.com/project/pscrobbler
+Changelog: https://github.com/kawaiiDango/pano-scrobbler/releases
+
+AutoName: Pano Scrobbler for LastFM
+
+MaintainerNotes:
+  AppAdded: 2025-12-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /android-universal/i
+  Fastlane: https://github.com/kawaiiDango/pano-scrobbler/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 9e68ab6bd611ce79dd5d53e35a15cf93cf739a4e94c49ab1bf10dd1265f02e6c
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Tags

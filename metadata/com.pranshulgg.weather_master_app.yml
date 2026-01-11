@@ -1,0 +1,41 @@
+Categories:
+  - Weather
+License: GPL-3.0-only
+AuthorName: Pranshul
+AuthorEmail: pranshul.devmain@gmail.com
+SourceCode: https://github.com/PranshulGG/WeatherMaster
+IssueTracker: https://github.com/PranshulGG/WeatherMaster/issues
+Translation: https://crowdin.com/project/weathermaster/invite?h=448278a9b1370f3c10d4336a091dae792286917
+Changelog: https://github.com/PranshulGG/WeatherMaster/releases
+
+AutoName: WeatherMaster
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-07-16
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64/i
+  Fastlane: https://github.com/PranshulGG/WeatherMaster/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed to find current location for weather
+    android.permission.ACCESS_COARSE_LOCATION: needed to find current location for weather
+  Status:
+    - 2024-10-07 signing key changed, UCM Tags=>Static until clarified – https://github.com/PranshulGG/WeatherMaster/issues/61
+    - 2024-10-08 solved (original keystore restored), UCM Static=>Tags again
+    - 2024-12-03 v1.9.2 is compiled for debug, had to roll back and disable updates until solved (UCM Tags=>Static), see https://github.com/PranshulGG/WeatherMaster/issues/192
+    - 2024-12-04 v1.9.3 fixed again, re-enable daily update check
+    - 2025-01-07 v1.15.0 is debug again, UCM back to static
+    - 2025-01-19 v1.16.0 has it fixed again, re-enable daily update check
+    - 2025-07-16 rebranded from com.example.weathermaster – but now the fastlane tree is gone; https://github.com/PranshulGG/WeatherMaster/issues/461 (fixed 2025-07-17)
+    - 2025-07-18 v2.1.1 adds GMS, probably dragged in via GeoLocation – https://github.com/PranshulGG/WeatherMaster/issues/476
+    - 2025-07-20 GMS gone again.
+    - 2025-08-28 versionCode forgotten again, UCM Tags=>Static
+    - 2025-08-30 solved, UCM=Tags again
+
+AllowedAPKSigningKeys: c97f592ad5a426ef17aa4b113aa8f9c1bc3c2f2675c857ad86bdacc05fbeee01
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

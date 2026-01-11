@@ -1,0 +1,22 @@
+Categories:
+  - Science & Education
+License: GPL-2.0-or-later
+AuthorName: Mikko Syrjä
+SourceCode: https://github.com/mikkosyrja/speedcrunch-android
+IssueTracker: https://github.com/mikkosyrja/speedcrunch-android/issues
+Changelog: https://github.com/mikkosyrja/speedcrunch-android/blob/HEAD/CHANGELOG.md
+
+AutoName: SpeedCrunch
+
+MaintainerNotes:
+  AppAdded: 2018-11-29
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-07-18 switching UCM from Tags to Static (last release was 2019-12-06)
+    - 2023-08-08 last release 12/2019, last commit 3/2023
+
+AllowedAPKSigningKeys: c48aba4becd4dfada70198bab810c2f291f942d9588a7649590bb9cd32749e1f
+
+ArchivePolicy: 2
+UpdateCheckMode: Static

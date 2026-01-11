@@ -1,0 +1,27 @@
+Categories:
+  - Connectivity
+License: AGPL-3.0-only
+AuthorName: pr3y
+WebSite: https://bruce.computer/
+SourceCode: https://github.com/BruceDevices/App
+IssueTracker: https://github.com/BruceDevices/App/issues
+Changelog: https://github.com/BruceDevices/App/releases
+
+AutoName: Bruce
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-08-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/BruceDevices/App/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  X-AutoUpdateMode: Version v%v tag=v0.3 / versionName=1.0
+  Status:
+    - 2025-09-24 APK size jumped from 11 to 50 MB, UCM Tags=>Static – https://github.com/pr3y/BruceApp/issues/6
+    - 2025-10-01 pinged author again as still no response
+    - 2025-11-01 still no answer; sent a last comment to the issue. Disabling updates here and for RB entirely until solved.
+
+AllowedAPKSigningKeys: dacfffb305db3f818b610fdf8368d9496945b79bd8852b39af57799963427400
+
+UpdateCheckMode: None

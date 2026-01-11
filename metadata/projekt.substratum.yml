@@ -1,0 +1,31 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-02-08, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-02-08 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: Projekt Development Team
+AuthorEmail: projekt.developers@gmail.com
+AuthorWebSite: https://prjkt.io/
+SourceCode: https://github.com/substratum/substratum
+IssueTracker: https://github.com/substratum/substratum/issues
+Changelog: https://github.com/substratum/substratum/releases
+
+AutoName: substratum
+
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2019-08-25
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2020-05-04 Set to Static as last tag has no APK for a year now, and last commit was 2019
+    - 2023-08-08 last release 5/2019, last commit 10/2019; disabling updates
+    - 2024-02-08 Github repo got archived
+
+AllowedAPKSigningKeys: 09967166ebb1b4503a02f9c0696ead428860aae090a0425ab3e503f606bf07a7
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: None

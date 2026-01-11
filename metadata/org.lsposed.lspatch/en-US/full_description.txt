@@ -1,0 +1,1 @@
+<p><i>LSPatch</i> is a rootless implementation of the <a href='https://github.com/LSPosed/LSPosed' target='_blank' rel='nofollow noopener'>LSPosed</a> framework, integrating Xposed API by inserting dex and so into the target APK. It requires at least Android 9 to work – and in theory supports Android versions up to the same as LSPosed itself.</p>

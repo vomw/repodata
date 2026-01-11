@@ -1,0 +1,23 @@
+Categories:
+  - Money
+License: Unlicense
+AuthorName: helcel.net
+SourceCode: https://github.com/helcel-net/keepass-fidelity
+IssueTracker: https://github.com/helcel-net/keepass-fidelity/issues
+
+AutoName: Keepass Fidelity
+
+MaintainerNotes:
+  AppAdded: 2024-03-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/helcel-net/keepass-fidelity/blob/main/metadata
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  PermIgnore:
+    android.permission.CAMERA: necessary for the scanning of barcodes
+    android.permission.READ_MEDIA_VISUAL_USER_SELECTED: used for importing barcode from images
+
+AllowedAPKSigningKeys: d19654fe1d79167647d7a6120ef6ab7d569d45adfd41efd6fa809d265273f6ec
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

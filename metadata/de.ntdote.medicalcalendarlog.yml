@@ -1,0 +1,26 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: droidwave
+AuthorEmail: sven@droidwave.com
+AuthorWebSite: https://droidwave.com/
+SourceCode: https://codeberg.org/svewa/MedicalCalendarLog
+IssueTracker: https://codeberg.org/svewa/MedicalCalendarLog/issues
+Changelog: https://codeberg.org/svewa/MedicalCalendarLog/releases
+
+AutoName: Medical Calendar Log
+
+MaintainerNotes:
+  AppAdded: 2025-12-08
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /signed/i
+  Fastlane: https://codeberg.org/svewa/MedicalCalendarLog/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_CALENDAR: to combine logs with calendar events
+
+AllowedAPKSigningKeys: d276f6f5db6cdcb9c1ec4dda08281804f558fa116e9f41e0031dc4477b9c31b6
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

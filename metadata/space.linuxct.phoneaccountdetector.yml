@@ -1,0 +1,29 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2023-04-28, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2023-04-28 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Security
+  - Phone & SMS
+License: AGPL-3.0-only
+AuthorName: linuxct
+AuthorEmail: linuxct@linuxct.space
+AuthorWebSite: https://linuxct.space/
+SourceCode: https://github.com/linuxct/PhoneAccountDetector
+IssueTracker: https://github.com/linuxct/PhoneAccountDetector/issues
+
+AutoName: PhoneAccount Abuse Detector
+
+MaintainerNotes:
+  AppAdded: 2021-12-12
+  Method: none
+  GHSkipPre: 1
+  Fastlane: https://github.com/linuxct/PhoneAccountDetector/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Status:
+    - 2023-05-17 disable updates as app repo was archived on 2023-04-28
+
+AllowedAPKSigningKeys: 04d4b1ef6598760fc745ace65c7084e38cd9d74447bfea3b14af53ddd75adacc
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

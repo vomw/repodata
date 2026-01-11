@@ -1,0 +1,21 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Alexandros Schillings
+AuthorEmail: aschillings.dev@gmail.com
+SourceCode: https://github.com/alt236/Floating-Info---Android
+IssueTracker: https://github.com/alt236/Floating-Info---Android/issues
+
+Name: Floating Info
+
+MaintainerNotes:
+  AppAdded: 2017-11-13
+  Method: github-release
+  Status:
+    - 2019-02-15 still maintained, just "nothing more to add" https://github.com/alt236/Floating-Info---Android/issues/9
+    - 2023-08-08 last release 11/2017, last commit 7/2020; disabling updates (from Static)
+    - 2025-11-18 reported [partly working](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15#issuecomment-8331984), and one can toggle off what’s not working, so let’s keep it for now (with a note in the description).
+
+AllowedAPKSigningKeys: a56c24884f6e4e4418c09b8c5670f0f21d077eb5d9f5ea91c5df051d719bdfe3
+
+UpdateCheckMode: None

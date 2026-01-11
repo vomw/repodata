@@ -1,0 +1,33 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to YouTube.
+    de: Die App verbindet sich mit YouTube.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Maksyushka
+AuthorEmail: msermavbrin69@gmail.com
+WebSite: https://muzza.infinityfreeapp.com/
+SourceCode: https://github.com/Maloy-Android/Muzza
+IssueTracker: https://github.com/Maloy-Android/Muzza/issues
+Changelog: https://github.com/Maloy-Android/Muzza/releases
+Donate: https://github.com/Maloy-Android/Muzza#donate
+
+AutoName: Muzza
+
+MaintainerNotes:
+  AppAdded: 2025-12-31
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Maloy-Android/Muzza/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /com/maloy/innertube
+    - /com/maloy/kugou
+    - /com/maloy/lrclib
+    - /com/my/kizzy
+
+AllowedAPKSigningKeys: 3272d046d6c8c15d09ba1bfe264756f817a0a9afd180843a9df6e023e8bc8977
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

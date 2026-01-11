@@ -1,0 +1,36 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Hamza Rizwan
+AuthorEmail: hamzarizwan243@gmail.com
+SourceCode: https://github.com/Hamza417/Inure
+IssueTracker: https://github.com/Hamza417/Inure/issues
+Changelog: https://github.com/Hamza417/Inure/releases
+
+AutoName: Inure
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-03-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /github-release/i
+  ApkIgnore: /play-release/i
+  Fastlane: https://github.com/Hamza417/Inure/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Note: embedded APKs are Android Framework APKs, see https://github.com/Hamza417/Inure/issues/405
+  DoubleList: keep
+  NameSpaces:
+    - /rish/rish_shizuku
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: list apps to manage
+    android.permission.REQUEST_DELETE_PACKAGES: to be able to remove apps
+    android.permission.REQUEST_INSTALL_PACKAGES: to be able to install apps from APKs
+    android.permission.READ_EXTERNAL_STORAGE: to read APK files from local storage for installation and for the integrated Terminal Emulator
+    android.permission.WRITE_EXTERNAL_STORAGE: a.o. for the integrated Terminal Emulator
+    android.permission.MANAGE_EXTERNAL_STORAGE: a.o. for the integrated Terminal Emulator
+  X-AutoUpdateMode: Version v%v
+
+AllowedAPKSigningKeys: 4a3f711142250805c7bb5c0a5a3287631bdb948816e6f4afc9524d0eb46b6b1b
+
+UpdateCheckMode: Tags

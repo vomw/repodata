@@ -1,0 +1,1 @@
+<p><i>Kudoku</i> is yet another Habit tracker – an open source and free app where you can manage your daily or weekly habits. It uses Material 3 design.</p><p><br><b>Features:</b></p><ul><li>Notification Support</li><li>Material 3 Design</li><li>No ads</li><li>Analytics</li><li>and much more..</li></ul>

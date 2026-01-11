@@ -1,0 +1,21 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: Dmitry Tsyvtsyn
+SourceCode: https://github.com/DmitryTsyvtsyn/AlgoSortingAnimations
+IssueTracker: https://github.com/DmitryTsyvtsyn/AlgoSortingAnimations/issues
+Changelog: https://github.com/DmitryTsyvtsyn/AlgoSortingAnimations/releases
+
+AutoName: AlgoSorts
+
+MaintainerNotes:
+  AppAdded: 2024-10-11
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-10-04 last release 5/2024, last commit 10/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 4082306ea56c8061237f73e17df70e428bd42e666746119163220e75f446f6ff
+
+AutoUpdateMode: Version release_v%v
+UpdateCheckMode: Static

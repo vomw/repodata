@@ -1,0 +1,1 @@
+Erstelle Locale/Tasker Aktionen, um spezielle Sync-Einstellungen anzuwenden

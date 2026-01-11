@@ -1,0 +1,1 @@
+MicroG tweaked to work for applications such as Vanced

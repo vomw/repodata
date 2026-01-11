@@ -1,0 +1,29 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: devhyper
+SourceCode: https://github.com/devhyper/open-video-editor
+IssueTracker: https://github.com/devhyper/open-video-editor/issues
+Changelog: https://github.com/devhyper/open-video-editor/releases
+
+AutoName: Open Video Editor
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-12-31
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/devhyper/open-video-editor/blob/master/metadata
+  FastlaneFeatures: title,fulldesc,shortdesc,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to access local videos
+    android.permission.READ_MEDIA_VIDEO: needed on higher Android versions to access local videos
+  Status:
+    - 2024-12-17 shortdesc for de-DE too long, https://github.com/devhyper/open-video-editor/issues/94
+    - 2025-11-13 still no answer to the above; last release & last code commit 9/2024 (after that only Weblate); UCM Tags=>Static
+
+AllowedAPKSigningKeys: 84df644cc5dbd4ea50602b9f23e4fbf3b22ee5cd2182437bef72c7c799f12db6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

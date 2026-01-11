@@ -1,0 +1,43 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: Lawal abiola
+AuthorEmail: mshdabiola@gmail.com
+AuthorWebSite: https://mshdabiola.netlify.app/
+SourceCode: https://github.com/mshdabiola/NotePad
+IssueTracker: https://github.com/mshdabiola/NotePad/issues
+Changelog: https://github.com/mshdabiola/NotePad/releases
+
+AutoName: Play NotePad
+
+MaintainerNotes:
+  AppAdded: 2024-06-13
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fossReliant-release.*-signed/i
+  ApkIgnore: /googlePlay/i
+  Fastlane: https://github.com/mshdabiola/NotePad/blob/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,featureGraphic,screenshots
+  NameSpaces:
+    - /com/mshdabiola/common
+    - /com/mshdabiola/database
+    - /com/mshdabiola/drawing
+    - /com/mshdabiola/editscreen
+    - /com/mshdabiola/gallery
+    - /com/mshdabiola/labelscreen
+    - /com/mshdabiola/mainscreen
+    - /com/mshdabiola/playnotepad
+    - /com/mshdabiola/searchscreen
+    - /com/mshdabiola/selectlabelscreen
+    - /com/mshdabiola/worker
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed for the integrated audio recorder
+  DoubleList: keep
+  Status:
+    - 2024-06-13 initalise with UCM Static as VN=0.0.1 at tag 1.2.5 – https://github.com/mshdabiola/NotePad/issues/18
+    - 2024-07-14 versioning is fixed, enabling daily updates. Arrived at F-Droid 2024-07-10, we still keep it here
+
+AllowedAPKSigningKeys: 7966373797459065b77517aadbecc04b484abcf693d23ef1a6ccfb9556868750
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

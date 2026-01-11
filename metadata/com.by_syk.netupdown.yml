@@ -1,0 +1,23 @@
+Categories:
+  - Internet
+  - System
+License: Apache-2.0
+AuthorName: By_syk
+AuthorEmail: By_syk@163.com
+SourceCode: https://github.com/by-syk/NetUpDown
+IssueTracker: https://github.com/by-syk/NetUpDown/issues
+Changelog: https://github.com/by-syk/NetUpDown/blob/HEAD/CHANGELOG.txt
+
+Name: NetUpDown
+
+MaintainerNotes:
+  AppAdded: 2016-11-12
+  Method: github-release
+  Status:
+    - 2020-09-19 app was not updated for 2y 9m 19d; switching UCM from Tags to Static
+    - 2023-08-06 last release 12/2017, last commit 4/2018, author last active 10/2018 – dead, disabling updates
+    - 2025-11-19 reported as "minimalistic, but basically still working", and still useful, see https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15#issuecomment-8342814
+
+AllowedAPKSigningKeys: c60cf9d2f6d214b0c83ce48b9ecc8dce820682a401e668623a105a2980dde456
+
+UpdateCheckMode: None

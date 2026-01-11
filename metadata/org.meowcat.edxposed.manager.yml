@@ -1,0 +1,30 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: EdXposed Framework
+AuthorEmail: support@meowcat.org
+AuthorWebSite: https://edxp.meowcat.org/
+WebSite: https://edxp.meowcat.org/
+SourceCode: https://github.com/ElderDrivers/EdXposedManager
+IssueTracker: https://github.com/ElderDrivers/EdXposedManager/issues
+Changelog: https://github.com/ElderDrivers/EdXposedManager/releases
+
+AutoName: EdXposed Manager
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2020-07-10
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-05-02 no commits since 5/2021, switching UCM from Tags to Static
+    - 2023-08-08 last release 2/2021, last commit 5/2021, issues no longer answered though devs still active (elsewhere); disabling update check
+
+AllowedAPKSigningKeys: 93d292e61077a5ae6adb6225f6d91440cbc014b97f69c208eb090501eec1add0
+
+AutoUpdateMode: Version v%v\.0\.0
+UpdateCheckMode: None

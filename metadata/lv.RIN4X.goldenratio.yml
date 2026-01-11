@@ -1,0 +1,23 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: MrFoX
+SourceCode: https://github.com/FooqX/GoldenRatio
+IssueTracker: https://github.com/FooqX/GoldenRatio/issues
+Changelog: https://github.com/FooqX/GoldenRatio/releases
+
+AutoName: Golden Ratio
+
+MaintainerNotes:
+  AppAdded: 2025-03-23
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/FooqX/GoldenRatio/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: 98eac90723a4c69493df2b416c84f93158bc234c48812df1f42a9e99869474f4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

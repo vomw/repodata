@@ -1,0 +1,29 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Dustin Brown
+AuthorWebSite: https://dubrowgn.com/
+SourceCode: https://github.com/dubrowgn/wattz
+IssueTracker: https://github.com/dubrowgn/wattz/issues
+Changelog: https://github.com/dubrowgn/wattz/releases
+
+AutoName: Wattz
+
+MaintainerNotes:
+  AppAdded: 2022-09-08
+  AppRemoved: 2022-10-21 reached F-Droid on 2022-10-09
+  AddedBack: 2025-03-13
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  Fastlane: https://github.com/dubrowgn/wattz/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon
+  FastlaneIgnore: screenshots
+  Note: screenshots are symbolic links
+  Status:
+    - 2025-06-09 last release/commit 6/2024, UCM Tags=>Static
+
+AllowedAPKSigningKeys: c88e4eeb08c2da45e576673e013a75bbc3c4f2fef8cecca197df05aa0d8abff1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

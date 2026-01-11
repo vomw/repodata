@@ -1,0 +1,26 @@
+Categories:
+  - Money
+License: GPL-3.0-only
+AuthorName: afaneca.com
+AuthorEmail: me@afaneca.com
+AuthorWebSite: https://www.afaneca.com/
+WebSite: https://myfin.afaneca.com/
+SourceCode: https://github.com/afaneca/myfin-android
+IssueTracker: https://github.com/afaneca/myfin-android/issues
+Changelog: https://github.com/afaneca/myfin-android/releases
+
+AutoName: MyFin
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-10-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/afaneca/myfin-android/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: 4db90e24080a98c37d6d0c685d8420b7c89f167f738173fd28a713d18f0f31c9
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Sanmer
+AuthorEmail: hello@sanmer.app
+SourceCode: https://github.com/SanmerApps/PI
+IssueTracker: https://github.com/SanmerApps/PI/issues
+
+AutoName: PI
+
+MaintainerNotes:
+  AppAdded: 2024-01-01
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /full-release/i
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to show installed apps
+
+AllowedAPKSigningKeys: aceaf837da71f3269f9d149254b8da4ddded452449c403636106e61106f4d02e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

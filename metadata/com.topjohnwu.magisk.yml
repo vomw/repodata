@@ -1,0 +1,36 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: John Wu
+AuthorWebSite: https://topjohnwu.github.io/Magisk/
+WebSite: https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445
+SourceCode: https://github.com/topjohnwu/Magisk
+IssueTracker: https://github.com/topjohnwu/Magisk/issues
+Translation: https://github.com/topjohnwu/Magisk#translations
+Changelog: https://github.com/topjohnwu/Magisk/releases
+Donate: https://www.patreon.com/topjohnwu
+
+AutoName: Magisk Manager
+ArchivePolicy: 2
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2017-03-19
+  Method: github-release
+  ApkMatch: /Magisk/i
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES:
+    android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION:
+    android.permission.READ_EXTERNAL_STORAGE:
+    android.permission.QUERY_ALL_PACKAGES: to run code in their processes, Zygisk needs to know installed apps
+  DoubleList: keep
+  NameSpaces:
+    - /com/topjohnwu/widget
+  Status:
+    - 2018-10-00 Switched from its own repo ("Magisk-Manager") to the main repo in 2018/10. Makes it difficult to find latest APK as it uses its own tags.
+    - 2021-03-03 APKs now on the main tag (no longer manager-v%v) and named Magisk.apk (no longer Manager.apk)
+
+AllowedAPKSigningKeys: b4cb83b4dad99f997dbe872f013aa16c14eec41d167021f371f7e1330f273ee6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

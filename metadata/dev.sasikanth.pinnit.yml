@@ -1,0 +1,27 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-06-27, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-06-27 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Writing
+License: Apache-2.0
+AuthorName: Sasikanth Miriyampalli
+AuthorWebSite: https://sasikanth.dev/
+SourceCode: https://github.com/msasikanth/pinnit
+IssueTracker: https://github.com/msasikanth/pinnit/issues
+Changelog: https://github.com/msasikanth/pinnit/releases
+
+AutoName: Pinnit - Create & pin notifications
+
+MaintainerNotes:
+  AppAdded: 2021-01-25
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-10-23 repo was archived 2024-06-27, UCM Tags=>None
+    - 2024-10-23 reported as still working, see https://gitlab.com/IzzyOnDroid/repo/-/issues/617
+
+AllowedAPKSigningKeys: 2acf42434cb80aa49e3a63f6ef0ef3fc36895da71bb5ad9e4541560aa7e021fd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

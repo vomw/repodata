@@ -1,0 +1,29 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: jiao
+AuthorEmail: renamer@sunjiao.net
+AuthorWebSite: https://www.sunjiao.net/
+SourceCode: https://github.com/sun-jiao/flut-renamer
+IssueTracker: https://github.com/sun-jiao/flut-renamer/issues
+
+AutoName: Renamer - bulk file renamer
+
+MaintainerNotes:
+  AppAdded: 2024-03-25
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: needed to access the files for renaming
+    android.permission.READ_EXTERNAL_STORAGE: needed to access the files for renaming
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to access the files for renaming
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to access the files for renaming
+    android.permission.ACCESS_MEDIA_LOCATION: needed to use Exif data for renaming
+  Status:
+    - 2025-08-22 upstreaming metadata via https://github.com/sun-jiao/flut-renamer/pull/51 – just a short response on 2025-11-24 so far
+
+AllowedAPKSigningKeys: 72ac99b3f32e89bc1fd03e8212cdde4df309ee294fd042403560461cbaba4d7b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

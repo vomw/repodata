@@ -1,0 +1,24 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: jff99
+SourceCode: https://github.com/jff99/KeyCip
+IssueTracker: https://github.com/jff99/KeyCip/issues
+Changelog: https://github.com/jff99/KeyCip/releases
+
+AutoName: KeyCip
+
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-06-22
+  Method: github-release
+  GHSkipPre: 1
+  X-AutoUpdateMode: Version v%v v1.0.0 = 2.4??
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 7/2022, last commit 7/2022)
+    - 2026-01-11 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: 2b2561219ed3271b29de3bc3e88506114eee85c5d7309270821621c0b39f1548
+
+UpdateCheckMode: None

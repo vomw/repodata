@@ -1,0 +1,2 @@
+<p><i>UMS Interface</i> allows you to chose a block device or disk image as a 'disk',and communicate with PC through usb mass storage (just as usb disk do).</p><p>There are some special usages. For example, you can select the whole emmc <code>/dev/block/mmcblk0</code> and mount it to pc linux, so that you can some tool like gparted to do something like partition. And you can also use it as boot disk.</p>
+<p><b>Note:</b> This app is no longer maintained and thus will receive no more updates.</p>

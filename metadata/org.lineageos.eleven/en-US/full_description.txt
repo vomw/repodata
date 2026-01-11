@@ -1,0 +1,1 @@
+<p><i>Eleven</i> music player (CyanogenMod/LineageOS) - compatible with Android 4.0 and up. Made compatibility changes for Android versions > 4.0 using as much material design as possible.</p>

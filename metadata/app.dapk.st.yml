@@ -1,0 +1,26 @@
+Categories:
+  - Messaging
+License: Apache-2.0
+AuthorName: Adam Brown
+SourceCode: https://github.com/ouchadam/small-talk
+IssueTracker: https://github.com/ouchadam/small-talk/issues
+Changelog: https://github.com/ouchadam/small-talk/releases
+
+AutoName: SmallTalk
+
+MaintainerNotes:
+  AppAdded: 2022-09-10
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-signed/
+  X-Fastlane: https://github.com/ouchadam/small-talk/tree/main/fastlane/metadata/android
+  X-FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic
+  X-AutoUpdateMode: Version v%v versionName contains slashes and neither it or versionCode match tag name
+  Status:
+    - 2024-02-22 last release 1/2023, last commit 5/2023, UCM Tags=>Static
+    - 2025-06-10 upstream fastlane tree was removed 1/2023 with https://github.com/ouchadam/small-talk/commit/457283bbbfb6c2fc9d3278b812179b42150f95ab
+    - 2025-11-10 still no news; app works somehow, but account verification is not possible
+
+AllowedAPKSigningKeys: 46ca7745597a0beff359be7d4b8be499f168f7d352c72c565af30db4dd70e5a0
+
+UpdateCheckMode: Static

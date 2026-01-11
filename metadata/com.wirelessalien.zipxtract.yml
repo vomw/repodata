@@ -1,0 +1,33 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains the unrar library, which comes with a non-libre license.
+    de: Die App enthält die unrar Bibliothek, die unter einer nicht-libre Lizenz steht.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: WirelessAlien
+SourceCode: https://github.com/WirelessAlien/ZipXtract
+IssueTracker: https://github.com/WirelessAlien/ZipXtract/issues
+Translation: https://hosted.weblate.org/engage/zipxtract/
+Changelog: https://github.com/WirelessAlien/ZipXtract/releases
+
+AutoName: ZipXtract
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-05-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/WirelessAlien/ZipXtract/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to read the archives to extract from
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to write the archives to be created
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to write the archives to be created
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/541
+
+AllowedAPKSigningKeys: fff2ac2bbfeaed303051caf138c14fcd980a926f56296543df05c255fd89a6b7
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

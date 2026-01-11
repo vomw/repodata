@@ -1,0 +1,27 @@
+Categories:
+  - Weather
+License: GPL-3.0-or-later
+AuthorName: Pawel Dube
+SourceCode: https://codeberg.org/Starfish/TinyWeatherForecastGermany
+IssueTracker: https://codeberg.org/Starfish/TinyWeatherForecastGermany/issues
+AutoName: Tiny Weather Forecast Germany
+
+MaintainerNotes:
+  AppAdded: 2020-07-05
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/Starfish/TinyWeatherForecastGermany/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+  NameSpaces:
+    - /nodomain/freeyourgadget/gadgetbridge/model
+    - /org/astronomie/info
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to obtain the current location to show weather for
+    android.permission.ACCESS_FINE_LOCATION: needed to obtain the current location to show weather for
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed to access the location even when the app is not in foreground
+
+AllowedAPKSigningKeys: 54b3c146f2c9ccd1fe23171320517e2aad9666798d383c52332fff99400a796e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

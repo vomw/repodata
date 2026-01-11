@@ -1,0 +1,50 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Xayah
+SourceCode: https://github.com/XayahSuSuSu/Android-DataBackup
+IssueTracker: https://github.com/XayahSuSuSu/Android-DataBackup/issues
+Changelog: https://github.com/XayahSuSuSu/Android-DataBackup/releases
+
+AutoName: DataBackup
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-02
+  Method: github-release
+  ManualHint: 1.0.0Alpha-5 added a load of trackers
+  GHSkipPre: 1
+  ApkMatch: /v7a-foss-release/i
+  NameSpaces:
+    - /com/xayah/core
+    - /com/xayah/crash
+    - /com/xayah/databackup
+    - /com/xayah/feature
+    - /com/xayah/libnative
+    - /com/xayah/librootservice
+    - /com/example/librootservice
+  Fastlane: https://github.com/XayahSuSuSu/Android-DataBackup/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  FlagIgnore:
+    usesCleartextTraffic: intended for connections within the local network
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to obtain a list of apps to be backed up
+    android.permission.READ_EXTERNAL_STORAGE: to read backup files for restore and other files for backup
+    android.permission.WRITE_EXTERNAL_STORAGE: to save backups
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to access all places in storage
+  Status:
+    - 2023-03-03 disabling auto-update and reverting from 1.0.0Alpha-5 to Alpha-4 as a bunch of trackers have been added https://github.com/XayahSuSuSu/Android-DataBackup/issues/102
+    - 2023-03-07 re-enabling auto-updates as v1.0.0-rc01 has a tracker-free foss build. Now using per-ABI APKs we can keep 3 instead of 1 copies
+    - 2023-10-02 package name changed (.foss suffix added), discussing th switch over at https://github.com/XayahSuSuSu/Android-DataBackup/issues/102#issuecomment-1736704439
+    - 2023-10-03 temporarily changing UCM Tags => Static so a proper switch-over can be prepared, see https://github.com/XayahSuSuSu/Android-DataBackup/issues/102#issuecomment-1744064894
+    - 2023-10-06 once the app shows up at F-Droid, keep it here for a while. Wait for a final release with this applicationId, then give it a month overlap for folks to switch
+    - 2024-07-07 scanner reports usesCleartextTraffic DEPENDENCY_INFO_BLOCK QUERY_ALL_PACKAGES READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE – https://github.com/XayahSuSuSu/Android-DataBackup/issues/257
+    - 2024-07-08 moved from com.xayah.databackup
+    - 2024-07-08 source of /com/xayah/libsardine cannot be found – https://github.com/XayahSuSuSu/Android-DataBackup/issues/259
+
+AllowedAPKSigningKeys: 7fb9ec207705a0fbb9ca61253e596364c72762868a83815239e7ca1923acb39f
+
+ArchivePolicy: 2
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

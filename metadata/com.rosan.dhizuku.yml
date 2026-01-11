@@ -1,0 +1,36 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: iamr0s
+SourceCode: https://github.com/iamr0s/Dhizuku
+IssueTracker: https://github.com/iamr0s/Dhizuku/issues
+Translation: https://hosted.weblate.org/engage/dhizuku/
+Changelog: https://github.com/iamr0s/Dhizuku/releases
+
+AutoName: Dhizuku
+
+MaintainerNotes:
+  AppAdded: 2024-05-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/iamr0s/Dhizuku/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list installed packages
+    android.permission.FOREGROUND_SERVICE: to make the service available to other apps
+    android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING: to make the service available to other apps
+    android.permission.RECEIVE_BOOT_COMPLETED: to start the service when the device is (re)started
+    android.permission.GET_ACCOUNTS: for profile operations from Dhizuku or other DevicePolicyControllers
+    android.permission.MANAGE_ACCOUNTS: for profile operations from Dhizuku or other DPCs
+    android.permission.REQUEST_PASSWORD_COMPLEXITY: required to change advanced settings for screen lock password
+    android.permission.READ_EXTERNAL_STORAGE: required to retrieve the complete file data
+    android.permission.MANAGE_EXTERNAL_STORAGE: shared with the client app
+    moe.shizuku.manager.permission.API_V23: required to enable features via Shizuku
+  Status:
+    - 2024-10-08 scanner reports READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE – https://github.com/iamr0s/Dhizuku/issues/11#issuecomment-2403306807
+
+AllowedAPKSigningKeys: 8934df3b402d650e0ec7b5d1e3a8cfcc1181b4378e1b8df257ea126d474c685a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

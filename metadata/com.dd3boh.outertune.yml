@@ -1,0 +1,39 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app obviously gets its content from YouTube.
+    de: Die App bezieht ihre Inhalte natürlich von YouTube.
+Categories:
+  - Multimedia
+  - Internet
+License: GPL-3.0-only
+AuthorName: Davide Garberi
+AuthorEmail: dade.garberi@gmail.com
+AuthorWebSite: https://dd3boh.github.io/
+SourceCode: https://github.com/OuterTune/OuterTune
+IssueTracker: https://github.com/OuterTune/OuterTune/issues
+Translation: https://hosted.weblate.org/projects/outertune/
+Changelog: https://github.com/OuterTune/OuterTune/releases
+
+AutoName: OuterTune
+
+MaintainerNotes:
+  AppAdded: 2024-09-03
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /core-release/i
+  Fastlane: https://github.com/OuterTune/OuterTune/tree/dev/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/dd3boh/ffMetadataEx
+    - /com/dd3boh/lrclib
+    - /com/zionhuang/innertube
+    - /com/zionhuang/kugou
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: to access audio files to play
+    android.permission.READ_EXTERNAL_STORAGE: to find files to play
+
+AllowedAPKSigningKeys: acdd871a3de2947d3253ec90cdc53d1a0740d6038e25a6485d71899eefa96db8
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

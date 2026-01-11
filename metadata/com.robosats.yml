@@ -1,0 +1,28 @@
+Categories:
+  - Money
+License: AGPL-3.0-only
+AuthorName: RoboSats
+AuthorWebSite: http://learn.robosats.com/
+WebSite: http://learn.robosats.com/
+SourceCode: https://github.com/RoboSats/robosats
+IssueTracker: https://github.com/RoboSats/robosats/issues
+Changelog: https://github.com/RoboSats/robosats/releases
+
+AutoName: RoboSats
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-05-13
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/RoboSats/robosats/tree/main/fastlane/metadata
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: used internally to communicate with the on-device Tor proxy
+
+AllowedAPKSigningKeys: 21a2cef69f8a304945d1d57ab16747971c08d288c13e0756f0f65d6e70c9c924
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

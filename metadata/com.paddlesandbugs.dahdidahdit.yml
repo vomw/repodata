@@ -1,0 +1,25 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: matthiasjordan
+SourceCode: https://github.com/matthiasjordan/dahdidahdit
+IssueTracker: https://github.com/matthiasjordan/dahdidahdit/issues
+Changelog: https://github.com/matthiasjordan/dahdidahdit/releases
+
+AutoName: Dahdidahdit
+
+MaintainerNotes:
+  AppAdded: 2024-08-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/matthiasjordan/dahdidahdit/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.CHANGE_WIFI_MULTICAST_STATE: needed to use UDP multicast
+    com.nononsenseapps.feeder.permission.read: used to fetch RSS articles from Feeder as training material
+
+AllowedAPKSigningKeys: b52ddde7cf27eff6ebc57ee796dabb30415f21d120d616018d00dc0e2ba8e21d
+
+AutoUpdateMode: Version release-%v
+UpdateCheckMode: Tags

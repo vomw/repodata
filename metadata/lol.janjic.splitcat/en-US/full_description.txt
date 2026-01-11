@@ -1,0 +1,1 @@
+<p><i>SplitCat</i> simplifies file splitting and merging, making it easier to manage large files without needing complex command-line tools. Some typical use cases include:</p><ul><li>Splitting large files into smaller chunks for sharing via email or uploading to platforms with size limits.</li><li>Merging chunks back into the original file seamlessly.</li></ul>

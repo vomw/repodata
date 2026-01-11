@@ -1,0 +1,21 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: Pedro López-Cabanillas
+SourceCode: https://github.com/pedrolcl/vmpk-android
+IssueTracker: https://github.com/pedrolcl/vmpk-android/issues
+Changelog: https://github.com/pedrolcl/vmpk-android/releases
+
+AutoName: VMPK for Android
+
+MaintainerNotes:
+  AppAdded: 2025-08-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/pedrolcl/vmpk-android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 209c2fbf9c61717e7cc7d7da43119f1343112a0a34227b3264f28fefddb73afd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

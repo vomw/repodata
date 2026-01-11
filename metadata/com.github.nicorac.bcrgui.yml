@@ -1,0 +1,30 @@
+Categories:
+  - Phone & SMS
+License: GPL-3.0-only
+AuthorName: Claudio Nicora
+AuthorWebSite: https://coolsoft.altervista.org/
+SourceCode: https://github.com/nicorac/bcr-gui
+IssueTracker: https://github.com/nicorac/bcr-gui/issues
+Changelog: https://github.com/nicorac/bcr-gui/releases
+
+AutoName: BCR Gui
+
+MaintainerNotes:
+  AppAdded: 2023-08-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nicorac/bcr-gui/tree/dev/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: FAstlane is our starter package
+  PermIgnore:
+    android.permission.READ_CONTACTS: Needed to show the caller name instead of the number (but optional, it can be rejected and the name would simply be missing then).
+    android.permission.WRITE_CONTACTS: Needed to create a new contact based on a number, and to search for an existing contact to update it. Again, optional.
+  NameSpaces:
+    - /com/github/nicorac/plugins
+  Status:
+    - 2024-01-20 scanner reported usesCleartextTraffic (no INTERNET even), READ_EXTERNAL_STORAGE, READ_CONTACTS & WRITE_CONTACTS; asked for clarification https://github.com/nicorac/bcr-gui/issues/43
+
+AllowedAPKSigningKeys: 9fdfeabea89ff57e7e0c683f88d927e32fd06fae791fa0dfa04b209974564459
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

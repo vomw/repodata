@@ -1,0 +1,1 @@
+<p>This is an Xposed module to prevent Firefox from showing home button in the toolbar. It's supposed to work with Firefox, Firefox Beta and also Firefox nightly.</p>

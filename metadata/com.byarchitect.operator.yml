@@ -1,0 +1,24 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: The Architect
+SourceCode: https://github.com/by-architect/Operator
+IssueTracker: https://github.com/by-architect/Operator/issues
+Changelog: https://github.com/by-architect/Operator/releases
+
+AutoName: Operator
+ArchivePolicy: 2
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2025-11-30
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/by-architect/Operator/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  Note: Static for now, as the APK at release v1.0.0 is v0.0.7; https://github.com/by-architect/Operator/issues/1
+
+AllowedAPKSigningKeys: 4b91ac9e5840314237ee845a2a045a562478c0a2c9e292fc295bce99c09f6cd4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

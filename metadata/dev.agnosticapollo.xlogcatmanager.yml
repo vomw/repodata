@@ -1,0 +1,24 @@
+Categories:
+  - Xposed
+  - System
+License: MIT
+AuthorName: agnostic-apollo
+AuthorEmail: agnosticapollo@gmail.com
+SourceCode: https://github.com/agnostic-apollo/XLogcatManager
+IssueTracker: https://github.com/agnostic-apollo/XLogcatManager/issues
+Changelog: https://github.com/agnostic-apollo/XLogcatManager/releases
+
+AutoName: XLogcatManager
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2024-01-28
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-03-23 last release/commit 2024-01-28; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 44de931b0e6937cc560f3e75f3fc951ba730e19ecaeb2deac65102dad144251b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,33 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: CodeDead
+AuthorEmail: admin@codedead.com
+AuthorWebSite: https://codedead.com/
+SourceCode: https://github.com/CodeDead/DeadHash-android
+IssueTracker: https://github.com/CodeDead/DeadHash-android/issues
+Changelog: https://github.com/CodeDead/DeadHash-android/releases
+
+AutoName: DeadHash
+
+MaintainerNotes:
+  AppAdded: 2021-01-08
+  AppRemoved: 2021-03-24 app available at F-Droid since 2021-03-17
+  AddedBack: 2025-03-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CodeDead/DeadHash-android/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: for reading files to create hashes of
+    android.permission.READ_MEDIA_AUDIO: for reading files to create hashes of
+    android.permission.READ_MEDIA_IMAGES: for reading files to create hashes of
+    android.permission.READ_MEDIA_VIDEO: for reading files to create hashes of
+  Status:
+    - 2025-07-19 upstreamed local fastlane adjustments via https://github.com/CodeDead/DeadHash-android/pull/43
+
+AllowedAPKSigningKeys: d7b62e971fce13678e83ae548337427a2b8a77968534506ff023bac3d73b2db0
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

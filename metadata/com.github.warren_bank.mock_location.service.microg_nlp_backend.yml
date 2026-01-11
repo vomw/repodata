@@ -1,0 +1,19 @@
+Categories:
+  - Navigation
+License: GPL-2.0-only
+AuthorName: Warren Bank
+SourceCode: https://github.com/warren-bank/Android-Mock-Location
+IssueTracker: https://github.com/warren-bank/Android-Mock-Location/issues
+Changelog: https://github.com/warren-bank/Android-Mock-Location/releases
+
+AutoName: Mock my GPS UnifiedNlp Backend
+
+MaintainerNotes:
+  AppAdded: 2024-10-08
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /UnifiedNlp-Backend/i
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+UpdateCheckMode: Tags

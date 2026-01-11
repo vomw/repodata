@@ -1,0 +1,24 @@
+Categories:
+  - Office
+License: GPL-3.0-or-later
+AuthorName: sosauce
+AuthorEmail: sosauce_dev@protonmail.com
+AuthorWebSite: https://sosauce.github.io/
+SourceCode: https://github.com/sosauce/CuteCalc
+IssueTracker: https://github.com/sosauce/CuteCalc/issues
+Changelog: https://github.com/sosauce/CuteCalc/releases
+
+AutoName: CuteCalc
+
+MaintainerNotes:
+  AppAdded: 2023-12-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sosauce/CuteCalc/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: fd2d95cdb348b2f1aebedbab879ced737385ee13c305a139d6580d4cf2c0d65a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

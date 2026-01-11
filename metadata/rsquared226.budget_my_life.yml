@@ -1,0 +1,27 @@
+Categories:
+  - Money
+License: GPL-3.0-only
+AuthorName: Rahul Ramkumar
+AuthorEmail: rahulram226dev@gmail.com
+AuthorWebSite: https://rahulramkumar.dev/
+SourceCode: https://github.com/rsquared226/budget_my_life
+IssueTracker: https://github.com/rsquared226/budget_my_life/issues
+Changelog: https://github.com/rsquared226/budget_my_life/releases
+
+AutoName: Budget My Life
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-08-30
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-11-07 no release since 5/2021, last commit 5/2021; switch from Tags to Static
+    - 2025-11-09 dev last public activity was 2/2024
+    - 2026-01-11 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: 5040096574b2cd58c9f91b7bcc8aa5dbcd012ec5644b9bd93b617e2f265ab33f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

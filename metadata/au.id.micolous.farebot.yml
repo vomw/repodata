@@ -1,0 +1,37 @@
+Categories:
+  - Navigation
+License: GPL-3.0-or-later
+AuthorName: micolous
+AuthorEmail: metrodroid@g.micolous.id.au
+WebSite: https://micolous.github.io/metrodroid
+SourceCode: https://github.com/metrodroid/metrodroid
+IssueTracker: https://github.com/metrodroid/metrodroid/issues
+Translation: https://hosted.weblate.org/engage/metrodroid/
+Changelog: https://github.com/metrodroid/metrodroid/wiki/Changelog
+
+AutoName: Metrodroid
+
+RepoType: git
+Repo: https://github.com/micolous/metrodroid
+
+MaintainerNotes:
+  AppAdded: 2019-09-28
+  Method: github-release
+  Note: No longer updated with F-Droid, see https://github.com/metrodroid/metrodroid/blob/master/docs/fdroid.md (AUM disabled)
+  Fastlane: https://github.com/metrodroid/metrodroid/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,featureGraphic,screenshots
+  DoubleList: disabled
+  NameSpaces:
+    - /au/id/micolous/metrodroid
+  PermIgnore:
+    android.permission.WRITE_EXTERNAL_STORAGE: used for exporting data on Android versions before 5.0
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted by WRITE_EXTERNAL_STORAGE
+  Status:
+    - 2020-11-01 last update 1y 0m 0d ago, switching UCM from Tags to Static
+    - 2025-11-10 development seems to pick up again, many commits in Oct/Nov 2025
+    - 2025-10-01 upstreaming metadata via https://github.com/metrodroid/metrodroid/pull/881
+    - 2025-11-17 finally, a new update :)
+
+AllowedAPKSigningKeys: 4ac4b5b981b159d67c987e79d9347ced55ad0695de8395556b5f5a7ea54593b3
+
+UpdateCheckMode: Static

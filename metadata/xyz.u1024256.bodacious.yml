@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to last.fm, Spotify a.o.
+    de: Die App nutzt Verbindungen zu last.fm, Spotify, und weiteren Diensten.
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Blake Leonard
+AuthorEmail: blake+bodacious@1024256.xyz
+AuthorWebSite: https://blakes.dev/
+SourceCode: https://github.com/bleonard252/bodacious
+IssueTracker: https://github.com/bleonard252/bodacious/issues
+Changelog: https://github.com/bleonard252/bodacious/releases
+
+AutoName: Bodacious Music Player
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-10-28
+  Method: github-release
+  GHSkipPre: 0
+  Fastlane: https://github.com/bleonard252/bodacious/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshots
+  Note: fulldesc incomplete
+  Status:
+    - 2024-02-22 last release/commit 11/2022, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 858476b6bdc365f8ae8280711b3147b9a1b6014728c81859a7385a58be024cb5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

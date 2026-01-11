@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: TrueMLGPro
+WebSite: https://truemlgpro.github.io/Wi-Fi_Info
+SourceCode: https://github.com/TrueMLGPro/Wi-Fi_Info
+IssueTracker: https://github.com/TrueMLGPro/Wi-Fi_Info/issues
+Changelog: https://github.com/TrueMLGPro/Wi-Fi_Info/releases
+AutoName: Wi-Fi Info
+
+MaintainerNotes:
+  AppAdded: 2020-08-22
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/TrueMLGPro/Wi-Fi_Info/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  FlagIgnore:
+    usesCleartextTraffic: needed to access some resources in e.g. local networks
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed for WiFi access on some Android versions
+    android.permission.ACCESS_COARSE_LOCATION: needed for WiFi access on some Android versions
+    android.permission.ACCESS_BACKGROUND_LOCATION: used to display the SSID, BSSID and Network ID in the notification while the app is in the background (optional)
+  Status:
+    - 2024-02-09 scanner reports usesCleartextTraffic ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION ACCESS_BACKGROUND_LOCATION – https://github.com/TrueMLGPro/Wi-Fi_Info/issues/56
+    - 2025-03-23 last release/commit 2024-02-09; UCM Tags=>Static
+  X-AutoUpdateMode: Version v%v tag name has additional suffix
+
+AllowedAPKSigningKeys: e38c7da8d6f666da7cf60df671da9ce20971c108bd424d75689bcbfe224fd8ae
+
+UpdateCheckMode: Static

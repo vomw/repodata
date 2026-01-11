@@ -1,0 +1,28 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Akylas
+AuthorEmail: contact@akylas.fr
+SourceCode: https://github.com/farfromrefug/OSS-Dict
+IssueTracker: https://github.com/farfromrefug/OSS-Dict/issues
+Translation: https://hosted.weblate.org/engage/ossdict/
+Changelog: https://github.com/farfromrefug/OSS-Dict/releases
+
+AutoName: OSSDict
+
+MaintainerNotes:
+  AppAdded: 2025-01-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/farfromrefug/OSS-Dict/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /itkach/aard2
+  FlagIgnore:
+    usesCleartextTraffic: needed for the local HTTP server which serves the dictionary contents that are loaded in a WebView
+
+AllowedAPKSigningKeys: 50c3301e181970be7d50b4cd51e44060db6876ebf6adb02e48336db4048e5757
+
+AutoUpdateMode: Version v.*/%c$
+UpdateCheckMode: Tags

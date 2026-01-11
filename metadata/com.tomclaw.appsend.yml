@@ -1,0 +1,50 @@
+AntiFeatures:
+  Ads:
+    en-US: The app uses AppMetrica.
+    de: Die App verwendet AppMetrica.
+  NonFreeAdd:
+    en-US: This store promotes proprietary apps as well.
+    de: Dieser App-Store promoted u. a. proprietäre Apps.
+  NonFreeComp:
+    en-US: The app includes the Play Install Referrer and GMS libraries.
+    de: Die App enhält die Bibliotheken des Play Install Referrer und GMS.
+  NonFreeNet:
+    en-US: The app reaches out to Google Servers (Play Install Referrer).
+    de: Die App baut Verbindungen zu Google Servern auf (Play Install Referrer).
+  Tracking:
+    en-US: The app uses the Play Install Referrer and AppMetrica.
+    de: Die App verwendet den Play Install Referrer und AppMetrica.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Igor Solkin
+AuthorEmail: inbox@tomclaw.com
+AuthorWebSite: https://www.sberbank.ru/
+SourceCode: https://github.com/solkin/appteka-android
+IssueTracker: https://github.com/solkin/appteka-android/issues
+Changelog: https://github.com/solkin/appteka-android/releases
+
+AutoName: Appteka
+
+MaintainerNotes:
+  AppAdded: 2020-02-04
+  Todo: 2026-01-25 check if https://github.com/solkin/appteka-android/issues/82 is answered (too many anti-features)
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/solkin/appteka-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: our starter package
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list installed apps
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to install apps
+    android.permission.REQUEST_DELETE_PACKAGES: needed to uninstall apps
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 2/2020)
+    - 2023-08-07 last release 1/2023, last commit 7/2023
+    - 2024-02-01 scanner reports usesCleartextTraffic & REQUEST_INSTALL_PACKAGES REQUEST_DELETE_PACKAGES READ_EXTERNAL_STORAGE* – https://github.com/solkin/appteka-android/issues/18
+    - 2025-08-19 upstreaming our Fastlane via https://github.com/solkin/appteka-android/pull/38
+    - 2026-01-09 reaching out concerning anti-features, which make the app a bit more than just borderlining our inclusion policy; https://github.com/solkin/appteka-android/issues/82
+
+AllowedAPKSigningKeys: a0443150b6dd6581df78097d4212628787433df1db31d412be8344164d0316dc
+
+UpdateCheckMode: Static

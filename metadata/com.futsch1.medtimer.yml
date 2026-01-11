@@ -1,0 +1,33 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Florian Fetz
+AuthorEmail: florian.fetz@googlemail.com
+SourceCode: https://github.com/Futsch1/medTimer
+IssueTracker: https://github.com/Futsch1/medTimer/issues
+Changelog: https://github.com/Futsch1/medTimer/releases
+
+AutoName: MedTimer
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-03-13
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /-signed\.apk/i
+  ApkIgnore: /-unsigned\.apk/i
+  Fastlane: https://github.com/Futsch1/medTimer/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  Note: video.txt 0 bytes
+  DoubleList: keep
+  DoubleListRef: https://github.com/Futsch1/medTimer/issues/61#issuecomment-2168888608
+  Status:
+    - 2024-03-13 description says all local and no internet, but app requests network permissions – https://github.com/Futsch1/medTimer/issues/22
+    - 2024-04-16 reached F-Droid 2024-04-09; does not carry our badge, APK size already slightly beyond 15 MB
+    - 2024-06-15 asked whether to keep https://github.com/Futsch1/medTimer/issues/61#issuecomment-2168888608 => keep
+
+AllowedAPKSigningKeys: 69bc7c72e499045b44c87fc8463f599472deb408c48de38de8554ae7754b9d84
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

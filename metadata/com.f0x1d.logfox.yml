@@ -1,0 +1,32 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: F0x1d
+AuthorWebSite: https://f0x1d.com/
+SourceCode: https://github.com/F0x1d/LogFox
+IssueTracker: https://github.com/F0x1d/LogFox/issues
+Changelog: https://github.com/F0x1d/LogFox/releases
+
+AutoName: LogFox
+
+MaintainerNotes:
+  AppAdded: 2023-08-20
+  AppRemoved: 2023-10-02 reached F-Droid 2023-09-06, Readme does not link here.
+  AddedBack: 2024-07-13 on request by author https://gitlab.com/IzzyOnDroid/repo/-/issues/569
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/F0x1d/LogFox/tree/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/569
+  NameSpaces:
+    - /com/f0x1d/feature
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to obtain the apps for logging
+  Status:
+    - 2025-10-21 [no longer maintained](https://github.com/F0x1d/LogFox/commit/a547b5b6bab85c43e78bc43a370f4f719e6349dd), so UCM TAGS=>None
+
+AllowedAPKSigningKeys: 741f819a4c213ba438053134890b40e258774fce55a778846ec5c67a1c92709f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

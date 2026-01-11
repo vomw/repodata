@@ -1,0 +1,46 @@
+Categories:
+  - Social Network
+  - Internet
+License: Apache-2.0
+AuthorName: tateisu
+AuthorEmail: tateisu@gmail.com
+WebSite: https://mastodon.juggler.jp/@tateisu
+SourceCode: https://github.com/tateisu/SubwayTooter
+IssueTracker: https://github.com/tateisu/SubwayTooter/issues
+Translation: https://hosted.weblate.org/projects/subway-tooter/
+
+AutoName: Subway Tooter
+
+MaintainerNotes:
+  AppAdded: 2017-05-06
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /main-nofcm/i
+  ApkIgnore: /main-fcm/i
+  NameSpaces:
+    - /jp/juggler/anko
+    - /jp/juggler/apng
+    - /jp/juggler/base
+    - /jp/juggler/crypt
+    - /jp/juggler/emoji
+    - /jp/juggler/media
+    - /jp/juggler/subwaytooter
+    - /jp/juggler/util
+  Fastlane: https://github.com/tateisu/SubwayTooter/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,featureGraphicJPG,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: used on lower Android versions to access media for inclusion with toots
+    android.permission.READ_MEDIA_IMAGES: used on higher Android versions to access image files for inclusion with toots
+    android.permission.READ_MEDIA_VIDEO: used on higher Android versions to access video files for inclusion with toots
+    android.permission.READ_MEDIA_AUDIO: used on higher Android versions to access audio files for inclusion with toots
+  Status:
+    - 2023-02-09 now offers two APKs, but the nofcm comes with a different package name. Toggle once clarified whether overlap is needed.
+    - 2023-02-10 switching to jp.juggler.subwaytooter.noFcm giving a 6 weeks overlap
+    - 2023-02-11 asked for per-ABI builds as app exceeds the 30 MB limit now https://github.com/tateisu/SubwayTooter/issues/229
+    - 2023-07-22 had to add anti-features again as 5.536-noFcm brought in Google Cast, GMS, Firebase – fixed within an hour, so gone they are :)
+    - 2024-12-28 scanner reports DEPENDENCY_INFO_BLOCK READ_EXTERNAL_STORAGE READ_MEDIA_IMAGES READ_MEDIA_VIDEO READ_MEDIA_AUDIO – https://github.com/tateisu/SubwayTooter/issues/274
+
+AllowedAPKSigningKeys: 3c5973ed023c3466eeeb158c2f1414fc3f426c917201c854866f52940c812f39
+
+ArchivePolicy: 1
+UpdateCheckMode: Tags

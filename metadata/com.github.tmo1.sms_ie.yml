@@ -1,0 +1,33 @@
+Categories:
+  - Phone & SMS
+License: GPL-3.0-only
+AuthorName: tmo1
+SourceCode: https://github.com/tmo1/sms-ie
+IssueTracker: https://github.com/tmo1/sms-ie/issues
+Changelog: https://github.com/tmo1/sms-ie/releases
+
+AutoName: SMS Import / Export
+
+MaintainerNotes:
+  AppAdded: 2021-04-07
+  AppRemoved: 2021-11-20 reached F-Droid
+  AddedBack: 2025-03-15
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /standard/i
+  ApkIgnore: /legacy/i
+  Fastlane: https://github.com/tmo1/sms-ie/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_SMS: needed to read the SMS for export
+    android.permission.READ_CONTACTS: needed to read the contacts for export
+    android.permission.READ_CALL_LOG: needed to read the call logs for export
+    android.permission.WRITE_CONTACTS: needed to write contacts on import
+    android.permission.WRITE_CALL_LOG: needed to write call logs on import
+
+AllowedAPKSigningKeys: c105e6d9675542d434a9cde9dc79b249f1ac0afc3b8aaec7d5c8201136cffdbe
+
+VercodeOperation: '%c -10000'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

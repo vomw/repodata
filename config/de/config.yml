@@ -1,0 +1,10 @@
+archive:
+  description: >-
+    Das Repository älterer Versionen von Apps aus dem IzzyOnDroid Haupt-Repository.
+    Dies wird leer bleiben, da ältere Version hier nicht archiviert sondern gelöscht werden.
+repo:
+  description: >-
+    Apps in diesem Repository sind offizielle Binaries, die von den jeweiligen Entwicklern
+    bereitgestellt, über deren entsprechende Git-Repositories (üblicherweise Github, GitLab,
+    Codeberg) bezogen, sowie von uns mit zusätzlichen Scans geprüft werden. Updates für die
+    Apps werden normalerweise täglich geprüft, Index-Updates erfolgen ebenfalls täglich.

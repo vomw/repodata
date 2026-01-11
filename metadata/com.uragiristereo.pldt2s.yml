@@ -1,0 +1,23 @@
+Categories:
+  - Xposed
+License: Apache-2.0
+AuthorName: Agung Watanabe
+AuthorWebSite: https://shinkiro467.me/
+SourceCode: https://github.com/uragiristereo/Pixel_Launcher_Double_Tap_to_Sleep
+IssueTracker: https://github.com/uragiristereo/Pixel_Launcher_Double_Tap_to_Sleep/issues
+Changelog: https://github.com/uragiristereo/Pixel_Launcher_Double_Tap_to_Sleep/releases
+
+AutoName: Pixel Launcher Double Tap to Sleep
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-12-06
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-22 last release 10/2022, last commit 2/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: f40f0f2f919fb7fcb7b328a815f062a079f08ef166362f17ae0570d6544a1b76
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

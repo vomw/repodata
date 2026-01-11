@@ -1,0 +1,28 @@
+Categories:
+  - Money
+License: Apache-2.0
+AuthorName: Soumik
+AuthorEmail: developer@soumikshah.com
+SourceCode: https://github.com/soumikshah/Plutus-InvestmentTracker
+IssueTracker: https://github.com/soumikshah/Plutus-InvestmentTracker/issues
+Changelog: https://github.com/soumikshah/Plutus-InvestmentTracker/releases
+
+AutoName: Plutus
+
+MaintainerNotes:
+  AppAdded: 2021-09-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/soumikshah/Plutus-InvestmentTracker/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://github.com/soumikshah/Plutus-InvestmentTracker/pull/39#issuecomment-925764793
+  Status:
+    - 2022-11-07 no release since 10/2021, last code commit 3/2022; switch from Tags to Static
+    - 2025-06-01 versionCode for 2.0.1 was not increased, https://github.com/soumikshah/Plutus-InvestmentTracker/issues/54
+    - 2025-11-21 no reply, no new commits since 3/2025, no public activity recorded for the dev since 3/2025
+
+AllowedAPKSigningKeys: 6c4a619aca5de49b404d914ec8ccd1b4bfe0c9dd14625b8082994daeb25a83f0
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

@@ -1,0 +1,23 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: qwerty287
+SourceCode: https://codeberg.org/qwerty287/ftpclient
+IssueTracker: https://codeberg.org/qwerty287/ftpclient/issues
+Changelog: https://codeberg.org/qwerty287/ftpclient/releases
+
+AutoName: FTPClient
+
+MaintainerNotes:
+  AppAdded: 2022-01-24
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/qwerty287/ftpclient/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneIgnore: title
+  DoubleList: keep
+
+AllowedAPKSigningKeys: ebcda40640f9997623c554a7b98d5a531e625aa135debbcc658aca11d67fd582
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

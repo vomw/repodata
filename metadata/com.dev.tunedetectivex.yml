@@ -1,0 +1,27 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses the Deezer API.
+    de: Die App verwendet die Deezer API.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: nooowavailable
+SourceCode: https://github.com/nooowavailable/tunedetectivex
+IssueTracker: https://github.com/nooowavailable/tunedetectivex/issues
+Changelog: https://github.com/nooowavailable/tunedetectivex/releases
+
+AutoName: TDX
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-02-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nooowavailable/tunedetectivex/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: 209e824062036eb613825df7b8114425b7b61009fcaf5e6fb2d9b3a96fae1057
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

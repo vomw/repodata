@@ -1,0 +1,29 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: Mikulash
+AuthorEmail: heinz.mikulas@gmail.com
+SourceCode: https://github.com/mikulash/ShareAsQR
+IssueTracker: https://github.com/mikulash/ShareAsQR/issues
+Changelog: https://github.com/mikulash/ShareAsQR/releases
+
+AutoName: ShareAsQR
+
+MaintainerNotes:
+  AppAdded: 2025-01-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/mikulash/ShareAsQR/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /mikulash/shareasqr
+  Status:
+    - 2025-08-25 android.permission.CAMERA + wrong signing key – https://github.com/mikulash/ShareAsQR/issues/5
+    - 2025-10-01 pinged author again, meanwhile UCM=None as it was over a month now. Also disabled RB checks
+    - 2025-10-03 switch confirmed by mail recovered from original F-Droid MR
+
+AllowedAPKSigningKeys: d15157bff0b0cc436ad41bba05477dc8347d8ec699541ad68fec381a25987b49
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

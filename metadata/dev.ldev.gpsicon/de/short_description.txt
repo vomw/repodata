@@ -1,0 +1,1 @@
+GPS Status Icon für die Statusleiste

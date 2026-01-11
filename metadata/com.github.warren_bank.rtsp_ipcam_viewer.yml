@@ -1,0 +1,21 @@
+Categories:
+  - Multimedia
+License: GPL-2.0-only
+AuthorName: Warren Bank
+SourceCode: https://github.com/warren-bank/Android-RTSP-IPCam-Viewer
+IssueTracker: https://github.com/warren-bank/Android-RTSP-IPCam-Viewer/issues
+Changelog: https://github.com/warren-bank/Android-RTSP-IPCam-Viewer/releases
+
+AutoName: RTSP IP-Cam Viewer
+
+MaintainerNotes:
+  AppAdded: 2020-10-17
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2020-11-01 last update 1y 4m 29d ago, switching UCM from Tags to Static
+    - 2023-08-07 last commit/release 6/2022
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+UpdateCheckMode: Static

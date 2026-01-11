@@ -1,0 +1,28 @@
+Categories:
+  - Money
+License: GPL-3.0-only
+AuthorName: Monolidth
+WebSite: https://github.com/ReceiptManager/receipt-manager-app/wiki
+SourceCode: https://github.com/ReceiptManager/receipt-manager-app
+IssueTracker: https://github.com/ReceiptManager/receipt-manager-app/issues
+Changelog: https://github.com/ReceiptManager/receipt-manager-app/releases
+
+AutoName: Receipt Manager
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-10-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ReceiptManager/receipt-manager-app/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane icon uses LFS (WTF?)
+  Status:
+    - 2021-05-15 v1.1.6 introduces FCM and other non-free deps, see https://github.com/ReceiptManager/receipt-manager-app/issues/30 – rolling back to 1.1.5 and disabling auto-update for now
+    - 2021-05-26 v1.1.7 has the blockers removed again, re-activating auto-update
+    - 2022-11-07 no release since 5/2021, last commit 5/2021; switch from Tags to Static
+
+AllowedAPKSigningKeys: 4c957d9d7ea3fd1cd4a15cb994ef24c8d283115aa6d5727dd032e1b3a938de65
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

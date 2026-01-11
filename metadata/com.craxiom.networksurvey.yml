@@ -1,0 +1,41 @@
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: Christian Rowlands
+AuthorEmail: craxiomdev@gmail.com
+SourceCode: https://github.com/christianrowlands/android-network-survey
+IssueTracker: https://github.com/christianrowlands/android-network-survey/issues
+Changelog: https://github.com/christianrowlands/android-network-survey/releases
+AutoName: Network Survey
+
+MaintainerNotes:
+  AppAdded: 2020-02-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/christianrowlands/android-network-survey/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: Needed to log your location during the survey, and also to get access to the cellular details.
+    android.permission.ACCESS_FINE_LOCATION: Needed to log your location during the survey, especially also for GNSS constellations, and also to access Wi-Fi scans.
+    android.permission.ACCESS_BACKGROUND_LOCATION: Needed to allow for starting logging when the phone is booted (strangely Android seems to need it). Can be denied if the „auto-start at boot“ feature is not needed.
+    android.permission.BLUETOOTH_SCAN: Required for the feature of scanning and displaying a list of the nearby Bluetooth devices.
+    android.permission.CAMERA: Required to scan QR Code for MQTT Broker connection setting.
+    android.permission.READ_CALL_LOG: This is required for the CDR (Call Detail Record) feature, see https://github.com/christianrowlands/android-network-survey#cdr-log-files
+    android.permission.READ_SMS: This is required for the CDR (Call Detail Record) feature, see https://github.com/christianrowlands/android-network-survey#cdr-log-files
+    android.permission.RECEIVE_SMS: This is required for the CDR (Call Detail Record) feature, see https://github.com/christianrowlands/android-network-survey#cdr-log-files
+    android.permission.READ_PHONE_NUMBERS: This is required for the CDR (Call Detail Record) feature, see https://github.com/christianrowlands/android-network-survey#cdr-log-files
+    android.permission.READ_PHONE_STATE: Needed to log the connection state etc. during the survey – especially for cell tower details.
+    android.permission.READ_EXTERNAL_STORAGE: Required to access the Download folder on Android 9 and below. The download folder is where log files are written to.
+  Status:
+    - 2023-01-06 release 1.9.0 added 7 proprietary ad/tracking/etc libs. https://github.com/christianrowlands/android-network-survey/issues/17
+    - 2023-01-09 was on purpose, but author will look for a different solution (link to snippet sent)
+    - 2023-02-28 though those libs were gone interim, another update brought back others. Next update shall hopefully solve that.
+    - 2024-01-14 updater reports the app uses usesCleartextTraffic plus requests READ_CALL_LOG, READ_SMS, RECEIVE_SMS, READ_PHONE_NUMBERS. Asked for clarification at https://github.com/christianrowlands/android-network-survey/issues/27
+    - 2024-01-22 checker now fully enabled, reporting CAMERA ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION READ_PHONE_STATE BLUETOOTH_SCAN ACCESS_BACKGROUND_LOCATION READ_EXTERNAL_STORAGE*; added that to the issue for clarification
+    - 2026-01-01 APK size meanwhile over 70 MB; issue for per-ABI builds was already opened by someone else 5 days ago, see https://github.com/christianrowlands/android-network-survey/issues/117
+
+AllowedAPKSigningKeys: abf5ad2911fe31916f4e255c1733a3f6bc2cab2f2816c9587de11a415871af07
+
+ArchivePolicy: 1
+UpdateCheckMode: Tags

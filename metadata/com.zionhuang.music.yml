@@ -1,0 +1,39 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to YouTube (obviously).
+    de: Die App verbindet sich zu YouTube.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Zion Huang
+SourceCode: https://github.com/z-huang/InnerTune
+IssueTracker: https://github.com/z-huang/InnerTune/issues
+Changelog: https://github.com/z-huang/InnerTune/releases
+
+AutoName: Music
+
+MaintainerNotes:
+  AppAdded: 2022-04-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss/i
+  ApkIgnore: /(full|\d\.apk)/i
+  Fastlane: https://github.com/z-huang/InnerTune/tree/dev/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: Fastlane is our starter package
+  DoubleList: keep
+  DoubleListRef: https://github.com/z-huang/InnerTune/issues/1#issuecomment-1408669602
+  NameSpaces:
+    - /com/zionhuang/innertube
+    - /com/zionhuang/kugou
+    - /com/zionhuang/lrclib
+  Status:
+    - 2022-11-29 arrived at F-Droid 2022-11-05, app removed
+    - 2023-01-30 re-established on authors request, see https://github.com/z-huang/InnerTune/issues/1#issuecomment-1408669602
+    - 2023-08-04 removed v0.5.1 and set updates to Static as app now introduces Crashlytics and Firebase Analytics https://github.com/z-huang/InnerTune/issues/935
+    - 2024-08-21 restore UCM=>Tags as all seems fine now
+
+AllowedAPKSigningKeys: 5d55f9086e9543ee4d9e5f50bd60595ed4e9ac842de334fde900f3c616e32af2
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

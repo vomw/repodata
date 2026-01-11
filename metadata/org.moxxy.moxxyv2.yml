@@ -1,0 +1,33 @@
+Categories:
+  - Messaging
+  - Internet
+License: GPL-3.0-only
+AuthorName: moxxy
+SourceCode: https://codeberg.org/moxxy/moxxy
+IssueTracker: https://codeberg.org/moxxy/moxxy/issues
+Changelog: https://codeberg.org/moxxy/moxxy/releases
+
+AutoName: Moxxy
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-08-14
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  ApkIgnore: /arm64-v8a/i
+  Fastlane: https://codeberg.org/moxxy/moxxy/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  FastlaneIgnore: title
+  NameSpaces:
+    - /com/example/moxxyv2
+  Status:
+    - 2023-09-08 signing key changed from Flutter’s debug key (293bf1be440dddb7048edccdecbad943aff9e6057dc65664708b0f88af18da8c) to a new release key
+    - 2025-06-27 last release 2023-09-08, last commit 11/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 58a8eea8c5bc6b2c33146b2f9182c75ba9faa502e4d257c6cebc943447300708
+
+VercodeOperation: '%c -1000'
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

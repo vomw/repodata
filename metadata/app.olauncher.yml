@@ -1,0 +1,33 @@
+Categories:
+  - System
+  - Theming
+License: GPL-3.0-only
+AuthorName: Tanuj M.
+AuthorEmail: tanuj@frndly.app
+SourceCode: https://github.com/tanujnotes/Olauncher
+IssueTracker: https://github.com/tanujnotes/Olauncher/issues
+Changelog: https://github.com/tanujnotes/Olauncher/releases
+
+AutoName: Olauncher. Minimal AF Launcher
+
+MaintainerNotes:
+  AppAdded: 2020-07-23
+  AppRemoved: 2021-11-20 reached F-Droid
+  AddedBack: 2025-03-18
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /Olauncher-L/i
+  DoubleList: keep
+  Fastlane: https://github.com/tanujnotes/Olauncher/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package, see https://github.com/tanujnotes/Olauncher/pull/636
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: optionally turn off the phone screen with a double-tap gesture
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to list available apps in the app drawer
+    android.permission.REQUEST_DELETE_PACKAGES: to remove unwanted apps on request
+
+AllowedAPKSigningKeys: a2bd5f2443fd4b43a039b73ebe254febbc7eb57a2993dff541de52c52e588149
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,11 @@
+<p>This is the launcher that presents what, in my opinion, a home screen should be. It has only features that matter yet lacks nothing essential.</p>
+<p><br><b>Features:</b></p><ul>
+<li><b>Adaptive Icon Packs:</b> Choose from many popular icon packs to customize your home screen. Even icon packs with adaptive icons are supported.</li>
+<li><b>Smart Unread:</b> The widget on the first page will show the most important notification on your phone. When music is playing, control it by tapping the widget. Tap once to pause, twice to skip, three times to rewind.</li>
+<li><b>Feed overlay:</b> Swipe right to open a news feed selected in the settings. Any app can implement a feed from now on. To use the Google App, you need Rootless Pixel Bridge v3 or newer from <a href='https://amirzaidi.github.io/bridge.html' target='_blank' rel='nofollow'>my GitHub</a></li>
+<li><b>Themes:</b> When you get bored of the default Android themes, there are many custom launcher themes to choose from in the settings menu. All of them have their own distinct style and feeling.</li>
+<li><b>Grid division:</b> Choose if you want 4, 5 or 6 columns on your home screen. Or let the launcher decide using your phone’s size.</li>
+<li><b>Shortcuts:</b> Hold an app icon to show quick shortcuts that immediately jump into the app.</li>
+<li><b>Categories:</b> Place your apps in categories to quickly find them. Apps can be hidden by placing them in the Hidden category.</li>
+<li><b>Plugins:</b> Shade will launch a unified open source plugin system that will let other developers create their own additions. They can, for example, create their own weather widget, or add custom shortcuts for applications.</li>
+<li><b>QuickSwitch Support:</b> Rooted users on Android 9.0 can use the QuickSwitch module to enable integration with the new recents look.</li></ul>

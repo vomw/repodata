@@ -1,0 +1,24 @@
+Categories:
+  - Navigation
+License: Apache-2.0
+AuthorName: Anton Tananaev
+AuthorEmail: anton@traccar.org
+WebSite: https://www.traccar.org/
+SourceCode: https://github.com/traccar/traccar-manager-android
+IssueTracker: https://github.com/traccar/traccar-manager-android/issues
+
+Name: Traccar Manager
+
+MaintainerNotes:
+  AppAdded: 2016-08-09
+  Method: github-release
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to access the (coarse) network location for GPS tracking
+    android.permission.ACCESS_FINE_LOCATION: required to access GPS for tacking
+  Status:
+    - 2025-06-15 moved to a new repo, but now includes a load of proprietary components, see https://github.com/traccar/traccar-manager/issues/9
+    - 2025-07-01 updates disabled permanently now.
+
+AllowedAPKSigningKeys: 4ee41f0eef8cc6e630e0f7344685bdfe55557bd450e3e777826993cb1d7c61a6
+
+UpdateCheckMode: None

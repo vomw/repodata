@@ -1,0 +1,29 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: MyAnimeList is not libre.
+    de: MyAnimeList ist nicht libre.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Axel Lopez
+AuthorEmail: axiel7lopez@gmail.com
+AuthorWebSite: https://axiel7.github.io/
+SourceCode: https://github.com/axiel7/MoeList
+IssueTracker: https://github.com/axiel7/MoeList/issues
+Changelog: https://github.com/axiel7/MoeList/releases
+
+AutoName: MoeList - MyAnimeList Client
+
+MaintainerNotes:
+  AppAdded: 2022-10-23
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/axiel7/MoeList/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: 100c5825bc7bb271d8ed4b28cf3b81ee3c8ed37673658c720c88dfbf6ef060a7
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,24 @@
+Categories:
+  - Graphics
+License: GPL-3.0-only
+AuthorName: Suhas Dissanayake
+AuthorWebSite: https://suhasdissa.github.io/
+SourceCode: https://github.com/SuhasDissa/SoftBoard
+IssueTracker: https://github.com/SuhasDissa/SoftBoard/issues
+Changelog: https://github.com/SuhasDissa/SoftBoard/releases
+
+AutoName: SoftBoard
+
+MaintainerNotes:
+  AppAdded: 2023-08-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SuhasDissa/SoftBoard/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Status:
+    - 2024-12-10 last release 7/2023, last commit 8/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 07b9c766979a7d4ac3ca04da86e9f1b599768cb0e39931d1fbbc1b7c443b78cd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

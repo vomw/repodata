@@ -1,0 +1,31 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-or-later
+AuthorName: Samuel Amantea-Collins
+AuthorEmail: help.trackandgraph@gmail.com
+SourceCode: https://github.com/SamAmco/track-and-graph
+IssueTracker: https://github.com/SamAmco/track-and-graph/issues
+Changelog: https://github.com/SamAmco/track-and-graph/releases
+
+AutoName: Track & Graph
+
+MaintainerNotes:
+  AppAdded: 2020-01-02
+  AppRemoved: 2021-11-20 reached F-Droid
+  AddedBack: 2025-03-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SamAmco/track-and-graph/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneIgnore: video
+  Note: fastlane has only en-GB, video.txt is empty
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: for stuff like importing a CSV or a backup file
+  Status:
+    - 2025-04-16 DEPENDENCY_INFO_BLOCK READ_EXTERNAL_STORAGE – https://github.com/SamAmco/track-and-graph/issues/307
+
+AllowedAPKSigningKeys: af1a0d8596614cd2bad0653b01a47a84305b104db45d524647dbfea3f73564fb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

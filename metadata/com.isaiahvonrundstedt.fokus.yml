@@ -1,0 +1,28 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2023-12-28, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2023-12-28 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Science & Education
+  - Time
+License: GPL-3.0-only
+AuthorName: Isaiah Collins Abetong
+AuthorEmail: isaiahcollins_02@live.com
+SourceCode: https://github.com/icabetong/fokus-android
+IssueTracker: https://github.com/icabetong/fokus-android/issues
+Changelog: https://github.com/icabetong/fokus-android/releases
+AutoName: Fokus
+
+MaintainerNotes:
+  AppAdded: 2020-08-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/icabetong/fokus-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  Status:
+    - 2024-01-18 repo was archived 2023-12-28, UCM Tags => None
+
+AllowedAPKSigningKeys: 98925c3529b374528d4deb63f3fc037865fea7d29423ff849d24f966250f12da
+
+AutoUpdateMode: Version %v(-(hotfix|stable))*
+UpdateCheckMode: None

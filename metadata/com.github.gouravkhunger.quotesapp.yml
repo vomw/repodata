@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses ZenQuotes.io API (free, but not libre) – and automatically checks for updates at Github.
+    de: Die App verwendet die ZenQuotes.io API (die gratis ist, aber nicht libre) – und prüft automatisch bei Github auf Updates.
+Categories:
+  - Reading
+License: MIT
+AuthorName: Gourav Khunger
+AuthorEmail: gouravkhunger18@gmail.com
+AuthorWebSite: https://gourav-khunger.web.app/
+SourceCode: https://github.com/gouravkhunger/QuotesApp
+IssueTracker: https://github.com/gouravkhunger/QuotesApp/issues
+Changelog: https://github.com/gouravkhunger/QuotesApp/releases
+
+AutoName: QuotesApp
+
+MaintainerNotes:
+  AppAdded: 2021-10-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/gouravkhunger/QuotesApp/tree/main/metadata
+  FastlaneFeatures: video,shortdesc,fulldescMD,icon,screenshots
+  Note: our starter package
+  LibIgnore:
+    - /com/github/javiersantos/appupdater
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 3/2022, last commit 10/2022)
+    - 2024-09-08 integrated SelfUpdater with enforced check at Github – https://github.com/gouravkhunger/QuotesApp/issues/22
+    - 2024-12-03 AppUpdater now opt-in with proper information
+    - 2024-12-10 2 updates within the last 3 months, UCM Static=>Tags again
+
+AllowedAPKSigningKeys: 00b1a25a9ec216314243c523910cdf3e79a4271a1cfb61aa918d7166ec6f4d9f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

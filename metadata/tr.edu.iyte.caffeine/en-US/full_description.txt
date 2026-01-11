@@ -1,0 +1,2 @@
+<p><b>Note:</b> author declared end-of-life for this app, so future updates are unlikely.</p>
+<p><i>Caffeine</i> is an app that keeps your phone awake for a certain time. Time options are 1, 5, 10, 30, and 60 minutes. There is also an infinite time option.</p>

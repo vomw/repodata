@@ -1,0 +1,30 @@
+Categories:
+  - Theming
+License: MIT
+AuthorName: Vaibhav Lakhera
+AuthorEmail: vaibhav.lakhera.dev@gmail.com
+SourceCode: https://github.com/VaibhavLakhera/minimo-launcher
+IssueTracker: https://github.com/VaibhavLakhera/minimo-launcher/issues
+Changelog: https://github.com/VaibhavLakhera/minimo-launcher/releases
+
+AutoName: 'Minimo | Minimalist Launcher'
+
+MaintainerNotes:
+  AppAdded: 2025-03-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/VaibhavLakhera/minimo-launcher/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: required for the "Double tap to lock" feature
+  PermIgnore:
+    android.permission.REQUEST_DELETE_PACKAGES: to allow deleting apps
+    android.permission.QUERY_ALL_PACKAGES: to list installed apps in the launcher
+  Status:
+    - 2025-04-07 android.accessibilityservice.AccessibilityService DEPENDENCY_INFO_BLOCK – https://github.com/VaibhavLakhera/minimo/issues/9
+
+AllowedAPKSigningKeys: ce4420022471a1f16801f05291d02c3ae019963f1193d04302f005b4d97da4a4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

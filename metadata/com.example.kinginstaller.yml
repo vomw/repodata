@@ -1,0 +1,23 @@
+AntiFeatures:
+  - ApplicationDebuggable
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: fcaronte
+SourceCode: https://github.com/fcaronte/KingInstaller
+IssueTracker: https://github.com/fcaronte/KingInstaller/issues
+Changelog: https://github.com/fcaronte/KingInstaller/releases
+
+AutoName: KingInstaller
+
+MaintainerNotes:
+  AppAdded: 2023-08-21
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-05 last release 6/2023, last commit 1/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: b906155c73dfaf1dcb99fb3d7d725ec0cb840a8ba03932da368a1668fe1a235e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

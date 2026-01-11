@@ -1,0 +1,36 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Antonios Hazim
+SourceCode: https://codeberg.org/NeoApplications/Neo-Store
+IssueTracker: https://codeberg.org/NeoApplications/Neo-Store/issues
+Translation: https://hosted.weblate.org/engage/neo-store/
+Changelog: https://codeberg.org/NeoApplications/Neo-Store/releases
+
+AutoName: Neo Store
+
+MaintainerNotes:
+  AppAdded: 2022-07-07
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/NeoApplications/Neo-Store/src/branch/master/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/11292#note_1017410921
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: needed for an app manager to install apps
+    android.permission.REQUEST_DELETE_PACKAGES: needed for an app manager to remove apps
+    android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: for seamless updates
+    android.permission.QUERY_ALL_PACKAGES: needed for an app manager to list available apps and their updates
+    android.permission.READ_EXTERNAL_STORAGE: needed for the export/import of installed apps and repositories
+    android.permission.WRITE_EXTERNAL_STORAGE: needed for the export/import of installed apps and repositories
+  NameSpaces:
+    - /com/machiav3lli/backup/ui/compose/icons
+  Status:
+    - 2024-04-24 scanner reports DEPENDENCY_INFO_BLOCK android.permission.READ_EXTERNAL_STORAGE – https://github.com/NeoApplications/Neo-Store/issues/587
+    - 2025-11-11 switching source from Github to Codeberg
+
+AllowedAPKSigningKeys: c5860146138b7799bb9d0617c398c1e5241550f558252a3f97b2a51f15263ef7
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

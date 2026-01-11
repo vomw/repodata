@@ -1,0 +1,26 @@
+Categories:
+  - System
+  - Theming
+License: GPL-3.0-only
+AuthorName: jeeneo
+SourceCode: https://github.com/jeeneo/fonts
+IssueTracker: https://github.com/jeeneo/fonts/issues
+Changelog: https://github.com/jeeneo/fonts/releases
+
+AutoName: Fonts
+
+MaintainerNotes:
+  AppAdded: 2025-10-30
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/jeeneo/fonts/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: for installing fonts
+    android.permission.QUERY_ALL_PACKAGES: for finding installed fonts
+    android.permission.REQUEST_DELETE_PACKAGES: to uninstall fonts
+
+AllowedAPKSigningKeys: 8f30c8ac0cab1bda356e7fe6e0757114d2e709bf0e94d3066cf0a248ea18694f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

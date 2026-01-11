@@ -1,0 +1,24 @@
+Categories:
+  - Xposed
+License: Apache-2.0
+AuthorName: Agung Watanabe
+AuthorWebSite: https://shinkiro467.me/
+SourceCode: https://github.com/uragiristereo/Reverse_Pixelify
+IssueTracker: https://github.com/uragiristereo/Reverse_Pixelify/issues
+Changelog: https://github.com/uragiristereo/Reverse_Pixelify/releases
+
+AutoName: Reverse Pixelify
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-12-06
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-22 last release/commit 10/2022, UCM Tags=>Static
+    - 2026-01-09 still no new commits, disabling update check entirely
+
+AllowedAPKSigningKeys: f40f0f2f919fb7fcb7b328a815f062a079f08ef166362f17ae0570d6544a1b76
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Biplob Kumar Sutradhar
+AuthorEmail: biplobsd11@gmail.com
+AuthorWebSite: https://biplobsd.me/
+WebSite: https://biplobsd.me/apps/view/rsm.md
+SourceCode: https://github.com/biplobsd/running_services_monitor
+IssueTracker: https://github.com/biplobsd/running_services_monitor/issues
+Changelog: https://github.com/biplobsd/running_services_monitor/releases
+Donate: https://buymeacoffee.com/biplobsd
+
+AutoName: Running Services Monitor
+
+MaintainerNotes:
+  AppAdded: 2025-12-03
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/biplobsd/running_services_monitor/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to show all running processes
+    android.permission.REQUEST_DELETE_PACKAGES: to remove unwanted resource hoggers
+
+AllowedAPKSigningKeys: 1eb447280255c3b807fb8176556f31757a484619e8a989f29024a26e0fac3274
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

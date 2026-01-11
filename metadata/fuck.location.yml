@@ -1,0 +1,32 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-01-09, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-01-09 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+  - Xposed
+License: AGPL-3.0-only
+AuthorName: Mikotwa
+SourceCode: https://github.com/Xposed-Modules-Repo/fuck.location
+IssueTracker: https://github.com/Mikotwa/FuckLocation/issues
+Changelog: https://github.com/Xposed-Modules-Repo/fuck.location/releases
+
+AutoName: Fuck Location
+
+ArchivePolicy: 2
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-22
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to show a list of apps to return custom locations to
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 4/2022, last commit 7/2022)
+    - 2025-02-16 UCM => None as source repo (https://github.com/Mikotwa/FuckLocation) was archived 2024-01-09
+
+AllowedAPKSigningKeys: 7bd57b9667030fdcd2b11967fd846e1c145bf1cc61e9b294dee9e04942e30380
+
+AutoUpdateMode: Version %c\-.*
+UpdateCheckMode: None

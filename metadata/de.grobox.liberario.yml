@@ -1,0 +1,43 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: Some transport data sources are not libre.
+    de: Einige Datenquellen sind nicht libre.
+Categories:
+  - Navigation
+License: GPL-3.0-or-later
+AuthorName: Torsten Grote
+WebSite: https://transportr.app/
+SourceCode: https://github.com/grote/Transportr
+IssueTracker: https://github.com/grote/Transportr/issues
+Translation: https://www.transifex.com/grobox/transportr/
+Changelog: https://github.com/grote/Transportr/releases
+Donate: https://transportr.app/donate/?utm_source=fdroid
+Bitcoin: 12JaQp8zfqRb83JfSwVjH4rZWsZnWRPoyG
+
+AutoName: Liberario
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-10-03
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  DoubleListRef: https://github.com/grote/Transportr/issues/826#issuecomment-1264358319
+  Fastlane: https://github.com/grote/Transportr/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,video,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  LibIgnore:
+    - /com/mapbox
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to get the current location as start position
+    android.permission.ACCESS_FINE_LOCATION: needed to get the current location as start position
+  NameSpaces:
+    - /de/grobox/transportr
+  Status:
+    - 2022-12-11 Tags=>Static (last release 11/2021, last commit 8/2022)
+    - 2023-08-08 last release 6/2023, last commit 7/2023
+    - 2024-02-26 remove NonFreeComp; Mapbox here is Mapbox Libre, using the same signature
+
+AllowedAPKSigningKeys: 39bd8e0f54c8ab87ac21c07a15b30fc95cdff1d25d75df029d523b18df864b79
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

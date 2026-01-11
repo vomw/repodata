@@ -1,0 +1,30 @@
+Categories:
+  - System
+  - Development
+License: Apache-2.0
+AuthorName: Ian Field
+AuthorEmail: ian.field90@gmail.com
+AuthorWebSite: https://ianfield.com/
+WebSite: https://ianfield.com/DevStat
+SourceCode: https://github.com/IanField90/DevStat
+IssueTracker: https://github.com/IanField90/DevStat/issues
+Changelog: https://github.com/IanField90/DevStat/releases
+
+AutoName: DevStat
+
+MaintainerNotes:
+  AppAdded: 2017-08-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/IanField90/DevStat/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2020-05-04 set to Static as last releases lack APKs, see https://github.com/IanField90/DevStat/issues/19 (asked 2019-11, still no response)
+    - 2021-08-13 re-enabling it (Static -> Tags) as Ian picked up again
+    - 2023-07-13 UCM Tags => Static (last release 4/2022, last commit 7/2022)
+    - 2025-08-23 upstream metadata via https://github.com/IanField90/DevStat/pull/23
+
+AllowedAPKSigningKeys: 14651965b6752d5d724ab7c4a8ec46d36468c63f28c43573436046acfceca94f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

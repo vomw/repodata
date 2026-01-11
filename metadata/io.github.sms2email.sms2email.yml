@@ -1,0 +1,24 @@
+Categories:
+  - Phone & SMS
+License: Apache-2.0
+AuthorName: SMS2Email
+SourceCode: https://github.com/SMS2Email/SMS2Email
+IssueTracker: https://github.com/SMS2Email/SMS2Email/issues
+Changelog: https://github.com/SMS2Email/SMS2Email/releases
+
+AutoName: SMS2Email
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-12-31
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SMS2Email/SMS2Email/blob/v1.0.10/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.RECEIVE_SMS: needed to access the SMS messages to forward
+
+AllowedAPKSigningKeys: adb95a3e8da26800459360d9b2a5eb2677552efe90e5f11576d219bf916b0a48
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

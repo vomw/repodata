@@ -1,0 +1,39 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes the Google BillingClient.
+    de: Die App enthält den Google BillingClient.
+  NonFreeNet:
+    en-US: The app connects to Google servers (billing).
+    de: Die App verbindet sich zu Google Servern (Billing).
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Georg Sieber
+AuthorEmail: support@georg-sieber.de
+AuthorWebSite: https://georg-sieber.de/
+SourceCode: https://github.com/schorschii/CustomerDB-Android
+IssueTracker: https://github.com/schorschii/CustomerDB-Android/issues
+
+AutoName: Customer Database
+
+MaintainerNotes:
+  AppAdded: 2022-11-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/schorschii/CustomerDB-Android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is based on our starter package
+  FlagIgnore:
+    usesCleartextTraffic: for syncing with self-hosted, local resources
+  PermIgnore:
+    android.permission.CAMERA: for QR code scanning and taking customer photos
+    android.permission.READ_EXTERNAL_STORAGE: to select local files to be attached to customer records
+  Status:
+    - 2025-06-27 last release 2023-11-24; UCM Tags=>Static and asked if releases were forgotten https://github.com/schorschii/CustomerDB-Android/issues/1
+    - 2025-06-28 releases available again, starting with the latest one.
+    - 2025-08-19 upstreaming our fastlane metadata via https://github.com/schorschii/CustomerDB-Android/pull/2
+
+AllowedAPKSigningKeys: 4d8a9f12fa7692154a3953e5b5b402b60ad252e63a136cbff2390541c48d843f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

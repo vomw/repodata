@@ -1,0 +1,37 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: Some sources of traffic data are non-free.
+    de: Einige Quellen für Verkehrsdaten sind unfrei.
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Eric Scheibler
+AuthorEmail: info@walkersguide.org
+AuthorWebSite: https://www.eric-scheibler.de/
+WebSite: https://www.walkersguide.org/
+SourceCode: https://github.com/scheibler/WalkersGuide-Android
+IssueTracker: https://github.com/scheibler/WalkersGuide-Android/issues
+Changelog: https://www.walkersguide.org/de/downloads/
+
+AutoName: WalkersGuide
+
+MaintainerNotes:
+  AppAdded: 2023-03-04
+  Method: github-release
+  ManualHint: https://www.walkersguide.org/de/downloads/
+  GHSkipPre: 1
+  Fastlane: https://github.com/scheibler/WalkersGuide-Android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Note: Fastlane based on our starter package
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed for navigation
+    android.permission.ACCESS_FINE_LOCATION: needed for navigation
+  Status:
+    - 2023-03-04 asked for APKs attached to releases https://github.com/scheibler/WalkersGuide-Android/issues/1
+    - 2023-03-05 release was added with APK attached \o/
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/scheibler/WalkersGuide-Android/pull/9
+
+AllowedAPKSigningKeys: 74e68acdbcbe56360d274ed00430c4a0a4f06ca700a30139745763b8bd1ea598
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,23 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Vadim Erenkov
+SourceCode: https://github.com/vadimerenkov/Aucards
+IssueTracker: https://github.com/vadimerenkov/Aucards/issues
+Changelog: https://github.com/vadimerenkov/Aucards/releases
+
+AutoName: Aucards
+
+MaintainerNotes:
+  AppAdded: 2025-08-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/vadimerenkov/Aucards/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2025-08-01 upstreaming our local Fastlane metadata via https://github.com/vadimerenkov/Aucards/pull/10
+
+AllowedAPKSigningKeys: c456205063aaa6c9ad79d1d10011a45d366665255dd7b59b279bf5a5ce61501a
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

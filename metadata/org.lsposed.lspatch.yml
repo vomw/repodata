@@ -1,0 +1,29 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2023-12-13, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2023-12-13 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Xposed
+  - System
+License: GPL-3.0-only
+AuthorName: LSPosed
+AuthorEmail: lsposed@lsposed.org
+AuthorWebSite: https://lsposed.org/
+SourceCode: https://github.com/LSPosed/LSPatch
+IssueTracker: https://github.com/LSPosed/LSPatch/issues
+Translation: https://lsposed.crowdin.com/lspatch
+Changelog: https://github.com/LSPosed/LSPatch/releases
+
+AutoName: LSPatch
+
+MaintainerNotes:
+  AppAdded: 2023-04-23
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-12-17 repo was archived 2023-12-13, UCM Tags => None
+
+AllowedAPKSigningKeys: cba01d5fc4387b8c4c74bc05e4cce7d114c12f01688926b7ac0adbeb440a167c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

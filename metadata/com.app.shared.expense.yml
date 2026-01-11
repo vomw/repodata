@@ -1,0 +1,25 @@
+Categories:
+  - Money
+License: MIT
+AuthorName: Koushik Naskar
+AuthorEmail: Koushik.naskar9@gmail.com
+AuthorWebSite: https://koushikphy.github.io/
+SourceCode: https://github.com/Koushikphy/Shared-Expense-Manager
+IssueTracker: https://github.com/Koushikphy/Shared-Expense-Manager/issues
+Changelog: https://github.com/Koushikphy/Shared-Expense-Manager/releases
+
+AutoName: Shared Expense Manager
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-02-08
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-08-18 last release 8/2022, last commit 8/2022; Tags => Static
+    - 2026-01-09 still no new commits, disabling updates altogether.
+
+AllowedAPKSigningKeys: b33dd9937cd5d34e14ac1858ae30f51936ed23ca6470228c95999e33c1ea7177
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

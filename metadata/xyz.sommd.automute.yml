@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: David Sommerich
+AuthorEmail: d.j.s.1050@gmail.com
+SourceCode: https://github.com/sommd/auto-mute
+IssueTracker: https://github.com/sommd/auto-mute/issues
+Changelog: https://github.com/sommd/auto-mute/releases
+
+AutoName: Auto Mute
+
+MaintainerNotes:
+  AppAdded: 2023-01-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sommd/auto-mute/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Status:
+    - 2024-02-22 last release 9/2022, last commit 1/2023, UCM Tags=>Static
+    - 2025-08-23 upstreaming our metadata via https://github.com/sommd/auto-mute/pull/19
+    - 2025-11-14 last release 1/2025, last commit 9/2025; keeping UCM=Static
+
+AllowedAPKSigningKeys: 5239a071f03514cb146bd1ef11168dc814205bab6e088a795ff1c12c7c071fa6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

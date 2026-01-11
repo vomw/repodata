@@ -1,0 +1,24 @@
+Categories:
+  - Theming
+License: MIT
+AuthorName: Biagio Ruggiero
+AuthorWebSite: https://nessunozero.github.io/
+SourceCode: https://github.com/NessunoZero/speedy_launcher
+IssueTracker: https://github.com/NessunoZero/speedy_launcher/issues
+Changelog: https://github.com/NessunoZero/speedy_launcher/releases
+
+AutoName: Speedy Launcher
+
+MaintainerNotes:
+  AppAdded: 2023-01-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/NessunoZero/speedy_launcher/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  Status:
+    - 2024-02-22 last release 1/2023, last commit 1/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: b89909f255aa01ddadf7d16b1370d24ea64e9a0dc76ca2bc5bf96b75276abbab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

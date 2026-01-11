@@ -1,0 +1,26 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Hèctor Godoy
+SourceCode: https://github.com/hegocre/ScoreCounter
+IssueTracker: https://github.com/hegocre/ScoreCounter/issues
+Changelog: https://github.com/hegocre/ScoreCounter/releases
+
+AutoName: Score Counter
+
+MaintainerNotes:
+  AppAdded: 2021-06-03
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /mobile/i
+  ApkIgnore: /wear/i
+  Fastlane: https://github.com/hegocre/ScoreCounter/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2024-12-10 last release/commit 9/2023; UCM Tags=>Static
+    - 2025-08-20 upstreaming our fastlane metadata via https://github.com/hegocre/ScoreCounter/pull/13
+
+AllowedAPKSigningKeys: f6d6f986a63fe7598b1bf291521d1c2f7baa9dc25ebf8b086f7bf9c2f756b898
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

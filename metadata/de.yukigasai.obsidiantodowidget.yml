@@ -1,0 +1,21 @@
+Categories:
+  - Office
+  - Time
+License: Apache-2.0
+AuthorName: YukiGasai
+SourceCode: https://github.com/YukiGasai/obsidian-todo-widget
+IssueTracker: https://github.com/YukiGasai/obsidian-todo-widget/issues
+
+AutoName: ObsidianTodoWidget
+
+MaintainerNotes:
+  AppAdded: 2023-09-06
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release/commit 10/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 091584d20e21d85711cc871f01d81ff444888ec52ffb6aba90ba4968acac40bb
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

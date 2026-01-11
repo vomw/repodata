@@ -1,0 +1,45 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Firebase and Google Mobile Services.
+    de: Die App enhält Bibliotheken von Firebase und Google Mobile Services.
+  NonFreeNet:
+    en-US: The app only supports the Telegram network – and reaches out to Google Servers.
+    de: Die App unterstützt nur das Telegram Netzwerk – und verbindet sich mit Google Servern.
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-05-27, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-05-27 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Messaging
+  - Internet
+License: GPL-3.0-only
+AuthorName: gohj99
+SourceCode: https://github.com/gohj99/Telewatch
+IssueTracker: https://github.com/gohj99/Telewatch/issues
+Changelog: https://github.com/gohj99/Telewatch/releases
+
+AutoName: Telewatch
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-08-31
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm\.apk/i
+  Fastlane: https://github.com/gohj99/Telewatch/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  LibIgnore:
+    - /org/acra
+  PermIgnore:
+    android.permission.WRITE_EXTERNAL_STORAGE: to store attachments
+    android.permission.READ_EXTERNAL_STORAGE: to select files to attach
+    android.permission.REQUEST_INSTALL_PACKAGES: to allow the opt-in update checker to offer APKs for install
+  Status:
+    - 2024-11-03 scanner reports REQUEST_INSTALL_PACKAGES – https://github.com/gohj99/Telewatch/issues/14#issuecomment-2453436386
+    - 2024-12-07 update checker is now opt-in and properly explains the implications
+    - 2025-03-16 proprietery components were added (GMS, Firebase) – https://github.com/gohj99/Telewatch/issues/63
+    - 2025-07-17 repo archived 2025-05-27, UCM Tags=>None
+
+AllowedAPKSigningKeys: 84233d9b4baf6c937211a565fdb89b9b75d724652cfe0ffb205768f0f7c9844b
+
+AutoUpdateMode: Version v%v(-\d+)*
+UpdateCheckMode: None

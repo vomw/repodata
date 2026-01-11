@@ -1,0 +1,38 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: LooKeR
+AuthorEmail: mohit2002ss@gmail.com
+WebSite: https://droidify.app/
+SourceCode: https://github.com/Droid-ify/client
+IssueTracker: https://github.com/Droid-ify/client/issues
+Changelog: https://github.com/Droid-ify/client/releases
+
+AutoName: Droid-ify
+
+MaintainerNotes:
+  AppAdded: 2021-10-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Droid-ify/client/tree/main/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  Note: Fastlane screenshots are framed
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/rfp/-/issues/1875#note_705569826
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to install/update apps
+    android.permission.REQUEST_DELETE_PACKAGES: needed to delete apps
+    android.permission.QUERY_ALL_PACKAGES: needed to show apps for deletion and to check for updates
+  NameSpaces:
+    - /com/looker/core
+    - /com/looker/core_common
+    - /com/looker/core_datastore
+    - /com/looker/core_model
+    - /com/looker/feature_settings
+    - /com/looker/installer
+    - /com/looker/network
+
+AllowedAPKSigningKeys: ed8859c55af311162658b94af982b9f091dcd27628d4de3486d1217ebf3c9935
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

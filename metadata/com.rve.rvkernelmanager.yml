@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Radika
+AuthorEmail: rve27github@gmail.com
+SourceCode: https://github.com/Rve27/RvKernel-Manager
+IssueTracker: https://github.com/Rve27/RvKernel-Manager/issues
+
+AutoName: RvKernel Manager
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2025-07-21
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /debug/i
+  Fastlane: https://github.com/Rve27/RvKernel-Manager/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: e1332cf95e5e27a58800363acb9dc7c38ba4aeb9356f96277c8d1bab3158abd0
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

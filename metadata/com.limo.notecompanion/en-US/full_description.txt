@@ -1,0 +1,1 @@
+<p>This is a FOSS app aimed at students who cant take proper notes in schook because most note taking apps dont support equations etc.</p><p>The app was developed based on my own experiences in school.</p>

@@ -1,0 +1,36 @@
+Categories:
+  - Navigation
+License: Apache-2.0
+AuthorName: CoMaps
+AuthorEmail: apk@comaps.app
+AuthorWebSite: https://www.comaps.app/
+WebSite: https://www.comaps.app/
+SourceCode: https://codeberg.org/comaps/comaps
+IssueTracker: https://codeberg.org/comaps/comaps/issues
+Changelog: https://codeberg.org/comaps/comaps/releases
+Liberapay: CoMaps
+OpenCollective: comaps
+
+AutoName: CoMaps
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-09-03
+  Method: codeberg-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /app/organicmaps
+  Note: uses Triple-T
+  LibIgnore:
+    - /com/google/android/gms
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed for navigation and showing the current position
+    android.permission.ACCESS_FINE_LOCATION: needed for navigation and showing the current position
+    android.permission.READ_EXTERNAL_STORAGE: needed to work around a bug in Android 5 SAF implementation
+  Status:
+    - 2026-01-09 https://codeberg.org/comaps/comaps/issues/2473 is open for migration from Triple-T to Fastlane, https://codeberg.org/comaps/comaps/issues/89 for RBs
+
+AllowedAPKSigningKeys: 4894e8e6963627ef660031d8593fe77297f835acb4e23810003e926135023b4c
+
+AutoUpdateMode: Version v%v.*
+UpdateCheckMode: Tags

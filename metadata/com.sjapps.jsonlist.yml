@@ -1,0 +1,28 @@
+Categories:
+  - Development
+License: MIT
+AuthorName: SlaVcE
+SourceCode: https://github.com/SlaVcE14/JsonList
+IssueTracker: https://github.com/SlaVcE14/JsonList/issues
+Changelog: https://github.com/SlaVcE14/JsonList/releases
+
+AutoName: Json List
+
+MaintainerNotes:
+  AppAdded: 2024-03-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SlaVcE14/JsonList/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/sj14apps/jsonlist
+    - /com/sjapps/about
+    - /com/sjapps/adapters
+    - /com/sjapps/logs
+  DoubleList: keep
+
+AllowedAPKSigningKeys: ed06ad40b2d338ca8e47420a4b529e6d38569a14a3215f1d47f9575b3470e335
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

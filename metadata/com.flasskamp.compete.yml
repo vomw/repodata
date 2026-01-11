@@ -1,0 +1,27 @@
+Categories:
+  - Sports & Health
+License: AGPL-3.0-only
+AuthorName: Christian Flaßkamp
+AuthorEmail: compete@flasskamp.com
+SourceCode: https://codeberg.org/epinez/Compete
+IssueTracker: https://codeberg.org/epinez/Compete/issues
+Changelog: https://codeberg.org/epinez/Compete/releases
+Liberapay: epinez
+Bitcoin: 35DcbAwi66LDyvxfpmvxVrM7nYrrZVC59k
+
+AutoName: Compete
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-08-06
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  ApkIgnore: /x86/i
+  Fastlane: https://codeberg.org/epinez/Compete/src/branch/main/app/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: a2fdf47278740e26baad8a1dce96cd75b94fa25f9ba17014167d6c2d9ea512a8
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

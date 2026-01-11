@@ -1,0 +1,43 @@
+AntiFeatures:
+  NonFreeAssets:
+    en-US: The app includes graphical assets which are not libre.
+    de: Die App enthält unfreie Grafik-Assets.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Matthias Urhahn
+AuthorEmail: support@darken.eu
+AuthorWebSite: https://darken.eu/
+WebSite: https://github.com/d4rken-org/sdmaid-se/wiki
+SourceCode: https://github.com/d4rken-org/sdmaid-se
+IssueTracker: https://github.com/d4rken-org/sdmaid-se/issues
+Translation: https://crowdin.com/project/sdmaid-se
+Changelog: https://github.com/d4rken-org/sdmaid-se/releases
+
+AutoName: SD Maid SE
+
+MaintainerNotes:
+  AppAdded: 2023-03-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,icon,screenshots
+  FastlaneIgnore: changelogs
+  Note: fulldesc lacks some linebreaks (https://github.com/d4rken-org/sdmaid-se/issues/1962), changelogs only have default.txt
+  DoubleList: keep
+  NameSpaces:
+    - /eu/darken/flowshell
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: As declared in the app description, "optional features that utilize the AccessibilityService API to automate tedious actions"
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed for the app’s purpose is to cleanup storage
+    android.permission.READ_EXTERNAL_STORAGE: needed for compatibility on Android 9 and below
+    android.permission.QUERY_ALL_PACKAGES: needed to identify app-specific files.
+    android.permission.REQUEST_DELETE_PACKAGES: needed for the app’s AppControl feature (to uninstall apps specified).
+  Status:
+    - 2024-01-25 reached out for clarification on READ_INTERNAL_STORAGE at https://github.com/d4rken-org/sdmaid-se/issues/956
+  X-AutoUpdateMode: Version v%v betas tagged rc
+
+AllowedAPKSigningKeys: f490032be5383f55900495fa7fc207ece2e786a5c2c6cc52027b99548a9ce938
+
+UpdateCheckMode: Tags

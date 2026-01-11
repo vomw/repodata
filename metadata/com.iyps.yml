@@ -1,0 +1,25 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: StellarSand
+AuthorEmail: lostboygarg@gmail.com
+SourceCode: https://github.com/StellarSand/IYPS
+IssueTracker: https://github.com/StellarSand/IYPS/issues
+Changelog: https://github.com/StellarSand/IYPS/releases
+
+AutoName: IYPS- Is Your Password Secure?
+
+MaintainerNotes:
+  AppAdded: 2022-01-24
+  AppRemoved: 2022-06-20 reached F-Droid 2022-06-09
+  AddedBack: 2025-03-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/StellarSand/IYPS/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 4b5b907ed2bd44aa083a2ef86e1878250bcc33e44cdb6fc3b02b241990bc3b44
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

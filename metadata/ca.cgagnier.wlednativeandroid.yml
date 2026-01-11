@@ -1,0 +1,29 @@
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: Christophe Gagnier
+AuthorEmail: christopheextensions@gmail.com
+AuthorWebSite: https://www.cgagnier.ca/
+SourceCode: https://github.com/Moustachauve/WLED-Android
+IssueTracker: https://github.com/Moustachauve/WLED-Android/issues
+Changelog: https://github.com/Moustachauve/WLED-Android/releases
+
+AutoName: WLED - Native
+
+MaintainerNotes:
+  AppAdded: 2023-06-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Moustachauve/WLED-Android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: required to communicate with WLED devices
+  X-AutoUpdateMode: Version v%v
+  Status:
+    - 2025-12-15 v6.0.0 ships APK signed with a different key (signed by Google), UCM Tags=>Static until solved; https://github.com/Moustachauve/WLED-Android/issues/63
+    - 2025-12-17 fixed, UCM back to Tags
+
+AllowedAPKSigningKeys: 76cebbed536ddcef068414303de39d2eabeed919660e7197c3de6d2b033fd7ff
+
+UpdateCheckMode: Tags

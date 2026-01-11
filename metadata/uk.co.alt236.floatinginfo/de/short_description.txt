@@ -1,0 +1,1 @@
+schwebende Infos zur CPU- und Speicherauslastung

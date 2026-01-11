@@ -1,0 +1,25 @@
+AntiFeatures:
+  NonFreeDep:
+    en-US: This app requires the presence of the Google app.
+    de: Die App benötigt das Vorhandensein der Google App.
+Categories:
+  - Weather
+License: MIT
+AuthorName: Kaiserdragon2
+SourceCode: https://github.com/Kaiserdragon2/WeatherShortcut
+IssueTracker: https://github.com/Kaiserdragon2/WeatherShortcut/issues
+Changelog: https://github.com/Kaiserdragon2/WeatherShortcut/releases
+
+AutoName: Weather Shortcut
+
+MaintainerNotes:
+  AppAdded: 2023-11-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Kaiserdragon2/WeatherShortcut/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: a0cfa0d1a00b9887a1701a693bdc3c2a8e84d39d8e3a98d681bd3468cb81a4db
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,31 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: MLM Games
+AuthorEmail: mlm.gamestudio@gmail.com
+AuthorWebSite: https://ragebreaker.itch.io/
+SourceCode: https://github.com/mlm-games/Fluffy
+IssueTracker: https://github.com/mlm-games/Fluffy/issues
+Changelog: https://github.com/mlm-games/Fluffy/releases
+
+AutoName: Fluffy
+
+MaintainerNotes:
+  AppAdded: 2025-08-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /universal/i
+  Fastlane: https://github.com/mlm-games/Fluffy/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneIgnore: video
+  Note: video.txt empty
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: to allow installing APK files from storage
+    android.permission.READ_EXTERNAL_STORAGE: needed for a file manager
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed for a file manager
+
+AllowedAPKSigningKeys: 4aed2f691df64a7b0fea25a6b8c80183c6dc520e049dac0178defa1d6472228f
+
+VercodeOperation: '%c -1'
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

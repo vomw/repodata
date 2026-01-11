@@ -1,0 +1,24 @@
+Categories:
+  - Xposed
+  - System
+License: GPL-3.0-only
+AuthorName: DanGLES3
+SourceCode: https://github.com/Xposed-Modules-Repo/com.github.dan.nostoragerestrict
+IssueTracker: https://github.com/Xposed-Modules-Repo/com.github.dan.nostoragerestrict/issues
+
+AutoName: NoStorageRestrict
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-04-07
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-12-21 signing key changed, see https://github.com/Xposed-Modules-Repo/com.github.dan.nostoragerestrict/issues/11 – UCM Tags=>Static for now
+    - 2024-01-01 re-enabled regular updates and switched to the new key
+    - 2025-06-27 last commit/release 2024-02-12; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 551353d4e096d5d117fc322dbfed42c5ae7c8f26ac1009a13edc0f39f80b4c8c
+
+AutoUpdateMode: Version %c-.*
+UpdateCheckMode: Static

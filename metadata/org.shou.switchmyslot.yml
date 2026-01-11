@@ -1,0 +1,25 @@
+Categories:
+  - System
+License: MIT
+AuthorName: gibcheesepuffs
+AuthorWebSite: https://linktr.ee/shoukolate
+SourceCode: https://github.com/likeadragonmaid/Switch-My-Slot-Android
+IssueTracker: https://github.com/likeadragonmaid/Switch-My-Slot-Android/issues
+Changelog: https://github.com/likeadragonmaid/Switch-My-Slot-Android/releases
+
+AutoName: Switch My Slot
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2021-04-08
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-11-07 last release 5/2021, last commit 5/2021; switch from Tags to static
+    - 2023-08-08 last release 5/2021, last commit 5/2021, author still active
+    - 2026-01-11 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: 74461f50779f08d69e00165b35a5d041db317d44742428f6af4e711b09c75247
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

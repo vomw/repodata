@@ -1,0 +1,1 @@
+recognize, parse verification code from SMS and copy it to clipboard

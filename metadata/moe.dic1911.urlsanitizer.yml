@@ -1,0 +1,28 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: dic1911
+AuthorEmail: d69873@gmail.com
+AuthorWebSite: https://dic1911.github.io/
+SourceCode: https://github.com/dic1911/android_URLSanitizer
+IssueTracker: https://github.com/dic1911/android_URLSanitizer/issues
+Changelog: https://github.com/dic1911/android_URLSanitizer/releases
+
+AutoName: URLSanitizer
+
+MaintainerNotes:
+  AppAdded: 2020-09-27
+  AppRemoved: 2021-02-07 moved to F-Droid
+  AddedBack: 2025-03-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dic1911/android_URLSanitizer/tree/reboot/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  FlagIgnore:
+    usesCleartextTraffic: the app needs to access all URLs for cleaning
+
+AllowedAPKSigningKeys: 10f908c76ee29de227c0073f6c6e4bcde728b5d485047df71b7147df54020012
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

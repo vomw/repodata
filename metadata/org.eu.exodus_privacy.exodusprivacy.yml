@@ -1,0 +1,31 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: The app is bound to the Exodus service.
+    de: Die App benötigt den Exodus Service.
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Exodus Privacy
+AuthorEmail: contact@exodus-privacy.eu.org
+AuthorWebSite: https://exodus-privacy.eu.org/
+WebSite: https://exodus-privacy.eu.org/
+SourceCode: https://github.com/Exodus-Privacy/exodus-android-app
+IssueTracker: https://github.com/Exodus-Privacy/exodus-android-app/issues
+Translation: https://crowdin.com/project/exodus-android-app
+Changelog: https://github.com/Exodus-Privacy/exodus-android-app/releases
+
+AutoName: Exodus
+
+MaintainerNotes:
+  AppAdded: 2024-11-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Exodus-Privacy/exodus-android-app/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/665
+
+AllowedAPKSigningKeys: c9a406bd8e614c72bbdd242d56795f7a5ce13c0cf14bac22aec98030a71be486
+
+AutoUpdateMode: Version release-v%v
+UpdateCheckMode: Tags

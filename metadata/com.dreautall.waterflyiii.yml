@@ -1,0 +1,32 @@
+Categories:
+  - Money
+License: MIT
+AuthorName: dreautall
+AuthorEmail: app@vogt.pw
+SourceCode: https://github.com/dreautall/waterfly-iii
+IssueTracker: https://github.com/dreautall/waterfly-iii/issues
+Changelog: https://github.com/dreautall/waterfly-iii/releases
+
+AutoName: Waterfly III
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-05-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/dreautall/waterfly-iii/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  FlagIgnore:
+    usesCleartextTraffic: to access self-hosted Firefly III instances in the local network
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to access downloaded files to be attached to a record
+  Status:
+    - 2024-01-31 scanner reports READ_EXTERNAL_STORAGE READ_MEDIA_IMAGES READ_MEDIA_VIDEO READ_MEDIA_AUDIO – https://github.com/dreautall/waterfly-iii/issues/295
+    - 2024-06-01 permissions for media storage have been removed, but now usesCleartextTraffic is reported
+
+AllowedAPKSigningKeys: b3b639d89f1bf02d4d9f9adc08bf60f792cebc36bfc13d81311a7413e7c867dc
+
+VercodeOperation: '(%c -3) / 10'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

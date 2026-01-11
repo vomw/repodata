@@ -1,0 +1,1 @@
+offers a speech-to-text service to Kõnele

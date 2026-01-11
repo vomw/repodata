@@ -1,0 +1,26 @@
+Categories:
+  - Money
+License: Apache-2.0
+AuthorName: Tuhin Kanti Pal
+AuthorEmail: me@thetuhin.com
+AuthorWebSite: https://thetuhin.com/
+SourceCode: https://github.com/tuhinpal/cash_compass
+IssueTracker: https://github.com/tuhinpal/cash_compass/issues
+Changelog: https://github.com/tuhinpal/cash_compass/releases
+
+AutoName: CashCompass
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-03-16
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/example/cash_compass
+  Status:
+    - 2025-03-23 last release/commit 2024-03-17; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 1a5cde00fec1bdb2ecc29feb8716f502b22c4610698c2bfb7f17865f0e66ba07
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

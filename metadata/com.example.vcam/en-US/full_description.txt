@@ -1,0 +1,1 @@
+<p><i>VirtualCamera</i> allows you to to create a virtual camera interface on your phone and attach it to different apps. It requires the Xposed framework to be present on your device.</p><p>The module allows you to use a video file on your device, and have apps believe it is a camera. The app can then „take photos“ or „record videos“ from that input.</p>

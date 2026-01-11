@@ -1,0 +1,30 @@
+Categories:
+  - Security
+License: ISC
+AuthorName: Lennart Heinrich
+AuthorEmail: lennart@ltheinrich.de
+AuthorWebSite: https://ltheinrich.de/
+WebSite: https://etopa.de/
+SourceCode: https://github.com/ltheinrich/etopa
+IssueTracker: https://github.com/ltheinrich/etopa/issues
+Changelog: https://github.com/ltheinrich/etopa/releases
+
+AutoName: Etopa 2FA
+
+MaintainerNotes:
+  AppAdded: 2021-02-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ltheinrich/etopa/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.CAMERA: needed for the QR Code scanner
+  Status:
+    - 2025-06-27 last release 2024-04-01; UCM Tags=>Static
+    - 2025-08-19 upstreaming our fastlane metadata via https://github.com/ltheinrich/etopa/pull/197
+
+AllowedAPKSigningKeys: 3905805fef6d4e816eec132af9b720f68ee5205ec98aa3be46b31f87e4192ccb
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

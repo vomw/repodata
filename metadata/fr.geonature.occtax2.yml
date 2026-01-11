@@ -1,0 +1,34 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: SI des parcs nationaux français
+SourceCode: https://github.com/PnX-SI/gn_mobile_occtax
+IssueTracker: https://github.com/PnX-SI/gn_mobile_occtax/issues
+Changelog: https://github.com/PnX-SI/gn_mobile_occtax/releases
+
+AutoName: Occtax
+
+MaintainerNotes:
+  AppAdded: 2022-06-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/PnX-SI/gn_mobile_occtax/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to record the location of observance
+    android.permission.ACCESS_FINE_LOCATION: needed to record the location of observance
+    android.permission.READ_EXTERNAL_STORAGE: used by the maps module to search for map data
+    android.permission.MANAGE_EXTERNAL_STORAGE: used by the maps module to search for map data
+    android.permission.REQUEST_INSTALL_PACKAGES: needed for updates by some GeoNature instances
+  NameSpaces:
+    - /fr/geonature/occtax
+  Status:
+    - 2022-06-16 added here as RFP is still stuck; already asked what to do once it arrives at F-Droid https://github.com/PnX-SI/gn_mobile_occtax/issues/134#issuecomment-1157924997
+    - 2024-01-08 uses debug certificate https://github.com/PnX-SI/gn_mobile_occtax/issues/244
+    - 2024-03-02 scanner reports DEPENDENCY_INFO_BLOCK android.permission.REQUEST_INSTALL_PACKAGES ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE – https://github.com/PnX-SI/gn_mobile_occtax/issues/244#issuecomment-1974910555
+    - 2024-09-01 final switch over from AASK 5b04007d16c61b58a628cebff633af71c7d3f23a1c53bd2ea514535d45c52513 (new key established with key rotation more than a month ago)
+
+AllowedAPKSigningKeys: f6a52a44a7bd1929be8a419cebbc7f1fc8b71e72a7c76709aeafc1bca92e4b9b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

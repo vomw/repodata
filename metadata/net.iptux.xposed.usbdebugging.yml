@@ -1,0 +1,25 @@
+Categories:
+  - Xposed
+  - System
+  - Security
+License: GPL-3.0-only
+AuthorName: Tommy Alex
+AuthorEmail: iptux7@gmail.com
+SourceCode: https://github.com/iptux/UsbDebugging-xposed
+IssueTracker: https://github.com/iptux/UsbDebugging-xposed/issues
+Changelog: https://github.com/iptux/UsbDebugging-xposed/releases
+
+AutoName: USB Debugging
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-04-08
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-11-21 last commit/release 9/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 9e8f12a5ca894bd3a0056d946e80ec8576f29f88561fc826b39bb17a7bd814aa
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Angel Sanadinov
+SourceCode: https://github.com/sndnv/stasis
+IssueTracker: https://github.com/sndnv/stasis/issues
+Changelog: https://github.com/sndnv/stasis/releases
+
+AutoName: stasis
+
+MaintainerNotes:
+  AppAdded: 2023-10-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sndnv/stasis/tree/master/client-android/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /stasis/client_android
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to access files to back up
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to access files to back up and restore
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to access files to restore
+  Status:
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/sndnv/stasis/pull/66
+
+AllowedAPKSigningKeys: d8220a5c188c4864fe23ae1f5f78b7dc9df2d53fa18bc2f7ac020549bff3a2c8
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

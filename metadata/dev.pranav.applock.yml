@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: MIT
+AuthorName: PranavPurwar
+AuthorEmail: purwarpranav80@gmail.com
+SourceCode: https://github.com/PranavPurwar/AppLock
+IssueTracker: https://github.com/PranavPurwar/AppLock/issues
+Changelog: https://github.com/PranavPurwar/AppLock/releases
+Donate: https://paypal.me/pranavpurwar
+
+AutoName: App Lock
+
+MaintainerNotes:
+  AppAdded: 2025-06-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/PranavPurwar/AppLock/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: to detect when an app is launched
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to list apps for locking
+    android.permission.SYSTEM_ALERT_WINDOW: to start activities from background
+  Status:
+    - 2025-07-15 AccessibilityService SYSTEM_ALERT_WINDOW https://github.com/PranavPurwar/AppLock/issues/15#issuecomment-3075791914
+
+AllowedAPKSigningKeys: af7f36023c6a7750847252e5d4d14a992b621364600705e1d8b0fe44d1ac8c81
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

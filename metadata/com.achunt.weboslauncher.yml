@@ -1,0 +1,26 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: achunt2143
+SourceCode: https://github.com/achunt2143/W-Launcher
+IssueTracker: https://github.com/achunt2143/W-Launcher/issues
+Changelog: https://github.com/achunt2143/W-Launcher/releases
+
+AutoName: W Launcher
+
+MaintainerNotes:
+  AppAdded: 2023-02-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/achunt2143/W-Launcher/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshotsJPG
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to get the installed apps for the app drawer and launcher
+  X-AutoUpdateMode: Version v%v need to wait for proper versioning/tagging
+  Status:
+    - 2024-09-07 APK at tag v2.3.4 identifies as v2.3.3 and hence downloads daily; UCM Tags=>Static until solved, see https://github.com/achunt2143/W-Launcher/issues/13
+
+AllowedAPKSigningKeys: b0528772a96e6f4d5f3aeced62fa91e8f8348b55e0e9d8060b2626dd916e86dd
+
+UpdateCheckMode: Tags

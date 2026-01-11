@@ -1,0 +1,26 @@
+Categories:
+  - Weather
+License: GPL-3.0-or-later
+AuthorName: David Takač
+AuthorEmail: david.takac@mailbox.org
+AuthorWebSite: https://davidtakac.github.io/
+SourceCode: https://github.com/davidtakac/bura
+IssueTracker: https://github.com/davidtakac/bura/issues
+Changelog: https://github.com/davidtakac/bura/releases
+
+AutoName: Bura
+
+MaintainerNotes:
+  AppAdded: 2024-03-30
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/davidtakac/bura/blob/dev/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  Status:
+    - 2024-06-15 app reached F-Droid 2024-05-17 but still carries our badge. Taking this as wish to keep it here then.
+
+AllowedAPKSigningKeys: 76c20914d1910058f183abbbf48036031a49f8a87d77bb9ac9bc715f468fe468
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,23 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: David R
+SourceCode: https://github.com/Xcreen/RestSMS
+IssueTracker: https://github.com/Xcreen/RestSMS/issues
+Changelog: https://github.com/Xcreen/RestSMS/releases
+
+AutoName: RestSMS
+
+MaintainerNotes:
+  AppAdded: 2020-10-28
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.SEND_SMS: needed for the core functionality of sending SMS
+  Status:
+    - 2025-11-13 last release/commit 12/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 388ba0a135815824c184a7fce1860ad7fc8f20173aec99e665427adb8507f4da
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

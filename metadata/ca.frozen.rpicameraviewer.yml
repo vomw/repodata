@@ -1,0 +1,23 @@
+Categories:
+  - Multimedia
+  - Connectivity
+License: MIT
+AuthorName: Frozen North Computing
+WebSite: http://www.frozen.ca/
+SourceCode: https://github.com/ShawnBaker/RPiCameraViewer
+IssueTracker: https://github.com/ShawnBaker/RPiCameraViewer/issues
+
+AutoName: RPi Camera Viewer
+
+MaintainerNotes:
+  AppAdded: 2016-11-25
+  Method: github-repo
+  GHDownloadDir: https://github.com/ShawnBaker/RPiCameraViewer/blob/master/apk
+  Status:
+    - 2020-09-19 app was not updated for 1y 8m 8d; switching UCM from NULL to Static; https://github.com/ShawnBaker/RPiCameraViewer/issues/11
+    - 2022-12-19 last commit 11/2019
+    - 2026-01-09 still no new commits, dev seemingly last active in 8/2024; disabling updates altogether now
+
+AllowedAPKSigningKeys: 779401e2d916704be4f8ee3b86f1bffcac329d546da160efeb8a9a4189e02bc3
+
+UpdateCheckMode: None

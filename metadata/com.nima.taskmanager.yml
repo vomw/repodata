@@ -1,0 +1,27 @@
+Categories:
+  - Time
+License: MIT
+AuthorName: Nima Khajehpour
+AuthorEmail: nima1038khajehpour@gmail.com
+SourceCode: https://github.com/NimaKhajehpour/TaskManager
+IssueTracker: https://github.com/NimaKhajehpour/TaskManager/issues
+
+AutoName: Task Manager
+
+MaintainerNotes:
+  AppAdded: 2023-01-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/NimaKhajehpour/TaskManager/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescNL,changelogs,icon,screenshotsJPG
+  Note: fulldesc lacks a line break – https://github.com/NimaKhajehpour/TaskManager/issues/10
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/rfp/-/issues/2335#note_1249690595
+  Status:
+    - 2023-01-23 OP wants the app to stay here once it arrives at F-Droid, see https://gitlab.com/fdroid/rfp/-/issues/2335#note_1249690595
+    - 2024-02-22 last release 1/2023, last commit 1/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 078cf684a4a79572dcced6a269b668417b2a6d0f1bb857cc1e78dce45d0b82f7
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

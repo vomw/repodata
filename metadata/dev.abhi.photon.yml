@@ -1,0 +1,34 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of GMS (Google Mobile Services) and Android Vision.
+    de: Die App enthält Bibliotheken von (Google Mobile Services) und Android Vision.
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Abhilash Hegde
+SourceCode: https://github.com/abhi16180/photon
+IssueTracker: https://github.com/abhi16180/photon/issues
+Changelog: https://github.com/abhi16180/photon/releases
+
+AutoName: photon
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-08-18
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /ARM64/i
+  Fastlane: https://github.com/abhi16180/photon/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: for the integrated barcode scanner
+    android.permission.QUERY_ALL_PACKAGES: needed to support the apk share feature
+  Status:
+    - 2025-01-06 v3.0.0 added proprietary components (Android Vision, GMS); had to raise NonFreeComp – https://github.com/abhi16180/photon/issues/144
+    - 2025-01-06 android.permission.READ_EXTERNAL_STORAGE QUERY_ALL_PACKAGES CAMERA android.permission.REQUEST_DELETE_PACKAGES DEPENDENCY_INFO_BLOCK
+    - 2025-10-03 upstreaming our fastlane metadata via https://github.com/abhi16180/photon/pull/149
+
+AllowedAPKSigningKeys: ee28c1ade204e197bddd2bbedf9f605f194e9393356daccefcbca78867fb7e0b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,30 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Leonidius20
+SourceCode: https://github.com/Leonidius20/RecordingStudio
+IssueTracker: https://github.com/Leonidius20/RecordingStudio/issues
+Changelog: https://github.com/Leonidius20/RecordingStudio/releases
+
+AutoName: Recording Studio Lite
+
+MaintainerNotes:
+  AppAdded: 2024-08-22
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /lite/i
+  NameSpaces:
+    - /io/github/leonidius20/recorder
+  PermIgnore:
+    android.permission.RECORD_AUDIO: required to record audio
+    android.permission.READ_EXTERNAL_STORAGE: to access the recordings on-device
+    android.permission.WRITE_EXTERNAL_STORAGE: to save the recordings to storage
+    android.permission.READ_PHONE_STATE: when enabled in app settings, used to detect incoming phone calls and pause the recording
+  DoubleList: keep
+  Status:
+    - 2025-11-13 last release/commit 10/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 119dc8e6c1ab5c87b23286c7e3d89b4b2b311d099a887c4058cba1c81a947636
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

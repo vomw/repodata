@@ -1,0 +1,28 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-09-17, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-09-17 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: Yang Dai
+SourceCode: https://github.com/YangDai2003/OpenNote-Compose
+IssueTracker: https://github.com/YangDai2003/OpenNote-Compose/issues
+Changelog: https://github.com/YangDai2003/OpenNote-Compose/releases
+
+AutoName: 'Open Note: Markdown Editor'
+
+MaintainerNotes:
+  AppAdded: 2025-02-08
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /universal/i
+  PermIgnore:
+    android.permission.INTERNET: to allow adding links to videos and images from the web
+  Status:
+    - 2025-09-19 upstream repo archived 2025-09-17
+
+AllowedAPKSigningKeys: a349f331542e460c4c7a15d2e1918c07dbb66d5745b77d7282b3fb64855bf066
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

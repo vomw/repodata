@@ -1,0 +1,34 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+Categories:
+  - Development
+License: GPL-3.0-or-later
+AuthorName: Vivek Kumar Sahani
+AuthorEmail: itsvks19@gmail.com
+SourceCode: https://github.com/itsvks19/LayoutEditor
+IssueTracker: https://github.com/itsvks19/LayoutEditor/issues
+Changelog: https://github.com/itsvks19/LayoutEditor/releases
+
+AutoName: Layout Editor
+
+MaintainerNotes:
+  AppAdded: 2022-11-20
+  Method: github-release
+  GHSkipPre: 0
+  Fastlane: https://github.com/itsvks19/LayoutEditor/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: used to import media
+    android.permission.READ_MEDIA_IMAGES: used to import media
+  Status:
+    - 2024-07-23 Github repo was removed
+    - 2025-05-15 seems to be continued as com.itsvks.layouteditorx at https://github.com/itsvks19/LayoutEditorX – but last commit there was 9/2024. Asked at https://github.com/itsvks19/LayoutEditorX/issues/2
+    - 2025-05-16 author re-established the source repo, removing NoSourceSince (no releases there, hence UCM None)
+
+AllowedAPKSigningKeys: 46360bb586fa97088d0f0e9d78ff2c7ab1866409d1bdf0154f88df9066e1a9fd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

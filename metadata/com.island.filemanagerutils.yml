@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Riccardo Isola
+AuthorEmail: riky.isola@gmail.com
+AuthorWebSite: https://rikyisola.github.io/
+SourceCode: https://github.com/rikyiso01/FileManagerUtils
+IssueTracker: https://github.com/rikyiso01/FileManagerUtils/issues
+Changelog: https://github.com/rikyiso01/FileManagerUtils/releases
+
+AutoName: FileManagerUtils
+
+MaintainerNotes:
+  AppAdded: 2021-02-04
+  Method: github-release
+  GHSkipPre: 0
+  Fastlane: https://github.com/rikyiso01/FileManagerUtils/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshotsJPG
+  FastlaneIgnore: featureGraphic
+  Note: featureGraphic is a square
+  Status:
+    - 2022-05-02 no commits since 5/2021, switching UCM from Tags to Static
+    - 2023-08-07 last pre-release 2/2021, last commit 5/2021
+
+AllowedAPKSigningKeys: 2b909517d0ef5208387b4d66a3d3df96f4d5e7b4cfef1a39eb76bca337ba9cfb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,43 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services and Google Cast.
+    de: Die App enthält Bibliotheken von Google Mobile Services und Google Cast.
+  NonFreeDep:
+    en-US: The app includes the Notifee library, which depends on Firebase.
+    de: Die App enthält die Notifee Bibliothek, welche von Firebase abhängt.
+  NonFreeNet:
+    en-US: The app connects to Google servers (Firebase).
+    de: Die App verbindet sich zu Google servers (Firebase).
+Categories:
+  - Multimedia
+License: MPL-2.0
+AuthorName: henniaufmrenni
+AuthorWebSite: https://eindm.de/
+WebSite: https://eindm.de/boum
+SourceCode: https://github.com/henniaufmrenni/boum
+IssueTracker: https://github.com/henniaufmrenni/boum/issues
+Changelog: https://github.com/henniaufmrenni/boum/releases
+
+AutoName: boum
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-10-21
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /arm64/i
+  Fastlane: https://github.com/henniaufmrenni/boum/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescNL,screenshots
+  FastlaneIgnore: changelogs
+  Note: fulldesc misformatted (lacks line breaks, li without ul, …) and is called ' full_description.txt'; changelogs just contain a link to the tag
+  LibIgnore:
+    - /just_depends_on_other_included_lib
+    - /com/reactnative/googlecast
+  Status:
+    - 2024-02-22 last release 1/2023, last commit 1/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 97b6c74a9ce4a90dcf81aacc1ae79239af3e3a442edbdeabdfb572cbd29af62b
+
+VercodeOperation: '(%c -1) / 1000'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

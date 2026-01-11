@@ -1,0 +1,37 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app uses Bugsnag which is enabled by default.
+    de: Die App verwendet Bugsnag, was standardmäßig aktiviert ist.
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: Sasikanth Miriyampalli
+AuthorWebSite: https://sasikanth.dev/
+SourceCode: https://github.com/msasikanth/twine
+IssueTracker: https://github.com/msasikanth/twine/issues
+Changelog: https://github.com/msasikanth/twine/releases
+
+AutoName: Reader
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-05-23
+  Todo: 2026-01-20 check with https://github.com/msasikanth/twine/issues/1305#issuecomment-3476535903 whether we should remove the app
+  Method: github-release
+  ApkMatch: /foss/i
+  GHSkipPre: 1
+  Fastlane: https://github.com/msasikanth/twine/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed for plain http feeds
+  Status:
+    - 2025-03-16 usesCleartextTraffic DEPENDENCY_INFO_BLOCK – https://github.com/msasikanth/twine/issues/898
+    - 2025-08-19 upstreaming our fastlane metadata via https://github.com/msasikanth/twine/pull/1293
+    - 2025-09-06 v2.5.0 adds several proprietary components; rolled back the update and UCM Tags=>Static until solved, see https://github.com/msasikanth/twine/issues/1305
+    - 2025-11-01 v2.8.0 was picked up by monthly check, still having the proprietary components; disabled updates entirely now.
+    - 2026-01-06 dev prepared foss build flavor (see https://github.com/msasikanth/twine/pull/1431/files), waiting for next release
+
+AllowedAPKSigningKeys: e04b9411c5f1201b3c0781ee23d1a8e4c5f0aa74ceb643b1f74cc5b40211cddd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

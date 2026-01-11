@@ -1,0 +1,35 @@
+Categories:
+  - Navigation
+License: AGPL-3.0-or-later
+AuthorName: Irfan Latif
+AuthorEmail: mirfatif.dev@gmail.com
+SourceCode: https://github.com/mirfatif/MyLocation
+IssueTracker: https://github.com/mirfatif/MyLocation/issues
+Translation: https://crowdin.com/project/my-location
+Changelog: https://github.com/mirfatif/MyLocation/releases
+Donate: https://www.buymeacoffee.com/mirfatif
+Bitcoin: 18ijfsv5fcDKQ6CTe4wycKxZMmti4oUXjW
+
+AutoName: My Location
+
+MaintainerNotes:
+  AppAdded: 2021-07-16
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss\.apk$/i
+  ApkIgnore: /pro\.apk$/i
+  Fastlane: https://github.com/mirfatif/MyLocation/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed to show your GPS location
+    android.permission.ACCESS_COARSE_LOCATION: needed to show your network location
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/9722#note_675305291
+  Status:
+    - 2022-11-07 no release since 9/2021, last code commit 9/2021; switch from Tags to Static
+    - 2025-10-23 foss releases will be rare now, see https://github.com/mirfatif/MyLocation/issues/24#issuecomment-3434803214
+
+AllowedAPKSigningKeys: bdbfe066ec25a7f30e29bfaf268ec0ad8f79ea002cc1ee3db09fde40197d3135
+
+AutoUpdateMode: Version %v-foss
+UpdateCheckMode: Tags

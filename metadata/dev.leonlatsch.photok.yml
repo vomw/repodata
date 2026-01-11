@@ -1,0 +1,27 @@
+Categories:
+  - Multimedia
+  - Security
+License: Apache-2.0
+AuthorName: Leon Latsch
+AuthorEmail: dev.leonlatsch@gmail.com
+AuthorWebSite: https://leonlatsch.dev/
+SourceCode: https://github.com/leonlatsch/Photok
+IssueTracker: https://github.com/leonlatsch/Photok/issues
+Changelog: https://github.com/leonlatsch/Photok/releases
+
+AutoName: Photok
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-11-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/leonlatsch/Photok/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/7737#note_474064949
+
+AllowedAPKSigningKeys: b704a2d2d58a37e95ab23496c39a819135b87a03b9b3f4c14d3fedcce9cc2c9a
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

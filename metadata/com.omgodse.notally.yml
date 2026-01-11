@@ -1,0 +1,24 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: Om Godse
+AuthorEmail: omgodseapps@gmail.com
+SourceCode: https://github.com/OmGodse/Notally
+IssueTracker: https://github.com/OmGodse/Notally/issues
+
+AutoName: Notally - Minimalist Notes
+
+MaintainerNotes:
+  AppAdded: 2020-05-10
+  AppRemoved: 2021-11-20 reached F-Droid
+  AddedBack: 2025-03-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/OmGodse/Notally/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 8048268f9dcbd186538a831cfdb212f14f2e6200828844fe60f730305ae1385e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

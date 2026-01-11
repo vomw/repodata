@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Xiaomi servers.
+    de: Die App nutzt Verbindungen zu Servern von Xiaomi.
+  SourceArchived:
+    en-US: Upstream repo was archived 2023-07-05, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2023-07-05 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: Keddnyo
+SourceCode: https://github.com/Keddnyo/MiDoze
+IssueTracker: https://github.com/Keddnyo/MiDoze/issues
+Changelog: https://github.com/Keddnyo/MiDoze/releases
+
+AutoName: MiDoze
+
+MaintainerNotes:
+  AppAdded: 2022-07-07
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-07-05 repo was archived, disabling updates
+
+AllowedAPKSigningKeys: dde207ee1a26a4aa1eff4cfa925c7c42144e4b0a17f828bfb3fc58934a50b99e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains Google BillingClient.
+    de: Die App enthält den Google BillingClient.
+  NonFreeNet:
+    en-US: The app connects to Goggle servers (billing).
+    de: Die App baut Verbindungen zu Google Servern auf (Billing).
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: BJ Owings
+AuthorEmail: bj@gallantrealm.com
+AuthorWebSite: https://bjowings.weebly.com/
+WebSite: https://bjowings.weebly.com/modsynth.html
+SourceCode: https://github.com/owingsbj/ModSynth
+IssueTracker: https://github.com/owingsbj/ModSynth/issues
+
+AutoName: ModSynth Modular Synthesizer
+
+MaintainerNotes:
+  AppAdded: 2021-10-16
+  Method: none
+  GHSkipPre: 1
+  GHDownloadDir: https://github.com/owingsbj/ModSynth/blob/master/app/release
+  ManualHint: APKs are gone, see https://github.com/owingsbj/ModSynth/issues/38
+  Status:
+    - 2021-10-26 APKs are gone, asked at https://github.com/owingsbj/ModSynth/issues/38
+    - 2022-07-07 sent a reminder as there was no reply
+    - 2022-07-07 still no reply on the issue, disabling updates and marking it accordingly
+    - 2022-11-08 author responded having retired from developing Android apps
+    - 2025-08-07 Playstore has a new release (v8.0) from 10/2024, pinged the dev once more
+
+AllowedAPKSigningKeys: fece7007e341e9e39a16177c72521d85fae1a8c0d38e15188f593f9c3ef46dee
+
+UpdateCheckMode: None

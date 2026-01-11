@@ -1,0 +1,21 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: Michael Umfahrer
+AuthorWebSite: https://umfahrer.dev/
+SourceCode: https://github.com/Umfi/vocabulary-trainer
+IssueTracker: https://github.com/Umfi/vocabulary-trainer/issues
+
+AutoName: Vocabulary Trainer
+
+MaintainerNotes:
+  AppAdded: 2022-11-29
+  Method: github-release
+  GHSkipPre: 1
+  X-AutoUpdateMode: Version v%v always rewrites the "latest" tag
+  Status:
+    - 2024-02-22 last release 11/2022, last commit 6/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: c0f3ca15e18f09940c84478aa2085455f679892e79b3c0c370e8943ae5fa88aa
+
+UpdateCheckMode: Static

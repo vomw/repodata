@@ -1,0 +1,1 @@
+view RTSP IP camera video streams

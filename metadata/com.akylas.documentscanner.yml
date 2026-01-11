@@ -1,0 +1,33 @@
+Categories:
+  - Office
+License: MIT
+AuthorName: Akylas
+AuthorEmail: contact@akylas.fr
+SourceCode: https://github.com/Akylas/OSS-DocumentScanner
+IssueTracker: https://github.com/Akylas/OSS-DocumentScanner/issues
+Changelog: https://github.com/Akylas/OSS-DocumentScanner/releases
+
+AutoName: OSS Document Scanner
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-12-05
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  X-oldFastlane: https://github.com/Akylas/com.akylas.documentscanner/blob/master/fastlane/metadata/android
+  Fastlane: https://github.com/Akylas/OSS-DocumentScanner/blob/master/fastlane/metadata/com.akylas.documentscanner/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: the app needs access to the camera to scan documents
+    android.permission.READ_EXTERNAL_STORAGE: needed to scan from saved images
+  Status:
+    - 2024-01-20 scanner reports CAMERA, READ_MEDIA_IMAGES, READ_EXTERNAL_STORAGE and READ_PHONE_STATE. The first 2 are clear and added to the allow-list. Asked for the others https://github.com/Akylas/OSS-DocumentScanner/issues/93
+    - 2025-01-07 1.5.5.32 adds GMS + Billing  – https://github.com/Akylas/OSS-DocumentScanner/issues/388
+    - 2025-01-08 1.13.7.113 fixed it again, AFs removed
+    - 2025-07-19 sent de locale upstream via https://github.com/Akylas/OSS-DocumentScanner/pull/480
+
+AllowedAPKSigningKeys: 0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871
+
+AutoUpdateMode: Version ^com.akylas.documentscanner/android/github/[^/]+/%c$
+UpdateCheckMode: Tags

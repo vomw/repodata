@@ -1,0 +1,33 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: bmax121
+AuthorEmail: nullret@outlook.com
+WebSite: https://apatch.top/
+SourceCode: https://github.com/bmax121/APatch
+IssueTracker: https://github.com/bmax121/APatch/issues
+Translation: https://hosted.weblate.org/engage/APatch/
+Changelog: https://github.com/bmax121/APatch/releases
+
+AutoName: APatch
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2024-05-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/bmax121/APatch/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  Note: Fastlane icon is a symlink
+  DoubleList: keep
+  FlagIgnore:
+    usesCleartextTraffic: only used locally on-device for the for APatch Module WebUI feature
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: used for selecting SuperUsers Applications
+    android.permission.READ_EXTERNAL_STORAGE: used to read patched boot image and module upgrading
+    android.permission.WRITE_EXTERNAL_STORAGE: used to store patched boot image and module upgrading
+
+AllowedAPKSigningKeys: d71dadc0ca07bdf594383bfb2a445134a07339f12a27044a1b326981acf5f319
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

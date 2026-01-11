@@ -1,0 +1,26 @@
+Categories:
+  - Social Network
+  - Internet
+License: Apache-2.0
+AuthorName: nuclearfog
+SourceCode: https://codeberg.org/nuclearfog/Nittterify
+IssueTracker: https://codeberg.org/nuclearfog/Nittterify/issues
+Changelog: https://codeberg.org/nuclearfog/Nittterify/releases
+
+AutoName: Nitterify
+
+MaintainerNotes:
+  AppAdded: 2024-01-15
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/nuclearfog/Nittterify/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  Status:
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://codeberg.org/nuclearfog/Nittterify/pulls/5
+    - 2025-08-28 v2.1.3 did not increase versionCode; UCM Tags=>Static for now – https://codeberg.org/nuclearfog/Nittterify/issues/6
+    - 2025-09-07 solved, UCM=>Tags again
+
+AllowedAPKSigningKeys: e1a418c51baa829917daa2e86d7509a8a10470e44280c20146b70ea550bfe1ab
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

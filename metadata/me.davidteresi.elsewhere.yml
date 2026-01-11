@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app obtains weather data from OpenWeatherMap.
+    de: Die App bezieht ihre Wetterdaten von OpenWeatherMap.
+Categories:
+  - Weather
+License: MPL-2.0
+AuthorName: David Teresi
+AuthorWebSite: https://davidteresi.me/
+SourceCode: https://github.com/dkter/elsewhere
+IssueTracker: https://github.com/dkter/elsewhere/issues
+AutoName: Elsewhere
+
+MaintainerNotes:
+  AppAdded: 2020-09-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dkter/elsewhere/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,title,featureGraphic,screenshotsJPG
+  Status:
+    - 2021-10-31 no updates for 1y 1m 19d, setting from Tags to Static
+    - 2023-08-08 last release 4/2021, last commit 11/2022, author still active
+    - 2025-11-20 tested multiple times (Android 10 + 16), still works fine. Location only changes once per day, see https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15#issuecomment-8372664 – keeping the app for now
+
+AllowedAPKSigningKeys: b1aab825e827d9486ebf1c15b2e0221ac50752f589bc0e456d9410c10f73c245
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

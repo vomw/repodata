@@ -1,0 +1,27 @@
+Categories:
+  - Writing
+License: Apache-2.0
+AuthorName: Ali Albaali
+AuthorEmail: ali@albaali.com
+AuthorWebSite: https://www.alialbaali.com/
+SourceCode: https://github.com/alialbaali/Noto
+IssueTracker: https://github.com/alialbaali/Noto/issues
+
+AutoName: Noto | Simple Notes App
+
+MaintainerNotes:
+  AppAdded: 2021-07-29
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /F-Droid/i
+  Fastlane: https://github.com/alialbaali/Noto/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshotsJPG
+  FastlaneIgnore: video
+  Note: fulldesc not properly formatted (and hint to that from 8/2023 still ignored in 2024)
+  Status:
+    - 2024-11-08 last commit 9/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: dfe4dfb2d06edb86bf93c2439355e9e243ef3c085e02c4ecc6fa86ff3095fd5e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

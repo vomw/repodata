@@ -1,0 +1,58 @@
+AntiFeatures:
+  NonFreeDep:
+    en-US: The app includes libraries of Google Drive, which depends on non-free parts.
+    de: Die App enthält Bibliotheken von Google Drive, welches unfreie Teile benötigt.
+  NonFreeNet:
+    en-US: The app connects to Google servers (Google Drive, Google APIs, MS Authenticator).
+    de: Die App verbindet sich zu Google Servern (Google Drive, Google APIs, MS Authenticator).
+Categories:
+  - Theming
+License: GPL-3.0-or-later
+AuthorName: U. N. Owen
+SourceCode: https://github.com/MM2-0/Kvaesitso
+IssueTracker: https://github.com/MM2-0/Kvaesitso/issues
+Changelog: https://github.com/MM2-0/Kvaesitso/releases
+
+AutoName: Kvæsitso
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2021-12-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/MM2-0/Kvaesitso/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://github.com/MM2-0/Kvaesitso/issues/227#issuecomment-1555982694
+  FlagIgnore:
+    usesCleartextTraffic: used for (local) unencrypted Nextcloud / Mediawiki instances for Nextcloud/Wikipedia search
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: used for some gestures, to turn off screen, open notifications, …
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: used to retrieve local weather for the weather widget
+    android.permission.ACCESS_FINE_LOCATION: used to retrieve local weather for the weather widget
+    android.permission.ACCESS_MEDIA_LOCATION: used to show photo location on a map
+    android.permission.QUERY_ALL_PACKAGES: used by the app’s search feature and app drawer
+    android.permission.REQUEST_INSTALL_PACKAGES: used to install apk files when they occur as search results in file search
+    android.permission.REQUEST_DELETE_PACKAGES: used to uninstall apps from the app drawer
+    android.permission.READ_CALENDAR: used by the app’s search feature
+    android.permission.READ_CONTACTS: used by the app’s search feature
+    android.permission.READ_EXTERNAL_STORAGE: used for local file search
+    android.permission.MANAGE_EXTERNAL_STORAGE: used for local file search
+  NameSpaces:
+    - /de/mm20/launcher2
+    - /hct
+    - /palettes
+    - /scheme
+    - /utils
+  Status:
+    - 2023-01-21 reached F-Droid
+    - 2023-05-20 asked if it shall be kept here https://github.com/MM2-0/Kvaesitso/issues/227#issuecomment-1555973218 as versions differ (F-Droid has the non-FOSS parts removed). Prompt answer, keep.
+    - 2024-02-21 scanner reports usesCleartextTraffic android.accessibilityservice.AccessibilityService DEPENDENCY_INFO_BLOCK – https://github.com/MM2-0/Kvaesitso/issues/704
+    - 2024-02-21 and ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION READ_CONTACTS android.permission.WRITE_CONTACTS READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE REQUEST_INSTALL_PACKAGES QUERY_ALL_PACKAGES REQUEST_DELETE_PACKAGES
+    - 2024-05-17 fastlane changelogs are too long (1114 chars), https://github.com/MM2-0/Kvaesitso/issues/849
+
+AllowedAPKSigningKeys: bf65bbd617997397800d02e0ac2e45cee153151518545c23ef66b3cb2cfdf7bc
+
+UpdateCheckMode: Tags

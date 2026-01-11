@@ -1,0 +1,28 @@
+Categories:
+  - Office
+License: AGPL-3.0-only
+AuthorName: Dessalines
+AuthorEmail: dessalines790@gmail.com
+SourceCode: https://github.com/dessalines/rank-my-favs
+IssueTracker: https://github.com/dessalines/rank-my-favs/issues
+Changelog: https://github.com/dessalines/rank-my-favs/releases
+Liberapay: dessalines
+Donate: https://www.patreon.com/dessalines
+Bitcoin: 1Hefs7miXS5ff5Ck5xvmjKjXf5242KzRtK
+
+AutoName: Rank My Favs
+
+MaintainerNotes:
+  AppAdded: 2024-07-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dessalines/rank-my-favs/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  Status:
+    - 2025-07-19 sent our fastlane DE locale upstream via https://github.com/dessalines/rank-my-favs/pull/359
+
+AllowedAPKSigningKeys: ea7195cfce638ae6b1a8002ddc0d4863366095ea5b8d95c1cd5e25db0fe2e7c3
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

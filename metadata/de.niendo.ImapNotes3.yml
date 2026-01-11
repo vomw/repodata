@@ -1,0 +1,25 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: niendo1
+AuthorEmail: peter@niendo.de
+SourceCode: https://github.com/niendo1/ImapNotes3
+IssueTracker: https://github.com/niendo1/ImapNotes3/issues
+Translation: https://hosted.weblate.org/projects/ImapNotes3/
+Changelog: https://github.com/niendo1/ImapNotes3/releases
+
+AutoName: ImapNotes3
+
+MaintainerNotes:
+  AppAdded: 2022-11-26
+  AppRemoved: 2023-01-06 reached F-Droid 2022-12-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/niendo1/ImapNotes3/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: efad1559e516914bc855fc6950fe2ab7ee2620a60d36977818dc9da152123461
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

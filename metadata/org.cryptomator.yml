@@ -1,0 +1,44 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to MS Azure, Dropbox, pCloud, MS Authenticator.
+    de: Die App verbindet sich mit Servern von MS Azure, Dropbox, pCloud, MS Authenticator.
+Categories:
+  - Internet
+  - Security
+License: GPL-3.0-only
+AuthorName: Cryptomator
+AuthorEmail: support@cryptomator.org
+AuthorWebSite: https://cryptomator.org/
+WebSite: https://cryptomator.org/android/
+SourceCode: https://github.com/cryptomator/android
+IssueTracker: https://github.com/cryptomator/android/issues
+Translation: https://crowdin.com/project/cryptomator
+Changelog: https://github.com/cryptomator/android/releases
+
+AutoName: Cryptomator
+
+MaintainerNotes:
+  AppAdded: 2021-01-26
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /_fdroid_/i
+  Fastlane: https://github.com/cryptomator/android/blob/develop/src/fdroid/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneIgnore: video,changelogs
+  Note: fastlane video.txt empty; changelogs just have default.txt for all languages
+  FlagIgnore:
+    usesCleartextTraffic: needed for use with WebDav over http in local networks
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to allow manual switching to another build variant
+    android.permission.READ_MEDIA_IMAGES: required for the auto media upload
+    android.permission.READ_MEDIA_VIDEO: required for the auto media upload
+    android.permission.READ_EXTERNAL_STORAGE: required up to Android 9 to access media storage
+  Status:
+    - 2024-06-25 scanner reports DEPENDENCY_INFO_BLOCK usesCleartextTraffic REQUEST_INSTALL_PACKAGES READ_EXTERNAL_STORAGE READ_MEDIA_IMAGES READ_MEDIA_VIDEO – https://github.com/cryptomator/android/issues/539
+    - 2025-02-19 Fastlane is gone, see https://github.com/cryptomator/android/issues/580
+
+AllowedAPKSigningKeys: f7c3ec3b0d588d3cb52983e9eb1a7421c93d4339a286398e71d7b651e8d8ecdd
+
+ArchivePolicy: 1
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

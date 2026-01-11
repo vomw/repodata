@@ -1,0 +1,33 @@
+Categories:
+  - Sports & Health
+License: Apache-2.0
+AuthorName: Fries_I23
+AuthorEmail: FriesI23@outlook.com
+AuthorWebSite: https://friesi23.github.io/
+SourceCode: https://github.com/FriesI23/mhabit
+IssueTracker: https://github.com/FriesI23/mhabit/issues
+Changelog: https://github.com/FriesI23/mhabit/releases
+Donate: https://www.buymeacoffee.com/d49cb87qgww
+
+AutoName: Table Habit
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-06-05
+  AppRemoved: 2023-06-18 reached F-Droid 2023-06-04
+  AddedBack: 2025-03-12
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/FriesI23/mhabit/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  Note: Fastlane icon is a symlink
+  Status:
+    - 2023-06-12 reached F-Droid 2023-06-04. Readme carries no badge, so remove here.
+    - 2025-03-15 android.permission.READ_EXTERNAL_STORAGE – https://github.com/FriesI23/mhabit/issues/233
+
+AllowedAPKSigningKeys: 4a31e799063f721d62135f0925f316c2f5e5ab08b462fc4b957673c9b40869b5
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v%v\+.*
+UpdateCheckMode: Tags

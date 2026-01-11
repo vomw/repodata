@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Peter Rosenberg
+AuthorEmail: appdevs.android@gmail.com
+SourceCode: https://github.com/PRosenb/AdbClipboard
+IssueTracker: https://github.com/PRosenb/AdbClipboard/issues
+
+AutoName: ADB Clipboard
+
+MaintainerNotes:
+  AppAdded: 2019-12-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/PRosenb/AdbClipboard/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  Note: based on our starter package
+  Status:
+    - 2021-06-23 last commit was 3/2020, switch UCM from Tags to Static
+
+AllowedAPKSigningKeys: da1298cd9e46794543e338c386bc8db25f2b5121a1f83db89fa9e3f927696d78
+
+UpdateCheckMode: Static

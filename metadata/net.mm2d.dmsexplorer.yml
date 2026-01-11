@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains Google Play Core libraries.
+    de: Die App enthält Google Play Core Bibliotheken.
+  NonFreeNet:
+    en-US: The app connects to Google services (GooglePlay).
+    de: Die App nutzt Verbindungen zu Google Servern (GooglePlay).
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: OHMAE Ryosuke
+AuthorEmail: ryo@mm2d.net
+AuthorWebSite: https://www.mm2d.net/
+SourceCode: https://github.com/ohmae/dms-explorer
+IssueTracker: https://github.com/ohmae/dms-explorer/issues
+
+Name: DMS Explorer
+
+MaintainerNotes:
+  AppAdded: 2017-05-02
+  Method: github-release
+  Fastlane: https://github.com/ohmae/dms-explorer/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: for unencrypted traffic in local networks
+  Status:
+    - 2021-10-31 no updates for 1y 1m 24d, setting from Tags to Static
+    - 2023-08-08 last release 7/2023, last commit 7/2023
+    - 2025-08-22 upstreaming our local Fastlane metadata via https://github.com/ohmae/dms-explorer/pull/84
+    - 2025-11-13 last release 11/2024, last commit 11/2025; keeping UCM=Static
+
+AllowedAPKSigningKeys: 205747dbbe1b18a5ce31de0eb644d27b05aa3749cfca48b9145f2fda2f2c895b
+
+UpdateCheckMode: Static

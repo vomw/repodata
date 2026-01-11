@@ -1,0 +1,39 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google BillingClient.
+    de: Die App enthält den Google BillingClient.
+  NonFreeNet:
+    en-US: The app connects to Google servers (billing).
+    de: Die App nutzt Verbindungen zu Google Servern (Billing).
+Categories:
+  - Internet
+License: GPL-3.0-or-later
+AuthorName: Marcel Bokhorst
+AuthorWebSite: https://www.faircode.eu/
+WebSite: https://forum.xda-developers.com/android/apps-games/source-email-t3824168
+SourceCode: https://github.com/M66B/FairEmail
+Translation: https://crowdin.com/project/open-source-email
+Changelog: https://github.com/M66B/FairEmail/releases
+Donate: https://email.faircode.eu/donate/
+
+AutoName: Safe email
+
+MaintainerNotes:
+  AppAdded: 2018-08-02
+  Method: github-release
+  Fastlane: https://github.com/M66B/FairEmail/tree/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshotsJPG
+  FastlaneIgnore: fulldesc,featureGraphic,changelogs
+  Note: changelogs are massively oversized (50k as each is a full changelog from Adam&Eve to "now")
+  PermIgnore:
+    android.permission.READ_CONTACTS: needed to pick your mail’s recipients
+    android.permission.READ_EXTERNAL_STORAGE: needed to be able to attach local files to mails
+    android.permission.READ_CALENDAR: needed to accept/decline calendar invitations
+  DoubleList: keep
+  LibIgnore:
+    - /com/bugsnag
+
+AllowedAPKSigningKeys: e02067249f5a350e0ec703fe9df4dd682e0291a09f0c2e041050bbe7c064f5c9
+
+ArchivePolicy: 1
+UpdateCheckMode: Tags

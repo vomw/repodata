@@ -1,0 +1,32 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: xlzhen
+AuthorEmail: xionglongzhen@gmail.com
+SourceCode: https://github.com/xlzhen-940218/ShareFileServer
+IssueTracker: https://github.com/xlzhen-940218/ShareFileServer/issues
+Changelog: https://github.com/xlzhen-940218/ShareFileServer/releases
+
+AutoName: ShareFileServer
+
+MaintainerNotes:
+  AppAdded: 2023-01-11
+  Method: github-release
+  GHSkipPre: 1
+  FlagIgnore:
+    usesCleartextTraffic: used for sharing in local network only
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed on older Android versions to access files to share
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed on newer Android versions to access files to share
+    android.permission.INTERNET: needed to make the local web server available for sharing
+    android.permission.ACCESS_NETWORK_STATE: needed to see if a network is available
+    android.permission.ACCESS_WIFI_STATE: needed to see if a network is available
+    android.permission.ACCESS_FINE_LOCATION: needed on lower Android version to access WiFi details
+  Status:
+    - 2024-02-07 uses debug key https://github.com/xlzhen-940218/ShareFileServer/issues/1
+    - 2024-02-22 last release 9/2022, last commit 3/2023, UCM Tags=>Static
+    - 2024-02-23 author provided APK signed with release key
+
+AllowedAPKSigningKeys: ed5ac1c05d25d792fd60cf5159869bb96a30b0af8b2fa886d8c6ecefa09e35df
+
+UpdateCheckMode: Static

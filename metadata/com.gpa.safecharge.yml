@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: MIT
+AuthorName: AswinChand97
+SourceCode: https://github.com/AswinChand97/SafeCharger
+IssueTracker: https://github.com/AswinChand97/SafeCharger/issues
+Changelog: https://github.com/AswinChand97/SafeCharger/releases
+
+AutoName: Safe Charger
+
+MaintainerNotes:
+  AppAdded: 2020-09-13
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-10-31 no updates for 1y 1m 9d, setting from Tags to Static
+    - 2026-01-09 still no new commits; disabling update checks entirely now.
+
+AllowedAPKSigningKeys: a2692cd8ec05dae9b91f12b8b26696cdb49140c76c1eb769ab7ee82f7bc637bb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

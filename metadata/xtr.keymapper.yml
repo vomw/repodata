@@ -1,0 +1,32 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Xtr126
+SourceCode: https://github.com/Xtr126/XtMapper
+IssueTracker: https://github.com/Xtr126/XtMapper/issues
+Changelog: https://github.com/Xtr126/XtMapper/releases
+
+AutoName: XtMapper
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-11-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Xtr126/XtMapper/tree/dev/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  IntentFilterIgnore:
+    android.view.InputMethod: needed for keyboard functionality
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: used to display a pointer on the screen and for showing alert dialogs
+  Status:
+    - 2022-12-30 package was renamed from com.xtr.keymapper to xtr.keymapper
+    - 2024-02-09 uses debug key https://github.com/Xtr126/XtMapper/issues/79
+    - 2024-02-18 author decided to have the app temporarily removed until fixed
+    - 2024-02-21 fixed
+    - 2025-08-21 upstreaming our local Fastlane metadata via https://github.com/Xtr126/XtMapper/pull/154
+
+AllowedAPKSigningKeys: 387def27f3815ac2a67d374c579bff9606f93c86d9543a7b4914af43840c489d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

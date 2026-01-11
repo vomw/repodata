@@ -1,0 +1,41 @@
+Categories:
+  - Social Network
+  - Internet
+  - Messaging
+License: MIT
+AuthorName: PrimalHQ
+SourceCode: https://github.com/PrimalHQ/primal-android-app
+IssueTracker: https://github.com/PrimalHQ/primal-android-app/issues
+Changelog: https://github.com/PrimalHQ/primal-android-app/releases
+
+AutoName: Primal
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-07-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/PrimalHQ/primal-android-app/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  NameSpaces:
+    - /net/primal/core
+    - /net/primal/data
+    - /net/primal/domain
+    - /net/primal/shared
+    - /net/primal/tsunami
+    - /net/primal/wallet
+  FlagIgnore:
+    usesCleartextTraffic: needed because there are many images in notes which are using http links.
+  PermIgnore:
+    android.permission.CAMERA: needed for the integrated QR-Code scanner
+    android.permission.READ_EXTERNAL_STORAGE: unused but implicitly granted by Android whenever WRITE_EXTERNAL_STORAGE is present
+    android.permission.WRITE_EXTERNAL_STORAGE: needed for the "save image to device" feature
+  Status:
+    - 2024-01-23 scanner reports usesCleartextTraffic – https://github.com/PrimalHQ/primal-android-app/issues/67
+    - 2024-02-02 scanner reports android.permission.READ_EXTERNAL_STORAGE* – added to issue 67 together with DEPENDENCY_INFO_BLOCK hints.
+    - 2024-03-04 scanner reports android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE
+
+AllowedAPKSigningKeys: 22dd83353c5f76ffe1e89718caefce3d126de25342f2cd1b5e0bb14b75607380
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

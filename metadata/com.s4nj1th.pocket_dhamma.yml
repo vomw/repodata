@@ -1,0 +1,25 @@
+Categories:
+  - Religion
+  - Reading
+License: GPL-3.0-only
+AuthorName: sanjith
+AuthorEmail: sanjith@tutamail.com
+SourceCode: https://github.com/s4nj1th/pocket-dhamma
+IssueTracker: https://github.com/s4nj1th/pocket-dhamma/issues
+Changelog: https://github.com/s4nj1th/pocket-dhamma/releases
+
+AutoName: PocketDhamma
+
+MaintainerNotes:
+  AppAdded: 2025-06-01
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/s4nj1th/pocket-dhamma/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 8c70a6600f351180e1acda62756d7378ff824729c9ef08e016a8b58b4423cf30
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,24 @@
+Categories:
+  - System
+  - Xposed
+License: Apache-2.0
+AuthorName: ekibun
+AuthorEmail: soekibun@gmail.com
+SourceCode: https://github.com/ekibun/XposedAppLocale
+
+AutoName: App Locale Mod
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-25
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/flo354/xposed/applocale
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 2/2022, last commit 2/2022)
+
+AllowedAPKSigningKeys: ca7c6af8f1cd48e9478b0f6c4835040ee5ff4e7c0910c4e7ffe1d7b88975443e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

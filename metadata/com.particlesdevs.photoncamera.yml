@@ -1,0 +1,30 @@
+AntiFeatures:
+  - ApplicationDebuggable
+Categories:
+  - Graphics
+License: GPL-3.0-or-later
+AuthorName: Particles Devs
+AuthorEmail: particlesdevs@gmail.com
+SourceCode: https://github.com/eszdman/PhotonCamera
+IssueTracker: https://github.com/eszdman/PhotonCamera/issues
+Changelog: https://github.com/eszdman/PhotonCamera/releases
+
+AutoName: PhotonCamera Beta
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-01-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/eszdman/PhotonCamera/tree/dev/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/eszdman/photonbypass
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 6/2022, last commit 6/2023)
+    - 2025-08-13 upstreamed our Fastlane via https://github.com/eszdman/PhotonCamera/pull/139
+
+AllowedAPKSigningKeys: 255cb09eaddd26a9cc680786e4985372cf24d0e54bb120fc44d48f3273ff3956
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

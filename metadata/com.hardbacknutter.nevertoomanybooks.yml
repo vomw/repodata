@@ -1,0 +1,32 @@
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: tfonteyn
+SourceCode: https://github.com/tfonteyn/NeverTooManyBooks
+IssueTracker: https://github.com/tfonteyn/NeverTooManyBooks/issues
+Changelog: https://github.com/tfonteyn/NeverTooManyBooks/releases
+
+AutoName: NeverTooManyBooks
+
+MaintainerNotes:
+  AppAdded: 2022-12-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/tfonteyn/NeverTooManyBooks/tree/dev/metadata
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshots
+  NameSpaces:
+    - /com/hardbacknutter/zratingbar
+  LibIgnore:
+    - /org/acra
+  PermIgnore:
+    android.permission.CAMERA: Camera access is needed for the integrated Barcode scanner.
+    android.permission.READ_CONTACTS: This is required by the app’s (optional) lending feature so one can pick lent-to from contacts.
+  Status:
+    - 2022-12-05 LibIgnore ACRA as it is configured for prompted email bug reports only
+    - 2024-01-14 updater reports android.permission.READ_CONTACTS, asked for clarification https://github.com/tfonteyn/NeverTooManyBooks/issues/33
+    - 2024-01-15 clarified READ_CONTACTS (app has a lending feature that lets you pick from your contacts)
+
+AllowedAPKSigningKeys: df971ce7d58d3cdf377c32e0e2f53d6599bd7f130a50c0529c45583ddc12a008
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

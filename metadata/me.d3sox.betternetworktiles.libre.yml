@@ -1,0 +1,35 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-03-19, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-03-19 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: D3SOX
+AuthorWebSite: https://d3sox.me/
+SourceCode: https://github.com/D3SOX/Better-Network-Tiles-Libre
+IssueTracker: https://github.com/D3SOX/Better-Network-Tiles-Libre/issues
+Changelog: https://github.com/D3SOX/Better-Network-Tiles-Libre/releases
+
+AutoName: Better Network Tiles
+
+MaintainerNotes:
+  AppAdded: 2024-03-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/D3SOX/Better-Network-Tiles-Libre/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_PHONE_STATE: needed for reading mobile network data (to show the carrier etc.)
+    android.permission.ACCESS_COARSE_LOCATION: needed on some Android versions to access WiFi details
+    android.permission.ACCESS_FINE_LOCATION: needed on some Android versions to access WiFi details
+  NameSpaces:
+    - /be/casperverswijvelt/unifiedinternetqs
+  Status:
+    - 2025-03-23 last release 2024-03-19, last commit 2024-04-03; UCM Tags=>Static
+    - 2025-07-17 repo archived 2025-03-24, disabling updates.
+
+AllowedAPKSigningKeys: 6e10f962ae2ac26aa15b50d942173742f242a44bf45541cdd77666e2b3a390ad
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

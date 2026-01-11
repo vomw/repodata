@@ -1,0 +1,1 @@
+Create notes that are automatically displayed in the device’s lock screen

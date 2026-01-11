@@ -1,0 +1,23 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-or-later
+AuthorName: Ounzy
+SourceCode: https://github.com/Ounzy/OpenBl
+IssueTracker: https://github.com/Ounzy/OpenBl/issues
+Changelog: https://github.com/Ounzy/OpenBl/releases
+
+AutoName: OpenBl
+
+MaintainerNotes:
+  AppAdded: 2023-03-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Ounzy/OpenBl/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
+  Status:
+    - 2024-12-10 last release 4/2023, last commit 10/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 5be8fdd39ea8e6c59164cd3187446bb7848547b830136d5b2382e21544631f39
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

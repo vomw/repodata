@@ -1,0 +1,30 @@
+Categories:
+  - Writing
+License: AGPL-3.0-only
+AuthorName: Maël Chiotti
+AuthorEmail: contact@maelchiotti.dev
+AuthorWebSite: https://maelchiotti.dev
+SourceCode: https://github.com/maelchiotti/LocalMaterialNotes
+IssueTracker: https://github.com/maelchiotti/LocalMaterialNotes/issues
+Translation: https://crowdin.com/project/localmaterialnotes
+Changelog: https://github.com/maelchiotti/LocalMaterialNotes/blob/main/CHANGELOG.md
+
+AutoName: Material Notes
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-05-23
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/maelchiotti/LocalMaterialNotes/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  Status:
+    - 2024-10-07 scanner reports android.permission.READ_EXTERNAL_STORAGE – https://github.com/maelchiotti/LocalMaterialNotes/issues/201
+    - 2026-01-01 APK size now over 80 MB. Asked for options at https://github.com/maelchiotti/LocalMaterialNotes/issues/523
+
+AllowedAPKSigningKeys: 21ac3d89d9ab7a3483d9261ab7f8fdf688d3703abac11099ce09bf26094b4337
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

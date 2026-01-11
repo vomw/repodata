@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeAssets:
+    en-US: The app contains media files published under non-libre licenses.
+    de: Die App verwendet Media-Dateien, die unter non-libre Lizenzen veröffentlicht wurden.
+Categories:
+  - Sports & Health
+  - Time
+License: MIT
+AuthorName: Paul Konstantin Gerke
+AuthorEmail: paulkgerke@pkgsoftware.eu
+AuthorWebSite: https://www.pkgsoftware.eu/
+SourceCode: https://github.com/babybuddy/babybuddy-for-android
+IssueTracker: https://github.com/babybuddy/babybuddy-for-android/issues
+Changelog: https://github.com/babybuddy/babybuddy-for-android/releases
+
+AutoName: Baby Buddy for Android
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-08-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/babybuddy/babybuddy-for-android/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  Note: video.txt is empty
+  FlagIgnore:
+    usesCleartextTraffic: used for connections to self-hosted instances in the local network
+  PermIgnore:
+    android.permission.CAMERA: used for login via QR Code
+    android.permission.INTERNET: to connect to the (self-hosted) server
+
+AllowedAPKSigningKeys: 0c34c4316f9b0ad07a9e24d8a1b1bcfadb0f5e72d475aaa3a1c667acdf40d3c5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

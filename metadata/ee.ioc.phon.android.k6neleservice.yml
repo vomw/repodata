@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Kaarel Kaljurand
+AuthorEmail: kaljurand@gmail.com
+SourceCode: https://github.com/Kaljurand/K6nele-service
+IssueTracker: https://github.com/Kaljurand/K6nele-service/issues
+Changelog: https://github.com/Kaljurand/K6nele-service/releases
+
+AutoName: Kõnele service
+
+MaintainerNotes:
+  AppAdded: 2021-04-02
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-10-07 no release for almost 2y, last commit 3/2022; switch from Tags to Static
+    - 2023-08-08 last release 4/2023, last commit 4/2023
+
+AllowedAPKSigningKeys: b148ea3c5d69cbe994b7b1ef6e23ea7784f38ed685e626e9f11b24720567ab96
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

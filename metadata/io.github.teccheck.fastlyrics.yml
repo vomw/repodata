@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app obtains lyrics from Genius.com.
+    de: Die App lädt Songtexte von Genius.com.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: TecCheck
+AuthorWebSite: https://teccheck.github.io/
+SourceCode: https://github.com/teccheck/FastLyrics
+IssueTracker: https://github.com/teccheck/FastLyrics/issues
+Changelog: https://github.com/teccheck/FastLyrics/releases
+
+AutoName: FastLyrics
+
+MaintainerNotes:
+  AppAdded: 2023-05-17
+  AppRemoved: 2023-08-06 reached F-Droid 2023-06-27
+  AddedBack: 2025-03-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/teccheck/FastLyrics/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  Status:
+    - 2023-06-27 reached F-Droid.org. Question was raised to keep it here, see https://github.com/TecCheck/FastLyrics/pull/16
+    - 2023-07-25 still not decided, gave another ping
+
+AllowedAPKSigningKeys: 969616fec23d5b881dcd91802896197beeb82bccf2df33174258372a94b71b0a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

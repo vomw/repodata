@@ -1,0 +1,26 @@
+Categories:
+  - Navigation
+License: GPL-2.0-only
+AuthorName: Marcello Zaniboni
+AuthorWebSite: https://www.marcellozaniboni.net/
+SourceCode: https://github.com/marcellozaniboni/sonqui
+IssueTracker: https://github.com/marcellozaniboni/sonqui/issues
+Changelog: https://github.com/marcellozaniboni/sonqui/releases
+
+AutoName: sonqui
+
+MaintainerNotes:
+  AppAdded: 2021-12-04
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /signed/i
+  Status:
+    - 2022-12-11 Tags=>Static (last release 12/2021)
+    - 2023-08-08 last release 12/2021, last commit 10/2022, author last seen 10/2022
+    - 2025-11-13 [reported still working](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/14)
+    - 2026-01-11 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: 80d2f599c2b1096e911417ff17a51d9e619b53eb29cd5dff4a9c40cdf232669d
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

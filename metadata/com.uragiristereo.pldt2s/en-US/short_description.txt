@@ -1,0 +1,1 @@
+Enable double tap to sleep functionality on Pixel Launcher

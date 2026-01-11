@@ -1,0 +1,32 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-09-27, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-09-27 archiviert, es gibt daher keine Updates mehr.
+  TetheredNet:
+    en-US: The app is bound to the OpenStreetMap Wiki site.
+    de: Die App ist an die OpenStreetMap Wiki Site gebunden.
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Tre_brock
+AuthorWebSite: https://trebrock.net/
+SourceCode: https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app
+IssueTracker: https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app/issues
+Changelog: https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app/releases
+
+AutoName: OpenStreetMap wiki
+
+MaintainerNotes:
+  AppAdded: 2025-05-16
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-10-17 monthly quality check found repo archived
+
+AllowedAPKSigningKeys: 9a6f05c6545c8f13b9d1efe0cfccad31772c146cd2295110f40a71c5475dd52b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

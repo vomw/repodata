@@ -1,0 +1,29 @@
+Categories:
+  - Multimedia
+License: BSD-2-Clause
+AuthorName: Simon Zolin
+AuthorWebSite: http://stsaz.rf.gd/
+SourceCode: https://github.com/stsaz/phiola
+IssueTracker: https://github.com/stsaz/phiola/issues
+Changelog: https://github.com/stsaz/phiola/releases
+
+AutoName: phiola
+
+MaintainerNotes:
+  AppAdded: 2023-11-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/stsaz/phiola/blob/beta/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed for the integrated file explorer on Android 10 and before
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed for the integrated file explorer on Android 11+
+    android.permission.RECORD_AUDIO: this is an audio recorder app
+  Status:
+    - 2024-01-27 scanner reports READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE RECORD_AUDIO – https://github.com/stsaz/phiola/issues/15
+
+AllowedAPKSigningKeys: 33075a6a929420088045da507f3c7533cad11545922142108845c4e97a2f3ff1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

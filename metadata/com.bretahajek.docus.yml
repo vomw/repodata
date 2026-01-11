@@ -1,0 +1,32 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Břetislav Hájek
+AuthorEmail: info@bretahajek.com
+AuthorWebSite: https://bretahajek.com/
+SourceCode: https://github.com/Breta01/docus
+IssueTracker: https://github.com/Breta01/docus/issues
+Changelog: https://github.com/Breta01/docus/blob/HEAD/CHANGELOG.md
+
+AutoName: Docus
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2020-04-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Breta01/docus/tree/master/fastlane/metadata/android/en-US
+  FastlaneFeatures: title,shortdesc,fulldescNL,icon,featureGraphicJPG
+  FastlaneIgnore: video,screenshots
+  Note: Fastlane only en-US; video.txt empty; fulldesc low-quality; screenshots incomplete
+  ApkMatch: /arm.apk$/i
+  PermIgnore:
+    android.permission.CAMERA: needed to scan documents
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to save scanned documents
+    android.permission.READ_EXTERNAL_STORAGE: needed to access stored scanned documents
+  Status:
+    - 2022-12-11 Tags=>Static (last release 10/2021)
+
+AllowedAPKSigningKeys: 41bccffdd116121ffafbbf97bb7c52fa9b7eb4f96f678b3a9f023bfa9032e0fc
+
+UpdateCheckMode: Static

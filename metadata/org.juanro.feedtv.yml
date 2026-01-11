@@ -1,0 +1,34 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app obtains data from tdtchannels.com (free, but not libre).
+    de: Die App bezieht Daten von tdtchannels.com (gratis, aber nicht libre).
+Categories:
+  - Internet
+  - Reading
+License: Apache-2.0
+AuthorName: Juanro49
+AuthorWebSite: https://plume.nogafam.es/~/ElBlogDeJuanro
+SourceCode: https://github.com/juanro49/FeedTV
+IssueTracker: https://github.com/juanro49/FeedTV/issues
+Translation: https://hosted.weblate.org/projects/feedtv/
+Changelog: https://github.com/juanro49/FeedTV/releases
+Donate: https://www.paypal.me/juanro49
+Bitcoin: 1QJfiEAxa1A4TbEgtbVMHPXPWXJXxEpUvi
+Litecoin: LYsyYEmxnRaCY3ML2tKYZpQA6zhndpuuQ4
+
+AutoName: FeedTV
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2019-05-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/juanro49/FeedTV/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,screenshots
+  Status:
+    - 2025-03-23 last release/commit 2024-01-03; UCM Tags=>Static
+    - 2025-09-24 upstreaming DE+EN locale to fastlane with https://github.com/juanro49/FeedTV/pull/41 (finding 1 new release 8/2025)
+
+AllowedAPKSigningKeys: 01d83fd1855b65ed94b77cecbf35d237033674e0c61303f2bde02d0efda3f743
+
+UpdateCheckMode: Static

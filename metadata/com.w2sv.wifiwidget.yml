@@ -1,0 +1,35 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Janek Zangenberg
+AuthorEmail: zangenbergjanek@googlemail.com
+SourceCode: https://github.com/w2sv/WiFi-Widget
+IssueTracker: https://github.com/w2sv/WiFi-Widget/issues
+Changelog: https://github.com/w2sv/WiFi-Widget/releases
+
+AutoName: WiFi Widget
+
+MaintainerNotes:
+  AppAdded: 2023-02-03
+  AppRemoved: 2023-04-16 reached F-Droid 2023-04-06, removing on authors decision (see Status)
+  AddedBack: 2025-03-13
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  Note: uses Triple-T
+  NameSpaces:
+    - /com/w2sv/common
+    - /com/w2sv/preferences
+    - /com/w2sv/widget
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed in conjunction with WiFi access
+    android.permission.ACCESS_COARSE_LOCATION: needed in conjunction with WiFi access
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed in conjunction with WiFi access
+  Status:
+    - 2023-04-08 author wants us to remove it once it reached F-Droid, see https://github.com/w2sv/WiFi-Widget/pull/14#issuecomment-1500498956
+    - 2025-03-13 added back as reproducible build
+
+AllowedAPKSigningKeys: e22bed7909bce21fa5bc900a8c056eaa0773761f70774d1d808bbbafb3aa1958
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,23 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: koje
+AuthorEmail: koje.development@gmail.com
+SourceCode: https://github.com/koje71/com.koje.cards
+IssueTracker: https://github.com/koje71/com.koje.cards/issues
+
+AutoName: Lernkarten Eule
+
+MaintainerNotes:
+  AppAdded: 2024-03-05
+  Method: github-repo
+  GHSkipPre: 1
+  GHDownloadDir: https://github.com/koje71/com.koje.cards/blob/master/app/release
+  NameSpaces:
+    - /com/koje/framework
+  Status:
+    - 2025-03-18 no commits since 2024-03-08, adding (not present) UCM=>Static
+
+AllowedAPKSigningKeys: a0aea259b29e7e88ea74c0e37e3cb49c30ffc8bfd7addffcf1b6e997c8277191
+
+UpdateCheckMode: Static

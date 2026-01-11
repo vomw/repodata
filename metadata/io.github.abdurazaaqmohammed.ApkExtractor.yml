@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: AbdurazaaqMohammed
+SourceCode: https://github.com/AbdurazaaqMohammed/APKExtractor
+IssueTracker: https://github.com/AbdurazaaqMohammed/APKExtractor/issues
+Changelog: https://github.com/AbdurazaaqMohammed/APKExtractor/releases
+
+AutoName: APK Extractor
+
+MaintainerNotes:
+  AppAdded: 2024-10-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/AbdurazaaqMohammed/APKExtractor/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: used to read files from storage
+    android.permission.WRITE_EXTERNAL_STORAGE: used to write output APK files
+    android.permission.MANAGE_EXTERNAL_STORAGE: used to access the full storage
+    android.permission.QUERY_ALL_PACKAGES: needed to list all installed apps and find their APKs
+    android.permission.REQUEST_DELETE_PACKAGES: used to allow uninstalling apps
+  Status:
+    - 2024-10-14 DEPENDENCY_INFO_BLOCK, versionCode not increased; debug keystore in APK; see https://github.com/AbdurazaaqMohammed/APKExtractor/issues/1
+    - 2024-10-24 scanner reports REQUEST_DELETE_PACKAGES
+
+AllowedAPKSigningKeys: f9500bafce430701538880bc386c35edbb32fba633e4f85dcee2de522d55e1f6
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

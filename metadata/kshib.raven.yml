@@ -1,0 +1,28 @@
+Categories:
+  - Internet
+  - Reading
+License: GPL-3.0-only
+AuthorName: Kshitij B
+AuthorEmail: ksyko@pm.me
+SourceCode: https://github.com/ksh-b/raven
+IssueTracker: https://github.com/ksh-b/raven/issues
+Changelog: https://github.com/ksh-b/raven/releases
+
+AutoName: Raven
+
+MaintainerNotes:
+  AppAdded: 2024-04-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/ksh-b/raven/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshots
+  DoubleList: keep
+  Status:
+    - 2024-07-15 reached F-Droid 2024-06-19 (RB on both ends), still carries our badge, marking to keep
+
+AllowedAPKSigningKeys: 05fbcda5bba53c46d1d035587bc666a774f3d6f69eeec04cd27b96bf164bbf20
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

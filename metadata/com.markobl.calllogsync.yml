@@ -1,0 +1,25 @@
+Categories:
+  - Phone & SMS
+License: GPL-3.0-only
+AuthorName: Marko B. Ludolph
+AuthorEmail: marko.b.ludolph@gmail.com
+SourceCode: https://github.com/MarkoBL/AndroidCallLogSync
+IssueTracker: https://github.com/MarkoBL/AndroidCallLogSync/issues
+Changelog: https://github.com/MarkoBL/AndroidCallLogSync/releases
+
+AutoName: Call Log Sync
+
+MaintainerNotes:
+  AppAdded: 2022-02-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/MarkoBL/AndroidCallLogSync/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 2/2022, last commit 2/2022)
+
+AllowedAPKSigningKeys: b128f0d44f8f04ed250d7a6c9612e31ab374176674ab37529951372b3be1bec9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

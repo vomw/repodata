@@ -1,0 +1,1 @@
+<p>This is an Xposed module to disable <code>FLAG_SECURE</code>, enabling screenshots, screen sharing and recording in apps that normally wouldn't allow it. It works with EdXposed as well as LSPosed.</p>

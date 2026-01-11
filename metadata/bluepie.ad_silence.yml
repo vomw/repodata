@@ -1,0 +1,31 @@
+AntiFeatures:
+  NonFreeDep:
+    en-US: Only needed for/work with proprietary audio apps.
+    de: Wird nur für/mit proprietären Audio Apps benötigt.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: BluePie
+AuthorEmail: iambluepie@gmail.com
+AuthorWebSite: https://github.com/aghontpi
+SourceCode: https://github.com/aghontpi/ad-silence
+IssueTracker: https://github.com/aghontpi/ad-silence/issues
+Changelog: https://github.com/aghontpi/ad-silence/releases
+Donate: https://github.com/aghontpi/ad-silence#donation-links
+
+AutoName: Ad-silence - OpenSource
+
+MaintainerNotes:
+  AppAdded: 2021-12-01
+  AppRemoved: 2021-12-26 reached F-Droid on 2021-12-16
+  AddedBack: 2025-03-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/aghontpi/ad-silence/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+
+AllowedAPKSigningKeys: ce85a4f2d43f04b6bdcf1d855fb9266fc49bf254bf14c565f5aca16ded2e9c4c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,32 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Artem Chepurnoy
+AuthorEmail: support@artemchep.com
+SourceCode: https://github.com/AChep/PocketMode
+IssueTracker: https://github.com/AChep/PocketMode/issues
+Translation: https://crowdin.com/project/pocketmode
+
+AutoName: Pocket Mode
+
+MaintainerNotes:
+  AppAdded: 2019-06-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /release-oss/i
+  Fastlane: https://github.com/AChep/PocketMode/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Status:
+    - 2020-09-19 app was not updated for 1y 4m 8d; switching UCM from Tags to Static
+    - 2020-11-04 dev removed Fastlane
+    - 2020-11-04 dev started tagging releases again, switching UCM back to Tags
+    - 2020-11-08 noticed new versions come with Crashlytics+FirebaseAnalytics, despite "OSS" flavor. https://github.com/AChep/PocketMode/issues/12
+    - 2022-07-28 app uses ACRA with default settings and thus needs Tracking https://github.com/AChep/PocketMode/issues/75
+    - 2022-07-30 no answer yet; but is analytics just a stub? https://github.com/AChep/PocketMode/blob/d36b163d9842a1e8ddefec0f8aa5a6317e6e0895/app/src/main/java/com/artemchep/pocketmode/analytics/AnalyticsStub.kt
+    - 2022-08-07 ACRA was removed
+    - 2024-02-22 last release 1/2023, last commit 8/2023, UCM Tags=>Static
+    - 2025-09-27 fastlane added back via PR from us
+
+AllowedAPKSigningKeys: 0e56944562ac4b573cd013befe2077a384122e5ed18ad6476ce48877bc8ce705
+
+UpdateCheckMode: Static

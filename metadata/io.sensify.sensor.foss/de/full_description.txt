@@ -1,0 +1,1 @@
+<p>Mit <i>Sensify</i> kannst du Diagramme verschiedener Sensoren anzeigen, die in Ihrem Telefon verfügbar sind, wie Beschleunigungsmesser, Magnetfeldsensor, Lichtsensor usw. Es wird mit einem interaktiven Echtzeit-Diagramm erstellt, um Daten mit Zoom zu verstehen.</p>

@@ -1,0 +1,30 @@
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: bojko108
+AuthorEmail: bojko108@gmail.com
+SourceCode: https://github.com/bojko108/mobile-tile-server
+IssueTracker: https://github.com/bojko108/mobile-tile-server/issues
+Changelog: https://github.com/bojko108/mobile-tile-server/releases
+
+AutoName: Mobile Tile Server
+
+MaintainerNotes:
+  AppAdded: 2024-07-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/bojko108/mobile-tile-server/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to read tiles from storage
+    android.permission.MANAGE_EXTERNAL_STORAGE: to save tiles to and manage them on storage
+  Status:
+    - 2025-06-06 versionCode was not increased; Tags=>Static; https://github.com/bojko108/mobile-tile-server/issues/14
+    - 2025-06-07 fixed, but using different signing key now /o\
+    - 2025-06-08 signing fixed as well, back to UCM=Tags
+
+AllowedAPKSigningKeys: acf3846e232e3859770ec79334d7f6045cbc286055542731a89250053d411670
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

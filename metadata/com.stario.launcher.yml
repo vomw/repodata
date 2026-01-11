@@ -1,0 +1,30 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: Răzvan Albu
+AuthorEmail: razvan-albu@hotmail.com
+AuthorWebSite: https://www.razvanalbu.com/
+SourceCode: https://github.com/albu-razvan/Stario
+IssueTracker: https://github.com/albu-razvan/Stario/issues
+Changelog: https://github.com/albu-razvan/Stario/releases
+
+AutoName: Stario
+
+MaintainerNotes:
+  AppAdded: 2025-08-06
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /(debug|unsigned)/i
+  Fastlane: https://github.com/albu-razvan/Stario/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: used optionally to let you turn off your phone’s screen with a gesture
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to list apps in the launcher
+    android.permission.REQUEST_DELETE_PACKAGES: to allow removal of unwanted apps
+
+AllowedAPKSigningKeys: fad536a2eed1f897481b9508e71ef16ea046b34dab0db892596cc6abaef90ed4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

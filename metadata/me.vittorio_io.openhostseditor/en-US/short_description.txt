@@ -1,0 +1,1 @@
+edit the /etc/hosts file on your rooted Android device

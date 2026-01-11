@@ -1,0 +1,23 @@
+Categories:
+  - Automation
+License: GPL-3.0-only
+AuthorName: Binay Devkota
+SourceCode: https://github.com/daitj/Easycontrol
+IssueTracker: https://github.com/daitj/Easycontrol/issues
+Changelog: https://github.com/daitj/Easycontrol/releases
+
+AutoName: 易控•远程控制Fork
+
+MaintainerNotes:
+  AppAdded: 2025-02-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/daitj/Easycontrol/blob/main/fastlane/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: for remotely controling another device in tiny popup window
+
+AllowedAPKSigningKeys: ce2a237089b22c7b3885a293f0a6da41cc944414bbb7642c5f559db7ff8689a4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

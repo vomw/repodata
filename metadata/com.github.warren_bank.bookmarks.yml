@@ -1,0 +1,27 @@
+Categories:
+  - System
+License: GPL-2.0-only
+AuthorName: Warren Bank
+SourceCode: https://github.com/warren-bank/Android-Bookmarks
+IssueTracker: https://github.com/warren-bank/Android-Bookmarks/issues
+
+AutoName: Bookmarks
+
+MaintainerNotes:
+  AppAdded: 2023-01-20
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /WithAllLanguage/i
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed when a bookmarked Intent is being started in the background as the result of a scheduled alarm going off
+    android.permission.REQUEST_INSTALL_PACKAGES: needed for bookmarked intents that shall install apps
+    android.permission.READ_EXTERNAL_STORAGE: for backup/restore and accessing files via intents on lower Android versions
+    android.permission.WRITE_EXTERNAL_STORAGE: for backup/restore and accessing files via intents on lower Android versions
+    android.permission.MANAGE_EXTERNAL_STORAGE: for backup/restore and accessing files via intents on higher Android versions
+  Status:
+    - 2024-02-22 last release 1/2023, last commit 1/2023, UCM Tags=>Static
+    - 2024-10-07 scanner reports READ_EXTERNAL_STORAGE SYSTEM_ALERT_WINDOW MANAGE_EXTERNAL_STORAGE – https://github.com/warren-bank/Android-Bookmarks/issues/3
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+UpdateCheckMode: Tags

@@ -1,0 +1,27 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: Eric Scheibler
+AuthorEmail: info@walkersguide.org
+AuthorWebSite: https://www.eric-scheibler.de/
+WebSite: https://www.eric-scheibler.de/de/blog/2016/05/android-app-tactileclock-vibriert-die-aktuelle-uhrzeit/
+SourceCode: https://github.com/scheibler/TactileClock
+IssueTracker: https://github.com/scheibler/TactileClock/issues
+
+AutoName: Tactile Clock
+
+MaintainerNotes:
+  AppAdded: 2023-03-04
+  Method: github-release
+  ManualHint: probably no more updates, but see https://www.eric-scheibler.de/de/blog/2016/05/android-app-tactileclock-vibriert-die-aktuelle-uhrzeit/
+  GHSkipPre: 1
+  Fastlane: https://github.com/scheibler/TactileClock/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Status:
+    - 2023-03-08 app still working (Izzy)
+    - 2025-08-19 upstreaming our Fastlane metadata via https://github.com/scheibler/TactileClock/pull/4
+
+AllowedAPKSigningKeys: 6211aafb8fbc59e6a13dee55e888c15cf655ac55c4b9d4ba1066b5f9111885c4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

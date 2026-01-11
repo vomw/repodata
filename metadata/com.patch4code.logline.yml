@@ -1,0 +1,26 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app is based on the TMDb API, which is free but not libre.
+    de: Die App ist auf der TMDb API aufgebaut, die nicht libre ist.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Patch4Code
+SourceCode: https://github.com/Patch4Code/Logline
+IssueTracker: https://github.com/Patch4Code/Logline/issues
+Changelog: https://github.com/Patch4Code/Logline/releases
+
+AutoName: Logline
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-01-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Patch4Code/Logline/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 2c101f5b78bdc497ad4e3c5d714a61a198d454ba6b04936cc315b1f2641abfa2
+
+UpdateCheckMode: Tags

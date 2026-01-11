@@ -1,0 +1,1 @@
+<p><i>Rhythmroid</i> is a remote android application for Rhythmbox on Linux. <i>Rhythmroid</i> helps you control the music playing in the Rhythmbox on your Android phone.</p><p>Please see the project's Readme for instructions on setup and usage.</p>

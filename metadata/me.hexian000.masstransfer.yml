@@ -1,0 +1,24 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: hexian000
+AuthorEmail: he.xian@163.com
+SourceCode: https://github.com/hexian000/MassTransfer
+IssueTracker: https://github.com/hexian000/MassTransfer/issues
+Changelog: https://github.com/hexian000/MassTransfer/releases
+
+AutoName: Mass Transfer
+
+MaintainerNotes:
+  AppAdded: 2018-10-25
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-10-07 no release for almost 2y, last commit 6/2021; switch from Tags to Static
+    - 2023-08-08 last release 12/2020, last commit 6/2021, author still active
+    - 2025-11-30 considered worth keeping with this year’s housekeeping run, see https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15#issuecomment-8601399
+    - 2026-01-11 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: 4fb0b67fad81f870e51a478d316eb2e38d8822e0c93c7c98ad55b58ffc3d0eb3
+
+UpdateCheckMode: None

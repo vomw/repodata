@@ -1,0 +1,26 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Arne-Brün Vogelsang
+AuthorEmail: arne@monocles.de
+AuthorWebSite: https://monocles.eu/
+WebSite: https://monocles.wiki/
+SourceCode: https://codeberg.org/monocles/monocles_browser
+IssueTracker: https://codeberg.org/monocles/monocles_browser/issues
+Changelog: https://codeberg.org/monocles/monocles_browser/releases
+
+AutoName: monocles browser
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-01-19
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/monocles/monocles_browser/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /de/monocles/browser
+
+AllowedAPKSigningKeys: 8fac1f5cd463125a91e9e531bb10dda14934f6ffd658913fbd9d296828afdcfd
+
+UpdateCheckMode: Tags

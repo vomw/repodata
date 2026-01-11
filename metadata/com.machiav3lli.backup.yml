@@ -1,0 +1,39 @@
+Categories:
+  - System
+License: AGPL-3.0-only
+AuthorName: Antonios Hazim
+SourceCode: https://github.com/NeoApplications/Neo-Backup
+IssueTracker: https://github.com/NeoApplications/Neo-Backup/issues
+Translation: https://hosted.weblate.org/engage/oandbackupx/
+Changelog: https://github.com/NeoApplications/Neo-Backup/blob/HEAD/changelog.md
+
+AutoName: Neo Backup
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2020-04-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/NeoApplications/Neo-Backup/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed for backup storage
+    android.permission.WRITE_EXTERNAL_STORAGE: needed for backup storage
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted due to WRITE_EXTERNAL_STORAGE
+    android.permission.QUERY_ALL_PACKAGES: needed to access the apps it shall back up
+    android.permission.READ_SMS: needed to backup SMS
+    android.permission.SEND_SMS: needed to restore SMS from backup
+    android.permission.RECEIVE_SMS: needed to backup SMS
+    android.permission.RECEIVE_MMS: needed to backup MMS
+    android.permission.RECEIVE_WAP_PUSH: needed to restore MMS
+    android.permission.READ_CONTACTS: needed to backup contacts
+    android.permission.READ_CALL_LOG: needed to backup call logs
+    android.permission.WRITE_CALL_LOG: needed to restore call logs
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/107
+  Status:
+    - 2020-10-08 Author wants to keep it here though it‘s on F-Droid now, see https://gitlab.com/IzzyOnDroid/repo/-/issues/107
+
+AllowedAPKSigningKeys: c94f10243c14d57dd69dede61c234bb5e8bb0704d61b45dafe496728ac32f378
+
+UpdateCheckMode: Tags

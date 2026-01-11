@@ -1,0 +1,1 @@
+konfiguriere USB Massenspeicher und binde ihn ein

@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Christian Medel
+SourceCode: https://github.com/Elbullazul/LinkGuardian
+IssueTracker: https://github.com/Elbullazul/LinkGuardian/issues
+Changelog: https://github.com/Elbullazul/LinkGuardian/releases
+
+AutoName: LinkGuardian
+
+MaintainerNotes:
+  AppAdded: 2025-04-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Elbullazul/LinkGuardian/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: 04ece9ad4820604b279b744b6892757031d76a42e738a9651e17e3060608c9de
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

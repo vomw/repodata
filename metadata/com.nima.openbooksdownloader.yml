@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app is bound to dbooks.org which has no clear license.
+    de: Die App ist an dbooks.org gebunden, welches keine eindeutige Lizenz deklariert.
+Categories:
+  - Reading
+License: MIT
+AuthorName: Nima Khajehpour
+AuthorEmail: nima1038khajehpour@gmail.com
+SourceCode: https://github.com/NimaKhajehpour/OpenBooksDownloader
+IssueTracker: https://github.com/NimaKhajehpour/OpenBooksDownloader/issues
+
+AutoName: OpenBooksDownloader
+
+MaintainerNotes:
+  AppAdded: 2023-03-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/NimaKhajehpour/OpenBooksDownloader/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+  PermIgnore:
+    android.permission.WRITE_EXTERNAL_STORAGE: to save the books so they are available outside the app too
+    android.permission.READ_EXTERNAL_STORAGE: to access saved books
+  Status:
+    - 2023-07-29 Nima wants us to keep the app here once it popped up at F-Droid
+    - 2024-12-10 last release 3/2023, last commit 9/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 32159ffba9677d65b84d47ad11b40c24bea81b354e7d6ac9ca597172cc704e61
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

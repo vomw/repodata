@@ -1,0 +1,22 @@
+Categories:
+  - Money
+License: GPL-3.0-only
+AuthorName: Dimas Rian Hastedi
+SourceCode: https://github.com/dimrnhhh/moneytopia
+IssueTracker: https://github.com/dimrnhhh/moneytopia/issues
+Changelog: https://github.com/dimrnhhh/moneytopia/releases
+
+AutoName: Moneytopia
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-02-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dimrnhhh/moneytopia/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: e2b00c283f2d9bf6cada21b652d504d60750ff1b0cd4733ec2bba51309092f5d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

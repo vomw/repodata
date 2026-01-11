@@ -1,0 +1,27 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Darkempire
+SourceCode: https://github.com/clementwzk/OpenCalc
+IssueTracker: https://github.com/clementwzk/OpenCalc/issues
+Translation: https://hosted.weblate.org/engage/opencalc/
+Changelog: https://github.com/clementwzk/OpenCalc/releases
+
+AutoName: OpenCalc - Calculator
+
+MaintainerNotes:
+  AppAdded: 2022-07-27
+  AppRemoved: 2022-08-27 reached F-Droid 2022-08-17
+  AddedBack: 2025-03-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/clementwzk/OpenCalc/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+  Status:
+    - 2025-04-13 android.permission.SYSTEM_ALERT_WINDOW DEPENDENCY_INFO_BLOCK – https://github.com/Darkempire78/OpenCalc/issues/551#issuecomment-2800190208
+
+AllowedAPKSigningKeys: 21050fd6d36798d9758b6ca5202aeb50a5bbbdc756141d94e36f6c8c168c0959
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

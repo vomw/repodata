@@ -1,0 +1,21 @@
+Categories:
+  - Graphics
+  - Internet
+License: Apache-2.0
+AuthorName: KennyC.Developer
+AuthorEmail: kennyc.developer@gmail.com
+SourceCode: https://github.com/Kennyc1012/Opengur
+IssueTracker: https://github.com/Kennyc1012/Opengur/issues
+Changelog: https://github.com/Kennyc1012/Opengur/blob/HEAD/CHANGELOG.MD
+
+MaintainerNotes:
+  AppAdded: 2016-10-24
+  Method: gone
+  Status:
+    - 2017-05-21 Currently unmaintained according to the README.md dated 2016-12-26
+    - 2019-06-25 still works fine on p880 running Android 6.
+    - 2023-03-08 still works fine on the Fox running Android 10 (connections only to Imgur (PCAPDroid))
+
+AllowedAPKSigningKeys: a72983d8be5c15328369dbf9dd8d1927b7b25de51c9fb604e42f4b3b7c78544c
+
+UpdateCheckMode: None

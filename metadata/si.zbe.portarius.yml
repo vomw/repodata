@@ -1,0 +1,31 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-03-17, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-03-17 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Zbe
+AuthorEmail: zbejas@proton.me
+SourceCode: https://github.com/zbejas/portarius
+IssueTracker: https://github.com/zbejas/portarius/issues
+Changelog: https://github.com/zbejas/portarius/releases
+
+AutoName: Portarius
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-09-11
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/example/portarius
+  Status:
+    - 2024-02-22 last release 11/2022, last commit 12/2022, UCM Tags=>Static
+    - 2024-04-17 repo archived 2024-03-17, UCM Static => None
+
+AllowedAPKSigningKeys: c2df04c9ffeccfb75771c9e8dd44a3ea6aef1e9da42354bb25d458d94320f7b7
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

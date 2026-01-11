@@ -1,0 +1,32 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Sanmeet Singh
+AuthorEmail: ssanmeet123@gmail.com
+AuthorWebSite: https://sanmeet007.github.io/
+SourceCode: https://github.com/Sanmeet007/logger
+IssueTracker: https://github.com/Sanmeet007/logger/issues
+Changelog: https://github.com/Sanmeet007/logger/releases
+
+AutoName: Logger
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-04-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Sanmeet007/logger/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_CALL_LOG: needed to read the call logs for export
+    android.permission.WRITE_CALL_LOG: needed to restore call logs from an export
+    android.permission.READ_PHONE_STATE: required on lower Android versions for accessing device state, including SIM card info
+    android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to access the files
+    android.permission.WRITE_EXTERNAL_STORAGE: needed on lower Android versions to save the exports
+    android.permission.READ_CONTACTS: to match contacts to calls
+
+AllowedAPKSigningKeys: 114f6019fb5a6ac74843df902dbeb99e69d5e6099656a3c9f689cf27131400ab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

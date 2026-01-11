@@ -1,0 +1,27 @@
+Categories:
+  - Security
+License: MIT
+AuthorName: Tharun Birla
+SourceCode: https://github.com/tharunbirla/IntruderSelfie
+IssueTracker: https://github.com/tharunbirla/IntruderSelfie/issues
+Changelog: https://github.com/tharunbirla/IntruderSelfie/releases
+
+AutoName: Intruder Selfie
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-07-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/tharunbirla/IntruderSelfie/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.CAMERA: needed to take the selfie
+    android.permission.READ_EXTERNAL_STORAGE: to access the taken selfies
+    android.permission.WRITE_EXTERNAL_STORAGE: to write the taken selfies in a place they can be freely accessed
+    android.permission.ACCESS_MEDIA_LOCATION: to extract the location from selfies taken
+
+AllowedAPKSigningKeys: 496e14998030b3b7bc918bc97f992dc87aedbfe30899c1742d027d8fdae826f6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

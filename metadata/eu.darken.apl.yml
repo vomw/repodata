@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeAssets:
+    en-US: Graphic files, texts etc. are not libre.
+    de: Grafiken, Texte und mehr sind nicht libre.
+  NonFreeNet:
+    en-US: The app depends on airplanes.live.
+    de: Die App benötigt die airplanes.live website.
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Matthias Urhahn
+AuthorEmail: support@darken.eu
+AuthorWebSite: https://darken.eu/
+SourceCode: https://github.com/d4rken-org/airplanes-live-app
+IssueTracker: https://github.com/d4rken-org/airplanes-live-app/issues
+
+AutoName: airplanes.live
+
+MaintainerNotes:
+  AppAdded: 2025-03-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/d4rken-org/airplanes-live-app/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: to get the local place to show air traffic for
+    android.permission.CAMERA: for the integrated QR code scanner
+  Status:
+    - 2025-06-24 v0.5.0-rc0 adds MLKit, so we rolled that back and set UCM Tags=>Static; https://github.com/d4rken/airplanes-live-app/issues/37
+    - 2025-06-25 solved
+    - 2025-08-20 upstreaming our Fastlane metadata via https://github.com/d4rken/airplanes-live-app/pull/47
+
+AllowedAPKSigningKeys: 63866b8aa69d2693832a2f49719023130979fe301a7f5311f4a129cc76308a9a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

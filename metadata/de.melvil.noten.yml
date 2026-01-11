@@ -1,0 +1,27 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: Patrick Pauli
+AuthorEmail: patpp17@web.de
+WebSite: https://noten-lernen.netlify.app/
+SourceCode: https://github.com/MelvilQ/noten-lernen
+IssueTracker: https://github.com/MelvilQ/noten-lernen/issues
+
+AutoName: Learn Music Notes
+
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-04-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/MelvilQ/noten-lernen/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic
+  Status:
+    - 2023-08-18 last release 7/2022, last commit 11/2022, Tags => Static
+    - 2025-11-12 a single new release in 11/2024, but APK still missing despite of multiple reports
+
+AllowedAPKSigningKeys: d711ee41a33434cd6d74bb7614b705fc82f613be070f824b634d3e432314a8e9
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

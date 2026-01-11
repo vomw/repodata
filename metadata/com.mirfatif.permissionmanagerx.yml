@@ -1,0 +1,40 @@
+Categories:
+  - System
+License: AGPL-3.0-or-later
+AuthorName: Irfan Latif
+AuthorEmail: mirfatif.dev@gmail.com
+WebSite: https://mirfatif.github.io/PermissionManagerX/help/help
+SourceCode: https://github.com/mirfatif/PermissionManagerX
+IssueTracker: https://github.com/mirfatif/PermissionManagerX/issues
+Translation: https://crowdin.com/project/pmx
+Changelog: https://github.com/mirfatif/PermissionManagerX/releases
+Donate: https://www.buymeacoffee.com/mirfatif
+Bitcoin: 18ijfsv5fcDKQ6CTe4wycKxZMmti4oUXjW
+
+AutoName: Permission Manager X
+
+MaintainerNotes:
+  AppAdded: 2020-11-08
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss/i
+  ApkIgnore: /-pro\.apk/i
+  NameSpaces:
+    - /com/mirfatif/err
+    - /com/mirfatif/privdaemon
+    - /com/mirfatif/privtasks
+  Fastlane: https://github.com/mirfatif/PermissionManagerX/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,screenshots,icon,featureGraphicJPG
+  Note: at F-Droid since 2021-03-19
+  DoubleList: keep
+  DoubleListRef: https://github.com/mirfatif/PermissionManagerX/issues/1#issuecomment-814942845
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list the apps to manage
+  Status:
+    - 2023-02-11 Tags => Static as no release since 2/2022 (last commit 2/2023 only minors)
+    - 2024-06-25 scanner reports QUERY_ALL_PACKAGES android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE – https://github.com/mirfatif/PermissionManagerX/issues/51
+
+AllowedAPKSigningKeys: 89b9edeed8e45232259d12d7977cfbc5e6671539a1ff54bbfb4f88cd3e900c55
+
+AutoUpdateMode: Version %v-foss
+UpdateCheckMode: Static

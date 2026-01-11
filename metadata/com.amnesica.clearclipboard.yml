@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: amnesica
+AuthorEmail: contact.amnesica@gmail.com
+SourceCode: https://github.com/amnesica/ClearClipboard
+IssueTracker: https://github.com/amnesica/ClearClipboard/issues
+Changelog: https://github.com/amnesica/ClearClipboard/releases
+
+AutoName: Clear Clipboard
+
+MaintainerNotes:
+  AppAdded: 2022-02-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/amnesica/ClearClipboard/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://github.com/amnesica/ClearClipboard/issues/1#issuecomment-1596054151
+  Status:
+    - 2023-06-12 app reached F-Droid 2023-06-02, readme still carries our badge. Asked how to proceed at https://github.com/amnesica/ClearClipboard/issues/1#issuecomment-1586818517
+    - 2023-06-18 answer is to keep
+    - 2024-12-10 last release 5/2023, last commit 6/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 8e3b3bfb8308fa4cd14b9a32deb31e0b15106d25eb6258b6e25c963bebf8b3ee
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,32 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: DrDisagree
+AuthorWebSite: https://mahmud0808.github.io/
+SourceCode: https://github.com/Mahmud0808/ColorBlendr
+IssueTracker: https://github.com/Mahmud0808/ColorBlendr/issues
+Translation: https://crowdin.com/project/ColorBlendr
+Changelog: https://github.com/Mahmud0808/ColorBlendr/releases
+Donate: https://www.buymeacoffee.com/DrDisagree
+
+AutoName: ColorBlendr
+
+MaintainerNotes:
+  AppAdded: 2024-01-12
+  AppRemoved: 2024-02-02 reached F-Droid 2024-01-22 and does not carry our badge
+  AddedBack: 2025-03-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Mahmud0808/ColorBlendr/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: to generate colors from wallpaper, it needs to grab the wallpaper first which can be "anywhere"
+    android.permission.READ_EXTERNAL_STORAGE: to generate colors from wallpaper, it needs to grab the wallpaper first which can be "anywhere"
+    android.permission.READ_MEDIA_IMAGES: to read images to use as wallpaper
+    android.permission.QUERY_ALL_PACKAGES: apps need to be individually themed
+
+AllowedAPKSigningKeys: 4af4ffa12ce90815a1775c4604ea16c19f5bed2a6e09ae7c3c92815982af052e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

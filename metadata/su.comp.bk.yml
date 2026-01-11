@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: 3cky
+AuthorEmail: v.antonovich@gmail.com
+SourceCode: https://github.com/3cky/bkemu-android
+IssueTracker: https://github.com/3cky/bkemu-android/issues
+Changelog: https://github.com/3cky/bkemu-android/releases
+
+AutoName: BkEmu
+
+MaintainerNotes:
+  AppAdded: 2019-02-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/3cky/bkemu-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to read the emulator image files
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 6/2022, last commit 2/2023)
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/3cky/bkemu-android/pull/7
+    - 2025-11-14 last release 4/2025; keeping UCM=Static
+
+AllowedAPKSigningKeys: 6b6820d9fe13c2a1acdfeeb4e1c42b238585b080518ba5407bc77ed23edf8cb6
+
+UpdateCheckMode: Static

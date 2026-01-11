@@ -1,0 +1,30 @@
+Categories:
+  - Religion
+License: AGPL-3.0-or-later
+AuthorName: Irfan Latif
+AuthorEmail: mirfatif.dev@gmail.com
+SourceCode: https://github.com/mirfatif/NoorUlHuda
+IssueTracker: https://github.com/mirfatif/NoorUlHuda/issues
+Translation: https://crowdin.com/project/nuh
+Changelog: https://github.com/mirfatif/NoorUlHuda/releases
+Donate: https://www.buymeacoffee.com/mirfatif
+Bitcoin: 18ijfsv5fcDKQ6CTe4wycKxZMmti4oUXjW
+
+AutoName: نور الهدى
+Name: Noor-Ul-Huda نور الهدى
+
+MaintainerNotes:
+  AppAdded: 2021-07-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/mirfatif/NoorUlHuda/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/9722#note_675305291
+  Status:
+    - 2022-11-07 no release since 9/2021, last code commit 9/2021; switch from Tags to Static
+
+AllowedAPKSigningKeys: 6c1557797bfb6cf8f62e8374f49a89255809d1c93d91fd242545540489182e06
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

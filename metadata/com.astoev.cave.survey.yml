@@ -1,0 +1,27 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains the proprietary Bosch Bluetooth App Kit.
+    de: Die App enthält das proprietäre Bosch Bluetooth App Kit.
+Categories:
+  - Navigation
+License: MIT
+AuthorName: SK Paldin
+AuthorEmail: cave.survey.project@gmail.com
+SourceCode: https://github.com/lz1asl/CaveSurvey
+IssueTracker: https://github.com/lz1asl/CaveSurvey/issues
+Changelog: https://github.com/lz1asl/CaveSurvey/blob/HEAD/changelog.txt
+
+AutoName: CaveSurvey
+
+MaintainerNotes:
+  AppAdded: 2017-07-27
+  Method: github-release
+  Status:
+    - 2021-12-07 switching AUM from Tags to Static (last release was 10/2020)
+    - 2023-08-06 last release 9/2022, last commit 10/2022
+    - 2025-06-09 last release 3/2024, last commit 1/2025
+
+AllowedAPKSigningKeys: 963fd43951b0565588ced3a3bfaa33e49daaf4226a1c59de82425329861720f3
+
+ArchivePolicy: 2
+UpdateCheckMode: Static

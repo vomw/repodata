@@ -1,0 +1,21 @@
+Categories:
+  - Science & Education
+License: Apache-2.0
+AuthorName: ErfanSn
+SourceCode: https://github.com/erfansn/SiliconeCalculator
+IssueTracker: https://github.com/erfansn/SiliconeCalculator/issues
+Changelog: https://github.com/erfansn/SiliconeCalculator/releases
+
+AutoName: Silicon Calculator
+
+MaintainerNotes:
+  AppAdded: 2023-07-27
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-10-05 last release 8/2024, last commit 9/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 6801400afea84a5c2f10373c6cb08996bbe195d4a6cdf0cce5bb62fa367c3478
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

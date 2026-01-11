@@ -1,0 +1,1 @@
+A very simple app that makes a copy of the opened file.

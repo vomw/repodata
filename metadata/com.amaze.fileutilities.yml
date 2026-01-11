@@ -1,0 +1,42 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Team Amaze
+AuthorEmail: vishalmeham2@gmail.com
+AuthorWebSite: https://teamamaze.xyz/
+SourceCode: https://github.com/TeamAmaze/AmazeFileUtilities
+IssueTracker: https://github.com/TeamAmaze/AmazeFileUtilities/issues
+
+AutoName: Amaze File Utilities
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-12-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/TeamAmaze/AmazeFileUtilities/tree/feature/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: project uses Triple-T https://github.com/TeamAmaze/AmazeFileUtilities/blob/feature/app/src/main/play/listings/en-US – Fastlane is our starter package, merged 2025-10-28
+  LibIgnore:
+    - /org/acra
+  NameSpaces:
+    - /ignoreAmbiguousLibs
+    - /com/masoudss/lib
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed for file management
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed for file management on higher Android versions
+    android.permission.QUERY_ALL_PACKAGES: needed to show/group apps
+    android.permission.ACCESS_FINE_LOCATION: needed to identify nearby devices for transfer tab
+    android.permission.ACCESS_COARSE_LOCATION: needed to identify nearby devices for transfer tab
+    android.permission.REQUEST_DELETE_PACKAGES: needed by analysis manager to uninstall apps
+    android.permission.READ_PHONE_STATE: needed to generate unique identifier (device id) for a device that persists even when device is cleaned. This is used to manage user’s purchase / subscription without capturing their private data such as email id.
+  DoubleList: keep
+  DoubleListRef: https://github.com/TeamAmaze/AmazeFileUtilities/issues/107#issuecomment-1550902970
+  Status:
+    - 2023-05-17 on F-Droid now, [asked whether to keep it here](https://github.com/TeamAmaze/AmazeFileUtilities/issues/107#issuecomment-1550902970)
+    - 2024-07-15 scanner reports ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION REQUEST_DELETE_PACKAGES READ_PHONE_STATE DEPENDENCY_INFO_BLOCK – https://github.com/TeamAmaze/AmazeFileUtilities/issues/179
+
+AllowedAPKSigningKeys: fb899a82b2673f9b80c52680fd822e7e820552707123fd1456d926bad8f0b2ad
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains the 7-Zip-JBinding library, which includes non-free code by Unrar.
+    de: Die App enthält die 7-Zip-JBinding Bibliothek, die unfreien Code von Unrar verwendet.
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: FFDA
+SourceCode: https://github.com/FFDA/SourCherry
+IssueTracker: https://github.com/FFDA/SourCherry/issues
+Changelog: https://github.com/FFDA/SourCherry/releases
+
+AutoName: SourCherry
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-08-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FFDA/SourCherry/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Status:
+    - 2025-06-10 fastlane tree was removed 2024-01-27, https://github.com/FFDA/SourCherry/issues/28
+
+AllowedAPKSigningKeys: a7b99a4c9ab10a28c4b68494361f544230630e9750c0e7fa3606512ceb8cb9df
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

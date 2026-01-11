@@ -1,0 +1,1 @@
+read Display Resolution information off your device

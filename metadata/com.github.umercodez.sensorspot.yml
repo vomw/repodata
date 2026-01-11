@@ -1,0 +1,27 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Umer Farooq
+SourceCode: https://github.com/UmerCodez/SensorSpot
+IssueTracker: https://github.com/UmerCodez/SensorSpot/issues
+Changelog: https://github.com/UmerCodez/SensorSpot/releases
+
+AutoName: Sensor Spot
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-09-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/UmerCodez/SensorSpot/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  LibIgnore:
+    - /org/acra
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: for streaming location data
+    android.permission.ACCESS_FINE_LOCATION: for streaming location data
+
+AllowedAPKSigningKeys: cec73bbafd52ff454f9be372367a02b57a151284fafeedbf4613b912c78a8142
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

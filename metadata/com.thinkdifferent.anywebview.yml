@@ -1,0 +1,25 @@
+Categories:
+  - Xposed
+  - System
+License: MIT
+AuthorName: neoblackxt
+AuthorEmail: neoblackxt@outlook.com
+SourceCode: https://github.com/neoblackxt/AnyWebView
+IssueTracker: https://github.com/neoblackxt/AnyWebView/issues
+Changelog: https://github.com/neoblackxt/AnyWebView/releases
+
+AutoName: AnyWebView
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-04-07
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 5/2022, last commit 5/2022)
+    - 2025-11-12 last release/commit 12/2024, keeping UCM=Static
+
+AllowedAPKSigningKeys: 1f9efb5ba6b97f7e34ada302515244ff90e4d8e4802453fb242d593daa565640
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

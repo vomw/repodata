@@ -1,0 +1,26 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses Audius APIs.
+    de: Die App verwendet Audius APIs.
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: RLD-JL
+SourceCode: https://github.com/RLD-JL/Just-Listen
+IssueTracker: https://github.com/RLD-JL/Just-Listen/issues
+Changelog: https://github.com/RLD-JL/Just-Listen/releases
+Bitcoin: bc1qcsuapkvhpy3tlfrmmxhmf2cru9f2ar8cs4605w
+
+AutoName: Just Listen
+
+MaintainerNotes:
+  AppAdded: 2022-05-30
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-11-12 last release/commit 10/2024, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 417b87c8118c09af381272d826d59908ad23f5ebc4e8a445665f84c35b17a850
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

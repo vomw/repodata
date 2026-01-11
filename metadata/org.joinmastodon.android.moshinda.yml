@@ -1,0 +1,38 @@
+Categories:
+  - Social Network
+  - Messaging
+  - Internet
+License: GPL-3.0-only
+AuthorName: LucasGGamerM
+SourceCode: https://github.com/LucasGGamerM/moshidon
+IssueTracker: https://github.com/LucasGGamerM/moshidon/issues
+Changelog: https://github.com/LucasGGamerM/moshidon/releases
+
+AutoName: Moshidon
+
+MaintainerNotes:
+  AppAdded: 2022-12-26
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroidRelease/i
+  NameSpaces:
+    - /org/joinmastodon/android
+  Fastlane: https://github.com/LucasGGamerM/moshidon/tree/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.CAMERA: photos can be made from inside the app to include with your toots
+  DoubleList: keep
+  DoubleListRef: https://github.com/LucasGGamerM/moshidon/issues/275#issuecomment-1843863644
+  Status:
+    - 2023-06-01 asked whether NonFreeNet could be dropped (or must be kept for e.g. joinmastodon.org being required for signup), https://github.com/LucasGGamerM/moshidon/issues/206
+    - 2023-06-01 can be dropped once https://github.com/sk22/megalodon/issues/108 is solved – they are not relying on joinmastodon
+    - 2023-11-21 reached F-Droid 2023-10-30, asked how to proceed https://github.com/LucasGGamerM/moshidon/issues/275#issuecomment-1820083431
+    - 2023-12-07 sent another ping as Lucas seems to have missed the first
+    - 2024-01-27 scanner reports android.permission.CAMERA android.permission.READ_EXTERNAL_STORAGE* – https://github.com/LucasGGamerM/moshidon/issues/336
+    - 2024-05-01 scanner reports android.permission.REQUEST_INSTALL_PACKAGES, added to the above issue
+    - 2025-06-10 fastlane mess due to upstream tags having higher versions than Moshinda’s https://github.com/LucasGGamerM/moshidon/issues/317
+
+AllowedAPKSigningKeys: 1dd4d6db7138335834e3927cc745ad48236abc52252bbb8369e96b8bba777720
+
+AutoUpdateMode: Version .+fork\.%c\.moshinda
+UpdateCheckMode: Tags

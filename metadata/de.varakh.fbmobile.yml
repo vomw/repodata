@@ -1,0 +1,26 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: msm - mobile apps
+AuthorEmail: fb@myservermanager.com
+AuthorWebSite: https://www.varakh.de/
+SourceCode: https://git.myservermanager.com/varakh/fbmobile
+IssueTracker: https://git.myservermanager.com/varakh/fbmobile/issues
+Changelog: https://git.myservermanager.com/varakh/fbmobile/src/branch/develop/CHANGELOG.md
+
+AutoName: FileBin
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-07-24
+  Method: codeberg-release
+  ApkMatch: /arm64-v8a/i
+  GHSkipPre: 1
+  Fastlane: https://git.myservermanager.com/varakh/fbmobile/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: c39f65ba091fbd3114d764566a538429428719339d2ab6ab7da3e9b8ac0cc7c7
+
+AutoUpdateMode: Version %v\+\d+
+UpdateCheckMode: Tags

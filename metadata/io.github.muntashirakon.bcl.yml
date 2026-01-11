@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Muntashir Al-Islam
+AuthorEmail: muntashirakon@riseup.net
+SourceCode: https://github.com/MuntashirAkon/BatteryChargeLimiter
+IssueTracker: https://github.com/MuntashirAkon/BatteryChargeLimiter/issues
+
+AutoName: Battery Charge Limiter
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-08-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/MuntashirAkon/BatteryChargeLimiter/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshotsJPG
+  FastlaneIgnore: changelogs
+  Status:
+    - 2023-08-18 last release 7/2022, last commit 10/2022, Tags => Static
+    - 2025-11-13 now both 7/2024, keeping UCM=Static
+
+AllowedAPKSigningKeys: 320c0c0fe8cef873f2b554cb88c837f1512589dcced50c5b25c43c04596760ab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Daniel Kao
+AuthorEmail: daniel.kao@gmail.com
+SourceCode: https://github.com/plateaukao/quickrotate
+IssueTracker: https://github.com/plateaukao/quickrotate/issues
+Changelog: https://github.com/plateaukao/quickrotate/releases
+
+AutoName: quickrotate
+
+MaintainerNotes:
+  AppAdded: 2022-05-23
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-06-27 last commit/release 2024-04-07; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 85ca929ba5b709f910b7513fd5be1045f0cebf1ad091ab7123ede3380905ba65
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

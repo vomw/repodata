@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses the NextTrace API.
+    de: Die App verwendet die NextTrace API.
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: NextTrace Community
+AuthorEmail: contact@nxtrace.org
+AuthorWebSite: http://www.nxtrace.org/
+SourceCode: https://github.com/nxtrace/NextTraceroute
+IssueTracker: https://github.com/nxtrace/NextTraceroute/issues
+Changelog: https://github.com/nxtrace/NextTraceroute/releases
+
+AutoName: NextTraceroute
+
+MaintainerNotes:
+  AppAdded: 2024-04-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nxtrace/NextTraceroute/tree/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 0406b93202590fd6a7ab6c0d52dad3076e54577cfbd8c99f7bdc663d824a65f0
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

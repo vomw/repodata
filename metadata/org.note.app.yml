@@ -1,0 +1,27 @@
+Categories:
+  - Writing
+  - Office
+License: GPL-3.0-only
+AuthorName: orgnote
+AuthorEmail: app.orgnote@gmail.com
+AuthorWebSite: https://org-note.com/
+WebSite: https://org-note.com/
+SourceCode: https://github.com/Artawower/orgnote-client
+Changelog: https://github.com/Artawower/orgnote-client/releases
+
+AutoName: OrgNote
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-07-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Artawower/orgnote-client/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/Artawower/orgnote-client/pull/40
+
+AllowedAPKSigningKeys: 59c9b5dbf7baa9174ab15848ddbbda5c70331f15737b54b7b2d50fc5c2a8ac92
+
+UpdateCheckMode: Tags

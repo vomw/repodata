@@ -1,0 +1,21 @@
+Categories:
+  - Connectivity
+License: GPL-2.0-only
+AuthorName: jusss
+SourceCode: https://github.com/jusss/BluetoothConnect
+IssueTracker: https://github.com/jusss/BluetoothConnect/issues
+Changelog: https://github.com/jusss/BluetoothConnect/releases
+
+AutoName: OTG Keyboard
+
+MaintainerNotes:
+  AppAdded: 2024-01-11
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-03-23 last release 2024-01-11, last commit 2024-01-15; UCM Tags=>Static
+
+AllowedAPKSigningKeys: b215da2cf8a4c500af0db3bcecb808b49c18dd3584ddb2df451f6e5b92b0edf8
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

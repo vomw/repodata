@@ -1,0 +1,23 @@
+Categories:
+  - Xposed
+  - System
+License: MIT
+AuthorName: Rifat Azad
+SourceCode: https://github.com/rifsxd/process-hook
+IssueTracker: https://github.com/rifsxd/process-hook/issues
+Changelog: https://github.com/rifsxd/process-hook/releases
+
+AutoName: Process Hook
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2024-10-21
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-11-12 last release/commit 11/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 13ef3cf1b4582f7615d11c0d8784bce402d2e1451bf965d2871212ef93fff81a
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

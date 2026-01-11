@@ -1,0 +1,33 @@
+Categories:
+  - Religion
+License: GPL-3.0-only
+AuthorName: AlfaazPlus
+AuthorEmail: alfaazplus@gmail.com
+WebSite: https://quran.alfaazplus.com/
+SourceCode: https://github.com/AlfaazPlus/QuranApp
+IssueTracker: https://github.com/AlfaazPlus/QuranApp/issues
+Translation: https://hosted.weblate.org/projects/QuranApp/#languages
+Changelog: https://github.com/AlfaazPlus/QuranApp/releases
+
+AutoName: QuranApp
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-03-04
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/peacedesign/android/widget
+  Fastlane: https://github.com/AlfaazPlus/QuranApp/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshotsJPG
+  Status:
+    - 2023-03-13 app has an open RFP at F-Droid. Author wants it to stay here once it shows up there, see https://github.com/AlfaazPlus/QuranApp/pull/99#issuecomment-1465748033
+    - 2024-01-14 updater reports usesCleartextTraffic, asked for clarification https://github.com/AlfaazPlus/QuranApp/issues/423
+    - 2024-01-15 will be removed in the next version
+    - 2025-02-16 signing key changed and was not yet verified, UCM Tags=>Static for now, see https://github.com/AlfaazPlus/QuranApp/issues/474#issuecomment-2661163323
+    - 2025-03-02 switch confirmed by mail (which changed from support@alfaazplus.com to alfaazplus@gmail.com – listed such at PlayStore and at their website)
+
+AllowedAPKSigningKeys: bd604d1f57e3329b6f9fc4dad3ea8f083c5b07d0ca694f67ff8a2a69ac8ac4fb
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

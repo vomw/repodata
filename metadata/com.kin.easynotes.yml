@@ -1,0 +1,27 @@
+Categories:
+  - Writing
+License: GPL-3.0-or-later
+AuthorName: Kin69
+AuthorEmail: k1nS4@proton.me
+SourceCode: https://github.com/Kin69/EasyNotes
+IssueTracker: https://github.com/Kin69/EasyNotes/issues
+Translation: https://hosted.weblate.org/projects/easy-notes/
+Changelog: https://github.com/Kin69/EasyNotes/releases
+
+AutoName: Easy Notes
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-05-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Kin69/EasyNotes/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  Status:
+    - 2024-07-14 reached F-Droid 2024-05-30, RB on both ends, marking for keep
+
+AllowedAPKSigningKeys: fce87da97f791301df390bfa47e81685191167cab5dbd555db8287541f786e28
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

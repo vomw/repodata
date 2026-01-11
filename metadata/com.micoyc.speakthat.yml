@@ -1,0 +1,50 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: M.I.C.O.Y.C
+AuthorEmail: oceanstream72@gmail.com
+AuthorWebSite: https://www.micoyc.net/
+SourceCode: https://github.com/mitchib1440/SpeakThat
+IssueTracker: https://github.com/mitchib1440/SpeakThat/issues
+Changelog: https://github.com/mitchib1440/SpeakThat/releases
+
+AutoName: 'SpeakThat! Notification Reader'
+
+MaintainerNotes:
+  AppAdded: 2025-07-25
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /NoUpdater/i
+  Fastlane: https://github.com/mitchib1440/SpeakThat/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: FAstlane is our starter package
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: optionally used for some convenience features, once explicitly agreed
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: required for Bluetooth scanning on newer versions of Android
+    android.permission.ACCESS_FINE_LOCATION: required for Bluetooth scanning on newer versions of Android
+    android.permission.BLUETOOTH: used for the Conditional Rules feature
+    android.permission.BLUETOOTH_ADMIN: used for the Conditional Rules feature
+    android.permission.BLUETOOTH_CONNECT: used for the Conditional Rules feature
+    android.permission.BLUETOOTH_SCAN: used for the Conditional Rules feature
+    android.permission.NEARBY_WIFI_DEVICES: used for the Conditional Rules feature
+    android.permission.ACCESS_WIFI_STATE: used for the Conditional Rules feature
+    android.permission.ACCESS_NETWORK_STATE: used for the Conditional Rules feature
+    android.permission.READ_EXTERNAL_STORAGE: used for the settings export/import feature
+    android.permission.WRITE_EXTERNAL_STORAGE: used for the settings export/import feature
+    android.permission.BIND_NOTIFICATION_LISTENER_SERVICE: to get informed about new notifications to speak
+    android.permission.MODIFY_AUDIO_SETTINGS: for some TTS options, to eg. select an audio stream type and lower media volume when speaking
+    android.permission.RECEIVE_BOOT_COMPLETED: to ensure the service gets enabled on device startup
+    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: to prevent the system from stopping the app
+    android.permission.INTERNET: to download TTS voices from the network
+    android.permission.POST_NOTIFICATIONS: to have a persistent notification when the app is active, and another when it’s actively speaking
+    android.permission.READ_PHONE_STATE: to keep the app from talking during phone calls
+    android.permission.BIND_QUICK_SETTINGS_TILE: for a quick settings tile option to easily disable/enable SpeakThat
+  Status:
+    - 2025-08-02 DEPENDENCY_INFO_BLOCK android.permission.REQUEST_INSTALL_PACKAGES ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION BLUETOOTH_SCAN NEARBY_WIFI_DEVICES android.permission.READ_EXTERNAL_STORAGE* – https://github.com/mitchib1440/SpeakThat/issues/11
+    - 2025-11-23 dev informs about adding support for Tasker and Macrodroid. It is optional and opt-in, intent based, and works with any automation app, so no NonFreeAdd needed; https://github.com/mitchib1440/SpeakThat/discussions/41#discussioncomment-15033252
+
+AllowedAPKSigningKeys: 42e2e0fb7b791ce6440f72e0cdb1c71a37d07439996af23f8f32912b4663f4b5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

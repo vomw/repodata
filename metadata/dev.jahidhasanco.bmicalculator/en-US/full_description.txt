@@ -1,0 +1,1 @@
+<p><i>BMI Calculator</i> is a convenient BMI (Body Mass Index) calculator for Android devices. It not only measures body fat based on height and weight, but also diversifies on gender (m/f/d). Measures apply to adult people.</p>

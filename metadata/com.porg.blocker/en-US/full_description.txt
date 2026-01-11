@@ -1,0 +1,1 @@
+<p><i>Disconnect</i> is a simple app that locks Android devices for a set time, with nice visuals. To achieve this, it requires Device Admin privileges.</p><p>Privacy is taken seriously. Disconnect requires only the permissions it needs, can't access the internet and is open source so you can check that it doesn't abuse any permission it needs.</p>

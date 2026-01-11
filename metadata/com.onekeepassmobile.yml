@@ -1,0 +1,31 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: OneKeePass
+AuthorEmail: onekeepass@gmail.com
+SourceCode: https://github.com/OneKeePass/mobile
+IssueTracker: https://github.com/OneKeePass/mobile/issues
+Translation: https://github.com/OneKeePass/onekeepass-translations
+Changelog: https://github.com/OneKeePass/mobile/releases
+
+AutoName: OneKeePass Password Manager
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-11-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/OneKeePass/mobile/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /onekeepass/mobile
+  Status:
+    - 2024-04-16 update added MLKit, Firebase, GMS; removing the update, UCM Tags->Static until solved – https://github.com/OneKeePass/mobile/issues/23
+    - 2024-05-30 fixed, re-enabling daily update checks
+    - 2025-08-11 upstreaming our Fastlane via https://github.com/OneKeePass/mobile/pull/44
+
+AllowedAPKSigningKeys: 762e63c92f7c5201482bb8a494fbdca41703fb141c8ad46309e7dc3e76d95b27
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

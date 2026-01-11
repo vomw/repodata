@@ -1,0 +1,32 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: ECHOO
+AuthorEmail: vishalsingh2376@gmail.com
+SourceCode: https://github.com/vishal2376/scroll-block
+IssueTracker: https://github.com/vishal2376/scroll-block/issues
+Changelog: https://github.com/vishal2376/scroll-block/releases
+
+AutoName: Scroll Block
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-06-25
+  Method: github-release
+  GHSkipPre: 1
+  X-Fastlane: https://github.com/vishal2376/scroll-block/blob/master/fastlane/metadata/android
+  X-FastlaneFeatures: title,shortdesc,fulldesc,icon,featureGraphic,screenshots
+  LibIgnore:
+    - /org/acra
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: needed to detect and block specific layouts in apps
+  Status:
+    - 2024-07-13 repo was removed, setting NoSourceSince and disabling updates (from UCM Tags)
+    - 2025-05-15 found a fork at https://github.com/Jujubalandia/scroll-block
+
+AllowedAPKSigningKeys: e8f67d29d9000bb24e95657c5d90792d548c276cbf7c304fcd41d6463f5dd8eb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None
+
+NoSourceSince: 1.0-beta02

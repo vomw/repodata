@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app uses parts of Google Mobile Services framework, which are proprietary.
+    de: Die App verwendet Teile aus dem Google Mobile Services Framework, die proprietär sind.
+  NonFreeNet:
+    en-US: The app connects to OpenWeatherMap for weather data.
+    de: Die App verbindet sich zu OpenWeatherMap für Wetterdaten.
+Categories:
+  - Weather
+License: MIT
+AuthorName: TangoBee
+AuthorEmail: hello.weathernaut@outlook.com
+AuthorWebSite: https://tangobee.netlify.app/
+WebSite: https://tangobee.netlify.app/Weathernaut
+SourceCode: https://github.com/TangoBeee/Weathernaut
+IssueTracker: https://github.com/TangoBeee/Weathernaut/issues
+
+AutoName: Weathernaut - Music by Weather
+
+MaintainerNotes:
+  AppAdded: 2024-01-01
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-28 scanner reports usesCleartextTraffic DEPENDENCY_INFO_BLOCK android.permission.ACCESS_COARSE_LOCATION – https://github.com/TangoBeee/Weathernaut/issues/1
+    - 2024-02-29 fixed
+    - 2025-10-06 dormant since 9/2024, UCM Tags=>Static
+
+AllowedAPKSigningKeys: a0139ca85bd5a92969c7a342074c8fc0461fbea7d652fe64d2971bc8d5c0a8ec
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

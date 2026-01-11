@@ -1,0 +1,24 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: HyperApps
+AuthorEmail: hyperapps2k19@gmail.com
+SourceCode: https://gitlab.com/hyperapps19/matrixsolver
+IssueTracker: https://gitlab.com/hyperapps19/matrixsolver/issues
+
+AutoName: Matrix Solver
+
+MaintainerNotes:
+  AppAdded: 2020-12-31
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Status:
+    - 0000-00-00 no commits since 12/2020, switching UCM from Tags to Static
+    - 2023-08-08 and the author seems to have deleted its account, so disabling updates
+    - 2025-02-17 account & repo are back, but no changes to be seen
+    - 2025-11-24 reported by multiple people to still work fine, so we keep it; see https://codeberg.org/IzzyOnDroid/EverythingElse/issues/14
+
+AllowedAPKSigningKeys: cbaca7e92fd800c86a92932d35b2d89d61acb4110163fa6c09a69fdfcc525175
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

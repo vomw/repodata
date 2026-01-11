@@ -1,0 +1,24 @@
+Categories:
+  - Games
+License: GPL-3.0-only
+AuthorName: Your Average Code
+AuthorWebSite: https://uravgcode.com/
+SourceCode: https://github.com/UrAvgCode/Chooser
+IssueTracker: https://github.com/UrAvgCode/Chooser/issues
+Changelog: https://github.com/UrAvgCode/Chooser/releases
+
+AutoName: Chooser
+
+MaintainerNotes:
+  AppAdded: 2024-01-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /gplay/i
+  Fastlane: https://github.com/UrAvgCode/Chooser/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 6d0e376dc6a19ea8430f8dcbe29eca57c1c0146595c1dcc75886ec8bf4d09963
+
+AutoUpdateMode: Version v\.%v
+UpdateCheckMode: Tags

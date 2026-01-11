@@ -1,0 +1,27 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Niklas Sauter
+AuthorEmail: niklas.sauter@gmx.de
+SourceCode: https://github.com/nn1ks/RemoteFiles
+IssueTracker: https://github.com/nn1ks/RemoteFiles/issues
+Changelog: https://github.com/nn1ks/RemoteFiles/releases
+
+AutoName: RemoteFiles
+
+MaintainerNotes:
+  AppAdded: 2019-07-21
+  Method: github-release
+  GHSkipPre: 0
+  Fastlane: https://github.com/nn1ks/RemoteFiles/tree/master/android/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/example/remote_files
+  Status:
+    - 2020-10-12 no updates for 1y 0m 2d, switch from Tags to Static
+    - 2023-08-07 last pre-release 10/2019 (a release never happened), last commit 10/2019, issues unanswered though author occasionally active – disabling updates
+
+AllowedAPKSigningKeys: 970cfb36ea5c1d138622f6c906eda619d8c6ee06bfddbf8c3553cc7f2d29c9ed
+
+ArchivePolicy: 1
+UpdateCheckMode: None

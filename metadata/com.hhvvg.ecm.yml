@@ -1,0 +1,24 @@
+Categories:
+  - Xposed
+  - System
+License: Apache-2.0
+AuthorName: gitofleonardo
+AuthorWebSite: https://gitofleonardo.github.io/
+SourceCode: https://github.com/gitofleonardo/ExtClipboardManager
+IssueTracker: https://github.com/gitofleonardo/ExtClipboardManager/issues
+
+AutoName: ExtClipboardManager
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-04-11
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 7/2022, last commit 10/2022)
+    - 2026-01-09 still no new commits; disable update checks entirely now
+
+AllowedAPKSigningKeys: 9452907019d240a2e7dc42b720a753d753f7f6013895936d651c5c854a46715a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

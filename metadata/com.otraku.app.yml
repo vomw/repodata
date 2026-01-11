@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: AniList servers are not libre.
+    de: Die Server von AniList sind nicht libre.
+Categories:
+  - Multimedia
+  - Internet
+License: GPL-3.0-only
+AuthorName: lotusprey
+SourceCode: https://github.com/lotusprey/otraku
+IssueTracker: https://github.com/lotusprey/otraku/issues
+Changelog: https://github.com/lotusprey/otraku/releases
+
+AutoName: Otraku for AniList
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-09-29
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/lotusprey/otraku/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Status:
+    - 2023-08-31 author lost key on re-install, see https://github.com/lotusprey/otraku/issues/101
+    - 2025-08-01 versionCode decrased from 2084 to just 86 (most likely the Flutter 3.32.0 bug); UCM Tags=>Static until solved. https://github.com/lotusprey/otraku/issues/207
+
+AllowedAPKSigningKeys: c457425b3509ff88b9c8bf6d5b0c9e48bbde9b96c3f2af7570321a211a803e12
+
+AutoUpdateMode: Version v\.%v
+UpdateCheckMode: Tags
+VercodeOperation: '%c - 2000'

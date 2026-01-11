@@ -1,0 +1,1 @@
+<p><i>Notie</i> is a note-taking app which complies with Material You specifications. It supports Markdown and comes with an integrated Markdown viewer as well as Markdown highlighting support in the editor.</p>

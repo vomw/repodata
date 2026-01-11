@@ -1,0 +1,26 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app automatically connects to several proprietary providers.
+    de: Die App verbindet sich automatisch mit mehreren proprietären Providern.
+Categories:
+  - Internet
+License: MIT
+AuthorName: Prajwal Chapagain
+AuthorEmail: prajwal.chapagain58@gmail.com
+SourceCode: https://github.com/prajwalch/TorrentSearch
+IssueTracker: https://github.com/prajwalch/TorrentSearch/issues
+Changelog: https://github.com/prajwalch/TorrentSearch/releases
+
+AutoName: Torrent Search
+
+MaintainerNotes:
+  AppAdded: 2025-07-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/prajwalch/TorrentSearch/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 629a46192b89e1b89b787ccba01e40048adf975d6a8140d449f2db5bde396064
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

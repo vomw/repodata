@@ -1,0 +1,23 @@
+Categories:
+  - Xposed
+  - System
+License: GPL-3.0-only
+AuthorName: Strawing
+SourceCode: https://github.com/liyafe1997/FuckDevicePolicy
+IssueTracker: https://github.com/liyafe1997/FuckDevicePolicy/issues
+Changelog: https://github.com/liyafe1997/FuckDevicePolicy/releases
+
+AutoName: FuckDevicePolicy
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-02-06
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-22 last release 2/2023, last commit 2/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 0dc48b44e42eb498aa91a2fc77325198a09d3608ee2cfbcbd69a8e52ff579edf
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

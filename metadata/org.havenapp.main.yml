@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Guardian Project
+AuthorEmail: support@guardianproject.info
+WebSite: https://guardianproject.github.io/haven/
+SourceCode: https://github.com/guardianproject/haven
+IssueTracker: https://github.com/guardianproject/haven/issues
+Translation: https://hosted.weblate.org/projects/guardianproject/haven/
+Changelog: https://github.com/guardianproject/haven/releases
+Donate: https://freedom.press/donate-support-haven-open-source-project/
+
+MaintainerNotes:
+  AppAdded: 2017-12-18
+  Method: github-release
+  Fastlane: https://github.com/guardianproject/haven/tree/master/fastlane/android/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,featureGraphicJPG,icon
+  FastlaneIgnore: screenshots,changelogs
+  Note: Fastlane screenshots need selection, quite a lot of locales; changelogs have not been updated for 2 years
+  Status:
+    - 2021-06-20 switching from tags to static (tag name mismatch results in daily download, last update was 12/2019)
+    - 2023-08-08 last release 7/2021, last commit 10/2022
+
+AllowedAPKSigningKeys: f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a
+
+ArchivePolicy: 2
+UpdateCheckMode: Static
+AutoUpdateMode: Version %v

@@ -1,0 +1,21 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Ori Kerer
+SourceCode: https://github.com/kerero/airdots-double-tap
+IssueTracker: https://github.com/kerero/airdots-double-tap/issues
+Changelog: https://github.com/kerero/airdots-double-tap/releases
+
+AutoName: Double Tap - Next Song
+
+MaintainerNotes:
+  AppAdded: 2022-06-24
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 2/2022, last commit 6/2022)
+
+AllowedAPKSigningKeys: 085c25336b97d28d10137f525fdb0a89c929d4fc15660fc2f4948f49d3ae5902
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

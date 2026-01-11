@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Philipp Crocoll
+SourceCode: https://github.com/PhilippC/kp2a_keyboardswap
+IssueTracker: https://github.com/PhilippC/kp2a_keyboardswap/issues
+Donate: https://github.com/sponsors/PhilippC
+Liberapay: PhilippC
+
+AutoName: KeyboardSwap Plugin for KP2A
+
+MaintainerNotes:
+  AppAdded: 2020-06-15
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 6/2020)
+    - 2023-08-08 last release 6/2020, last commit 6/2020, author still active
+    - 2026-01-11 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: 0bf8056d3a394ed7c77173c4b42c800565b4f0a42977569cf3472c271c562939
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

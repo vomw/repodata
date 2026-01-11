@@ -1,0 +1,27 @@
+Categories:
+  - Xposed
+  - System
+License: MIT
+AuthorName: anago
+SourceCode: https://github.com/auag0/HideMockLocation
+IssueTracker: https://github.com/auag0/HideMockLocation/issues
+Changelog: https://github.com/auag0/HideMockLocation/releases
+
+AutoName: HideMockLocation
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2025-06-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/auag0/HideMockLocation/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-11-13 found repo archived 2025-11-02
+    - 2025-12-03 repo unarchived again; upstreaming our local Fastlane metadata via https://github.com/auag0/HideMockLocation/pull/8
+
+AllowedAPKSigningKeys: 06c19b8aeb0fdf14bef31ea34834d6ba7a3f38856728ff1fa35e334ef7fc2db1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

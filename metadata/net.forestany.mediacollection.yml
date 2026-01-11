@@ -1,0 +1,23 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Rene Arentz 
+AuthorWebSite: https://forestany.net/cv.php
+SourceCode: https://github.com/ReneArentz/net.forestany.mediacollection
+IssueTracker: https://github.com/ReneArentz/net.forestany.mediacollection/issues
+Changelog: https://github.com/ReneArentz/net.forestany.mediacollection/releases
+
+AutoName: Media Collection
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-08-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ReneArentz/net.forestany.mediacollection/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: ae27c800c76d6a2e9a3f4442733f3343629213443fd81b4521d4c758a3555871
+
+AutoUpdateMode: Version Media_Collection_%v
+UpdateCheckMode: Tags

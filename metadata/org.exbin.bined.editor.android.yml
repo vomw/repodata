@@ -1,0 +1,35 @@
+Categories:
+  - Science & Education
+  - Development
+License: Apache-2.0
+AuthorName: ExBin Project
+SourceCode: https://github.com/exbin/bined-android
+IssueTracker: https://github.com/exbin/bined-android/issues
+Changelog: https://github.com/exbin/bined-android/releases
+
+AutoName: BinEd
+
+MaintainerNotes:
+  AppAdded: 2024-10-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/exbin/bined-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /com/examples/customtouch
+    - /org/exbin/bined/android
+    - /org/exbin/bined/basic
+    - /org/exbin/bined/capability
+    - /org/exbin/bined/color
+    - /org/exbin/bined/highlight
+    - /org/exbin/bined/operation
+    - /org/exbin/framework/bined
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to access the files for editing
+    android.permission.WRITE_EXTERNAL_STORAGE: to access the files for editing
+
+AllowedAPKSigningKeys: 82cf998baecbf6bac92c47627b06c352a7261cc0840fdcbde1394944e94ba946
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

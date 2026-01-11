@@ -1,0 +1,34 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to YouTube (obviously).
+    de: Die App baut Verbindungen zu Google Servern auf (YouTube).
+Categories:
+  - Internet
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Libre-Tube
+SourceCode: https://github.com/libre-tube/LibreTube
+IssueTracker: https://github.com/libre-tube/LibreTube/issues
+Translation: https://hosted.weblate.org/projects/libretube/#languages
+Changelog: https://github.com/libre-tube/LibreTube/releases
+
+AutoName: LibreTube
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-02-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /universal/i
+  Fastlane: https://github.com/libre-tube/LibreTube/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://github.com/libre-tube/LibreTube/issues/433#issuecomment-1152899320
+  Status:
+    - 2022-04-02 app removed because it reached F-Droid 2022-03-19
+    - 2022-06-11 app re-esablished on request https://github.com/libre-tube/LibreTube/issues/433#issuecomment-1152899320
+
+AllowedAPKSigningKeys: 720c4fcecf738a41d033b9fbe0bef97ac232030ce93e274d2e0ae232e44eeace
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,38 @@
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: Kiwix
+AuthorEmail: contact+github@kiwix.org
+AuthorWebSite: https://kiwix.org/
+WebSite: https://www.kiwix.org/
+SourceCode: https://github.com/kiwix/kiwix-android
+IssueTracker: https://github.com/kiwix/kiwix-android/issues
+Changelog: https://github.com/kiwix/kiwix-android/blob/HEAD/CHANGELOG
+
+AutoName: Kiwix
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-05-19
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/kiwix/kiwix-android/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
+  NameSpaces:
+    - /com/cprcrack/videowebview
+    - /org/kiwix/kiwixmobile
+    - /org/kiwix/videowebview
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: used on Android < 13 to discover peer-to-peer (P2P) devices for transferring ZIM files to nearby devices
+    android.permission.NEARBY_WIFI_DEVICES: used on Android ≥ 13 to discover peer-to-peer (P2P) devices for transferring ZIM files to nearby devices
+    android.permission.MANAGE_EXTERNAL_STORAGE: used to load the sideloaded ZIM files on Android ≥ 11
+    android.permission.READ_EXTERNAL_STORAGE: used to load the sideloaded ZIM files on Android < 11
+  Status:
+    - 2024-12-18 3.13.0 has wrong files attached, UCM Tags=>Static until solved – https://github.com/kiwix/kiwix-android/issues/4128#issuecomment-2551151421
+    - 2024-12-30 migrated from org.kiwix.kiwixmobile
+
+AllowedAPKSigningKeys: 6dfbfc62e16587a78aa2d9585ae9bb7f6973c2bf84034b7b90101a401409f5aa
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

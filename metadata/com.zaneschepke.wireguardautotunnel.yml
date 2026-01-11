@@ -1,0 +1,36 @@
+Categories:
+  - Internet
+  - Security
+License: MIT
+AuthorName: Zane Schepke
+AuthorEmail: support@wgtunnel.com
+WebSite: https://wgtunnel.com/
+SourceCode: https://github.com/wgtunnel/wgtunnel
+IssueTracker: https://github.com/wgtunnel/wgtunnel/issues
+Translation: https://hosted.weblate.org/engage/wg-tunnel/
+Changelog: https://github.com/wgtunnel/wgtunnel/releases
+
+AutoName: WG Tunnel
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-11-06
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid.*arm64/i
+  ApkIgnore: /standalone/i
+  Fastlane: https://github.com/wgtunnel/wgtunnel/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  IntentFilterIgnore:
+    android.net.VpnService: this is a VPN app.
+  PermIgnore:
+    android.permission.CAMERA: for the integrate QR Code reader
+    android.permission.ACCESS_COARSE_LOCATION: needed to access WiFi functionality
+    android.permission.ACCESS_FINE_LOCATION: needed to access WiFi functionality
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed to access WiFi functionality
+    android.permission.QUERY_ALL_PACKAGES: to select apps for special handling
+
+AllowedAPKSigningKeys: 5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

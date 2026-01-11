@@ -1,0 +1,29 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: FlorisBoard
+AuthorWebSite: https://patrickgold.dev/
+SourceCode: https://github.com/florisboard/florisboard
+IssueTracker: https://github.com/florisboard/florisboard/issues
+Changelog: https://github.com/florisboard/florisboard/releases
+AutoName: FlorisBoard
+
+MaintainerNotes:
+  AppAdded: 2025-08-30
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /stable/i
+  Fastlane: https://github.com/florisboard/florisboard/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  IntentFilterIgnore:
+    android.view.InputMethod: being a keyboard app this intent filter is needed
+  NameSpaces:
+    - /dev/patrickgold/florisboard
+    - /org/florisboard/lib
+    - /org/florisboard/libnative
+
+AllowedAPKSigningKeys: 0b807164508eafeb1fbb815be7a23c77fe689d94b14375c99bdaa9b6577fd6d6
+
+ArchivePolicy: 2
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

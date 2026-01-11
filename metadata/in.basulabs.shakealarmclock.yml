@@ -1,0 +1,37 @@
+Categories:
+  - Time
+License: AGPL-3.0-only
+AuthorName: Wrichik Basu
+SourceCode: https://github.com/WrichikBasu/ShakeAlarmClock
+IssueTracker: https://github.com/WrichikBasu/ShakeAlarmClock/issues
+Changelog: https://github.com/WrichikBasu/ShakeAlarmClock/releases
+
+AutoName: Shake Alarm Clock
+
+MaintainerNotes:
+  AppAdded: 2022-01-28
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: used on newer Android versions to pick a custom alarm tone
+    android.permission.READ_EXTERNAL_STORAGE: used on older Android versions to pick a custom alarm tone
+    android.permission.USE_EXACT_ALARM: needed to that the system will wake up from doze mode when the alarm rings (Android 13+)
+    android.permission.SCHEDULE_EXACT_ALARM: needed to that the system will wake up from doze mode when the alarm rings (Android 12)
+    com.android.alarm.permission.SET_ALARM: required to set alarms
+    android.permission.POST_NOTIFICATIONS: needed to post notifications and to e.g. show the „dismiss“ option when an alarm rings
+    android.permission.ACCESS_NOTIFICATION_POLICY: needed to change the Do Not Disturb settings of the device to make sure that an alarm rings
+    android.permission.VIBRATE: used to vibrate the device when alarm is ringing
+    android.permission.WAKE_LOCK: needed to show alarm screen when an alarm is ringing
+    android.permission.DISABLE_KEYGUARD: needed to the show alarm screen when an alarm is ringing
+    android.permission.USE_FULL_SCREEN_INTENT: needed to the show alarm screen when an alarm is ringing
+    android.permission.FOREGROUND_SERVICE: needed to ring the alarm and keep it snoozed
+    android.permission.RECEIVE_BOOT_COMPLETED: needed to restore alarms when the device boots
+    android.permission.FOREGROUND_SERVICE_SPECIAL_USE: needed to tell the system the type of foreground Service that the app uses
+  Status:
+    - 2024-02-22 scanner reports android.permission.READ_MEDIA_AUDIO android.permission.READ_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK – https://github.com/WrichikBasu/ShakeAlarmClock/discussions/72
+    - 2025-03-23 last release/commit 2024-02-24; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 60cf39729f6230fd0df6849d11d75b7884279ed89c1c082acdbb7238bcd6e5b4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

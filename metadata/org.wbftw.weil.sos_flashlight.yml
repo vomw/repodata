@@ -1,0 +1,24 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Weil Jimmer
+AuthorEmail: me@weils.net
+AuthorWebSite: https://weils.net/
+WebSite: https://sosflashlight.weil.app.wbftw.org/privacy
+SourceCode: https://github.com/WeilJimmer/SOSFlashlightApp
+IssueTracker: https://github.com/WeilJimmer/SOSFlashlightApp/issues
+Changelog: https://github.com/WeilJimmer/SOSFlashlightApp/releases
+
+AutoName: SOS Flashlight Morse Code Tool
+
+MaintainerNotes:
+  AppAdded: 2025-08-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/WeilJimmer/SOSFlashlightApp/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 2835badb45302f83c3cd91c6c480cf0d3acb7a3d26a4cc02c39f580f56e5ec1e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

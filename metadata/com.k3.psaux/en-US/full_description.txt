@@ -1,0 +1,1 @@
+<p>Android task manager and automated background service killer. Features:</p><ul><li>Shows linux ps command output.</li><li>Shows detailed information about processes.</li><li>AutoKill (Terminate selected background services constantly)</li><li>App Widget (for starting autokill service)</li><li>Optional ps command arguments.</li></ul>

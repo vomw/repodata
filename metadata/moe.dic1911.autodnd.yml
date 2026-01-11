@@ -1,0 +1,30 @@
+Categories:
+  - Automation
+License: AGPL-3.0-only
+AuthorName: dic1911
+AuthorEmail: d69873@gmail.com
+SourceCode: https://github.com/dic1911/android_AutoDND
+IssueTracker: https://github.com/dic1911/android_AutoDND/issues
+
+AutoName: AutoDND
+
+MaintainerNotes:
+  AppAdded: 2021-11-04
+  AppRemoved: 2021-11-26 arrived at F-Droid 2021-11-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dic1911/android_AutoDND/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: used to monitor the app currently used to know when to activate DND
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to select apps
+  Status:
+    - 2025-06-27 last release 2024-04-13; UCM Tags=>Static
+    - 2025-11-13 a single new release 8/2025 keeping UCM=Static
+
+AllowedAPKSigningKeys: 10f908c76ee29de227c0073f6c6e4bcde728b5d485047df71b7147df54020012
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

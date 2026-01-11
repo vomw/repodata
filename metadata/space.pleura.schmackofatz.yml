@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app needs to access the canteen plans.
+    de: Die App muss auf die Mensa-Pläne zugreifen.
+Categories:
+  - Food
+License: GPL-3.0-only
+AuthorName: Matti
+AuthorWebSite: https://pleura.space/
+SourceCode: https://github.com/mattipunkt/schmackofatz
+IssueTracker: https://github.com/mattipunkt/schmackofatz/issues
+Changelog: https://github.com/mattipunkt/schmackofatz/releases
+
+AutoName: Schmackofatz
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-11-08
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/mattipunkt/schmackofatz/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 563722ad02c17ee0045198089127e0b2602dbfcf318e4a94c94b772a5335fee9
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

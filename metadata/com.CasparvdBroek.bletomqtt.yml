@@ -1,0 +1,37 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: Caspar van den Broek
+SourceCode: https://github.com/CasparvdBroek/BLEtoMQTT
+IssueTracker: https://github.com/CasparvdBroek/BLEtoMQTT/issues
+Changelog: https://github.com/CasparvdBroek/BLEtoMQTT/releases
+Donate: https://www.paypal.com/ncp/payment/9BSAN369THJBA
+Bitcoin: 1GdXrcWKAnSoYb8tRLWF5xtMsrM9HkFBHk
+
+AutoName: BLEtoMQTT
+
+MaintainerNotes:
+  AppAdded: 2025-04-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CasparvdBroek/BLEtoMQTT/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: our starter package
+  PermIgnore:
+    android.permission.INTERNET: to reach the MQTT broker
+    android.permission.ACCESS_COARSE_LOCATION: required by Bluetooth
+    android.permission.ACCESS_FINE_LOCATION: required by Bluetooth
+    android.permission.READ_EXTERNAL_STORAGE: to access the setup.json file
+    android.permission.RECEIVE_BOOT_COMPLETED: to allow the service to auto-start on boot
+    android.permission.POST_NOTIFICATIONS: to show the permanent notification that the service is running
+    android.permission.FOREGROUND_SERVICE: to allow the app to run as foreground service
+    android.permission.BLUETOOTH_SCAN: to discover Bluetooth devices
+  Status:
+    - 2025-04-10 android.permission.SYSTEM_ALERT_WINDOW READ_EXTERNAL_STORAGE android.permission.MANAGE_EXTERNAL_STORAGE android.permission.ACTION_MANAGE_OVERLAY_PERMISSION (gone again)
+
+AllowedAPKSigningKeys: 5e1549758195e872d984f9f8347a526d6a922c57416dfe5ecdf35bed7998b1b9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
+
+

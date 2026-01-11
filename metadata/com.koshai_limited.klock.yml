@@ -1,0 +1,25 @@
+Categories:
+  - Games
+License: GPL-3.0-or-later
+AuthorName: M.H. Rahman Kwoshik
+AuthorEmail: rootovertwo8004@tutanota.com
+SourceCode: https://codeberg.org/rootminusone8004/Klock
+IssueTracker: https://codeberg.org/rootminusone8004/Klock/issues
+Changelog: https://codeberg.org/rootminusone8004/Klock/src/branch/master/CHANGELOG.org
+
+AutoName: Klock
+
+MaintainerNotes:
+  AppAdded: 2024-08-11
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/rootminusone8004/Klock/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  Status:
+    - 2025-12-17 last release 2024-08-15, last commit 2024-12-03; UCM Tags=>Static for now.
+
+AllowedAPKSigningKeys: da6a2520852fe33ad6e02a3bc8441d55c52650b54651ab65e143d120bec8e0c5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

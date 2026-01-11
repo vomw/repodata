@@ -1,0 +1,27 @@
+Categories:
+  - Phone & SMS
+License: MIT
+AuthorName: Bastian
+SourceCode: https://github.com/Kaiserdragon2/CallForwarding
+IssueTracker: https://github.com/Kaiserdragon2/CallForwarding/issues
+Changelog: https://github.com/Kaiserdragon2/CallForwarding/releases
+
+AutoName: CallForwardingStatus
+
+MaintainerNotes:
+  AppAdded: 2022-12-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Kaiserdragon2/CallForwarding/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshotsJPG
+  FastlaneIgnore: changelogs
+  Note: changelogs just contain a dummy
+  PermIgnore:
+    android.permission.READ_PHONE_STATE: needed to read the call forwarding status indicator
+  Status:
+    - 2024-07-11 scanner reports DEPENDENCY_INFO_BLOCK READ_PHONE_STATE – https://github.com/Kaiserdragon2/CallForwarding/issues/10
+
+AllowedAPKSigningKeys: a0cfa0d1a00b9887a1701a693bdc3c2a8e84d39d8e3a98d681bd3468cb81a4db
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

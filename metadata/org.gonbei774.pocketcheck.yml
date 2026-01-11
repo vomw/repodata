@@ -1,0 +1,22 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Gonbei774
+AuthorWebSite: https://gonbei774.codeberg.page/
+SourceCode: https://codeberg.org/Gonbei774/PocketCheck
+IssueTracker: https://codeberg.org/Gonbei774/PocketCheck/issues
+
+AutoName: PocketCheck
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-12-13
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/Gonbei774/PocketCheck/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: fce2645bad13e359bb649bb3171e86f85175ad9c7a9ae7c19be99878cf6b490d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

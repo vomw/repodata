@@ -1,0 +1,24 @@
+Categories:
+  - Office
+License: BSD-3-Clause
+AuthorName: Vladas Maksimkinas
+SourceCode: https://github.com/LittleTrickster/PDF-Doc-Scan
+IssueTracker: https://github.com/LittleTrickster/PDF-Doc-Scan/issues
+Changelog: https://github.com/LittleTrickster/PDF-Doc-Scan/releases
+
+AutoName: PDF Doc Scan
+
+MaintainerNotes:
+  AppAdded: 2022-11-26
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-arm-release/i
+  Status:
+    - 2023-05-25 switch to arm+arm64 combined build on request by author, see https://github.com/LittleTrickster/PDF-Doc-Scan/issues/10#issuecomment-1563307746
+    - 2025-03-23 last release 2023-05-26; UCM Tags=>Static
+
+AllowedAPKSigningKeys: e2c525da43118dd7463d7ceb533a59e56024245d48eb559bb7aab6ed8ab243ab
+
+ArchivePolicy: 2
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

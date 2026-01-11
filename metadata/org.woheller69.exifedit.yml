@@ -1,0 +1,30 @@
+Categories:
+  - Graphics
+License: GPL-3.0-only
+AuthorName: Wolfgang Heller
+AuthorEmail: woheller69@t-online.de
+SourceCode: https://github.com/woheller69/exifedit
+IssueTracker: https://github.com/woheller69/exifedit/issues
+Changelog: https://github.com/woheller69/exifedit/releases
+Donate: https://www.paypal.com/donate?hosted_button_id=XVXQ54LBLZ4AA
+
+AutoName: ExifEdit
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-08-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/woheller69/exifedit/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /com/exifedit/databinding
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: to access the images to edit Exif for
+  Status:
+    - 2025-08-21 upstreaming our local Fastlane metadata via https://github.com/woheller69/exifedit/pull/1
+
+AllowedAPKSigningKeys: ed934ec71b86a372bc2e5d9f9efdfbb52a11b897c000bae6a33ac59f7988c6b5
+
+AutoUpdateMode: Version V%v
+UpdateCheckMode: Tags

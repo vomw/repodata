@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains Google BillingClient and Firebase libraries.
+    de: Die App enthält Bibliotheken von Google BillingClient und Firebase.
+  NonFreeNet:
+    en-US: The app contacts Google servers (billing, Firebase).
+    de: Die App nutzt Verbindungen zu Google Servern (Billing, Firebase).
+Categories:
+  - Time
+License: MIT
+AuthorName: Tom Berghuis
+AuthorEmail: thomas.berghuis@gmail.com
+SourceCode: https://github.com/tberghuis/FloatingCountdownTimer
+IssueTracker: https://github.com/tberghuis/FloatingCountdownTimer/issues
+
+AutoName: Floating Timer
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-08-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/tberghuis/FloatingCountdownTimer/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  Note: video.txt empty
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: This is a *floating* timer, so it needs to display over other windows/applications.
+  Status:
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/tberghuis/FloatingCountdownTimer/pull/42
+
+AllowedAPKSigningKeys: 417602e65c51b62f9bddc37775febdfc9801d0eddb12f02c65a97fa9ccbb9c34
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

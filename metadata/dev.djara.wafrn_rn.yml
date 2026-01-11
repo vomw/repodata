@@ -1,0 +1,36 @@
+Categories:
+  - Social Network
+  - Internet
+License: AGPL-3.0-only
+AuthorName: Juan D. Jara
+AuthorEmail: juanorigami@gmail.com
+AuthorWebSite: https://juan.djara.dev/
+WebSite: https://app.wafrn.net/
+SourceCode: https://codeberg.org/wafrn/wafrn-rn
+IssueTracker: https://codeberg.org/wafrn/wafrn-rn/issues
+Changelog: https://codeberg.org/wafrn/wafrn-rn/releases
+Donate: https://ko-fi.com/juandjara
+
+AutoName: Wafrn
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-06-30
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a-foss/i
+  Fastlane: https://codeberg.org/wafrn/wafrn-rn/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /from_/com/brentvatne/exoplayer_but_too_generic
+    - /com/brentvatne/common
+    - /third_party/libavif
+  Status:
+    - 2025-08-25 version 1.5.6 introduces Google Ads – https://github.com/juandjara/wafrn-rn/issues/27
+    - 2025-08-26 version 1.5.8 has it fixed again
+
+AllowedAPKSigningKeys: 091ad944843e180c4322ede202a733094cdc07dd1acd51523fe813eae904f487
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

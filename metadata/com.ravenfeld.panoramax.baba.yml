@@ -1,0 +1,36 @@
+Categories:
+  - Navigation
+License: GPL-3.0-or-later
+AuthorName: Alexis Lecanu
+AuthorEmail: alexis.lecanu@gmail.com
+SourceCode: https://gitlab.com/ravenfeld/baba
+IssueTracker: https://gitlab.com/ravenfeld/baba/-/issues
+Translation: https://translate.codeberg.org/projects/baba/
+Changelog: https://gitlab.com/ravenfeld/baba/-/releases
+
+AutoName: Baba
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-03-06
+  Method: gitlab-tags
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://gitlab.com/ravenfeld/baba/-/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  LibIgnore:
+    - /com/mapbox
+    - /com/google/android/gms
+  PermIgnore:
+    android.permission.CAMERA: required to take the photos to contribute
+    android.permission.ACCESS_COARSE_LOCATION: required to include the location with photos taken/uploaded
+    android.permission.ACCESS_FINE_LOCATION: required to include the location with photos taken/uploaded
+    android.permission.READ_EXTERNAL_STORAGE: for phones below Android 10 to read photos in the PICTURE directory
+    android.permission.WRITE_EXTERNAL_STORAGE: for phones below Android 10 to save photos in the PICTURE directory
+  Status:
+    - 2025-09-05 v1.17.0 added GMS, see https://gitlab.com/ravenfeld/baba/-/issues/201 – false positive, it’s microG
+
+AllowedAPKSigningKeys: 5f061bb397d0f100c282ee4a414dce12a09794a675e3b38edd1b4b276984fc38
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

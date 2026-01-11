@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app is bound to a proprietary app store.
+    de: Die App ist an einen proprietären App Store gebunden.
+  NonFreeAdd:
+    en-US: The App Store also promotes proprietary apps.
+    de: Der App Store bewirbt auch proprietäre Apps.
+Categories:
+  - Internet
+License: AGPL-3.0-only
+AuthorName: mi6e4ka
+AuthorEmail: code@mi6e4ka.dev
+SourceCode: https://codeberg.org/mi6e4ka/openstore
+IssueTracker: https://codeberg.org/mi6e4ka/openstore/issues
+Changelog: https://codeberg.org/mi6e4ka/openstore/releases
+
+AutoName: OpenStore
+
+MaintainerNotes:
+  AppAdded: 2025-05-11
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/mi6e4ka/openstore/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,screenshots
+  Note: icon temporarily removed due to conflict with RuStore trademark
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: required for app management
+    android.permission.REQUEST_DELETE_PACKAGES: required for app management
+    android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: needed for seemless updates
+    android.permission.QUERY_ALL_PACKAGES: required for app management
+
+AllowedAPKSigningKeys: 57f7ea8b41b72e6ecfc50846afed1201471a8d378e18d76aadacbd9fb219df98
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,25 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: Antonios Hazim
+SourceCode: https://github.com/machiav3lli/DerDieDas
+IssueTracker: https://github.com/machiav3lli/DerDieDas/issues
+Changelog: https://github.com/machiav3lli/DerDieDas/blob/HEAD/Changelog.md
+
+AutoName: DerDieDas
+
+MaintainerNotes:
+  AppAdded: 2020-12-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/machiav3lli/DerDieDas/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/machiav3lli/DerDieDas/pull/2#issuecomment-753830624
+  Status:
+    - 2024-12-10 last release 9/2023, last commit 10/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: c94f10243c14d57dd69dede61c234bb5e8bb0704d61b45dafe496728ac32f378
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

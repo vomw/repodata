@@ -1,0 +1,21 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: Nishant Mishra
+SourceCode: https://github.com/nsh07/Tomato
+IssueTracker: https://github.com/nsh07/Tomato/issues
+Changelog: https://github.com/nsh07/Tomato/releases
+
+AutoName: Tomato
+
+MaintainerNotes:
+  AppAdded: 2025-07-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nsh07/Tomato/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 07bef30581baee8f45ec93e47ee68ef20874e50ef5709c78b2ee67ac86be4c3d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

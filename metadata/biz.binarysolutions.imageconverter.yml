@@ -1,0 +1,23 @@
+Categories:
+  - Graphics
+License: MIT
+AuthorName: Binary Solutions
+AuthorEmail: support+imageconverter@binarysolutions.biz
+AuthorWebSite: https://binarysolutions.biz/
+SourceCode: https://github.com/vbresan/Image_Converter
+IssueTracker: https://github.com/vbresan/Image_Converter/issues
+Changelog: https://github.com/vbresan/Image_Converter/releases
+
+AutoName: Image Converter
+
+MaintainerNotes:
+  AppAdded: 2025-11-03
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/vbresan/Image_Converter/blob/master/metadata
+  FastlaneFeatures: title,video,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: b4f031bf6bf80bd91e6cf5c00eccb1a0ac9880baa05a0369484036ec950c7dff
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Tags

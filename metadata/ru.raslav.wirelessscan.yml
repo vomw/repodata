@@ -1,0 +1,26 @@
+Categories:
+  - Internet
+License: CC0-1.0
+AuthorName: Yaroslav Nesterov
+AuthorEmail: atomofiron@gmail.com
+SourceCode: https://github.com/atomofiron/android-wifi-seeker
+IssueTracker: https://github.com/atomofiron/android-wifi-seeker/issues
+Changelog: https://github.com/atomofiron/android-wifi-seeker/releases
+
+AutoName: WiFi Seeker
+
+MaintainerNotes:
+  AppAdded: 2025-09-14
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: required for WiFi access
+    android.permission.ACCESS_FINE_LOCATION: required for WiFi access
+    android.permission.ACCESS_BACKGROUND_LOCATION: required for WiFi access while the app is in background
+  Status:
+    - 2025-09-14 upstreaming metadata via https://github.com/atomofiron/android-wifi-seeker/pull/2
+
+AllowedAPKSigningKeys: 0524fe9c86d77a45f902b076285e6b7cbbf700f1eb3918ed02c51bc7c2fb767c
+
+AutoUpdateMode: Version release-%v
+UpdateCheckMode: Tags

@@ -1,0 +1,22 @@
+Categories:
+  - Messaging
+License: MIT
+AuthorName: Nima Khajehpour
+AuthorEmail: nima1038khajehpour@gmail.com
+SourceCode: https://github.com/NimaKhajehpour/SocketChat
+IssueTracker: https://github.com/NimaKhajehpour/SocketChat/issues
+
+AutoName: SocketChat
+
+MaintainerNotes:
+  AppAdded: 2025-03-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/NimaKhajehpour/SocketChat/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: bb39f182534ac043c7e98993452127fe498754133cadb33ceeeab9ce2cdfd345
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

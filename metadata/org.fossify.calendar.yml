@@ -1,0 +1,31 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: Fossify
+AuthorEmail: hello@fossify.org
+AuthorWebSite: https://www.fossify.org/
+SourceCode: https://github.com/FossifyOrg/Calendar
+IssueTracker: https://github.com/FossifyOrg/Calendar/issues
+Changelog: https://github.com/FossifyOrg/Calendar/releases
+
+AutoName: Calendar
+
+MaintainerNotes:
+  AppAdded: 2024-01-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FossifyOrg/Calendar/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/FossifyOrg/Gallery/issues/32#issuecomment-1880161569
+  PermIgnore:
+    android.permission.READ_CALENDAR: needed to show calendar events
+    android.permission.WRITE_CALENDAR: needed to add calendar events
+    android.permission.READ_CONTACTS: needed to add participants/attendees from the address book
+    android.permission.READ_EXTERNAL_STORAGE: needed to import data
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to export data
+
+AllowedAPKSigningKeys: affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

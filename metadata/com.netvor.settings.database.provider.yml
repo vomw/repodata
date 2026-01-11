@@ -1,0 +1,24 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Nadhir Boukorsi
+SourceCode: https://github.com/gamemn02/Settings-Database-Provider
+IssueTracker: https://github.com/gamemn02/Settings-Database-Provider/issues
+
+AutoName: Settings Database Provider
+
+MaintainerNotes:
+  AppAdded: 2023-03-16
+  Method: github-release
+  GHSkipPre: 1
+  X-GHDownloadDir: https://github.com/gamemn02/Settings-Database-Provider/blob/main/releases
+  Fastlane: https://github.com/gamemn02/Settings-Database-Provider/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon
+  DoubleList: keep
+  Status:
+    - 2024-12-10 last release 5/2023, last commit 4/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 8cb7d015b1de3b74e66df79fe37210a3873511c794adbaad1ed91d9a9ecb4234
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

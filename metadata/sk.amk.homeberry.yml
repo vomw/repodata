@@ -1,0 +1,27 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Andrej Martinák
+AuthorEmail: andrej.martinak@gmail.com
+AuthorWebSite: https://moonposapp.com/
+SourceCode: https://github.com/AmkSk/homeberry
+IssueTracker: https://github.com/AmkSk/homeberry/issues
+Changelog: https://github.com/AmkSk/homeberry/releases
+Donate: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=XM6YQBPZGNDDG&item_name=HomeBerry&no_note=0&cn=&currency_code=EUR
+Bitcoin: 38nYdr2N3NJP6dV1cFfYVKeDvQ5UG9ff9S
+
+AutoName: Homeberry
+
+MaintainerNotes:
+  AppAdded: 2020-12-06
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-12-07 switching UCM from Tags to Static (last release was 12/2020; no commit since)
+    - 2023-08-08 last release 12/2020, last commit 12/2020
+    - 2026-01-11 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: 788ff322973eef13d75abd3198d767b716bb69c3da8e3f742aacdb1411a82f2d
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

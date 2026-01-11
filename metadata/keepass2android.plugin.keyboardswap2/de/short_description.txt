@@ -1,0 +1,1 @@
+erlaubt das automatische Wechseln zur Keepass2Android Tastatur ohne root

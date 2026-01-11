@@ -1,0 +1,26 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Hridayan
+AuthorEmail: hridayanofficial@gmail.com
+AuthorWebSite: https://dp-hridayan.github.io/
+SourceCode: https://github.com/DP-Hridayan/Driftly
+IssueTracker: https://github.com/DP-Hridayan/Driftly/issues
+Translation: https://crowdin.com/project/driftly
+Changelog: https://github.com/DP-Hridayan/Driftly/releases
+
+AutoName: Driftly
+
+MaintainerNotes:
+  AppAdded: 2025-08-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/DP-Hridayan/Driftly/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: for the integrated self-updater, which is opt-in
+
+AllowedAPKSigningKeys: 4e37144ea080997dd078f095dfc8021b42cc5193fb8315e6804cbc0a2ef8a473
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

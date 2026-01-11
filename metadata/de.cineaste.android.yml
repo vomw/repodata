@@ -1,0 +1,26 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on TMDb.
+    de: Die App benötigt Zugriff auf TMDb.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: SpacePandas
+AuthorEmail: cineaste.watchlist@gmail.com
+SourceCode: https://github.com/spacepandas/cineaste-android
+IssueTracker: https://github.com/spacepandas/cineaste-android/issues
+
+AutoName: Cineaste
+
+MaintainerNotes:
+  AppAdded: 2019-06-02
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 2/2020)
+    - 2023-08-08 last release 2/2020, last commit 11/2020, author rarely active
+    - 2026-01-09 still no new commits, disabling update check entirely
+
+AllowedAPKSigningKeys: 8e8e88939c48264bd49204e1d12b52646688f1d24f965612444d47bf3a0300ed
+
+UpdateCheckMode: None

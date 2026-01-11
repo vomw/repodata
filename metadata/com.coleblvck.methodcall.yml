@@ -1,0 +1,27 @@
+Categories:
+  - Automation
+License: GPL-3.0-only
+AuthorName: coleblvck
+AuthorWebSite: https://www.blvck.codes/
+SourceCode: https://github.com/coleblvck/MethodCall
+IssueTracker: https://github.com/coleblvck/MethodCall/issues
+Changelog: https://github.com/coleblvck/MethodCall/releases
+
+AutoName: Method Call
+
+MaintainerNotes:
+  AppAdded: 2024-11-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/coleblvck/MethodCall/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,screenshots
+  Note: icon missing
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to pick an app for the launch action
+    android.permission.CAMERA: for the flashlight action
+    android.permission.SYSTEM_ALERT_WINDOW: to be able to start activities from background
+
+AllowedAPKSigningKeys: 0ad0637ce1658321706c28c43584a682662ec0254c26d9869c4b738ebb4e1db7
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

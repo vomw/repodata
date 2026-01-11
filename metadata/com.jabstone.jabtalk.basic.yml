@@ -1,0 +1,27 @@
+Categories:
+  - Science & Education
+License: GPL-2.0-only
+AuthorName: JABstone LLC
+AuthorEmail: support@jabstone.com
+WebSite: https://jabstone.com/
+SourceCode: https://github.com/jabstone/JABtalk
+IssueTracker: https://github.com/jabstone/JABtalk/issues
+Changelog: https://github.com/jabstone/JABtalk/releases
+Donate: https://theideaproject.org/donate.html
+
+AutoName: JABtalk
+
+MaintainerNotes:
+  AppAdded: 2019-09-01
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.RECORD_AUDIO: required for voice recording
+    android.permission.CAMERA: required to capture images with the device camera
+  Status:
+    - 2021-06-23 last commit was 1/2020, switch UCM from Tags to Static
+    - 2023-08-07 last release 1/2020, last commit 10/2022
+
+AllowedAPKSigningKeys: 3c85734f12be45b6325fd8d7a36a93570b68816e13feea68a3d1242922eb3f9d
+
+UpdateCheckMode: Static

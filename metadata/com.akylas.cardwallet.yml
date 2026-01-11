@@ -1,0 +1,32 @@
+Categories:
+  - Office
+License: MIT
+AuthorName: Akylas
+AuthorEmail: contact@akylas.fr
+SourceCode: https://github.com/Akylas/OSS-DocumentScanner
+IssueTracker: https://github.com/Akylas/OSS-DocumentScanner/issues
+Changelog: https://github.com/Akylas/OSS-DocumentScanner/releases
+
+AutoName: OSS Card Wallet
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-06-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/Akylas/OSS-DocumentScanner/blob/master/fastlane/metadata/com.akylas.cardwallet/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/akylas/documentscanner
+  PermIgnore:
+    android.permission.CAMERA: needed to scan barcodes and take photos of card
+    android.permission.READ_EXTERNAL_STORAGE: needed to import cards from photos
+  Status:
+    - 2025-01-07 1.5.5.32 adds GMS + Billing – https://github.com/Akylas/OSS-DocumentScanner/issues/388
+    - 2025-01-08 fixed, AFs removed again
+
+AllowedAPKSigningKeys: 0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871
+
+AutoUpdateMode: Version ^com.akylas.cardwallet/android/github/[^/]+/%c$
+UpdateCheckMode: Tags

@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Google servers to download fonts.
+    de: Die App verbindet sich mit Google Servern, um Fonts herunterzuladen.
+Categories:
+  - Development
+License: MIT
+AuthorName: Adeeteya
+AuthorEmail: lightningbolt340@gmail.com
+AuthorWebSite: https://github.com/adityar224
+WebSite: https://adityar224.github.io/FontGallery/#/
+SourceCode: https://github.com/adeeteya/FontGallery
+IssueTracker: https://github.com/adeeteya/FontGallery/issues
+Changelog: https://github.com/adeeteya/FontGallery/releases
+
+AutoName: Font Gallery
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-05-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/adeeteya/FontGallery/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  NameSpaces:
+    - /com/aditya/font_gallery
+  DoubleList: keep
+  Status:
+    - 2025-03-23 last release 2023-12-21, last commit 2024-02-18; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 08de22c92a231a11b360eb56a2bd7bed9a8bd2d603aecb656e6e547987f34dfa
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

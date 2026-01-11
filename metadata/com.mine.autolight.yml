@@ -1,0 +1,20 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: The-First-King
+SourceCode: https://github.com/The-First-King/Auto-Light
+Changelog: https://github.com/The-First-King/Auto-Light/releases
+
+AutoName: Auto Light
+
+MaintainerNotes:
+  AppAdded: 2025-12-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/The-First-King/Auto-Light/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 2470748cbe6771f6c6e04a3f61dc4c0d82166a8ca2151e8e0ae3f64def0e9cd7
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

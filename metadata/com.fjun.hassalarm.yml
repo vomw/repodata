@@ -1,0 +1,24 @@
+Categories:
+  - Automation
+License: MIT
+AuthorName: Johan Böhlin
+AuthorEmail: johboh@gmail.com
+SourceCode: https://github.com/Johboh/hassalarm
+IssueTracker: https://github.com/Johboh/hassalarm/issues
+Changelog: https://github.com/Johboh/hassalarm/releases
+
+AutoName: Hassalarm
+
+MaintainerNotes:
+  AppAdded: 2023-03-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Johboh/hassalarm/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshotsJPG
+  FlagIgnore:
+    usesCleartextTraffic: needed for communication with devices in the local network, which usually have no SSL certificates
+
+AllowedAPKSigningKeys: b3833c2d511aae14f4555b336c668fc691fc933e056f8b2d865dc8344d249688
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

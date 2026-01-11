@@ -1,0 +1,29 @@
+Categories:
+  - Sports & Health
+License: AGPL-3.0-only
+AuthorName: Christian Flaßkamp
+AuthorEmail: energize@flasskamp.com
+SourceCode: https://codeberg.org/epinez/Energize
+IssueTracker: https://codeberg.org/epinez/Energize/issues
+Translation: https://hosted.weblate.org/engage/energize/
+Changelog: https://codeberg.org/epinez/Energize/releases
+Liberapay: epinez
+
+AutoName: Energize
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-08-05
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://codeberg.org/epinez/Energize/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: needed for the integrated barcode scanner
+
+AllowedAPKSigningKeys: a2fdf47278740e26baad8a1dce96cd75b94fa25f9ba17014167d6c2d9ea512a8
+
+VercodeOperation: '(%c -2) / 10'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

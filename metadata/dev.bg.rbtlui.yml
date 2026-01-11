@@ -1,0 +1,24 @@
+Categories:
+  - Development
+License: GPL-3.0-or-later
+AuthorName: bg443
+SourceCode: https://codeberg.org/bg443/rbtlui
+IssueTracker: https://codeberg.org/bg443/rbtlui/issues
+
+AutoName: rbtlui
+
+MaintainerNotes:
+  AppAdded: 2024-11-12
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /universal/i
+  Fastlane: https://codeberg.org/bg443/rbtlui/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /rbtlui/composeapp
+
+AllowedAPKSigningKeys: 3956533c542218349b5f3f7f3d3a6926060c1a0cdf32d6e58ea1de3a36c21213
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

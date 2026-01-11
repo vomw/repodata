@@ -1,0 +1,26 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: David Wetterau
+AuthorEmail: david.wetterau@gmail.com
+AuthorWebSite: https://davidw.tech/
+SourceCode: https://github.com/dwetterau/habits
+IssueTracker: https://github.com/dwetterau/habits/issues
+
+AutoName: Habits
+
+MaintainerNotes:
+  AppAdded: 2021-03-31
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dwetterau/habits/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescNL,changelogs,icon,screenshotsJPG
+  FastlaneIgnore: title,featureGraphic
+  Note: Fastlane desc between MD & nl2br (missing some line breaks); no featureGraphic
+  Status:
+    - 2022-05-02 no commit since 4/2021, switching UCM from Tags to Static
+
+AllowedAPKSigningKeys: 7455ab9af3d0cc94fe3c2fea7118b8b0100151deec68bd9fb27189e0eacd8516
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Knockout.chat (obviously).
+    de: Die App baut Verbindungen zu Knockout.chat auf (logischerweise).
+Categories:
+  - Internet
+License: MIT
+AuthorName: Mikkel Jensen
+AuthorEmail: dasmikko@gmail.com
+AuthorWebSite: https://rekna.xyz/
+SourceCode: https://github.com/dasmikko/knocky
+IssueTracker: https://github.com/dasmikko/knocky/issues
+Changelog: https://github.com/dasmikko/knocky/releases
+
+AutoName: Knocky
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-01-30
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/dasmikko/knocky/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  Status:
+    - 2024-11-14 seems abandoned; last commit/release 3/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: ad15a367efb107a7e5aeb9b506b7c7a725ec9ffad5deee3a42c91f9c44b6246d
+
+VercodeOperation: '%c -1000'
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

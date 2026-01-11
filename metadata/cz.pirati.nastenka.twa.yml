@@ -1,0 +1,21 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Technický odbor
+SourceCode: https://gitlab.pirati.cz/to/nastenka-aplikace
+IssueTracker: https://gitlab.pirati.cz/to/nastenka-aplikace/-/issues
+
+AutoName: Pirátská Nástěnka
+
+MaintainerNotes:
+  AppAdded: 2024-04-05
+  Method: gitlab-repo
+  GHSkipPre: 1
+  GHDownloadDir: https://gitlab.pirati.cz/to/nastenka-aplikace/-/tree/main/release
+  Fastlane: https://gitlab.pirati.cz/to/nastenka-aplikace/-/tree/main/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  Status:
+    - 2025-04-18 no activity since 2024-03-31, UCM <notSet> => Static
+
+AllowedAPKSigningKeys: d0e00533e3f485090b2e82e4d8bf52f943230f6519a464087b902839ebed9a2b
+UpdateCheckMode: Static

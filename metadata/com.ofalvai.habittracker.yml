@@ -1,0 +1,27 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app contains the Bugsnag exception reporter, which is enabled by default.
+    de: Die App enthält den Bugsnag exception reporter, der standardmäßig aktiviert ist.
+Categories:
+  - Sports & Health
+License: Apache-2.0
+AuthorName: Olivér Falvai
+AuthorEmail: oliver.falvai@gmail.com
+AuthorWebSite: https://oliverfalvai.com/
+SourceCode: https://github.com/ofalvai/HabitBuilder
+IssueTracker: https://github.com/ofalvai/HabitBuilder/issues
+Changelog: https://github.com/ofalvai/HabitBuilder/releases
+
+AutoName: Habit Builder
+
+MaintainerNotes:
+  AppAdded: 2023-10-22
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-11-12 last release/commit 2024-11-11, UCM Tags=>Static
+
+AllowedAPKSigningKeys: bf4627b18811512bd8cb2635d84795eb84187320a8224cae4d918465524d1732
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

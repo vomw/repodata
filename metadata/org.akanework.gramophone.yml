@@ -1,0 +1,32 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: nift4
+AuthorEmail: nift4@protonmail.com
+AuthorWebSite: https://nift4.org/
+SourceCode: https://github.com/FoedusProgramme/Gramophone
+IssueTracker: https://github.com/FoedusProgramme/Gramophone/issues
+Changelog: https://github.com/FoedusProgramme/Gramophone/releases
+
+AutoName: Gramophone
+
+MaintainerNotes:
+  AppAdded: 2023-09-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FoedusProgramme/Gramophone/tree/beta/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /org/nift4/gramophone
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: to access audio to play on recent Android versions
+    android.permission.READ_MEDIA_IMAGES: to read album art like cover images
+    android.permission.READ_EXTERNAL_STORAGE: to access audio to play on older Android versions
+  DoubleList: keep
+  Status:
+    - 2024-03-06 app showed up at F-Droid. It’s RB, so we’ll keep it
+
+AllowedAPKSigningKeys: f451197ad7b80bd1bc981ba38a2c49d471856fb38bcc333676d6e8f8f3ce5d6e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

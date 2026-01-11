@@ -1,0 +1,21 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: Bastian
+SourceCode: https://github.com/Kaiserdragon2/IconRequest
+IssueTracker: https://github.com/Kaiserdragon2/IconRequest/issues
+Changelog: https://github.com/Kaiserdragon2/IconRequest/releases
+
+AutoName: IconRequest
+
+MaintainerNotes:
+  AppAdded: 2022-01-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Kaiserdragon2/IconRequest/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshotsJPG
+  X-AutoUpdateMode: Version v%v tag v1.7.0 = versionName 1.7
+
+AllowedAPKSigningKeys: a0cfa0d1a00b9887a1701a693bdc3c2a8e84d39d8e3a98d681bd3468cb81a4db
+
+UpdateCheckMode: Tags

@@ -1,0 +1,35 @@
+Categories:
+  - Graphics
+License: GPL-3.0-only
+AuthorName: Fossify
+AuthorEmail: hello@fossify.org
+AuthorWebSite: https://www.fossify.org/
+SourceCode: https://github.com/FossifyOrg/Camera
+IssueTracker: https://github.com/FossifyOrg/Camera/issues
+Changelog: https://github.com/FossifyOrg/Camera/releases
+
+AutoName: Camera
+
+MaintainerNotes:
+  AppAdded: 2024-10-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FossifyOrg/Camera/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/FossifyOrg/Gallery/issues/32#issuecomment-1880161569
+  PermIgnore:
+    android.permission.CAMERA: required to make photos and videos
+    android.permission.RECORD_AUDIO: required to record audio with videos
+    android.permission.DISABLE_KEYGUARD: to keep the screen from locking while recording
+    android.permission.ACCESS_COARSE_LOCATION: to save the location with the exif metadata
+    android.permission.ACCESS_FINE_LOCATION: to save the location with the exif metadata
+    android.permission.WRITE_EXTERNAL_STORAGE: to store recordings
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted due to WRITE_EXTERNAL_STORAGE
+    android.permission.READ_MEDIA_IMAGES: to access photos already taken
+    android.permission.READ_MEDIA_VIDEO: to access recorded videos
+
+AllowedAPKSigningKeys: affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

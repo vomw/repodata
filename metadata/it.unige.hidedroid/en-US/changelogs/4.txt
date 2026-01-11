@@ -1,0 +1,1 @@
+to update from a version < 1.3 you will need to uninstall and reinstall the app as the certificate did change

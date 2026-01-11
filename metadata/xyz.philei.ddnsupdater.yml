@@ -1,0 +1,25 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Philip Leis
+SourceCode: https://codeberg.org/phileix/ddns-android
+IssueTracker: https://codeberg.org/phileix/ddns-android/issues
+Changelog: https://codeberg.org/phileix/ddns-android/releases
+
+AutoName: DDNS Updater
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-02-25
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/phileix/ddns-android/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-02-27 signing key changed, UCM Tags=>Static until solved; see https://codeberg.org/phileix/ddns-android/issues/25#issuecomment-2883843
+
+AllowedAPKSigningKeys: f6869ca47cbf0c341557ada40eb9b16300d52de6f1bc517f1b8e0f4d5f8f6852
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

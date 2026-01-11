@@ -1,0 +1,1 @@
+create panoramas (and more) from two or more photos

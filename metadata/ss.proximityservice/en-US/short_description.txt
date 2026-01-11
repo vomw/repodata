@@ -1,0 +1,1 @@
+turning off the display using the proximity sensor

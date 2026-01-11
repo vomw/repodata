@@ -1,0 +1,33 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: This app uses the APIs of Shazam and AUDD.
+    de: Die App verwendet die APIs von Shazam und AUDD.
+Categories:
+  - Multimedia
+  - Internet
+License: GPL-3.0-only
+AuthorName: Hitesh Kumar Saini
+AuthorEmail: saini123hitesh@gmail.com
+SourceCode: https://github.com/alexmercerind/audire
+IssueTracker: https://github.com/alexmercerind/audire/issues
+Changelog: https://github.com/alexmercerind/audire/releases
+Donate: https://github.com/sponsors/alexmercerind
+
+AutoName: Audire
+
+MaintainerNotes:
+  AppAdded: 2023-11-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/alexmercerind/audire/tree/main/fastlane/metadata/android
+  FastlaneFeatures: video,shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed to identify the music playing
+  Status:
+    - 2025-03-23 last release 2023-12-05, last commit 2024-01; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 29da10943162d3ed386b97cff1efbe2f9c012c9e3a5d861f8f49440b16c00108
+
+AutoUpdateMode: Version v.+-%c$
+UpdateCheckMode: Static

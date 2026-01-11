@@ -1,0 +1,28 @@
+Categories:
+  - Phone & SMS
+License: GPL-3.0-only
+AuthorName: Fossify
+AuthorEmail: hello@fossify.org
+AuthorWebSite: https://www.fossify.org/
+SourceCode: https://github.com/FossifyOrg/Contacts
+IssueTracker: https://github.com/FossifyOrg/Contacts/issues
+Changelog: https://github.com/FossifyOrg/Contacts/releases
+
+AutoName: Contacts
+
+MaintainerNotes:
+  AppAdded: 2024-01-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FossifyOrg/Contacts/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_CONTACTS: As this is a contacts app, it needs to read your contacts.
+    android.permission.WRITE_CONTACTS: As this is a contacts app, it needs to update/add contacts..
+  DoubleList: keep
+  DoubleListRef: https://github.com/FossifyOrg/Gallery/issues/32#issuecomment-1880161569
+
+AllowedAPKSigningKeys: affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

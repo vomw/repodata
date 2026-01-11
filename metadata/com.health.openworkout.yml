@@ -1,0 +1,33 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-08-24, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-08-24 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Sports & Health
+License: GPL-3.0-or-later
+AuthorName: olie.xdev
+SourceCode: https://github.com/oliexdev/openWorkout
+IssueTracker: https://github.com/oliexdev/openWorkout/issues
+Changelog: https://github.com/oliexdev/openWorkout/releases
+Donate: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H5KSTQA6TKTE4&source=url
+
+AutoName: openWorkout
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2020-06-07
+  AppRemoved: 2021-11-20 reached F-Droid
+  AddedBack: 2025-03-15
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid-release/i
+  Fastlane: https://github.com/oliexdev/openWorkout/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  Status:
+    - 2025-08-24 app declared EOL, see eg. https://github.com/oliexdev/openWorkout/pull/62#issuecomment-3217934257 – UCM Tags=>None
+
+AllowedAPKSigningKeys: 9fc5e10b91760f237000d41dc19b28f77b1ad97eac4348eecfbc201e52436bfe
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

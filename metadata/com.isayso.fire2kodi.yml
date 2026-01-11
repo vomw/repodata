@@ -1,0 +1,27 @@
+Categories:
+  - Connectivity
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Isayso
+SourceCode: https://codeberg.org/Isayso/Fire2kodi
+IssueTracker: https://codeberg.org/Isayso/Fire2kodi/issues
+Changelog: https://codeberg.org/Isayso/Fire2kodi/releases
+
+AutoName: Fire2Kodi
+
+MaintainerNotes:
+  AppAdded: 2023-08-30
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/Isayso/Fire2kodi/src/branch/meister/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: to reach Kodi instances in the local network
+  Status:
+    - 2024-02-22 last release 6/2022, last commit 10/2023, UCM Tags=>Static
+    - 2025-05-13 releases picked up again, Static=>Tags
+
+AllowedAPKSigningKeys: a993fcbdc67f5766644a95cb74d0e31e0522e170966fe585417d28b3c66484fd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,22 @@
+Categories:
+  - Navigation
+License: MIT
+AuthorName: Martin Meyers
+SourceCode: https://gitlab.com/martinJM/usbnmea
+IssueTracker: https://gitlab.com/martinJM/usbnmea/issues
+Changelog: https://gitlab.com/martinJM/usbnmea/-/releases
+
+AutoName: UsbNmea
+
+MaintainerNotes:
+  AppAdded: 2020-10-13
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Status:
+    - 2022-11-07 no release since 8/2021, last code commit 8/2021; switch from Tags to Static
+    - 2026-01-11 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: bfd30819e4079bba46f8bc222d228cf28133568b9285a5ebfc6b97ea7dff72b6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

@@ -1,0 +1,21 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-or-later
+AuthorName: Basile Laderchi
+SourceCode: https://github.com/basile-laderchi/ncalc
+Changelog: https://github.com/basile-laderchi/ncalc/releases
+
+AutoName: NCalcLibre
+
+MaintainerNotes:
+  AppAdded: 2019-12-13
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 0000-00-00 last commit was 12/2019, switch UCM from Tags to Static
+    - 2023-08-08 last release 12/2019, last commit 12/2019, author last seen 6/2022 – disabling update check (was Static)
+
+AllowedAPKSigningKeys: 446dc7186da645425e8e871a048000240ae2ddc6df6db6adf6a5d0c8bd0eed2b
+
+UpdateCheckMode: None
+AutoUpdateMode: Version %v\.free

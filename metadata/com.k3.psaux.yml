@@ -1,0 +1,24 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: orhun
+AuthorEmail: orhunparmaksiz@gmail.com
+AuthorWebSite: https://orhun.github.io/
+SourceCode: https://github.com/orhun/PSAUX
+IssueTracker: https://github.com/orhun/PSAUX/issues
+
+AutoName: PS-Aux
+
+MaintainerNotes:
+  AppAdded: 2020-01-15
+  Method: github-repo
+  GHSkipPre: 1
+  GHDownloadDir: https://github.com/orhun/PSAUX/blob/master/dist
+  Status:
+    - 2021-06-23 last commit was 1/2020, setting UCM to Static
+    - 2023-08-07 last release 9/2019, last code commit 7/2022, issue unanswered – but author seemingly hyper-active
+    - 2026-01-09 still no new commits; disabling update checks altogether
+
+AllowedAPKSigningKeys: 630876a15982ac3c5aa2f9ee9b498246f9f55d29cd0e7c7ce46504d820ba6e78
+
+UpdateCheckMode: None

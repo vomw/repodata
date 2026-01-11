@@ -1,0 +1,26 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Mark Tkachenko
+AuthorEmail: mark.tka.development@gmail.com
+SourceCode: https://github.com/forzzzzz/Calculator-You
+IssueTracker: https://github.com/forzzzzz/Calculator-You/issues
+Translation: https://hosted.weblate.org/engage/calculator-you/
+Changelog: https://github.com/forzzzzz/Calculator-You/releases
+
+AutoName: Calculator You
+
+MaintainerNotes:
+  AppAdded: 2024-07-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/forzzzzz/Calculator-You/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /com/forz/calculator
+
+AllowedAPKSigningKeys: 6c19a62cade32062624b33efea5c676cc898238edb50b2dedf8f671a0494c2a4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

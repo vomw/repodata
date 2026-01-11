@@ -1,0 +1,25 @@
+Categories:
+  - Graphics
+  - Internet
+License: Apache-2.0
+AuthorName: Omar
+AuthorWebSite: https://omardotdev.github.io/
+SourceCode: https://github.com/omardotdev/lumi
+IssueTracker: https://github.com/omardotdev/lumi/issues
+
+AutoName: Lumi
+
+MaintainerNotes:
+  AppAdded: 2025-11-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/omardotdev/lumi/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  Status:
+    - 2025-11-15 APK at release 1.1.7 uses wrong signing key, see https://github.com/omardotdev/lumi/issues/2 – UCM Tags=>Static until solved
+    - 2025-11-16 solved (original key was restored)
+
+AllowedAPKSigningKeys: b780aa1d8ed1aef3367d9fa1725e422800c327b6ef8e165917d56eb643032151
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Backdoor Technologies
+AuthorEmail: backdtech@gmail.com
+SourceCode: https://github.com/emrsmsrli/Caffeine
+IssueTracker: https://github.com/emrsmsrli/Caffeine/issues
+Changelog: https://github.com/emrsmsrli/Caffeine/releases
+
+AutoName: Caffeine
+
+MaintainerNotes:
+  AppAdded: 2018-08-05
+  Method: github-release
+  ManualHint: end-of-life declared, but not yet archived
+  Status:
+    - 2023-08-08 last release 7/2018, last commit 6/2019; disabling updates (from Static)
+    - 2025-11-18 [reported](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15#issuecomment-8331828) to still work nicely on Android 16, its simplicity being appreciated. Supporting Android 7+, so keep for now.
+
+AllowedAPKSigningKeys: 59aedd4e555a7463e0b7f4214debe4325c187c44376b207b43ea5cebda54f36e
+
+UpdateCheckMode: None

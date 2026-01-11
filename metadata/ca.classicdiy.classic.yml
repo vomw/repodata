@@ -1,0 +1,28 @@
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: ClassicDIY
+AuthorEmail: graham.a.ross@gmail.com
+SourceCode: https://github.com/ClassicDIY/ClassicMonitor
+IssueTracker: https://github.com/ClassicDIY/ClassicMonitor/issues
+Changelog: https://github.com/ClassicDIY/ClassicMonitor/releases
+Donate: https://www.buymeacoffee.com/r4K2HIB
+
+AutoName: Classic
+Name: MidniteSolar Classic Monitor MQTT
+
+MaintainerNotes:
+  AppAdded: 2023-02-02
+  Method: github-release-manual
+  ManualHint: tags currently not distinguishable (ca.farrelltonsolar.classic is in the same repo, 2.x branch)
+  GHSkipPre: 0
+  NameSpaces:
+    - /ca/classicdiy/uicomponents
+  Status:
+    - 2023-02-07 dev wants us to pick pre-releases https://github.com/ClassicDIY/ClassicMonitor/issues/26#issuecomment-1420711040
+    - 2025-09-26 seems no longer maintained, no reply to issues (including one of us) since 8/2024)
+
+AllowedAPKSigningKeys: 54486b0d5af98f328264dddb6e03e4d487a8aa2a8066276d35f95e8556e9ac0e
+
+AutoUpdateMode: Version V%v
+UpdateCheckMode: Static

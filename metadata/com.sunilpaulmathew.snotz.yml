@@ -1,0 +1,30 @@
+Categories:
+  - Writing
+License: GPL-3.0-or-later
+AuthorName: sunilpaulmathew
+AuthorEmail: sunil.kde@gmail.com
+AuthorWebSite: https://smartpack.github.io/
+SourceCode: https://github.com/sunilpaulmathew/sNotz
+IssueTracker: https://github.com/sunilpaulmathew/sNotz/issues
+Translation: https://poeditor.com/join/project?hash=LOg2GmFfbV
+Changelog: https://github.com/sunilpaulmathew/sNotz/releases
+Donate: https://smartpack.github.io/donation
+
+AutoName: sNotz
+
+MaintainerNotes:
+  AppAdded: 2021-10-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sunilpaulmathew/sNotz/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshots
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/rfp/-/issues/1865#note_695866710
+  PermIgnore:
+    android.permission.CAMERA: a.o. for the QR Code scanner
+    android.permission.READ_EXTERNAL_STORAGE: to load images from storage
+
+AllowedAPKSigningKeys: b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

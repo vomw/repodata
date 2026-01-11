@@ -1,0 +1,30 @@
+Categories:
+  - Internet
+License: GPL-2.0-only
+AuthorName: Flying-Snail
+AuthorEmail: flying-snail@flying-snail.de
+AuthorWebSite: https://flyingsnail.de/
+WebSite: https://codeberg.org/Flying-Snail/IPv6Droid/wiki
+SourceCode: https://codeberg.org/Flying-Snail/IPv6Droid
+IssueTracker: https://codeberg.org/Flying-Snail/IPv6Droid/issues
+Changelog: https://codeberg.org/Flying-Snail/IPv6Droid/releases
+
+AutoName: IPv6Droid
+
+MaintainerNotes:
+  AppAdded: 2025-05-29
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /IPv6Droid-signed\.apk$/i
+  ApkIgnore: /signed-update/i
+  Fastlane: https://codeberg.org/Flying-Snail/IPv6Droid/src/branch/DTLS/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /de/flyingsnail/util
+  IntentFilterIgnore:
+    android.net.VpnService: needed for the main functionality of this app
+
+AllowedAPKSigningKeys: 95f3a9a90b98386464bb1bd1779a5316001d575e846b727a12b57f9dc4157b98
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

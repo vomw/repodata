@@ -1,0 +1,29 @@
+Categories:
+  - Time
+License: GPL-3.0-or-later
+AuthorName: Anton Razinkov
+AuthorEmail: devrazeeman@gmail.com
+SourceCode: https://github.com/Razeeman/Android-SimpleTimeTracker
+IssueTracker: https://github.com/Razeeman/Android-SimpleTimeTracker/issues
+Changelog: https://github.com/Razeeman/Android-SimpleTimeTracker/releases
+
+AutoName: Simple Time Tracker
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-05-06
+  AppRemoved: 2023-01-27 reached F-Droid 2023-01-17
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/example/util/simpletimetracker
+  Fastlane: https://github.com/Razeeman/Android-SimpleTimeTracker/blob/dev/metadata
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: fulldesc
+  Note: dev prefers fulldescNL over proper Markdown, see https://github.com/Razeeman/Android-SimpleTimeTracker/pull/337
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 9f2241eaf78be6b8415f2db424ef99c9745576fe07b0e58b08c922289a3633e4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

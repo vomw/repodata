@@ -1,0 +1,21 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: sweakpl
+SourceCode: https://github.com/sweakpl/unlock-master
+IssueTracker: https://github.com/sweakpl/unlock-master/issues
+
+AutoName: UnlockMaster
+
+MaintainerNotes:
+  AppAdded: 2023-10-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sweakpl/unlock-master/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: changelogs/1.txt is an empty file
+
+AllowedAPKSigningKeys: afa156fce4c428c5d08766a95e05d4406e01b20b357cfed5c160ad394d9be95a
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

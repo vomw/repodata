@@ -1,0 +1,31 @@
+Categories:
+  - Science & Education
+License: Apache-2.0
+AuthorName: Jerry Cooke
+SourceCode: https://github.com/jerryhcooke/smouldering_durtles
+IssueTracker: https://github.com/jerryhcooke/smouldering_durtles/issues
+Changelog: https://github.com/jerryhcooke/smouldering_durtles/releases
+
+AutoName: Smouldering Durtles
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-12-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/jerryhcooke/smouldering_durtles/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  Note: video.txt empty
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: used for backup/restore
+    android.permission.WRITE_EXTERNAL_STORAGE: used for backup/restore
+  Status:
+    - 2024-12-29 UCM Tags=>Static as since v1.1.2 all APKs are signed with a debug key, see https://github.com/jerryhcooke/smouldering_durtles/issues/31#issuecomment-2564852448
+    - 2025-01-28 scanner reports android.permission.READ_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK – https://github.com/jerryhcooke/smouldering_durtles/issues/121
+
+AllowedAPKSigningKeys: c141984af73b46e31eaa64050d813ed4caacf28984bffeb78fe8ff13ba23a5cb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

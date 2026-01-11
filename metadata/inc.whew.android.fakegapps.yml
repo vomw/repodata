@@ -1,0 +1,26 @@
+Categories:
+  - Xposed
+  - System
+License: GPL-3.0-only
+AuthorName: Whew., Inc.
+SourceCode: https://github.com/whew-inc/FakeGApps
+IssueTracker: https://github.com/whew-inc/FakeGApps/issues
+Changelog: https://github.com/whew-inc/FakeGApps/releases
+
+AutoName: FakeGapps
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-04-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/whew-inc/FakeGApps/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD
+  Note: Fastlane is our starter package; app has no UI, hence no graphics
+  Status:
+    - 2025-10-24 upstreaming our local fastlane via https://github.com/whew-inc/FakeGApps/pull/35
+
+AllowedAPKSigningKeys: 164b8031908c41ab6dae31d9e61c7db24908eb021e8d22a95edb9b616da2791b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

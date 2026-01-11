@@ -1,0 +1,31 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-11-27, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-11-27 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Multimedia
+  - Science & Education
+License: MIT
+AuthorName: Saketh
+AuthorWebSite: https://sakethpathike.github.io/
+SourceCode: https://github.com/sakethpathike/JetSpacer
+IssueTracker: https://github.com/sakethpathike/JetSpacer/issues
+Changelog: https://github.com/sakethpathike/JetSpacer/releases
+
+AutoName: JetSpacer
+
+MaintainerNotes:
+  AppAdded: 2025-04-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sakethpathike/JetSpacer/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: some APIs are not available via https
+  X-AutoUpdateMode: Version v%v
+  Status:
+    - 2025-08-18 upstreaming our Fastlane via https://github.com/sakethpathike/JetSpacer/pull/5
+
+AllowedAPKSigningKeys: 13e39c48e9a65e19529293827d68f5ad73c8154579115a71886831794c7358f8
+
+UpdateCheckMode: None

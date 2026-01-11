@@ -1,0 +1,1 @@
+<p><i>PhantomProcessesSavior</i> is an xposed module. It can solve the problem that android 12 often kills subprocesses. Its function is same to run the adb command <code>adb shell "settings put global settings_enable_monitor_phantom_procs false"</code> on the higher version of Android.</p>

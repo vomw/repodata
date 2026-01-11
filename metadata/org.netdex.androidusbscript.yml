@@ -1,0 +1,31 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Gordon Guan
+AuthorEmail: admin@netdex.org
+AuthorWebSite: https://netdex.org/
+SourceCode: https://github.com/Netdex/android-usb-script
+IssueTracker: https://github.com/Netdex/android-usb-script/issues
+Changelog: https://github.com/Netdex/android-usb-script/releases
+
+AutoName: Android USB Script
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2024-02-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Netdex/android-usb-script/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package; author said to expand it soon https://github.com/Netdex/android-usb-script/pull/17
+  Status:
+    - 2020-11-14 originally added as org.netdex.hidfuzzer
+    - 2021-12-07 switching UCM from Tags to Static (last release was 11/2020; no commit since)
+    - 2023-08-08 last pre-release 8/2022 (no releases yet), last commit 8/2023
+    - 2024-02-09 uses debug key https://github.com/Netdex/android-usb-script/issues/15 – cert was replaced and package renamed from org.netdex.hidfuzzer to org.netdex.androidusbscript
+    - 2025-11-13 last release/commit 7/2024, keeping UCM=Static
+
+AllowedAPKSigningKeys: ef166262e9e993c569db5419d98076c30c9e0c5f78444c03dafcae8d592b2ce6
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

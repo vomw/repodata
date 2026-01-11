@@ -1,0 +1,50 @@
+Automation:
+  name: Automatisierung
+Connectivity:
+  name: Verbindung
+Development:
+  name: Entwicklung
+Food:
+  name: Ernährung
+Games:
+  name: Spiele
+Graphics:
+  name: Grafik
+Internet:
+  name: Internet
+Messaging:
+  name: Messaging
+Money:
+  name: Geld
+Multimedia:
+  name: Multimedia
+Navigation:
+  name: Navigation
+Office:
+  name: Büro
+Phone & SMS:
+  name: Telefon / SMS
+Reading:
+  name: Lesen
+Religion:
+  name: Religion
+Science & Education:
+  name: Wissenschaft & Bildung
+Security:
+  name: Sicherheit
+Social Network:
+  name: Soziales Netzwerk
+Sports & Health:
+  name: Sport / Gesundheit
+System:
+  name: System
+Theming:
+  name: Aussehen
+Time:
+  name: Zeit
+Weather:
+  name: Wetter
+Writing:
+  name: Schreiben
+Xposed:
+  name: Xposed

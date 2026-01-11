@@ -1,0 +1,27 @@
+Categories:
+  - Social Network
+  - Internet
+License: GPL-3.0-only
+AuthorName: Yuzu Vita
+AuthorEmail: github@vitayuzu.day
+SourceCode: https://github.com/heddxh/NeoDB-You
+IssueTracker: https://github.com/heddxh/NeoDB-You/issues
+Translation: https://hosted.weblate.org/engage/neodb-you/
+Changelog: https://github.com/heddxh/NeoDB-You/releases
+
+AutoName: NeoDB You
+
+MaintainerNotes:
+  AppAdded: 2025-08-14
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /x86/
+  Fastlane: https://github.com/heddxh/NeoDB-You/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  Status:
+    - 2025-08-14 upstreaming our Fastlane metadata via https://github.com/heddxh/NeoDB-You/pull/3
+
+AllowedAPKSigningKeys: 86fc9c9cde4c0c57bcf5766e2a103c7cd1ff9db7eee4643a2159c6ecae4d48f6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

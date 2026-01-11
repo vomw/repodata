@@ -1,0 +1,27 @@
+Categories:
+  - Graphics
+License: MIT
+AuthorName: xshadowlegendx
+AuthorEmail: lyheng6@gmail.com
+SourceCode: https://github.com/free-watermark/mobile-app
+IssueTracker: https://github.com/free-watermark/mobile-app/issues
+
+AutoName: Watermarking
+
+MaintainerNotes:
+  AppAdded: 2023-03-21
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/free-watermark/mobile-app/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  NameSpaces:
+    - /com/example/free_watermark
+  Status:
+    - 2024-12-10 last release 3/2023, last commit 4/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: bf1c0d32016bf61ef9f605937fae510858afb9d706db86466e5f17cf6980a09b
+
+VercodeOperation: '%c *1000'
+AutoUpdateMode: Version v.*\+%c
+UpdateCheckMode: Static

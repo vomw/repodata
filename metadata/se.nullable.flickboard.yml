@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: AGPL-3.0-only
+AuthorName: Natalie Klestrup Röijezon
+AuthorEmail: nat@nullable.se
+SourceCode: https://codeberg.org/natkr/flickboard
+IssueTracker: https://codeberg.org/natkr/flickboard/issues
+Changelog: https://codeberg.org/natkr/flickboard/releases
+
+AutoName: FlickBoard
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-02-10
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/natkr/flickboard/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,screenshots
+  DoubleList: keep
+  IntentFilterIgnore:
+    android.view.InputMethod: needed as this is a keyboard app
+  Status:
+    - 2024-12-30 migrated to Codeberg from https://github.com/nightkr/flickboard
+
+AllowedAPKSigningKeys: 51612a908aaf90aff66d1260a01992b3dde73a3ee3a94069412be2012272020f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

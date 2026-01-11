@@ -1,0 +1,25 @@
+Categories:
+  - Reading
+  - Science & Education
+License: MIT
+AuthorName: Chukwuka
+AuthorWebSite: https://ezechuka.github.io/
+SourceCode: https://github.com/ezechuka/EnglishWhiz
+IssueTracker: https://github.com/ezechuka/EnglishWhiz/issues
+
+AutoName: EnglishWhiz
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-03-01
+  Method: github-release
+  GHSkipPre: 1
+  X-GHDownloadDir: https://github.com/ezechuka/EnglishWhiz/blob/main/app/release
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 5/2022, last commit 6/2022)
+    - 2026-01-09 still no new commits; disabling update checks altogether
+
+AllowedAPKSigningKeys: 33c26922668000f6b6bb6b7aac975e1ef44221cc637a242ac7336002d5d6ddf2
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

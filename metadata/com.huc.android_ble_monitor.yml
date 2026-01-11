@@ -1,0 +1,23 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: mx0c
+SourceCode: https://github.com/mx0c/Android-BLE-Monitor
+IssueTracker: https://github.com/mx0c/Android-BLE-Monitor/issues
+
+AutoName: BLE-Monitor
+
+MaintainerNotes:
+  AppAdded: 2020-11-03
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2020-11-28 switching from Tags to Static, see https://github.com/mx0c/Android-BLE-Monitor/issues/16#issuecomment-734448527
+    - 2020-12-04 author reported fix, changing back to Tags
+    - 2021-12-07 switching UCM from Tags to Static (last release was 12/2020)
+    - 2023-08-07 last release 12/2020, last commit 5/2021
+    - 2026-01-09 still no new commits; disabling update checks altogether
+
+AllowedAPKSigningKeys: 2ffb9b4ef2db62cc5e4089c72ac0b5d5f644ca5896630998628ca2135274d11c
+
+UpdateCheckMode: None

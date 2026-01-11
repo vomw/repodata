@@ -1,0 +1,1 @@
+locks Android devices for a set time

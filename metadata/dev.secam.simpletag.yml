@@ -1,0 +1,29 @@
+Categories:
+  - Graphics
+License: GPL-3.0-or-later
+AuthorName: Sergio Camacho
+AuthorEmail: sergio@secam.dev
+AuthorWebSite: https://secam.dev/
+SourceCode: https://github.com/sergcam/SimpleTag
+IssueTracker: https://github.com/sergcam/SimpleTag/issues
+Changelog: https://github.com/sergcam/SimpleTag/releases
+
+AutoName: SimpleTag
+
+MaintainerNotes:
+  AppAdded: 2025-09-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sergcam/SimpleTag/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.WRITE_EXTERNAL_STORAGE: API29 and below. Used to read and write audio files
+    android.permission.READ_EXTERNAL_STORAGE: API30-API32. Used to read audio files
+    android.permission.READ_MEDIA_AUDIO: API33+. Used to read audio files
+    android.permission.MANAGE_MEDIA: used in combination with ACCESS_MEDIA_LOCATION to write to audio files without system pop-up
+    android.permission.ACCESS_MEDIA_LOCATION: used a.o. to read location data from photos
+
+AllowedAPKSigningKeys: 9b30ccccb22cd9dffc6ef8e4fa785cf1b4f83f9db1fc67872d09a9711cabc488
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

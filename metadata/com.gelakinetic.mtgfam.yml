@@ -1,0 +1,30 @@
+Categories:
+  - Games
+License: MIT
+AuthorName: gelakinetic
+AuthorEmail: mtg.familiar@gmail.com
+SourceCode: https://github.com/AEFeinstein/mtg-familiar
+IssueTracker: https://github.com/AEFeinstein/mtg-familiar/issues
+Changelog: https://github.com/AEFeinstein/mtg-familiar/releases
+Donate: https://github.com/AEFeinstein/mtg-familiar/blob/HEAD/README.md#show-support
+
+AutoName: MTG Familiar
+
+MaintainerNotes:
+  AppAdded: 2019-06-26
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/63
+  Fastlane: https://github.com/AEFeinstein/mtg-familiar/tree/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphicJPG,screenshotsJPG
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: implied by WRITE_EXTERNAL_STORAGE
+    android.permission.WRITE_EXTERNAL_STORAGE: used to allow backups to custom locations on local storage
+  Status:
+    - 2024-01-14 updater reports usesCleartextTraffic; this was needed in the past, asked if it still is https://github.com/AEFeinstein/mtg-familiar/issues/451
+
+AllowedAPKSigningKeys: de72f1db4c1fce3028a6149b6eca99489c12bb41aad4623dbd87863a2ef2dc44
+
+ArchivePolicy: 1
+UpdateCheckMode: Tags

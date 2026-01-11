@@ -1,0 +1,28 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: BroscR
+AuthorWebSite: https://stackoverflow.com/users/12348326/broscr
+SourceCode: https://github.com/broscr/IPTV-Player
+IssueTracker: https://github.com/broscr/IPTV-Player/issues
+
+AutoName: IPTV Player
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-07-31
+  Method: github-repo
+  GHSkipPre: 1
+  GHDownloadDir: https://github.com/broscr/IPTV-Player/blob/master/app/release
+  FlagIgnore:
+    usesCleartextTraffic: Needed for some TV stations which only provide their streams over unencrypted HTTP.
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: Needed to access media saved/stored by other apps.
+    android.permission.READ_MEDIA_AUDIO: Needed to play your local audio files.
+  Status:
+    - 2024-01-21 scanner reports usesCleartextTraffic, READ_EXTERNAL_STORAGE, READ_MEDIA_AUDIO – https://github.com/broscr/IPTV-Player/issues/19
+    - 2026-01-09 last commit 9/2024, adding UCM Static
+
+AllowedAPKSigningKeys: 5d1c69cbbf61dcc12b619ecf795ae8eaeeb4110b06ed63585138a722feda29da
+
+UpdateCheckMode: Static

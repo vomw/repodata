@@ -1,0 +1,27 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Su-Shing Chen
+AuthorEmail: shingyx.dev@gmail.com
+SourceCode: https://github.com/Shingyx/BoomSwitch
+IssueTracker: https://github.com/Shingyx/BoomSwitch/issues
+
+AutoName: BOOM Switch
+
+MaintainerNotes:
+  AppAdded: 2023-01-31
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-10-02 signing key changed (Google => own?), see https://github.com/Shingyx/BoomSwitch/issues/16
+    - 2025-02-11 signed & modified by Google, incl. SOURCE_STAMP_V2_BLOCK
+    - 2025-08-28 project went to maintenance mode, so our PR with fastlane was declined – https://github.com/Shingyx/BoomSwitch/pull/24#issuecomment-3232912829
+
+AllowedAPKSigningKeys: 1d8d2eb3e8f37805b246e7c4f402c157dd7e89b4071566b3c148323a090824ea
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

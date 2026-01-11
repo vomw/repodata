@@ -1,0 +1,25 @@
+Categories:
+  - Money
+License: GPL-3.0-or-later
+AuthorName: Maximilian Salomon
+AuthorEmail: msal.coding@gmail.com
+SourceCode: https://github.com/sal0max/currencies
+IssueTracker: https://github.com/sal0max/currencies/issues
+Changelog: https://github.com/sal0max/currencies/releases
+
+AutoName: Currencies
+
+MaintainerNotes:
+  AppAdded: 2020-10-29
+  AppRemoved: 2021-01-10 reached F-Droid
+  AddedBack: 2025-03-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sal0max/currencies/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 3532ce86503f6a9db19c5e05b14e51aee6cc1031d509bcac533cc285a5102864
+
+AutoUpdateMode: Version v%c
+UpdateCheckMode: Tags

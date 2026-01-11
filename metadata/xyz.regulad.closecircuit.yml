@@ -1,0 +1,38 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-11-07, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-11-07 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Parker Wahle
+AuthorEmail: regulad@regulad.xyz
+AuthorWebSite: https://t.regulad.xyz/
+SourceCode: https://github.com/regulad/closecircuit
+IssueTracker: https://github.com/regulad/closecircuit/issues
+
+AutoName: Close Circuit
+
+MaintainerNotes:
+  AppAdded: 2025-01-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/regulad/closecircuit/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: needed to connect to the IP cams via WiFi Direct
+  PermIgnore:
+    android.permission.CHANGE_WIFI_MULTICAST_STATE: to probe the network for available IP cams
+    android.permission.NEARBY_WIFI_DEVICES: used to detect the IP cams via WiFi Direct
+    android.permission.ACCESS_WIFI_STATE: needed to check the current WiFi state
+    android.permission.CHANGE_WIFI_STATE: needed to use WiFi Direct to access the IP cam
+    android.permission.ACCESS_FINE_LOCATION: needed in connection with nearby devices
+    android.permission.ACCESS_COARSE_LOCATION: needed in connection with nearby devices
+  Status:
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/regulad/closecircuit/pull/3
+
+AllowedAPKSigningKeys: 1736965a37db22567bd285fb4c6683809126df7c3498fc19604f30dec1d600e4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

@@ -1,0 +1,33 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: y20k
+WebSite: https://codeberg.org/y20k/transistor
+SourceCode: https://codeberg.org/y20k/transistor
+IssueTracker: https://codeberg.org/y20k/transistor/issues
+Translation: https://hosted.weblate.org/projects/transistor/strings/
+Changelog: https://codeberg.org/y20k/transistor/releases
+
+AutoName: Transistor
+
+MaintainerNotes:
+  AppAdded: 2023-06-12
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/y20k/transistor/src/branch/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  ApkIgnore: /non-free/i
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/388
+  FlagIgnore:
+    usesCleartextTraffic: needed for the many radio stations still using plain http
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to e.g. read personal M3U files or station icons
+  Status:
+    - 2024-04-19 scanner reports usesCleartextTraffic DEPENDENCY_INFO_BLOCK READ_EXTERNAL_STORAGE – https://codeberg.org/y20k/transistor/issues/499
+    - 2024-10-07 v4.2.0 added Cast, see https://codeberg.org/y20k/stayput/issues/2 (transistor issue tracker was disabled, sorry)
+
+AllowedAPKSigningKeys: 6105145f84e5cbd697f0f6e12c9777042e9b2db667a7ff0da412f67435316dd8
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

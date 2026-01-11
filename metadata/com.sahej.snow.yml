@@ -1,0 +1,31 @@
+Categories:
+  - Time
+  - Development
+License: MIT
+AuthorName: Sahej A. Singh
+AuthorEmail: sarao_sahej@outlook.com
+AuthorWebSite: https://sahej.io/
+SourceCode: https://github.com/sahej-dev/Snow
+IssueTracker: https://github.com/sahej-dev/Snow/issues
+Changelog: https://github.com/sahej-dev/Snow/releases
+
+AutoName: Snow
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-07-24
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8/i
+  Fastlane: https://github.com/sahej-dev/Snow/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,screenshotsJPG
+  NameSpaces:
+    - /com/example/snow
+  Status:
+    - 2023-10-23 signing key changed (from a debug key to a real one). Waiting for confirmation at https://github.com/sahej-dev/Snow/issues/13
+    - 2024-12-10 last release 10/2023, last commit 3/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: ac96d7b3794672ea0741ff6a2c2e9cc33e0ebc85785b2a3a1b9e312b9f9f88c2
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

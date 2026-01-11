@@ -1,0 +1,35 @@
+Categories:
+  - Development
+License: GPL-3.0-only
+AuthorName: ViscousPot
+AuthorEmail: bugs.viscouspotential@gmail.com
+WebSite: https://github.com/ViscousPot/GitSync/blob/master/Documentation.md
+SourceCode: https://github.com/ViscousPot/GitSync
+IssueTracker: https://github.com/ViscousPot/GitSync
+Changelog: https://github.com/ViscousPot/GitSync/releases
+
+AutoName: Git Sync
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-01-03
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64/i
+  Fastlane: https://github.com/ViscousPot/GitSync/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: used to to detect when apps are opened or closed. Can be disabled in settings.
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to read storage for sync
+    android.permission.MANAGE_EXTERNAL_STORAGE: to write synced files
+  Status:
+    - 2025-04-23 load of non-free components, anti-features added; https://github.com/ViscousPot/GitSync/issues/216
+    - 2025-09-18 upstreaming our FAstlane metadata via https://github.com/ViscousPot/GitSync/pull/465
+    - 2025-11-29 GMS & PlayCore added, so we need to raise NonFreeComp+NonFreeNet – https://github.com/ViscousPot/GitSync/issues/663
+    - 2025-11-30 fixed, removed AFs before they went live (removed the offending APK as well)
+
+AllowedAPKSigningKeys: f5cd024f134ce7d5d7c41ef27f0a9f02e3b1ad14760257811bab2959945130d9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

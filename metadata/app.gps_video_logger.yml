@@ -1,0 +1,25 @@
+Categories:
+  - Multimedia
+  - Navigation
+License: MIT
+AuthorName: Abin K Paul
+AuthorWebSite: https://abinpaul1.github.io/
+SourceCode: https://github.com/abinpaul1/GPS-Video-Logger
+IssueTracker: https://github.com/abinpaul1/GPS-Video-Logger/issues
+Changelog: https://github.com/abinpaul1/GPS-Video-Logger/releases
+
+AutoName: GPS Video Logger
+
+MaintainerNotes:
+  AppAdded: 2021-11-15
+  Method: github-release
+  GHSkipPre: 1
+  Note: successor of com.example.gps_app
+  Status:
+    - 2023-02-11 Tags => Static as no release since 1/2022 (last commit 1/2022)
+    - 2026-01-09 no commit for 5 years now, disabling updates altogether
+
+AllowedAPKSigningKeys: 669a8a1198c7b50f64b28655fa6ebe2bb9456862664eb5cbc27ca8e4dcc7f3fb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

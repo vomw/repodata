@@ -1,0 +1,25 @@
+Categories:
+  - Connectivity
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: deprec8
+AuthorEmail: deprec8@tutamail.com
+SourceCode: https://github.com/deprec8/EnigmaDroid
+IssueTracker: https://github.com/deprec8/EnigmaDroid/issues
+Changelog: https://github.com/deprec8/EnigmaDroid/releases
+
+AutoName: EnigmaDroid
+
+MaintainerNotes:
+  AppAdded: 2025-07-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/deprec8/EnigmaDroid/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed to connect to devices in the local network
+
+AllowedAPKSigningKeys: 7389e0f328335627de9e1141066bbd6fc9e64af538a42d9415fd5cac2caa5433
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

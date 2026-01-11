@@ -1,0 +1,31 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Hridayan
+SourceCode: https://github.com/DP-Hridayan/aShellYou
+IssueTracker: https://github.com/DP-Hridayan/aShellYou/issues
+Changelog: https://github.com/DP-Hridayan/aShellYou/releases
+
+AutoName: aShell You
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-03-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/DP-Hridayan/aShellYou/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.WRITE_EXTERNAL_STORAGE: required to save the adb output into a txt file
+    android.permission.READ_EXTERNAL_STORAGE: required to read adb output from a txt file
+    android.permission.MANAGE_EXTERNAL_STORAGE: to push/ pull files from other devices which are connected to the device
+    android.permission.REQUEST_INSTALL_PACKAGES: for the optional, opt-in in-app updater
+  Status:
+    - 2025-03-16 MANAGE_EXTERNAL_STORAGE REQUEST_INSTALL_PACKAGES; in-app updater was added – https://github.com/DP-Hridayan/aShellYou/issues/205
+    - 2025-03-17 updater is opt-in now and informing about implications.
+    - 2025-11-28 Hit the Github-release-not-found bug, see https://github.com/DP-Hridayan/aShellYou/issues/336
+
+AllowedAPKSigningKeys: dc4217203a7284bd159d7b863b7990620069c7929d6f5a51f59a321e77f18d4c
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

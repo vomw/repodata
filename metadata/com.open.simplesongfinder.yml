@@ -1,0 +1,39 @@
+AntiFeatures:
+  NonFreeDep:
+    en-US: The app uses apps from subcription services to obtain the titles to fetch.
+    de: Die App verwendet Apps von Subscription Services um zu holende Titel zu ermitteln.
+  NonFreeNet:
+    en-US: Music files are obtained from YouTube.
+    de: Musikdateien werden von YouTube bezogen.
+Categories:
+  - Multimedia
+  - Internet
+License: GPL-3.0-or-later
+AuthorName: UpAllNite-Software
+SourceCode: https://github.com/UpAllNite-Software/simple-song-collector
+IssueTracker: https://github.com/UpAllNite-Software/simple-song-collector/issues
+Changelog: https://github.com/UpAllNite-Software/simple-song-collector/releases
+
+AutoName: Simple Song Collector
+
+MaintainerNotes:
+  AppAdded: 2024-07-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/UpAllNite-Software/simple-song-collector/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/open/simplesongcollector
+    - /org/schabi/newpipe
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted due to WRITE_EXTERNAL_STORAGE
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to save the downloaded files
+  Status:
+    - 2025-08-11 upstreaming our Fastlane via https://github.com/UpAllNite-Software/simple-song-collector/pull/9
+
+
+AllowedAPKSigningKeys: f15249882a77a1dd12efef956352419f47d35beff0c9b3b7462851eb11aec694
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

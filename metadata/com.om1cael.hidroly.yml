@@ -1,0 +1,24 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Micael
+SourceCode: https://github.com/om1cael/Hidroly
+IssueTracker: https://github.com/om1cael/Hidroly/issues
+Changelog: https://github.com/om1cael/Hidroly/releases
+
+AutoName: Hidroly
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-08-05
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  ApkIgnore: /fdroid/i
+  Fastlane: https://github.com/om1cael/Hidroly/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: ecd93b0e9444d2f2ad985d35031ba0c9ab2b1708dc9b4e6ae73915135945efa0
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

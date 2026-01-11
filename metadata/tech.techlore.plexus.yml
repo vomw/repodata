@@ -1,0 +1,33 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: Connects to Google Play to retrieve icons.
+    de: Verbindet sich zu Google Play um Icons zu laden.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Techlore
+AuthorEmail: support@techlore.tech
+AuthorWebSite: https://techlore.tech/
+WebSite: https://plexus.techlore.tech/
+SourceCode: https://github.com/techlore/Plexus-app
+IssueTracker: https://github.com/techlore/Plexus-app/issues
+Changelog: https://github.com/techlore/Plexus-app/blob/main/CHANGELOG.md
+
+AutoName: Plexus
+
+MaintainerNotes:
+  AppAdded: 2022-05-10
+  AppRemoved: 2022-06-03 reached F-Droid at 2022-05-20
+  AddedBack: 2024-07-10 requested by author per mail as F-Droid builds are stuck
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/techlore/Plexus-app/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to get a list of installed apps to check
+
+AllowedAPKSigningKeys: f02b66e8e6183704c3fd6ae0632f6240de8eec0d6bdbe917731c41ab8c7d9aab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

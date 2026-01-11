@@ -1,0 +1,1 @@
+<p><i>Usb Debugging</i> does automatically deny USB debugging on new computer without any dialog popup. You can configure it in its module properties once installed.</p>

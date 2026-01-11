@@ -1,0 +1,27 @@
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: BasicAirData
+AuthorEmail: info@basicairdata.eu
+WebSite: https://www.basicairdata.eu/projects/android/android-gps-logger/
+SourceCode: https://github.com/BasicAirData/GPSLogger
+IssueTracker: https://github.com/BasicAirData/GPSLogger/issues
+Translation: https://crowdin.com/project/gpslogger
+Changelog: https://github.com/BasicAirData/GPSLogger/releases
+
+AutoName: GPS Logger
+
+MaintainerNotes:
+  AppAdded: 2017-02-12
+  Method: github-release
+  Fastlane: https://github.com/BasicAirData/GPSLogger/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshotsJPG
+  Note: Fastlane fulldesc is a wall-of-text unfortunately.
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to record your location
+    android.permission.ACCESS_FINE_LOCATION: needed to record your precise location (GPS)
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted due to WRITE_EXTERNAL_STORAGE which is needed on older Android versions to export GPS tracks
+
+AllowedAPKSigningKeys: 7c4d9c5e07971e62c3f560a7b265ed399cf6d70017fc96ff2286c7995ec9e364
+
+UpdateCheckMode: Tags

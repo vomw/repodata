@@ -1,0 +1,38 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: This app depends on the website of Anna’s Archive.
+    de: Diese App ist auf Zugriffe zu Anna’s Archive angewiesen.
+Categories:
+  - Reading
+License: GPL-3.0-or-later
+AuthorName: dstark5
+AuthorWebSite: https://dine5h.netlify.app/
+SourceCode: https://github.com/dstark5/Openlib
+IssueTracker: https://github.com/dstark5/Openlib/issues
+Changelog: https://github.com/dstark5/Openlib/releases
+Donate: https://annas-archive.org/donate?tier=1
+
+AutoName: Openlib
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-08-12
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/dstark5/Openlib/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to access e.g. eBooks downloaded to the Downloads/ directory in newer Android versions
+    android.permission.READ_EXTERNAL_STORAGE: needed to access eBooks on the device
+  Status:
+    - 2023-08-12 added with NonFreeNet, should become TetheredNet as website and content are libre, self-hosted GitLab at https://annas-software.org/AnnaArchivist/annas-archive
+    - 2023-10-25 TetheredNet entered F-Droid’s AntiFeatures.yml, so the switch has been performed.
+    - 2023-10-28 quarantine shows last 3 versions stuck on versionCode 2001 (2 copies there, cleaned now). Author promises to fix this with next release https://github.com/dstark5/Openlib/issues/36
+    - 2024-02-05 scanner reports android.permission.READ_MEDIA_IMAGES android.permission.READ_MEDIA_AUDIO MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE – https://github.com/dstark5/Openlib/issues/63
+    - 2024-09-02 UCM Tags=>Static as latest release has VC decreased and thus is daily pulled and deleted right away – https://github.com/dstark5/Openlib/issues/63#issuecomment-2325240850
+    - 2024-11-02 VC fixed, UCM Static=>Tags again
+
+AllowedAPKSigningKeys: ca48bdb0493f7e382141ae63a722e6c9e24e29f743eb9ebee84581b06aa347be
+
+UpdateCheckMode: Tags

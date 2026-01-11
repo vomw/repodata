@@ -1,0 +1,29 @@
+Categories:
+  - Automation
+  - System
+License: Apache-2.0
+AuthorName: Henrich Gron
+AuthorEmail: henrich.gron@gmail.com
+SourceCode: https://github.com/henrichg/PPPPutSettings
+IssueTracker: https://github.com/henrichg/PPPPutSettings/issues
+Translation: https://crowdin.com/project/phoneprofilesplus
+Changelog: https://github.com/henrichg/PPPPutSettings/releases
+
+AutoName: PPPPutSettings
+
+MaintainerNotes:
+  AppAdded: 2023-05-08
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.WRITE_SETTINGS: needed to change device settings
+    sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION: the app’s own permission. Apps wanting access to it (e.g. PPP) must request it
+  LibIgnore:
+    - /org/acra
+  Fastlane: https://github.com/henrichg/PPPPutSettings/blob/main/fastlane/android/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+
+AllowedAPKSigningKeys: 3ef43286ba71abe2d8c3d2bc07a2268e006c546b48542e4e0bcec17ca7abff0c
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

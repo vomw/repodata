@@ -1,0 +1,1 @@
+create time lapse from a series of images or a video

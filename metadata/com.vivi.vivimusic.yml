@@ -1,0 +1,39 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on Youtube.
+    de: Die App hängt von Youtube ab.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Vividh P Ashokan
+AuthorEmail: mkmdevilmi@gmail.com
+WebSite: https://vivi-music-web-com.vercel.app/
+SourceCode: https://github.com/vivizzz007/vivi-music
+IssueTracker: https://github.com/vivizzz007/vivi-music/issues
+Changelog: https://github.com/vivizzz007/vivi-music/releases
+
+AutoName: VIVI
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-05-31
+  Method: github-release
+  ApkMatch: /universal-foss/i
+  GHSkipPre: 1
+  Fastlane: https://github.com/vivizzz007/vivi-music/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /com/music
+    - /com/my/kizzy
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to play local audio files
+    android.permission.WRITE_EXTERNAL_STORAGE: to store downloaded audio files
+  Status:
+    - 2025-06-29 v3.0.0 adds MLKit, GMS, Firebase – and doubles APK size, pushing it beyond our per-app size limit. UCN Tags=>Static for now, rolling back to previous release; https://github.com/vivizzz007/vivi-music/issues/17
+    - 2025-07-17 still no response. Also versionCode not increased, so disabling updates altogether for now.
+    - 2025-07-21 foss variant available now
+
+AllowedAPKSigningKeys: e0581bab0b930b179396e13008aa08509cdcd1ee38f7ae54102fc3cf93256a9d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

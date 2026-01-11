@@ -1,0 +1,29 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app sends analytics to Cloud Audit Logs.
+    de: Die App übermittelt Analysedaten an Cloud Audit Logs.
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: Christian Rowlands
+AuthorEmail: craxiomdev@gmail.com
+SourceCode: https://github.com/christianrowlands/android-network-survey-rooted
+IssueTracker: https://github.com/christianrowlands/android-network-survey-rooted/issues
+Changelog: https://github.com/christianrowlands/android-network-survey-rooted/releases
+
+AutoName: Network Survey+
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2021-03-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/christianrowlands/android-network-survey-rooted/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphicJPG,screenshots
+  Status:
+    - 2022-11-07 no release since 9/2021, last code commit 9/2021; switch from Tags to Static
+
+AllowedAPKSigningKeys: 925411a7c727f48eac4151aaf1a692a5cf21c6b435d4748f1ea94bdd18b3d617
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

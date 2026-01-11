@@ -1,0 +1,23 @@
+Categories:
+  - Sports & Health
+License: Apache-2.0
+AuthorName: Vladimir Zhdamirov
+AuthorEmail: thefoxek@gmail.com
+SourceCode: https://github.com/Foxek/WiseTimer
+IssueTracker: https://github.com/Foxek/WiseTimer/issues
+Changelog: https://github.com/Foxek/WiseTimer/releases
+
+AutoName: WiseTimer
+
+MaintainerNotes:
+  AppAdded: 2020-09-14
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-12-07 switching AUM from Tags to Static (last release was 10/2020; no commit since)
+    - 2026-01-09 still no new commits; disabling update check altogether.
+
+AllowedAPKSigningKeys: cc7410ff6804ca859804f2f7b0bb9a8ef371b5b2047be057573eac499a5206cc
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

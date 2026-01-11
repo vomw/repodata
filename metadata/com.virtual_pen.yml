@@ -1,0 +1,22 @@
+Categories:
+  - Connectivity
+License: AGPL-3.0-or-later
+AuthorName: Mathieu-Beliveau
+SourceCode: https://github.com/androidvirtualpen/virtualpen
+IssueTracker: https://github.com/androidvirtualpen/virtualpen/issues
+Changelog: https://github.com/androidvirtualpen/virtualpen/releases
+
+AutoName: Android Virtual Pen
+
+MaintainerNotes:
+  AppAdded: 2024-04-14
+  Method: github-release
+  GHSkipPre: 0
+  Status:
+    - 2024-06-25 repo changed from https://github.com/Mathieu-Beliveau/android-virtual-pen to https://github.com/androidvirtualpen/virtualpen (note in Readme, no redirect)
+    - 2025-06-27 last release 2024-04-19; UCM Tags=>Static
+
+AllowedAPKSigningKeys: ae474a126b9d393fb09134899d6b9660f765319a42a8b16597621370ea5d5aa0
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

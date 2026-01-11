@@ -1,0 +1,26 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: The cleanslate.mobi server is hardcoded.
+Categories:
+  - Security
+License: MIT
+AuthorName: devshield.tech
+AuthorEmail: support@devshield.tech
+AuthorWebSite: https://devshield.tech/
+WebSite: https://cleanslate.mobi/
+SourceCode: https://github.com/devshield-tech/botox-android
+IssueTracker: https://github.com/devshield-tech/botox-android/issues
+
+AutoName: CleanSlate
+
+MaintainerNotes:
+  AppAdded: 2026-01-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/devshield-tech/botox-android/blob/v1.0.39/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: e41f77a2638c8529c4311c74c5b41b404fd7fa3c5674ca74f7c4f1b88f0cc733
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

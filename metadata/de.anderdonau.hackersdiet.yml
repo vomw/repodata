@@ -1,0 +1,22 @@
+Categories:
+  - Sports & Health
+License: GPL-2.0-only
+AuthorName: Benjamin Schieder
+SourceCode: https://codeberg.org/blindcoder/hackersdietoffline
+IssueTracker: https://codeberg.org/blindcoder/hackersdietoffline/issues
+Changelog: https://codeberg.org/blindcoder/hackersdietoffline/releases
+
+AutoName: HackersDiet
+
+MaintainerNotes:
+  AppAdded: 2025-08-26
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /signed\.apk$/i
+  Fastlane: https://codeberg.org/blindcoder/hackersdietoffline/src/branch/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 87a1e632a421a07687102abea69576e57fa30f46688d6e52857539880ef20fc6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

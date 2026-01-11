@@ -1,0 +1,43 @@
+Categories:
+  - Social Network
+  - Internet
+License: AGPL-3.0-only
+AuthorName: Dessalines
+AuthorWebSite: https://mastodon.social/@dessalines
+SourceCode: https://github.com/LemmyNet/jerboa
+IssueTracker: https://github.com/LemmyNet/jerboa/issues
+Changelog: https://github.com/LemmyNet/jerboa/blob/main/RELEASES.md
+Liberapay: Lemmy
+OpenCollective: Lemmy
+Donate: https://www.patreon.com/dessalines
+Bitcoin: 1Hefs7miXS5ff5Ck5xvmjKjXf5242KzRtK
+
+AutoName: Jerboa for Lemmy
+
+MaintainerNotes:
+  AppAdded: 2022-01-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/LemmyNet/jerboa/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: changelogs much too big (3000 chars)
+  PermIgnore:
+    android.permission.ACCESS_NETWORK_STATE: needed to check if an Internet connection is available
+    android.permission.INTERNET: that’s where the Lemmy instances live 😊
+    android.permission.READ_EXTERNAL_STORAGE: needed to include local files with posts
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to store media on the device
+    android.permission.READ_MEDIA_AUDIO: needed to include audio files from local storage with posts
+    android.permission.READ_MEDIA_IMAGES: needed to include local images (eg. photos) with posts
+    android.permission.READ_MEDIA_VIDEO: needed to include local videos with posts
+  DoubleList: stuck
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/348
+  Status:
+    - 2022-02-01 arrived at F-Droid; remove at 2022-02-11, see https://github.com/dessalines/jerboa/issues/41#issuecomment-1029472612
+    - 2022-02-11 app removed
+    - 2023-02-12 re-established on request by developer https://gitlab.com/IzzyOnDroid/repo/-/issues/348
+    - 2024-02-06 scanner reports READ_MEDIA_AUDIO READ_MEDIA_IMAGES READ_MEDIA_VIDEO READ_EXTERNAL_STORAGE – https://github.com/dessalines/jerboa/issues/1353
+  X-AutoUpdateMode: Version v%v does not match (tag 0.0.4 has v0.0.3)
+
+AllowedAPKSigningKeys: ea7195cfce638ae6b1a8002ddc0d4863366095ea5b8d95c1cd5e25db0fe2e7c3
+
+UpdateCheckMode: Tags

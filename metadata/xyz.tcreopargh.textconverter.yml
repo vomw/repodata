@@ -1,0 +1,23 @@
+Categories:
+  - Writing
+License: GPL-2.0-only
+AuthorName: TCreopargh
+AuthorEmail: admin@tcreopargh.xyz
+AuthorWebSite: https://tcreopargh.xyz/
+SourceCode: https://github.com/TCreopargh/Text-Converter-Android
+IssueTracker: https://github.com/TCreopargh/Text-Converter-Android/issues
+
+AutoName: Text Converter
+
+MaintainerNotes:
+  AppAdded: 2020-07-23
+  Method: none
+  GHSkipPre: 1
+  Status:
+    - 2020-09-19 app was not updated for 1y 6m 12d; switching UCM from Tags to Static
+    - 2023-08-08 last release 3/2019, last commit 3/2019; disabling updates (github-release/Static)
+
+AllowedAPKSigningKeys: 2b062a56e5b66bd1880a89a9c62378ca369f16a2894868bdb75bd95cada344d7
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

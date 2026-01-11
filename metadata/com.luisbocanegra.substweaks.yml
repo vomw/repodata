@@ -1,0 +1,29 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Google servers (PlayStore).
+    de: Die App baut Verbindungen zu Google Servern auf (PlayStore).
+Categories:
+  - Theming
+License: Apache-2.0
+AuthorName: Luis Bocanegra
+AuthorWebSite: https://luisbocanegra.me/
+SourceCode: https://github.com/luisbocanegra/substratum-tweaks
+IssueTracker: https://github.com/luisbocanegra/substratum-tweaks/issues
+Changelog: https://github.com/luisbocanegra/substratum-tweaks/releases
+
+AutoName: Substratum Tweaks
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/luisbocanegra/substratum-tweaks/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Status:
+    - 2024-02-22 last release/commit 11/2022, UCM Tags=>Static
+
+AllowedAPKSigningKeys: c96fd20fbfed3420cd7eb7841f651ef6fa23e7fc8583a1079703820f8d0e2207
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,29 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: juanitobananas
+SourceCode: https://gitlab.com/juanitobananas/sotification
+IssueTracker: https://gitlab.com/juanitobananas/sotification/issues
+Translation: https://www.transifex.com/juanitobananas/sotification
+Liberapay: juanitobananas
+Bitcoin: bc1qdl8md3dwmg39e9umyjfsdn9sy7mcpxfypen45a
+
+AutoName: Sotification
+
+MaintainerNotes:
+  AppAdded: 2021-10-23
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/juanitobananas/sotification/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshotsJPG
+  Note: fulldesc is almost Markdown, but links are wrong
+  PermIgnore:
+    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: to make sure it keeps running in the background
+    android.permission.RECEIVE_BOOT_COMPLETED: to automatically startup on boot if activated
+  Status:
+    - 2023-12-17 no commits since 2022-11-23, UCM Tags => Static
+
+AllowedAPKSigningKeys: 2406cad983b1c5a1d99c5cd5064fd3d783e985027a1c4ce9ce879b50ed3c08b6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

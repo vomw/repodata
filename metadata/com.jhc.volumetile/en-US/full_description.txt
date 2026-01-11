@@ -1,0 +1,1 @@
+<p><i>VolumeTile</i> is a very small app (less than 20 kB!) that lets you add a volume tile in QuickSettings.</p>

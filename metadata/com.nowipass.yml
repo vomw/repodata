@@ -1,0 +1,25 @@
+Categories:
+  - Security
+License: MIT
+AuthorName: cuadratico
+SourceCode: https://github.com/cuadratico/NowiPass
+IssueTracker: https://github.com/cuadratico/NowiPass/issues
+
+AutoName: NowiPass
+
+MaintainerNotes:
+  AppAdded: 2025-01-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/cuadratico/NowiPass/blob/V0.0.1/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: required by Bluetooth
+    android.permission.ACCESS_COARSE_LOCATION: required by Bluetooth
+    android.permission.BLUETOOTH_SCAN: to share passwords with other NowiPass users using Bluetooth
+
+AllowedAPKSigningKeys: d7dd17acdb3a2d8b57d370475fe02e7901faaf3e4d24c19ba214c0f9f068f77b
+
+AutoUpdateMode: Version V%v
+UpdateCheckMode: Tags

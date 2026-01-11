@@ -1,0 +1,27 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses the CoinGecko API.
+    de: Die App verwendet die CoinGecko API.
+Categories:
+  - Money
+License: MPL-2.0
+AuthorName: judemont
+AuthorEmail: julien@rmbi.ch
+AuthorWebSite: https://rmbi.ch/jdm
+SourceCode: https://codeberg.org/judemont/CryptoTracker
+IssueTracker: https://codeberg.org/judemont/CryptoTracker/issues
+
+AutoName: CryptoTracker
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-05-10
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/judemont/CryptoTracker/tree/main/fastlane/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 2a0570409f41a05df17ed61ffc86997dcc920c812bffdf0dce123cedaebd4b0b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

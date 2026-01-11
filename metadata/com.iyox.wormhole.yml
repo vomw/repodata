@@ -1,0 +1,35 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Ewu Entertainment
+AuthorEmail: zoligosa.ewu@gmail.com
+AuthorWebSite: https://github.com/iyox-studios/iyox-Wormhole
+SourceCode: https://github.com/iyox-studios/iyox-Wormhole
+IssueTracker: https://github.com/iyox-studios/iyox-Wormhole/issues
+Changelog: https://github.com/iyox-studios/iyox-Wormhole/releases
+
+AutoName: iyox Wormhole
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-02-28
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/iyox-studios/iyox-Wormhole/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  Note: video.txt is empty
+  PermIgnore:
+    android.permission.INTERNET: needed to share files with other devices
+    android.permission.CAMERA: needed for the integrated QR Code scanner
+  Status:
+    - 2024-02-28 scanner reports DEPENDENCY_INFO_BLOCK android.permission.RECORD_AUDIO – https://github.com/iyox-studios/iyox-Wormhole/issues/8
+    - 2024-03-05 v0.1.6 has APK from v0.1.5 attached, signed with a debug key. UCM Tags=>Static until solved and APK replaced from v0.1.5 – https://github.com/iyox-studios/iyox-Wormhole/issues/18
+    - 2024-03-06 solved, UCM back to Tags
+
+AllowedAPKSigningKeys: b70f0859f9bbde820cb3df381fc13b65bf03d8a2171751a75ec159481942424c
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

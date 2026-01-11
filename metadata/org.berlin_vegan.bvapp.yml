@@ -1,0 +1,28 @@
+Categories:
+  - Navigation
+  - Food
+License: GPL-2.0-or-later
+AuthorName: Berlin-Vegan
+AuthorEmail: bv-app@berlin-vegan.de
+WebSite: https://www.berlin-vegan.de/bv-guide/
+SourceCode: https://github.com/micuintus/harbour-Berlin-Vegan
+IssueTracker: https://github.com/micuintus/harbour-Berlin-Vegan/issues
+Changelog: https://github.com/micuintus/harbour-Berlin-Vegan/releases
+
+AutoName: Berlin-Vegan
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-01-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armv7/i
+  Status:
+    - 2021-10-31 no updates for 1y 2m 6d, setting from Tags to Static
+    - 2023-08-08 last release 8/2020, last commit 6/2022, issues no longer answered and author rarely around
+    - 2025-11-13 app still works, content seems to be updated still. Does not take a No to its device location access request, though.
+
+AllowedAPKSigningKeys: 4ddac20ed475f7cbfa1d6e030b939c569e360f56fbc623fd264ace925d6e09a6
+
+UpdateCheckMode: Static

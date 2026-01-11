@@ -1,0 +1,1 @@
+Support für USB GNSS Antennen unter Android

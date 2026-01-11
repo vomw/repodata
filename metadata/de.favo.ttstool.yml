@@ -1,0 +1,25 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: FAvO Apps
+AuthorEmail: felixvonoertzen@gmail.com
+AuthorWebSite: https://sites.google.com/view/favoapps/
+SourceCode: https://gitlab.com/felixvonberlin/tts-tool
+IssueTracker: https://gitlab.com/felixvonberlin/tts-tool/issues
+
+AutoName: TTS Tool
+
+MaintainerNotes:
+  AppAdded: 2019-03-08
+  Method: gitlab-repo
+  GHSkipPre: 1
+  GHDownloadDir: https://gitlab.com/felixvonberlin/tts-tool/app/release
+  Status:
+    - 2019-03-08 Bunch of APKs at https://gitlab.com/felixvonberlin/tts-tool/blob/master/app/release all with same timestamp
+    - 2019-03-08 in source code
+    - 2020-09-19 app was not updated for 1y 1m 30d; switching UCM from NULL to Static
+    - 2023-08-08 last release/commit 7/2019, disabling update checks (from Static)
+
+AllowedAPKSigningKeys: 57a9594d2035a6b9fe93cde3a42c2b81ed0a38943639396dcdd13b8ad229c8f9
+
+UpdateCheckMode: None

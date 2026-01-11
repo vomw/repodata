@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: whitedavidp
+SourceCode: https://github.com/whitedavidp/android-unistroke-keyboard
+IssueTracker: https://github.com/whitedavidp/android-unistroke-keyboard/issues
+Changelog: https://github.com/whitedavidp/android-unistroke-keyboard/releases
+
+AutoName: Unistroke Keyboard
+
+MaintainerNotes:
+  AppAdded: 2025-10-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/whitedavidp/android-unistroke-keyboard/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  IntentFilterIgnore:
+    android.view.InputMethod: needed for core functionality, as this is an input method
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to read gestures from files of the appropriate names
+
+AllowedAPKSigningKeys: 566092d105ab6df39d85a8e17f13dcb47b0a7bf9ec37be1a4f4f605571949ac7
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

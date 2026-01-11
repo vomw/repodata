@@ -1,0 +1,27 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Moderpach
+AuthorEmail: powermoderpach@gmail.com
+AuthorWebSite: https://moderpach.github.io/
+SourceCode: https://github.com/Moderpach/Extinguish
+IssueTracker: https://github.com/Moderpach/Extinguish/issues
+Changelog: https://github.com/Moderpach/Extinguish/releases
+
+AutoName: Extinguish
+
+MaintainerNotes:
+  AppAdded: 2024-09-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Moderpach/Extinguish/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /extinguish
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed to show a floating window on other apps to be used to control screen state
+
+AllowedAPKSigningKeys: d33dea86754ec43abc16874f5369bdb07b2f0aaabaefbb4ba0a24713c5078d07
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

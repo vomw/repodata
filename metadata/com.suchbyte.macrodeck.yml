@@ -1,0 +1,30 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+Categories:
+  - Automation
+License: Apache-2.0
+AuthorName: Macro Deck
+AuthorWebSite: https://macrodeck.org/
+WebSite: https://macrodeck.org/
+SourceCode: https://github.com/Macro-Deck-App/Macro-Deck-Client
+IssueTracker: https://github.com/Macro-Deck-App/Macro-Deck-Client/issues
+Changelog: https://github.com/Macro-Deck-App/Macro-Deck-Client/releases
+
+AutoName: Macro Deck
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-05-02
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 7/2022, last commit 8/2022)
+    - 2024-01-18 repo was archived 2023-12-18, UCM => None
+
+AllowedAPKSigningKeys: 198250001f9e10de2a919d7d7237e275c3cd7ac646c9f448d201dd6c4ba6fc30
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None
+NoSourceSince: 2.4.1-beta

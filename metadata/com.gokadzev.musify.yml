@@ -1,0 +1,34 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Valeri Gokadze
+AuthorWebSite: https://gokadzev.github.io/
+WebSite: https://gokadzev.github.io/Musify
+SourceCode: https://github.com/gokadzev/Musify
+IssueTracker: https://github.com/gokadzev/Musify/issues
+Changelog: https://github.com/gokadzev/Musify/releases
+
+AutoName: Musify
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-06-12
+  AppRemoved: 2024-01-18 see Status
+  AddedBack: 2025-03-15
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Musify-arm64-v8a/i
+  ApkIgnore: /fdroid/i
+  Fastlane: https://github.com/gokadzev/Musify/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Status:
+    - 2023-05-18 at F-Droid as com.gokadzev.musify.fdroid
+    - 2024-01-17 scanner reports android.permission.REQUEST_INSTALL_PACKAGES – https://github.com/gokadzev/Musify/issues/336
+    - 2024-01-18 the only difference to the F-Droid build is the included self-updater, so we agreed to remove the app here
+    - 2025-03-15 returning the app. REQUEST_INSTALL_PACKAGES is no longer present – and app is RB now.
+
+AllowedAPKSigningKeys: a3fdd79dae938381b8582553b1382f96f1bc78a3b7028ffd07ec061c1842823a
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

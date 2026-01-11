@@ -1,0 +1,35 @@
+Categories:
+  - Internet
+  - Reading
+License: MPL-2.0
+AuthorName: Marcel Klehr
+AuthorEmail: mklehr@gmx.net
+AuthorWebSite: https://marcelklehr.de/
+WebSite: https://floccus.org/
+SourceCode: https://github.com/floccusaddon/floccus
+IssueTracker: https://github.com/floccusaddon/floccus/issues
+Changelog: https://github.com/floccusaddon/floccus/releases
+
+AutoName: floccus bookmark sync
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-12-08
+  AppRemoved: 2022-06-10 arrived at F-Droid on 2022-05-25
+  AddedBack: 2022-12-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/floccusaddon/floccus/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphicJPG,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://github.com/floccusaddon/floccus/issues/1096#issuecomment-1359143699
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: used for importing bookmarks
+    android.permission.WRITE_EXTERNAL_STORAGE: used for exporting bookmarks
+  Status:
+    - 2024-03-09 scanner reports READ_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK – https://github.com/floccusaddon/floccus/discussions/1558
+
+AllowedAPKSigningKeys: ffed2778ff07371e6367b6dcf5d7c1327c57ff7158b8444029182a9aa2dd7085
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

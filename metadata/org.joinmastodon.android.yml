@@ -1,0 +1,45 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to joinmastodon.org to retrieve curated list of servers.
+    de: Die App verbindet sich zu joinmastodon.org, um eine kurierte Server-Liste abzurufen.
+Categories:
+  - Social Network
+  - Internet
+  - Messaging
+License: GPL-3.0-only
+AuthorName: Mastodon
+AuthorEmail: hello@joinmastodon.org
+AuthorWebSite: https://joinmastodon.org/
+WebSite: https://app.joinmastodon.org/android
+SourceCode: https://github.com/mastodon/mastodon-android
+IssueTracker: https://github.com/mastodon/mastodon-android/issues
+
+AutoName: Mastodon
+
+MaintainerNotes:
+  AppAdded: 2022-04-13
+  X-Method: github-release
+  Method: direct-link
+  GHSkipPre: 1
+  ApkUrl: https://grishka.me/uploads/mastodon-release-latest.apk
+  Fastlane: https://github.com/mastodon/mastodon-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  FastlaneService: github
+  DoubleList: keep
+  DoubleListRef: https://github.com/mastodon/mastodon-android/issues/4#issuecomment-1335843958
+  LibIgnore:
+    - /com/google/android/gms
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: unused (granted implicitly by Android because of the write permission)
+    android.permission.WRITE_EXTERNAL_STORAGE: used for saving images from the media viewer
+  Status:
+    - 2022-12-02 entered F-Droid 4 days ago. Asked whether it shall be kept here, see https://github.com/mastodon/mastodon-android/issues/4#issuecomment-1335843958
+    - 2022-12-03 mark for keep as grishka confirmed
+    - 2024-02-15 scanner reports android.permission.REQUEST_INSTALL_PACKAGES android.permission.READ_EXTERNAL_STORAGE* and DEPENDENCY_INFO_BLOCK – https://github.com/mastodon/mastodon-android/issues/777
+    - 2024-03-17 UCM Tags=>Static until grishka gets the direct_link ready, see https://github.com/mastodon/mastodon-android/issues/777#issuecomment-1981868526
+    - 2025-01-06 v2.9.4 added GMS; raised NonFreeComp and informed upstream at https://github.com/mastodon/mastodon-android/issues/958
+    - 2025-01-07 false positive, this is grishka’s own implementation for microG; added /com/google/android/gms to LibIgnore and removed NonFreeComp again
+
+AllowedAPKSigningKeys: a3f19b26da3fe12b0285685f6ecc41515e6a9adcc5530b47c95d847cdae4a7e8
+
+AutoUpdateMode: Version v%v

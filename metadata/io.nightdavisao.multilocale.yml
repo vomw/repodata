@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Nightdavisao
+SourceCode: https://github.com/Nightdavisao/MultiLocale
+IssueTracker: https://github.com/Nightdavisao/MultiLocale/issues
+Changelog: https://github.com/Nightdavisao/MultiLocale/releases
+
+AutoName: MultiLocale
+
+MaintainerNotes:
+  AppAdded: 2024-10-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Nightdavisao/MultiLocale/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane icon and screenshots are symlinks
+  DoubleList: keep
+
+AllowedAPKSigningKeys: e65867cfe2cad239bf278c4844b8e22f24dbc6032fd55645dff414cde1df0a7f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

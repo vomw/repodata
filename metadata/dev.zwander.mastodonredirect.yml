@@ -1,0 +1,42 @@
+Categories:
+  - Social Network
+  - Messaging
+  - Internet
+License: MIT
+AuthorName: Zachary Wander
+AuthorEmail: zachary.wander@gmail.com
+AuthorWebSite: https://zwander.dev/
+SourceCode: https://github.com/zacharee/MastodonRedirect
+IssueTracker: https://github.com/zacharee/MastodonRedirect/issues
+Changelog: https://github.com/zacharee/MastodonRedirect/releases
+Donate: https://patreon.com/zacharywander
+
+AutoName: Mastodon Redirect
+
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-07-12
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /mastodon/i
+  ApkIgnore: /(lemmy|peertube)/i
+  Fastlane: https://github.com/zacharee/MastodonRedirect/tree/main/mastodonredirect/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /dev/zwander/shared
+  LibIgnore:
+    - /com/bugsnag
+  FlagIgnore:
+    usesCleartextTraffic: some domains were found having issues without this, though the real transfer then goes via HTTPS.
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: The app needs this for discovering supported Mastodon clients.
+  Status:
+    - 2024-01-18 scanner reported usesCleartextTraffic and android.permission.QUERY_ALL_PACKAGES – https://github.com/zacharee/MastodonRedirect/issues/33
+    - 2025-08-20 upstreaming our fastlane metadata via https://github.com/zacharee/MastodonRedirect/pull/43
+
+AllowedAPKSigningKeys: 755c46bd7ce69565d98004c5b1383df9bd5b4f270de80f3992fb42d822113d0b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

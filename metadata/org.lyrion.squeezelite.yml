@@ -1,0 +1,24 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: Craig Drummond
+SourceCode: https://github.com/CDrummond/squeezelite
+IssueTracker: https://forums.lyrion.org/forum/user-forums/3rd-party-software/1773275-announce-squeezelite-for-android
+Changelog: https://github.com/CDrummond/squeezelite/releases
+Donate: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2X2CTDUH27V9L&source=url
+
+AutoName: Squeezelite
+
+MaintainerNotes:
+  AppAdded: 2025-09-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CDrummond/squeezelite/tree/android/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed to connect the self-hosted server in the local network
+
+AllowedAPKSigningKeys: 6a67609cd05c37fa1e86eed06eecfb6de7b069e4210005baaba43803fe608533
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

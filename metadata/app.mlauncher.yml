@@ -1,0 +1,40 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: CodeWorks Creative Hub
+AuthorEmail: wayne6324@gmail.com
+WebSite: https://mlauncher.5646316.xyz
+SourceCode: https://github.com/CodeWorksCreativeHub/mLauncher
+IssueTracker: https://github.com/CodeWorksCreativeHub/mLauncher/issues
+Changelog: https://github.com/CodeWorksCreativeHub/mLauncher/releases
+
+AutoName: Multi Launcher ‧ Home Screen
+
+MaintainerNotes:
+  AppAdded: 2025-06-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CodeWorksCreativeHub/mLauncher/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneIgnore: changelogs
+  Note: changelogs only in it-IT, and not updated since 4/2024
+  DoubleList: keep
+  NameSpaces:
+    - /com/github/codeworkscreativehub/mlauncher
+    - /com/github/creativecodecat/components
+    - /com/github/droidworksstudio/mlauncher
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: for locking of the screen but double tap and opening power menu if configured
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to list all apps in the app drawer
+    android.permission.REQUEST_DELETE_PACKAGES: to allow triggering uninstallation for apps from within the drawer
+    android.permission.ACCESS_COARSE_LOCATION: to get the location to fetch weather details for
+    android.permission.ACCESS_FINE_LOCATION: to get the location to fetch weather details for
+    com.android.alarm.permission.SET_ALARM: used to open the default alarm app if no other clock app is set in the settings
+    android.permission.PACKAGE_USAGE_STATS: to see usage of other apps to list last used apps first in the app list
+    android.permission.READ_CONTACTS: needed for the Contact Search and Calling Functionality
+
+AllowedAPKSigningKeys: 88585139eac6d8d5922ce7af80a0f2acd9280371676014a114d5e3bf34904ae0
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

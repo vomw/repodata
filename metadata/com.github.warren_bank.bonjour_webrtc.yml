@@ -1,0 +1,29 @@
+Categories:
+  - Connectivity
+License: GPL-2.0-only
+AuthorName: Warren Bank
+SourceCode: https://github.com/warren-bank/Android-Bonjour-WebRTC
+IssueTracker: https://github.com/warren-bank/Android-Bonjour-WebRTC/issues
+
+AutoName: Bonjour WebRTC
+
+MaintainerNotes:
+  AppAdded: 2023-01-20
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /AllLanguageTranslations-arm64/i
+  FlagIgnore:
+    usesCleartextTraffic: for connections in the local network
+  PermIgnore:
+    android.permission.CAMERA: required for video calls
+    android.permission.RECORD_AUDIO: required for video calls
+    android.permission.SYSTEM_ALERT_WINDOW: used to present a dialog to announce an inbound call
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted due to the WRITE permission
+    android.permission.WRITE_EXTERNAL_STORAGE: needed by some features of the WebRTC API
+  Status:
+    - 2024-02-22 last release 1/2023, last commit 1/2023, UCM Tags=>Static
+    - 2024-10-07 scanner reports SYSTEM_ALERT_WINDOW READ_EXTERNAL_STORAGE* – https://github.com/warren-bank/Android-Bonjour-WebRTC/issues/5
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+UpdateCheckMode: Static

@@ -1,0 +1,29 @@
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: Anton Yaky
+AuthorEmail: hi@yaky.dev
+AuthorWebSite: https://yaky.dev/
+WebSite: https://yaky.dev/apps/usb_camera_viewer/
+SourceCode: https://gitlab.com/yaky/android-usb-cam-viewer
+IssueTracker: https://gitlab.com/yaky/android-usb-cam-viewer/-/issues
+Changelog: https://gitlab.com/yaky/android-usb-cam-viewer/-/releases
+
+AutoName: USB Camera
+
+MaintainerNotes:
+  AppAdded: 2025-05-26
+  Method: gitlab-tags
+  GHSkipPre: 1
+  ApkMatch: /viewer_release/i
+  ApkIgnore: /viewer_debug/i
+  Fastlane: https://gitlab.com/yaky/android-usb-cam-viewer/-/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs
+  PermIgnore:
+    android.permission.CAMERA: used to access the camera
+    android.permission.RECORD_AUDIO: used to obtain the camera’s audio
+
+AllowedAPKSigningKeys: 9879bfc5440e9dc66542a3402f2fb2e8843fbd14cf68e5fd8abbc86cf2603310
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

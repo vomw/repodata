@@ -1,0 +1,37 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Hannes U.
+SourceCode: https://github.com/cylonid/NativeAlphaForAndroid
+IssueTracker: https://github.com/cylonid/NativeAlphaForAndroid/issues
+Changelog: https://github.com/cylonid/NativeAlphaForAndroid/releases
+
+AutoName: Native α
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-07-17
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /universal/i
+  Fastlane: https://github.com/cylonid/NativeAlphaForAndroid/tree/dev/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,screenshotsJPG
+  Note: fulldesc uses H2 which our sanitizer removes
+  FlagIgnore:
+    usesCleartextTraffic: handed to the resulting web app
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: handed to the resulting web app
+    android.permission.ACCESS_FINE_LOCATION: handed to the resulting web app
+    android.permission.READ_EXTERNAL_STORAGE: handed to the resulting web app
+    android.permission.CAMERA: handed to the resulting web app
+    android.permission.RECORD_AUDIO: handed to the resulting web app
+  Status:
+    - 2024-02-22 last release/commit 11/2022, UCM Tags=>Static
+    - 2024-08-21 UCM Tags=>Static as development picked up again
+    - 2025-05-19 ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION READ_EXTERNAL_STORAGE CAMERA RECORD_AUDIO
+    - 2025-10-11 development currently stalled, see https://gitlab.com/IzzyOnDroid/repo/-/work_items/743 – UCM Tags=>Static for now
+
+AllowedAPKSigningKeys: d3637d88c77af7475f205d7e5008faf89e92ef74ca0500e3c556027e55c1ffbb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

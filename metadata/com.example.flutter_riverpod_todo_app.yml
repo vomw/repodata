@@ -1,0 +1,33 @@
+Categories:
+  - Time
+  - Writing
+License: MIT
+AuthorName: Sourav Kumar Suman
+SourceCode: https://github.com/TheAlphaApp/flutter_riverpod_todo_app
+IssueTracker: https://github.com/TheAlphaApp/flutter_riverpod_todo_app/issues
+Changelog: https://github.com/TheAlphaApp/flutter_riverpod_todo_app/releases
+
+Name: Todopad
+AutoName: flutter_riverpod_todo_app
+
+MaintainerNotes:
+  AppAdded: 2022-03-28
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/TheAlphaApp/flutter_riverpod_todo_app/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to restore data from backup/export
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to export data
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 5/2022, last commit 6/2022)
+    - 2024-02-05 uses debug cert, https://github.com/TheAlphaApp/flutter_riverpod_todo_app/issues/16
+    - 2024-02-29 switched to release key
+    - 2025-03-23 last release 2024-02-29, last commit 2024-03-24; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 34c34ae2c460763e6b25a23e5504e810b9be37b8cf364951cd9360fd5cbca525
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

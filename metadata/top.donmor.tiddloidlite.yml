@@ -1,0 +1,32 @@
+Categories:
+  - Writing
+License: GPL-2.0-only
+AuthorName: donmor
+AuthorEmail: donmor3000@hotmail.com
+AuthorWebSite: https://donmor.top/
+SourceCode: https://github.com/donmor/TiddloidLite
+IssueTracker: https://github.com/donmor/TiddloidLite/issues
+Changelog: https://github.com/donmor/TiddloidLite/releases
+Liberapay: donmor3000
+Donate: https://donmor.top/#DonationQrCode
+
+AutoName: Tiddloid Lite
+
+MaintainerNotes:
+  AppAdded: 2020-04-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/donmor/TiddloidLite/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: used for LAN connections only
+  Status:
+    - 2020-11-29 app was not updated for 1y 0m 9d; switching UCM from Tags to Static
+    - 2023-08-08 last release 10/2022, last commit 10/2022
+    - 2024-03-01 scanner reports usesCleartextTraffic DEPENDENCY_INFO_BLOCK – https://github.com/donmor/TiddloidLite/issues/14 – solved this very same day
+    - 2025-10-08 upstreaming our local Fastlane metadata via https://github.com/donmor/TiddloidLite/pull/15
+
+AllowedAPKSigningKeys: 46f659b7ea1ec6b85c7c287819d8a805cedc88c3a4a0cfea567331da86205a32
+
+UpdateCheckMode: Static

@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+  - System
+License: Apache-2.0
+AuthorName: darodriguez1994
+SourceCode: https://github.com/danielrodcaball/LocalProxy
+IssueTracker: https://github.com/danielrodcaball/LocalProxy/issues
+
+AutoName: LocalProxy
+
+MaintainerNotes:
+  AppAdded: 2019-01-13
+  Method: none
+  GHSkipPre: 1
+  Note: license taken [from code headers](https://github.com/danielrodcaball/LocalProxy/search?q=license)
+  Status:
+    - 2019-11-03 seems no longer maintained - last commit 1/2019, issues not answered; asked https://github.com/darodriguez1994/LocalProxy/issues/1#issuecomment-549183086
+    - 2023-08-08 situation unchanged, disabling updates (github-release/Static)
+
+AllowedAPKSigningKeys: a87ac2f7b2d927239bacc575ba409dcb4908922562a4c429cea0e4d33bab4952
+
+UpdateCheckMode: None

@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes libraries of Google Play Core.
+    de: Die App enthält Google Play Core Bibliotheken.
+  NonFreeNet:
+    en-US: The app connects to Google servers (PlayStore).
+    de: Die App nutzt Verbindungen zu Google Servern (PlayStore).
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Matias de Andrea
+AuthorEmail: deandreamatias@gmail.com
+AuthorWebSite: https://deandreamatias.com/
+SourceCode: https://github.com/deandreamatias/tv-randshow
+IssueTracker: https://github.com/deandreamatias/tv-randshow/issues
+Changelog: https://github.com/deandreamatias/tv-randshow/releases
+
+AutoName: TV Randshow
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-05-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/deandreamatias/tv-randshow/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: to enable gesture control everywhere
+  Status:
+    - 2023-07-13 APKs missing from last 2 releases https://github.com/deandreamatias/tv-randshow/issues/9
+    - 2025-08-19 upstreaming our fastlane metadata via https://github.com/deandreamatias/tv-randshow/pull/16
+
+AllowedAPKSigningKeys: e0caa5dd9f265a145581faf1c6a25db606fed011df5b824e4cdc4a46e05c861e
+
+UpdateCheckMode: Tags

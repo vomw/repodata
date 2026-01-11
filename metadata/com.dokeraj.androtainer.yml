@@ -1,0 +1,23 @@
+Categories:
+  - Connectivity
+License: Unlicense
+AuthorName: dokeraj
+AuthorEmail: dokeraj87@gmail.com
+SourceCode: https://github.com/dokeraj/AndroTainer
+IssueTracker: https://github.com/dokeraj/AndroTainer/issues
+Donate: https://donate.dokeraj.cc/
+
+AutoName: AndroTainer
+
+MaintainerNotes:
+  AppAdded: 2021-10-25
+  Method: github-release
+  GHSkipPre: 1
+  Note: license was discussed at https://github.com/dokeraj/AndroTainer/issues/31#issuecomment-950601165
+  Status:
+    - 2024-02-22 last release/commit 12/2022, UCM Tags=>Static
+
+AllowedAPKSigningKeys: ee7d5825f7abcfab5cabdef72725cdede404f4f7cbcea19913e5f19fa242beda
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,26 @@
+Categories:
+  - Internet
+License: GPL-3.0-or-later
+AuthorName: CachoCh
+SourceCode: https://github.com/CachoCh/iperf3AndroidClient
+IssueTracker: https://github.com/CachoCh/iperf3AndroidClient/issues
+
+AutoName: iPerf3Client
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-04-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CachoCh/iperf3AndroidClient/blob/0.1.0/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: used to give context to the measurments, data can be exported from the app for further analysis.
+    android.permission.ACCESS_FINE_LOCATION: used to give context to the measurments, data can be exported from the app for further analysis.
+  X-AutoUpdateMode: Version v%v
+  Status:
+    - 2025-04-10 ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION – https://github.com/CachoCh/iperf3AndroidClient/issues/3#issuecomment-2794876414
+
+AllowedAPKSigningKeys: 85486f351ad1312014da87e240c33e21fa5c24d6ac4cb1304bdecd8ba3b26d8b
+
+UpdateCheckMode: Tags

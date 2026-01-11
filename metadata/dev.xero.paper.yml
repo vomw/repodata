@@ -1,0 +1,22 @@
+Categories:
+  - Writing
+License: Apache-2.0
+AuthorName: Xero kun
+SourceCode: https://github.com/dev-xero/paper-app
+IssueTracker: https://github.com/dev-xero/paper-app/issues
+Changelog: https://github.com/dev-xero/paper-app/releases
+Donate: https://www.buymeacoffee.com/xeroKun
+
+AutoName: Paper
+
+MaintainerNotes:
+  AppAdded: 2023-03-19
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release/commit 3/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: e1ff4e05366823870ea3dd6760534cef367d59dc9868e216fbe24c4e6874dd61
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

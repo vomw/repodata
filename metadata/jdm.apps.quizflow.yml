@@ -1,0 +1,25 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: judemont
+AuthorEmail: julien@rmbi.ch
+AuthorWebSite: https://rmbi.ch/jdm
+SourceCode: https://codeberg.org/judemont/QuizFlow
+IssueTracker: https://codeberg.org/judemont/QuizFlow/issues
+Changelog: https://codeberg.org/judemont/QuizFlow/releases
+
+AutoName: QuizFlow
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-07-19
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/judemont/QuizFlow/blob/main/fastlane/metadata
+  FastlaneFeatures: title,shortdesc,fulldescNL,icon,screenshots
+  Status:
+    - 2024-07-19 starting with UCM Static as versionName 0.1.0 != tag name 1.0.0
+
+AllowedAPKSigningKeys: fcf2975e04dd3dbd8ae862beab4f1db733ce62bd45f6f628f1a0f5e2ff5594d6
+
+UpdateCheckMode: Tags

@@ -1,0 +1,30 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-07-01, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-07-01 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Social Network
+  - Messaging
+  - Internet
+License: Apache-2.0
+AuthorName: sanao
+AuthorEmail: jinsei@sanao.dev
+SourceCode: https://github.com/sanao1006/Mint
+IssueTracker: https://github.com/sanao1006/Mint/issues
+Changelog: https://github.com/sanao1006/Mint/releases
+
+AutoName: Mint
+
+MaintainerNotes:
+  AppAdded: 2025-04-16
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /me/sanao1006/mint
+  Status:
+    - 2025-07-17 repo was archived 2025-07-01, UCM Tags=>None
+
+AllowedAPKSigningKeys: fe529aaf3fb73005cb0bf7c2e7230ef8a4ecfaab13c604ebef0e815138ca539c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

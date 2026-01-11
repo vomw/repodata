@@ -1,0 +1,1 @@
+<p><i>TimeLapse</i> lets you create timelapse videos from another video or a series of photos (the photos will be sorted alphabetically).</p>

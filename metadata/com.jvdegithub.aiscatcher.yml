@@ -1,0 +1,30 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Jasper
+AuthorEmail: jvde.github@gmail.com
+SourceCode: https://github.com/jvde-github/AIS-catcher-for-Android
+IssueTracker: https://github.com/jvde-github/AIS-catcher-for-Android/issues
+Changelog: https://github.com/jvde-github/AIS-catcher-for-Android/releases
+
+AutoName: AIS-catcher for Android
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-08-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/jvde-github/AIS-catcher-for-Android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: video,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  X-AutoUpdateMode: Version v%v
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: to show your location on the map
+    android.permission.ACCESS_COARSE_LOCATION: to show your location on the map
+  Status:
+    - 2025-06-27 last release 2023-09-05; UCM Tags=>Static
+    - 2025-11-21 2 new releases, but the last one not having its versionCode increased; https://github.com/jvde-github/AIS-catcher-for-Android/issues/22#issuecomment-3562660279
+    - 2025-11-22 next release, versionCode properly increased; UCM back to Tags
+
+AllowedAPKSigningKeys: 51e66fe88c480297b545d44c0b91edb33390bf875c92ba2f526c74cc4757fed2
+
+UpdateCheckMode: Tags

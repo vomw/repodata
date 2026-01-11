@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: MGGames
+AuthorEmail: martinmimigames@gmail.com
+AuthorWebSite: https://martinmimigames.github.io/
+WebSite: https://martinmimigames.github.io/projects/little-file-explorer/
+SourceCode: https://github.com/martinmimigames/little-file-explorer
+IssueTracker: https://github.com/martinmimigames/little-file-explorer/issues
+Changelog: https://github.com/martinmimigames/little-file-explorer/releases
+
+AutoName: Little File Explorer
+
+MaintainerNotes:
+  AppAdded: 2022-11-24
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  Fastlane: https://github.com/martinmimigames/little-file-explorer/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed for file manager functionality
+    android.permission.WRITE_EXTERNAL_STORAGE: needed for file manager functionality
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed for file manager functionality
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to install APK files from local storage
+
+AllowedAPKSigningKeys: e7de6a6e56d431b54d6e7452a3c9b69f4f0d89115685b1e46c73dfb251c38806
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

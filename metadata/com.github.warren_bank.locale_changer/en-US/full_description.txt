@@ -1,0 +1,1 @@
+<p><i>Locale Changer</i> is an Android app to change the default system-wide locale. It displays a list of all available locales; clicking on any list item changes the Android system locale to the selected value. Changes are persistent. The currently active locale is always positioned as the first list item.</p>

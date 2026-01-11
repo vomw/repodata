@@ -1,0 +1,32 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Lukas Pieper
+SourceCode: https://github.com/lukaspieper/Gcam-Services-Provider
+IssueTracker: https://github.com/lukaspieper/Gcam-Services-Provider/issues
+Changelog: https://github.com/lukaspieper/Gcam-Services-Provider/releases
+
+AutoName: Gcam Services Provider
+Name: Gcam Services Provider (Photos)
+
+MaintainerNotes:
+  AppAdded: 2021-11-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /photos/i
+  ApkIgnore: /basic/i
+  Fastlane: https://github.com/lukaspieper/Gcam-Services-Provider/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD
+  Note: Fastlane describes basic flavor; per-flavor fastlane planned, see https://github.com/lukaspieper/Gcam-Services-Provider/issues/176
+  NameSpaces:
+    - /de/lukaspieper/gcam/services
+  Status:
+    - 2022-12-11 Tags=>Static (last release 12/2021)
+    - 2023-08-07 last release 12/2021, last commit 5/2023
+    - 2024-02-06 uses debug key https://github.com/lukaspieper/Gcam-Services-Provider/issues/122 => switched to release key
+    - 2025-03-23 2 new releases within 6 month, UCM Static=>Tags again
+
+AllowedAPKSigningKeys: 357c243c84da6b10b6b34fcdccabb6c9f839d8cf0f7d93d4f45f0213fed6bc5e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

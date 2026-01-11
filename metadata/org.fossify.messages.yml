@@ -1,0 +1,34 @@
+Categories:
+  - Phone & SMS
+License: GPL-3.0-only
+AuthorName: Fossify
+AuthorEmail: hello@fossify.org
+AuthorWebSite: https://www.fossify.org/
+SourceCode: https://github.com/FossifyOrg/Messages
+IssueTracker: https://github.com/FossifyOrg/Messages/issues
+Changelog: https://github.com/FossifyOrg/Messages/releases
+
+AutoName: Messages
+
+MaintainerNotes:
+  AppAdded: 2024-01-22
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FossifyOrg/Messages/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_SMS: This is an SMS app, so it needs to read your SMS.
+    android.permission.SEND_SMS: This is an SMS app, so it’s intended to send SMS.
+    android.permission.RECEIVE_SMS: This is an SMS app, so it must be able to receive SMS.
+    android.permission.RECEIVE_MMS: This is an SMS app, so it must be able to receive MMS.
+    android.permission.READ_CONTACTS: To find the number of the contact you wish to message.
+    android.permission.READ_PHONE_STATE: This is required for things like subscription info (SIM cards).
+  DoubleList: keep
+  DoubleListRef: https://github.com/FossifyOrg/Gallery/issues/32#issuecomment-1880161569
+  Status:
+    - 2024-01-22 permissions were clarified at https://github.com/orgs/FossifyOrg/discussions/9#discussioncomment-8211878 – *_EXTERNAL_STORAGE still open; Naveen checks to move that to SAF so give him a month or two.
+
+AllowedAPKSigningKeys: affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,51 @@
+Categories:
+  - Connectivity
+License: AGPL-3.0-only
+AuthorName: Freeyourgadget
+WebSite: https://gadgetbridge.org/
+SourceCode: https://codeberg.org/Freeyourgadget/Gadgetbridge
+IssueTracker: https://codeberg.org/Freeyourgadget/Gadgetbridge/issues
+Translation: https://hosted.weblate.org/projects/freeyourgadget/gadgetbridge
+Changelog: https://codeberg.org/Freeyourgadget/Gadgetbridge/src/branch/master/CHANGELOG.md
+Liberapay: Gadgetbridge
+
+AutoName: Gadgetbridge
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-09-14
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /gadgetbridge/i
+  ApkIgnore: /bangle/i
+  Fastlane: https://codeberg.org/Freeyourgadget/Gadgetbridge/src/branch/master/src/mainline/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /cyanogenmod/os
+    - /cyanogenmod/providers
+    - /cyanogenmod/weather/util
+    - /lineageos/os
+    - /lineageos/weather/util
+    - /net/osmand/aidlapi
+    - /no/nordicsemi/android/error
+  PermIgnore:
+    android.permission.BLUETOOTH_SCAN: to find devices to connect
+    android.permission.ACCESS_COARSE_LOCATION: e.g. for calculation of Sunrise/Sunset times
+    android.permission.ACCESS_FINE_LOCATION: e.g. for calculation of Sunrise/Sunset times
+    android.permission.ACCESS_BACKGROUND_LOCATION: e.g. for calculation of Sunrise/Sunset times while the app is in background
+    android.permission.READ_CALL_LOG: to report caller details
+    android.permission.READ_PHONE_STATE: to report incoming calls
+    android.permission.RECEIVE_SMS: to report incoming SMS
+    android.permission.READ_CONTACTS: to add contact information to call/SMS notifications
+    android.permission.READ_CALENDAR: to sync calendar events to the gadget
+    android.permission.QUERY_ALL_PACKAGES: e.g. to apply app specific settings
+    android.permission.CAMERA: to allow gadgets to take pictures remotely
+    android.permission.SYSTEM_ALERT_WINDOW: to start activities from background using Intents
+    android.permission.SEND_SMS: to reply to calls and SMS messages from gadgets
+    android.permission.PROCESS_OUTGOING_CALLS: to allow gadgets to initiate calls
+
+AllowedAPKSigningKeys: 01cce9316fcb77ea02c6dea81fde9f3176469202c0cea0514c0e03cb969bc7be
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

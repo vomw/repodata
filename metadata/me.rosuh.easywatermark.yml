@@ -1,0 +1,29 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: rosuH
+AuthorEmail: rosuh@qq.com
+AuthorWebSite: https://rosuh.me/
+SourceCode: https://github.com/rosuH/EasyWatermark
+IssueTracker: https://github.com/rosuH/EasyWatermark/issues
+
+AutoName: 简单水印
+Name: Easy Watermark
+
+MaintainerNotes:
+  AppAdded: 2020-08-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/rosuH/EasyWatermark/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,fulldescMD,shortdesc,icon
+  FastlaneIgnore: screenshots
+  Note: Fastlane fulldesc is (not-well-formatted) Markdown; screenshots framed
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to access the images to watermark
+    android.permission.READ_MEDIA_IMAGES: needed to access the images to watermark
+
+AllowedAPKSigningKeys: b3bf505957d1f1c6fe2bc57d4d28fe0674aa16c4abbb2a824a988daadff4d971
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

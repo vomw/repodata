@@ -1,0 +1,31 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app uses Sentry which currently is active by default.
+    de: Die App verwendet Sentry, was derzeit standardmäßig aktiv ist.
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: msLalith
+AuthorEmail: mslalith.opensource@gmail.com
+SourceCode: https://github.com/mslalith/focus_launcher
+IssueTracker: https://github.com/mslalith/focus_launcher/issues
+Changelog: https://github.com/mslalith/focus_launcher/releases
+Donate: https://www.buymeacoffee.com/msLalith
+
+AutoName: Focus Launcher
+
+MaintainerNotes:
+  AppAdded: 2023-02-15
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.REQUEST_DELETE_PACKAGES: used to uninstall apps on selecting that option from long-pressing its icon
+  Status:
+    - 2024-02-11 scanner reports android.permission.REQUEST_DELETE_PACKAGES – https://github.com/mslalith/focus_launcher/issues/379
+    - 2024-02-25 Sentry was added – https://github.com/mslalith/focus_launcher/issues/322#issuecomment-1963136781
+    - 2025-03-23 last release/commit 2024-03-02, UCM Tags=>Static
+
+AllowedAPKSigningKeys: f73f76460ca668ea336e704648c6101bf515269aa4fba1701f7e01d3a402f929
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

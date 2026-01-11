@@ -1,0 +1,25 @@
+Categories:
+  - Office
+License: MIT
+AuthorName: Md Rasel Hossain
+AuthorWebSite: https://iamrasel.github.io/
+SourceCode: https://github.com/iamrasel/crushr
+IssueTracker: https://github.com/iamrasel/crushr/issues
+Changelog: https://github.com/iamrasel/crushr/releases
+
+AutoName: crushr
+
+MaintainerNotes:
+  AppAdded: 2022-07-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/iamrasel/crushr/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  Status:
+    - 2023-08-18 last release 7/2022, last commit 8/2022, Tags => Static
+  X-AutoUpdateMode: Version v%c_%v
+
+AllowedAPKSigningKeys: 022acf8cf44081fb3ab699ea862028665418b783e5bec2d030943f74feb833ce
+
+AutoUpdateMode: Version v%c_.*
+UpdateCheckMode: Static

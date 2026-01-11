@@ -1,0 +1,28 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: ECHOO
+AuthorEmail: vishalsingh2376@gmail.com
+SourceCode: https://github.com/vishal2376/snaptick
+IssueTracker: https://github.com/vishal2376/snaptick/issues
+Changelog: https://github.com/vishal2376/snaptick/releases
+
+AutoName: Snaptick - Daily Planner
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-02-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/vishal2376/snaptick/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  LibIgnore:
+    - /org/acra
+  Status:
+    - 2024-11-01 signing key changed, so UCM Tags=>Static until clarified – https://github.com/vishal2376/snaptick/issues/82
+    - 2024-11-02 verified by mail, switching to new key
+
+AllowedAPKSigningKeys: 68253097450437107ac46c17904e102ce3ca3fa7ae5cecf367ac38bf48489072
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,30 @@
+Categories:
+  - Time
+  - Theming
+License: GPL-3.0-or-later
+AuthorName: Federico Dossena
+AuthorEmail: info@fdossena.com
+AuthorWebSite: https://fdossena.com/
+SourceCode: https://github.com/adolfintel/Clock31
+IssueTracker: https://github.com/adolfintel/Clock31/issues
+Changelog: https://github.com/adolfintel/Clock31/releases
+
+AutoName: Clock 31
+
+MaintainerNotes:
+  AppAdded: 2022-11-13
+  Method: direct-link
+  GHSkipPre: 1
+  ApkUrl: https://downloads.fdossena.com/geth.php?r=clock31-apk
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/12110#note_1204360384
+  Fastlane: https://github.com/adolfintel/Clock31/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneService: github
+  Status:
+    - 2022-12-11 about to enter F-Droid. Asked Federico about keeping, answer is keep https://gitlab.com/fdroid/fdroiddata/-/merge_requests/12110#note_1204360384
+    - 2024-02-22 last release 2/2023, last commit 2/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: a7bbe156479131d86eaa298e44f1b5f93612f66665e8ef7c604559ce3eaf2caa
+
+UpdateCheckMode: Static

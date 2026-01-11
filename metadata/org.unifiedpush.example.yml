@@ -1,0 +1,24 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: UnifiedPush
+AuthorWebSite: https://unifiedpush.org/
+SourceCode: https://codeberg.org/UnifiedPush/android-example
+IssueTracker: https://codeberg.org/UnifiedPush/android-example/issues
+Changelog: https://codeberg.org/UnifiedPush/android-example/releases
+
+AutoName: UP-Example
+
+MaintainerNotes:
+  AppAdded: 2025-01-04
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /main\.apk$/
+  DoubleList: keep
+  Fastlane: https://codeberg.org/UnifiedPush/android-example/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: df11176406c63a7876103ce6cc1a8fca239df76aa5f6de5cdbafe73ecdbf1875
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

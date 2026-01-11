@@ -1,0 +1,1 @@
+<p><i>Android PTT Bluetooth Speaker Receiver</i> acts as a Bluetooth Speaker for a second device streaming its microphon output using the counter-part application, <a href='fdroid.app:com.github.warren_bank.ptt_bluetooth_speaker.sender'>Android PTT Bluetooth Speaker Sender</a>.</p>

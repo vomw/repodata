@@ -1,0 +1,28 @@
+Categories:
+  - Food
+License: MIT
+AuthorName: David Shay
+SourceCode: https://github.com/davideshay/groceries
+IssueTracker: https://github.com/davideshay/groceries/issues
+Changelog: https://github.com/davideshay/groceries/releases
+
+AutoName: Clementines
+
+MaintainerNotes:
+  AppAdded: 2023-06-19
+  Method: github-release
+  GHSkipPre: 1
+  FlagIgnore:
+    usesCleartextTraffic: to access self-hosted instances without certificates in local networks
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: to pick images for items in the list
+    android.permission.READ_EXTERNAL_STORAGE: to pick images for items in the list
+  Status:
+    - 2023-06-19 starting with Static instead of Tags as app identifies with older version, see https://github.com/davideshay/groceries/issues/47
+    - 2023-07-03 applicationId changed from io.ionic.starter
+    - 2025-03-24 READ_MEDIA_IMAGES READ_EXTERNAL_STORAGE – https://github.com/davideshay/groceries/issues/140
+
+AllowedAPKSigningKeys: 33d81940b364204c26b7599ea47a0932847af91f2e6977f663806b11390e7c01
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

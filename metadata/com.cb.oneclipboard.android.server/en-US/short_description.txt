@@ -1,0 +1,1 @@
+server for OneClipboard to allow clients to sync

@@ -1,0 +1,33 @@
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Jean-Luc Barrière
+SourceCode: https://github.com/janbar/osmin
+IssueTracker: https://github.com/janbar/osmin/issues
+Changelog: https://github.com/janbar/osmin/releases
+
+AutoName: osmin
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2021-04-26
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/janbar/osmin/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: FAstlane is our starter package
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to import GPX tracks
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to export GPX tracks
+    android.permission.ACCESS_COARSE_LOCATION: needed for navigation
+    android.permission.ACCESS_FINE_LOCATION: needed for navigation
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed for track recording in background
+  Status:
+    - 2025-06-23 noticed that APK size exploded back in May (from 30 to 90 MB); https://github.com/janbar/osmin/issues/106
+    - 2025-08-21 upstreamed our local fastlane metadata via https://github.com/janbar/osmin/pull/111
+
+AllowedAPKSigningKeys: f305c7ab4eecfdad0a7096658f92987c1f711279150f6c6c045e87584a9727ac
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

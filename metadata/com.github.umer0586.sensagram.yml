@@ -1,0 +1,25 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Umer Farooq
+SourceCode: https://github.com/UmerCodez/SensaGram
+IssueTracker: https://github.com/UmerCodez/SensaGram/issues
+Changelog: https://github.com/UmerCodez/SensaGram/releases
+
+AutoName: sensagram
+
+MaintainerNotes:
+  AppAdded: 2025-09-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/UmerCodez/SensaGram/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: to access location data for streaming
+    android.permission.ACCESS_FINE_LOCATION: to access location data for streaming
+    android.permission.ACCESS_BACKGROUND_LOCATION: to access location data for streaming when the app is not in foreground
+
+AllowedAPKSigningKeys: cec73bbafd52ff454f9be372367a02b57a151284fafeedbf4613b912c78a8142
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

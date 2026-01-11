@@ -1,0 +1,1 @@
+<p><i>Prognoza</i> is a multi-platform weather app with widgets and offline support.</p><p><br><b>Features:</b></p><ul><li>Weather for today and coming days</li><li>App mood changes based on current conditions</li><li>Dark and light theme</li><li>Multiple measurement units</li><li>Widgets</li><li>Works offline</li><li>Does not access your location</li></ul>

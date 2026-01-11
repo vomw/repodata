@@ -1,0 +1,29 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-10-19, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-10-19 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Writing
+License: GPL-2.0-only
+AuthorName: jpkhawam
+AuthorEmail: jeanpaulkhawam@protonmail.com
+SourceCode: https://github.com/jpkhawam/Nabu
+IssueTracker: https://github.com/jpkhawam/Nabu/issues
+Changelog: https://github.com/jpkhawam/Nabu/releases
+
+AutoName: Nabu
+
+MaintainerNotes:
+  AppAdded: 2022-10-29
+  Method: github-release
+  GHSkipPre: 0
+  Fastlane: https://github.com/jpkhawam/Nabu/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  Status:
+    - 2024-02-22 last release/commit 11/2022, UCM Tags=>Static
+    - 2025-07-17 repo archived 2024-10-19, UCM => None.
+
+AllowedAPKSigningKeys: 120c7073a633c6e5db823d77fb77cd978f6aa323552e3a52ad47262e2318d21d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

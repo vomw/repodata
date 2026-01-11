@@ -1,0 +1,22 @@
+Categories:
+  - Writing
+License: MIT
+AuthorName: Yann
+AuthorEmail: yanndroid.dev@gmail.com
+SourceCode: https://github.com/Yanndroid/NotiNotes
+IssueTracker: https://github.com/Yanndroid/NotiNotes/issues
+Changelog: https://github.com/Yanndroid/NotiNotes/releases
+
+AutoName: NotiNotes
+
+MaintainerNotes:
+  AppAdded: 2022-06-16
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-03-23 last release/commit 2023-12-23; UCM Tags=>Static
+
+AllowedAPKSigningKeys: d6cba026e2f18fb483b40fd151152899bb69509d4b9345a6fb530e9f6ae32bbb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

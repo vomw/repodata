@@ -1,0 +1,21 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Gonbei774
+SourceCode: https://codeberg.org/Gonbei774/CalisthenicsMemory
+IssueTracker: https://codeberg.org/Gonbei774/CalisthenicsMemory/issues
+Changelog: https://codeberg.org/Gonbei774/CalisthenicsMemory/releases
+
+AutoName: Calisthenics Memory
+
+MaintainerNotes:
+  AppAdded: 2025-11-23
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/Gonbei774/CalisthenicsMemory/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 18c00c347ea1001afcdd87258881d24d684047bbeb22c47fbe7b51499516ab54
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

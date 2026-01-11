@@ -1,0 +1,28 @@
+Categories:
+  - Graphics
+License: MIT
+AuthorName: Dan
+AuthorEmail: doprea@gmail.com
+SourceCode: https://github.com/danopdev/SimpleRawCamera
+IssueTracker: https://github.com/danopdev/SimpleRawCamera/issues
+Changelog: https://github.com/danopdev/SimpleRawCamera/releases
+
+AutoName: Simple Raw Camera
+
+MaintainerNotes:
+  AppAdded: 2023-02-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/danopdev/SimpleRawCamera/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: our starter package
+  PermIgnore:
+    android.permission.CAMERA: required for the main functionality (this is a camera app)
+    android.permission.ACCESS_FINE_LOCATION: to store the location data with Exif information
+  Status:
+    - 2024-02-22 last release 12/2022, last commit 6/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: a464db93edcd242985c462c4729dad27dc4ce40da5b47afe521dca8730e6ddfd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app is built on the Polar SDK, which is proprietary.
+    de: Die App baut auf dem proprietären Polar SDK auf.
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Side Project
+AuthorEmail: nikashitsa@gmail.com
+SourceCode: https://github.com/nikashitsa/heart-alert-android
+IssueTracker: https://github.com/nikashitsa/heart-alert-android/issues
+Changelog: https://github.com/nikashitsa/heart-alert-android/releases
+Donate: https://www.paypal.com/donate/?hosted_button_id=DR69Z26Z8DJVE
+
+AutoName: Polar Alert
+
+MaintainerNotes:
+  AppAdded: 2024-11-22
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nikashitsa/heart-alert-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.BLUETOOTH_ADMIN: needed on newer Android versions to pair the Bluetooth device
+    android.permission.BLUETOOTH_CONNECT: needed on newer Android versions to connect to the paired Bluetooth device
+    android.permission.BLUETOOTH_SCAN: needed on newer Android versions to scan for the Bluetooth device
+    android.permission.ACCESS_FINE_LOCATION: needed on lower Android versions to use Bluetooth functionality
+    android.permission.ACCESS_COARSE_LOCATION: needed on lower Android versions to use Bluetooth functionality
+  Status:
+    - 2025-08-11 opening PR to upstream our Fastlane metadata – https://github.com/nikashitsa/heart-alert-android/pull/2
+
+AllowedAPKSigningKeys: 9b0c71a9d29c18db0767237cfb7fc7dcc668e12991f1a171472c011dc93e0b3d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

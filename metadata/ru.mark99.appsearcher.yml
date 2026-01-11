@@ -1,0 +1,29 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app utilizes Yandex or Google for web searches (no libre or custom search engine to choose from/configure).
+    de: Die App nutzt Yandex oder Google für die Websuche. Es stehen keine libre Suchmaschinen zur Auswahl oder Custom-Konfiguration.
+Categories:
+  - System
+License: MIT
+AuthorName: Mark
+SourceCode: https://github.com/mark99i/AppSearcher
+IssueTracker: https://github.com/mark99i/AppSearcher/issues
+Changelog: https://github.com/mark99i/AppSearcher/releases
+
+AutoName: AppSearcher
+
+MaintainerNotes:
+  AppAdded: 2024-01-14
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: This is an app launcher, so it needs to find out which apps can be launched.
+    android.permission.READ_CONTACTS: Next to searching apps, the app also allows to search in contacts.
+  X-AutoUpdateMode: Version v%v no stable tag names
+  Status:
+    - 2024-09-01 reached out because of RB issues (versionName/versionCode calculated based on build time, tag named release-next) – https://github.com/mark99i/AppSearcher/issues/4
+    - 2025-03-23 last release 2024-01-13, last commit 2024-02-08; UCM Tags=>Static
+
+AllowedAPKSigningKeys: a45c1a880bff2c1b54803ec0d5377e66a2077e26f9f5977d0886543842b6d94c
+
+UpdateCheckMode: Static

@@ -1,0 +1,30 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Github (obviously).
+    de: Die App verbindet sich zu Github.
+Categories:
+  - Development
+License: Apache-2.0
+AuthorName: Shuyu Guo
+SourceCode: https://github.com/CarGuo/gsy_github_app_flutter
+IssueTracker: https://github.com/CarGuo/gsy_github_app_flutter/issues
+Changelog: https://github.com/CarGuo/gsy_github_app_flutter/releases
+
+AutoName: GSYGithubApp
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-02-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CarGuo/gsy_github_app_flutter/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2024-07-07 scanner reports DEPENDENCY_INFO_BLOCK android.permission.READ_EXTERNAL_STORAGE* – https://github.com/CarGuo/gsy_github_app_flutter/issues/890
+    - 2025-10-01 upstreaming our Fastlane via https://github.com/CarGuo/gsy_github_app_flutter/pull/923
+
+AllowedAPKSigningKeys: 374ef6e428ebe4b908a072833e681adc9784d87559824ce3efdb14ed77cc4962
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

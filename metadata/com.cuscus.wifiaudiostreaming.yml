@@ -1,0 +1,21 @@
+Categories:
+  - Multimedia
+  - Connectivity
+License: MIT
+AuthorName: Marco Morosi
+SourceCode: https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android
+IssueTracker: https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android/-/issues
+Changelog: https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android/-/releases
+
+AutoName: WiFi Audio Streaming
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-09-06
+  Method: gitlab-tags
+  GHSkipPre: 1
+
+AllowedAPKSigningKeys: e69d57816fe692018c8d6fd343c9d077753adb2a21e8227076a46d8f0a23c097
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

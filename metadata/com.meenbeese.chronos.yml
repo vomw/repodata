@@ -1,0 +1,36 @@
+Categories:
+  - Time
+License: Apache-2.0
+AuthorName: Meenbeese
+AuthorEmail: meenbeese@tutanota.com
+AuthorWebSite: https://meenbeese.is-a.dev/
+SourceCode: https://github.com/meenbeese/Chronos
+IssueTracker: https://github.com/meenbeese/Chronos/issues
+Changelog: https://github.com/meenbeese/Chronos/releases
+
+AutoName: Chronos
+
+MaintainerNotes:
+  AppAdded: 2024-02-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/meenbeese/Chronos/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,screenshots
+  PermIgnore:
+    com.android.alarm.permission.SET_ALARM: needed to set alarms
+    android.permission.USE_EXACT_ALARM: needed to set alarms
+    android.permission.SCHEDULE_EXACT_ALARM: needed to set alarms
+    android.permission.VIBRATE: needed to vibrate when an alarm takes off
+    android.permission.RECEIVE_BOOT_COMPLETED: needed to automatically re-scheduling alarms on startup
+    android.permission.READ_MEDIA_IMAGES: needed to pick custom background / header images in the settings
+    android.permission.READ_MEDIA_AUDIO: needed to pick custom audio files as ringtones
+    android.permission.FOREGROUND_SERVICE: needed for the Sleep Reminder functionality
+    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: needed to keep Android from killing the app
+    android.permission.SYSTEM_ALERT_WINDOW: needed to launch e.g. timer alerts from background
+  Status:
+    - 2024-03-02 scanner reports android.permission.SYSTEM_ALERT_WINDOW – https://github.com/meenbeese/Chronos/issues/13
+
+AllowedAPKSigningKeys: 90844b5c3bb6c90bad110119fb2ca0c5248122744ba044e9ba809c78f4004d4d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

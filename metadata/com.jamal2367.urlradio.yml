@@ -1,0 +1,33 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-12-06, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-12-06 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Internet
+  - Multimedia
+License: MIT
+AuthorName: Jamal
+AuthorWebSite: https://download.android-freaks.de/
+SourceCode: https://github.com/jamal2362/URL-Radio
+IssueTracker: https://github.com/jamal2362/URL-Radio/issues
+Translation: https://crowdin.com/project/url-radio
+Changelog: https://github.com/jamal2362/URL-Radio/releases
+
+AutoName: URL Radio
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-07-30
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-11-02 repo was removed, see https://github.com/Slion/Fulguris/issues/178#issuecomment-957222947 (was github-release)
+    - 2021-11-04 repo was re-established
+    - 2022-01-15 repo gone again
+    - 2022-05-27 back again. Switching it on for a last time; next time it disappears it stays off, see https://gitlab.com/IzzyOnDroid/repo/-/issues/267
+    - 2024-12-10 repo was archived 2024-12-06, UCM Tags=>None
+
+AllowedAPKSigningKeys: 7bbaf8ab4ee3a72f0bcdc98dd102bc324619475845137eec4aee8c8c997959db
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

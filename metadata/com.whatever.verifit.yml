@@ -1,0 +1,31 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-06-22, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-06-22 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Makis Christou
+AuthorEmail: Makis_Christou@protonmail.com
+SourceCode: https://github.com/MakisChristou/verifit
+IssueTracker: https://github.com/MakisChristou/verifit/issues
+Changelog: https://github.com/MakisChristou/verifit/releases
+
+AutoName: Verifit
+
+MaintainerNotes:
+  AppAdded: 2022-04-19
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/example/verifit
+  Fastlane: https://github.com/MakisChristou/verifit/tree/master/metadata
+  Note: no fastlane structures in there
+  Status:
+    - 2024-12-10 last release/commit 3/2023; UCM Tags=>Static
+    - 2025-07-17 repo archived 2025-06-22, UCM => None
+
+AllowedAPKSigningKeys: 9ce99882becb1d7b83735d5533074ac35002b1214e22b6355b48e3919ab02471
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

@@ -1,0 +1,33 @@
+Categories:
+  - Multimedia
+  - Internet
+License: AGPL-3.0-only
+AuthorName: Materialious
+AuthorEmail: wardpearce@pm.me
+AuthorWebSite: https://materialio.us/
+WebSite: https://materialio.us/
+SourceCode: https://github.com/Materialious/Materialious
+IssueTracker: https://github.com/Materialious/Materialious/issues
+
+AutoName: Materialious
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-05-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64/i
+  Fastlane: https://github.com/Materialious/Materialious/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starterkit
+  DoubleList: keep
+  FlagIgnore:
+    usesCleartextTraffic: used only on-device to bypass bypass CORS
+  Status:
+    - 2024-10-17 scanner reports usesCleartextTraffic READ_MEDIA_IMAGES CAMERA – https://github.com/Materialious/Materialious/issues/621
+    - 2024-11-11 APK size exploded by factor 4 with v1.5.0 in September, asked for per-ABI splits https://github.com/Materialious/Materialious/issues/712
+
+AllowedAPKSigningKeys: 881c3469cb549cf6ef4a575ed708772fd5924e962f390af2bb8cbb5d59f77b09
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

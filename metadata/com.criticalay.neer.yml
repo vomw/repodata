@@ -1,0 +1,26 @@
+Categories:
+  - Sports & Health
+License: Apache-2.0
+AuthorName: criticalAY
+AuthorEmail: techdazex@gmail.com
+AuthorWebSite: https://www.criticalay.me/
+SourceCode: https://github.com/criticalAY/Neer
+IssueTracker: https://github.com/criticalAY/Neer/issues
+Changelog: https://github.com/criticalAY/Neer/releases
+
+AutoName: Neer
+
+MaintainerNotes:
+  AppAdded: 2024-03-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/criticalAY/Neer/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2025-06-27 last commit/release 2024-03-17; UCM Tags=>Static
+    - 2025-09-27 upstreamed our fastlane tree via https://github.com/criticalAY/Neer/pull/21
+
+AllowedAPKSigningKeys: 0fc14e34e5d49c7f2994f0984c77a4d526f25b6573df7e0f1d5b4d7b8d0f96db
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

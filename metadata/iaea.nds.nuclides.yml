@@ -1,0 +1,26 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: International Atomic Energy Agency
+AuthorEmail: nds.contact-point@iaea.org
+AuthorWebSite: https://www-nds.iaea.org/
+SourceCode: https://github.com/IAEAOrg/IsotopeBrowser
+IssueTracker: https://github.com/IAEAOrg/IsotopeBrowser/issues
+Changelog: https://github.com/IAEAOrg/IsotopeBrowser/releases
+
+AutoName: Isotope Browser
+
+MaintainerNotes:
+  AppAdded: 2023-08-02
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /iaea/nds/mendel
+  Status:
+    - 2025-11-13 asked if they would accept a PR with fastlane https://github.com/IAEAOrg/IsotopeBrowser/issues/15
+    - 2025-12-05 discovered that while the repo is stuck at 5.44.86 from 12/2024 (and no commits since), PlayStore has 5.45.87 from 10/2025 – https://github.com/IAEAOrg/IsotopeBrowser/issues/2#issuecomment-3617670657
+
+AllowedAPKSigningKeys: 247603e1dfebfcd49438aecfeccc5b4743e1c223441b788a7364d14e293647b5
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

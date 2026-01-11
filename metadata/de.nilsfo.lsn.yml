@@ -1,0 +1,24 @@
+Categories:
+  - Office
+License: Apache-2.0
+AuthorName: Nils Fo
+AuthorEmail: nils.foerster93@gmail.com
+SourceCode: https://github.com/NilsFo/LockScreenNotes
+IssueTracker: https://github.com/NilsFo/LockScreenNotes/issues
+Changelog: https://github.com/NilsFo/LockScreenNotes/releases
+
+AutoName: Lock Screen Notes
+
+MaintainerNotes:
+  AppAdded: 2019-04-13
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /de/nilsfo/lockscreennotes
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 1/2020)
+    - 2023-08-08 last release 1/2023, last commit 1/2023
+
+AllowedAPKSigningKeys: 1df6e8b572a9e48db951cfea41a8dfe69f1c5a65d4aab148de6162977054f650
+
+UpdateCheckMode: Static

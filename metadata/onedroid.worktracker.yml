@@ -1,0 +1,28 @@
+Categories:
+  - Time
+License: Apache-2.0
+AuthorName: Onedroid
+AuthorEmail: parmstrong842@gmail.com
+SourceCode: https://github.com/parmstrong842/WorkTracker
+IssueTracker: https://github.com/parmstrong842/WorkTracker/issues
+Changelog: https://github.com/parmstrong842/WorkTracker/releases
+
+AutoName: Work Tracker
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-05-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/parmstrong842/WorkTracker/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  Note: fulldesc incomplete
+  NameSpaces:
+    - /com/example/worktracker
+  Status:
+    - 2025-02-18 last release 8/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: d8d2104bd6c5a0f27bbb20cf2e4965dba231a1f7803b6238a856be0c65f69249
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

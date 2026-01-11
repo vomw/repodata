@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on the websites of Miru.watch, AniList.co, and fetches assets from Github.
+    de: Die App greift auf Webseiten von Miru.watch und AniList.co zu, und lädt Assets von Github.
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-08-12, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-08-12 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: NoCrypt
+WebSite: https://miguapp.pages.dev/
+SourceCode: https://github.com/NoCrypt/migu
+IssueTracker: https://github.com/NoCrypt/migu/issues
+Changelog: https://github.com/NoCrypt/migu/releases
+
+AutoName: Migu
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-08-17
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Status:
+    - 2024-10-07 scanner reports usesCleartextTraffic android.permission.READ_EXTERNAL_STORAGE – https://github.com/NoCrypt/migu/issues/45
+    - 2025-08-18 monthly check found repo archived 2025-08-12, UCM Tags=>None (last release was 2/2025)
+
+AllowedAPKSigningKeys: 8177c2e4060450530d5c572bc0b7d5c78ddc68a2356332de2a34ca9063866dab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

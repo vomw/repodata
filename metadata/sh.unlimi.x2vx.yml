@@ -1,0 +1,26 @@
+Categories:
+  - Social Network
+  - Internet
+License: MIT
+AuthorName: Riley
+AuthorWebSite: https://unlimi.sh/
+SourceCode: https://github.com/unlimish/x2vx-android
+IssueTracker: https://github.com/unlimish/x2vx-android/issues
+Changelog: https://github.com/unlimish/x2vx-android/releases
+
+AutoName: x2vx
+
+MaintainerNotes:
+  AppAdded: 2024-06-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/unlimish/x2vx-android/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,featureGraphic
+  Status:
+    - 2024-06-13 asked for icon,screenshots,DEPENDENCY_INFO_BLOCK, INTERNET at https://github.com/unlimish/x2vx-android/issues/3
+    - 2025-06-27 last commit/release 2024-06-15; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 084ae6e9804e715f828629df9cbc3996cea8a999b61020ea0efbfa6e7afa21e1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

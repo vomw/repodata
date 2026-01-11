@@ -1,0 +1,29 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google BillingClient.
+    de: Die App enthält den Google BillingClient.
+  NonFreeNet:
+    en-US: The app connects to Google servers (billing).
+    de: Die App baut Verbindungen zu Google-Servern auf (Billing).
+Categories:
+  - System
+License: BSD-3-Clause
+AuthorName: Ian Lake
+AuthorEmail: ian.hannibal.lake+localstorage@gmail.com
+SourceCode: https://github.com/ianhanniballake/LocalStorage
+IssueTracker: https://github.com/ianhanniballake/LocalStorage/issues
+Changelog: https://github.com/ianhanniballake/LocalStorage/releases
+
+AutoName: Local Storage
+
+MaintainerNotes:
+  AppAdded: 2016-10-24
+  Method: github-release
+  Status:
+    - 2020-09-19 app was not updated for 2y 1m 4d; switching UCM from Tags to Static
+    - 2023-08-07 last release 8/2018, last commit 4/2019; seems rather dead (author still active)
+    - 2026-01-09 still no new commits; disabling update checks altogether
+
+AllowedAPKSigningKeys: c546a3b54f691aa5a9cdfc774ae64f4df1c04078d88bd9bf99eae3f105f62e38
+
+UpdateCheckMode: None

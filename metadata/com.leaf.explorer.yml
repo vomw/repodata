@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: GPL-2.0-only
+AuthorName: Shiv Shambhu
+SourceCode: https://github.com/Shiv-Shambhu/Leaf-Explorer
+IssueTracker: https://github.com/Shiv-Shambhu/Leaf-Explorer/issues
+Donate: http://paypal.me/premium813
+
+AutoName: Leaf Explorer - File Share, Text Editor
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-06-22
+  Method: gone
+  GHSkipPre: 1
+  Note: uses several parts (e.g. the editor) from Bill Farmer who licensed them GPL3+ – so it should be safe to assume the same for the app.
+  GHDownloadDir: https://github.com/Shiv-Shambhu/Leaf-Explorer/tree/main/Version
+  NameSpaces:
+    - /com/leaf/music
+  Status:
+    - 2022-11-07 releases gone, APKs now inside repo (facepalm) https://github.com/Shiv-Shambhu/Leaf-Explorer/issues/12
+    - 2023-01-17 repo was archived 2022-12-27, disabling update checks (was github-release).
+    - 2023-08-07 repo and Github account gone
+  X-AutoUpdateMode: Version v-%v
+  X-UpdateCheckMode: Tags
+
+AllowedAPKSigningKeys: d307f15c65433a52fb9e4e6f26c3d9a0afad723aeede9e5315e72a30b2b8230d
+
+UpdateCheckMode: None
+NoSourceSince: 4.0.2

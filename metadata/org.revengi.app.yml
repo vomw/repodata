@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on the Revengi API.
+    de: Die App benötigt die Revengi API.
+Categories:
+  - System
+License: MIT
+AuthorName: RevEngi
+AuthorWebSite: https://revengi.in/docs
+SourceCode: https://github.com/RevEngiSquad/revengi-app
+IssueTracker: https://github.com/RevEngiSquad/revengi-app/issues
+Translation: https://crowdin.com/project/revengi-app
+Changelog: https://github.com/RevEngiSquad/revengi-app/releases
+Donate: https://www.revengi.in/docs/premium
+Bitcoin: bc1qqq0gcdp2quvuhed8kv8lpdhrdkej32lpu0wrsd
+
+AutoName: RevEngi
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-05-20
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64/i
+  ApkIgnore: /(x64|arm32|universal)/i
+  Fastlane: https://github.com/RevEngiSquad/revengi-app/blob/v1.0.2/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to list apps for analysis
+
+AllowedAPKSigningKeys: eba115d657744ebd24e32ea39462f5a6af8399e148d6847609cd59ecd7ef3163
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

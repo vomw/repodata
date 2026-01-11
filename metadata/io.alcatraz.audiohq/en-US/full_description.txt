@@ -1,0 +1,1 @@
+<p><i>Audio HeadQuarter</i> is a tool to control Android application volume individually, TRUE adjusting not auto adjust script. It’s not a stand-alone app but works together with its Magisk module; the app is used for adjusting the application volume separately.</p><p>For detailed instructions, please visit the app‘s website.</p>

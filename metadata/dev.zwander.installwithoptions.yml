@@ -1,0 +1,31 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Zachary Wander
+AuthorEmail: zachary.wander@gmail.com
+AuthorWebSite: https://zwander.dev/
+SourceCode: https://github.com/zacharee/InstallWithOptions
+IssueTracker: https://github.com/zacharee/InstallWithOptions/issues
+Translation: https://crowdin.com/project/install-with-options
+Changelog: https://github.com/zacharee/InstallWithOptions/blob/main/CHANGELOG.md
+
+AutoName: Install with Options
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-10-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/zacharee/InstallWithOptions/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  LibIgnore:
+    - /com/bugsnag
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: needed for the app installer
+    android.permission.QUERY_ALL_PACKAGES: needed to list already installed apps
+
+AllowedAPKSigningKeys: e6565e92740a44d5550a03dc34f1b2a736f8b13f60a2a5f29f1fb9364b6fc56e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

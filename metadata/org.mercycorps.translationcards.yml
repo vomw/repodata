@@ -1,0 +1,23 @@
+Categories:
+  - Science & Education
+License: Apache-2.0
+AuthorName: Mercy Corps
+AuthorWebSite: https://www.mercycorps.org/
+SourceCode: https://github.com/translation-cards/translation-cards
+IssueTracker: https://github.com/translation-cards/translation-cards/issues
+Changelog: https://github.com/translation-cards/translation-cards/releases
+
+AutoName: Translation Cards
+
+MaintainerNotes:
+  AppAdded: 2016-03-25
+  Method: github-release
+  Status:
+    - 2019-06-23 app works fine (p880/Android 6).
+    - 2023-08-08 last release 7/2016, last commit 1/2017; disabling updates
+    - 2025-11-13 [reported still working](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/14)
+
+AllowedAPKSigningKeys: 144e1ce87fedbc9fc77507d816fc5b6b1be4b5d45de908dcfa82d82af6422905
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

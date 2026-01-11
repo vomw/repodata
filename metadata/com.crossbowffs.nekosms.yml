@@ -1,0 +1,25 @@
+Categories:
+  - Phone & SMS
+  - Xposed
+License: GPL-3.0-only
+AuthorName: Andrew Sun
+SourceCode: https://github.com/apsun/NekoSMS
+IssueTracker: https://github.com/apsun/NekoSMS/issues
+
+AutoName: NekoSMS
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-25
+  Method: github-release
+  GHSkipPre: 0
+  PermIgnore:
+    android.permission.READ_SMS: needed to read SMS
+  Status:
+    - 2022-12-11 Tags=>Static (last release 11/2021, but development active)
+    - 2025-12-02 seems unmaintained now, our question https://github.com/apsun/NekoSMS/issues/105 (2025-09-28) was not even replied to
+
+AllowedAPKSigningKeys: 983ac8df3de5a17333f24052d7d5089c5efade4daa135822b9b41f7ce4001fcb
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

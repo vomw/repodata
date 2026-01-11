@@ -1,0 +1,26 @@
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: cullub
+SourceCode: https://github.com/More-Than-Solitaire/Tabs-Lite
+IssueTracker: https://github.com/More-Than-Solitaire/Tabs-Lite/issues
+Changelog: https://github.com/More-Than-Solitaire/Tabs-Lite/releases
+
+AutoName: Tabs Lite - Ultimate Guitar Tabs, Built for Speed
+
+MaintainerNotes:
+  AppAdded: 2022-01-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/More-Than-Solitaire/Tabs-Lite/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 2/2022, last commit 12/2022)
+    - 2024-02-01 new release but signed with a different key. Added question to the related issue at https://github.com/More-Than-Solitaire/Tabs-Lite/issues/83
+    - 2024-04-20 new signing key SHA-256 confirmed via both official mail addresses today (see the issue for details), UCM Static => Tags as regular releases are in place again
+
+AllowedAPKSigningKeys: 49805b385aa97f725a3722d3d195de84a376104aad26bdfb08d52a59cbcb9747
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

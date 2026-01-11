@@ -1,0 +1,21 @@
+Categories:
+  - System
+  - Navigation
+License: Unlicense
+AuthorName: Limizin
+WebSite: https://forum.xda-developers.com/showpost.php?p=65059394&amp;postcount=145
+SourceCode: https://github.com/Limizin/GpsIcon
+IssueTracker: https://github.com/Limizin/GpsIcon/issues
+Changelog: https://github.com/Limizin/GpsIcon/releases
+
+MaintainerNotes:
+  AppAdded: 2016-07-11
+  Method: github-release
+  Status:
+    - 2020-09-19 app was not updated for 1y 4m 27d; switching UCM from Tags to Static
+    - 2023-08-08 last release 4/2019, last commit 7/2021; we’re still waiting for the last signed APK, see https://github.com/Limizin/GpsIcon/issues/3#issuecomment-1375358491 but author last seen 7/2021
+
+AllowedAPKSigningKeys: 6438d3938da98fe2330cf945429ac9bcb8a99b9377a045fa70a638171ee881d6
+
+ArchivePolicy: 10
+UpdateCheckMode: Static

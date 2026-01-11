@@ -1,0 +1,39 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Cast, Google Mobile Services and Firebase.
+    de: Die App enthält Bibliotheken von Google Cast, Google Mobile Services und Firebase.
+  NonFreeNet:
+    en-US: The app potentially connects to Google Servers (Firebase).
+    de: Die App verbindet sich potentiell zu Google Servern (Firebase).
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: AdvPlyr
+AuthorEmail: advplyr@gmail.com
+WebSite: https://www.audiobookshelf.org/
+SourceCode: https://github.com/advplyr/audiobookshelf-app
+IssueTracker: https://github.com/advplyr/audiobookshelf-app/issues
+Changelog: https://github.com/advplyr/audiobookshelf-app/releases
+
+AutoName: Audiobookshelf
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-11-07
+  Method: github-release
+  GHSkipPre: 0
+  Fastlane: https://github.com/advplyr/audiobookshelf-app/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: to connect to instances hosted in the local network
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: used to allow downloading to shared storage so other apps can use the downloaded media files
+    android.permission.WRITE_EXTERNAL_STORAGE: used to allow downloading to shared storage so other apps can use the downloaded media files
+  Status:
+    - 2025-03-07 usesCleartextTraffic READ_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK – https://github.com/advplyr/audiobookshelf-app/issues/1388#issuecomment-2707251804
+
+AllowedAPKSigningKeys: 3648292656966c63d1b57d93ea00e35c7d97511e1f5b0678a717dae773793956
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

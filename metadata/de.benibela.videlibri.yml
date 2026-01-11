@@ -1,0 +1,37 @@
+Categories:
+  - Reading
+License: GPL-3.0-or-later
+AuthorName: Benito van der Zander
+AuthorWebSite: https://www.benibela.de/
+WebSite: https://www.videlibri.de/
+SourceCode: https://github.com/benibela/videlibri
+IssueTracker: https://github.com/benibela/videlibri/issues
+
+AutoName: Freie Bibliothek-App VideLibri
+
+MaintainerNotes:
+  AppAdded: 2022-07-20
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  DoubleListRef: https://github.com/benibela/videlibri/issues/3#issuecomment-1207429303
+  Fastlane: https://github.com/benibela/videlibri/tree/master/fastlane/metadata/android
+  FastlaneFeatures: icon,title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Note: Fastlane icon,featureGraphic,screenshots are symlinks
+  PermIgnore:
+    android.permission.WRITE_EXTERNAL_STORAGE: needed for XML Export for sync with other devices
+    android.permission.READ_EXTERNAL_STORAGE: needed for XML Import for sync with other devices
+  NameSpaces:
+    - /de/benibela/internettools
+    - /de/benibela/multilevellistview
+  LibIgnore:
+    - /org/acra
+  Status:
+    - 2022-07-28 asked whether ACRA is strictly opt-in https://github.com/benibela/videlibri/issues/3#issuecomment-1198660908
+    - 2022-07-29 answer is it uses Dialog, so whitelisting ACRA.
+    - 2024-02-24 scanner reports DEPENDENCY_INFO_BLOCK READ_EXTERNAL_STORAGE* – https://github.com/benibela/videlibri/issues/11
+
+AllowedAPKSigningKeys: 388988e3a53b6f91d1ae39784ea4b5f1a12b22d34f8e3363e5c7f70a1c57a6f4
+
+AutoUpdateMode: Version VIDELIBRI_%v
+UpdateCheckMode: Tags

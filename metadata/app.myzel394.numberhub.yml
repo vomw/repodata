@@ -1,0 +1,31 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: The app uses the free/libre Exchange-API, but the server is hardcoded.
+    de: Die App verwendet die freie/libre Exchange-API, aber der Server ist fest hinterlegt.
+Categories:
+  - Science & Education
+  - Money
+License: GPL-3.0-only
+AuthorName: Myzel394
+AuthorEmail: google-play.29k1a@aleeas.com
+WebSite: https://numberhub.myzel394.app/
+SourceCode: https://github.com/Myzel394/NumberHub
+IssueTracker: https://github.com/Myzel394/NumberHub/issues
+Changelog: https://github.com/Myzel394/NumberHub/releases
+Donate: https://github.com/sponsors/Myzel394
+Bitcoin: bc1qw054829yj8e2u8glxnfcg3w22dkek577mjt5x6
+Litecoin: LZayhTosZ9ToRvcbeR1gEDgb76Z7ZA2drN
+
+AutoName: 'NumberHub: Calculator and more'
+
+MaintainerNotes:
+  AppAdded: 2024-07-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Myzel394/NumberHub/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  X-AutoUpdateMode: Version v%v versionName=Numberhub :P
+
+AllowedAPKSigningKeys: 85e4b5db2382b2b0acf0c2c6b2f671d6df57da4286bd56cbd04f8c5b29626554
+
+UpdateCheckMode: Tags

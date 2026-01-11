@@ -1,0 +1,1 @@
+<p><i>Sensify</i> will let you see plots of various sensors available inside your phone like accelerometer, magnetic field sensor, light sensor, etc. It is made with an interactive real-time chart to understand data with zoom.</p>

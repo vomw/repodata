@@ -1,0 +1,28 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: RoBoT_095
+SourceCode: https://github.com/RoBoT095/printnotes
+IssueTracker: https://github.com/RoBoT095/printnotes/issues
+Changelog: https://github.com/RoBoT095/printnotes/releases
+
+AutoName: Print(Notes)
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-02-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/RoBoT095/printnotes/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/example/printnotes
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: to edit documents wherever they are stored
+    android.permission.READ_EXTERNAL_STORAGE: to open documents wherever they are stored
+
+AllowedAPKSigningKeys: 858bcda93e08f63247f8b0ffc999abb9e3e24a059808cad2933551fdd0bd86cf
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

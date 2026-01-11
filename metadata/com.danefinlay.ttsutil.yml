@@ -1,0 +1,25 @@
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: Dane Finlay
+AuthorEmail: dane@danefinlay.net
+AuthorWebSite: https://danefinlay.net/
+WebSite: https://danefinlay.net/tts-util-app.html
+SourceCode: https://github.com/drmfinlay/tts-util-app
+IssueTracker: https://github.com/drmfinlay/tts-util-app/issues
+Changelog: https://github.com/drmfinlay/tts-util-app/releases
+
+AutoName: TTS Util
+
+MaintainerNotes:
+  AppAdded: 2025-06-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/drmfinlay/tts-util-app/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 23ad7a6953f6e6ab74251f534e0de81e7beb18f837c7aa65e7f35bd70f778b3d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,23 @@
+Categories:
+  - Security
+License: MIT
+AuthorName: y20k
+AuthorEmail: codeberg@y20k.org
+SourceCode: https://codeberg.org/y20k/stayput
+IssueTracker: https://codeberg.org/y20k/stayput/issues
+Changelog: https://codeberg.org/y20k/stayput/releases
+
+AutoName: Stay Put
+
+MaintainerNotes:
+  AppAdded: 2025-01-13
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/y20k/stayput/src/branch/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 6105145f84e5cbd697f0f6e12c9777042e9b2db667a7ff0da412f67435316dd8
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

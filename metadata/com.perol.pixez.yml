@@ -1,0 +1,41 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: This app includes Google Play Core libraries and Google’s BillingClient.
+    de: Diese App enthält Google Play Core Bibliotheken und Google’s BillingClient.
+  NonFreeNet:
+    en-US: The app connects to Google servers (Firebase, billing) and to Pixiv servers.
+    de: Die App verbindet sich zu Servern von Google (Firebase, Billing) und Pixiv.
+Categories:
+  - Graphics
+  - Internet
+License: GPL-3.0-only
+AuthorName: Notsfsssf
+AuthorEmail: asdplk3@live.com
+SourceCode: https://github.com/Notsfsssf/pixez-flutter
+IssueTracker: https://github.com/Notsfsssf/pixez-flutter/issues
+
+AutoName: PixEz
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-12-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/Notsfsssf/pixez-flutter/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: to access your local images for reverse search
+    android.permission.READ_EXTERNAL_STORAGE: needed on Android 9 and below to access media files like images
+  NameSpaces:
+    - ignoreUnknowns
+    - /go/weiss/gojni
+  Status:
+    - 2024-01-28 scanner reports READ_MEDIA_IMAGES READ_EXTERNAL_STORAGE -> minSdk=Android-5
+    - 2025-08-13 upstreaming our Fastlane via https://github.com/Notsfsssf/pixez-flutter/pull/1017
+
+AllowedAPKSigningKeys: 932bc3027fd22606d662e8f454690f7b60d8c0f23bdaa951131138bcad2b8ff7
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

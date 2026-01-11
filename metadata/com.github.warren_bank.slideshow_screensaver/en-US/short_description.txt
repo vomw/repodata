@@ -1,0 +1,1 @@
+daydream/screensaver to display images on local device as a slideshow

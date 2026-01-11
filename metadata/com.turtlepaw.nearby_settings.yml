@@ -1,0 +1,37 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes Google Mobile Services libraries needed for Nearby functionality.
+    de: Die App enthält Google Mobile Services Bibliotheken, die sie für Nearby Funktionalität benötigt.
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: Turtlepaw
+AuthorWebSite: https://trtle.vercel.app/
+WebSite: https://nearbysettings.pages.dev/
+SourceCode: https://github.com/Turtlepaw/nearby_settings
+IssueTracker: https://github.com/Turtlepaw/nearby_settings/issues
+Changelog: https://github.com/Turtlepaw/nearby_settings/releases
+
+AutoName: Nearby Settings
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-04-28
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /mobile\.apk/i
+  ApkIgnore: /example\.apk/i
+  Fastlane: https://github.com/Turtlepaw/nearby_settings/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /com/example/nearby_settings
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to use Bluetooth
+    android.permission.ACCESS_FINE_LOCATION: needed to use Bluetooth
+    android.permission.BLUETOOTH_SCAN: needed to access nearby devices
+    android.permission.NEARBY_WIFI_DEVICES: needed for the core functionality
+
+AllowedAPKSigningKeys: 92e29cd97182e87b0d81a63d7730b356529f7cc01f1df00ae6a8e931766f2aeb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

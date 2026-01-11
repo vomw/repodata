@@ -1,0 +1,57 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses the online Bush translator, which depends on Google Translator.
+    de: Die App verwendet den Online-Übersetzer von Bush, der GoogleTranslate benutzt.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Knight Hat
+AuthorWebSite: https://knighthat.me/
+WebSite: https://kreate.knighthat.me/
+SourceCode: https://github.com/knighthat/Kreate
+IssueTracker: https://github.com/knighthat/Kreate/issues
+Translation: https://translate.kreate.knighthat.me/project/kreate
+Changelog: https://github.com/knighthat/Kreate/releases
+
+AutoName: Kreate
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-04-20
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Kreate-izzy/i
+  ApkIgnore: /Kreate-full/i
+  Fastlane: https://github.com/knighthat/Kreate/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /app/kreate
+    - /com/dd3boh/outertune
+    - /com/zionhuang/innertube
+    - /it/fast4x
+    - /me/knighthat/coil
+    - /me/knighthat/common
+    - /me/knighthat/component
+    - /me/knighthat/database
+    - /me/knighthat/discord
+    - /me/knighthat/enums
+    - /me/knighthat/exception
+    - /me/knighthat/impl
+    - /me/knighthat/innertube
+    - /me/knighthat/internal
+    - /me/knighthat/invidious
+    - /me/knighthat/logging
+    - /me/knighthat/piped
+    - /me/knighthat/sync
+    - /me/knighthat/updater
+    - /me/knighthat/utils
+  PermIgnore:
+    android.permission.RECORD_AUDIO: required by the visualizer, which is disabled by default. See https://developer.android.com/reference/android/media/audiofx/Visualizer
+    android.permission.READ_MEDIA_AUDIO: needed to play songs from your local media
+    android.permission.READ_EXTERNAL_STORAGE: needed to play songs from your local media on Android 9 and before
+
+AllowedAPKSigningKeys: 1bd03a8de5df4dbd7faddb81b9f2aaf55681a584a93d6fb47e9a5ccc736ef7ac
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

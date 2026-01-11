@@ -1,0 +1,25 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: '0x1317bf7'
+SourceCode: https://github.com/0x1317bf7/PodClassic
+IssueTracker: https://github.com/0x1317bf7/PodClassic/issues
+Changelog: https://github.com/0x1317bf7/PodClassic/releases
+
+AutoName: Pod Classic
+
+MaintainerNotes:
+  AppAdded: 2022-06-12
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /launcher/i
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 6/2022, last commit 6/2022)
+    - 2024-01-01 Static run found repo & account gone => NoSourceSince
+    - 2025-05-18 Code found at https://github.com/Mysterious-tk/PodClassicMod
+
+AllowedAPKSigningKeys: a928b6aea629d03a5ef843bce14941ba32504319b78e81b3344e9e597a7a9293
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None
+NoSourceSince: '1.5'

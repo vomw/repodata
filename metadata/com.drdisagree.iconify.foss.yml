@@ -1,0 +1,48 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-07-28, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-07-28 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: Mahmudul Hasan
+AuthorEmail: crazymahmud08@gmail.com
+SourceCode: https://github.com/Mahmud0808/Iconify
+IssueTracker: https://github.com/Mahmud0808/Iconify/issues
+Translation: https://crowdin.com/project/iconify
+Changelog: https://github.com/Mahmud0808/Iconify/releases
+Donate: https://www.buymeacoffee.com/DrDisagree
+
+AutoName: Iconify
+ArchivePolicy: 1
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2025-02-24
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Foss.arm64/i
+  Fastlane: https://github.com/Mahmud0808/Iconify/tree/stable/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  NameSpaces:
+    - /com/drdisagree/iconify
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to build manage overlays for all apps
+    android.permission.READ_EXTERNAL_STORAGE: kept for compatibility on older Android versions
+    android.permission.ACCESS_FINE_LOCATION: for the integrated lockscreen weather widget
+    android.permission.ACCESS_COARSE_LOCATION: for the integrated lockscreen weather widget
+    android.permission.ACCESS_BACKGROUND_LOCATION: for the integrated lockscreen weather widget
+  Status:
+    - 2022-12-02 repo blocked due DMCA from closed-source Project Themer. As it is more likely the theft was the other way round, setting it to Static for now and hope it will be reinstated.
+    - 2023-01-14 back online
+    - 2023-02-20 updater detected embedded APKs. Being asked, author clarified at https://github.com/Mahmud0808/Iconify/blob/beta/app/src/main/assets/PremadeOverlays/cheatsheet
+    - 2024-01-29 scanner reports READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE – https://github.com/Mahmud0808/Iconify/discussions/414
+    - 2024-03-05 repo has been archived
+    - 2025-02-09 repo was unarchived again, but devs added MLKit – dragging in GMS & Firebase and doubling APK size to 40+ MB
+    - 2025-02-23 rebranded from com.drdisagree.iconify. DEPENDENCY_INFO_BLOCK android.permission.QUERY_ALL_PACKAGES ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION ACCESS_BACKGROUND_LOCATION – https://github.com/Mahmud0808/Iconify/issues/747#issuecomment-2677168758
+    - 2025-08-18 monthly check found repo archived 2025-07-28, UCM Tags=>None
+
+AllowedAPKSigningKeys: 4af4ffa12ce90815a1775c4604ea16c19f5bed2a6e09ae7c3c92815982af052e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

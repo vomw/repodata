@@ -1,0 +1,21 @@
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: MistralMireille
+SourceCode: https://github.com/MistralMireille/MHTML-Viewer
+IssueTracker: https://github.com/MistralMireille/MHTML-Viewer/issues
+Changelog: https://github.com/MistralMireille/MHTML-Viewer/releases
+
+AutoName: MHTML Viewer
+
+MaintainerNotes:
+  AppAdded: 2023-02-28
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release/commit 3/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 0d48b524d520378ee7561839da1e8513827126a3b6bb9d781f8c690460ba2f7a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

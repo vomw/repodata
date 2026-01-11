@@ -1,0 +1,31 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-04-28, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-04-28 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Multimedia
+  - System
+License: MIT
+AuthorName: AlcatrazDev
+AuthorEmail: alcatraz32323@gmail.com
+WebSite: https://alcatraz323.github.io/audiohq/
+SourceCode: https://github.com/Alcatraz323/audiohq_md2
+IssueTracker: https://github.com/Alcatraz323/audiohq_md2/issues
+AutoName: Audio HeadQuarter
+
+MaintainerNotes:
+  AppAdded: 2020-05-02
+  Method: github-release
+  GHSkipPre: 1
+  X-oldGHDownloadDir: https://github.com/Alcatraz323/audiohq_md2/blob/master/app/release
+  Note: finally using tags – but tag names do not correspond to versionNames
+  NameSpaces:
+    - /com/alcatraz/support
+  Status:
+    - 2022-02-02 setting to static (from tags) as the very same APK is redownloaded again and again,while development seems stalled since 2021-11
+    - 2023-08-08 last release 9/2022, last commit 9/2022, author still active
+    - 2025-07-17 repo was archived 2025-04-28; disabling updates.
+
+AllowedAPKSigningKeys: be8374a934e4b9bd3d94f4221c30648081c58fef21229e1dcd47f6f3daaaabe7
+
+UpdateCheckMode: None

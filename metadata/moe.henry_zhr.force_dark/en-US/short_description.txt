@@ -1,0 +1,1 @@
+Override force-dark for apps in module scope

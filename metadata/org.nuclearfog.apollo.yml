@@ -1,0 +1,28 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: nuclearfog
+SourceCode: https://codeberg.org/nuclearfog/Apollo
+IssueTracker: https://codeberg.org/nuclearfog/Apollo/issues
+Changelog: https://codeberg.org/nuclearfog/Apollo/releases
+
+AutoName: Apollo
+
+MaintainerNotes:
+  AppAdded: 2021-11-12
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/nuclearfog/Apollo/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshotsJPG
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: needed on newer Android versions to access media files to play
+    android.permission.READ_EXTERNAL_STORAGE: needed on older Android versions to access media files to play
+  Status:
+    - 2024-04-13 scanner reports android.permission.ACCESS_MEDIA_LOCATION and DEPENDENCY_INFO_BLOCK; https://github.com/nuclearfog/Apollo-Music/issues/25
+    - 2024-04-23 marking for keep; APK size < 3 MB; ACCESS_MEDIA_LOCATION gone meanwhile
+
+AllowedAPKSigningKeys: e1a418c51baa829917daa2e86d7509a8a10470e44280c20146b70ea550bfe1ab
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

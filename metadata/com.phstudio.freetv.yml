@@ -1,0 +1,23 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: PH studio
+AuthorEmail: phstudio@pm.me
+AuthorWebSite: https://phstudio2.github.io/
+SourceCode: https://github.com/phstudio2/FreeTV
+IssueTracker: https://github.com/phstudio2/FreeTV/issues
+Changelog: https://github.com/phstudio2/FreeTV/releases
+
+AutoName: Free TV
+
+MaintainerNotes:
+  AppAdded: 2024-01-03
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/phstudio2/FreeTV/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: e680eb6babf701dd2f009303aea9298e57aa94c56f5fe81f9e55222bba7eb64c
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

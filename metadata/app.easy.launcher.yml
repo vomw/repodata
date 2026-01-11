@@ -1,0 +1,46 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: CodeWorks Creative Hub
+SourceCode: https://github.com/CodeWorksCreativeHub/EasyLauncher
+IssueTracker: https://github.com/CodeWorksCreativeHub/EasyLauncher/issues
+Changelog: https://github.com/CodeWorksCreativeHub/EasyLauncher/releases
+
+AutoName: Easy Launcher
+Name: Easy Launcher (Internet Edition)
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-10-15
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Internet/i
+  Fastlane: https://github.com/CodeWorksCreativeHub/EasyLauncher/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneIgnore: title
+  Note: title skipped as we need to override the app name (to make clear this is not the same variant as on F-Droid)
+  NameSpaces:
+    - /com/github/droidworksstudio/common
+    - /com/github/droidworksstudio/fuzzywuzzy
+    - /com/github/droidworksstudio/launcher
+  LibIgnore:
+    - /org/acra
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: for Gesture Actions most common in Android Launchers
+  PermIgnore:
+    android.permission.INTERNET: to retrieve weather information for the weather widget
+    android.permission.SET_WALLPAPER: to change or set the device’s wallpaper on home & lock screen
+    android.permission.EXPAND_STATUS_BAR: for functionality to interact with the quick settings or notifications
+    android.permission.USE_BIOMETRIC: to use biometric authentication methods
+    android.permission.VIBRATE: to provide haptic feedback
+    android.permission.QUERY_ALL_PACKAGES: to query and view the list of all installed apps e.g. in the app drawer
+    android.permission.REQUEST_DELETE_PACKAGES: to allow app removal e.g. from within the app drawer
+    android.permission.ACCESS_FINE_LOCATION: to get the location for which weather information should be retrieved
+    android.permission.ACCESS_COARSE_LOCATION: to get the location for which weather information should be retrieved
+  Status:
+    - 2025-10-15 android.permission.REQUEST_INSTALL_PACKAGES – https://github.com/CodeWorksCreativeHub/EasyLauncher/issues/254
+
+AllowedAPKSigningKeys: 88585139eac6d8d5922ce7af80a0f2acd9280371676014a114d5e3bf34904ae0
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,37 @@
+Categories:
+  - Writing
+License: Apache-2.0
+AuthorName: shiftrot
+AuthorEmail: shiftrot@gmail.com
+WebSite: https://droidterm-e8a40.firebaseapp.com/droidvim/
+SourceCode: https://github.com/shiftrot/droidvim
+IssueTracker: https://github.com/shiftrot/droidvim/issues
+
+AutoName: DroidVim
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-10-18
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /droidvim/i
+  FlagIgnore:
+    usesCleartextTraffic: used for communication with a web browser invoked via Vim commands
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: used to view local images ("binary viewer")
+    android.permission.READ_MEDIA_AUDIO: used to view local audio files ("binary viewer")
+    android.permission.READ_MEDIA_VIDEO: used to view local video files ("binary viewer")
+    android.permission.READ_EXTERNAL_STORAGE: used to view other local files ("binary viewer")
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed as DroidVim runs on the shell and needs to access storage from there
+    android.permission.QUERY_ALL_PACKAGES: used for the app launcher button
+  Status:
+    - 2024-05-10 scanner reports DEPENDENCY_INFO_BLOCK usesCleartextTraffic READ_MEDIA_IMAGES READ_MEDIA_AUDIO READ_MEDIA_VIDEO READ_EXTERNAL_STORAGE QUERY_ALL_PACKAGES MANAGE_EXTERNAL_STORAGE – https://github.com/shiftrot/droidvim/issues/74
+    - 2024-05-17 owner response on DEPENDENCY_INFO_BLOCK is "ask Github and Google to take care for that", https://github.com/shiftrot/droidvim/issues/74#issuecomment-2116414245
+    - 2025-06-27 last commit/release 2024-05-06; UCM Tags=>Static
+    - 2025-10-17 monthly quality check found repo & Github account gone
+
+AllowedAPKSigningKeys: 61d15d9b2941226284375863706cde2e3b43333fe7c0c8d2e53d15444167392f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None
+NoSourceSince: 2.5.0

@@ -1,0 +1,1 @@
+<p><i>IPTV Player</i> reads, categorizes and enables playback of the m3u file. It comes with DRM support.</p><p><b>Note:</b> The app does not provide any IPTV streams by itself, you need to feed it your <code>*.m3u</code> files. The app currently is quite strict about their formatting, please see the project site for details.</p>

@@ -1,0 +1,30 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Konrad Kollnig
+AuthorEmail: grease@trackercontrol.org
+SourceCode: https://github.com/kasnder/redd-focus-android
+IssueTracker: https://github.com/kasnder/redd-focus-android/issues
+
+AutoName: GreaseMilkyway (Beta)
+
+MaintainerNotes:
+  AppAdded: 2025-06-03
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/kasnder/redd-focus-android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: needed to clean up the UI in selected apps
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to select apps this should work on
+    android.permission.SYSTEM_ALERT_WINDOW: to draw overlays over those parts of apps that should be hidden
+  Status:
+    - 2025-06-05 versionCode not updated; Tags=>Static
+    - 2025-06-12 solved, UCM=Tags again
+
+AllowedAPKSigningKeys: 68d843de49069d3b8bc65c0ca269015f02bd2f160a2f74c0690e656933e1f99e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

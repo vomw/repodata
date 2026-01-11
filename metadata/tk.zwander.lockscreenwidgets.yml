@@ -1,0 +1,48 @@
+AntiFeatures:
+  NonFreeAdd:
+    en-US: The app contains the Tasker plugin.
+    de: Die App enhält das Tasker Plugin.
+  Tracking:
+    en-US: The app uses Bugsnag.
+    de: Die App verwendet Bugsnag.
+Categories:
+  - System
+  - Theming
+License: MIT
+AuthorName: Zachary Wander
+AuthorEmail: zachary@zwander.dev
+AuthorWebSite: https://zwander.dev
+SourceCode: https://github.com/zacharee/LockscreenWidgets
+IssueTracker: https://github.com/zacharee/LockscreenWidgets/issues
+Translation: https://crowdin.com/project/lockscreen-widgets
+Changelog: https://github.com/zacharee/LockscreenWidgets/releases
+
+AutoName: Lockscreen Widgets and Drawer
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-11-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/zacharee/LockscreenWidgets/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /tk/zwander/common
+    - /tk/zwander/widgetdrawer
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: to display on the lock screen and in the notification center
+  PermIgnore:
+    android.permission.VIBRATE: used for haptic feedback
+    android.permission.DISABLE_KEYGUARD: to prompt to dismiss the lock screen when needed
+    android.permission.READ_EXTERNAL_STORAGE: needed on Android 12 and earlier to get the wallpaper for Masked Frame Mode
+    android.permission.READ_MEDIA_IMAGES: needed on Android 13 and later to get the wallpaper for Masked Frame Mode
+    android.permission.QUERY_ALL_PACKAGES: to display the list of available widgets, as well as interact with the widgets as needed
+    android.permission.CALL_PHONE: only requested if needed (e.g., when tapping a direct dial shortcut)
+  Status:
+    - 2025-11-02 upstreaming our local Fastlane metadata via https://github.com/zacharee/LockscreenWidgets/pull/83
+
+AllowedAPKSigningKeys: 2ed2e38cd7f5f93c2a40594360cf3fb08cecfacf1f7994e59e1ce835272ccd85
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

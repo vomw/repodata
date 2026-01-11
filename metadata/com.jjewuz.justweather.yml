@@ -1,0 +1,26 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on OpenWeatherMap for weather data.
+    de: Die App bezieht ihre Wetterdaten von OpenWeatherMap.
+Categories:
+  - Weather
+License: MIT
+AuthorName: jjewuz
+AuthorEmail: mdenisov.work@gmai.com
+AuthorWebSite: https://jjewuz.github.io/
+SourceCode: https://github.com/jjewuz/JustWeather
+IssueTracker: https://github.com/jjewuz/JustWeather/issues
+
+AutoName: JustWeather
+
+MaintainerNotes:
+  AppAdded: 2023-05-24
+  Method: github-release
+  GHSkipPre: 1
+  GHDownloadDir: https://github.com/jjewuz/JustWeather/blob/main/app/release
+  Status:
+    - 2025-09-30 sending our local Fastlane metadata upstream via https://github.com/jjewuz/JustWeather/pull/7
+
+AllowedAPKSigningKeys: 3bbec46c2e065b887e7330daca62da5789a06575d134bd1c41489061500d1a78
+
+UpdateCheckMode: Tags

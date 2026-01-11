@@ -1,0 +1,24 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-or-later
+AuthorName: C. Liam Brown
+AuthorEmail: liam@cliambrown.com
+AuthorWebSite: https://github.com/cliambrown/PillTime
+SourceCode: https://github.com/cliambrown/PillTime
+IssueTracker: https://github.com/cliambrown/PillTime/issues
+Changelog: https://github.com/cliambrown/PillTime/releases
+
+AutoName: Pill Time
+
+MaintainerNotes:
+  AppAdded: 2024-05-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/cliambrown/PillTime/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 6d6243f470bc1d376b394bc32ab1d1de5421cc877c3621a201ce7c29dddf4c77
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

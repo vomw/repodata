@@ -1,0 +1,21 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Paolo Dematteis
+SourceCode: https://codeberg.org/warren-bank/mirror-Android-spynet-camera
+
+AutoName: spyNet Camera
+
+MaintainerNotes:
+  AppAdded: 2017-04-05
+  AppRemoved: 2025-05-13 last updated 5/2017, repo disappeared the same month
+  Method: gone
+  X-noGHDownloadDir: https://github.com/dematteispaolo/spynet-camera/blob/master/app/
+  RepoGone: 2017-05-17
+  Status:
+    - 2017-05-17 entire user disappeared from GH, but sources from https://github.com/dematteispaolo/spynet-camera (was 2.5.4 here) showed up at https://github.com/ziacto/spynet-camera (© in build.gradle says "Paolo Dematteis") from 2.4.6, while Warren has 2.4.13
+    - 2025-11-18 reported to be still useful to repurpose old devices, so we keep it; see https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15
+
+AllowedAPKSigningKeys: ba20844530dcb0ee438cbf83a6dfc1af89612e06675429442a5d412671b88000
+
+UpdateCheckMode: None

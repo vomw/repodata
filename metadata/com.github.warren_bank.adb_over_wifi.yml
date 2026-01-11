@@ -1,0 +1,22 @@
+Categories:
+  - Connectivity
+  - Development
+License: GPL-2.0-only
+AuthorName: Warren Bank
+SourceCode: https://codeberg.org/warren-bank/Android-ADB-over-WiFi
+IssueTracker: https://codeberg.org/warren-bank/Android-ADB-over-WiFi/issues
+
+AutoName: ADB over WiFi
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-12-09
+  Method: codeberg-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-22 last commit 11/2020, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,21 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Hussein Srour
+SourceCode: https://github.com/Husseinfo/interfast
+IssueTracker: https://github.com/Husseinfo/interfast/issues
+
+AutoName: Interfast
+
+MaintainerNotes:
+  AppAdded: 2022-12-16
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-22 last release/code-commit 12/2022, UCM Tags=>Static
+    - 2025-11-13 last commit 4/2024, but no new release; keeping UCM=Static
+
+AllowedAPKSigningKeys: 1675408f9399157d6215f8077b979cd02074afe019f513f929c6a4eaa5cf8ff4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

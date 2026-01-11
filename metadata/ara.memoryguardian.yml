@@ -1,0 +1,24 @@
+Categories:
+  - System
+  - Security
+License: GPL-3.0-only
+AuthorName: Hossein Hashemi
+SourceCode: https://github.com/hashemi-hossein/memory-guardian
+IssueTracker: https://github.com/hashemi-hossein/memory-guardian/issues
+
+AutoName: Memory Guardian
+
+MaintainerNotes:
+  AppAdded: 2023-07-22
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/hashemi-hossein/memory-guardian/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
+  NameSpaces:
+    - /ara/note/data
+  DoubleList: keep
+
+AllowedAPKSigningKeys: dd4b23edd3f53f4e7092c3bb14ccb468635c5275d1bd7180137f7da4da68a98c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

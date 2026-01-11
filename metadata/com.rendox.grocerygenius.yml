@@ -1,0 +1,24 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: Danylo Biliaiev
+AuthorEmail: daniel.rendox@gmail.com
+AuthorWebSite: https://dev.to/danielrendox
+SourceCode: https://github.com/DanielRendox/GroceryGenius
+IssueTracker: https://github.com/DanielRendox/GroceryGenius/issues
+Changelog: https://github.com/DanielRendox/GroceryGenius/releases
+
+AutoName: Grocery Genius
+
+MaintainerNotes:
+  AppAdded: 2024-07-27
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-09-02 signing key was lost; UCM Tags=>Static until proof is available, see https://github.com/DanielRendox/GroceryGenius/issues/18
+    - 2025-11-12 last release 9/2024, last commit 12/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 2bbfa4db49161c260691c2d732eb908a5c60f0c46536ac0d72a2c6ca977a92f8
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

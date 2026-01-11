@@ -1,0 +1,24 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: Vishnu Sanal T
+AuthorWebSite: https://vishnusanal.github.io/
+SourceCode: https://github.com/VishnuSanal/RemindMe
+IssueTracker: https://github.com/VishnuSanal/RemindMe/issues
+Changelog: https://github.com/VishnuSanal/RemindMe/releases
+
+AutoName: Remind Me!
+
+MaintainerNotes:
+  AppAdded: 2025-01-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/VishnuSanal/RemindMe/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed to start an activity from the background
+
+AllowedAPKSigningKeys: 9bea8b0910d94c9c57299561a69cecf35195c597c0d65a55bd9e1c56524b5056
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

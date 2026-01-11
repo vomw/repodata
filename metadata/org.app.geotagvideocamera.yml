@@ -1,0 +1,49 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app may use maps and download images from non-free online services.
+    de: Die App lädt ggf. Kartenmaterial und Bilder von unfreien Online-Diensten.
+Categories:
+  - Navigation
+  - System
+License: GPL-3.0-only
+AuthorName: MLM Games
+AuthorEmail: mlm.gamestudio@gmail.com
+AuthorWebSite: https://ragebreaker.itch.io/
+SourceCode: https://github.com/mlm-games/geotag-video-camera
+IssueTracker: https://github.com/mlm-games/geotag-video-camera/issues
+Changelog: https://github.com/mlm-games/geotag-video-camera/blob/HEAD/CHANGELOG.md
+Donate: https://ragebreaker.itch.io/
+
+AutoName: Geotag video camera
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-04-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/mlm-games/geotag-video-camera/blob/1.1.4/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneIgnore: changelogs
+  Note: Fastlane changelogs only has default.txt
+  DoubleList: keep
+  NameSpaces:
+    - /com/app/geotagvideocamera
+  LibIgnore:
+    - /com/app/geotagvideocamera
+    - /microG_location_service
+    - /com/google/android/gms
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: required to get the location for the overlay map
+    android.permission.ACCESS_FINE_LOCATION: required to get the location for the overlay map
+    android.permission.CAMERA: required to take photos and record videos
+    android.permission.RECORD_AUDIO: required to record audio alongside the video
+  Status:
+    - 2025-10-26 switching vom universal (meanwhile 50 MB) to arm64 (15 MB)
+    - 2025-10-27 APK at 2.1.5 is signed by debug key, UCM Tags=>Static until solved; https://github.com/mlm-games/geotag-video-camera/issues/73
+    - 2025-10-29 signing key issue solved, original key is back
+
+AllowedAPKSigningKeys: 57f73d58f4049f378ba988eae6edd1cc8cd245e0647e0f83dd669c450f4d056e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

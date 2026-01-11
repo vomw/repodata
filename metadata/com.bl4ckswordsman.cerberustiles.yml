@@ -1,0 +1,22 @@
+Categories:
+  - Theming
+License: MIT
+AuthorName: JoestarLabs
+SourceCode: https://github.com/JoestarLabs/CerberusTiles
+IssueTracker: https://github.com/JoestarLabs/CerberusTiles/issues
+Changelog: https://github.com/JoestarLabs/CerberusTiles/releases
+
+AutoName: Cerberus Tiles
+
+MaintainerNotes:
+  AppAdded: 2025-08-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/JoestarLabs/CerberusTiles/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: d41423d8614d7bb1afb8ac13fbb9afbd42fa91eb363bb54fcc12dc7cc113a8a3
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

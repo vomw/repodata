@@ -1,0 +1,43 @@
+AntiFeatures:
+  NonFreeAdd:
+    en-US: The app includes the Tasker plugin.
+    de: Die App enthält das Tasker Plugin Modul.
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: Dewey Reed
+AuthorEmail: ligrsidfd@gmail.com
+SourceCode: https://github.com/timer-machine/timer-machine-android
+IssueTracker: https://github.com/timer-machine/timer-machine-android/issues
+Changelog: https://github.com/timer-machine/timer-machine-android/releases
+
+AutoName: TimeR Machine
+
+MaintainerNotes:
+  AppAdded: 2022-09-11
+  AppRemoved: 2023-04-19 reached F-Droid (see Status)
+  AddedBack: 2025-03-12
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /other/i
+  NameSpaces:
+    - /com/github/deweyreed/timer
+    - /io/github/deweyreed/timer
+    - /xyz/aprildown/timer
+  Fastlane: https://github.com/timer-machine/timer-machine-android/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: to pick music for reminders
+    android.permission.READ_EXTERNAL_STORAGE: to pick music for reminders
+    android.permission.READ_PHONE_STATE: to pause playback on phone calls
+    android.permission.SYSTEM_ALERT_WINDOW: to show floating timer windows
+  Status:
+    - 2023-04-16 reached F-Droid 2023-04-06 but keeps our badge, [asked whether to keep](https://github.com/timer-machine/timer-machine-android/issues/7#issuecomment-1510475440)
+    - 2023-04-18 answer is remove
+    - 2025-03-14 READ_EXTERNAL_STORAGE READ_MEDIA_AUDIO READ_PHONE_STATE SYSTEM_ALERT_WINDOW
+
+AllowedAPKSigningKeys: efa5cfcab9669ddc2535bb40c8470395db587e8bff5a7adfcddd8e2266f159f0
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,27 @@
+Categories:
+  - System
+  - Writing
+License: Apache-2.0
+AuthorName: Raimondas Rimkus
+AuthorEmail: narimantukas+playstore@gmail.com
+SourceCode: https://github.com/rkkr/simple-keyboard
+IssueTracker: https://github.com/rkkr/simple-keyboard/issues
+Changelog: https://github.com/rkkr/simple-keyboard/releases
+
+AutoName: Simple Keyboard
+
+MaintainerNotes:
+  AppAdded: 2018-05-22
+  AddedBack: 2025-03-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/rkkr/simple-keyboard/tree/master/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  IntentFilterIgnore:
+    android.view.InputMethod: needed as this is a keyboard
+
+AllowedAPKSigningKeys: 12f0750bf1607469764f8acf0db67ae1cef3a6a5e1f097504e642e6edbd10e4e
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Tags

@@ -1,0 +1,36 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: TrackerControl
+AuthorEmail: hello@trackercontrol.org
+AuthorWebSite: https://www.cs.ox.ac.uk/research/HCC/
+WebSite: https://trackercontrol.org/
+SourceCode: https://github.com/TrackerControl/tracker-control-android
+IssueTracker: https://github.com/TrackerControl/tracker-control-android/issues
+Translation: https://crowdin.com/project/trackercontrol
+Changelog: https://github.com/TrackerControl/tracker-control-android/releases
+
+AutoName: Tracker Control
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2019-11-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/TrackerControl/tracker-control-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,video,shortdesc,fulldescMD,changelogs,screenshotsJPG,icon,featureGraphicJPG
+  LibIgnore:
+    - /org/acra
+  IntentFilterIgnore:
+    android.net.VpnService: needed to filter tracker access
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list apps to filter trackers for
+    android.permission.READ_PHONE_STATE: needed to disable the VPN on ongoing calls, to mitigate problems with VPN and Voice-over-IP service
+  Status:
+    - 2022-07-28 white-listing ACRA, see https://github.com/TrackerControl/tracker-control-android/issues/174
+    - 2024-12-15 scanner reports android.permission.READ_PHONE_STATE DEPENDENCY_INFO_BLOCK – https://github.com/TrackerControl/tracker-control-android/issues/440
+
+AllowedAPKSigningKeys: 7f48f74781632067cae334734ff2bdf54eb2a977c061a327499ca9109202d680
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Tags

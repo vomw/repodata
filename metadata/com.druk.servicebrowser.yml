@@ -1,0 +1,27 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2022-12-04, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2022-12-04 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: Andriy Druk
+AuthorEmail: andriy.druk@gmail.com
+AuthorWebSite: https://andriydruk.com/
+SourceCode: https://github.com/andriydruk/BonjourBrowser
+IssueTracker: https://github.com/andriydruk/BonjourBrowser/issues
+Changelog: https://github.com/andriydruk/BonjourBrowser/releases
+
+AutoName: Service Browser
+
+MaintainerNotes:
+  AppAdded: 2022-04-11
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-11-15 found the repo archived, last commit 2022-05-26; disabling update check
+
+AllowedAPKSigningKeys: 86e054d8648057d1698cef24cb552ccacc813e3b75794a70f8cba7e9ce75e4ed
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

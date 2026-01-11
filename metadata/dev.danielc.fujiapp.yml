@@ -1,0 +1,33 @@
+Categories:
+  - Connectivity
+License: GPL-2.0-only
+AuthorName: Based Technologies
+AuthorEmail: brikbusters@gmail.com
+AuthorWebSite: https://basedtech.us/
+SourceCode: https://github.com/petabyt/fudge
+IssueTracker: https://github.com/petabyt/fudge/issues
+Changelog: https://github.com/petabyt/fudge/releases
+
+AutoName: Fuji WiFi App
+
+MaintainerNotes:
+  AppAdded: 2023-07-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/petabyt/fudge/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /dev/danielc/common
+    - /dev/danielc/libui
+    - /dev/danielc/views
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: This permission was granted implicitly as WRITE_EXTERNAL_STORAGE was requested, which is needed to access media files on Android 9 and below.
+  Status:
+    - 2023-07-13 versionName is always 0.1.0-beta (tags are currently 0.0.x); license taken from code; see https://github.com/petabyt/fujiapp/issues/3
+    - 2023-08-19 release of the day is signed by a different key, see https://github.com/petabyt/fudge/issues/7
+    - 2024-01-21 scanner reports READ_EXTERNAL_STORAGE* – https://github.com/petabyt/fudge/issues/9
+    - 2024-01-21 clarified by https://developer.android.com/training/data-storage/shared/media – for Android < 10 one still needs WRITE_EXTERNAL_STORAGE to write media files.
+
+AllowedAPKSigningKeys: 5995c87f0ba43a21d14f715598eb716f399951a9a3f4e7af62a89c3adb9f5e17
+
+UpdateCheckMode: Tags

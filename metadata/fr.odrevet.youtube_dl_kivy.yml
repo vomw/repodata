@@ -1,0 +1,41 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to YouTube (obviously).
+    de: Die App nutzt (logischerweise) Verbindungen zu YouTube.
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: DREVET Olivier
+AuthorEmail: odrevet@gmail.com
+AuthorWebSite: http://olivier.drevet.free.fr/
+SourceCode: https://github.com/odrevet/yt-dlp-kivy
+IssueTracker: https://github.com/odrevet/yt-dlp-kivy/issues
+
+AutoName: youtube-dl
+
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2020-07-04
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /unsigned/i
+  Fastlane: https://github.com/odrevet/yt-dlp-kivy/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,screenshots
+  FastlaneIgnore: video
+  Note: video.txt
+  Status:
+    - 2021-10-31 no updates since 2020-07-25 (1y 2m 27d), setting from Tags to Static
+    - 2023-08-08 last release 5/2023, last commit 5/2023; version decreased from v0.2.1 to 0.1.1 and signing key changed? https://github.com/odrevet/yt-dlp-kivy/issues/12
+    - 2023-10-18 sent another ping
+    - 2023-10-20 versioning now fixed, but signing issue still remains (and still without explanation)
+    - 2023-10-22 using the correct certificate again, re-enabling updates once versionName matches tagName again (currently 0.3.0 / v0.3.1)
+    - 2023-11-16 versionName and versionCode are now fine with v0.3.3, re-enabling daily update checks
+    - 2025-03-02 signing key changed (to a weak one, eek); UCM Tags=>Static – https://github.com/odrevet/yt-dlp-kivy/issues/15
+    - 2025-03-03 solved, UCM Static=>Tags again
+    - 2025-07-31 rebranded from fr.odrevet.youtube_dl_kivy.youtube_dl_kivy
+
+AllowedAPKSigningKeys: 236717590bfccbd4d89f95e10a26e9d21cfd1aca77438f0552ff02168fd50bf6
+
+UpdateCheckMode: Tags
+AutoUpdateMode: Version v%v

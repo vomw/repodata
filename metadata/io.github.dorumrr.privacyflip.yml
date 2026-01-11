@@ -1,0 +1,23 @@
+Categories:
+  - Security
+  - System
+License: MIT
+AuthorName: Doru Moraru
+AuthorWebSite: https://www.doru.uk/
+SourceCode: https://github.com/dorumrr/privacyFlip
+IssueTracker: https://github.com/dorumrr/privacyFlip/issues
+Changelog: https://github.com/dorumrr/privacyFlip/releases
+
+AutoName: Privacy Flip
+
+MaintainerNotes:
+  AppAdded: 2025-10-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dorumrr/privacyFlip/blob/v1.2.0/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 67bd90caf57ebc3c947f037cb262ebf6bd188293dbc907c92d51924fcf2b9975
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

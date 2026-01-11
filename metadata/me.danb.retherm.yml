@@ -1,0 +1,23 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: Dan Brown
+AuthorEmail: apps@danb.me
+AuthorWebSite: https://danb.me/
+SourceCode: https://codeberg.org/danb/retherm
+IssueTracker: https://codeberg.org/danb/retherm/issues
+Changelog: https://codeberg.org/danb/retherm/releases
+
+AutoName: 'Retherm - RTD & Thermocouples'
+
+MaintainerNotes:
+  AppAdded: 2025-10-01
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/danb/retherm/src/branch/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 62b28e48e8c12afe020618ea4b0c10c9567540049b2556e6e8fdc963d68a200c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

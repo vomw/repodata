@@ -1,0 +1,25 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2019-02-14, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2019-02-14 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: MIT
+AuthorName: Justin Hall
+AuthorEmail: justin.r.hall+mtorch@gmail.com
+WebSite: https://wkovacs64.github.io/mTorch/
+SourceCode: https://github.com/wKovacs64/mTorch
+IssueTracker: https://github.com/wKovacs64/mTorch/issues
+Changelog: https://github.com/wKovacs64/mTorch/releases
+Bitcoin: 16g9yRiZSx8Rzrv5MCnkzAuSQ88uA7JNtQ
+
+MaintainerNotes:
+  AppAdded: 2016-03-16
+  Method: github-release
+  Status:
+    - 2019-06-23 repo is archived meanwhile. App still works fine.
+    - 2025-11-18 reported to still work on Android 10+16; being our probably first app, let’s keep it; see https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15
+
+AllowedAPKSigningKeys: 597c2ec2e28c060b6bdee42e5897a1395f7888125d28ed6dd38e457c354b8d07
+
+UpdateCheckMode: None

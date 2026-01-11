@@ -1,0 +1,33 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: FlorisBoard
+AuthorWebSite: https://patrickgold.dev/
+SourceCode: https://github.com/florisboard/florisboard
+IssueTracker: https://github.com/florisboard/florisboard/issues
+Changelog: https://github.com/florisboard/florisboard/releases
+AutoName: FlorisBoard
+
+MaintainerNotes:
+  AppAdded: 2021-03-18
+  Method: github-release
+  GHSkipPre: 0
+  ApkMatch: /preview/i
+  Fastlane: https://github.com/florisboard/florisboard/tree/master/fastlane/metadata/androidbeta/en-US
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  IntentFilterIgnore:
+    android.view.InputMethod: being a keyboard app this intent filter is needed
+  NameSpaces:
+    - /dev/patrickgold/florisboard
+    - /org/florisboard/lib
+    - /org/florisboard/libnative
+  Status:
+    - 0000-00-00 stable release (initially added here at 2020-10-07) moved to F-Droid, see https://github.com/florisboard/florisboard/issues/1#issuecomment-754718538
+    - 2021-03-17 re-established here as beta build (suffix .beta) as requested at https://github.com/florisboard/florisboard/issues/462 (disabled until first tag is ready)
+    - 2021-08-15 granted exception to size limit, keeping 2 versions as long as 18M per APK are not exceeded, see https://github.com/florisboard/florisboard/issues/1079#issuecomment-899095186
+
+AllowedAPKSigningKeys: 0b807164508eafeb1fbb815be7a23c77fe689d94b14375c99bdaa9b6577fd6d6
+
+ArchivePolicy: 2
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

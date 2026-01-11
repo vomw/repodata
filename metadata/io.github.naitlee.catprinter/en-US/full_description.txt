@@ -1,0 +1,1 @@
+<p><i>Cat-Printer</i> supports some Bluetooth thermal printers of model GB01, GB02, GT01, GB03. It has cross-platform support (is also available for Linux, MacOS and Windows).</p><p>The app might ask you for background location access, which you can safely deny. (Foreground) Location permission is required for scanning Bluetooth devices in newer Android system.</p>

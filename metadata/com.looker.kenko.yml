@@ -1,0 +1,22 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-or-later
+AuthorName: LooKeR
+AuthorEmail: mohit2002ss@gmail.com
+SourceCode: https://github.com/Iamlooker/Kenko
+IssueTracker: https://github.com/Iamlooker/Kenko/issues
+Changelog: https://github.com/Iamlooker/Kenko/releases
+
+AutoName: Kenko
+
+MaintainerNotes:
+  AppAdded: 2024-05-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Iamlooker/Kenko/tree/main/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: b15ab1b44b93afd669d09811882d15bc4fb6e5d0c58a8a631dc1f3ff2e0ea3d6
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

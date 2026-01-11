@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: bndeff
+SourceCode: https://github.com/bndeff/socksdroid
+
+AutoName: SocksDroid
+
+MaintainerNotes:
+  AppAdded: 2022-01-06
+  Method: github-release
+  GHSkipPre: 1
+  IntentFilterIgnore:
+    android.net.VpnService: this is a proxy app.
+  Status:
+    - 2023-02-11 Tags => Static as no release since 10/2019 (last code commit 4/2022)
+    - 2025-11-13 last release 11/2023, last commit 11/2022 (no typo)
+
+AllowedAPKSigningKeys: d671a516d6fc8aa02a6c9455c8e2f4b0bb040a71b987df9364057fb131e7ad76
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

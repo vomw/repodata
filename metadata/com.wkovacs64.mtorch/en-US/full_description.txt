@@ -1,0 +1,1 @@
+<p>A minimalistic torch/flashlight app for Android.</p><p><i>mTorch</i> was originally created as an exercise in Android development, but now it appears some people actually use it so I try to maintain it when I have time. The intended design was to be as minimalistic as possible while still providing a user-friendly experience.</p>

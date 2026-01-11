@@ -1,0 +1,1 @@
+<p><i>Audio HeadQuarter</i> ist ein Tool, um die Lautstärke für jede App individuell zu steuern. ECHTE Steuerung, nicht nur ein „auto adjust“ Skript. Es ist allerdings keine stand-alone App – sondern arbeitet zusammen mit seinem Magisk module; die App wird dabei für die Bedienung verwendet.</p><p>Für detailierte Instruktionen bitte auf der Website der App vorbeischauen.</p>

@@ -1,0 +1,31 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-12-19, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-12-19 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Weather
+  - Connectivity
+License: MIT
+AuthorName: Giorgio Bertolotti
+AuthorEmail: giorgio@bertolotti.dev
+AuthorWebSite: https://bertolotti.dev/
+WebSite: https://bertolotti.dev/PWSWatcher/
+SourceCode: https://github.com/GiorgioBertolotti/PWSWatcher
+IssueTracker: https://github.com/GiorgioBertolotti/PWSWatcher/issues
+
+AutoName: PWS Watcher
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-04-02
+  Method: github-release
+  GHSkipPre: 1
+  FlagIgnore:
+    usesCleartextTraffic: for connecting to the weather station
+  Status:
+    - 2023-02-11 Tags => Static as no release since 1/2022 (last commit 1/2022)
+    - 2025-02-12 repo was archived 2024-12-19, disabling update check
+
+AllowedAPKSigningKeys: 9aaf8fd0466f00e420ba3e5dbddf235d0a9e1c215cc88e90fefabeb92c54f91c
+
+UpdateCheckMode: None

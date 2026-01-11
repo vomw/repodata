@@ -1,0 +1,25 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: KOBAYASHI Ittoku
+SourceCode: https://github.com/kittoku/Open-SSTP-Client
+IssueTracker: https://github.com/kittoku/Open-SSTP-Client/issues
+Changelog: https://github.com/kittoku/Open-SSTP-Client/releases
+
+AutoName: Open SSTP Client
+
+MaintainerNotes:
+  AppAdded: 2022-08-07
+  Method: github-release
+  GHSkipPre: 1
+  Note: does not want to be listed at f-droid.org, see https://github.com/kittoku/Open-SSTP-Client/issues/6#issuecomment-582198771
+  IntentFilterIgnore:
+    android.net.VpnService: needed for VPN functionality
+  Status:
+    - 2020-02-04 originally added the app as kittoku.opensstpclient
+    - 2022-08-07 rebranded from kittoku.opensstpclient
+    - 2025-08-21 upstreaming metadata via https://github.com/kittoku/Open-SSTP-Client/pull/162 – but not even a response on the PR at 2025-11-13
+
+AllowedAPKSigningKeys: 35a0107f1c39134a4ee7c03272fdccb80aac4b864583d063fef63758277de3d5
+
+UpdateCheckMode: Tags

@@ -1,0 +1,25 @@
+Categories:
+  - Messaging
+License: GPL-3.0-only
+AuthorName: Deekshith Allamaneni
+WebSite: https://github.com/adeekshith/watomatic/wiki
+SourceCode: https://github.com/adeekshith/watomatic
+IssueTracker: https://github.com/adeekshith/watomatic/issues
+Changelog: https://github.com/adeekshith/watomatic/releases
+
+AutoName: Watomatic - WhatsApp Auto Reply Bot
+
+MaintainerNotes:
+  AppAdded: 2021-02-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/adeekshith/watomatic/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots,changelogs
+  FastlaneIgnore: title
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/8466#note_518864149
+
+AllowedAPKSigningKeys: 9b803cfb4fdfc4e908da71b3041e5d9cf5e1ff43d03cad25db19717dbfc6ea1a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

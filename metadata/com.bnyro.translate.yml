@@ -1,0 +1,32 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: You Apps
+AuthorWebSite: https://you-apps.github.io/
+SourceCode: https://github.com/you-apps/TranslateYou
+IssueTracker: https://github.com/you-apps/TranslateYou/issues
+Translation: https://hosted.weblate.org/projects/you-apps/translate-you/
+Changelog: https://github.com/you-apps/TranslateYou/releases
+
+AutoName: Translate You
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-09-30
+  Method: github-release
+  GHSkipPre: 1
+  X-ApkMatch: /libre/i
+  Fastlane: https://github.com/you-apps/TranslateYou/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.RECORD_AUDIO: to perform a vocal translation, only at the user’s request
+  DoubleList: keep
+  DoubleListRef: https://github.com/you-apps/TranslateYouissues/15#issuecomment-1464939199
+  Status:
+    - 2023-03-11 ready to enter F-Droid (MR merged 2023-03-10) and shall stay here, see https://github.com/Bnyro/TranslateYou/issues/15#issuecomment-1464939199
+    - 2023-08-15 signing keys got lost, see https://github.com/you-apps/WallYou/pull/113#issuecomment-1678958311
+
+AllowedAPKSigningKeys: b3bc73b117df5dfe38130c6c2b946852ae7088557fe8e433f0d9983a6b55cc95
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,22 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: Mark Kuo
+AuthorWebSite: https://markkuo-dev.blogspot.com/
+SourceCode: https://github.com/starryalley/CSC_BLE_Bridge
+IssueTracker: https://github.com/starryalley/CSC_BLE_Bridge/issues
+
+AutoName: CSC BLE Bridge
+
+MaintainerNotes:
+  AppAdded: 2021-01-25
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-02-11 Tags => Static as no release since 2/2022 (last commit 9/2022)
+    - 2026-01-10 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: 21a59d782bfca76a8ca4f0fe801e944a4ed8bc91f08ee90ddee58ad071ec1560
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

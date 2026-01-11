@@ -1,0 +1,33 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: The app’s source repository was archived 2025-08-29, there will be no more updates.
+    de: Das Quellcode Repository der App wurde 2025-08-29 archiviert, es wird keine weiteren Updates mehr geben.
+Categories:
+  - System
+License: MIT
+AuthorName: Hash Checker
+AuthorEmail: jaman.smlnsk@gmail.com
+AuthorWebSite: https://hash-checker.github.io/hash-checker.io/
+WebSite: https://fartem.github.io/hash-checker.io
+SourceCode: https://github.com/hash-checker/hash-checker
+IssueTracker: https://github.com/hash-checker/hash-checker/issues
+Changelog: https://github.com/hash-checker/hash-checker/releases
+
+AutoName: 'Hash Checker: MD5, SHA-1/224/256/384/512, CRC-32'
+
+MaintainerNotes:
+  AppAdded: 2021-01-05
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /no-google/i
+  NameSpaces:
+    - /com/smlnskgmail/jaman/hashchecker/components
+  Status:
+    - 2023-02-11 tags -> Static as no releases since 2021-12-12
+    - 2023-07-25 Static -> Tags as updates picked up again
+    - 2025-10-01 upstream repo was archived 2025-08-29 (last release 10/2024)
+
+AllowedAPKSigningKeys: 47c390fa380b5b6c0db9dcadc4b5aa44278ca933350d266ee53b280977322b6c
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

@@ -1,0 +1,32 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Fossify
+AuthorEmail: hello@fossify.org
+AuthorWebSite: https://www.fossify.org/
+SourceCode: https://github.com/FossifyOrg/File-Manager
+IssueTracker: https://github.com/FossifyOrg/File-Manager/issues
+Changelog: https://github.com/FossifyOrg/File-Manager/releases
+
+AutoName: File Manager
+
+MaintainerNotes:
+  AppAdded: 2024-01-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FossifyOrg/File-Manager/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/FossifyOrg/Gallery/issues/32#issuecomment-1880161569
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed on recent Android versions for file manager functionality
+    android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions for file manager functionality
+    android.permission.WRITE_EXTERNAL_STORAGE: needed on lower Android versions for file manager functionality
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to install APK files from storage
+  Status:
+    - 2024-03-17 scanner reports DEPENDENCY_INFO_BLOCK REQUEST_INSTALL_PACKAGES MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE* – https://github.com/FossifyOrg/File-Manager/discussions/71
+
+AllowedAPKSigningKeys: affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

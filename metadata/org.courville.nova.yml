@@ -1,0 +1,54 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains SuperNova, which has no license declared.
+    de: Die App enthält SuperNova, für das keine Lizenz deklariert ist.
+  Tracking:
+    en-US: The app might send detailed crash reports including stack traces to Nova developers private sentry.io instance in order to improve application quality.
+    de: Die App kann detailierte Absturzberichte inkl. Stack Traces an die private sentry.io Instanz der Entwickler schicken.
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: NOVA
+AuthorEmail: software@courville.org
+WebSite: https://www.reddit.com/r/NovaVideoPlayer
+SourceCode: https://github.com/nova-video-player/aos-AVP
+IssueTracker: https://github.com/nova-video-player/aos-AVP/issues
+Translation: https://crowdin.com/project/nova-video-player
+Changelog: https://github.com/nova-video-player/aos-AVP/raw/nova/CHANGELOG.md
+
+AutoName: Nova Video Player
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2021-03-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi/i
+  Fastlane: https://github.com/nova-video-player/aos-AVP/tree/nova/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  X-LibIgnore: |-
+    - /this_is_from_nova-video-player/aos-Video__not__nova-video-player/SuperNOVA
+    - /org/courville/supernova
+  FlagIgnore:
+    usesCleartextTraffic: for local resources like Kodi
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: still needed on some Android versions to access media files
+    android.permission.READ_MEDIA_IMAGES: needed to show associated images (e.g. video thumbnails)
+    android.permission.READ_MEDIA_VIDEO: needed to play local videos
+    android.permission.RECORD_AUDIO: used for voice search
+    android.permission.SYSTEM_ALERT_WINDOW: for the "floating player"
+  DoubleList: stuck
+  Status:
+    - 2024-01-08 asked for usesCleartextTraffic at https://github.com/nova-video-player/aos-AVP/issues/1042
+    - 2024-01-11 android.permission.RECORD_AUDIO is requested. Using the same issue (still open) to ask for that, too.
+    - 2024-01-12 android.permission.SYSTEM_ALERT_WINDOW today (was added to the checks last night). Added to that issue.
+    - 2024-01-21 now it’s even more, android.permission.READ_MEDIA_IMAGES android.permission.READ_MEDIA_AUDIO android.permission.READ_MEDIA_VIDEO android.permission.READ_EXTERNAL_STORAGE were added (scanner update)
+    - 2024-01-27 most permissions clarified, only leaving android.permission.RECORD_AUDIO
+    - 2025-08-22 upstreaming our local Fastlane metadata via https://github.com/nova-video-player/aos-AVP/pull/1502
+    - 2025-11-23 had to apply NonFreeComp, as there was no reaction on our request to declare a license on SuperNova, see https://github.com/nova-video-player/SuperNOVA/issues/1
+    - 2025-11-24 false positive, see issue; this SuperNOVA comes from https://github.com/nova-video-player/aos-Video
+
+AllowedAPKSigningKeys: 05af6804bcad9e7e6d22d2ffc39fca1857a4aeb4385097cad91b11e5bac1f615
+
+UpdateCheckMode: Tags

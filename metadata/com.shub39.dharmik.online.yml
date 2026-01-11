@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app downloads audio files from www.gitasupersite.iitk.ac.in when the Play button is pressed.
+    de: Die App lädt Audio-Dateien von www.gitasupersite.iitk.ac.in, wenn der Play Button betätigt wird.
+Categories:
+  - Religion
+  - Reading
+License: GPL-3.0-only
+AuthorName: Shubham
+AuthorEmail: cptnshubham39@gmail.com
+AuthorWebSite: https://shub39.netlify.app/
+SourceCode: https://github.com/shub39/Dharmik
+IssueTracker: https://github.com/shub39/Dharmik/issues
+Changelog: https://github.com/shub39/Dharmik/releases
+
+AutoName: Dharmik
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-03-28
+  Method: github-release
+  ApkIgnore: /offline/i
+  GHSkipPre: 1
+  Fastlane: https://github.com/shub39/Dharmik/blob/1.0.0/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/shub39/dharmik
+    - /dharmik/composeapp/generated
+  Status:
+    - 2025-03-23 APK size exploded from 18 MB to 363 MB, see https://github.com/shub39/Dharmik/issues/6
+    - 2025-03-28 moving from com.shub39.dharmik to the new and lighter online variant, which does not contain all the audio assets
+
+AllowedAPKSigningKeys: 0fe1b9f44a4db97ec50948f5189f6b4300716cc6d4843f5698d614a2152e2188
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

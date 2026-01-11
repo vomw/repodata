@@ -1,0 +1,41 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Imran Remtulla
+AuthorWebSite: https://imranr.dev/
+WebSite: https://github.com/ImranR98/Obtainium/wiki
+SourceCode: https://github.com/ImranR98/Obtainium
+IssueTracker: https://github.com/ImranR98/Obtainium/issues
+Changelog: https://github.com/ImranR98/Obtainium/releases
+
+AutoName: Obtainium
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-02-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  ApkIgnore: /fdroid/i
+  Fastlane: https://github.com/ImranR98/Obtainium/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,featureGraphic,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: Obtainium allows specifying own sources, which might be in a local network w/o SSL
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: this is the purpose of the app (installing updates)
+    android.permission.QUERY_ALL_PACKAGES: Obtainium needs to know what apps it must check for updates
+    android.permission.REQUEST_DELETE_PACKAGES: Obtainium also allows uninstalling apps.
+    android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: for seamless updates
+    android.permission.READ_EXTERNAL_STORAGE: needed for the import functionality
+  Note: |-
+      we keep the app though it’s available at F-Droid with a different packageName, see https://github.com/ImranR98/Obtainium/issues/1309#issuecomment-1937356634
+      "The only differences between the FDroid and regular versions is the App ID and the fact that the regular one contains an 'Obtainium' entry pre-added. I don’t see why you couldn’t keep the regular one on IzzyDroid."
+  Status:
+    - 2024-01-20 scanner reports READ_EXTERNAL_STORAGE (minVer Android 7) & REQUEST_DELETE_PACKAGES, asked for clarification at https://github.com/ImranR98/Obtainium/issues/1309
+    - 2024-01-21 we agreed to keep the normal build for now
+    - 2024-02-02 disabling pre-releases now the app left beta
+
+AllowedAPKSigningKeys: b353601f6a1d5fd6603ae2f50be80cf301367b86b6ab8b1f66243da96cd57362
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

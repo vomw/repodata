@@ -1,0 +1,30 @@
+Categories:
+  - Time
+License: MIT
+AuthorName: Florian Obernberger
+SourceCode: https://codeberg.org/florian-obernberger/flutter-doable
+IssueTracker: https://codeberg.org/florian-obernberger/flutter-doable/issues
+Translation: https://translate.codeberg.org/engage/doable/
+Changelog: https://codeberg.org/florian-obernberger/flutter-doable/releases
+
+AutoName: Doable
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-04-21
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://codeberg.org/florian-obernberger/flutter-doable/src/branch/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  FlagIgnore:
+    usesCleartextTraffic: needed for connections to local resource like a Nextcloud instance in the home network
+  Status:
+    - 2024-01-08 asked about usesCleartextTraffic with https://codeberg.org/florian-obernberger/flutter-doable/issues/73
+    - 2025-12-17 last release 2024-10-20, last commit 2024-12-03 – UCM Tags=>Static
+
+AllowedAPKSigningKeys: 4286089ec352f9d29924837b43ab9270d9ba2f645df1935851a9c6b840b84cc4
+
+VercodeOperation: '%c - 2'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

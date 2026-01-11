@@ -1,0 +1,33 @@
+Categories:
+  - Phone & SMS
+License: GPL-3.0-only
+AuthorName: Fossify
+AuthorEmail: hello@fossify.org
+AuthorWebSite: https://www.fossify.org/
+SourceCode: https://github.com/FossifyOrg/Phone
+IssueTracker: https://github.com/FossifyOrg/Phone/issues
+Changelog: https://github.com/FossifyOrg/Phone/releases
+
+AutoName: Phone
+
+MaintainerNotes:
+  AppAdded: 2024-01-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FossifyOrg/Phone/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_CONTACTS: Needed so you can pick the contact to call (phonebook).
+    android.permission.WRITE_CONTACTS: Needed so you can update your contact list.
+    android.permission.READ_PHONE_STATE: Well, this is a phone/calling app :)
+    android.permission.READ_CALL_LOG: Needed to show your call history.
+    android.permission.WRITE_CALL_LOG: As this is a dialer, it stores your call history there.
+    android.permission.RECORD_AUDIO: It is hard to make a phone call without microphon ;)
+    android.permission.SYSTEM_ALERT_WINDOW: To notify you about incoming calls.
+  DoubleList: keep
+  DoubleListRef: https://github.com/FossifyOrg/Gallery/issues/32#issuecomment-1880161569
+
+AllowedAPKSigningKeys: affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

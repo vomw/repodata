@@ -1,0 +1,36 @@
+Categories:
+  - Writing
+License: GPL-3.0-or-later
+AuthorName: Orgzly Revived
+SourceCode: https://github.com/orgzly-revived/orgzly-android-revived
+IssueTracker: https://github.com/orgzly-revived/orgzly-android-revived/issues
+Changelog: https://github.com/orgzly-revived/orgzly-android-revived/releases
+
+AutoName: Orgzly Revived
+
+MaintainerNotes:
+  AppAdded: 2023-11-12
+  AppRemoved: 2023-12-18 reached F-Droid 2023-11-15
+  AddedBack: 2025-03-14
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid/
+  NameSpaces:
+    - /com/orgzly/android
+  Fastlane: https://github.com/orgzly-revived/orgzly-android-revived/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  LibIgnore:
+    - /com/dropbox/core
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: needed for the feature to sync files to some directory in external storage for integration with other apps
+    android.permission.READ_EXTERNAL_STORAGE: needed for the feature to sync files to some directory in external storage for integration with other apps
+    android.permission.WRITE_EXTERNAL_STORAGE: needed for the feature to sync files to some directory in external storage for integration with other apps
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed for the feature to sync files to some directory in external storage for integration with other apps
+  Status:
+    - 2023-12-07 reached F-Droid 2023-11-15 but still carries our badge. Asked at https://github.com/orgzly-revived/orgzly-android-revived/issues/7#issuecomment-1843859478
+
+AllowedAPKSigningKeys: 6fc9c2e22d07d25ce77e2e963455053c38b8318a1a2491b3ed95d50cba85493d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

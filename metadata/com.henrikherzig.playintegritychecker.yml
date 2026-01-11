@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains proprietary libraries of Play Services SafetyNet, GMS and Google Play Core.
+    de: Die App enthält proprietäre Bibliotheken von Play Services SafetyNet, GMS und Google Play Core.
+  NonFreeNet:
+    en-US: The app connects to Google servers.
+    de: Die App baut Verbindungen zu Google Servern auf.
+Categories:
+  - Development
+  - System
+License: MIT
+AuthorName: Henrik Herzig
+AuthorEmail: dev.homebrewed@google.com
+AuthorWebSite: https://dev.home-brewed.com/
+SourceCode: https://github.com/herzhenr/spic-android
+IssueTracker: https://github.com/herzhenr/spic-android/issues
+Changelog: https://github.com/herzhenr/spic-android/releases
+
+AutoName: SPIC - Play Integrity Checker
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-12-31
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release 2/2023, last commit 6/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: b1af661e25fc638771ae4045f3542d4a479d278821563c4b6da19dd8c0577684
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

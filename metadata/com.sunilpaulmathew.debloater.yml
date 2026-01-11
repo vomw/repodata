@@ -1,0 +1,33 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: sunilpaulmathew
+AuthorEmail: sunil.kde@gmail.com
+AuthorWebSite: https://smartpack.github.io/
+SourceCode: https://github.com/sunilpaulmathew/De-Bloater
+IssueTracker: https://github.com/sunilpaulmathew/De-Bloater/issues
+Translation: https://poeditor.com/join/project?hash=BZS89Ev3WG
+Changelog: https://github.com/sunilpaulmathew/De-Bloater/releases
+Donate: https://github.com/sunilpaulmathew/De-Bloater#donations
+
+AutoName: De-Bloater
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2020-12-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sunilpaulmathew/De-Bloater/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/7893#note_470251748
+  PermIgnore:
+    android.permission.REQUEST_DELETE_PACKAGES: that’s what the app does, removing bloatware
+    android.permission.QUERY_ALL_PACKAGES: needed to find the bloatware
+  Status:
+    - 2024-09-13 android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE – https://github.com/sunilpaulmathew/De-Bloater/issues/41
+
+AllowedAPKSigningKeys: b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

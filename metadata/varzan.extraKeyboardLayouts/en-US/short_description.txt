@@ -1,0 +1,1 @@
+Physical keyboard layouts still missing from stock distributions as of 2020.

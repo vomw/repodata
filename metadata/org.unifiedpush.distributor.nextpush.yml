@@ -1,0 +1,25 @@
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: UnifiedPush
+AuthorWebSite: https://unifiedpush.org/
+SourceCode: https://codeberg.org/NextPush/nextpush-android
+IssueTracker: https://codeberg.org/NextPush/nextpush-android/issues
+Changelog: https://codeberg.org/NextPush/nextpush-android/releases
+
+AutoName: NextPush
+
+MaintainerNotes:
+  AppAdded: 2025-01-04
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/NextPush/nextpush-android/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  Status:
+    - 2025-01-04 added on request by author, https://infosec.exchange/@S1m/113766365753652394
+
+AllowedAPKSigningKeys: 4d77eb02f166559e43b2a3b34e861d628ccceecbf7653ee13870971b25e175f0
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

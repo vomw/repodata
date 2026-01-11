@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: ghmxr
+SourceCode: https://github.com/ghmxr/apkextractor
+IssueTracker: https://github.com/ghmxr/apkextractor/issues
+Changelog: https://github.com/ghmxr/apkextractor/releases
+
+AutoName: APK Kit
+
+MaintainerNotes:
+  AppAdded: 2019-08-24
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-07-18 switching UCM from Tags to Static (last release was 5/2020)
+    - 2022-12-18 UCM=Tags (2 releases last months)
+    - 2024-12-10 last release/commit 6/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 6af191c7aecc7839a2f895bd5744c49f8e39d4e152715ee4745263fe08d53921
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Static

@@ -1,0 +1,48 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app obtains weather data from OpenWeatherMap.
+    de: Die App bezieht ihre Wetterdaten von OpenWeatherMap.
+Categories:
+  - Weather
+License: MIT
+AuthorName: Akylas
+AuthorWebSite: https://www.akylas.fr/
+SourceCode: https://github.com/Akylas/oss-weather
+IssueTracker: https://github.com/Akylas/oss-weather/issues
+Changelog: https://github.com/Akylas/oss-weather/releases
+Donate: https://github.com/sponsors/farfromrefug
+
+AutoName: OSS Weather
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-10-21
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  NameSpaces:
+    - /com/tns/binding
+    - /com/tns/gen
+    - /com/tns/internal
+    - /ignoreUnidentified
+    - /com/nativescript/swiperefreshlayout
+  Fastlane: https://github.com/Akylas/oss-weather/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  FastlaneIgnore: video
+  Note: video.txt empty
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: to update current weather data on location change
+    android.permission.ACCESS_FINE_LOCATION: to update current weather data on location change
+    android.permission.READ_EXTERNAL_STORAGE: used to import app settings
+    android.permission.WRITE_EXTERNAL_STORAGE: used to export app settings
+  Status:
+    - 2024-01-09 asked about usesCleartextTraffic at https://github.com/Akylas/oss-weather/issues/72 (not found in the repo, probably dragged in by a dependency) -> fixed
+    - 2024-02-06 scanner reports READ_EXTERNAL_STORAGE ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION android.permission.READ_PHONE_STATE – https://github.com/Akylas/oss-weather/issues/86
+    - 2024-02-21 READ_PHONE_STATE is gone now
+    - 2024-03-11 scanner reports Sentry – https://github.com/Akylas/oss-weather/issues/99 – was an accident, removed a day later (should only be included with test builds)
+    - 2025-07-19 sent de + reformatted fulldesc upstream via https://github.com/Akylas/oss-weather/pull/383
+
+AllowedAPKSigningKeys: 687080d4cf6fcffe8d82fd1d783c90c2959480aa13c38ad8d04ec34066fc13f1
+
+UpdateCheckMode: Tags
+AutoUpdateMode: Version ^android/github/[^/]*/%c$

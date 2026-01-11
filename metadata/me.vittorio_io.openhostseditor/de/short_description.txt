@@ -1,0 +1,1 @@
+bearbeite die /etc/hosts Datei auf Deinem gerooteten Android Gerät

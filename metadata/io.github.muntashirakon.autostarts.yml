@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Muntashir Al-Islam
+AuthorEmail: muntashirakon@riseup.net
+WebSite: https://elsdoerfer.name/android-autostarts
+SourceCode: https://github.com/MuntashirAkon/android-autostarts
+IssueTracker: https://github.com/miracle2k/android-autostarts
+AutoName: Autostarts
+
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2020-10-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/MuntashirAkon/android-autostarts/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshotsJPG
+  NameSpaces:
+    - /com/elsdoerfer/android/autostarts
+  Status:
+    - 2021-12-07 switching AUM from Tags to Static (last release was 10/2020)
+    - 2023-08-08 last release 7/2022, last commit 7/2022, author still very active; https://github.com/MuntashirAkon/android-autostarts/issues/2 for status
+
+AllowedAPKSigningKeys: 320c0c0fe8cef873f2b554cb88c837f1512589dcced50c5b25c43c04596760ab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,44 @@
+AntiFeatures:
+  NonFreeAssets:
+    en-US: The app includes graphical assets which are not libre.
+    de: Die App enthält unfreie Grafik-Assets.
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Matthias Urhahn
+AuthorEmail: support@darken.eu
+AuthorWebSite: https://darken.eu/
+SourceCode: https://github.com/d4rken-org/capod
+IssueTracker: https://github.com/d4rken-org/capod/issues
+Changelog: https://github.com/d4rken-org/capod/releases
+
+AutoName: CAPod - Companion for AirPods
+
+MaintainerNotes:
+  AppAdded: 2022-07-25
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /WEAROS/i
+  Fastlane: https://github.com/d4rken-org/capod/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  FastlaneIgnore: video
+  DoubleList: keep
+  DoubleListRef: https://github.com/d4rken-org/capod/issues/37#issuecomment-1426409401
+  Note: video.txt is empty
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to access BLE broadcasts in earlier Android versions
+    android.permission.ACCESS_FINE_LOCATION: needed to access BLE broadcasts in earlier Android versions
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed to scan for BLE while the app is in background
+    android.permission.BLUETOOTH_SCAN: needed to access BLE broadcasts in newer Android versions
+    android.permission.SYSTEM_ALERT_WINDOW: needed to display the pop-up window with battery infos when the airpods case is opened
+  LibIgnore:
+    - /com/bugsnag
+  Status:
+    - 2023-02-10 asked whether to keep once it shows up at F-Droid https://github.com/d4rken-org/capod/issues/37#issuecomment-1426409401
+    - 2023-02-11 answer is "keep"
+    - 2024-02-25 scanner reports DEPENDENCY_INFO_BLOCK SYSTEM_ALERT_WINDOW ACCESS_BACKGROUND_LOCATION ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION BLUETOOTH_SCAN – https://github.com/d4rken-org/capod/issues/192
+
+AllowedAPKSigningKeys: 6729f9de72b4fca99615b22f984400ad1f3daa2411d8b1e09f321b038fac85ed
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

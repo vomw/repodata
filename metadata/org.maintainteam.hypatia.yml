@@ -1,0 +1,35 @@
+Categories:
+  - Security
+License: AGPL-3.0-or-later
+AuthorName: MaintainTeam
+SourceCode: https://github.com/MaintainTeam/Hypatia
+IssueTracker: https://github.com/MaintainTeam/Hypatia/issues
+Changelog: https://github.com/MaintainTeam/Hypatia/releases
+
+AutoName: Hypatia
+
+MaintainerNotes:
+  AppAdded: 2025-02-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/MaintainTeam/Hypatia/blob/v3.14/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /us/spotco/malwarescanner
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: used to extract domains from all screen text content and check them against a blocklist
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to access the apps to be scanned
+    android.permission.REQUEST_DELETE_PACKAGES: to allow removing infected apps
+    android.permission.READ_EXTERNAL_STORAGE: to read files to be scanned
+    android.permission.WRITE_EXTERNAL_STORAGE: to delete infected files
+    android.permission.MANAGE_EXTERNAL_STORAGE: read files for scan and delete infected ones on Android 12+
+    android.permission.INTERNET: to check for and download updated signature files
+  Status:
+    - 2025-03-24 AccessibilityService MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE – https://github.com/MaintainTeam/Hypatia/issues/48
+    - 2025-03-28 android.permission.READ_MEDIA_IMAGES android.permission.READ_MEDIA_VIDEO android.permission.READ_MEDIA_AUDIO
+
+AllowedAPKSigningKeys: 1b008d64bb95ab4774d68b87f22b8be9a272f4924df52029d7e6183835d918cc
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

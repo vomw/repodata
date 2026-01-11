@@ -1,0 +1,40 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Nextcloud
+WebSite: https://passman.cc/
+SourceCode: https://github.com/nextcloud/passman-android
+IssueTracker: https://github.com/nextcloud/passman-android/issues
+Changelog: https://github.com/nextcloud/passman-android/releases
+Donate: https://passman.cc/#contact
+Bitcoin: 1H2c5tkGX54n48yEtM4Wm4UrAGTW85jQpe
+
+AutoName: Passman
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-08-17
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /universal/i
+  NameSpaces:
+    - /es/wolfi/app/ResponseHandlers
+    - /es/wolfi/passman
+    - /es/wolfi/utils
+    - /net/bierbaumer/otp_authenticator
+  Fastlane: https://github.com/nextcloud/passman-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://github.com/nextcloud/passman-android/issues/12#issuecomment-945007155
+  PermIgnore:
+    android.permission.CAMERA: needed to scan QR codes for OTP
+    android.permission.READ_EXTERNAL_STORAGE: needed to import credentials from files
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to export credentials to files
+  Status:
+    - 2023-03-05 set ArchivePolicy to 2 as sum of APKs exceeded 32 MB
+    - 2025-03-23 last release & non-bot commit 2024-03-19; UCM Tags=>Static
+
+AllowedAPKSigningKeys: f0a4792b8b4dbd3339f9653b51cebd7a3aa433d0b0f701233cb55a7a4fa73d64
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

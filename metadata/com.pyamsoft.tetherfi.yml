@@ -1,0 +1,39 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes non-free Google libraries (BillingClient, Google Mobile Services, Google Play Core).
+    de: Die App enthält unfreie Google Bibliotheken (BillingClient, Google Mobile Services, Google Play Core).
+  NonFreeNet:
+    en-US: The app connects to Google services (billing).
+    de: Die App verbindet sich zu Google Servern (Billing).
+Categories:
+  - Internet
+License: Apache-2.0
+AuthorName: pyamsoft
+AuthorWebSite: https://pyamsoft.blogspot.com/
+SourceCode: https://github.com/pyamsoft/tetherfusenet
+IssueTracker: https://github.com/pyamsoft/tetherfusenet/issues
+Changelog: https://github.com/pyamsoft/tetherfusenet/releases
+
+AutoName: TetherFi
+
+MaintainerNotes:
+  AppAdded: 2022-11-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/pyamsoft/tetherfusenet/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: TetherFi is a proxy we just forward the network requests of other applications, which might include local resources without HTTPS.
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed on lower Android versions in order to use WiFi direct APIs
+    android.permission.ACCESS_COARSE_LOCATION: needed on lower Android versions in order to use WiFi direct APIs
+    android.permission.NEARBY_WIFI_DEVICES: needed on higher Android versions in order to use WiFi direct APIs
+  Status:
+    - 2024-01-15 updater reported usesCleartextTraffic – https://github.com/pyamsoft/tetherfi/issues/263 (it’s probably for the local WiFi hotspot it creates)
+    - 2024-06-22 updater reported DEPENDENCY_INFO_BLOCK ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION NEARBY_WIFI_DEVICES – https://github.com/pyamsoft/tetherfi/issues/307
+    - 2025-08-13 upstreaming our Fastlane via https://github.com/pyamsoft/tetherfi/pull/426
+
+AllowedAPKSigningKeys: cc6fec7d426ef1f0b28bbf79817b446ce1d89606ace77dcb8a26c5b8c2c435cf
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Tags

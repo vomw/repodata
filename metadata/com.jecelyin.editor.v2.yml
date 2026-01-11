@@ -1,0 +1,25 @@
+Categories:
+  - Writing
+  - Development
+  - Office
+License: Apache-2.0
+AuthorName: Qooyee.com
+AuthorEmail: jecelyin@gmail.com
+SourceCode: https://github.com/jecelyin/920-text-editor-v2
+IssueTracker: https://github.com/jecelyin/920-text-editor-v2/issues
+Changelog: https://github.com/jecelyin/920-text-editor-v2/releases
+Donate: https://jecelyin.github.io/donate/?project=920%20Text%20Editor
+
+AutoName: 920 Text Editor
+
+MaintainerNotes:
+  AppAdded: 2016-12-27
+  Method: github-release-manual
+  ManualHint: Tags don’t match versionName, see https://github.com/jecelyin/920-text-editor-v2/issues/1827
+  Status:
+    - 2019-11-01 probably dead, no activity since 2017
+    - 2025-11-20 [useful to keep](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15/#issuecomment-8361897)
+
+AllowedAPKSigningKeys: 472a48e8e2a4a1616d0a123f88afe829993e7235a366dcb428fdddd4712e40c7
+
+UpdateCheckMode: None

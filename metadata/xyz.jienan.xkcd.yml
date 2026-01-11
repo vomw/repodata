@@ -1,0 +1,28 @@
+Categories:
+  - Internet
+License: Apache-2.0
+AuthorName: Jienan XYZ
+AuthorEmail: jienan.zhang@gmail.com
+AuthorWebSite: https://jienan.xyz/
+SourceCode: https://github.com/zjn0505/xkcd-Android
+IssueTracker: https://github.com/zjn0505/xkcd-Android/issues
+Changelog: https://github.com/zjn0505/xkcd-Android/releases
+
+AutoName: xkcd
+
+MaintainerNotes:
+  AppAdded: 2019-07-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss/i
+  Fastlane: https://github.com/zjn0505/xkcd-Android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,changelogs,featureGraphicJPG,icon
+  FastlaneIgnore: shortdesc,fulldesc,video,screenshots
+  Note: Fastlane video.txt empty, shortdesc la-la, fulldesc not well-formatted (for Markdown, lacks some LF), screenshots just copied to other locales
+  Status:
+    - 2023-08-18 last release 7/2022, last commit 7/2022, Tags => Static
+    - 2025-11-14 last release 8/2023, last commit yesterday
+
+AllowedAPKSigningKeys: 8fc5bf4d7286475bba09879d3bee06757fb9843646080681ba723c7cf55a94b7
+
+UpdateCheckMode: Static

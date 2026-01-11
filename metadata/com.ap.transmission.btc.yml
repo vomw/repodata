@@ -1,0 +1,29 @@
+Categories:
+  - Internet
+License: GPL-2.0-only
+AuthorName: Andrey Pavlenko
+AuthorEmail: andrey.a.pavlenko@gmail.com
+SourceCode: https://github.com/AndreyPavlenko/transmissionbtc
+IssueTracker: https://github.com/AndreyPavlenko/transmissionbtc/issues
+
+AutoName: Transmission BTC
+
+MaintainerNotes:
+  AppAdded: 2020-10-14
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/AndreyPavlenko/transmissionbtc/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2020-10-14 [asked for license](https://github.com/AndreyPavlenko/transmissionbtc/issues/10)
+    - 2020-11-01 last update 1y 6m 1d ago, switching UCM from Tags to Static
+    - 2021-05-06 license based [on this comment](https://github.com/AndreyPavlenko/transmissionbtc/issues/10#issuecomment-833395397) by the author
+    - 2021-12-01 switching back to UCM Tags and adjusting ApkMatch after author informed us
+    - 2022-12-11 Tags=>Static (last release/commit 11/2021)
+    - 2025-09-30 upstreamed fastlane, was immediately merged – so dev still active
+
+AllowedAPKSigningKeys: aba44ddc4ef0e8f162542b0a0065f7c8c97f9b36b51318e02b14842958ca6cc4
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

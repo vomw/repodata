@@ -1,0 +1,31 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2023-09-16, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2023-09-16 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Writing
+License: BSD-3-Clause
+AuthorName: LitLifeSoftware
+AuthorEmail: litlifesoftware@gmail.com
+AuthorWebSite: https://litlifesoftware.github.io/
+WebSite: https://litlifesoftware.github.io/#/history-of-me
+SourceCode: https://github.com/litlifesoftware/HistoryOfMe
+IssueTracker: https://github.com/litlifesoftware/HistoryOfMe/issues
+Changelog: https://github.com/litlifesoftware/HistoryOfMe/releases
+
+AutoName: History of Me
+
+MaintainerNotes:
+  AppAdded: 2021-07-28
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Status:
+    - 2023-10-02 repo was archived 2023-09-16, UCM Tags => None
+    - 2024-10-23 reported as still working, see https://gitlab.com/IzzyOnDroid/repo/-/issues/617
+
+AllowedAPKSigningKeys: fb4b8202f9069ff3a4a41b114289557520b8a317f01afa47ac4ddd595ed8b5f4
+
+ArchivePolicy: 1
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

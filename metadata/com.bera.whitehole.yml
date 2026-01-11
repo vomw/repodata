@@ -1,0 +1,34 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on Telegram.
+    de: Die App nutzt Telegram Server.
+  Tracking:
+    en-US: The app uses PostHog for mobile analytics.
+    de: Die App verwendet PostHog für mobile Analytics.
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-11-15, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-11-15 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Subhradeep Bera
+SourceCode: https://github.com/beradeep/whitehole
+IssueTracker: https://github.com/beradeep/whitehole/issues
+Changelog: https://github.com/beradeep/whitehole/releases
+
+AutoName: Whitehole
+
+MaintainerNotes:
+  AppAdded: 2024-07-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/beradeep/whitehole/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: needed on higher Android versions to read the photos for backup
+    android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to read the photos for backup
+
+AllowedAPKSigningKeys: f1eebfcec5c0344e78f4e3adf720b4e8beb0aee0b112ead67156eaf8182bfc97
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

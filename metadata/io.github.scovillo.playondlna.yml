@@ -1,0 +1,29 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app reaches out to Youtube.
+    de: Die App verwendet Youtube.
+Categories:
+  - Multimedia
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: scovillo
+SourceCode: https://github.com/scovillo/playondlna
+IssueTracker: https://github.com/scovillo/playondlna/issues
+Changelog: https://github.com/scovillo/playondlna/releases
+
+AutoName: PlayOnDlna
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-08-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/scovillo/playondlna/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed to communicate with DLNA devices in the local network
+
+AllowedAPKSigningKeys: 71252a30bddb0eb532f35afb07866083ded0c1a1880122331ddda42a8867ceb9
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

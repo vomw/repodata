@@ -1,0 +1,36 @@
+Categories:
+  - Reading
+  - Internet
+License: GPL-3.0-only
+AuthorName: Josiah Campbell
+AuthorWebSite: https://jocmp.com/
+WebSite: https://capyreader.com/
+SourceCode: https://github.com/jocmp/capyreader
+IssueTracker: https://github.com/jocmp/capyreader/issues
+Translation: https://hosted.weblate.org/projects/capy-reader
+Changelog: https://github.com/jocmp/capyreader/releases
+
+AutoName: Capy Reader
+
+MaintainerNotes:
+  AppAdded: 2024-07-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/jocmp/capyreader/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/jocmp/capy
+    - /com/jocmp/feedbinclient
+    - /com/jocmp/feedfinder
+    - /com/jocmp/readerclient
+    - /com/jocmp/rssparser
+  FlagIgnore:
+    usesCleartextTraffic: used for RSS feeds that do not support HTTPS, though you better skip those :P
+  DoubleList: keep
+  Status:
+    - 2024-07-14 scanner reports usesCleartextTraffic DEPENDENCY_INFO_BLOCK – https://github.com/jocmp/capyreader/issues/165
+
+AllowedAPKSigningKeys: 67437375a161f420219ddff1f281df292ccb5f057aa0caf56568a782b2816465
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,33 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Trinadh Thatakula
+SourceCode: https://github.com/trinadhthatakula/Thor
+IssueTracker: https://github.com/trinadhthatakula/Thor/issues
+Changelog: https://github.com/trinadhthatakula/Thor/releases
+
+AutoName: Thor
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2025-06-08
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-release/i
+  Fastlane: https://github.com/trinadhthatakula/Thor/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/valhalla/superuser
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to find the apps to handle
+    android.permission.REQUEST_DELETE_PACKAGES: needed for uninstallation of apps
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to install apps
+  Status:
+    - 2025-12-18 dev now provides 2 APKs, unclear which one to take; the indicated one had its package name changed, see https://github.com/trinadhthatakula/Thor/issues/1#issuecomment-3671247136
+    - 2025-12-21 solved and RB again
+  X-AutoUpdateMode: Version v%v
+
+AllowedAPKSigningKeys: 2ce30e23b8cddb24dd5d70023fcc324215706c51a9c4c6bdf1decb34b1c9ca3f
+
+UpdateCheckMode: Tags

@@ -1,0 +1,1 @@
+Another Term “Linux under PRoot” feature support plugin for Android 10

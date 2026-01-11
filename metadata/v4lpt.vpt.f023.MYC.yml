@@ -1,0 +1,24 @@
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: Valentin
+SourceCode: https://github.com/v4lpt/MYC
+IssueTracker: https://github.com/v4lpt/MYC/issues
+Changelog: https://github.com/v4lpt/MYC/releases
+
+AutoName: Memorize Your Classics
+
+MaintainerNotes:
+  AppAdded: 2025-01-01
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  Fastlane: https://github.com/v4lpt/MYC/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,screenshots
+  FastlaneIgnore: title,icon
+  Note: icon is totally oversized, title needs local override
+
+AllowedAPKSigningKeys: 82424b6cc09e5d3505ca7b4cd11cf401e2e7998582761b00aaec80c96623b3ae
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

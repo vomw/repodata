@@ -1,0 +1,1 @@
+Companion Android application for EdXposed

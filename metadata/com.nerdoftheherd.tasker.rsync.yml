@@ -1,0 +1,40 @@
+AntiFeatures:
+  NonFreeAdd:
+    en-US: The app requires Tasker.
+    de: Die App benötigt Tasker.
+Categories:
+  - Automation
+  - System
+License: GPL-3.0-or-later
+AuthorName: Matt Robinson
+AuthorWebSite: https://nerdoftheherd.com/
+WebSite: https://nerdoftheherd.com/projects/rsync-for-tasker/
+SourceCode: https://github.com/ribbons/TaskerRsync
+IssueTracker: https://github.com/ribbons/TaskerRsync/issues
+Changelog: https://github.com/ribbons/TaskerRsync/releases
+
+AutoName: Rsync for Tasker
+
+MaintainerNotes:
+  AppAdded: 2022-10-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ribbons/TaskerRsync/tree/master/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to access files for sync
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to access files for sync
+    android.permission.READ_EXTERNAL_STORAGE: needed to access files for sync
+    android.permission.FOREGROUND_SERVICE: to run actions for more than a short time when triggered from older versions of Tasker
+    android.permission.FOREGROUND_SERVICE_SPECIAL_USE: to run actions for more than a short time when triggered from older versions of Tasker on Android 14+
+    android.permission.INTERNET: to connect to SSH servers e.g. in the local network
+    android.permission.POST_NOTIFICATIONS: to show a notification that a new version is available (if checking for updates is enabled)
+    android.permission.REQUEST_INSTALL_PACKAGES: to install an update after you have tapped on the update notification and chosen 'Download'
+  Status:
+    - 2024-03-04 scanner reports android.permission.REQUEST_INSTALL_PACKAGES – https://github.com/ribbons/TaskerRsync/issues/174
+    - 2025-08-01 upstreamed our Fastlane via https://github.com/ribbons/TaskerRsync/pull/302
+
+AllowedAPKSigningKeys: 5a90ea5d6c266b012a15ce232b6a6af6750ef612091eaa41b0ec70ac459c67a6
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

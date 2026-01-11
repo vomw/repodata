@@ -1,0 +1,34 @@
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: OMGSoundboard
+AuthorEmail: marvin@omgsoundboard.audio
+AuthorWebSite: https://omgsoundboard.audio/
+WebSite: https://omgsoundboard.audio/
+SourceCode: https://github.com/OMGSoundboard/android-app
+IssueTracker: https://github.com/OMGSoundboard/android-app/issues
+Translation: https://hosted.weblate.org/engage/omgsoundboard/
+Changelog: https://github.com/OMGSoundboard/android-app/releases
+
+AutoName: OMGSoundboard
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-11-03
+  AppRemoved: 2024-02-02 reached F-Droid 2024-01-17, see Status
+  AddedBack: 2024-08-22
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Foss/i
+  Fastlane: https://github.com/OMGSoundboard/android-app/tree/development/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,video,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/OMGSoundboard/android-app/issues/6#issuecomment-2303055591
+  Status:
+    - 2024-01-17 reached F-Droid, does not carry our badge, so we should remove it around 2024-01-25
+    - 2024-08-22 author asked to restore the app, see https://github.com/OMGSoundboard/android-app/issues/6#issuecomment-2303055591
+
+AllowedAPKSigningKeys: 878ba6a643897f12f84001cff337a561a52ef7951087c4f8087629c43216e995
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

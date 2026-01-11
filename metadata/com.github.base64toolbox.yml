@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Unkn8wn69
+SourceCode: https://github.com/Unkn8wn69/base64-Toolbox
+IssueTracker: https://github.com/Unkn8wn69/base64-Toolbox/issues
+Changelog: https://github.com/Unkn8wn69/base64-Toolbox/releases
+
+AutoName: Base64
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-10-10
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-11-15 last release/commit 10/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 482d073cff069d33aa4c0b8b9ea9c7c6c2ca7e1967c6fdeda22990302ab646fa
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

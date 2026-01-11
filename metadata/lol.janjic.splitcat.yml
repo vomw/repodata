@@ -1,0 +1,32 @@
+Categories:
+  - System
+License: MIT
+AuthorName: vogonwann
+WebSite: https://splitcat.janjic.lol/
+SourceCode: https://github.com/vogonwann/splitcat
+IssueTracker: https://github.com/vogonwann/splitcat/issues
+Changelog: https://github.com/vogonwann/splitcat/releases
+
+AutoName: splitcat
+
+MaintainerNotes:
+  AppAdded: 2024-10-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/
+  NameSpaces:
+    - /com/example/splitcat
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to access the files to split anywhere on the device
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to write the split files
+    android.permission.READ_MEDIA_IMAGES: needed to access images for splitting
+    android.permission.READ_MEDIA_VIDEO: needed to access videos for splitting
+    android.permission.ACCESS_MEDIA_LOCATION: needed to transfer metadata for split media files
+  Status:
+    - 2024-11-05 signing key changed, so UCM Tags=>Static for now – https://github.com/vogonwann/splitcat/issues/22
+    - 2024-11-12 verified OTR via Mastodon (account was mentioned on the website prior to the incident)
+
+AllowedAPKSigningKeys: a67aca0367fcef38f745a24185cb2071b45dfe42009814fbffe2381a049d99cb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

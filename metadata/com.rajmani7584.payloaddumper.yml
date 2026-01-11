@@ -1,0 +1,27 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Rajmani
+AuthorEmail: rajmani7584@gmail.com
+SourceCode: https://github.com/rajmani7584/Payload-Dumper-Android
+IssueTracker: https://github.com/rajmani7584/Payload-Dumper-Android/issues
+Changelog: https://github.com/rajmani7584/Payload-Dumper-Android/releases
+
+AutoName: Payload Dumper Android
+
+MaintainerNotes:
+  AppAdded: 2025-02-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/rajmani7584/Payload-Dumper-Android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to read image files
+    android.permission.MANAGE_EXTERNAL_STORAGE: to write the image files
+    android.permission.WRITE_EXTERNAL_STORAGE: to write the image files
+
+AllowedAPKSigningKeys: 843a64c1c718dea5aa72fcb47036e651cf4c724bbbc4f50b81b9f4189a5856c1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

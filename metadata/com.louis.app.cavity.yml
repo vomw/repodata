@@ -1,0 +1,34 @@
+Categories:
+  - Food
+License: GPL-3.0-only
+AuthorName: Bailly Louis
+AuthorEmail: cavity.app@gmail.com
+WebSite: https://cavity.fr/
+SourceCode: https://github.com/ninjinskii/Cavity
+IssueTracker: https://github.com/ninjinskii/Cavity/issues
+Changelog: https://github.com/ninjinskii/Cavity/releases
+
+AutoName: Cavity
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-08-26
+  Method: github-release
+  GHSkipPre: 1
+  LibIgnore:
+    - /io/sentry
+  Fastlane: https://github.com/ninjinskii/Cavity/blob/master/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.CAMERA: needed to make photos of the collection
+    android.permission.READ_EXTERNAL_STORAGE: used to import photos
+    android.permission.READ_MEDIA_IMAGES: used to import photos
+  Status:
+    - 2024-10-23 scanner reports CAMERA READ_EXTERNAL_STORAGE READ_MEDIA_IMAGES – https://github.com/ninjinskii/Cavity/issues/55
+    - 2024-10-29 Sentry is now opt-in, see https://github.com/ninjinskii/Cavity/issues/55#issuecomment-2443845707
+
+AllowedAPKSigningKeys: 82b5502ffa862be99a55347c4622d9e5a33de1fd506bafe0e268ddfb29faa0bc
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

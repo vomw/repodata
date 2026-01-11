@@ -1,0 +1,23 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Cyb3r G0d
+SourceCode: https://github.com/CYB3R-G0D/Calculator-app
+IssueTracker: https://github.com/CYB3R-G0D/Calculator-app/issues
+Changelog: https://github.com/CYB3R-G0D/Calculator-app/releases
+
+AutoName: Calculator
+
+MaintainerNotes:
+  AppAdded: 2021-07-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CYB3R-G0D/Calculator-app/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots,changelogs
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 4/2022, last commit 4/2022)
+
+AllowedAPKSigningKeys: 52fd1628632063ac8257f2f1740cd86ee0c3055ea0065449171780fb0f4d44e7
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,25 @@
+Categories:
+  - Theming
+License: Apache-2.0
+AuthorName: Lawnchair
+AuthorEmail: support@lawnchair.info
+AuthorWebSite: https://lawnchair.app/
+SourceCode: https://github.com/LawnchairLauncher/lawnicons
+IssueTracker: https://github.com/LawnchairLauncher/lawnicons/issues
+Translation: https://lawnchair.crowdin.com/lawnicons
+Changelog: https://github.com/LawnchairLauncher/lawnicons/releases
+
+AutoName: Lawnicons
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-04-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/LawnchairLauncher/lawnicons/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 747c3645b357258b2e23e851e53c96747fe0add007e5ba2cd97e8c85572e4dc5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

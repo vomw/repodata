@@ -1,0 +1,28 @@
+Categories:
+  - Xposed
+License: AGPL-3.0-only
+AuthorName: Furkan Karcıoğlu
+AuthorWebSite: https://furkank.net/
+SourceCode: https://github.com/frknkrc44/HMA-OSS
+IssueTracker: https://github.com/frknkrc44/HMA-OSS/issues
+Translation: https://crowdin.com/project/frknkrc44-hma-oss
+Changelog: https://github.com/frknkrc44/HMA-OSS/releases
+
+AutoName: HMA-OSS
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2025-12-31
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /release/i
+  ApkIgnore: /debug/i
+  Fastlane: https://github.com/frknkrc44/HMA-OSS/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /icu/nullptr/hidemyapplist
+
+AllowedAPKSigningKeys: 35caf9c5e4859a36a75a0645b5e8faf16adbdc48e28ae393671e6b859edf3d43
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

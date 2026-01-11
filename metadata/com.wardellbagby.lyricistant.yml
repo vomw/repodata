@@ -1,0 +1,25 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: Wardell Bagby
+AuthorWebSite: https://wardellbagby.com/
+WebSite: https://wardellbagby.com/#project?name=Lyricistant
+SourceCode: https://github.com/wardellbagby/lyricistant
+IssueTracker: https://github.com/wardellbagby/lyricistant/issues
+Changelog: https://github.com/wardellbagby/lyricistant/blob/main/CHANGELOG.md
+
+AutoName: Lyricistant
+
+MaintainerNotes:
+  AppAdded: 2022-12-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/wardellbagby/lyricistant/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphicJPG,screenshotsJPG
+  FastlaneIgnore: video,changelogs
+  Note: video.txt empty, single changelog (1.txt) never updated
+  X-AutoUpdateMode: Version v%v always uses "latest" (GH action)
+
+AllowedAPKSigningKeys: 0dc790be7cb5d159b4b0c97db948608dd367ea7f3400e3c14fcd6bed2c975d3f
+
+UpdateCheckMode: Tags

@@ -1,0 +1,30 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains the Google BillingClient.
+    de: Die App enthält den Google BillingClient.
+  NonFreeNet:
+    en-US: The app connects to Google servers (billing).
+    de: Die App nutzt Verbindungen zu Google Servern (Billing).
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Yaroslav Shuliak
+AuthorEmail: shuliak.yaroslav@gmail.com
+SourceCode: https://github.com/syt0r/WifiPass
+IssueTracker: https://github.com/syt0r/WifiPass/issues
+
+AutoName: Wifi Password
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2020-05-31
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 5/2020)
+    - 2023-02-23 another occasional update
+
+AllowedAPKSigningKeys: cb1350a5df8c438886c74df346fe48c9f6568aed2e590f9f7ef941eebbaa086e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

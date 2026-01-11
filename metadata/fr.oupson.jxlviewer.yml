@@ -1,0 +1,25 @@
+Categories:
+  - Graphics
+License: MIT
+AuthorName: oupson
+AuthorWebSite: https://oupson.fr/
+SourceCode: https://github.com/oupson/jxlviewer
+IssueTracker: https://github.com/oupson/jxlviewer/issues
+Changelog: https://github.com/oupson/jxlviewer/releases
+
+AutoName: Jpeg XL Viewer
+
+MaintainerNotes:
+  AppAdded: 2022-12-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /universal/i
+  NameSpaces:
+    - /fr/oupson/libjxl
+  Fastlane: https://github.com/oupson/jxlviewer/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+
+AllowedAPKSigningKeys: 7a7b0ea0e8c93bd4fd59d6ffbf588f0e81b6450cabddb0deac5675fc04b8b0f4
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

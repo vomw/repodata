@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: chenjunyu19
+SourceCode: https://github.com/chenjunyu19/MediaVolume
+IssueTracker: https://github.com/chenjunyu19/MediaVolume/issues
+
+AutoName: 媒体音量磁贴
+Name: MediaVolume
+
+MaintainerNotes:
+  AppAdded: 2022-02-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/chenjunyu19/MediaVolume/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD
+  Note: FAstlane is our starter package (graphics have been rejected, see https://github.com/chenjunyu19/MediaVolume/pull/4)
+
+AllowedAPKSigningKeys: 8a65244befe966a62d20e0fe778413c2312bead1ee7fe9587d5bb81dcad9f54c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

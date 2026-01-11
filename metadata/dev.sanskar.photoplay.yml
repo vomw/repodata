@@ -1,0 +1,30 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app is based on the TMDb API, which is free but not libre.
+    de: Die App ist auf der TMDb API aufgebaut, die nicht libre ist.
+Categories:
+  - Multimedia
+  - Internet
+License: Apache-2.0
+AuthorName: Sanskar Agrawal
+AuthorEmail: sanskar10100@gmail.com
+AuthorWebSite: https://sanskar10100.tech/
+SourceCode: https://github.com/sanskar10100/PhotoPlay
+IssueTracker: https://github.com/sanskar10100/PhotoPlay/issues
+Changelog: https://github.com/sanskar10100/PhotoPlay/releases
+
+AutoName: PhotoPlay
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-10-21
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-22 last commit/release 9/2022, UCM Tags=>Static
+    - 2025-11-19 [reported](https://mastodon.social/@jandi/115521095471255527) as still working and worth keeping
+
+AllowedAPKSigningKeys: 0c3db0ae45d686a4dd21b807b57791d3607e859348129e3c3fa2caaf46966f21
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

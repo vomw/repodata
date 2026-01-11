@@ -1,0 +1,31 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses multiple wallpaper APIs which are unfree unfortunately.
+    de: Die App verwendet leider verschiedene unfreie Wallpaper-APIs.
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: You Apps
+AuthorWebSite: https://you-apps.github.io/
+SourceCode: https://github.com/you-apps/WallYou
+IssueTracker: https://github.com/you-apps/WallYou/issues
+Translation: https://hosted.weblate.org/projects/you-apps/wall-you/
+Changelog: https://github.com/you-apps/WallYou/releases
+
+AutoName: Wall You
+
+MaintainerNotes:
+  AppAdded: 2022-10-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/you-apps/WallYou/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://github.com/you-apps/WallYou/pull/113#issuecomment-1668350221
+  Status:
+    - 2023-08-15 signing keys got lost, see https://github.com/you-apps/WallYou/pull/113#issuecomment-1678958311
+
+AllowedAPKSigningKeys: b3bc73b117df5dfe38130c6c2b946852ae7088557fe8e433f0d9983a6b55cc95
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

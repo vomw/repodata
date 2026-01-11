@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses the Google Books API to fetch some book details.
+    de: Die App verwendet die Google Books API, um einige Details zu Büchern zu beziehen.
+Categories:
+  - Reading
+License: Apache-2.0
+AuthorName: Pool-Of-Tears
+AuthorEmail: krshivam24@proton.me
+SourceCode: https://github.com/Pool-Of-Tears/Myne
+IssueTracker: https://github.com/Pool-Of-Tears/Myne/issues
+Changelog: https://github.com/Pool-Of-Tears/Myne/releases
+Donate: https://github.com/Pool-Of-Tears/Myne#donations
+Bitcoin: bc1q82qh9hw5xupwlf0f3ddfud63sek53lavk6cf0k
+
+AutoName: Myne
+
+MaintainerNotes:
+  AppAdded: 2023-01-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Pool-Of-Tears/Myne/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.INTERNET: needed to download eBooks
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/rfp/-/issues/2327#note_1246950866 – answer is "keep"
+  Status:
+    - 2023-01-20 asked whether it should stay once listed at F-Droid https://gitlab.com/fdroid/rfp/-/issues/2327#note_1246950866 – answer is "keep"
+    - 2024-01-14 updater reports usesCleartextTraffic, asked upstream https://github.com/Pool-Of-Tears/Myne/issues/104
+    - 2025-07-20 upstreamed local fastlane adjustments via https://github.com/Pool-Of-Tears/Myne/pull/256
+
+AllowedAPKSigningKeys: 5dfe06da0fe3b0813f3f3dc5305699c2dbb9dfdbab1349da7c41c59d2fcf319c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

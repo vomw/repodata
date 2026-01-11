@@ -1,0 +1,43 @@
+AntiFeatures:
+  - NonFreeNet
+Categories:
+  - Multimedia
+  - Internet
+License: GPL-3.0-only
+AuthorName: InfinityLoop1309
+SourceCode: https://github.com/InfinityLoop1308/PipePipe
+IssueTracker: https://github.com/InfinityLoop1308/PipePipe/issues
+Changelog: https://github.com/InfinityLoop1308/PipePipe/releases
+
+AutoName: AnimePipe
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-08-30
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64/i
+  DoubleList: keep
+  DoubleListRef: https://codeberg.org/NullPointerException/PipePipe/issues/2#issuecomment-774535
+  Fastlane: https://github.com/InfinityLoop1308/PipePipe/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed for the floating player
+    android.permission.READ_EXTERNAL_STORAGE: needed to access the Downloads folder at least up to Android 9
+  LibIgnore:
+    - /org/acra
+  NameSpaces:
+    - /org/schabi/newpipe
+  Status:
+    - 2022-08-30 app uses ACRA, asked whether it is opt-in or opt-out https://gitlab.com/IzzyOnDroid/repo/-/issues/293#note_1082906137
+    - 2022-08-31 No Tracking needed, ACRAs defaults are overwritten and only the interactive crash reporting is used
+    - 2023-01-12 repo and entire account disappeared from Github
+    - 2023-01-13 project (and account) have migrated to Codeberg
+    - 2023-01-18 asked whether to keep in our repo once it shows up at F-Droid https://codeberg.org/NullPointerException/PipePipe/issues/2#issuecomment-774535 – answer=keep
+    - 2024-01-20 scanner reports android.permission.SYSTEM_ALERT_WINDOW android.permission.READ_EXTERNAL_STORAGE* – https://codeberg.org/NullPointerException/PipePipe/issues/119
+    - 2024-07-25 project moved their releases from Codeberg to Github, see https://gitlab.com/IzzyOnDroid/repo/-/issues/573 and https://codeberg.org/NullPointerException/PipePipe/issues/78#issuecomment-2102863
+
+AllowedAPKSigningKeys: dec73429ce2563275f5ed19825e44652b32b363a46f38bdff9ad6dcde4842d88
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

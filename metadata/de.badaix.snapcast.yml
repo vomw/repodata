@@ -1,0 +1,31 @@
+Categories:
+  - Multimedia
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Johannes Pohl
+AuthorEmail: github@badaix.de
+SourceCode: https://github.com/snapcast/snapdroid
+IssueTracker: https://github.com/snapcast/snapdroid/issues
+Changelog: https://github.com/snapcast/snapdroid/releases
+
+MaintainerNotes:
+  AppAdded: 2018-07-07
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /de/badaix/boost
+    - /de/badaix/flac
+    - /de/badaix/oboe
+    - /de/badaix/ogg
+    - /de/badaix/opus
+    - /de/badaix/soxr
+    - /de/badaix/tremor
+    - /de/badaix/vorbis
+  DoubleList: disabled
+  DoubleListRef: https://github.com/badaix/snapdroid/issues/2#issuecomment-795253973
+  Fastlane: https://github.com/snapcast/snapdroid/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon
+
+AllowedAPKSigningKeys: 9e79fe820bdb6ef742bedd13ad3e7c42c444ce534e98b26c6e7e586f76986518
+
+UpdateCheckMode: Tags

@@ -1,0 +1,27 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Narek
+SourceCode: https://gitlab.com/narektor/batt
+IssueTracker: https://gitlab.com/narektor/batt/-/issues
+Changelog: https://gitlab.com/narektor/batt/-/releases
+
+AutoName: Batt
+
+MaintainerNotes:
+  AppAdded: 2023-10-20
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/narektor/batt/-/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter-package
+  Status:
+    - 2024-10-13 signing key changed, UCM Tags=>Static until clarified, see https://gitlab.com/narektor/batt/-/issues/9#note_2156319218
+    - 2024-10-13 key was lost, OTR verification via Mastodon successful – allowing new key and re-enabling updates
+    - 2024-10-13 alternative means of contact are @narek@fosstodon.org at the Fedi and https://forum.xda-developers.com/m/thegreatporg.8236072/
+    - 2025-10-17 last release/commit 10/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: d5d2741488c9738fd7d13664ce39890ac6da2e68ad6df067da0211781549e6ba
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

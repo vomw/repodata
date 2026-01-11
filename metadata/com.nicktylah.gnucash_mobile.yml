@@ -1,0 +1,25 @@
+Categories:
+  - Money
+License: MIT
+AuthorName: Nick Tyler
+SourceCode: https://github.com/nicktylah/gnucash-mobile
+IssueTracker: https://github.com/nicktylah/gnucash-mobile/issues
+Changelog: https://github.com/nicktylah/gnucash-mobile/releases
+
+AutoName: GnuCash Mobile
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-02-23
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to import the CSV from GnuCash
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release+commit 2/2022)
+    - 2026-01-09 still no new commits; disabling update checks altogether
+
+AllowedAPKSigningKeys: 81c03c849ce7667fd250f45773144e5f5174b727b2209c8e72160385eb821aec
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

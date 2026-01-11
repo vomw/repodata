@@ -1,0 +1,45 @@
+Categories:
+  - Connectivity
+License: AGPL-3.0-only
+AuthorName: Feelfree
+AuthorEmail: rj23@protonmail.com
+SourceCode: https://github.com/feelfreelinux/octo4a
+IssueTracker: https://github.com/feelfreelinux/octo4a/issues
+Changelog: https://github.com/feelfreelinux/octo4a/releases
+Donate: https://paypal.me/feelfreelinux
+
+AutoName: OctoPrint For Android
+
+MaintainerNotes:
+  AppAdded: 2021-04-04
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/feelfreelinux/octo4a/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshotsJPG
+  Note: Fastlane fulldesc lacks some NL
+  LibIgnore:
+    - /com/bugsnag
+  FlagIgnore:
+    usesCleartextTraffic: for local connections to the printer
+  PermIgnore:
+    android.permission.CAMERA: used to monitor the printer
+    android.permission.ACCESS_NETWORK_STATE: used to see if a connection is possible
+    android.permission.ACCESS_WIFI_STATE: used to see if a connection is possible via WiFi
+    android.permission.CHANGE_NETWORK_STATE: needed to properly iterate the network interfaces to build a complete list of network interfaces + their assigned addresses
+    android.permission.INTERNET: used to access the device to monitor prints and to install/keep update the Octoprint container
+    android.permission.FOREGROUND_SERVICE: needed to keep the service running even if the screen is off
+    android.permission.RECEIVE_BOOT_COMPLETED: used to start the service at boot if configured such
+    android.permission.WRITE_EXTERNAL_STORAGE: needed e.g. to store config & GCODE files for easy backup
+    android.permission.READ_EXTERNAL_STORAGE: needed to read the stored config & GCODE files
+    android.permission.SYSTEM_ALERT_WINDOW: needed to make the app run in foreground when started at device boot
+  Status:
+    - 2023-02-20 set updates to manual as old APK is attached to new release, see https://github.com/feelfreelinux/octo4a/issues/380
+    - 2023-07-25 issue seems to be fixed, re-enabling automated updates
+    - 2024-04-28 scanner reports usesCleartextTraffic CAMERA READ_EXTERNAL_STORAGE SYSTEM_ALERT_WINDOW – https://github.com/feelfreelinux/octo4a/issues/478
+    - 2024-05-17 removed Tracking AF as Bugsnag is configured opt-in
+    - 2025-11-12 last release/commit 2024-07-14, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 0c3c8205f4f342352c0793467b54cea2c8cac7f465904ccc0bc0dc089fb8fe87
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

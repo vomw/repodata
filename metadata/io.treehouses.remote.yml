@@ -1,0 +1,30 @@
+Categories:
+  - Connectivity
+License: AGPL-3.0-only
+AuthorName: treehouses
+AuthorWebSite: http://treehouses.io/
+SourceCode: https://github.com/treehouses/remote
+IssueTracker: https://github.com/treehouses/remote/issues
+
+MaintainerNotes:
+  AppAdded: 2018-03-10
+  AppRemoved: 2021-11-20 reached F-Droid
+  AddedBack: 2025-03-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/treehouses/remote/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: to connect to the Raspi in your local network
+  PermIgnore:
+    android.permission.BLUETOOTH_SCAN: to enable scanning and management of nearby devices within the app’s functionality, specifically for Raspberry Pi connections.
+    android.permission.ACCESS_FINE_LOCATION: optional; used for global usage map, which anonymously visualizes where the app is being used worldwide.
+    android.permission.ACCESS_COARSE_LOCATION: optional; used for global usage map, which anonymously visualizes where the app is being used worldwide.
+  Status:
+    - 2025-03-11 on re-establishing, removed the Tracking AF as activity collection is now opt-in, see https://github.com/treehouses/remote/blob/88252a5f61cedfa4a27f2543b1f01adbf9204264/app/src/main/kotlin/io/treehouses/remote/ui/home/BaseHomeFragment.kt#L91
+    - 2025-07-01 usesCleartextTraffic BLUETOOTH_SCAN ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION – https://github.com/treehouses/remote/issues/2173
+
+AllowedAPKSigningKeys: c5b340b166e5212b1e7dbe00b9ac69690a252941e5498e383089d8a00afd6f30
+
+AutoUpdateMode: Version v%c
+UpdateCheckMode: Tags

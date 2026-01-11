@@ -1,0 +1,30 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: ray-pH
+AuthorWebSite: https://ray-ph.github.io/
+WebSite: https://ray-ph.github.io/nabla/
+SourceCode: https://github.com/ray-pH/Nabla-TypeMath-android
+IssueTracker: https://github.com/ray-pH/Nabla-TypeMath-android/issues
+Changelog: https://github.com/ray-pH/Nabla-TypeMath-android/releases
+
+AutoName: Nabla TypeMath
+
+MaintainerNotes:
+  AppAdded: 2021-08-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ray-pH/Nabla-TypeMath-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package (https://github.com/ray-pH/Nabla-TypeMath-android/pull/13)
+  Status:
+    - 2022-11-07 APKs are missing for 2 versions now; https://github.com/ray-pH/Nabla-TypeMath-android/issues/4
+    - 2022-12-11 Tags=>Static as still no response
+    - 2022-12-11 great, another ping helped and APKs are attached again – Static=>Tags!
+    - 2024-12-10 last release/commit 10/2023; UCM Tags=>Static
+    - 2025-09-30 upstreaming our Fastlane via https://github.com/ray-pH/Nabla-TypeMath-android/pull/13
+
+AllowedAPKSigningKeys: 1f87b48351834c9e005013df7d283b56a961ca36e789929f606ccf3a7250e7dd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

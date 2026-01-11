@@ -1,0 +1,49 @@
+Categories:
+  - Automation
+  - System
+License: Apache-2.0
+AuthorName: Henrich Gron
+AuthorEmail: henrich.gron@gmail.com
+SourceCode: https://github.com/henrichg/PhoneProfilesPlus
+IssueTracker: https://github.com/henrichg/PhoneProfilesPlus/issues
+Translation: https://crowdin.com/project/phoneprofilesplus
+Changelog: https://github.com/henrichg/PhoneProfilesPlus/releases
+
+AutoName: Phone Profiles Plus
+
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2016-10-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/henrichg/PhoneProfilesPlus/tree/master/fastlane/android/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed for location-based events (events Wi-Fi sensor, Mobile cells sensor, Locaton sensor)
+    android.permission.ACCESS_FINE_LOCATION: needed for location-based events (events Wi-Fi sensor, Mobile cells sensor, Locaton sensor)
+    android.permission.ACCESS_BACKGROUND_LOCATION: for location-based events (events Wi-Fi sensor, Mobile cells sensor, Locaton sensor)
+    android.permission.CAMERA: needed for profile parameter Camera flash
+    android.permission.READ_CALENDAR: to be able to act on calendar events
+    android.permission.READ_CONTACTS: needed to fill contact cache, required in event Call sensor, SMS sensor
+    android.permission.READ_EXTERNAL_STORAGE: needed to restore PPP Settings from backups
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to save PPP Settings to backups
+    android.permission.READ_PHONE_STATE: needed to trigger profiles on call events and mobile cells
+    android.permission.RECORD_AUDIO: needed to set profile „Airplane mode“ via Assistant (speech-to-text; requirement by Google)
+    android.permission.SEND_SMS: needed for sending SMS, if it is enabled in profile parameter "Phone calls"
+    android.permission.SYSTEM_ALERT_WINDOW: needed to e.g. run some invisible activities (Screen brightness, Screen timeout, Keep screen on)
+  NameSpaces:
+    - /sk/henrichg/common
+    - /sk/henrichg/phoneprofiles
+  LibIgnore:
+    - /org/acra
+  Status:
+    - 2020-06-01 app removed (SuperUser, personal data + crashlytics, firebase analytics, GMS & more)
+    - 2021-05-28 aded back (trackers gone)
+    - 2022-07-28 asked whether ACRA is explitily set up to opt-in https://github.com/henrichg/PhoneProfilesPlus/issues/11#issuecomment-1198638363
+    - 2024-02-13 scanner reports READ_EXTERNAL_STORAGE READ_CONTACTS RECORD_AUDIO – https://github.com/henrichg/PhoneProfilesPlus/issues/121
+
+AllowedAPKSigningKeys: 3ef43286ba71abe2d8c3d2bc07a2268e006c546b48542e4e0bcec17ca7abff0c
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

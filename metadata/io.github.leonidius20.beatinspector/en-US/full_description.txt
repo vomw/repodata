@@ -1,0 +1,1 @@
+<p><i>BeatInspector</i> is meant to help music producers analyze other tracks for remixing, referencing etc. by displaying relevant data about them, namely their BPM, key, genre, time signature, and average loudness. Requires authentication with a Spotify account (Spotify App not required).</p>

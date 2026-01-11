@@ -1,0 +1,27 @@
+Categories:
+  - Theming
+License: GPL-3.0-only
+AuthorName: 1fexd
+SourceCode: https://github.com/LinkSheet/LinkSheet
+IssueTracker: https://github.com/LinkSheet/LinkSheet/issues
+Changelog: https://github.com/LinkSheet/LinkSheet/releases
+
+AutoName: LinkSheet
+
+MaintainerNotes:
+  AppAdded: 2023-02-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/LinkSheet/LinkSheet/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshotsJPG
+  NameSpaces:
+    - /com/tasomaniac/openwith
+  Status:
+    - 2023-02-23 APK size and "unused dependencies"? Asked the dev at https://github.com/1fexd/LinkSheet/issues/1
+    - 2023-02-23 from 13 MB down to 3.7 MB in less than a day, yay!
+    - 2025-06-27 last release 2023-07-30; UCM Tags=>Static
+
+AllowedAPKSigningKeys: c2a8b18c328dfb39c896491757ed11c145d3acca43212fa3de362433c416aaa9
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

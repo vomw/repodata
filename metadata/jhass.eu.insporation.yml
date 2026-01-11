@@ -1,0 +1,28 @@
+Categories:
+  - Social Network
+  - Internet
+License: BSD-3-Clause
+AuthorName: Jonne Haß
+AuthorWebSite: https://jhass.eu/
+SourceCode: https://github.com/jhass/insporation
+IssueTracker: https://github.com/jhass/insporation/issues
+Translation: https://hosted.weblate.org/engage/insporation/
+Changelog: https://github.com/jhass/insporation/releases
+
+AutoName: insporation*
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-09-20
+  Method: github-release-manual
+  ManualHint: tag name "nightly" cannot be compared to versionName or versionCode
+  GHSkipPre: 0
+  Fastlane: https://github.com/jhass/insporation/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  Note: has its own repo at https://jhass.github.io/insporation/fdroid/repo?fingerprint=EC792A58B39DF9FBB466FB100E30E3842F229FDBC6E28D32C417F6A5B30ECCAE
+  X-AutoUpdateMode: Version v%v nightly builds only at the moment
+
+AllowedAPKSigningKeys: ec792a58b39df9fbb466fb100e30e3842f229fdbc6e28d32c417f6a5b30eccae
+
+UpdateCheckMode: Tags

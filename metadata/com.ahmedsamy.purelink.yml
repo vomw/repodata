@@ -1,0 +1,25 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: Ahmed Samy El-khouly
+AuthorEmail: ahmedthebest31@gmail.com
+AuthorWebSite: https://www.udemy.com/user/ahmedsamy-10/
+SourceCode: https://github.com/ahmedthebest31/PureLink-Android
+IssueTracker: https://github.com/ahmedthebest31/PureLink-Android/issues
+Changelog: https://github.com/ahmedthebest31/PureLink-Android/releases
+
+AutoName: Pure Link
+
+MaintainerNotes:
+  AppAdded: 2025-12-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ahmedthebest31/PureLink-Android/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: required for the "Background Clipboard Monitor" feature
+
+AllowedAPKSigningKeys: eddae3441ba19e516cdcf04c73e99b0bc9550811269b834fabf96e60b36dff3b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,35 @@
+Categories:
+  - System
+  - Security
+License: MIT
+AuthorName: TrustDevice
+AuthorWebSite: https://www.trustdecision.com/
+WebSite: https://trustdecision.com/solutions/trustdevice
+SourceCode: https://github.com/trustdecision/trustdevice-android
+IssueTracker: https://github.com/trustdecision/trustdevice-android/issues
+Changelog: https://github.com/trustdecision/trustdevice-android/releases
+
+AutoName: TrustDevice
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-12-16
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /cn/tongdun/android
+    - /cn/tongdun/mobrisk
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to show a list of installed apps
+  Status:
+    - 2024-06-14 scanner reports DEPENDENCY_INFO_BLOCK and missed increase of versionCode – https://github.com/trustdecision/trustdevice-android/issues/32
+    - 2025-06-17 v1.1.2 used different packageName, see https://github.com/trustdecision/trustdevice-android/issues/36 – UCM Tags=>Static until clarified
+    - 2025-07-01 rebranded from com.trustdevice.android
+    - 2025-11-21 versionCode was not incremented, so same APK is pulled daily since 2025-10-15, UCM Tags=>Static; https://github.com/trustdecision/trustdevice-android/issues/41
+    - 2025-12-04 solved, UCM back to Tags
+    - 2025-08-19 sending our local Fastlane metadata upstream via https://github.com/trustdecision/trustdevice-android/pull/37
+
+AllowedAPKSigningKeys: 31ef11b9cb3b56ea0fcc47b4ed4f91581b738b4f17c074bf4d71603188b8d372
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

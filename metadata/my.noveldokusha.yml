@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The novel books servers are non-libre.
+    de: Die Novel Book Server sind nicht libre.
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: nanihadesuka
+SourceCode: https://github.com/nanihadesuka/NovelDokusha
+IssueTracker: https://github.com/nanihadesuka/NovelDokusha/issues
+Changelog: https://github.com/nanihadesuka/NovelDokusha/releases
+
+AutoName: NovelDokusha
+
+MaintainerNotes:
+  AppAdded: 2021-09-17
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss\.apk/i
+  ApkIgnore: /full\.apk/i
+  NameSpaces:
+    - /my/noveldoksuha
+  Status:
+    - 2022-07-16 size jumped from 4M to 50M+ and trackers where added; removed 1.7.0 and disabled updates (was github-release with v%v) – https://github.com/nanihadesuka/NovelDokusha/issues/53
+    - 2022-09-09 new foss flavor was added, size is back to 5M and trackers are gone so updates are re-enabled
+    - 2024-06-25 scanner reports usesCleartextTraffic DEPENDENCY_INFO_BLOCK android.permission.READ_EXTERNAL_STORAGE – https://github.com/nanihadesuka/NovelDokusha/issues/118
+    - 2025-10-06 Readme declares EOL, no further updates; UCM Tags=>None
+
+AllowedAPKSigningKeys: 113ed4e18b449a2ab017e7321ec2de834ff7ce88a6955e9faff404c53400a5b9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

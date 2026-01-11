@@ -1,0 +1,31 @@
+Categories:
+  - Navigation
+License: MIT
+AuthorName: Peter Storch
+AuthorEmail: kontakt@gaby-becker.de
+WebSite: https://railway-stations.org/
+SourceCode: https://codeberg.org/RailwayStations/RSAndroidApp
+IssueTracker: https://codeberg.org/RailwayStations/RSAndroidApp/issues
+Translation: https://crowdin.com/project/railwaystationsandroidapp
+Changelog: https://codeberg.org/RailwayStations/RSAndroidApp/releases
+Liberapay: Railway-Stations.org
+
+AutoName: Railway station photos
+
+MaintainerNotes:
+  AppAdded: 2025-03-30
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/RailwayStations/RSAndroidApp/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: to mark the location of the station
+    android.permission.ACCESS_FINE_LOCATION: to mark the location of the station
+  Status:
+    - 2025-05-11 android.permission.SYSTEM_ALERT_WINDOW – https://codeberg.org/RailwayStations/RSAndroidApp/issues/590
+
+AllowedAPKSigningKeys: 88352051351be1cc46a202f3a1b493e7a446a7f3f50fd22ebcd8657c358e9ef8
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

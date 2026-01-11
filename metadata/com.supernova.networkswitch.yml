@@ -1,0 +1,28 @@
+Categories:
+  - Internet
+  - System
+License: GPL-3.0-only
+AuthorName: Ameya Vijay Unchagaonkar
+AuthorEmail: ameya21unchagaonkar@gmail.com
+SourceCode: https://github.com/aunchagaonkar/NetworkSwitch
+IssueTracker: https://github.com/aunchagaonkar/NetworkSwitch/issues
+Changelog: https://github.com/aunchagaonkar/NetworkSwitch/releases
+
+AutoName: Network Switch
+
+RequiresRoot: false
+
+MaintainerNotes:
+  AppAdded: 2025-09-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/aunchagaonkar/NetworkSwitch/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-09-08 upstreaming our Fastlane via https://github.com/aunchagaonkar/NetworkSwitch/pull/2
+
+AllowedAPKSigningKeys: 0a7dd8e30ff8b9184e8b5df3f43fdc5055b4dc36544f100134e7102d4d825f3a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

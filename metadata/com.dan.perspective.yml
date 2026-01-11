@@ -1,0 +1,26 @@
+Categories:
+  - Graphics
+License: MIT
+AuthorName: Dan
+AuthorEmail: doprea@gmail.com
+SourceCode: https://github.com/danopdev/Perspective
+IssueTracker: https://github.com/danopdev/Perspective/issues
+Changelog: https://github.com/danopdev/Perspective/releases
+
+AutoName: Perspective
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-12-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/danopdev/Perspective/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshotsJPG
+  Note: our starter package
+  Status:
+    - 2024-12-10 last release/commit 6/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: a464db93edcd242985c462c4729dad27dc4ce40da5b47afe521dca8730e6ddfd
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

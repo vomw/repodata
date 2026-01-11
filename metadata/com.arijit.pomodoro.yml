@@ -1,0 +1,28 @@
+Categories:
+  - Time
+License: MIT
+AuthorName: Arijit
+AuthorEmail: royarijitaugust2005@gmail.com
+SourceCode: https://github.com/Arijit-05/Fomodoro
+IssueTracker: https://github.com/Arijit-05/Fomodoro/issues
+Changelog: https://github.com/Arijit-05/Fomodoro/releases
+
+AutoName: Fomodoro
+
+MaintainerNotes:
+  AppAdded: 2025-05-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Arijit-05/Fomodoro/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: to access music files to play in background for focusing
+  Status:
+    - 2025-05-25 android.permission.READ_EXTERNAL_STORAGE READ_MEDIA_AUDIO – https://github.com/Arijit-05/Fomodoro/issues/10
+    - 2025-06-06 versionCode not updated… again… https://github.com/Arijit-05/Fomodoro/issues/9
+
+AllowedAPKSigningKeys: 901e8d4a942e63768ab7889203404ace5003614c602ce455c17d16ea4659da68
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

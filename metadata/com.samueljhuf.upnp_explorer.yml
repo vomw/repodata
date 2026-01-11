@@ -1,0 +1,35 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Samuel Huff
+AuthorEmail: samueljhuff@gmail.com
+AuthorWebSite: https://www.samueljhuff.com/
+WebSite: https://www.samueljhuff.com/projects/upnp_explorer/
+SourceCode: https://github.com/huffSamuel/upnp_explorer
+IssueTracker: https://github.com/huffSamuel/upnp_explorer/issues
+Changelog: https://github.com/huffSamuel/upnp_explorer/blob/main/CHANGELOG.md
+
+AutoName: UPnP Explorer
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-06-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm_64/i
+  Fastlane: https://github.com/huffSamuel/upnp_explorer/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: our starter package
+  FlagIgnore:
+    usesCleartextTraffic: needed for plain http connections in the local network
+  Status:
+    - 2024-06-11 DEPENDENCY_INFO_BLOCK android.permission.READ_EXTERNAL_STORAGE* anti-features – https://github.com/huffSamuel/upnp_explorer/issues/103#issuecomment-2160012484
+    - 2024-06-18 anti-features, DEPENDENCY_INFO_BLOCK, storage permissions gone
+    - 2025-08-18 upstreaming our Fastlane via https://github.com/huffSamuel/upnp_explorer/pull/157
+    - 2025-08-28 versionCode decreased due to Flutter 3.32.0 bug; UCM Tags=>Static until solved – https://github.com/huffSamuel/upnp_explorer/issues/158
+    - 2025-08-30 versionCode fixed
+
+AllowedAPKSigningKeys: 336ed8596239b5638b9fc2818ee227e21fee52cdd0563e55a9ffd21e3b993e5c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

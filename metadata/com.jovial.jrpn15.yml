@@ -1,0 +1,28 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-or-later
+AuthorName: Bill Foote
+AuthorWebSite: https://bill.jovial.com/
+SourceCode: https://github.com/zathras/jrpn
+IssueTracker: https://github.com/zathras/jrpn/issues
+Changelog: https://github.com/zathras/jrpn/releases
+
+AutoName: JRPN 15C
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-04-01
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /jrpn15/i
+  Fastlane: https://github.com/zathras/jrpn/tree/main/jrpn15/android/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2024-03-23 signing key changed, UCM Tags => Static until solved – https://github.com/zathras/jrpn/issues/88
+    - 2024-04-20 solved by author providing the latest release signed with the original key
+
+AllowedAPKSigningKeys: 33973c67254b45cc504dfb28aa793b5ac3302e1119600809f177d80610b9f2f8
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

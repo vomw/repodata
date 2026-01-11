@@ -1,0 +1,33 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google ARCode.
+    de: Die App enthält Google ARCode Bibliotheken.
+  NonFreeDep:
+    en-US: The app requires Google Play Services for AR app to be present on-device.
+    de: Die App setzt das Vorhandensein der Google Play Services for AR App auf dem Gerät voraus.
+Categories:
+  - Navigation
+License: Apache-2.0
+AuthorName: Tobias Zwick
+AuthorEmail: newton@westnordost.de
+AuthorWebSite: https://www.westnordost.de/
+SourceCode: https://github.com/streetcomplete/StreetMeasure
+IssueTracker: https://github.com/streetcomplete/StreetMeasure/issues
+Changelog: https://github.com/streetcomplete/StreetMeasure/releases
+
+AutoName: StreetMeasure
+
+MaintainerNotes:
+  AppAdded: 2023-02-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/streetcomplete/StreetMeasure/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.CAMERA: required to get the object to measure
+
+AllowedAPKSigningKeys: ef236037ca641fcf49ba6e1bc5ca0230efe975090bac184dacba7a3404e85406
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

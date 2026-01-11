@@ -1,0 +1,23 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: tensorfoo
+AuthorEmail: tensorfoo@protonmail.com
+SourceCode: https://github.com/tensorfoo/milkha
+IssueTracker: https://github.com/tensorfoo/milkha
+
+AutoName: milkha
+
+MaintainerNotes:
+  AppAdded: 2020-06-20
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 6/2020)
+    - 2023-08-07 last release 6/2020, last commit 6/2020
+    - 2026-01-09 still no new commits, disabling update check entirely
+
+AllowedAPKSigningKeys: 855ab7960be33d60b63e1a1d27839371a672f92614cc7b75913addd0ca5cc71a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

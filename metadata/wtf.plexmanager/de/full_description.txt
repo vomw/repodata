@@ -1,0 +1,1 @@
+<p><i>Plex Manager</i> ist eine App, mit der Sie einen Blick auf alle Ihre <a href='https://de.wikipedia.org/wiki/Plex' target='_blank'>Plex Media Server</a> werfen und diese verwalten können. Die App basiert auf der Plex-API und sendet Anfragen an Ihren Server, um Informationen zur Anzeige zu erhalten oder Aufgaben auszuführen.</p>

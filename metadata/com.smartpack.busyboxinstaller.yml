@@ -1,0 +1,34 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: sunilpaulmathew
+AuthorEmail: smartpack.org@gmail.com
+AuthorWebSite: https://smartpack.github.io/
+WebSite: https://smartpack.github.io/bbi/
+SourceCode: https://github.com/SmartPack/BusyBox-Installer
+IssueTracker: https://github.com/SmartPack/BusyBox-Installer/issues
+Translation: https://poeditor.com/join/project?hash=JsnaHsMpUk
+Changelog: https://github.com/SmartPack/BusyBox-Installer/releases
+Donate: https://smartpack.github.io/donation/
+Liberapay: sunilpaulmathew
+
+AutoName: BusyBox Installer
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2021-03-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SmartPack/BusyBox-Installer/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic
+  FastlaneIgnore: screenshots
+  Note: Fastlane screenshots are needlessly framed
+  DoubleList: keep
+  DoubleListRef: https://github.com/SmartPack/BusyBox-Installer/issues/10#issuecomment-819783752
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 2/2022, last commit 6/2022)
+
+AllowedAPKSigningKeys: b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

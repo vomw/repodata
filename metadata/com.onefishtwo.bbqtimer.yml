@@ -1,0 +1,21 @@
+Categories:
+  - Time
+License: MIT
+AuthorName: Jerry Morrison
+SourceCode: https://github.com/1fish2/BBQTimer
+IssueTracker: https://github.com/1fish2/BBQTimer/issues
+Changelog: https://github.com/1fish2/BBQTimer/releases
+
+AutoName: BBQ Timer
+
+MaintainerNotes:
+  AppAdded: 2022-04-30
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/1fish2/BBQTimer/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 71571360b521f21c8608256e69a57068543f822788667634e6631a00ddeaccce
+
+AutoUpdateMode: Version release-%v
+UpdateCheckMode: Tags

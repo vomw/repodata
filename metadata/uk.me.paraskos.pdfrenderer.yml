@@ -1,0 +1,25 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: oparaskos
+SourceCode: https://codeberg.org/oparaskos/android-pdf2images
+IssueTracker: https://codeberg.org/oparaskos/android-pdf2images/issues
+Changelog: https://codeberg.org/oparaskos/android-pdf2images/releases
+
+AutoName: PDF to Images
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-02-27
+  Method: codeberg-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to write the output files
+    android.permission.READ_EXTERNAL_STORAGE: needed to read the input files
+  Status:
+    - 2025-03-23 last release/commit 2024-02-26; UCM Tags=>Static
+
+AllowedAPKSigningKeys: e2bf47c0b8f0771654a525c52a326d09fbde1b19f5e9c8b1ebb090e97ae591a6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

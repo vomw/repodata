@@ -1,0 +1,1 @@
+<p><b>NOTE:</b> This app is now unfortunately <a target='_blank' rel='nofollow' href='https://github.com/cgogolin/penandpdf/issues/9#issuecomment-515103661'>unmaintained</a>.</p><p><i>Pen&PDF</i> is a PDF viewer and annotation app for Android built on top of MuPDF. It intents to makes editing PDFs as easy as writing on a piece of paper.</p>

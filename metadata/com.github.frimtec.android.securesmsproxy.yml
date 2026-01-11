@@ -1,0 +1,30 @@
+Categories:
+  - Connectivity
+  - Messaging
+  - Phone & SMS
+License: Apache-2.0
+AuthorName: Markus Friedli
+AuthorEmail: frimtec@gmx.ch
+SourceCode: https://github.com/frimtec/secure-sms-proxy
+IssueTracker: https://github.com/frimtec/secure-sms-proxy/issues
+Changelog: https://github.com/frimtec/secure-sms-proxy/releases
+
+AutoName: S2MSP
+
+MaintainerNotes:
+  AppAdded: 2020-06-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/frimtec/secure-sms-proxy/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  Note: Fastlane is based on our starter package
+  NameSpaces:
+    - /com/github/frimtec/android
+  PermIgnore:
+    android.permission.RECEIVE_SMS: This app serves as SMS proxy, so it needs to receive incoming SMS.
+    android.permission.SEND_SMS: This app serves as SMS proxy, so it needs to send SMS it received.
+
+AllowedAPKSigningKeys: 2db0f34f375d7683e72fea3ddbf0561c79b5e6b9b0a315c10d6f1d5979be00dc
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

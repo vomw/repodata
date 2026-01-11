@@ -1,0 +1,1 @@
+<p><i>Focus Launcher</i> is a minimalist Android Launcher.</p><p><b>Features:</b></p><ul><li>Dark mode</li><li>Lunar Phase info</li><li>Fancy animated Clock</li><li>Favorite apps</li><li>Hide apps</li></ul>

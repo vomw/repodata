@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+  NonFreeNet:
+    en-US: The app connects to Google servers (Maps; can be disabled).
+    de: Die App nutzt Verbindungen zu Google Servern (Maps; kann deaktiviert werden).
+Categories:
+  - Graphics
+License: BSD-3-Clause
+AuthorName: Thibault Deckers
+SourceCode: https://github.com/deckerst/aves
+IssueTracker: https://github.com/deckerst/aves/issues
+Donate: https://paypal.me/ThibaultDeckers
+
+AutoName: Aves Gallery
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-11-08
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /izzy-arm64-v8a/i
+  ApkIgnore: /app-play/i
+  Fastlane: https://github.com/deckerst/aves/tree/develop/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,featureGraphic,screenshotsJPG,icon
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: needed to access the image for your gallery to show them
+    android.permission.READ_MEDIA_VIDEO: needed to access the videos for your gallery to show them
+    android.permission.ACCESS_MEDIA_LOCATION: needed to update location info in photos and to show them on a map
+    android.permission.READ_EXTERNAL_STORAGE: needed to access media on older Android versions
+
+AllowedAPKSigningKeys: f4794727e45416d87c487138292b709f11d1cd7dab5584d8c6857d92e066604b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,1 @@
+<p><i>num++</i> lets you type math expression intuitively and evaluate it automatically. It supports basically all kinds of math function you will need.</p><p><b>Features:</b></p><ul><li>Completely offline calculator</li><li>Intuitive operation</li><li>Calculate result instantly</li><li>No redundant feature</li></ul>

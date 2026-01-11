@@ -1,0 +1,24 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Valentin
+SourceCode: https://github.com/v4lpt/PWG
+IssueTracker: https://github.com/v4lpt/PWG/issues
+Changelog: https://github.com/v4lpt/PWG/releases
+
+AutoName: VPT#002-PWG
+
+MaintainerNotes:
+  AppAdded: 2024-08-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/v4lpt/PWG/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneIgnore: title
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/587
+
+AllowedAPKSigningKeys: 82424b6cc09e5d3505ca7b4cd11cf401e2e7998582761b00aaec80c96623b3ae
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

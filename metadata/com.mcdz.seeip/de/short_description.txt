@@ -1,0 +1,1 @@
+QuickSettings-Kachel, die Deine lokale und öffentliche IP Adresse anzeigt

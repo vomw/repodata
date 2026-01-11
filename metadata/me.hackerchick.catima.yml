@@ -1,0 +1,28 @@
+Categories:
+  - Money
+License: GPL-3.0-or-later
+AuthorName: Sylvia van Os
+SourceCode: https://github.com/CatimaLoyalty/Android
+IssueTracker: https://github.com/CatimaLoyalty/Android/issues
+Translation: https://hosted.weblate.org/projects/catima/catima/
+Changelog: https://github.com/CatimaLoyalty/Android/blob/HEAD/CHANGELOG.md
+AutoName: Catima
+
+MaintainerNotes:
+  AppAdded: 2020-11-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CatimaLoyalty/Android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  PermIgnore:
+    android.permission.CAMERA: needed to scan Barcodes
+    android.permission.READ_EXTERNAL_STORAGE: needed on Android 6 and below to create or import backups. You can safely deny this permission, but then you’ll not be able to create or import backups
+  DoubleList: keep
+  DoubleListRef: https://github.com/CatimaLoyalty/Android/issues/82#issuecomment-730407962
+  NameSpaces:
+    - /protect/card_locker
+
+AllowedAPKSigningKeys: d405cd69ede4c22074c328fb825689a84ab3fca4b3fdf0b6cc1333af62c67eb3
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

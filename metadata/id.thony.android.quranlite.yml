@@ -1,0 +1,31 @@
+Categories:
+  - Religion
+  - Science & Education
+License: MIT
+AuthorName: Fathony Teguh Irawan
+SourceCode: https://github.com/fathonyfath/quran-lite-android
+IssueTracker: https://github.com/fathonyfath/quran-lite-android/issues
+
+AutoName: Qur’an Lite
+
+MaintainerNotes:
+  AppAdded: 2020-08-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/fathonyfath/quran-lite-android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is currently only in tree/release/v1.x/fastlane (URL above adjusted for local processing)
+  Status:
+    - 2020-09-19 app was not updated for 1y 0m 12d; switching UCM from Tags to Static
+    - 2021-10-25 was updated again but changed package name from id.fathonyfath.quranlite to id.thony.android.quranlite
+    - 2023-08-08 last release 10/2021, last commit 8/2022
+    - 2024-01-08 uses debug certificate https://github.com/fathonyfath/quran-lite-android/issues/5
+    - 2024-03-28 fixed
+    - 2025-06-27 last release 2024-03-28; UCM Tags=>Static
+    - 2025-10-04 upstreaming our fastlane metadata via https://github.com/fathonyfath/quran-lite-android/pull/9
+    - 2025-11-13 a single new release in 9/2025, leaving UCM at Static
+  X-AutoUpdateMode: Version v%v – versionName has a long suffix incl. commit hash and date
+
+AllowedAPKSigningKeys: 3fc6785e6206609df56faf301a502b539f610bbcd136a6e203bf5c4a87059554
+
+UpdateCheckMode: Static

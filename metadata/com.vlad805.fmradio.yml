@@ -1,0 +1,34 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Vladislav Veluga
+AuthorEmail: vlad@velu.ga
+AuthorWebSite: https://velu.ga/
+WebSite: https://rfm.velu.ga/
+SourceCode: https://github.com/vladislav805/RFM-Radio
+IssueTracker: https://github.com/vladislav805/RFM-Radio/issues
+Changelog: https://github.com/vladislav805/RFM-Radio/releases
+
+AutoName: RFM Radio
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2021-06-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/vladislav805/RFM-Radio/tree/dev/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphicJPG,screenshotsJPG
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed to read radio sound (no kidding)
+    android.permission.READ_EXTERNAL_STORAGE: to read configs and recordings
+    android.permission.WRITE_EXTERNAL_STORAGE: to write configs and recordings so they can be accessed outside the app
+    android.permission.READ_PHONE_STATE: used to turning off the radio on incoming calls
+  X-AutoUpdateMode: Version v%v no match; tag name omits last level if zero (0.5.0 => v0.5)
+  Status:
+    - 2021-07-09 removed NonFreeNet, see https://github.com/vladislav805/RFM-Radio/issues/68#issuecomment-874795224
+    - 2022-11-07 no release since 8/2021, last code commit 8/2021; switch from Tags to Static
+    - 2025-04-01 DEPENDENCY_INFO_BLOCK RECORD_AUDIO READ_EXTERNAL_STORAGE READ_PHONE_STATE – https://github.com/vladislav805/RFM-Radio/issues/85
+
+AllowedAPKSigningKeys: a0c304bf951eab94e3bca7771c0e611c05b4a93fa35e9c848db483d3d266cbbe
+
+UpdateCheckMode: Static

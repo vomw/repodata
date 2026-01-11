@@ -1,0 +1,25 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Nethical
+AuthorEmail: aguptaq88@gmail.com
+SourceCode: https://github.com/nethical6/LockLock
+IssueTracker: https://github.com/nethical6/LockLock/issues
+
+AutoName: LockLock
+
+MaintainerNotes:
+  AppAdded: 2025-08-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nethical6/LockLock/blob/2.0/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: required to monitor and block locked apps without root
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list installed apps for locking
+
+AllowedAPKSigningKeys: c35601755756ecd887cf3f154d45a5b87c8dd19b6a044d411a7739e2b88c2de9
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

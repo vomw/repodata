@@ -1,0 +1,29 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-07-30, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-07-30 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Development
+License: Apache-2.0
+AuthorName: Roy Solberg
+AuthorWebSite: https://roysolberg.com/
+SourceCode: https://github.com/roys/java-android-developertools
+IssueTracker: https://github.com/roys/java-android-developertools/issues
+Changelog: https://github.com/roys/java-android-developertools/blob/master/app/src/main/assets/CHANGELOG.txt
+
+AutoName: Developer Tools
+
+MaintainerNotes:
+  AppAdded: 2022-10-18
+  Method: github-repo
+  GHSkipPre: 1
+  GHDownloadDir: https://github.com/roys/java-android-developertools/tree/master/misc/release
+  Status:
+    - 2022-12-11 set to Static as no new APKs since 9/2020
+    - 2023-08-07 last release 7/2023, last commit 7/2023, alive again?
+    - 2024-10-23 reported as still working, see https://gitlab.com/IzzyOnDroid/repo/-/issues/617
+    - 2025-07-17 repo was archived 2024-07-30, disabling updates
+
+AllowedAPKSigningKeys: 93b91ac8f4db98bb4248bb85f688b64bb7cb56741f415f8da7ce3e7315b129b3
+
+UpdateCheckMode: None

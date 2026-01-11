@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Sentaroh
+AuthorEmail: gm.developer.fhoshino@gmail.com
+SourceCode: https://github.com/Sentaroh/SMBSync2
+IssueTracker: https://github.com/Sentaroh/SMBSync2/issues
+
+AutoName: SMBSync2
+
+MaintainerNotes:
+  AppAdded: 2020-11-09
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-11-07 no release since 6/2021, last commit 6/2021; switch from Tags to Static
+    - 2026-01-09 still no new commits, disabling update check entirely
+
+AllowedAPKSigningKeys: efd088be9b41cad9f736029cf2cb3a6aa789c5852f5ac2cf9853852b5f8330fb
+
+AutoUpdateMode: Version Ver%v
+UpdateCheckMode: None

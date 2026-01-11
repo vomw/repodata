@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on Youtube.
+    de: Die App hängt von Youtube ab.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Malopieds
+SourceCode: https://github.com/Malopieds/InnerTune
+IssueTracker: https://github.com/Malopieds/InnerTune/issues
+Changelog: https://github.com/Malopieds/InnerTune/releases
+
+AutoName: InnerTune
+
+MaintainerNotes:
+  AppAdded: 2024-07-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Malopieds/InnerTune/tree/dev/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /com/malopieds/innertube
+    - /com/malopieds/kugou
+    - /com/malopieds/lrclib
+    - /com/my/kizzy
+  Status:
+    - 2024-07-08 4 hits at VT – https://github.com/Malopieds/InnerTune/issues/128#issuecomment-2213175302
+
+AllowedAPKSigningKeys: d667caf7d9759bf6298a9382692647a1d8fe07e819dd9534143d6f286ac45cc2
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

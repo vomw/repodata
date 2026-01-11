@@ -1,0 +1,1 @@
+<p>This is an updated version of <a href='https://github.com/lparam/xSocks-android' target='_blank' rel='nofollow'>SocksDroid</a> (a client for <a href='https://github.com/lparam/xSocks' target='_blank' rel='_nofollow'>xSocks</a>) by PeterCxy to support modern Android devices.</p>

@@ -1,0 +1,1 @@
+Überwachung der von PWS (Persönliche Wetterstation) generierten Daten

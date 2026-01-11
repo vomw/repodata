@@ -1,0 +1,25 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: krlvm
+SourceCode: https://github.com/krlvm/PowerTunnel-Android
+IssueTracker: https://github.com/krlvm/PowerTunnel-Android/issues
+Changelog: https://github.com/krlvm/PowerTunnel-Android/releases
+AutoName: PowerTunnel
+
+MaintainerNotes:
+  AppAdded: 2020-12-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/krlvm/PowerTunnel-Android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: changelogs,icon,featureGraphicJPG,screenshotsJPG
+  FastlaneIgnore: shortdesc,fulldesc,title
+  Note: Fastlane shortdesc la-la, fulldesc just a one-liner; continuation of ru.krlvm.powertunnel.android
+  NameSpaces:
+    - /io/github/krlvm/powertunnel
+  Status:
+    - 2024-02-22 last release 8/2022, last commit 4/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: a51fec9deea6ebfc36d2062e6a6739776f826a4dcf6d581bc3a2a783de6db8a9
+
+UpdateCheckMode: Static

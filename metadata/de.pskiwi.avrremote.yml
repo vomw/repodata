@@ -1,0 +1,23 @@
+Categories:
+  - Connectivity
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Andreas Pillath
+SourceCode: https://github.com/pskiwi/avr-remote
+IssueTracker: https://github.com/pskiwi/avr-remote/issues
+Changelog: https://github.com/pskiwi/avr-remote/releases
+AutoName: AVR-Remote
+
+MaintainerNotes:
+  AppAdded: 2020-11-30
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-12-07 switching UCM from Tags to Static (last release was 11/2020)
+    - 2023-08-08 last release 11/2020, last commit 3/2021
+    - 2026-01-10 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: bd8ff2a82207dc90c88ef7ceb79c1f8c6313f6632a3bfa294c9f29de2387b450
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

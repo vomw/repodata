@@ -1,0 +1,22 @@
+Categories:
+  - Writing
+License: MIT
+AuthorName: Fertion
+SourceCode: https://github.com/Fertion/QuickMDCapture
+IssueTracker: https://github.com/Fertion/QuickMDCapture/issues
+Changelog: https://github.com/Fertion/QuickMDCapture/releases
+
+AutoName: QuickMDCapture
+
+MaintainerNotes:
+  AppAdded: 2024-10-08
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.RECORD_AUDIO: used for voice input of notes
+    android.permission.SYSTEM_ALERT_WINDOW: used to display a dialog over the lock screen when adding notes without unlocking the device
+
+AllowedAPKSigningKeys: dce76c1511d05fe6a58db8aa663afa9fe8c1c5bdbce175bdb09e17bd419a74fd
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

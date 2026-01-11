@@ -1,0 +1,23 @@
+Categories:
+  - Connectivity
+  - Office
+License: GPL-3.0-only
+AuthorName: NaitLee
+AuthorWebSite: https://naitlee.github.io/
+SourceCode: https://github.com/NaitLee/Cat-Printer
+IssueTracker: https://github.com/NaitLee/Cat-Printer/issues
+Changelog: https://github.com/NaitLee/Cat-Printer/releases
+
+AutoName: Cat Printer
+
+MaintainerNotes:
+  AppAdded: 2022-05-02
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release 4/2023, last commit 5/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 0515a90f6eaee0f02b94553ffb3c5c23a44e65a96510b383598b857f5349c205
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

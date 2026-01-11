@@ -1,0 +1,34 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: CraigD
+AuthorEmail: darkempirepro@gmail.com
+SourceCode: https://github.com/CDrummond/lms-material-app
+IssueTracker: https://github.com/CDrummond/lms-material-app/issues
+Changelog: https://github.com/CDrummond/lms-material-app/releases
+Donate: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2X2CTDUH27V9L&source=url
+
+AutoName: Lyrion
+
+MaintainerNotes:
+  AppAdded: 2020-08-22
+  AppRemoved: 2021-11-20 reached F-Droid
+  AddedBack: 2025-03-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CDrummond/lms-material-app/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  FlagIgnore:
+    usesCleartextTraffic: needed to connect to local LMS instances
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: used to store album art next to the music files
+    android.permission.MANAGE_EXTERNAL_STORAGE: used to store album art next to the music files
+    android.permission.READ_PHONE_STATE: used to detect incoming phone calls and stop playback
+  Status:
+    - 2025-06-22 DEPENDENCY_INFO_BLOCK usesCleartextTraffic READ_PHONE_STATE READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE – https://github.com/CDrummond/lms-material-app/issues/47
+
+AllowedAPKSigningKeys: 92e1b61064b186c4d8a22df31d571b8daca95f456d08ef4d47b4175b0c0f2fad
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

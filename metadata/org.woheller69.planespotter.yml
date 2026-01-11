@@ -1,0 +1,28 @@
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Wolfgang Heller
+AuthorEmail: woheller69@t-online.de
+SourceCode: https://github.com/woheller69/planeSpotter
+IssueTracker: https://github.com/woheller69/planeSpotter/issues
+Changelog: https://github.com/woheller69/planeSpotter/releases
+Donate: https://www.paypal.com/donate?hosted_button_id=XVXQ54LBLZ4AA
+
+AutoName: PlaneSpotter
+
+MaintainerNotes:
+  AppAdded: 2026-01-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/woheller69/planeSpotter/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /org/woheller69/lavatories
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: to show planes around the device location
+    android.permission.ACCESS_COARSE_LOCATION: to show planes around the device location
+
+AllowedAPKSigningKeys: ed934ec71b86a372bc2e5d9f9efdfbb52a11b897c000bae6a33ac59f7988c6b5
+
+AutoUpdateMode: Version V%v
+UpdateCheckMode: Tags

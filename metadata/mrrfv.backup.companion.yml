@@ -1,0 +1,41 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: mrrfv
+AuthorWebSite: https://mrrfv.github.io/
+WebSite: https://www.openandroidbackup.me/
+SourceCode: https://github.com/mrrfv/open-android-backup
+IssueTracker: https://github.com/mrrfv/open-android-backup/issues
+Changelog: https://github.com/mrrfv/open-android-backup/releases
+
+AutoName: Linux Android Backup Companion
+
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-01-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/mrrfv/open-android-backup/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.READ_CONTACTS: Needed to backup contacts.
+    android.permission.WRITE_CONTACTS: Needed to restore contacts from backups.
+    android.permission.READ_EXTERNAL_STORAGE: Needed on Android versions lower than 6 to access backups on the device.
+    android.permission.MANAGE_EXTERNAL_STORAGE: Needed to backup/restore files on newer Android versions.
+    android.permission.READ_SMS: Needed to export SMS/MMS.
+    android.permission.READ_CALL_LOG: Needed to export call logs.
+    android.permission.WRITE_CALL_LOG: Needed to restore call logs from backups.
+  Status:
+    - 2023-07-25 rebranded from com.example.companion_app
+    - 2023-09-15 versionCode decreased again – and signing key changed!!! https://github.com/mrrfv/open-android-backup/issues/49#issuecomment-1721702463
+    - 2023-09-15 both keys are even debug keys, ouch! Setting UCM Tags => Static until solved and removing the offending APK.
+    - 2023-10-02 re-enable updates, key validated via DNS
+    - 2024-01-20 scanner reported READ_PHONE_STATE – https://github.com/mrrfv/open-android-backup/issues/101
+    - 2025-01-26 added DEPENDENCY_INFO_BLOCK to the issue
+    - 2025-08-22 upstreaming our local Fastlane metadata via https://github.com/mrrfv/open-android-backup/pull/145
+
+AllowedAPKSigningKeys: bf78b5fd1639014e5fb7ed7d243cb028ffed221198184119f87a5880a8ad0c29
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

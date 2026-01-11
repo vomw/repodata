@@ -1,0 +1,29 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Chung Nguyen Thanh
+AuthorEmail: chunhthanhde.dev@gmail.com
+AuthorWebSite: https://chunhthanhde.github.io/
+SourceCode: https://github.com/TV-Box-Support/Recording-Webcam
+IssueTracker: https://github.com/TV-Box-Support/Recording-Webcam/issues
+Changelog: https://github.com/TV-Box-Support/Recording-Webcam/releases
+
+AutoName: Recording WebCam
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-04-06
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.CAMERA: needed by a camera app to access the camera
+    android.permission.RECORD_AUDIO: needed to capture audio as well with a video recording
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to save recordings
+    android.permission.READ_EXTERNAL_STORAGE: needed to access recordings for review and sharing
+  Status:
+    - 2025-03-23 last release/code-commit 2024-02-21; UCM Tags=>Static
+
+AllowedAPKSigningKeys: b7aa3fcd6dc23bb27cfa2512f286312ec14a963dfc2e489f489f7e2b4893780c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

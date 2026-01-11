@@ -1,0 +1,45 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Anjishnu Nandi
+AuthorWebSite: https://anjishnunandi.vercel.app/
+WebSite: https://rhythmweb.vercel.app/
+SourceCode: https://github.com/cromaguy/Rhythm
+IssueTracker: https://github.com/cromaguy/Rhythm/issues
+Changelog: https://github.com/cromaguy/Rhythm/releases
+
+AutoName: Rhythm
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-06-30
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/cromaguy/Rhythm/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.BLUETOOTH: for Bluetooth device integration
+    android.permission.BLUETOOTH_ADMIN: for Bluetooth device integration
+    android.permission.BLUETOOTH_CONNECT: for Bluetooth device integration
+    android.permission.BLUETOOTH_SCAN: for Bluetooth device integration
+    android.permission.ACCESS_NETWORK_STATE: for network connectivity checks
+    android.permission.INTERNET: 'for online features: lyrics, updates'
+    android.permission.READ_EXTERNAL_STORAGE: to access media files on Android 12 and below
+    android.permission.READ_MEDIA_AUDIO: to access audio files to play on Android 13+
+    android.permission.READ_MEDIA_IMAGES: to show album art stored next to the audio files on Android 13+
+    android.permission.FOREGROUND_SERVICE: to allow the app to satay active in background
+    android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK: to continue playback with the app in background
+    android.permission.REQUEST_INSTALL_PACKAGES: for the integrated self-updater
+    android.permission.POST_NOTIFICATIONS: to show playback controls and update notifications
+    android.permission.MODIFY_AUDIO_SETTINGS: to control audio output and routing
+  Status:
+    - 2025-06-30 usesCleartextTraffic READ_EXTERNAL_STORAGE android.permission.WRITE_EXTERNAL_STORAGE BLUETOOTH_SCAN – https://github.com/cromaguy/Rhythm/issues/1#issuecomment-3019253273 (self-updater addressed)
+    - 2025-10-07 usesCleartextTraffic android.permission.MANAGE_EXTERNAL_STORAGE android.permission.ACCESS_MEDIA_LOCATION – https://github.com/cromaguy/Rhythm/issues/1#issuecomment-3378096312
+    - 2025-12-21 v3.8.292.815 introduced Google Cast, FCM, GMS & Co; rolled back that update, UCM Tags=>Static until clarified; see https://github.com/cromaguy/Rhythm/issues/149
+    - 2025-12-23 solved (were remains from a test forgotten to clean up)
+
+AllowedAPKSigningKeys: cb9045124f6f7066c70f3b85c2bcfb75cc2293bb1b4ba1c3ec40e223a5cc6a35
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,32 @@
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: Vishnu Sanal. T
+SourceCode: https://github.com/VishnuSanal/Quotes
+IssueTracker: https://github.com/VishnuSanal/Quotes/issues
+Changelog: https://github.com/VishnuSanal/Quotes/releases
+Donate: https://www.buymeacoffee.com/VishnuSanal
+
+AutoName: Quotes – Quotes Status Creator
+
+MaintainerNotes:
+  AppAdded: 2021-08-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/VishnuSanal/Quotes/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  LibIgnore:
+    - /org/acra
+  Status:
+    - 2022-04-20 no longer skipping pre-releases on author’s demand, see https://github.com/VishnuSanal/Quotes/discussions/113#discussioncomment-2599333
+    - 2022-07-28 asked whether ACRA is set to be opt-in https://github.com/VishnuSanal/Quotes/issues/75
+    - 2022-07-30 as Vishnu did not yet answer, checking the code seems calls to the report activity are only happen from two places, both initialized by the user pressing a button https://github.com/VishnuSanal/Quotes/search?q=generatereport
+    - 2023-07-13 UCM Tags => Static (last release 3/2022, last commit 3/2023)
+    - 2023-08-30 UCM Static => Tags, see https://github.com/VishnuSanal/Quotes/issues/114#issuecomment-1698643902
+    - 2024-02-02 asked if pre-releases should still be picked up, see https://github.com/VishnuSanal/Quotes/discussions/113#discussioncomment-8350921 – answer is we can skip them now. Switched them off now.
+    - 2024-08-02 scanner reports DEPENDENCY_INFO_BLOCK android.permission.READ_EXTERNAL_STORAGE* – https://github.com/VishnuSanal/Quotes/issues/133
+
+AllowedAPKSigningKeys: e1759cac0b49fea60a799713808ac7c9ef9d2e2a7e5006f2c675c3e8ac2d02ef
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

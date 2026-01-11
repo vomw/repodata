@@ -1,0 +1,27 @@
+Categories:
+  - Security
+  - Xposed
+License: AGPL-3.0-only
+AuthorName: Leohearts
+AuthorEmail: leohearts@leohearts.com
+AuthorWebSite: https://leohearts.com/
+SourceCode: https://github.com/leohearts/AlternativeUnlockXposed
+IssueTracker: https://github.com/leohearts/AlternativeUnlockXposed/issues
+Changelog: https://github.com/leohearts/AlternativeUnlockXposed/releases
+
+AutoName: AlternativeUnlockXposed
+ArchivePolicy: 1
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2024-02-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/leohearts/AlternativeUnlockXposed/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: 9044f7816d4151f3323ced1a0ebe3fb84b6aaf10f43bbb05c2d7bb865fbbf85d
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

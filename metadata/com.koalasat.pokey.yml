@@ -1,0 +1,31 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: KoalaSat
+AuthorEmail: github@koalasat.xyz
+AuthorWebSite: https://njump.me/npub1v3tgrwwsv7c6xckyhm5dmluc05jxd4yeqhpxew87chn0kua0tjzqc6yvjh
+WebSite: https://njump.me/npub1h2685kkxa4q50qpexuae9geqep7frr0u8t8pcy9zj0xnza9phvtsnkd9tm
+SourceCode: https://github.com/KoalaSat/pokey
+IssueTracker: https://github.com/KoalaSat/pokey/issues
+Changelog: https://github.com/KoalaSat/pokey/releases
+
+AutoName: Pokey
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-05-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /universal/i
+  ApkIgnore: /(arm64|armeabi)/i
+  Fastlane: https://github.com/KoalaSat/pokey/tree/main/fastlane/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /ForkedFromAmethsyst
+    - /com/vitorpamplona/ammolite
+    - /com/vitorpamplona/quartz
+
+AllowedAPKSigningKeys: d51d9e3ec1efb328092dce8bbc3e3e1ef444fc19af8dd85fea976e9581856005
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,31 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-11-22, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-11-22 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: Foxtear Games
+AuthorEmail: contact@foxteargames.eu
+AuthorWebSite: https://foxteargames.eu/
+SourceCode: https://github.com/LimoDerEchte/NoteCompanion
+IssueTracker: https://github.com/LimoDerEchte/NoteCompanion/issues
+Changelog: https://github.com/LimoDerEchte/NoteCompanion/releases
+
+AutoName: Note Companion
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-03-14
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: to insert images from storage into notes
+  Status:
+    - 2024-11-22 repo was archived 2024-10-11; UCM Tags=>None
+    - 2025-11-13 [reported still working](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/14)
+
+AllowedAPKSigningKeys: 7839896b8bcfd234ade82ebad57be01aab74620da1e173e2fc4e0aaab29034fc
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

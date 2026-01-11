@@ -1,0 +1,37 @@
+Categories:
+  - Connectivity
+License: AGPL-3.0-only
+AuthorName: HopToDesk
+AuthorWebSite: https://www.hoptodesk.com/
+WebSite: https://www.hoptodesk.com/
+SourceCode: https://gitlab.com/hoptodesk/hoptodesk
+IssueTracker: https://gitlab.com/hoptodesk/hoptodesk/-/issues
+
+AutoName: HopToDesk
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-09-29
+  X-Method: direct-link
+  Method: gitlab-tags
+  GHSkipPre: 1
+  X-ApkUrl: https://www.hoptodesk.com/hoptodesk.apk
+  Fastlane: https://gitlab.com/hoptodesk/hoptodesk/-/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane was our starter package
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: needed for remote control with a mouse/touch device, see app description
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: used to allow file transfers to/from the Android device to the remote device
+    android.permission.READ_EXTERNAL_STORAGE: used to allow file transfers to/from the Android device to the remote device
+    android.permission.RECORD_AUDIO: used to record audio from the Android device to the remote device
+    android.permission.SYSTEM_ALERT_WINDOW: used to capture the Android device‘s screen and send that to the remote device
+    android.permission.RECEIVE_BOOT_COMPLETED: for service auto-start and for handling notification from the device that the device has booted successfully
+  Status:
+    - 2024-04-20 scanner reports DEPENDENCY_INFO_BLOCK MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE RECORD_AUDIO SYSTEM_ALERT_WINDOW android.permission.CAMERA – https://gitlab.com/hoptodesk/hoptodesk/-/issues/58
+    - 2025-03-31 fastlane broken, see https://gitlab.com/hoptodesk/hoptodesk/-/issues/81
+
+AllowedAPKSigningKeys: 0946d0d8ef99234a2031f4bfde08b6190c93eff23a541cd3dd934798e079b009
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

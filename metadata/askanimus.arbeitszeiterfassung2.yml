@@ -1,0 +1,26 @@
+Categories:
+  - Time
+License: GPL-3.0-or-later
+AuthorName: Askanimus
+SourceCode: https://gitlab.com/Askanimus/arbeitszeitkonto
+IssueTracker: https://gitlab.com/Askanimus/arbeitszeitkonto/-/issues
+
+AutoName: Arbeitszeitkonto
+
+MaintainerNotes:
+  AppAdded: 2025-01-27
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/Askanimus/arbeitszeitkonto/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /com/pdfjet
+  PermIgnore:
+    android.permission.WRITE_EXTERNAL_STORAGE: used for the backup functionality
+    android.permission.READ_EXTERNAL_STORAGE: used for the backup functionality
+
+AllowedAPKSigningKeys: ee6c8949703d230e4ee54e7dd3b938e891eb7c7821f86e83f22fbc8175be2483
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

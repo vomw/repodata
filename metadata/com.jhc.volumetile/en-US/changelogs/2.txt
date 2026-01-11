@@ -1,0 +1,1 @@
+signing key changed, so to update from a version before 1.1 you need to uninstall and reinstall the app.

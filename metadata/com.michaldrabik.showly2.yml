@@ -1,0 +1,55 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses connections to Trakt.tv and TMDB.
+    de: Die App nutzt Verbindungen zu Trakt.tv und TMDB.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Michal Drabik
+AuthorEmail: showlyapp@gmail.com
+WebSite: http://showlyapp.com
+SourceCode: https://github.com/michaldrabik/showly
+IssueTracker: https://github.com/michaldrabik/showly/issues
+Translation: https://crwd.in/showly-android-app
+Changelog: https://github.com/michaldrabik/showly/releases
+Donate: https://www.buymeacoffee.com/showly
+
+AutoName: 'Showly: Track Shows &amp; Movies'
+
+MaintainerNotes:
+  AppAdded: 2024-09-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/michaldrabik/showly/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/michaldrabik/data_local
+    - /com/michaldrabik/data_remote
+    - /com/michaldrabik/ui_backup
+    - /com/michaldrabik/ui_base
+    - /com/michaldrabik/ui_comments
+    - /com/michaldrabik/ui_discover
+    - /com/michaldrabik/ui_discover_movies
+    - /com/michaldrabik/ui_episodes
+    - /com/michaldrabik/ui_gallery
+    - /com/michaldrabik/ui_lists
+    - /com/michaldrabik/ui_movie
+    - /com/michaldrabik/ui_my_movies
+    - /com/michaldrabik/ui_my_shows
+    - /com/michaldrabik/ui_people
+    - /com/michaldrabik/ui_premium
+    - /com/michaldrabik/ui_progress
+    - /com/michaldrabik/ui_progress_movies
+    - /com/michaldrabik/ui_search
+    - /com/michaldrabik/ui_settings
+    - /com/michaldrabik/ui_show
+    - /com/michaldrabik/ui_statistics
+    - /com/michaldrabik/ui_statistics_movies
+    - /com/michaldrabik/ui_trakt_sync
+    - /com/michaldrabik/ui_widgets
+
+AllowedAPKSigningKeys: 2fe87c92b19646c7955d36e3b0f98b3d93d725bffa829208874899e8795258d4
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

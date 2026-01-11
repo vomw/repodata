@@ -1,0 +1,26 @@
+Categories:
+  - Navigation
+License: Apache-2.0
+AuthorName: Mike Klimek
+AuthorEmail: mike.klimek.developer@gmail.com
+AuthorWebSite: https://mike.cloud/
+SourceCode: https://github.com/Tetr4/CompassTile
+IssueTracker: https://github.com/Tetr4/CompassTile/issues
+
+AutoName: Compass Tile
+
+MaintainerNotes:
+  AppAdded: 2024-06-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Tetr4/CompassTile/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-06-27 last commit/release 2024-09-03/2024-06-09; UCM Tags=>Static
+    - 2025-10-02 upstreaming our Fastlane metadata via https://github.com/Tetr4/CompassTile/pull/6
+
+AllowedAPKSigningKeys: 4c58b35863d6fcfed73ab69721bc7af52289619c27af6e2d6bd622911eafc270
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

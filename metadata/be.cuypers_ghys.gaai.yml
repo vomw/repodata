@@ -1,0 +1,34 @@
+Categories:
+  - Connectivity
+License: AGPL-3.0-only
+AuthorName: Frank HJ Cuypers
+AuthorEmail: frank@cuypers-ghys.be
+WebSite: https://frankhjcuypers.github.io/gaai/
+SourceCode: https://github.com/FrankHJCuypers/gaai
+IssueTracker: https://github.com/FrankHJCuypers/gaai/issues
+Changelog: https://github.com/FrankHJCuypers/gaai/releases
+
+AutoName: Gaai
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-09-29
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /release\.apk/i
+  ApkIgnore: /firebase/i
+  Fastlane: https://github.com/FrankHJCuypers/gaai/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: required on Android < 12 to access Bluetooth devices
+    android.permission.ACCESS_FINE_LOCATION: required on Android < 12 to access Bluetooth devices
+    android.permission.BLUETOOTH_SCAN: required on Android 12+ to access Bluetooth devices
+  Status:
+    - 2025-12-12 v1.1.0 added a load of proprietary components, so it had to be rolled back; UCM Tags=>Static until solved; see https://github.com/FrankHJCuypers/gaai/issues/46
+    - 2025-12-29 solved (separate build now), UCM back to Tags
+
+AllowedAPKSigningKeys: 0ffedbf7fbc6417ebd87baff859bd4717278c0457c5eb32b37563ef88a6723d4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

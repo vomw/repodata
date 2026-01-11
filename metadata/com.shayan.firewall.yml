@@ -1,0 +1,28 @@
+Categories:
+  - Internet
+  - Security
+License: MIT
+AuthorName: Shayan
+AuthorEmail: shynoid.dev.contact@gmail.com
+SourceCode: https://github.com/shynoiddev/FireWall-Blocks
+IssueTracker: https://github.com/shynoiddev/FireWall-Blocks/issues
+Changelog: https://github.com/shynoiddev/FireWall-Blocks/releases
+
+AutoName: FireWall Blocks
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-12-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/shynoiddev/FireWall-Blocks/blob/v1.4.1.shynoid/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  IntentFilterIgnore:
+    android.net.VpnService: needed for rootless operation
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to allow app specific rules
+
+AllowedAPKSigningKeys: e2511eca05e29878980e8fd8adc6bfe346019fced7a5109b4f521babbaa25ce3
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

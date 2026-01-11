@@ -1,0 +1,34 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Soulseek.net.
+    de: Die App baut Verbindungen zu Soulseek.net auf.
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: jackBonadies
+AuthorEmail: jbonadies6@gmail.com
+SourceCode: https://github.com/jackBonadies/SeekerAndroid
+IssueTracker: https://github.com/jackBonadies/SeekerAndroid/issues
+Changelog: https://github.com/jackBonadies/SeekerAndroid/releases
+
+AutoName: Seeker
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-10-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/jackBonadies/SeekerAndroid/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed on newer Android versions to access local files
+    android.permission.READ_MEDIA_AUDIO: needed on newer Android versions to access local audio files
+    android.permission.READ_EXTERNAL_STORAGE: needed on earlier Android versions to access local files
+    android.permission.WRITE_EXTERNAL_STORAGE: needed on earlier Android versions to store downloaded files
+  Status:
+    - 2024-03-23 last release 2024-03-06, last real commit 8/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 73345e7d43feb55939450de4497d64c001d2ae764265b69c2cbf3ea03677a8a2
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

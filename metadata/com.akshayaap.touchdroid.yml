@@ -1,0 +1,28 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Akshay Parmar
+AuthorEmail: Akshaykumarparmar51@gmail.com
+SourceCode: https://github.com/SKRInternationals/TouchDroid
+IssueTracker: https://github.com/SKRInternationals/TouchDroid/issues
+Changelog: https://github.com/SKRInternationals/TouchDroid/releases
+
+AutoName: MouseRemote
+
+MaintainerNotes:
+  AppAdded: 2022-09-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SKRInternationals/TouchDroid/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon
+  Note: fastlane is our minimal starter package
+  DoubleList: keep
+  DoubleListRef: https://github.com/SKRInternationals/TouchDroid/issues/35#issuecomment-1447282798
+  Status:
+    - 2023-02-28 arrived at F-Droid; asked whether to keep at https://github.com/vitaminncpp/TouchDroid/issues/35#issuecomment-1447282798
+    - 2024-02-22 last release 12/2022, last code-commit 6/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 4c80d243bf18ca1c64816fb6b3d9f53f5f3e20b5024adaa473f315d93ffef0bf
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

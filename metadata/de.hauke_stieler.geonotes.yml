@@ -1,0 +1,32 @@
+Categories:
+  - Navigation
+  - Science & Education
+License: GPL-3.0-or-later
+AuthorName: Hauke Stieler
+SourceCode: https://github.com/hauke96/GeoNotes
+IssueTracker: https://github.com/hauke96/GeoNotes/issues
+Changelog: https://github.com/hauke96/GeoNotes/releases
+AutoName: GeoNotes
+
+MaintainerNotes:
+  AppAdded: 2020-12-03
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/hauke96/GeoNotes/tree/main/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,fulldescMD,icon,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/7684#note_470253994
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed to show notes at the current position
+    android.permission.ACCESS_COARSE_LOCATION: needed to show notes at the current position
+    android.permission.CAMERA: used to take photos and attach them to a note
+    android.permission.MANAGE_EXTERNAL_STORAGE: used to create backups of notes
+    android.permission.WRITE_EXTERNAL_STORAGE: used to create backups of notes
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted due to WRITE_EXTERNAL_STORAGE
+  Status:
+    - 2024-11-23 scanner reports MANAGE_EXTERNAL_STORAGE CAMERA READ_EXTERNAL_STORAGE* DEPENDENCY_INFO_BLOCK – https://github.com/hauke96/GeoNotes/issues/128
+
+AllowedAPKSigningKeys: 455b2fc545f6d3c8fc8f5946ddb5b7cb2502ae10feb6abe95ae350feb3d5f01b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

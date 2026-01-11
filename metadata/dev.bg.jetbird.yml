@@ -1,0 +1,36 @@
+Categories:
+  - Internet
+License: GPL-3.0-or-later
+AuthorName: bg443
+SourceCode: https://codeberg.org/bg443/JetBird
+IssueTracker: https://codeberg.org/bg443/JetBird/issues
+Translation: https://translate.codeberg.org/projects/jetbird/app
+Changelog: https://codeberg.org/bg443/JetBird/releases
+
+AutoName: JetBird
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-10-07
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://codeberg.org/bg443/JetBird/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  IntentFilterIgnore:
+    android.net.VpnService: this is a VPN app.
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to be able to choose which apps aren’t tunneled
+    android.permission.ACCESS_NETWORK_STATE: used to monitor network to check if VPN is already running etc.
+    android.permission.CHANGE_NETWORK_STATE: used to monitor network to check if VPN is already running etc.
+    android.permission.POST_NOTIFICATIONS: used for notifications when JetBird is running and when upstream sends new routes
+    android.permission.RECEIVE_BOOT_COMPLETED: used to start the tunnel when the device reboots; opt-in via settings
+    android.permission.FOREGROUND_SERVICE: used to run the VPN service
+    android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED: used to run the VPN service
+
+AllowedAPKSigningKeys: 3956533c542218349b5f3f7f3d3a6926060c1a0cdf32d6e58ea1de3a36c21213
+
+VercodeOperation: '(%c -1) / 10'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

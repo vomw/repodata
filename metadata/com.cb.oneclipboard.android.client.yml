@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: LGPL-3.0-only
+AuthorName: Warren Bank
+SourceCode: https://codeberg.org/warren-bank/fork-Java-OneClipboard
+IssueTracker: https://codeberg.org/warren-bank/fork-Java-OneClipboard/issues
+
+AutoName: OneClipboard
+
+MaintainerNotes:
+  AppAdded: 2023-12-10
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /AndroidClient.+release/i
+  NameSpaces:
+    - /com/cb/oneclipboard
+  Status:
+    - 2024-02-22 last release 1/2023, last commit 1/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+UpdateCheckMode: Static

@@ -1,0 +1,1 @@
+Emuliert Benachrichtigungs-LED auf Samsungs/Pixels rund um die In-Screen Kamera

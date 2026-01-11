@@ -1,0 +1,2 @@
+<p><b>Note:</b> this app is no longer updated, development seems to have stopped around 8/2017.</p>
+<p><i>920 Text Editor</i> is a Free, Open Source and no Ad software for Android. It supports multiple tabs, syntax highlighting for a lot of languages, showing line numbers, regular search, and much more.</p>

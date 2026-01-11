@@ -1,0 +1,24 @@
+Categories:
+  - System
+  - Xposed
+License: GPL-3.0-only
+AuthorName: Lev Gorodetskiy
+SourceCode: https://github.com/droserasprout/com.github.droserasprout.lockscreencamera
+IssueTracker: https://github.com/droserasprout/com.github.droserasprout.lockscreencamera/issues
+Changelog: https://github.com/droserasprout/com.github.droserasprout.lockscreencamera/releases
+
+AutoName: Secure Lockscreen Camera
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-22
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-12-11 Tags=>Static as no tag and no commit since 9/2021
+    - 2026-01-09 still no new commits, disabling updates altogether
+
+AllowedAPKSigningKeys: 6c85cf1b1ddd45b9aefda3f660a610602898ca90ae940d9c346c52d28be763dc
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

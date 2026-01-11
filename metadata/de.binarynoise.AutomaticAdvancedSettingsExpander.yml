@@ -1,0 +1,28 @@
+Categories:
+  - Xposed
+  - System
+License: EUPL-1.2
+AuthorName: binarynoise
+AuthorEmail: binarynoise@mail.de
+SourceCode: https://github.com/binarynoise/XposedModulets
+IssueTracker: https://github.com/binarynoise/XposedModulets/issues
+Donate: https://paypal.me/binarynoise
+
+AutoName: Automatic Advanced Settings Expander
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-04-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/binarynoise/XposedModulets/blob/main/metadata/de.binarynoise.AutomaticAdvancedSettingsExpander
+  FastlaneFeatures: title,shortdesc,fulldescMD,screenshots
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 2/2022, last commit 4/2023)
+    - 2023-10-02 preparing to switch to new repo https://github.com/binarynoise/XposedModulets containing multiple modules, each having its own tag prefix https://github.com/binarynoise/XposedModulets/pull/1
+    - 2023-10-03 switched to new repo (from https://github.com/binarynoise/AutomaticAdvancedSettingsExpander)
+
+AllowedAPKSigningKeys: 6d479a65e4f2ae913212743b80af2e4ba082ee101018c5cf18831cbfa218d6f2
+
+AutoUpdateMode: Version de.binarynoise.AutomaticAdvancedSettingsExpander-v%c
+UpdateCheckMode: Tags

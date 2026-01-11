@@ -1,0 +1,34 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app embeds videos from Youtube.
+    de: Die App integriert Videos from Youtube.
+  TetheredNet:
+    en-US: The app depends on orthocal.info, which is under the MIT license.
+    de: Die App benötigt orthocal.info, welche unter MIT Lizenz steht.
+Categories:
+  - Religion
+License: GPL-3.0-only
+AuthorName: Lucas Galdino
+AuthorWebSite: https://www.lucasgaldino.com/
+SourceCode: https://github.com/JLucasGaldino/Praxis
+IssueTracker: https://github.com/JLucasGaldino/Praxis/issues
+Changelog: https://github.com/JLucasGaldino/Praxis/releases
+
+AutoName: Praxis
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-11-29
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi/i
+  Fastlane: https://github.com/JLucasGaldino/Praxis/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-05-18 UCM Tags=>Static as development is currently frozen, see https://github.com/JLucasGaldino/Praxis/pull/2
+
+AllowedAPKSigningKeys: 9258b251a4009b08e1b599444b4eeec21a3a54f4704f81afba62cb692d409d30
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

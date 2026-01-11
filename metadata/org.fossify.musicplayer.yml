@@ -1,0 +1,28 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Fossify
+AuthorEmail: hello@fossify.org
+AuthorWebSite: https://www.fossify.org/
+SourceCode: https://github.com/FossifyOrg/Music-Player
+IssueTracker: https://github.com/FossifyOrg/Music-Player/issues
+Changelog: https://github.com/FossifyOrg/Music-Player/releases
+
+AutoName: Music Player
+
+MaintainerNotes:
+  AppAdded: 2024-02-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FossifyOrg/Music-Player/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/FossifyOrg/Gallery/issues/32#issuecomment-1880161569
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: needed to access the media to play
+    android.permission.READ_EXTERNAL_STORAGE: needed to access the media to play (before Android 10)
+
+AllowedAPKSigningKeys: affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

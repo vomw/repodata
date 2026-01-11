@@ -1,0 +1,1 @@
+<p><i>SMS my GPS</i> listens for incoming SMS text/data messages and conditionally sends an automatic reply containing GPS location data. The „trigger-word“ and white-listed sender phone number can be configured in the app.</p>

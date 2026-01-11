@@ -1,0 +1,24 @@
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: Taylor Zhang
+AuthorEmail: taylorkunzhang@gmail.com
+SourceCode: https://github.com/TaylorKunZhang/SubTune
+IssueTracker: https://github.com/TaylorKunZhang/SubTune/issues
+Changelog: https://github.com/TaylorKunZhang/SubTune/releases
+
+AutoName: SubTune
+
+MaintainerNotes:
+  AppAdded: 2023-03-13
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release/commit 7/2023; UCM Tags=>Static
+    - 2025-09-26 since around 8/2023, not even issues are replied to anymore. 8/2023 was also the last recorded activity of the author at Github.
+    - 2026-01-09 situation unchanged, so disabling updates altogether now.
+
+AllowedAPKSigningKeys: 1c48fcd82b18b7f7ef7eb7dc6c4587e4b28117589ef37e0d1c23508e7cc45b23
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

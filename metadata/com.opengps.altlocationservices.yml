@@ -1,0 +1,28 @@
+Categories:
+  - Navigation
+License: MIT
+AuthorName: Vayun Mathur
+AuthorWebSite: https://vayunmathur.com/
+SourceCode: https://github.com/vayun-mathur/Alternative-Location-Services
+IssueTracker: https://github.com/vayun-mathur/Alternative-Location-Services/issues
+Changelog: https://github.com/vayun-mathur/Alternative-Location-Services/releases
+
+AutoName: AltLocationServices
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-03-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/vayun-mathur/Alternative-Location-Services/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed to offer location services
+    android.permission.ACCESS_COARSE_LOCATION: needed to offer location services
+    android.permission.ACCESS_FINE_LOCATION: needed to offer location services
+
+AllowedAPKSigningKeys: 176fcb2525573e5be8e1cb3a496dd97b137e81ca5b887a1d32cb894b4e5717b4
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

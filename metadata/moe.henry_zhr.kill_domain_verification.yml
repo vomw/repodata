@@ -1,0 +1,23 @@
+Categories:
+  - Xposed
+  - System
+License: MIT
+AuthorName: Henry Zhang
+AuthorEmail: henry-zhr@qq.com
+SourceCode: https://github.com/Henry-ZHR/KillDomainVerification
+IssueTracker: https://github.com/Henry-ZHR/KillDomainVerification/issues
+
+AutoName: Kill Domain Verification
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-04-09
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-22 last release/commit 9/2022, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 160b79debb330b2608f2fe0122a654c4668f48af4ec6a0ed1dcf7bd1b0f22d8d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

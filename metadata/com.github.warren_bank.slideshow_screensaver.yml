@@ -1,0 +1,20 @@
+Categories:
+  - Multimedia
+License: GPL-2.0-only
+AuthorName: Warren Bank
+SourceCode: https://github.com/warren-bank/Android-Image-Slideshow-Screensaver
+IssueTracker: https://github.com/warren-bank/Android-Image-Slideshow-Screensaver/issues
+
+AutoName: Slideshow Screensaver
+
+MaintainerNotes:
+  AppAdded: 2022-12-07
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-22 last release 2/2023, last commit 2/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

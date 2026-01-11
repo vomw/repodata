@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: LibXZR
+AuthorEmail: i@xzr.moe
+AuthorWebSite: https://xzr.moe/
+SourceCode: https://github.com/libxzr/HorizonKernelFlasher
+IssueTracker: https://github.com/libxzr/HorizonKernelFlasher/issues
+Changelog: https://github.com/libxzr/HorizonKernelFlasher/releases
+
+AutoName: Horizon Kernel Flasher
+
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2021-09-27
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-12-11 Tags=>Static (last release/commit 10/2021)
+    - 2023-08-08 last release 10/2021, last commit 10/2021, author still hyper-active
+
+AllowedAPKSigningKeys: 9222b2ee458035bcbba471f260e719fbf2f1bbd5dae9da5dcf1ae8738c8d773d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

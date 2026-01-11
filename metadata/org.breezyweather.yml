@@ -1,0 +1,41 @@
+Categories:
+  - Weather
+License: LGPL-3.0-only
+AuthorName: Breezy Weather
+AuthorWebSite: https://amenysta.net/
+SourceCode: https://github.com/breezy-weather/breezy-weather
+IssueTracker: https://github.com/breezy-weather/breezy-weather/issues
+Translation: https://hosted.weblate.org/projects/breezy-weather/breezy-weather-android/#information
+Changelog: https://github.com/breezy-weather/breezy-weather/blob/main/CHANGELOG.md
+
+AutoName: Breezy Weather
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-07-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /standard\.apk/i
+  ApkIgnore: /(x86|arm64|armeabi)/i
+  Fastlane: https://github.com/breezy-weather/breezy-weather/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: used to show weather in your current location
+    android.permission.ACCESS_COARSE_LOCATION: used to show weather in your current location
+    android.permission.ACCESS_BACKGROUND_LOCATION: used to show weather in your current location
+    android.permission.READ_EXTERNAL_STORAGE: used to set the live weather wallpaper and/or widgets on some devices
+    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: to prevent the app from being called in background
+  NameSpaces:
+    - /google/maps/android
+    - /breezyweather
+  DoubleList: keep
+  Note: Maps is a drop-in replacement, see https://gitlab.com/IzzyOnDroid/repo/-/issues/502#note_1797990551
+  Status:
+    - 2024-05-27 app is also listed at F-Droid. Marking it for keep as the IoD badge is still listed in the Readme
+    - 2024-07-19 scanner (LibRadar only!) detected Google API Client lib, https://github.com/breezy-weather/breezy-weather/issues/1206 (false positive? Smali does not show it)
+    - 2024-08-10 to fix the scan results, `cp tgst5.dat tgst5.dat.orig; sed -r '/Google API Client Libraries/d' -i tgst5.dat` and then rescan.
+
+AllowedAPKSigningKeys: 29d435f70aa9aec3c1faff7f7ffa6e15785088d87f06ecfcab9c3cc62dc269d8
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

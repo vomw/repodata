@@ -1,0 +1,35 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app uses Sentry, which is enabled by default.
+    de: Die App verwendet Sentry, welches standardmäßig aktiviert ist.
+Categories:
+  - Social Network
+  - Internet
+  - Messaging
+License: GPL-3.0-only
+AuthorName: Procyon Project
+AuthorEmail: livefast.eattrash.raccoon@gmail.com
+WebSite: https://livefasteattrashraccoon.github.io/RaccoonForFriendica/
+SourceCode: https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica
+IssueTracker: https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/issues
+Changelog: https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases
+
+AutoName: Raccoon
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-11-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/livefast/eattrash/feature
+    - /raccoonforfriendica
+  DoubleList: keep
+
+AllowedAPKSigningKeys: a58deb540d4df4715c47ed4d4d70ce07d8cab92588973b0c4ae776f5d04164e5
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

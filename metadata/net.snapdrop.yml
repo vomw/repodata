@@ -1,0 +1,25 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Tanuj M.
+AuthorWebSite: https://twitter.com/tanujnotes/
+SourceCode: https://github.com/tanujnotes/Snapdrop
+IssueTracker: https://github.com/tanujnotes/Snapdrop/issues
+
+AutoName: Snapdrop | ShareIt
+
+MaintainerNotes:
+  AppAdded: 2021-08-01
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to access file to be sent
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to store received files
+  Status:
+    - 2022-11-07 no release since 7/2021, last code commit 9/2021; switch from Tags to Static
+    - 2025-11-13 last release 11/2023, last commit 5/2024; keeping UCM=Static
+
+AllowedAPKSigningKeys: a5ff417be75799e8e763f61bd901fdeb82b73eb2215e2dc90ff7fa88a75830af
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

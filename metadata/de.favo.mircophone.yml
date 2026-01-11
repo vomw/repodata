@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: FAvO Apps
+AuthorEmail: felixvonoertzen@gmail.com
+AuthorWebSite: https://sites.google.com/view/favoapps/
+SourceCode: https://gitlab.com/FAvO/microphone
+IssueTracker: https://gitlab.com/FAvO/microphone/issues
+
+AutoName: Microphone
+
+MaintainerNotes:
+  AppAdded: 2019-03-08
+  Method: gitlab-repo
+  GHSkipPre: 1
+  GHDownloadDir: https://gitlab.com/FAvO/microphone/tree/master/app/release
+  ManualHint: APKs in https://gitlab.com/FAvO/microphone/tree/master/app/release, all having the same timestamp
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed to access the microphone
+  Status:
+    - 2022-03-19 marking the app unmaintained as per https://gitlab.com/fdroid/rfp/-/issues/1884#note_719360445
+    - 2023-08-08 last release 7/2019, last commit 7/2019
+    - 2025-06-17 repo has disappeared
+
+AllowedAPKSigningKeys: 57a9594d2035a6b9fe93cde3a42c2b81ed0a38943639396dcdd13b8ad229c8f9
+
+NoSourceSince: '9'
+UpdateCheckMode: None

@@ -1,0 +1,32 @@
+Categories:
+  - Connectivity
+License: AGPL-3.0-only
+AuthorName: Steven De George SR
+AuthorEmail: ehomecreations@gmail.com
+WebSite: https://github.com/jakebullet70/HomeCentral/wiki
+SourceCode: https://github.com/jakebullet70/HomeCentral
+IssueTracker: https://github.com/jakebullet70/HomeCentral/issues
+Changelog: https://github.com/jakebullet70/HomeCentral/releases
+
+AutoName: HomeCentral
+
+MaintainerNotes:
+  AppAdded: 2025-05-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/jakebullet70/HomeCentral/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - wrapperOfCreditsRollOnly
+    - /de/donmanfred
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: for the integrated self-updater, which is strictly opt-in
+    android.permission.WRITE_EXTERNAL_STORAGE: to save the downloaded APK for install
+    android.permission.READ_EXTERNAL_STORAGE: to read the downloaded APK for install
+  Status:
+    - 2025-05-28 scanners brought up some libraries we could find no info for, https://github.com/jakebullet70/HomeCentral/issues/30
+
+AllowedAPKSigningKeys: 1845226c1ddde2e592f2759e9ff8dca92f5cd357d9db1855de453d5df1a7f817
+
+AutoUpdateMode: Version V%v
+UpdateCheckMode: Tags

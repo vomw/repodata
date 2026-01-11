@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: BinTianqi
+AuthorWebSite: https://bintianqi.github.io/
+SourceCode: https://github.com/BinTianqi/OwnDroid
+IssueTracker: https://github.com/BinTianqi/OwnDroid/issues
+
+AutoName: Android Owner
+
+MaintainerNotes:
+  AppAdded: 2024-04-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/BinTianqi/OwnDroid/tree/dev/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: this app is intended a.o. to manage your apps
+    android.permission.REQUEST_DELETE_PACKAGES: this app is intended a.o. to manage your apps
+    android.permission.QUERY_ALL_PACKAGES: this app is intended a.o. to manage your apps
+    android.permission.ACCESS_FINE_LOCATION: needed to access the saved Wi-Fi list
+    android.permission.ACCESS_COARSE_LOCATION: needed to access the saved Wi-Fi list
+  Status:
+    - 2024-04-21 previously listed as com.binbin.androidowner
+    - 2025-01-01 scanner reports DEPENDENCY_INFO_BLOCK ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION – https://github.com/BinTianqi/OwnDroid/issues/89
+
+AllowedAPKSigningKeys: e5d5db176a742c566ba6020ac24d93fabda5f6952d7fccae9e3a46e9848e83b5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,1 @@
+Run ADB commands without a computer (no ROOT needed)

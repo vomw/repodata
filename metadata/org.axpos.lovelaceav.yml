@@ -1,0 +1,33 @@
+Categories:
+  - Security
+License: AGPL-3.0-only
+AuthorName: Advanced XPerience OS
+AuthorWebSite: https://axpos.org/
+WebSite: https://axpos.org/lovelace
+SourceCode: https://codeberg.org/AXP-OS/packages_apps_LoveLaceAV
+IssueTracker: https://codeberg.org/AXP-OS/packages_apps_LoveLaceAV/issues
+
+AutoName: LoveLaceAV
+
+MaintainerNotes:
+  AppAdded: 2025-07-23
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/AXP-OS/packages_apps_LoveLaceAV/src/branch/merge/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /us/spotco/malwarescanner
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: used to extract domains from all screen text content and check them against a blocklist
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to access the apps to be scanned
+    android.permission.REQUEST_DELETE_PACKAGES: to allow removing infected apps
+    android.permission.READ_EXTERNAL_STORAGE: to read files to be scanned
+    android.permission.WRITE_EXTERNAL_STORAGE: to delete infected files
+    android.permission.MANAGE_EXTERNAL_STORAGE: read files for scan and delete infected ones on Android 12+
+    android.permission.INTERNET: to check for and download updated signature files
+
+AllowedAPKSigningKeys: 005c9805d501bf50c1a8bfd3204b6908843088581fdcf3db8ab4f688ffc0e7b6
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

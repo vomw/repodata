@@ -1,0 +1,27 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: BlackyHawky
+SourceCode: https://github.com/BlackyHawky/Clock
+IssueTracker: https://github.com/BlackyHawky/Clock/issues
+Changelog: https://github.com/BlackyHawky/Clock/releases
+
+AutoName: Clock
+
+MaintainerNotes:
+  AppAdded: 2024-11-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/BlackyHawky/Clock/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /com/best/alarmclock
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/668
+  Status:
+    - 2025-02-27 android.permission.CAMERA – https://github.com/BlackyHawky/Clock/issues/190 (removed again)
+
+AllowedAPKSigningKeys: 958ecbd23cf3dc043b0a34372c068e34275ad8c1f2a1974d779163a222a8999e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Teo Terente
+SourceCode: https://gitlab.com/Teo77/hiddensettings
+IssueTracker: https://gitlab.com/Teo77/hiddensettings/-/issues
+
+AutoName: HiddenSettings
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-11-09
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/Teo77/hiddensettings/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to obtain launchable activities from all installed apps
+
+AllowedAPKSigningKeys: d0685f61153676a4021f0cda58537c1e2cfff701a53c94f6047e7e5539c3f896
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

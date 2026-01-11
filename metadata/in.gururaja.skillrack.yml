@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on SkillRack.com.
+    de: Die App hängt von der SkillRack.com Website ab.
+  TetheredNet:
+    en-US: This is a PWA depending on skillrack.gururaja.in.
+    de: Dies ist eine PWA, die an skillrack.gururaja.in gebunden ist.
+Categories:
+  - Science & Education
+License: AGPL-3.0-only
+AuthorName: Gururaja R
+AuthorEmail: mail@gururaja.in
+AuthorWebSite: https://gururaja.in/
+WebSite: https://skillrack.gururaja.in/
+SourceCode: https://github.com/Guru-25/SkillTRack
+IssueTracker: https://github.com/Guru-25/SkillTRack/issues
+Changelog: https://github.com/Guru-25/SkillTRack/releases
+
+AutoName: SkillRack Tracker
+
+MaintainerNotes:
+  AppAdded: 2024-08-16
+  AppRemoved: 2025-05-15 temporarily on request of author, see https://gitlab.com/IzzyOnDroid/repo/-/issues/596#note_2506511358
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Guru-25/SkillTRack/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: c2548cfadd27481c847fe2ecaa11ea23ae55624ac8dd1b03788598d7c002d83a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

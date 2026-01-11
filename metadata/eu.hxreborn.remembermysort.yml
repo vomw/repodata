@@ -1,0 +1,23 @@
+Categories:
+  - Xposed
+  - System
+License: GPL-3.0-only
+AuthorName: rafareborn
+SourceCode: https://github.com/hxreborn/remember-my-sort
+IssueTracker: https://github.com/hxreborn/remember-my-sort/issues
+Changelog: https://github.com/hxreborn/remember-my-sort/releases
+
+AutoName: Remember My Sort
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2025-12-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/hxreborn/remember-my-sort/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 32b98dc709a7ee15fae073493a1aeca5d428316cc0d8b8f878eed64ba37f3297
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

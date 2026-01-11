@@ -1,0 +1,48 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google BillingClient.
+    de: Die App enthält den Google BillingClient.
+  NonFreeNet:
+    en-US: The app connects to Google servers (billing, PlayStore).
+    de: Die App nutzt Verbindungen zu Google Servern (Billing, PlayStore).
+Categories:
+  - Security
+  - Internet
+License: GPL-3.0-only
+AuthorName: Marcel Bokhorst (M66B)
+AuthorWebSite: https://www.faircode.eu/
+WebSite: https://www.netguard.me/
+SourceCode: https://github.com/M66B/NetGuard
+IssueTracker: https://forum.xda-developers.com/android/apps-games/app-netguard-root-firewall-t3233012
+Translation: https://crowdin.com/project/netguard
+Changelog: https://github.com/M66B/NetGuard/releases
+Donate: https://www.netguard.me
+Bitcoin: 13vtPytVVqCwojmohAqsK61Tk4yGXSWpJK
+
+AutoName: NetGuard - no-root firewall
+
+MaintainerNotes:
+  AppAdded: 2021-02-24
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/154
+  Fastlane: https://github.com/M66B/NetGuard/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  IntentFilterIgnore:
+    android.net.VpnService: needed to tunnel your traffic for firewall functionality
+  PermIgnore:
+    android.permission.ACCESS_NETWORK_STATE: needed to check if the device is connected to the internet through Wi-Fi
+    android.permission.ACCESS_WIFI_STATE: needed to detect Wi-Fi network changes
+    android.permission.INTERNET: needed to forward allowed (filtered) traffic to the internet
+    android.permission.FOREGROUND_SERVICE: needed to run a foreground service on Android 9 Pie and later
+    android.permission.QUERY_ALL_PACKAGES: needed for per-app rules
+    android.permission.READ_PHONE_STATE: needed to detect mobile network changes
+    android.permission.RECEIVE_BOOT_COMPLETED: needed to start the firewall when booting the device
+    android.permission.VIBRATE: used to provide vibration feedback on widget tap
+    android.permission.WAKE_LOCK: needed to reliably reload rules in the background on connectivity changes
+
+AllowedAPKSigningKeys: e4a260a2dce7b7af23ee919c489e15fd0102b93f9e7c9d82b09c0b395000e4d4
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

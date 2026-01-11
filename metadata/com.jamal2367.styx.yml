@@ -1,0 +1,28 @@
+Categories:
+  - Internet
+License: MPL-2.0
+AuthorName: Jamal
+AuthorWebSite: https://download.android-freaks.de/
+SourceCode: https://github.com/jamal2362/Styx
+IssueTracker: https://github.com/jamal2362/Styx/issues
+Translation: https://crowdin.com/project/styx-browser
+Changelog: https://github.com/jamal2362/Styx/releases
+
+AutoName: Styx
+
+MaintainerNotes:
+  AppAdded: 2021-04-04
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-11-02 repo was removed, see https://github.com/Slion/Fulguris/issues/178#issuecomment-957222947 (was github-release)
+    - 2021-11-04 repo was re-established
+    - 2022-01-15 repo gone again
+    - 2023-07-03 repo is back again, re-enabled updates; see https://gitlab.com/IzzyOnDroid/repo/-/issues/408
+    - 2024-12-10 repo archived 2024-12-06
+
+AllowedAPKSigningKeys: 7bbaf8ab4ee3a72f0bcdc98dd102bc324619475845137eec4aee8c8c997959db
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None
+NoSourceSince: '17.2'

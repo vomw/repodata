@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services and Google Cast.
+    de: Die App enthält Bibliotheken von Google Mobile Services and Google Cast.
+  NonFreeNet:
+    en-US: The app connects to Google servers (Firebase).
+    de: Die App baut Verbindungen zu Google Servern auf (Firebase).
+Categories:
+  - Multimedia
+License: GPL-2.0-only
+AuthorName: Warren Bank
+SourceCode: https://github.com/warren-bank/Android-WebCast
+IssueTracker: https://github.com/warren-bank/Android-WebCast/issues
+Changelog: https://github.com/warren-bank/Android-WebCast/releases
+AutoName: WebCast
+
+MaintainerNotes:
+  AppAdded: 2019-07-30
+  Method: github-release
+  GHSkipPre: 1
+  FlagIgnore:
+    usesCleartextTraffic: to access plain http resources e.g. in local networks
+  Status:
+    - 2024-11-14 last release/commit 6/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+UpdateCheckMode: Static

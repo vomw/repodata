@@ -1,0 +1,32 @@
+Categories:
+  - System
+  - Xposed
+License: GPL-3.0-only
+AuthorName: Jasper Hale
+AuthorEmail: LJY087621@GMAIL.COM
+AuthorWebSite: https://jasper1024.com/
+WebSite: https://github.com/NoWakeLock/NoWakeLock/wiki
+SourceCode: https://github.com/NoWakeLock/NoWakeLock
+IssueTracker: https://github.com/NoWakeLock/NoWakeLock/issues
+Changelog: https://github.com/NoWakeLock/NoWakeLock/releases
+
+AutoName: NoWakeLock
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-22
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/NoWakeLock/NoWakeLock/blob/dev/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: works on app-level so it needs to find all apps
+  Status:
+    - 2024-02-22 last release 11/2022, last commit 8/2023, UCM Tags=>Static
+    - 2025-01-13 transfer of maintainership, see https://github.com/NoWakeLock/NoWakeLock/issues/19#issuecomment-2587481224 and mails from this date (confirmation by original maintainer)
+    - 2025-07-20 upstreamed our DE locale via https://github.com/NoWakeLock/NoWakeLock/pull/33
+
+AllowedAPKSigningKeys: d86aeff598bcb2e2642c42957380823b9a46602f17821d01a9ea47de20051fd8
+
+AutoUpdateMode: Version v.*/%c
+UpdateCheckMode: Tags

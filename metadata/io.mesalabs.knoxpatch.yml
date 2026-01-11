@@ -1,0 +1,27 @@
+Categories:
+  - Xposed
+License: GPL-3.0-or-later
+AuthorName: Salvo Giangreco
+SourceCode: https://github.com/salvogiangri/KnoxPatch
+IssueTracker: https://github.com/salvogiangri/KnoxPatch/issues
+Changelog: https://github.com/salvogiangri/KnoxPatch/releases
+
+AutoName: KnoxPatch
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-07-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /sep-lite/i
+  Fastlane: https://github.com/salvogiangri/KnoxPatch/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Status:
+    - 2024-04-17 repo was archived 2024-02-26, UCM Tags => None
+    - 2025-02-27 repo was unarchived again
+    - 2025-08-21 upstreaming our local fastlane metadata via https://github.com/salvogiangri/KnoxPatch/pull/120
+
+AllowedAPKSigningKeys: 339fb64d24a6a8c1c7ab85b6059ff810eae3bd1481a3af51a08f08d658e9172d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

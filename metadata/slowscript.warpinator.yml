@@ -1,0 +1,29 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: slowscript
+SourceCode: https://github.com/slowscript/warpinator-android
+IssueTracker: https://github.com/slowscript/warpinator-android/issues
+Changelog: https://github.com/slowscript/warpinator-android/releases
+
+AutoName: Warpinator
+
+MaintainerNotes:
+  AppAdded: 2021-02-04
+  AppRemoved: 2021-07-31 reached F-Droid on 2021-07-20
+  AddedBack: 2025-03-07 restored as RB
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/slowscript/warpinator-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to read files to share
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to store received files
+  Status:
+    - 2025-07-21 upstreaming our local Fastlane metadata via https://github.com/slowscript/warpinator-android/pull/151
+
+AllowedAPKSigningKeys: 35dc38f1e46f82ca3085aaa05af614083872974da7a65a848616ef9fff8f207c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

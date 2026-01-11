@@ -1,0 +1,1 @@
+allows to switch to the Keepass2Android keyboard automatically without root

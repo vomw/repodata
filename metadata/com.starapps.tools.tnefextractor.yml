@@ -1,0 +1,27 @@
+Categories:
+  - Office
+  - Internet
+License: GPL-3.0-only
+AuthorName: StarApps GmbH
+SourceCode: https://gitlab.starapps-network.com/tools/tnef-extractor
+IssueTracker: https://gitlab.starapps-network.com/tools/tnef-extractor/issues
+Changelog: https://gitlab.starapps-network.com/tools/tnef-extractor/-/releases
+AutoName: TNEF Extractor
+
+MaintainerNotes:
+  AppAdded: 2019-09-16
+  Method: gitlab-tags
+  GHSkipPre: 1
+  DoubleList: keep
+  Fastlane: https://gitlab.starapps-network.com/tools/tnef-extractor/-/tree/master/fastlane/metadata
+  FastlaneFeatures: shortdesc,fulldesc,changelogs
+  Note: Fastlane (2 locales) with good shortdesc, HTML fulldesc, only 1 screenshot en-US
+  Status:
+    - 2023-12-01 their GitLab now requires login
+    - 2024-02-14 their GitLab seems gone, URL only shows an empty Synology page
+    - 2025-05-15 got tarball from F-Droid
+
+AllowedAPKSigningKeys: 63cc75b0461b0157af3c54f2197a04b4f0e7370e341ae9121c4479d975be3a17
+
+UpdateCheckMode: None
+NoSourceSince: 1.0.0

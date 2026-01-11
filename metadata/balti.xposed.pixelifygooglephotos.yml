@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeAdd:
+    en-US: This app is intended for use with Google Photos.
+    de: Diese App ist für die Nutzung mit Google Photos gedacht.
+Categories:
+  - Xposed
+  - Multimedia
+License: MIT
+AuthorName: BaltiApps
+SourceCode: https://github.com/BaltiApps/Pixelify-Google-Photos
+IssueTracker: https://github.com/BaltiApps/Pixelify-Google-Photos/issues
+Changelog: https://github.com/BaltiApps/Pixelify-Google-Photos/releases
+
+AutoName: Pixelify GPhotos
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-22
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 3/2022, last commit 3/2022)
+    - 2025-06-09 UCM=None as project was declared EOL on 2024-11-19
+
+AllowedAPKSigningKeys: 68bb9e5f23bd7b32ba8f454bc76cfd5afdda3f52fe7b28cac1a08650f4127b0d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

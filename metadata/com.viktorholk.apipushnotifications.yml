@@ -1,0 +1,27 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: Holkinator
+AuthorEmail: holkinator@gmail.com
+SourceCode: https://github.com/viktorholk/push-notifications-api
+IssueTracker: https://github.com/viktorholk/push-notifications-api/issues
+Changelog: https://github.com/viktorholk/push-notifications-api/releases
+
+AutoName: Push Notifications API
+
+MaintainerNotes:
+  AppAdded: 2023-10-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/viktorholk/push-notifications-api/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: needed to access self-hosted local instances
+  Status:
+    - 2025-12-03 upstreaming our local Fastlane metadata via https://github.com/viktorholk/push-notifications-api/pull/26
+
+AllowedAPKSigningKeys: d525c1d59748b9704090ab0edd7c787d9c75eda8faaeff77876c178d24c1f606
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

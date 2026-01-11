@@ -1,0 +1,1 @@
+make elements of Notification Shade transparent

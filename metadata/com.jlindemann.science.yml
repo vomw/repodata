@@ -1,0 +1,28 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Jonatan Lindemann
+AuthorEmail: jlindemanndev@gmail.com
+AuthorWebSite: https://jlindemann.se/
+WebSite: https://www.jlindemann.se/homepage/atomic
+SourceCode: https://github.com/JLindemann42/Atomic-Periodic-Table.Android
+IssueTracker: https://github.com/JLindemann42/Atomic-Periodic-Table.Android/issues
+Changelog: https://github.com/JLindemann42/Atomic-Periodic-Table.Android/releases
+
+AutoName: Atomic - Periodic Table
+
+MaintainerNotes:
+  AppAdded: 2021-12-01
+  Method: github-repo
+  GHSkipPre: 1
+  ApkMatch: /nobilling/i
+  Fastlane: https://github.com/JLindemann42/Atomic-Periodic-Table.Android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2022-12-11 set to Static as no commit since 12/2021 and no commit since 1/2022
+    - 2024-07-07 updater reports usesCleartextTraffic DEPENDENCY_INFO_BLOCK – https://github.com/JLindemann42/Atomic-Periodic-Table.Android/issues/48
+    - 2024-08-16 offending libs are gone and new releases are being made, so setting it back to daily update checks
+
+AllowedAPKSigningKeys: 17dda13760d3576ce2bd8fa3c017bee1a7eef600e3ec28234b11d6bd660aae73
+
+UpdateCheckMode: Tags

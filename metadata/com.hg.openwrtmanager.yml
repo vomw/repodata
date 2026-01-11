@@ -1,0 +1,24 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Hagay Goshen
+AuthorEmail: hg40005000@gmail.com
+SourceCode: https://github.com/hagaygo/OpenWrtManager
+IssueTracker: https://github.com/hagaygo/OpenWrtManager/issues
+Changelog: https://github.com/hagaygo/OpenWrtManager/releases
+
+AutoName: OpenWRT Manager
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-06-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/hagaygo/OpenWrtManager/tree/github/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 3392cdfde73b43dcd6bd0a17ab9c32c8f49ee531932197460cd0d824ef423c3f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

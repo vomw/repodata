@@ -1,0 +1,25 @@
+Categories:
+  - Time
+License: MIT
+AuthorName: Sztorm
+AuthorEmail: sztorm.contact@gmail.com
+SourceCode: https://github.com/Sztorm/NoteCalendar
+IssueTracker: https://github.com/Sztorm/NoteCalendar/issues
+Translation: https://hosted.weblate.org/projects/note-calendar/
+Changelog: https://github.com/Sztorm/NoteCalendar/releases
+
+AutoName: Note Calendar
+
+MaintainerNotes:
+  AppAdded: 2022-06-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Sztorm/NoteCalendar/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2025-08-18 upstreaming our Fastlane via https://github.com/Sztorm/NoteCalendar/pull/15
+
+AllowedAPKSigningKeys: 74e055a51abbcb061bd8a69750adb01a6d6f7a4e9ef164505d1c6fb0381e2887
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

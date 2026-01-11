@@ -1,0 +1,1 @@
+<p><i>Slideshow Screensaver</i> is an Android daydream/screensaver app to display images on local device as a slideshow. It lets you pick a directory from your device to use the images from.</p>

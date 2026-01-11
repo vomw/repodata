@@ -1,0 +1,43 @@
+AntiFeatures:
+  NonFreeAssets:
+    en-US: The app includes graphical assets which are not libre.
+    de: Die App enthält unfreie Grafik-Assets.
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services and Google Drive.
+    de: Die App enthält Bibliotheken von Google Mobile Services und Google Drive.
+  NonFreeNet:
+    en-US: The app connects to Google servers (Google Drive, Google APIs).
+    de: Die App nutzt Verbindungen zu Google Servern (Google Drive, Google APIs).
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Matthias Urhahn
+AuthorEmail: support@darken.eu
+AuthorWebSite: https://darken.eu/
+SourceCode: https://github.com/d4rken-org/octi
+IssueTracker: https://github.com/d4rken-org/octi/issues
+
+AutoName: Octi - Multi-Device Monitor
+
+MaintainerNotes:
+  AppAdded: 2022-11-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-release/i
+  Fastlane: https://github.com/d4rken-org/octi/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshotsJPG
+  FastlaneIgnore: changelogs
+  LibIgnore:
+    - /just_depends_on_other_included_lib
+    - /com/google/api/services/drive
+  Note: changelogs only have default.txt
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed for the „show location“ feature
+    android.permission.ACCESS_FINE_LOCATION: needed for the „show location“ feature
+    android.permission.QUERY_ALL_PACKAGES: to list installed apps
+    android.permission.CAMERA: used to scan QR-Codes
+
+AllowedAPKSigningKeys: 34612657afaebecc14556507f5a35d6b7b50dabc10d623967bd7f97c89adbe0e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

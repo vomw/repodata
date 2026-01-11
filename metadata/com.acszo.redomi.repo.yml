@@ -1,0 +1,31 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to different non-libre services.
+    de: Die App verbindet sich mit mehreren unfreien Services.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Aleksandar
+SourceCode: https://github.com/acszo/Redomi
+IssueTracker: https://github.com/acszo/Redomi/issues
+Translation: https://crowdin.com/project/redomi
+Changelog: https://github.com/acszo/Redomi/releases
+
+AutoName: Redomi
+
+MaintainerNotes:
+  AppAdded: 2024-12-03
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /no-updater/i
+  ApkIgnore: /github/i
+  Fastlane: https://github.com/acszo/Redomi/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /com/acszo/redomi
+
+AllowedAPKSigningKeys: d59a225e7165baa3e367ac43c6be052ab40ecd5aab2ae15e989b8d665a4f9b70
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

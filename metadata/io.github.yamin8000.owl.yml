@@ -1,0 +1,33 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: The app relies on Owl dictionary API (dictionaryapi.dev)
+    de: Die App ist an die Owl Dictionary API (dictionaryapi.dev) gebunden.
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: YaMiN
+AuthorEmail: yamin8000@yahoo.com
+AuthorWebSite: https://yamins.ir/
+SourceCode: https://github.com/yamin8000/freeDictionaryApp
+IssueTracker: https://github.com/yamin8000/freeDictionaryApp/issues
+Changelog: https://github.com/yamin8000/freeDictionaryApp//releases
+
+AutoName: freeDictionaryApp
+
+MaintainerNotes:
+  AppAdded: 2022-05-06
+  AppRemoved: 2023-12-30 reached F-Droid 2023-12-20
+  AddedBack: 2025-03-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/yamin8000/freeDictionaryApp/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  Status:
+    - 2023-08-17 repo was archived 2023-07-22, disabling update checks (github-release/Tags)
+    - 2023-10-04 repo showed up with a new name, using the same signing key
+
+AllowedAPKSigningKeys: c5fc36a2d18057155a471f456216f0b1f07755f33147f938c92ea6275dced4d2
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

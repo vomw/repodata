@@ -1,0 +1,30 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app requires connections to bahn.de.
+    de: Die App benötigt Verbindungen zu bahn.de.
+Categories:
+  - Navigation
+License: WTFPL
+AuthorName: chuk finley
+SourceCode: https://github.com/chukfinley/Besser-Bahn
+IssueTracker: https://github.com/chukfinley/Besser-Bahn/issues
+Changelog: https://github.com/chukfinley/Besser-Bahn/releases
+
+AutoName: Better Bahn
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-09-19
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/chukfinley/Besser-Bahn/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-09-19 upstreaming our fastlane metadata via https://github.com/chukfinley/Besser-Bahn/pull/6
+
+AllowedAPKSigningKeys: 4e4225f1b2f9d1f037ce8dd597875a1e38669b97a4e51b7d9d5a16277bc0b438
+
+AutoUpdateMode: Version .*\+%c
+UpdateCheckMode: Tags

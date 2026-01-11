@@ -1,0 +1,33 @@
+Categories:
+  - Theming
+  - System
+License: GPL-3.0-only
+AuthorName: Oxters Wyzgowski
+AuthorEmail: oxters168@gmail.com
+AuthorWebSite: https://oxgames.co/
+SourceCode: https://github.com/oxters168/OxShell
+IssueTracker: https://github.com/oxters168/OxShell/issues
+
+AutoName: Ox Shell
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-03-21
+  Method: github-release
+  GHSkipPre: 1
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: needed for the feature to open the app switcher using a gamepad
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: includes a file explorer, so this allows you to install APKs
+    android.permission.REQUEST_DELETE_PACKAGES: needed to let you uninstall apps
+    android.permission.READ_EXTERNAL_STORAGE: needed by the integrated file exlorer to browse all directories
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed by file managers with more recent Android versions
+    android.permission.QUERY_ALL_PACKAGES: needed to list the apps for you to launch them
+  Status:
+    - 2025-03-23 last release 2024-01-11, last commit 2024-02-09; UCM Tags=>Static
+    - 2026-01-09 still dormant and no new commits, disabling updates altogether
+
+AllowedAPKSigningKeys: b9cb574e4844a59c33917e78844c09754014cf8f11a55f8446099a00cb86d6f9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

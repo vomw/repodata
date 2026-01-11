@@ -1,0 +1,1 @@
+removes root and bootloader checks from the Digitales Amt app

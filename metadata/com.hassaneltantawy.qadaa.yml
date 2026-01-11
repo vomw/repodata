@@ -1,0 +1,27 @@
+Categories:
+  - Religion
+License: GPL-3.0-only
+AuthorName: muslimpack
+SourceCode: https://github.com/muslimpack/Qadaa
+IssueTracker: https://github.com/muslimpack/Qadaa/issues
+Changelog: https://github.com/muslimpack/Qadaa/releases
+
+AutoName: قضاء‎
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-06-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/muslimpack/Qadaa/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+  Status:
+    - 2023-07-13 <s>Reached</s> Applied to F-Droid half a year ago, but still carries our badge https://github.com/muslimpack/Qadaa/issues/2
+    - 2024-02-12 seemingly did not reach F-Droid despite of having that badge added
+    - 2024-07-14 reached F-Droid 2024-06-02, not RB, still carrying our badge so we keep it as long as its size (currently 25 MB) allows
+
+AllowedAPKSigningKeys: 890f7c6bd1633d85fd21de51643943811fe34a30c06affe2fb62027e3e5e9e8b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

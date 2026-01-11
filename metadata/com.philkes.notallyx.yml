@@ -1,0 +1,30 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: PhilKes
+AuthorEmail: philk97@web.de
+AuthorWebSite: https://www.instructables.com/member/PhilKey/
+SourceCode: https://github.com/Crustack/NotallyX
+IssueTracker: https://github.com/Crustack/NotallyX/issues
+Changelog: https://github.com/Crustack/NotallyX/releases
+
+AutoName: NotallyX
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-10-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Crustack/NotallyX/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.RECORD_AUDIO: used to record audio notes
+  DoubleList: keep
+  Status:
+    - 2024-12-06 scanner reports RECORD_AUDIO – https://github.com/PhilKes/NotallyX/issues/147
+    - 2025-03-09 android.permission.READ_EXTERNAL_STORAGE – https://github.com/PhilKes/NotallyX/issues/449
+
+AllowedAPKSigningKeys: d214b6057b79f82509ddcd1e351965b3c6ecc4b2a3896e5cdf885a70a0b61dfd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

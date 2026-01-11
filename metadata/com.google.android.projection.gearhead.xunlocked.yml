@@ -1,0 +1,24 @@
+Categories:
+  - System
+  - Xposed
+License: GPL-3.0-only
+AuthorName: Rikj000
+AuthorEmail: rik_helsen@hotmail.com
+SourceCode: https://github.com/Rikj000/Android-Auto-XLauncher-Unlocked
+IssueTracker: https://github.com/Rikj000/Android-Auto-XLauncher-Unlocked/issues
+Changelog: https://github.com/Rikj000/Android-Auto-XLauncher-Unlocked/releases
+
+AutoName: Android Auto - XLauncher Unlocked
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-04-15
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-03-23 last release/code commit 2023-04-10; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 507301e9778746294e88f5abb212271d4ad77696915e640d9d77748ab0032e45
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

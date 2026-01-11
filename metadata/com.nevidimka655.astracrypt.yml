@@ -1,0 +1,29 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: gromif
+AuthorEmail: alex.kobrys@gmail.com
+SourceCode: https://github.com/gromif/AstraCrypt
+IssueTracker: https://github.com/gromif/AstraCrypt/issues
+Changelog: https://github.com/gromif/AstraCrypt/releases
+
+AutoName: AstraCrypt - Encrypt Your Data
+
+MaintainerNotes:
+  AppAdded: 2025-04-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/gromif/AstraCrypt/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /io/gromif/astracrypt
+    - /io/gromif/device_admin_api
+    - /io/gromif/lab_zip
+    - /io/gromif/notes
+    - /io/gromif/tink_lab
+    - /io/gromif/tinkLab
+
+AllowedAPKSigningKeys: 6964aa59abfa493001214aa6bd1a5d95fe2d413578da262267b911bbf6df120f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,29 @@
+Categories:
+  - Phone & SMS
+License: GPL-3.0-only
+AuthorName: Internet Addict
+AuthorWebSite: https://weforge.xyz/
+SourceCode: https://weforge.xyz/partisan/Pulse
+IssueTracker: https://weforge.xyz/partisan/Pulse/issues
+Changelog: https://weforge.xyz/partisan/Pulse/releases
+
+AutoName: Pulse
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-05-06
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://weforge.xyz/partisan/Pulse/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.ACCESS_NETWORK_STATE: to check whether Internet is available
+    android.permission.CALL_PHONE: to make calls via messenger
+    android.permission.READ_CONTACTS: to check whether the contact has a messenger record
+    android.permission.SYSTEM_ALERT_WINDOW: to show theredirecting popup and launch an activity from background
+    android.permission.READ_PHONE_NUMBERS: to detect outgoing calls
+
+AllowedAPKSigningKeys: 73996f7b65d9728a59322b33810072d278bf6971db8584c27462bfa1e3f4dc79
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

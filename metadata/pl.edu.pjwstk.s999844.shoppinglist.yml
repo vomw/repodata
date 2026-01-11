@@ -1,0 +1,25 @@
+Categories:
+  - Writing
+License: GPL-2.0-only
+AuthorName: Sebastian Göls
+SourceCode: https://github.com/Abrynos/ShoppingList
+IssueTracker: https://github.com/Abrynos/ShoppingList/issues
+Translation: https://crowdin.com/project/abrynosshoppinglist
+Changelog: https://github.com/Abrynos/ShoppingList/releases
+
+AutoName: ShoppingList
+
+MaintainerNotes:
+  AppAdded: 2021-03-10
+  AppRemoved: 2021-11-10 arrived at F-Droid 2021-10-31
+  AddedBack: 2025-03-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Abrynos/ShoppingList/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 104a50773bc0e7ff71ef9f09ebf47f8a392cb4a313d58d1c0bae064fe12e4a9a
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

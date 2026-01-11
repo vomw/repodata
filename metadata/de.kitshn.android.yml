@@ -1,0 +1,29 @@
+Categories:
+  - Food
+License: GPL-3.0-only
+AuthorName: Aimo K.
+AuthorEmail: kitshn-app@mailbox.org
+SourceCode: https://github.com/aimok04/kitshn
+IssueTracker: https://github.com/aimok04/kitshn/issues
+Changelog: https://github.com/aimok04/kitshn/releases
+
+AutoName: kitshn (for Tandoor)
+
+MaintainerNotes:
+  AppAdded: 2024-08-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/aimok04/kitshn/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /de/kitshn
+  LibIgnore:
+    - /org/acra
+  FlagIgnore:
+    usesCleartextTraffic: needed to access locally hosted instances without https
+
+AllowedAPKSigningKeys: 5d1a9ad416246d76753f51577e00cd6d72dc7c3f36f5f3ec1fcbdb2bc8dd317d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

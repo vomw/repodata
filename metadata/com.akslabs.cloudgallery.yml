@@ -1,0 +1,29 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses Telegram to store your images.
+    de: Die App speichert die Bilder bei Telegram.
+Categories:
+  - Graphics
+License: Apache-2.0
+AuthorName: AKS-Labs
+AuthorWebSite: https://t.me/AKSLabs
+SourceCode: https://github.com/AKS-Labs/CloudGallery
+IssueTracker: https://github.com/AKS-Labs/CloudGallery/issues
+Changelog: https://github.com/AKS-Labs/CloudGallery/releases
+
+AutoName: Chitralaya
+
+MaintainerNotes:
+  AppAdded: 2025-11-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/AKS-Labs/CloudGallery/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: needed to access images for upload
+    android.permission.READ_EXTERNAL_STORAGE: needed on some Android versions to access files for upload
+
+AllowedAPKSigningKeys: f0a783ebe9ed903874e99ce35f7d10897f9909a0e3826883bdd83755704ed5b5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

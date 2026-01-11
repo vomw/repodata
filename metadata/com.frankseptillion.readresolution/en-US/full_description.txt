@@ -1,0 +1,1 @@
+<p><i>Detect Resolution</i> is a tiny app to read Display Resolution information off of an Android device. It shows the resolution in Pixels(px) and DiPs(dp), and also the refresh rate of the screen in Hertz (Hz).</p>

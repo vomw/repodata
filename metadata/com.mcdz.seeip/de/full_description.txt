@@ -1,0 +1,1 @@
+<p><i>Local IP</i> fügt den QuickSettings eine Kachel hinzu, die die lokale und auch die öffentliche IP-Adresse Deines Androiden anzeigt.</p>

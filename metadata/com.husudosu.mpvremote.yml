@@ -1,0 +1,23 @@
+Categories:
+  - Connectivity
+  - Multimedia
+License: MIT
+AuthorName: Ferenc Nánási
+SourceCode: https://github.com/husudosu/mpv-remote-app
+IssueTracker: https://github.com/husudosu/mpv-remote-app/issues
+Changelog: https://github.com/husudosu/mpv-remote-app/releases
+
+AutoName: MPV Remote
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-02-12
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-11-18 last release 3/2023, last commit 4/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 8d4543c46427fb6a458e216c31b440cca92446c39f6373574e1455ed09ac3fb7
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

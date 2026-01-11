@@ -1,0 +1,1 @@
+<p><i>PerfMon+</i> is a simple performance monitor for Android. It shows a small floating window with performance details:</p><ul><li>cpufreq</li><li>cpuload</li><li>gpufreq</li><li>gpuload</li><li>cpubw freq</li><li>mincpubw</li><li>m4m cache freq</li><li>system cache (llc) freq</li><li>memory usage</li><li>current</li></ul>

@@ -1,0 +1,31 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2021-05-15, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2021-05-15 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Kr328
+AuthorEmail: kr328app@outlook.com
+SourceCode: https://github.com/Kr328/ClashForAndroidDeprecated
+
+AutoName: Clash for Android
+
+MaintainerNotes:
+  AppAdded: 2021-06-08
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-armeabi-v7/i
+  ApkIgnore: /premium/i
+  NameSpaces:
+    - /com/github/kr328/clash
+  IntentFilterIgnore:
+    android.net.VpnService: the app acts as proxy
+  Status:
+    - 2023-11-06 repo gone => NoSourceSince
+    - 2025-05-13 a little research turned up the archived repo (old location was https://github.com/Kr328/ClashForAndroid), removed NoSourceSince and updated description
+  X-AutoUpdateMode: Version v%v versionName has "foss" appended
+
+AllowedAPKSigningKeys: c75ca7a8a2a8e5a45612aece7f572d4e23961778ef6ccd623144fd0016588af0
+
+UpdateCheckMode: None

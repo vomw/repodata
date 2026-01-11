@@ -1,0 +1,29 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Alex Rintt
+AuthorEmail: reach@alexrintt.io
+AuthorWebSite: https://alexrintt.io/
+SourceCode: https://github.com/alexcmgit/kanade
+IssueTracker: https://github.com/alexcmgit/kanade/issues
+Changelog: https://github.com/alexcmgit/kanade/releases
+
+AutoName: Kanade
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-11-08
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /(arm64|armeabi|x86)/i
+  Fastlane: https://github.com/alexcmgit/kanade/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane based on our starter package
+  Status:
+    - 2025-02-16 last release 2022-11-23, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 215f7ab344a0e29d9c8f1a6f9b824b1a9a9dc1a51a9e8e8a7c97c89414bfb374
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

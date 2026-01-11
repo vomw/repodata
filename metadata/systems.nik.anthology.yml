@@ -1,0 +1,23 @@
+Categories:
+  - Reading
+License: AGPL-3.0-only
+AuthorName: Nikhil M Warrier
+AuthorWebSite: https://nikhilmwarrier.codeberg.page/
+SourceCode: https://github.com/nikhilmwarrier/anthology
+IssueTracker: https://github.com/nikhilmwarrier/anthology/issues
+Changelog: https://github.com/nikhilmwarrier/anthology/releases
+
+AutoName: Anthology
+
+MaintainerNotes:
+  AppAdded: 2025-11-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nikhilmwarrier/anthology/tree/main/fastlane/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: '@nikhilmwarrier@social.linux.pizza'
+
+AllowedAPKSigningKeys: e1bd86066830493052881c6c4c880b9c89c589586c06116797089f2aa7734ed3
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,31 @@
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Draekko RAND
+SourceCode: https://gitlab.com/draekko-rand/compassnavigator
+IssueTracker: https://gitlab.com/draekko-rand/compassnavigator/-/issues
+Changelog: https://gitlab.com/draekko-rand/compassnavigator/-/releases
+Bitcoin: bc1qech68pjafrvp0s409sdnrdu28elgqh08r4zx4s
+
+AutoName: Compass Navigator
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-10-11
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/draekko-rand/compassnavigator/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: GMS here is microG location
+  NameSpaces:
+    - /com/draekko/common/lib
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: for auto declination adjustments using GPS
+    android.permission.ACCESS_FINE_LOCATION: for auto declination adjustments using GPS
+  LibIgnore:
+    - /com/google/android/gms
+
+AllowedAPKSigningKeys: b8567aff985ba805d02ddf0d87b00381a05573404138595caad19af55d05af1f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

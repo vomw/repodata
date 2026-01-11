@@ -1,0 +1,29 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: sunilpaulmathew
+AuthorEmail: smartpack.org@gmail.com
+AuthorWebSite: https://smartpack.github.io/
+SourceCode: https://gitlab.com/sunilpaulmathew/ashell
+IssueTracker: https://gitlab.com/sunilpaulmathew/ashell/-/issues
+Changelog: https://gitlab.com/sunilpaulmathew/ashell/-/releases
+Liberapay: sunilpaulmathew
+Donate: https://smartpack.github.io/donation/
+
+AutoName: aShell
+
+MaintainerNotes:
+  AppAdded: 2022-11-29
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/sunilpaulmathew/ashell/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/fdroid/rfp/-/issues/2270#note_1189342538
+  Status:
+    - 2022-11-29 added on request by author, keep on request by author – see https://gitlab.com/fdroid/rfp/-/issues/2270#note_1189342538
+
+AllowedAPKSigningKeys: b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

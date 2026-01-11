@@ -1,0 +1,23 @@
+Categories:
+  - Multimedia
+License: 0BSD
+AuthorName: aicodix GmbH
+AuthorEmail: info@aicodix.de
+AuthorWebSite: https://www.aicodix.de/cofdmtv/
+SourceCode: https://github.com/aicodix/shredpix
+IssueTracker: https://github.com/aicodix/shredpix/issues
+Changelog: https://github.com/aicodix/shredpix/releases
+
+AutoName: Shredpix - Encode COFDMTV
+
+MaintainerNotes:
+  AppAdded: 2025-03-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/aicodix/shredpix/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,video,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: b68ff5248273a1d8616c64f6b96c189a062a1f6e2e2966aac71e9d1918a2ed74
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

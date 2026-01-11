@@ -1,0 +1,24 @@
+Categories:
+  - Office
+License: Apache-2.0
+AuthorName: FSWMdev
+AuthorEmail: fswmdev@gmail.com
+AuthorWebSite: https://fishies.me/
+SourceCode: https://github.com/mrwm/QRshare
+IssueTracker: https://github.com/mrwm/QRshare/issues
+Changelog: https://github.com/mrwm/QRshare/releases
+
+AutoName: QRshare
+
+MaintainerNotes:
+  AppAdded: 2024-12-31
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/mrwm/QRshare/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: e42fc590cebbffb1434270cd226d6d70337d04419585c53652d80ceb942b3829
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

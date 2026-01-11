@@ -1,0 +1,32 @@
+Categories:
+  - Multimedia
+License: MPL-2.0
+AuthorName: roc-streaming
+AuthorWebSite: https://roc-streaming.org/
+SourceCode: https://github.com/roc-streaming/roc-droid
+IssueTracker: https://github.com/roc-streaming/roc-droid/issues
+
+AutoName: roc-droid
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-11-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/roc-streaming/roc-droid/tree/main/metadata/android
+  FastlaneFeatures: title,shortdesc,icon,screenshots
+  FastlaneIgnore: fulldesc
+  Note: fulldesc incomplete
+  DoubleList: keep
+  DoubleListRef: https://github.com/roc-streaming/roc-droid/issues/27#issuecomment-2133123601
+  PermIgnore:
+    android.permission.RECORD_AUDIO: required to receive audio to decode
+  Status:
+    - 2022-12-11 never updates versionCode & versionName, see https://github.com/roc-streaming/roc-droid/issues/27#issuecomment-1345586240
+    - 2024-05-27 app became available at F-Droid 2024-05-09, Readme still carries the IoD badge; asking whether to keep https://github.com/roc-streaming/roc-droid/issues/27#issuecomment-2133123601
+    - 2025-06-27 last commit/release 2024-06-14; UCM Tags=>Static
+  X-AutoUpdateMode: Version v%v -- not working as vn does not match, see https://github.com/roc-streaming/roc-droid/issues/24
+
+AllowedAPKSigningKeys: b480bcd4d6bab7cc6cf9c560fa629cbca4d6495d0f34355d16cc66e899c8bfe5
+
+UpdateCheckMode: Static

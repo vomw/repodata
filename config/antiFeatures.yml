@@ -1,0 +1,58 @@
+Ads:
+  name: Ads
+  description: This app contains advertising
+  icon: ic_antifeature_ads.png
+DisabledAlgorithm:
+  name: Signed Using An Unsafe Algorithm
+  description: This app has a weak security signature
+  icon: ic_antifeature_disabledalgorithm.png
+KnownVuln:
+  name: Known Vulnerability
+  description: This app contains a known security vulnerability
+  icon: ic_antifeature_knownvuln.png
+NSFW:
+  name: NSFW
+  description: This app contains content that should not be publicized or visible
+    everywhere
+  icon: ic_antifeature_nsfw.png
+NoSourceSince:
+  name: Source code no longer available
+  description: The source code is no longer available, no updates possible.
+  icon: ic_antifeature_nosourcesince.png
+NonFreeAdd:
+  name: Non-Free Addons
+  description: This app promotes non-free add-ons
+  icon: ic_antifeature_nonfreeadd.png
+NonFreeAssets:
+  name: Non-Free Assets
+  description: This app contains non-free assets
+  icon: ic_antifeature_nonfreeassets.png
+NonFreeComp:
+  name: Non-Free Components
+  description: This app contains non-free components/libraries
+  icon: ic_antifeature_nonfreecomp.png
+NonFreeDep:
+  name: Non-Free Dependencies
+  description: This app depends on other non-free apps or contains non-free
+    libraries
+  icon: ic_antifeature_nonfreedep.png
+NonFreeNet:
+  name: Non-Free Network Services
+  description: This app promotes or depends entirely on a non-free network service
+  icon: ic_antifeature_nonfreenet.png
+TetheredNet:
+  name: TetheredNet
+  description: This app promotes or depends entirely on a certain instance of a network service.
+  icon: ic_antifeature_tetherednet.png
+Tracking:
+  name: Tracking
+  description: This app tracks and reports your activity
+  icon: ic_antifeature_tracking.png
+SourceArchived:
+  name: Upstream Repo Archived
+  description: The app’s source code repository has been archived, so there will be no further updates.
+  icon: ic_antifeature_sourcearchived.png
+UpstreamNonFree:
+  name: Upstream Non-Free
+  description: The upstream source code is not entirely Free
+  icon: ic_antifeature_upstreamnonfree.png

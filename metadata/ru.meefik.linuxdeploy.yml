@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Anton Skshidlevsky
+AuthorEmail: meefik@gmail.com
+AuthorWebSite: https://meefik.github.io/
+SourceCode: https://github.com/meefik/linuxdeploy
+IssueTracker: https://github.com/meefik/linuxdeploy/issues
+Changelog: https://github.com/meefik/linuxdeploy/releases
+Donate: https://meefik.github.io/donate
+
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2016-03-20
+  Method: github-release
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 2/2020)
+    - 2023-08-08 last release 2/2020, last commit 8/2021
+    - 2025-11-18 despite being unmaintained, it’s [still widely used](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15#issuecomment-8331909), so we’ll keep it
+    - 2026-01-11 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: 78439b51ce79000efad2bae9755a9c673ff5240d2cb9cb5eb01c746519abfb3b
+
+ArchivePolicy: 1
+UpdateCheckMode: None

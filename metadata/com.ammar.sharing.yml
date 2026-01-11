@@ -1,0 +1,34 @@
+Categories:
+  - System
+License: AGPL-3.0-only
+AuthorName: Ammar64
+SourceCode: https://github.com/Ammar64/Sharing
+IssueTracker: https://github.com/Ammar64/Sharing/issues
+Changelog: https://github.com/Ammar64/Sharing/releases
+
+AutoName: sharing
+
+MaintainerNotes:
+  AppAdded: 2024-07-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Ammar64/Sharing/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed for direct device-to-device transfer
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to access files to send
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to store received files
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed to store received files
+    android.permission.QUERY_ALL_PACKAGES: needed to list apps to share
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to install received apps
+  DoubleList: keep
+  Status:
+    - 2024-07-15 arrived at F-Droid 2024-07-10 (RB on both ends)
+    - 2024-08-08 signing key changed and app no longer RB, see https://github.com/Ammar64/Sharing/issues/9 (Tags=>Static until solved)
+    - 2024-08-11 rebranded from com.ammar.filescenter for a fresh start
+
+AllowedAPKSigningKeys: 6042462dcefe2df10564b8d48b5d575dc4cc154a512013f541fa64bc19e95cd7
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,34 @@
+Categories:
+  - Navigation
+  - System
+  - Theming
+License: GPL-3.0-only
+AuthorName: MLM Games
+AuthorEmail: mlm.gamestudio@gmail.com
+AuthorWebSite: https://ragebreaker.itch.io/
+WebSite: https://github.com/mlm-games/CLauncher
+SourceCode: https://github.com/mlm-games/CLauncher
+IssueTracker: https://github.com/mlm-games/CLauncher/issues
+Changelog: https://github.com/mlm-games/CLauncher/blob/HEAD/CHANGELOG.md
+
+AutoName: Clauncher
+
+MaintainerNotes:
+  AppAdded: 2025-04-30
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/mlm-games/CLauncher/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneIgnore: changelogs
+  Note: changelogs just contain a dummy
+  DoubleList: keep
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: used for the "double tap to lock" feature
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list all available apps
+    android.permission.REQUEST_DELETE_PACKAGES: used to uninstall apps on request
+
+AllowedAPKSigningKeys: 4aed2f691df64a7b0fea25a6b8c80183c6dc520e049dac0178defa1d6472228f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

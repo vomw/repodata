@@ -1,0 +1,24 @@
+Categories:
+  - Graphics
+License: Apache-2.0
+AuthorName: Thaddeus Thomas
+AuthorEmail: thaddeus.r.thomas@gmail.com
+AuthorWebSite: https://thomasthaddeus.com/
+SourceCode: https://github.com/thomasthaddeus/QRCodeGenius
+IssueTracker: https://github.com/thomasthaddeus/QRCodeGenius/issues
+Changelog: https://github.com/thomasthaddeus/QRCodeGenius/releases
+
+AutoName: ProgrammingTools
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-01-22
+  Method: github-release
+  GHSkipPre: 1
+  X-AutoUpdateMode: Version v%v sometimes uppercase, other times lowercase V
+  Status:
+    - 2024-12-10 last release 12/2023, last commit 1/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: ad1a71535c75aa3c209e501de3168ae485c92897afa9ffa00973d5fdbe332dc8
+
+UpdateCheckMode: Static

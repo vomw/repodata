@@ -1,0 +1,1 @@
+enable screenshots, screen sharing and recording in apps that wouldn't allow it

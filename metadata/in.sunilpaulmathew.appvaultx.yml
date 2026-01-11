@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: sunilpaulmathew
+AuthorEmail: smartpack.org@gmail.com
+AuthorWebSite: https://smartpack.github.io/
+SourceCode: https://github.com/sunilpaulmathew/AppVaultX
+IssueTracker: https://github.com/sunilpaulmathew/AppVaultX/issues
+Translation: https://poeditor.com/join/project/9RjHEoKPIK
+Changelog: https://github.com/sunilpaulmathew/AppVaultX/releases
+
+AutoName: AppVaultX
+
+MaintainerNotes:
+  AppAdded: 2025-10-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sunilpaulmathew/AppVaultX/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to obtain a list of all apps to manage
+
+AllowedAPKSigningKeys: b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

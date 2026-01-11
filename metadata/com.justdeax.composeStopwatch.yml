@@ -1,0 +1,25 @@
+Categories:
+  - Time
+License: Apache-2.0
+AuthorName: JustDeax
+SourceCode: https://github.com/JustDeax/ComposeStopwatch
+IssueTracker: https://github.com/JustDeax/ComposeStopwatch/issues
+Changelog: https://github.com/JustDeax/ComposeStopwatch/releases
+
+AutoName: Compose Stopwatch
+
+MaintainerNotes:
+  AppAdded: 2024-08-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/JustDeax/ComposeStopwatch/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  Status:
+    - 2025-05-17 signing ky changed, see https://github.com/JustDeax/ComposeStopwatch/issues/4 (UCM Tags=>Static for now)
+    - 2025-06-22 verified via mails and commits, see https://github.com/JustDeax/ComposeStopwatch/issues/4#issuecomment-2922327608
+
+AllowedAPKSigningKeys: 6b2ab59a567e5e05d5a3d56366bd5ae0d12a11ee2e1046d54d149bfa5343d2e0
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,26 @@
+Categories:
+  - Xposed
+  - Theming
+License: GPL-3.0-only
+AuthorName: RichardLuo
+SourceCode: https://github.com/RichardLuo0/global-icon-pack-android
+IssueTracker: https://github.com/RichardLuo0/global-icon-pack-android/issues
+
+AutoName: Global Icon Pack
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2024-12-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /Es
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to identify apps for the icons
+
+AllowedAPKSigningKeys: 4b285259d29e7fe0e5ac7ca0e0987445992d8feaa48e3054e579d97005d616b3
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

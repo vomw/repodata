@@ -1,0 +1,27 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Giovanni Iannaccone & Rax-x
+AuthorEmail: iannacconegiovanni444@gmail.com
+AuthorWebSite: https://giovanni-iannaccone.github.io/
+SourceCode: https://github.com/giovanni-iannaccone/FlutCrack
+IssueTracker: https://github.com/giovanni-iannaccone/FlutCrack/issues
+Changelog: https://github.com/giovanni-iannaccone/FlutCrack/releases
+
+AutoName: FlutCrack
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-09-03
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/giovanni-iannaccone/FlutCrack/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to read wordlists from storage
+    android.permission.WRITE_EXTERNAL_STORAGE: to write wordlists to storage
+
+AllowedAPKSigningKeys: 6523fae19a48b10a5c119ce13ad937c6212c6991c073580a448b095fdae7839d
+
+AutoUpdateMode: Version FlutCrack%v
+UpdateCheckMode: Tags

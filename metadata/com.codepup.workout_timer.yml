@@ -1,0 +1,28 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Code Pup
+AuthorEmail: mabe.abby.a@gmail.com
+SourceCode: https://github.com/a-mabe/OpenHIIT
+IssueTracker: https://github.com/a-mabe/OpenHIIT/issues
+Changelog: https://github.com/a-mabe/OpenHIIT/releases
+
+AutoName: OpenHIIT
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-11-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/a-mabe/OpenHIIT/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: our starter package
+  NameSpaces:
+    - /id/flutter/openhiit_background_service
+  Status:
+    - 2024-07-07 scanner reports storage permissions and dependency blob – https://github.com/a-mabe/OpenHIIT/issues/156
+
+AllowedAPKSigningKeys: 2f791705edd65a291f2ccfbfe1dc9b7b3751677a55021956788b8f65d97dc59f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

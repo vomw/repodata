@@ -1,0 +1,31 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Matthias Urhahn
+AuthorEmail: support@darken.eu
+AuthorWebSite: https://darken.eu/
+SourceCode: https://github.com/d4rken-org/bluemusic
+IssueTracker: https://github.com/d4rken-org/bluemusic/issues
+Changelog: https://github.com/d4rken-org/bluemusic/releases
+
+AutoName: Bluetooth Volume Manager
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-07-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/d4rken-org/bluemusic/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  FastlaneIgnore: video
+  Note: video.txt empty
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed on newer Android versions to change/monitor volume while the app is in the background
+  Status:
+    - 2024-08-02 scanner reports DEPENDENCY_INFO_BLOCK SYSTEM_ALERT_WINDOW – https://github.com/d4rken-org/bluemusic/issues/86
+    - 2025-08-15 signing key changed, new key confirmed by mail 2025-08-18, see https://github.com/d4rken-org/bluemusic/issues/122
+
+AllowedAPKSigningKeys: dc8c7173ec14333a6bcb5bc442ebad3bb6051fc19b732cad1a5a783904dade05
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

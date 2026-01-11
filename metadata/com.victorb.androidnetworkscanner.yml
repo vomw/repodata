@@ -1,0 +1,24 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: Victor B.
+SourceCode: https://github.com/marie-bnl/android-ip-scanner
+IssueTracker: https://github.com/marie-bnl/android-ip-scanner/issues
+
+AutoName: Android Network Scanner
+
+MaintainerNotes:
+  AppAdded: 2021-01-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/marie-bnl/android-ip-scanner/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,screenshotsJPG
+  Status:
+    - 2021-02-10 switch from Tags to Static as Victor permanently messes around with versionCode
+    - 2021-02-12 and back (fixed)
+    - 2022-05-02 and Static again (no commits since 8/2021, no tags since 2/2021)
+
+AllowedAPKSigningKeys: 8d7d95f180ec79768a84e7ca9a9ea292fa84db75a1639fd7481e57dacde137f1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,26 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-10-11, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-10-11 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Xposed
+License: Apache-2.0
+AuthorName: ThePieMonster
+SourceCode: https://github.com/ThePieMonster/HideMockLocation
+IssueTracker: https://github.com/ThePieMonster/HideMockLocation/issues
+
+AutoName: Hide Mock Location
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-04-07
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 3/2022, last commit 3/2022)
+    - 2025-07-17 repo was archived 2024-10-11, disabling updates
+
+AllowedAPKSigningKeys: 7c449cca0dd5eed0379d0ee6de0c1ef4df6280fdafdfee6340bba2be3b82166b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

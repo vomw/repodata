@@ -1,0 +1,28 @@
+Categories:
+  - Connectivity
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: SoundRemote
+AuthorWebSite: https://soundremote.github.io/
+SourceCode: https://github.com/SoundRemote/client-android
+IssueTracker: https://github.com/SoundRemote/client-android/issues
+Changelog: https://github.com/SoundRemote/client-android/releases
+
+AutoName: SoundRemote
+
+MaintainerNotes:
+  AppAdded: 2024-12-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SoundRemote/client-android/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_PHONE_STATE: used (only if granted) to detect call start/end and perform actions on those events.
+  Status:
+    - 2025-01-02 scanner reports android.permission.READ_PHONE_STATE – https://gitlab.com/fdroid/rfp/-/issues/2954#note_2278763212
+
+AllowedAPKSigningKeys: 6bdd7998e381d4e5d4e0c7bfc50dffbe816e2a3fb5e1c867e72fad65ffd4eef5
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

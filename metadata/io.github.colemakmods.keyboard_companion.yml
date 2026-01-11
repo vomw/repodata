@@ -1,0 +1,27 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: ColemakMods
+AuthorEmail: apps.stevep@gmail.com
+AuthorWebSite: https://stevep99.github.io/
+SourceCode: https://github.com/stevep99/keyboard-layout-companion
+IssueTracker: https://github.com/stevep99/keyboard-layout-companion/issues
+
+AutoName: Keyboard Layout Companion
+
+MaintainerNotes:
+  AppAdded: 2023-10-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/stevep99/keyboard-layout-companion/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-03-23 last release/commit 2024-01-14; UCM Tags=>Static
+    - 2025-10-04 upstreamed our local fastlane metadata via https://github.com/stevep99/keyboard-layout-companion/pull/4
+    - 2025-11-13 2 new releases in 2025, 1 in 2024; keeping UCM at Static
+
+AllowedAPKSigningKeys: d88deb09ec0c800a314139617633a0786f448c25d211f6bd023ae2f163b0d4d9
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

@@ -1,0 +1,45 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes libraries of MLKit, Firebase and Google Mobile Services.
+    de: Die App enthält Bibliotheken von MLKit, Firebase und Google Mobile Services.
+  NonFreeNet:
+    en-US: The app uses connections to Google Servers (GMS, Firebase).
+    de: Die App verwendet Verbindungen zu Google Servern (GMS, Firebase).
+  Tracking:
+    en-US: MLKit includes tracking components.
+    de: MLKit enthält Tracking-Komponenten.
+Categories:
+  - Sports & Health
+License: AGPL-3.0-only
+AuthorName: Roberto Viola
+AuthorWebSite: https://robertoviola.cloud/
+SourceCode: https://github.com/cagnulein/QZCompanionNordictrackTreadmill
+IssueTracker: https://github.com/cagnulein/QZCompanionNordictrackTreadmill/issues
+
+AutoName: QZ Companion Nordictrack Treadmill
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-01-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/cagnulein/QZCompanionNordictrackTreadmill/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: needed to allow the qz app on a device to swipe over the ifit app to change e.g. speed or inclination
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: It is unclear which effect a removal of this permission would have on a specific Threadmill device, they run specific Android flavors. See https://github.com/cagnulein/QZCompanionNordictrackTreadmill/issues/77
+    android.permission.READ_EXTERNAL_STORAGE: Some Threadmill devices seem rather specific in handling, see MANAGE_EXTERNAL_STORAGE.
+  Status:
+    - 2023-10-20 UCM Tags=>Static as GH action generates a new debug key for each release, https://github.com/cagnulein/QZCompanionNordictrackTreadmill/issues/61
+    - 2023-12-18 UCM Tags again, now finally with stable release key
+    - 2024-01-18 scanner reported MANAGE_EXTERNAL_STORAGE – https://github.com/cagnulein/QZCompanionNordictrackTreadmill/issues/77
+    - 2024-08-02 scanner reported android.accessibilityservice.AccessibilityService – https://github.com/cagnulein/QZCompanionNordictrackTreadmill/issues/104
+    - 2024-12-27 scanner reported android.permission.SYSTEM_ALERT_WINDOW (and MLKit, Firebase, GMS) – https://github.com/cagnulein/QZCompanionNordictrackTreadmill/issues/122
+    - 2025-01-18 upstreaming our local Fastlane metadata via https://github.com/cagnulein/QZCompanionNordictrackTreadmill/pull/124
+    - 2025-11-13 as after one year trying, all attempts to replace MLKit so far failed, suggested a foss flavor at https://github.com/cagnulein/QZCompanionNordictrackTreadmill/issues/122#issuecomment-3530017025
+
+AllowedAPKSigningKeys: 154add7415a9d7635aa38c109939c8d08ee6ed7fdf0027b84bf7fcb0c8e50262
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

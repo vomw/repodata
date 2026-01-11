@@ -1,0 +1,27 @@
+Categories:
+  - System
+  - Xposed
+License: AGPL-3.0-only
+AuthorName: David Berdik
+AuthorEmail: berdikd@duq.edu
+SourceCode: https://github.com/DavidBerdik/Let-Me-Downgrade
+IssueTracker: https://github.com/DavidBerdik/Let-Me-Downgrade/issues
+Changelog: https://github.com/DavidBerdik/Let-Me-Downgrade/releases
+
+AutoName: Let Me Downgrade
+ArchivePolicy: 2
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-08-31
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/DavidBerdik/Let-Me-Downgrade/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/DavidBerdik/Let-Me-Downgrade/pull/1#issuecomment-1235949331
+
+AllowedAPKSigningKeys: ad9f71bc93d20d9219723cd166d9b6286f79a0b73a43d6651eb35c6e7d480d6a
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

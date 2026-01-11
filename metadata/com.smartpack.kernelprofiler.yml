@@ -1,0 +1,33 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2023-03-24, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2023-03-24 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: sunilpaulmathew
+AuthorEmail: sunil.kde@gmail.com
+AuthorWebSite: https://smartpack.github.io/
+WebSite: https://github.com/SmartPack/KernelProfiler/wiki
+SourceCode: https://github.com/SmartPack/KernelProfiler
+IssueTracker: https://github.com/SmartPack/KernelProfiler/issues
+Changelog: https://github.com/SmartPack/KernelProfiler/releases/latest
+Donate: https://www.paypal.com/paypalme/menacherry
+
+AutoName: Kernel Profiler
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2020-12-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SmartPack/KernelProfiler/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
+  Status:
+    - 2022-11-07 no release since 6/2021, last commit 6/2021; switch from Tags to Static
+    - 2023-08-07 repo was archived 2023-03-24, disabling updates (from Static)
+
+AllowedAPKSigningKeys: b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

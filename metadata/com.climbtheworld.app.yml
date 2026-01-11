@@ -1,0 +1,24 @@
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: xyz-relativity
+AuthorEmail: xyz.relativity@gmail.com
+SourceCode: https://github.com/xyz-relativity/ClimbTheWorld-Android
+IssueTracker: https://github.com/xyz-relativity/ClimbTheWorld-Android/issus
+Changelog: https://github.com/xyz-relativity/ClimbTheWorld-Android/releases
+
+AutoName: Climb The World
+
+MaintainerNotes:
+  AppAdded: 2022-11-21
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /bugfix/osmdroid/tileprovider
+  Status:
+    - 2025-06-27 last release 2023-01-30; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 0999d7b51ff99fd971d3d1bae7fba00919dd81a1ae4fbf75e1f796ae0d4f4176
+
+AutoUpdateMode: Version Release-%v
+UpdateCheckMode: Static

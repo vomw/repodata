@@ -1,0 +1,30 @@
+Categories:
+  - Development
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: ECHOO
+AuthorEmail: vishalsingh2376@gmail.com
+SourceCode: https://github.com/vishal2376/git-coach
+IssueTracker: https://github.com/vishal2376/git-coach/issues
+Changelog: https://github.com/vishal2376/git-coach/releases
+
+AutoName: Git Coach
+
+MaintainerNotes:
+  AppAdded: 2023-06-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/vishal2376/git-coach/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  LibIgnore:
+    - /org/acra
+  Status:
+    - 2023-06-29 disabled updates as Trackers + Ads were added summing up to 9 offending libs, see https://github.com/vishal2376/git-coach/issues/3
+    - 2023-07-05 re-enabled update as offenders have been removed and replaced by ACRA (opt-in)
+    - 2024-12-29 UCM Tags=>Static as signing key changed, waiting for verification
+
+AllowedAPKSigningKeys: e25357e87086abf10bfaf941503ad8871456801d2514175fbad30c24007070ee
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

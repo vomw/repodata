@@ -1,0 +1,1 @@
+<p><i>Senslogs</i> zeichnet die Werte diverser Smartphone-Sensoren auf – etwa von Beschleunigungssensor (Accelerometer), Gyroscope, Magnetfeld, NFC, WLAN, GPS, Kamera, Herzfrequenz, Annäherungssensor (Proximity). Die meisten der Daten werden in CSV-Dateien auf dem Gerät gespeichert.</p>

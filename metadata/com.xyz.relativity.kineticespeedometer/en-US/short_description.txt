@@ -1,0 +1,1 @@
+A GPS kinetic energy speedometer with a non linear gauge.

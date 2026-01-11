@@ -1,0 +1,24 @@
+Categories:
+  - System
+  - Xposed
+License: GPL-3.0-only
+AuthorName: Kieron Quinn
+AuthorWebSite: https://kieronquinn.co.uk/
+SourceCode: https://github.com/KieronQuinn/SIMNumberSetter
+IssueTracker: https://github.com/KieronQuinn/SIMNumberSetter/issues
+Changelog: https://github.com/KieronQuinn/SIMNumberSetter/releases
+
+AutoName: SIM Number Setter
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-10-22
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-02-11 Tags => Static as no release since 2/2022 (last commit 2/2022)
+
+AllowedAPKSigningKeys: f207a4a20b844b4b441ddbbde5e1266b0ad4f9de9b27290c97e8372b0f3c7dfa
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

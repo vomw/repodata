@@ -1,0 +1,36 @@
+Categories:
+  - Theming
+  - Xposed
+License: GPL-3.0-only
+AuthorName: MonwF
+AuthorEmail: monwf@outlook.com
+SourceCode: https://github.com/MonwF/customiuizer
+IssueTracker: https://github.com/MonwF/customiuizer/issues
+Translation: https://customiuizer.oneskyapp.com/admin/project/dashboard/project/335607
+Changelog: https://github.com/MonwF/customiuizer/releases
+
+AutoName: CustoMIUIzer
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-01-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/MonwF/customiuizer/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter pacakge
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed to access Bluetooth/WiFi on some Android versions
+    android.permission.ACCESS_COARSE_LOCATION: needed to access Bluetooth/WiFi on some Android versions
+    android.permission.QUERY_ALL_PACKAGES: needed to e.g. find/show app details
+  NameSpaces:
+    - /name/mikanoshi/customiuizer
+  Status:
+    - 2024-01-24 scanner reported usesCleartextTraffic ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION READ_EXTERNAL_STORAGE QUERY_ALL_PACKAGES (app is Android 14+) – https://github.com/MonwF/customiuizer/issues/430
+    - 2024-03-14 plus DEPENDENCY_INFO_BLOCK
+    - 2025-10-06 upstreaming our Fastlane metadata via https://github.com/MonwF/customiuizer/pull/612
+
+AllowedAPKSigningKeys: 0bec108ccfabd380753d2ed68090398ddfe436d47d67bdb0bb50c969b80fc6a1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

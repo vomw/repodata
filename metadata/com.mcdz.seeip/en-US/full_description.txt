@@ -1,0 +1,1 @@
+<p><i>Local IP</i> adds a tile to be used in QuickSettings that displays Local and Public IP Address.</p>

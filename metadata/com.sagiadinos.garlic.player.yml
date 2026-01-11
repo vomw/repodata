@@ -1,0 +1,38 @@
+Categories:
+  - Multimedia
+License: AGPL-3.0-only
+AuthorName: Nikolaos Sagiadinos
+AuthorEmail: ns@smil-control.com
+AuthorWebSite: https://smil-control.com/
+WebSite: https://garlic-player.com/
+SourceCode: https://github.com/sagiadinos/garlic-player
+IssueTracker: https://github.com/sagiadinos/garlic-player/issues
+Changelog: https://raw.githubusercontent.com/sagiadinos/garlic-player/HEAD/Changelog.txt
+
+AutoName: garlic-player
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2021-06-07
+  Method: direct-link
+  ApkUrl: https://garlic-signage.com/downloads/ci-builds/latest_android_arm64-v8a_player.apk
+  Fastlane: https://github.com/garlic-signage/garlic-player/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  FastlaneService: github
+  Note: our starter package; see https://smil-control.com/magazine/what-is-a-digital-signage-player/ on what a SMIL player is
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: used to show location-based content with DooH (optional)
+    android.permission.CAMERA: used for interactive content with DooH (optional)
+    android.permission.RECORD_AUDIO: used for interactive content with DooH (optional)
+    android.permission.READ_EXTERNAL_STORAGE: used for caching and log functionality (implied by WRITE permission)
+    android.permission.WRITE_EXTERNAL_STORAGE: used for caching and log functionality (set automatically by Qt)
+  Status:
+    - 2023-12-14 APK size exceeds 80 MB meanwhile. Asked for per-ABI builds, which would be < 30 MB each again https://github.com/sagiadinos/garlic-player/issues/43
+    - 2024-02-06 scanner reports CAMERA RECORD_AUDIO ACCESS_FINE_LOCATION READ_EXTERNAL_STORAGE* – https://github.com/sagiadinos/garlic-player/issues/45
+    - 2024-03-01 permissions related to DooH (https://smil-control.com/magazine/digital-out-of-home/), asked for clarification of phrasing
+    - 2024-03-01 per-ABI builds are available now, switching to arm64
+    - 2025-08-18 upstreaming our Fastlane via https://github.com/garlic-signage/garlic-player/pull/53
+    - 2025-12-05 update checks fail as website cert is expired, see https://github.com/garlic-signage/garlic-player/issues/54 (adding UCM=Static for now)
+
+AllowedAPKSigningKeys: fcd5b21bf220696a491552afd9341c8d4a2d052c3559df62de4748062e26bf59
+UpdateCheckMode: Static

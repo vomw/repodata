@@ -1,0 +1,31 @@
+Categories:
+  - Social Network
+  - Messaging
+  - Internet
+License: GPL-3.0-only
+AuthorName: nuclearfog
+SourceCode: https://codeberg.org/nuclearfog/Smither
+IssueTracker: https://codeberg.org/nuclearfog/Smither/issues
+Changelog: https://codeberg.org/nuclearfog/Smither/releases
+
+AutoName: Smither
+
+MaintainerNotes:
+  AppAdded: 2025-02-10
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/nuclearfog/Smither/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: used to attach images to posts
+    android.permission.READ_MEDIA_VIDEO: used to attach videos to posts
+    android.permission.READ_MEDIA_AUDIO: used to attach audio files to posts
+    android.permission.READ_EXTERNAL_STORAGE: used to attach media (images, videos and audio files) to posts
+  Status:
+    - 2025-03-09 READ_MEDIA_IMAGES READ_MEDIA_VIDEO READ_MEDIA_AUDIO READ_EXTERNAL_STORAGE – https://codeberg.org/nuclearfog/Smither/issues/3
+
+AllowedAPKSigningKeys: e1a418c51baa829917daa2e86d7509a8a10470e44280c20146b70ea550bfe1ab
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

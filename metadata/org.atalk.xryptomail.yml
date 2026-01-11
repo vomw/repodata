@@ -1,0 +1,35 @@
+Categories:
+  - Internet
+License: Apache-2.0
+AuthorName: cmeng
+AuthorEmail: cmeng.gm@gmail.com
+WebSite: https://atalk.sytes.net/xmail
+SourceCode: https://github.com/cmeng-git/xmail
+IssueTracker: https://github.com/cmeng-git/xmail/issues
+Changelog: https://github.com/cmeng-git/xmail/releases
+
+AutoName: XryptoMail (Mail Client)
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-08-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/cmeng-git/xmail/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /org/android/xryptomail
+  PermIgnore:
+    android.permission.READ_CONTACTS: required to pick contacts as recipients
+    android.permission.READ_EXTERNAL_STORAGE: required to read files for attachments
+    android.permission.READ_MEDIA_AUDIO: needed on newer Android versions to access audio files for attachments
+  Status:
+    - 2024-07-20 scanner reports debug APK with android.permission.REQUEST_INSTALL_PACKAGES android.permission.ACCESS_MEDIA_LOCATION READ_CONTACTS READ_EXTERNAL_STORAGE READ_MEDIA_AUDIO READ_MEDIA_VIDEO READ_MEDIA_IMAGES android.permission.WRITE_CONTACTS – https://github.com/cmeng-git/xmail/issues/6
+    - 2024-07-23 release APK became available again, so re-enabled UCM. REQUEST_INSTALL_PACKAGES is just used by the debug APK.
+    - 2025-08-22 upstreaming our local Fastlane metadata via https://github.com/cmeng-git/xmail/pull/9
+
+AllowedAPKSigningKeys: 332fbf545a4903d5d7603a48f4df236e6cd4f947415c52e48a9c7785090e205d
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

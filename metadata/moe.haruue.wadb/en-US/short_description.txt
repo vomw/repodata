@@ -1,0 +1,1 @@
+simple switch for adb over network

@@ -1,0 +1,24 @@
+Categories:
+  - Office
+License: GPL-3.0-or-later
+AuthorName: Askanimus
+SourceCode: https://gitlab.com/Askanimus/qr-lager
+IssueTracker: https://gitlab.com/Askanimus/qr-lager/-/issues
+
+AutoName: QR Lager
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-10-20
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/Askanimus/qr-lager/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,featureGraphic,screenshots
+  Note: icon is JPEG
+  PermIgnore:
+    android.permission.CAMERA: needed for the integrated QR Code scanner
+
+AllowedAPKSigningKeys: 823d8c76fba525ccd76fd1caa1885269faf2e607163cbd1038829f2328d840a9
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

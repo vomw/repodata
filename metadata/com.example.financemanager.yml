@@ -1,0 +1,25 @@
+Categories:
+  - Money
+License: Apache-2.0
+AuthorName: Ethanscharlie
+SourceCode: https://github.com/Ethanscharlie/Cash-On-Track
+IssueTracker: https://github.com/Ethanscharlie/Cash-On-Track/issues
+Changelog: https://github.com/Ethanscharlie/Cash-On-Track/releases
+
+AutoName: Cash On Track
+
+MaintainerNotes:
+  AppAdded: 2025-07-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Ethanscharlie/Cash-On-Track/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-07-28 v1.0.1 still claims to be 1.0+1, UCM Tags=>Static for now; https://github.com/Ethanscharlie/Cash-On-Track/issues/2
+    - 2026-01-02 versionCode fixed, but now uses different signing key
+
+AllowedAPKSigningKeys: aaaeab0b1f478106290d8904901741bd853ae3241ae9e9f1c2d48097dc9608ee
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

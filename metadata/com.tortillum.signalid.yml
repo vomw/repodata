@@ -1,0 +1,21 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Neosama
+AuthorWebSite: https://neosama.github.io/
+SourceCode: https://github.com/Neosama/SignalID
+IssueTracker: https://github.com/Neosama/SignalID/issues
+
+AutoName: SignalID
+
+MaintainerNotes:
+  AppAdded: 2020-08-06
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-10-31 no updates for 1y 2m 22d, setting from Tags to Static
+    - 2023-08-07 releases gone; last commit 9/2020; disabling updates
+
+AllowedAPKSigningKeys: afcb48d3a7ca390a24cda1472cd35cc90a7e48319874a9d1d1652884b5f0dc68
+
+UpdateCheckMode: None

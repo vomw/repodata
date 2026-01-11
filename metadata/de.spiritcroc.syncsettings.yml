@@ -1,0 +1,27 @@
+AntiFeatures:
+  NonFreeAdd:
+    en-US: A Tasker/Locale supporting app is required.
+    de: Es wirt eine App mit Unterstützung für Tasker/Locale benötigt.
+Categories:
+  - Automation
+License: GPL-3.0-only
+AuthorName: SpiritCroc
+AuthorEmail: info@spiritcroc.de
+WebSite: https://spiritcroc.de/android/apps/syncsettings/
+SourceCode: https://github.com/SpiritCroc/SyncSettings
+IssueTracker: https://github.com/SpiritCroc/SyncSettings/issues
+Changelog: https://github.com/SpiritCroc/SyncSettings/releases
+
+AutoName: Sync Settings
+
+MaintainerNotes:
+  AppAdded: 2017-03-09
+  Method: github-release
+  Status:
+    - 2020-11-01 last update 1y 0m 17d ago, switching UCM from Tags to Static
+    - 2023-08-08 last release 10/2019, last commit 10/2019, author still active
+    - 2026-01-10 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: 6612ade7e93174a589cf5ba26ed3ab28231a789640546c8f30375ef045bc9242
+
+UpdateCheckMode: None

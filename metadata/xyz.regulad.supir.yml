@@ -1,0 +1,25 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Parker Wahle
+AuthorEmail: regulad@regulad.xyz
+AuthorWebSite: https://t.regulad.xyz/
+SourceCode: https://github.com/regulad/SupIR
+IssueTracker: https://github.com/regulad/SupIR/issues
+
+AutoName: SupIR
+
+MaintainerNotes:
+  AppAdded: 2024-10-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/regulad/SupIR/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/regulad/SupIR/pull/7
+
+AllowedAPKSigningKeys: 1736965a37db22567bd285fb4c6683809126df7c3498fc19604f30dec1d600e4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

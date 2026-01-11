@@ -1,0 +1,20 @@
+<p><i>clipboard-service</i> is a simple Android service that accepts the string and saves it to clipboard. It can be used to save string from computer to clipboard in Android device.</p>
+
+<p><br><b>Usage</b></p>
+<p>Run these commands from computer's command-line terminal. Device needs to be connected via <a href='https://developer.android.com/studio/command-line/adb' target='_blank' rel='nofollow'>ADB</a>.</p>
+<pre><code># Start service and pass a string value to be saved in device's clipboard:
+adb shell am startservice -a eu.micer.ClipboardService -e text "SampleText"
+
+# Invoke paste action:
+adb shell input keyevent 279</code></pre>
+
+<p><br><b>Not working?</b></p>
+<p>It can happen that you get this error:
+<pre><code> ~ adb shell am startservice -a eu.micer.ClipboardService -e text "SampleText"
+Starting service: Intent { act=eu.micer.ClipboardService (has extras) }
+Error: app is in background uid null</code></pre>
+
+<p>You just need to start the app via command:</p>
+<pre><code>adb shell am start -n eu.micer.clipboardservice/eu.micer.clipboardservice.EmptyActivity</code></pre>
+
+<p>or find the ClipboardService in the app list and start it manually.</p>

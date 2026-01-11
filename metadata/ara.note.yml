@@ -1,0 +1,22 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: hossein hashemi
+SourceCode: https://github.com/hashemi-hossein/ara-note
+IssueTracker: https://github.com/hashemi-hossein/ara-note/issues
+
+AutoName: Ara Note
+
+MaintainerNotes:
+  AppAdded: 2023-03-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/hashemi-hossein/ara-note/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,screenshots
+  Status:
+    - 2024-12-10 last release/commit 3/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: dd4b23edd3f53f4e7092c3bb14ccb468635c5275d1bd7180137f7da4da68a98c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

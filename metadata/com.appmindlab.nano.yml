@@ -1,0 +1,32 @@
+Categories:
+  - Writing
+License: GPL-3.0-or-later
+AuthorName: AppML
+WebSite: https://appml.gitbook.io/nano
+SourceCode: https://github.com/appml/neutrinote
+IssueTracker: https://github.com/appml/neutrinote/issues
+Changelog: https://github.com/appml/neutrinote/releases
+Donate: https://ko-fi.com/X8X6AWNQ
+
+AutoName: 'neutriNote: open source notes'
+
+MaintainerNotes:
+  AppAdded: 2021-04-12
+  AppRemoved: 2021-05-25 reached F-Droid
+  AddedBack: 2025-03-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/appml/neutrinote/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.CAMERA: used for the integrated barcode scanner
+    android.permission.READ_EXTERNAL_STORAGE: to access files for edit
+    android.permission.WRITE_EXTERNAL_STORAGE: to access files for edit
+    android.permission.ACCESS_FINE_LOCATION: for location based search, location stamps, etc.
+    android.permission.ACCESS_COARSE_LOCATION: for location based search, location stamps, etc.
+
+AllowedAPKSigningKeys: c96d54fd8b05b8462b9a6584866d0c280a3274ccf8e84492ddd840c6bf946555
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

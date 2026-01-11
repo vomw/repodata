@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+License: GPL-2.0-only
+AuthorName: KAAAsS
+AuthorEmail: guyishao@foxmail.com
+AuthorWebSite: https://kaaass.net/
+SourceCode: https://github.com/kaaass/ZerotierFix
+IssueTracker: https://github.com/kaaass/ZerotierFix/issues
+
+AutoName: Zerotier Fix
+
+MaintainerNotes:
+  AppAdded: 2021-11-05
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release 9/2023, last commit 4/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: bc9f2450bdad6ce33d8b4ba35d934c3b7feb3edadcc4edef3a86108a0f2167a6
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

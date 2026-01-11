@@ -1,0 +1,29 @@
+Categories:
+  - Phone & SMS
+License: GPL-3.0-only
+AuthorName: Thirumalai K.G
+SourceCode: https://github.com/Thiru-Malai/CallLimiter
+IssueTracker: https://github.com/Thiru-Malai/CallLimiter/issues
+Changelog: https://github.com/Thiru-Malai/CallLimiter/releases
+
+AutoName: Call Limiter
+
+MaintainerNotes:
+  AppAdded: 2025-10-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Thiru-Malai/CallLimiter/tree/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_CONTACTS: to show contact names
+    android.permission.READ_PHONE_STATE: to detect ongoing calls
+    android.permission.READ_CALL_LOG: to identify call history for managing limits
+    android.permission.CALL_PHONE: to disconnect calls when limit is reached
+    android.permission.ANSWER_PHONE_CALLS: to end calls programmatically
+    android.permission.POST_NOTIFICATIONS: to show reminders and call limit alerts
+    android.permission.FOREGROUND_SERVICE: to run safely in the background
+
+AllowedAPKSigningKeys: 860a758bb0b361d3fcf329f8091eda60ee055979637cd91126ec7fff1ef4f296
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

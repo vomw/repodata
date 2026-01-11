@@ -1,0 +1,34 @@
+AntiFeatures:
+  NonFreeAdd:
+    en-US: Shows a prominent button pointing to use the proprietary InputStickUtility app.
+    de: Zeigt einen prominenten Button, der zur Verwendung der proprietären App InputStickUtility animiert.
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: Sylvia van Os
+AuthorEmail: sharetoinputstick.k1v4n@hackerchick.me
+SourceCode: https://github.com/TheLastProject/ShareToInputStick
+IssueTracker: https://github.com/TheLastProject/ShareToInputStick/issues
+Changelog: https://github.com/TheLastProject/ShareToInputStick/releases
+Donate: https://paypal.me/sylviavanos
+
+AutoName: Share To InputStick
+
+MaintainerNotes:
+  AppAdded: 2024-09-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/TheLastProject/ShareToInputStick/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  Note: video.txt empty
+  DoubleList: keep
+  PermIgnore:
+    android.permission.BLUETOOTH: required to communicate with the InputStick
+    android.permission.BLUETOOTH_SCAN: required to find the InputStick
+    android.permission.ACCESS_FINE_LOCATION: required by Android if an app wants to use Bluetooth
+
+AllowedAPKSigningKeys: c3739db8216f5ab4b6bacb29156eaabba3e4cb2166c9b2d7f788731f3beea008
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

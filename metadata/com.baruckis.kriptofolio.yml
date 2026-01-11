@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes libraries of Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Mobile Services.
+  NonFreeNet:
+    en-US: The app uses Coinmarketcap to obtain coin and rate details.
+    de: Die App verwendet Coinmarketcap für Kursdaten.
+Categories:
+  - Money
+License: Apache-2.0
+AuthorName: Andrius Baruckis
+AuthorWebSite: https://www.baruckis.com/
+WebSite: https://kriptofolio.app/
+SourceCode: https://github.com/baruckis/Kriptofolio
+IssueTracker: https://github.com/baruckis/Kriptofolio/issues
+Changelog: https://github.com/baruckis/Kriptofolio/releases
+
+MaintainerNotes:
+  AppAdded: 2019-10-12
+  Method: github-release-manual
+  ManualHint: auto-update fails as author uses 2 tags and creates the -demo one last
+  GHSkipPre: 1
+  ApkIgnore: /demo/i
+  Fastlane: https://github.com/baruckis/Kriptofolio/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG
+  FastlaneIgnore: screenshots
+  Note: screenshots framed
+  Status:
+    - 2021-06-23 last commit was 1/2020, switch UCM from Tags to Static
+    - 2024-01-01 auto-update fails as author uses 2 tags and creates the -demo one last
+
+AllowedAPKSigningKeys: fa6808502dd3bc09301d5dd4af48fefa3e646004ed374e0bc90d46159261e645
+
+AutoUpdateMode: Version v%v$
+UpdateCheckMode: Static

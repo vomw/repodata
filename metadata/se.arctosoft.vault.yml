@@ -1,0 +1,30 @@
+Categories:
+  - Security
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Arctosoft AB
+AuthorEmail: contact@arctosoft.com
+AuthorWebSite: https://arctosoft.com/
+WebSite: https://arctosoft.com/apps/valv/
+SourceCode: https://github.com/Arctosoft/Valv-Android
+IssueTracker: https://github.com/Arctosoft/Valv-Android/issues
+Changelog: https://github.com/Arctosoft/Valv-Android/releases
+
+AutoName: Valv - encrypted gallery vault
+
+MaintainerNotes:
+  AppAdded: 2023-08-14
+  AppRemoved: 2023-10-10 reached F-Droid 2023-09-30
+  AddedBack: 2025-03-07 restored
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  Fastlane: https://github.com/Arctosoft/Valv-Android/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Status:
+    - 2025-07-21 upstreaming our local Fastlane metadata via https://github.com/Arctosoft/Valv-Android/pull/140
+
+AllowedAPKSigningKeys: 06dd0cd0942f0c8b29fb2f19f6d4853eb7d69df0c98352197f24ade170a93aba
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

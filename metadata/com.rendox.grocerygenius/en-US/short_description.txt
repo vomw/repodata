@@ -1,0 +1,1 @@
+feature-rich shopping list Android app with offline-first mode

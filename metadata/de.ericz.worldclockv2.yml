@@ -1,0 +1,29 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: Eric Zeller
+AuthorWebSite: https://ericzeller.github.io/
+WebSite: https://ericzeller.github.io/world-clock-v2-web/
+SourceCode: https://github.com/EricZeller/flutter-world-clock-v2
+IssueTracker: https://github.com/EricZeller/flutter-world-clock-v2/issues
+Changelog: https://github.com/EricZeller/flutter-world-clock-v2/releases
+
+AutoName: World Clock v2
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-06-04
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64/i
+  ApkIgnore: /x86/i
+  Fastlane: https://github.com/EricZeller/flutter-world-clock-v2/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/example/world_clock_v2
+
+AllowedAPKSigningKeys: 9ae87f0ce86c9ee8318b56d5636d9d29110100e2e7387da5f2e57d6857090bcc
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

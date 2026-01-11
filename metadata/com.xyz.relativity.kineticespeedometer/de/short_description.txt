@@ -1,0 +1,1 @@
+Ein GPS-Tachometer für kinetische Energie mit einem nichtlinearen Messgerät.

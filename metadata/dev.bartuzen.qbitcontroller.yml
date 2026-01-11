@@ -1,0 +1,28 @@
+Categories:
+  - Connectivity
+  - Internet
+License: GPL-3.0-only
+AuthorName: Bartu Özen
+SourceCode: https://github.com/Bartuzen/qBitController
+IssueTracker: https://github.com/Bartuzen/qBitController/issues
+Changelog: https://github.com/Bartuzen/qBitController/releases
+
+AutoName: qBitController
+
+MaintainerNotes:
+  AppAdded: 2022-12-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Bartuzen/qBitController/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/329#note_1218038737
+  NameSpaces:
+    - /qbitcontroller/composeapp
+  Status:
+    - 2022-12-21 author wants the app to stay here once it reached F-Droid, see https://gitlab.com/IzzyOnDroid/repo/-/issues/329#note_1218038737
+
+AllowedAPKSigningKeys: 366038e51ee41078a23a37fd9212238ebad03f1de073e81c738bb6f07b114339
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,29 @@
+Categories:
+  - Time
+License: Apache-2.0
+AuthorName: Simon Marquis
+AuthorEmail: contact@simon-marquis.fr
+AuthorWebSite: https://simon-marquis.fr/
+SourceCode: https://github.com/SimonMarquis/SleepTimer
+IssueTracker: https://github.com/SimonMarquis/SleepTimer/issues
+Changelog: https://github.com/SimonMarquis/SleepTimer/releases
+
+AutoName: Sleep Timer
+
+MaintainerNotes:
+  AppAdded: 2020-11-27
+  AppRemoved: 2021-07-14 reached F-Droid.org on 2021-02-17 and no longer offers APKs
+  AddedBack: 2025-03-12
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  Note: uses Triple-T
+  Fastlane: https://github.com/SimonMarquis/SleepTimer/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2025-11-13 last release 11/2024, commits since then only renovateBot; UCM Tags=>Static
+
+AllowedAPKSigningKeys: b6a5169994b5c74f7bfb3933818300bd91de5ffc67e5c22525a59b47d0249502
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

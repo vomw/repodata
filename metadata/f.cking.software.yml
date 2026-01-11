@@ -1,0 +1,30 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Konstantin Kulikov
+AuthorEmail: f@cking.software
+AuthorWebSite: https://www.f.cking.software/
+SourceCode: https://github.com/Semper-Viventem/MetaRadar
+IssueTracker: https://github.com/Semper-Viventem/MetaRadar/issues
+
+AutoName: Bluetooth Radar
+
+MaintainerNotes:
+  AppAdded: 2023-02-28
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /debug/i
+  Fastlane: https://github.com/Semper-Viventem/MetaRadar/tree/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphicJPG,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: Required to log where Bluetooth devices were discovered around you.
+    android.permission.ACCESS_COARSE_LOCATION: Required to log where Bluetooth devices were discovered around you.
+    android.permission.ACCESS_BACKGROUND_LOCATION: Required to log where Bluetooth devices were discovered around you.
+    android.permission.BLUETOOTH_SCAN: This is needed for the app’s main purpose, finding Bluetooth devices.
+  Status:
+    - 2024-01-22 scanner reported android.permission.READ_EXTERNAL_STORAGE (plus location and BT, which were added to the allow-list as they are clear here) – https://github.com/Semper-Viventem/MetaRadar/issues/101
+
+AllowedAPKSigningKeys: dcadddb8632dd0840257d49883793cd01b4468064ffff2ad95ee209a20615cb2
+
+UpdateCheckMode: Tags

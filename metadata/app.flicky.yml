@@ -1,0 +1,31 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: MLM Games
+AuthorEmail: mlm.gamestudio@gmail.com
+AuthorWebSite: https://ragebreaker.itch.io/
+SourceCode: https://github.com/mlm-games/flicky
+IssueTracker: https://github.com/mlm-games/flicky/issues
+Changelog: https://github.com/mlm-games/flicky/releases
+
+AutoName: Flicky
+
+MaintainerNotes:
+  AppAdded: 2025-08-25
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /universal/i
+  Fastlane: https://github.com/mlm-games/flicky/tree/2.3.7/fastlane/metadata/android/
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneIgnore: video
+  Note: video.txt empty
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to show all apps and check which apps need to be updated
+    android.permission.REQUEST_DELETE_PACKAGES: to uninstall apps (this is an app manager)
+    android.permission.REQUEST_INSTALL_PACKAGES: to install apps (this is an app manager)
+
+AllowedAPKSigningKeys: 4aed2f691df64a7b0fea25a6b8c80183c6dc520e049dac0178defa1d6472228f
+
+VercodeOperation: '%c -1'
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,23 @@
+Categories:
+  - Theming
+  - Xposed
+License: Apache-2.0
+AuthorName: AsyJAIZ
+SourceCode: https://github.com/AsyJAIZ/Notification-Shade-Transparency
+IssueTracker: https://github.com/AsyJAIZ/Notification-Shade-Transparency/issues
+Changelog: https://github.com/AsyJAIZ/Notification-Shade-Transparency/releases
+
+AutoName: Notification Shade Transparency
+
+MaintainerNotes:
+  AppAdded: 2023-10-03
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /bare-release/i
+  X-AutoUpdateMode: Version v%v
+  Status:
+    - 2026-01-09 last release 10/2024, last commit 2/2025 – UCM Tags=>Static
+
+AllowedAPKSigningKeys: 6f17f6bd2576a987a8212f82efcc3af9414fa052a53cd5d3cfca56cd64ca2ab7
+
+UpdateCheckMode: Static

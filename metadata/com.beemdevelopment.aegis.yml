@@ -1,0 +1,34 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Beem Development
+AuthorEmail: beemdevelopment@gmail.com
+WebSite: https://getaegis.app
+SourceCode: https://github.com/beemdevelopment/Aegis
+IssueTracker: https://github.com/beemdevelopment/Aegis/issues
+Translation: https://crowdin.com/project/aegis-authenticator
+Changelog: https://github.com/beemdevelopment/Aegis/releases
+Donate: https://www.buymeacoffee.com/beemdevelopment
+Bitcoin: bc1q26kyxqjkc6tu477pzy0whagwhs4ypv93qls22n
+
+AutoName: Aegis Authenticator - 2FA App
+
+MaintainerNotes:
+  AppAdded: 2024-11-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/beemdevelopment/Aegis/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /info/guardianproject
+  DoubleList: keep
+  PermIgnore:
+    android.permission.CAMERA: needed for the integrated QR code scanner
+  Status:
+    - 2024-11-05 added on special request by mail despite already being on F-Droid
+    - 2025-07-19 upstreaming de via https://github.com/beemdevelopment/Aegis/pull/1680
+
+AllowedAPKSigningKeys: c6db80a8e14e5230c1de8415ef820d13dc901d8fe33cf3acb57b6862d858a823
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

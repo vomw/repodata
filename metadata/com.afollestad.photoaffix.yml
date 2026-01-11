@@ -1,0 +1,29 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2023-05-17, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2023-05-17 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Graphics
+License: Apache-2.0
+AuthorName: Aidan Follestad
+AuthorWebSite: https://aidanfollestad.com/
+SourceCode: https://github.com/afollestad/photo-affix
+IssueTracker: https://github.com/afollestad/photo-affix/issues
+Changelog: https://github.com/afollestad/photo-affix/releases
+
+AutoName: PhotoAffix
+
+MaintainerNotes:
+  AppAdded: 2016-03-20
+  Method: github-repo
+  GHDownloadDir: https://github.com/afollestad/photo-affix/blob/master/apk
+  Status:
+    - 2020-09-19 app was not updated for 1y 9m 21d; switching UCM from NULL to Static
+    - 2022-12-19 last code commit was 4/2019, so this seems pretty much dead.
+    - 2023-08-06 repo has been archived 2023-05-17, disabling updates entirely now
+    - 2024-10-23 reported as still working fine, see https://gitlab.com/IzzyOnDroid/repo/-/issues/617
+    - 2025-11-18 still working; tested on Android 10 (Wileyfox Swift)
+
+AllowedAPKSigningKeys: 4b00123de123ecf017ca1d38edd9c09db70652829482e01b8759d796bc8d071f
+
+UpdateCheckMode: None

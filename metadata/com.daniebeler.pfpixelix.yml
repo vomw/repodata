@@ -1,0 +1,28 @@
+Categories:
+  - Social Network
+  - Graphics
+  - Internet
+License: GPL-3.0-only
+AuthorName: Daniel Hiebeler
+AuthorEmail: hiebeler.daniel@gmail.com
+AuthorWebSite: https://daniebeler.com/
+WebSite: https://pixelix.vercel.app/
+SourceCode: https://github.com/ghostbyte-dev/pixelix
+IssueTracker: https://github.com/ghostbyte-dev/pixelix/issues
+Changelog: https://github.com/ghostbyte-dev/pixelix/releases
+
+AutoName: Pixelix - A Pixelfed Client
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-01-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ghostbyte-dev/pixelix/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 6a23d7a34702add1c069faf381b60f2049e238537ce76c6dcc89b7c636f59228
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

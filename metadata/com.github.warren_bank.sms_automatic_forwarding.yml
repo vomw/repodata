@@ -1,0 +1,23 @@
+Categories:
+  - Phone & SMS
+License: GPL-2.0-only
+AuthorName: Warren Bank
+SourceCode: https://github.com/warren-bank/Android-SMS-Automatic-Forwarding
+IssueTracker: https://github.com/warren-bank/Android-SMS-Automatic-Forwarding/issues
+Changelog: https://github.com/warren-bank/Android-SMS-Automatic-Forwarding/releases
+
+AutoName: SMS Forwarding
+
+MaintainerNotes:
+  AppAdded: 2025-10-01
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /withAllLanguageTranslations-withContactName-release/i
+  PermIgnore:
+    android.permission.READ_CONTACTS: to include contact name with forwarded SMS
+    android.permission.RECEIVE_SMS: to read incoming SMS for forwarding
+    android.permission.SEND_SMS: to send (forward) received SMS
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+UpdateCheckMode: Tags

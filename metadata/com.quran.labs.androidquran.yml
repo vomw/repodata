@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeAssets:
+    en-US: The app includes data from a private repository.
+    de: Die App enthält Daten aus einem privaten Repository.
+Categories:
+  - Reading
+  - Religion
+License: GPL-3.0-only
+AuthorName: quran.com
+AuthorEmail: quran.android@gmail.com
+WebSite: https://android.quran.com/
+SourceCode: https://github.com/quran/quran_android
+IssueTracker: https://github.com/quran/quran_android/issues
+Changelog: https://github.com/quran/quran_android/releases
+
+MaintainerNotes:
+  AppAdded: 2016-11-29
+  Method: github-release
+  ApkMatch: /quran.*no-google\.apk$/i
+  ApkIgnore: /(naskh|warsh|qaloon)/i
+  Fastlane: https://github.com/quran/quran_android/blob/main/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed to access downloaded/exported files
+  NameSpaces:
+    - /com/quran/data
+    - /com/quran/labs/feature
+    - /com/quran/mobile
+    - /com/quran/page
+  Status:
+    - 2024-08-06 add NonFreeAssets until a FOSS build becomes available, see https://github.com/quran/quran_android/issues/755#issuecomment-2270030396
+    - 2025-08-13 upstreaming our Fastlane via com.quran.labs.androidquran
+
+AllowedAPKSigningKeys: 80773743b5ee06dadd54d64d660ab6f97812f81846e75525069e689cd9c3e99d
+
+UpdateCheckMode: Tags

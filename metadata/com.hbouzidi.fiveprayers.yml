@@ -1,0 +1,26 @@
+Categories:
+  - Religion
+License: GPL-3.0-or-later
+AuthorName: Five-Prayers
+SourceCode: https://github.com/Five-Prayers/five-prayers-android
+IssueTracker: https://github.com/Five-Prayers/five-prayers-android/issues
+
+AutoName: 'Five Prayers : Prayers, Adhan'
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-07-19
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/hbouzidi/compassqibla
+  Status:
+    - 2023-08-29 had to add NonFreeComp, see https://github.com/Five-Prayers/five-prayers-android/issues/57 (fixed the very next day)
+    - 2023-10-02 AFs back again https://github.com/Five-Prayers/five-prayers-android/issues/57#issuecomment-1743631558
+    - 2023-11-19 all AFs gone \o/
+    - 2024-11-19 last release 11/2023, last commit 9/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 61495ba0f12514c921519dcd91ecc061b958f88afb4d08a5008defc600c071ce
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

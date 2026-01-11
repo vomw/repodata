@@ -1,0 +1,37 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: Real Debrid server itself is not libre.
+  Tracking:
+    en-US: The app uses Count.li to collect statistics.
+    de: Die App verwendet Count.li, um Statistiken zu sammeln.
+Categories:
+  - Internet
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: LivingWithHippos
+AuthorEmail: livingwithhippos@gmail.com
+SourceCode: https://github.com/LivingWithHippos/unchained-android
+IssueTracker: https://github.com/LivingWithHippos/unchained-android/issues
+Changelog: https://github.com/LivingWithHippos/unchained-android/releases
+Bitcoin: 1PNZXRz77idWGhbMTRTG8iAuqnYY6tatb7
+Litecoin: LWeoBVVmaYAiZ3oGaLAV9sV2dvY62XxdCF
+
+AutoName: Unchained
+
+MaintainerNotes:
+  AppAdded: 2020-12-26
+  AppRemoved: 2022-06-29 reached F-Droid 2022-06-14
+  AddedBack: 2025-03-15
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /debug/i
+  DoubleList: keep
+  Fastlane: https://github.com/LivingWithHippos/unchained-android/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Status:
+    - 2025-07-20 upstreamed DE locale via https://github.com/LivingWithHippos/unchained-android/pull/420
+
+AllowedAPKSigningKeys: e61eb9c3c94d58eefad8fa75c9e5314c85b8f3828ea5f5fcda5e269f694118ba
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

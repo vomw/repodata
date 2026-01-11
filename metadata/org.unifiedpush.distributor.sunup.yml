@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: UnifiedPush
+AuthorWebSite: https://unifiedpush.org/
+SourceCode: https://codeberg.org/Sunup/android
+IssueTracker: https://codeberg.org/Sunup/android/issues
+Changelog: https://codeberg.org/Sunup/android/releases
+
+AutoName: Sunup
+
+MaintainerNotes:
+  AppAdded: 2025-01-02
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/Sunup/android/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 3b33d78a5bcac1b952756b08fe8830ced387abb6b956b02a47ef80321d4a2b88
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

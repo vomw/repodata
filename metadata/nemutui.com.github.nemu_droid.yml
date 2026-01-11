@@ -1,0 +1,21 @@
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: nEMU
+SourceCode: https://github.com/nemuTUI/nemu-droid
+IssueTracker: https://github.com/nemuTUI/nemu-droid/issues
+Changelog: https://github.com/nemuTUI/nemu-droid/releases
+
+AutoName: nemu-droid
+
+MaintainerNotes:
+  AppAdded: 2023-01-13
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-02-22 last release 1/2023, last commit 1/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: b9231e750e9f609a7ead83bb8d17075f2495013f1792dad39af32ca139c9002e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

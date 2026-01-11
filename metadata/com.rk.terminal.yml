@@ -1,0 +1,38 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Rohit Kushvaha
+SourceCode: https://github.com/RohitKushvaha01/ReTerminal
+IssueTracker: https://github.com/RohitKushvaha01/ReTerminal/issues
+
+AutoName: ReTerminal
+
+MaintainerNotes:
+  AppAdded: 2025-02-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/RohitKushvaha01/ReTerminal/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /com/rk/application
+    - /com/rk/components
+    - /com/rk/crashhandler
+    - /com/rk/karbon_exec
+    - /com/rk/libcommons
+    - /com/rk/resources
+    - /com/rk/rish
+    - /com/rk/settings
+    - /com/rk/shell
+    - /com/rk/update
+    - /org/robok/engine
+  PermIgnore:
+    android.permission.INTERNET: needed for commands accessing the network, e.g. wget
+    android.permission.MANAGE_EXTERNAL_STORAGE: necessary to access files on device storage
+    android.permission.READ_EXTERNAL_STORAGE: necessary to access files on device storage
+    android.permission.WRITE_EXTERNAL_STORAGE: necessary to access files on device storage
+
+AllowedAPKSigningKeys: 8ad6b593b0772c96f9d05e923b610f16aed2792c664f0cd91f0dfd627098346f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

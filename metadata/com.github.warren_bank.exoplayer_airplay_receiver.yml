@@ -1,0 +1,33 @@
+Categories:
+  - Multimedia
+License: GPL-2.0-only
+AuthorName: Warren Bank
+SourceCode: https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver
+IssueTracker: https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/issues
+Changelog: https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases
+
+AutoName: ExoAirPlayer
+
+MaintainerNotes:
+  AppAdded: 2020-10-16
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /withAllLanguageTranslations-noDecoderExtensions-release/i
+  Note: description taken from https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/issues/3 – ApkMatch grabs the only "fat build", withDecoder is only available per-ABI
+  X-AutoUpdateMode: Version v%v tag v2.0.16 => versionName 002.00.16-16API
+  FlagIgnore:
+    usesCleartextTraffic: needed for access with unencrypted connections in the local network
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed for picture-in-picture mode
+    android.permission.MANAGE_EXTERNAL_STORAGE: to access media files from arbitrary file paths, scan them for subtitles etc.
+    android.permission.READ_EXTERNAL_STORAGE: to access media files from arbitrary file paths, scan them for subtitles etc.
+    android.permission.READ_MEDIA_AUDIO: to access audio files in the device media storage
+    android.permission.READ_MEDIA_IMAGES: to access image files in the device media storage
+    android.permission.READ_MEDIA_VIDEO: to access video files in the device media storage
+  Status:
+    - 2024-12-01 scanner reports usesCleartextTraffic DEPENDENCY_INFO_BLOCK MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE READ_MEDIA_AUDIO READ_MEDIA_IMAGES READ_MEDIA_VIDEO SYSTEM_ALERT_WINDOW – https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/issues/13
+    - 2024-12-06 DEPENDENCY_INFO_BLOCK is gone now, waiting for permission clarification
+
+AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
+
+UpdateCheckMode: Tags

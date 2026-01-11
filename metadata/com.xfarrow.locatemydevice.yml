@@ -1,0 +1,25 @@
+Categories:
+  - Security
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: xfarrow
+SourceCode: https://github.com/xfarrow/locatemydevice
+IssueTracker: https://github.com/xfarrow/locatemydevice/issues
+Changelog: https://github.com/xfarrow/locatemydevice/releases
+Liberapay: xfarrow
+
+AutoName: Locate my device
+
+MaintainerNotes:
+  AppAdded: 2022-10-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/xfarrow/locatemydevice/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,screenshotsJPG
+  Status:
+    - 2024-02-22 last release 11/2022, last commit 6/2023, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 62bb38a5a31de9533c2fa95652b34ea6018098585caf2a01e527c5f7dc1eb284
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

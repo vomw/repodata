@@ -1,0 +1,31 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses an API at crpt.ru.
+    de: Die App nutzt eine API bei crpt.ru.
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: pewaru-333
+SourceCode: https://github.com/pewaru-333/HomeMedkit-App
+IssueTracker: https://github.com/pewaru-333/HomeMedkit-App/issues
+Changelog: https://github.com/pewaru-333/HomeMedkit-App/releases
+
+AutoName: Medkit
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-11-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/pewaru-333/HomeMedkit-App/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: Required for scanning labels from medicaments.
+  DoubleList: keep
+  Status:
+    - 2024-01-14 updater reports android.permission.SYSTEM_ALERT_WINDOW, asked for clarification https://github.com/pewaru-333/HomeMedkit-App/issues/11
+
+AllowedAPKSigningKeys: d5f652d2ec10bfb7915a2981eb6426624fc5229293bf620a6124d6839af179ea
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

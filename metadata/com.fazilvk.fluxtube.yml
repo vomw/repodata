@@ -1,0 +1,33 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: Gets content from YouTube.
+    de: Inhalte werden von YouTube bezogen.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Fazil vk
+SourceCode: https://github.com/mu-fazil-vk/FluxTube
+IssueTracker: https://github.com/mu-fazil-vk/FluxTube/issues
+Changelog: https://github.com/mu-fazil-vk/FluxTube/releases
+
+AutoName: FluxTube
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-07-23
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/mu-fazil-vk/FluxTube/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
+  Status:
+    - 2024-11-26 v0.8.0 adds Cronet which drags in GMS, so NonFreeComp had to be added – https://github.com/mu-fazil-vk/FluxTube/issues/48
+    - 2024-11-28 Cronet was removed, so is NonFreeComp.
+    - 2025-01-30 APK signed with different certificate, UCM Tags=>Static for now until solved, see https://github.com/mu-fazil-vk/FluxTube/issues/63
+    - 2025-03-13 original keystore was recovered, signature matches again
+    - 2025-12-05 UCM Tags=>Static as the app is currently (temporarily) unmaintaines, see https://github.com/mu-fazil-vk/FluxTube/issues/63#issuecomment-3617291433
+
+AllowedAPKSigningKeys: 16a2748e22c36a4211a57840083e1b779236026fc3187f0afd998ab3913d5e6d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

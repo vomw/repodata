@@ -1,0 +1,34 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: Depends on the zenquotes.io API to obtain quotes.
+    de: Benötigt die zenquotes.io API für den Download der Quotes.
+Categories:
+  - Internet
+License: MIT
+AuthorName: Shalen Mathew
+AuthorEmail: shalenmj@gmail.com
+AuthorWebSite: https://linktr.ee/shalenmathew
+SourceCode: https://github.com/shalenMathew/Quotes-app
+IssueTracker: https://github.com/shalenMathew/Quotes-app/issues
+Changelog: https://github.com/shalenMathew/Quotes-app/releases
+
+AutoName: Quotes.app
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-05-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/shalenMathew/Quotes-app/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,icon,screenshots
+  PermIgnore:
+    android.permission.WRITE_EXTERNAL_STORAGE: used to export quote bitmaps
+    android.permission.READ_EXTERNAL_STORAGE: implied by the write permission
+  Status:
+    - 2025-11-03 v3.3 is signed by a different key, see https://github.com/maelchiotti/LocalMaterialNotes/issues/515 – UCM Tags=>Static until solved
+    - 2025-11-04 new signing key confirmed OTR via mail
+
+AllowedAPKSigningKeys: 6988a4755f4237975f6ac1d6d5c3cad95e3d55b6ef6952a4c4574f069b79d3ae
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

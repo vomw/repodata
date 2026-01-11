@@ -1,0 +1,42 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: bitfire web engineering
+WebSite: https://www.davx5.com/
+SourceCode: https://github.com/bitfireAT/davx5-ose
+IssueTracker: https://github.com/bitfireAT/davx5-ose/issues
+Translation: https://www.transifex.com/bitfireAT/davx5/
+Changelog: https://github.com/bitfireAT/davx5-ose/discussions/categories/announcements
+Donate: https://www.davx5.com/donate
+Bitcoin: bc1q0hvy0mknt9vce2f9hh829h72n3sht9llaltumk
+
+AutoName: DAVx⁵
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2022-05-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/bitfireAT/davx5-ose/tree/dev-ose/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,video,icon,featureGraphicJPG,screenshotsJPG
+  PermIgnore:
+    android.permission.READ_CONTACTS: needed for contacts sync
+    android.permission.WRITE_CONTACTS: needed for contacts sync
+    android.permission.READ_CALENDAR: needed for calendar sync
+    android.permission.WRITE_CALENDAR: needed for calendar sync
+    android.permission.ACCESS_COARSE_LOCATION: needed on Android 11+ to access WiFi SSID for restricting syncs to a given WiFi network
+    android.permission.ACCESS_FINE_LOCATION: needed on Android 11+ to access WiFi SSID for restricting syncs to a given WiFi network
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed on Android 11+ to access WiFi SSID for restricting syncs to a given WiFi network
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/262
+  NameSpaces:
+    - /at/techbee/jtx
+    - /org/dmfs/tasks
+    - /javax/cache/spi
+    - /javax/xml/namespace
+  Note: No idea how to label the javax stuff
+
+AllowedAPKSigningKeys: b39e7b77ec853483646b21b4a3e3ca540ba094ef8daa18e87e0be1fa4638d321
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

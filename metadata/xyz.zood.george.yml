@@ -1,0 +1,45 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services, Play Services, Firebase, Google Maps.
+    de: Die App enthält Bibliotheken von Google Mobile Services, Play Services, Firebase, Google Maps.
+  NonFreeNet:
+    en-US: The app connects to Google servers (Play Services, Firebase (cloud messaging), Google Maps).
+    de: Die App nutzt Verbindungen zu Google Servern (Play Services, Firebase (Pushbenachrichtigungen), Google Maps).
+Categories:
+  - Navigation
+License: AGPL-3.0-only
+AuthorName: zood
+AuthorEmail: hello@zood.xyz
+AuthorWebSite: https://www.zood.xyz/
+WebSite: https://www.zood.xyz/
+SourceCode: https://github.com/zood/george
+IssueTracker: https://github.com/zood/george/issues
+Changelog: https://github.com/zood/george/releases
+
+AutoName: Zood Location
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-12-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/zood/george/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /io/pijun/george
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed for the core functionality
+    android.permission.ACCESS_COARSE_LOCATION: needed for the core functionality
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed to access location data when the app is not running in foreground
+  Status:
+    - 2022-05-02 no commits since 3/2021, switching UCM from Tags to Static
+    - 2023-08-08 last release 5/2022, last commit 6/2022
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/zood/george/pull/118
+    - 2025-11-14 5 releases in the past 6 months; UCM back to Tags
+    - 2026-01-01 APK size nearing 60 MB, asked for per-ABI builds at https://github.com/zood/george/issues/131
+
+AllowedAPKSigningKeys: df2db62047675770ed2c0da0bcadc22448ba092dee9d3f61a7d4f2a7f6e90510
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,24 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: Michal Cerman
+SourceCode: https://github.com/micer/clipboard-service
+IssueTracker: https://github.com/micer/clipboard-service/issues
+Changelog: https://github.com/micer/clipboard-service/releases
+
+AutoName: ClipboardService
+
+MaintainerNotes:
+  AppAdded: 2021-07-25
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-11-07 no release since 6/2021, last commit 7/2021; switch from Tags to Static
+    - 2023-08-08 author still active
+    - 2025-11-09 [still working fine on Android 16](https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15/#issuecomment-8192816)
+    - 2026-01-10 still no new commits, disabling update checks altogether
+
+AllowedAPKSigningKeys: bf19d60800064681083e3f39d14e5cef50cb6bdf70e2f45183a9049f537a1663
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

@@ -1,0 +1,26 @@
+Categories:
+  - Internet
+  - Multimedia
+License: LGPL-3.0-only
+AuthorName: FastoGT
+AuthorEmail: support@fastogt.com
+AuthorWebSite: https://fastogt.com/
+WebSite: https://fastogt.com/
+SourceCode: https://github.com/fastogt/fastotvlite_mobile
+IssueTracker: https://github.com/fastogt/fastotvlite_mobile/issues
+
+AutoName: FastoTVLite
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2021-02-20
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-11-07 no release for almost 2y, last commit 4/2022; switch from Tags to Static
+    - 2025-11-11 seems to have gone proprietary; Readme links to Playstore, where it has newer releases using a different appId
+
+AllowedAPKSigningKeys: 7a098fe281b50c3c4c94f8b0045768d0b4cec59b8f9638e38145c16e49728374
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

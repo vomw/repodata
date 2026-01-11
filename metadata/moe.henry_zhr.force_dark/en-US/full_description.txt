@@ -1,0 +1,1 @@
+<p><i>Force Dark</i> is an Xposed module for LSposed, overriding force-dark for all apps in its module scope (force-enabling dark mode for them).</p>

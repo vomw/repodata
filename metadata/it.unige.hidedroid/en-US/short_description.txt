@@ -1,0 +1,1 @@
+per-app anonymization of collected personal data to a user-chosen privacy level

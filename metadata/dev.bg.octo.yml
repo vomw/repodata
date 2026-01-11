@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on the Octopus Energy API.
+    de: Die App benötigt die Octopus Energy API.
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: bg443
+SourceCode: https://codeberg.org/bg443/Octo
+IssueTracker: https://codeberg.org/bg443/Octo/issues
+Changelog: https://codeberg.org/bg443/Octo/releases
+
+AutoName: Octo
+
+MaintainerNotes:
+  AppAdded: 2025-01-11
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /universal/i
+  Fastlane: https://codeberg.org/bg443/Octo/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.INTERNET: required to talk to the Octopus Energy API & (optionally) a configured ntfy instance
+    android.permission.POST_NOTIFICATIONS: ≥ API 33 (Android 13/Tiramisu) requires this to send notifications
+    android.permission.SCHEDULE_EXACT_ALARM: required to schedule notifications when you use the local notification provider
+    android.permission.USE_EXACT_ALARM: required to schedule notifications when you use the local notification provider
+    android.permission.RECEIVE_BOOT_COMPLETED: this is not enabled by default, but will enable itself when you enable local notification provider as alarms do not persist through a reboot
+
+AllowedAPKSigningKeys: 3956533c542218349b5f3f7f3d3a6926060c1a0cdf32d6e58ea1de3a36c21213
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

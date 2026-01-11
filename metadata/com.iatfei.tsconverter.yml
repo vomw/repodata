@@ -1,0 +1,27 @@
+Categories:
+  - Writing
+License: GPL-3.0-or-later
+AuthorName: Fei Kuan
+AuthorEmail: apps@iatfei.com
+SourceCode: https://github.com/fei0316/OpenCC-android-app
+IssueTracker: https://github.com/fei0316/OpenCC-android-app/issues
+Changelog: https://github.com/fei0316/OpenCC-android-app/releases
+
+AutoName: Chinese Converter
+
+MaintainerNotes:
+  AppAdded: 2023-04-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/fei0316/OpenCC-android-app/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  Note: fulldesc lacks some NL; upstreaming via https://github.com/fei0316/OpenCC-android-app/pull/7 (2025-07-19, still unmerged 2025-12-02, hence fulldescNL for now)
+  DoubleList: keep
+  Status:
+    - 2023-08-18 last release 8/2022, last commit 4/2023; Tags => Static
+    - 2025-03-17 4 releases in a month again, UCM Static=>Tags
+
+AllowedAPKSigningKeys: 528e150d891a19e5bb49de930ba62c3d697684fcf8bd04113bff70a530b0a88f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

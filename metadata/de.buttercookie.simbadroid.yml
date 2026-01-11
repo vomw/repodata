@@ -1,0 +1,28 @@
+Categories:
+  - Connectivity
+License: MPL-2.0
+AuthorName: buttercookie42
+SourceCode: https://github.com/buttercookie42/SimbaDroid
+IssueTracker: https://github.com/buttercookie42/SimbaDroid/issues
+Changelog: https://github.com/buttercookie42/SimbaDroid/releases
+
+AutoName: SimbaDroid
+
+MaintainerNotes:
+  AppAdded: 2024-12-16
+  Method: github-release
+  ApkIgnore: /oldApi/i
+  GHSkipPre: 1
+  Fastlane: https://github.com/buttercookie42/SimbaDroid/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to allow access for sharing files on lower Android versions
+    android.permission.WRITE_EXTERNAL_STORAGE: to write received files on lower Android versions
+    android.permission.MANAGE_EXTERNAL_STORAGE: to allow access for sharing/storing files on higher Android versions
+    android.permission.INTERNET: to make the local Samba shares accessible from other machines
+
+AllowedAPKSigningKeys: 7baab2feb8ac7fe10fe5414e4d28aa901a525981b1201e2d583df5bb6d9b1b13
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,33 @@
+Categories:
+  - Navigation
+License: Apache-2.0
+AuthorName: barbeauDev
+AuthorEmail: barbeaudev@gmail.com
+SourceCode: https://github.com/barbeau/gpstest
+IssueTracker: https://github.com/barbeau/gpstest/issues
+Translation: https://www.transifex.com/sean-barbeau/gpstest-android/
+Changelog: https://github.com/barbeau/gpstest/releases
+
+AutoName: GPSTest
+
+MaintainerNotes:
+  AppAdded: 2018-06-16
+  AppRemoved: 2021-11-20 reached F-Droid
+  AddedBack: 2025-03-17
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /osmdroidRelease/i
+  ApkIgnore: /googleRelease/i
+  Fastlane: https://github.com/barbeau/gpstest/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /com/android/gpstest
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed to access GPS
+    android.permission.ACCESS_COARSE_LOCATION: for faster fix via network location
+
+AllowedAPKSigningKeys: 67e04383a96a83476426adcbdd95c4c75d78028a5c4ada75c00334b1c7a5d706
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

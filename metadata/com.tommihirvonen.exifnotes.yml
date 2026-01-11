@@ -1,0 +1,37 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services and Google Maps.
+    de: Die App enthält Bibliotheken von Google Mobile Services und Google Maps.
+  NonFreeNet:
+    en-US: The app connects to Google servers (Firebase, Maps).
+    de: Die App verbindet sich mit Google Servern (Firebase, Maps).
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Tommi Hirvonen
+AuthorEmail: tommih_@hotmail.com
+SourceCode: https://github.com/tommi1hirvonen/ExifNotes
+IssueTracker: https://github.com/tommi1hirvonen/ExifNotes/issues
+Changelog: https://github.com/tommi1hirvonen/ExifNotes/releases
+
+AutoName: Exif Notes
+
+MaintainerNotes:
+  AppAdded: 2023-01-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/tommi1hirvonen/ExifNotes/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: to allow picking the current location for EXIF data
+    android.permission.ACCESS_FINE_LOCATION: to allow picking the current location for EXIF data
+  Status:
+    - 2024-12-28 scanner reports ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION android.permission.READ_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK – https://github.com/tommi1hirvonen/ExifNotes/issues/59
+    - 2025-04-07 repo & account gone
+    - 2025-05-14 source repo re-appeared
+    - 2025-08-19 upstreaming our Fastlane via https://github.com/tommi1hirvonen/ExifNotes/pull/66
+
+AllowedAPKSigningKeys: ca9f705586f8b9a1b72e2fcaae2140149d308156cc6a5c0cd1a475089e695981
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

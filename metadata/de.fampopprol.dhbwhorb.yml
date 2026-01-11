@@ -1,0 +1,22 @@
+Categories:
+  - Science & Education
+License: AGPL-3.0-only
+AuthorName: Joinside
+AuthorEmail: public@joinside.de
+SourceCode: https://github.com/Joinsider/dhbw
+IssueTracker: https://github.com/Joinsider/dhbw/issues
+Changelog: https://github.com/Joinsider/dhbw/releases
+
+AutoName: DHBW Horb
+
+MaintainerNotes:
+  AppAdded: 2025-07-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Joinsider/dhbw/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 793ef780121884363f90cf8410c986a53c82ff8408f8edc9ef950cb524cb5f62
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

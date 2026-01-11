@@ -1,0 +1,25 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: RFID Research Group
+AuthorEmail: chris@rfidresearchgroup.com
+AuthorWebSite: https://rfidresearchgroup.com/
+SourceCode: https://github.com/RfidResearchGroup/RFIDtools
+IssueTracker: https://github.com/RfidResearchGroup/RFIDtools/issues
+Changelog: https://github.com/RfidResearchGroup/RFIDtools/releases
+
+AutoName: RFID Tools
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2020-03-01
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2021-10-31 no updates for 1y 2m 9d, setting from Tags to Static
+    - 2023-08-07 last release 10/2020, last commit 6/2023
+    - 2025-11-12 still dormant, disabling update check entirely
+
+AllowedAPKSigningKeys: e1f49ef8f7bf1d6ad770bd80e0b5b3461fd199334505385c7da779d8db880633
+
+UpdateCheckMode: None

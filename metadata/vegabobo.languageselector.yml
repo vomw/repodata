@@ -1,0 +1,21 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: VegaBobo
+SourceCode: https://github.com/VegaBobo/Language-Selector
+IssueTracker: https://github.com/VegaBobo/Language-Selector/issues
+Changelog: https://github.com/VegaBobo/Language-Selector/releases
+
+AutoName: Language Selector
+
+MaintainerNotes:
+  AppAdded: 2023-05-17
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-06-27 last release 2023-05-17; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 0338c4715f5e4d000715ec351d2ddb80b9710b7099831deac8beb546bb73c21a
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

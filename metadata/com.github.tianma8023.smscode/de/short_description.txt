@@ -1,0 +1,1 @@
+SMS-Code erkennen, parsen und in die Zwischenablage kopieren

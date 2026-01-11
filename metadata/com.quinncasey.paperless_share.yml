@@ -1,0 +1,28 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Quinn Casey
+AuthorEmail: qcasey1@gmail.com
+AuthorWebSite: https://quinncasey.com/
+SourceCode: https://github.com/qcasey/paperless_share
+IssueTracker: https://github.com/qcasey/paperless_share/issues
+Changelog: https://github.com/qcasey/paperless_share/releases
+
+AutoName: Paperless Share
+
+MaintainerNotes:
+  AppAdded: 2020-12-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/qcasey/paperless_share/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/qcasey/paperless_share/pull/2#issuecomment-743482850
+  Status:
+    - 2023-02-11 Tags => Static as no release since 1/2022 (last commit 1/2022)
+
+AllowedAPKSigningKeys: 0e1d450cf92f55e7f6daf65c2f1e2c319d0b6cf098c1600c569c824bb87588e8
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

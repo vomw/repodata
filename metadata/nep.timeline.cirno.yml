@@ -1,0 +1,29 @@
+Categories:
+  - Xposed
+  - System
+License: GPL-3.0-only
+AuthorName: YuSaki丶Kanade
+SourceCode: https://github.com/Freezer-Team/Cirno
+IssueTracker: https://github.com/Freezer-Team/Cirno/issues
+Changelog: https://github.com/Freezer-Team/Cirno/releases
+
+AutoName: Cirno
+ArchivePolicy: 2
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2024-09-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Freezer-Team/Cirno/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  Note: Fastlane is our starter package
+  X-AutoUpdateMode: Version v%v – tag names do not match versionNames
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to be able to show all apps for selection to freeze
+  Status:
+    - 2025-08-22 upstreaming our local Fastlane metadata via https://github.com/Freezer-Team/Cirno/pull/15
+
+AllowedAPKSigningKeys: cc437a8c20884735fce878e1ce02014cf69e7b360eec5f13f438e516973d2fa6
+
+UpdateCheckMode: Tags

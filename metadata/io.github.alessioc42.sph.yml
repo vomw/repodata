@@ -1,0 +1,45 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app includes self-made telemetry, which cannot be disabled.
+    de: Die App enthält eigene Telemetrie, die nicht deaktiviert werden kann.
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Alessio Caputo
+AuthorEmail: alessioc42.dev@gmail.com
+SourceCode: https://github.com/lanis-mobile/lanis
+IssueTracker: https://github.com/lanis-mobile/lanis/issues
+Changelog: https://github.com/lanis-mobile/lanis/releases
+
+AutoName: SPH
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-12-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-arm64-v8a-release-selfsigned/i
+  Fastlane: https://github.com/lanis-mobile/lanis/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  LibIgnore:
+    - /ly/count/android
+    - /ly/count/dart/countly_flutter
+  NameSpaces:
+    - /com/example/app
+  PermIgnore:
+    android.permission.CAMERA: for the integrated document scanner
+    android.permission.READ_EXTERNAL_STORAGE: to select files for upload
+    android.permission.READ_MEDIA_IMAGES: to select images for upload
+  Status:
+    - 2023-12-20 AFs added, see https://github.com/alessioC42/lanis-mobile/issues/69
+    - 2023-12-29 AFs removed; Countly is opt-in
+    - 2024-02-15 scanner reports android.permission.READ_EXTERNAL_STORAGE SOURCE_STAMP_V2_BLOCK – https://github.com/alessioC42/lanis-mobile/issues/180
+    - 2024-02-23 signing key changed from Google’s to the dev’s own, as discussed in the issue
+    - 2025-07-02 v3.4.6 adds MLKit, GMS, Firebase. Rolled back and UCM Tags=>Static until resolved. https://github.com/lanis-mobile/lanis-mobile/issues/426
+    - 2025-08-05 v3.5.0 has this fixed, re-enabling updates
+
+AllowedAPKSigningKeys: 03a817cd87fc5dcccf6e542704013c46bd09a1003da50f7db579fac7b1daf707
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v%v\+\d*
+UpdateCheckMode: Tags

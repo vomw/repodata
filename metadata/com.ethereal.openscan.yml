@@ -1,0 +1,26 @@
+Categories:
+  - Office
+License: BSD-3-Clause
+AuthorName: Ethereal Developers Inc
+AuthorEmail: etherealdevelopers.inc@gmail.com
+SourceCode: https://github.com/ethereal-developers/OpenScan
+IssueTracker: https://github.com/ethereal-developers/OpenScan/issues
+Changelog: https://github.com/ethereal-developers/OpenScan/releases
+
+AutoName: OpenScan
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2021-01-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/ethereal-developers/OpenScan/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2022-11-07 no release since 9/2021, last code commit 9/2021; switch from Tags to Static
+
+AllowedAPKSigningKeys: 58c2f0a39850578d7c17c4385fd4af2b12912e3a2beff8f3c793f2d1b0ec6c79
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,22 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Baltasar García Perez-Schofield
+AuthorEmail: baltasarq@gmail.com
+WebSite: https://baltasarq.github.io/nadamillas/
+SourceCode: https://github.com/Baltasarq/nadamillas
+IssueTracker: https://github.com/Baltasarq/nadamillas/issues
+Changelog: https://github.com/Baltasarq/nadamillas/releases
+
+AutoName: nadamillas
+
+MaintainerNotes:
+  AppAdded: 2023-08-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Baltasarq/nadamillas/tree/master/fastlane/metadata/android
+  FastlaneFeatures: video,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 9248ec3ce677a31650a17d80004a260a6d9d6a56d58e0d22f531a236daca9fe0
+
+UpdateCheckMode: Tags

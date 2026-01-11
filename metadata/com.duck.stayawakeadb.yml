@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Bradley Duck
+AuthorWebSite: https://profile.codersrank.io/user/projectdelta6
+SourceCode: https://github.com/projectdelta6/ADB-Stay-Awake
+IssueTracker: https://github.com/projectdelta6/ADB-Stay-Awake/issues
+
+AutoName: Stay-Awake on ADB
+
+MaintainerNotes:
+  AppAdded: 2022-08-25
+  Method: github-repo
+  GHSkipPre: 1
+  GHDownloadDir: https://github.com/projectdelta6/ADB-Stay-Awake/blob/master/APK
+  Status:
+    - 2024-02-05 uses debug cert https://github.com/projectdelta6/ADB-Stay-Awake/issues/4
+    - 2025-03-23 last commit 2024-02-26; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 335952f9de429e74c5ce9a03bfa38124e7ed6ae66951eab940b3b986b375802a
+
+UpdateCheckMode: Static

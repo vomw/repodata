@@ -1,0 +1,33 @@
+Categories:
+  - Multimedia
+License: AGPL-3.0-only
+AuthorName: Dr.Blank
+AuthorEmail: drblankdev@gmail.com
+SourceCode: https://github.com/Dr-Blank/Vaani
+IssueTracker: https://github.com/Dr-Blank/Vaani/issues
+Changelog: https://github.com/Dr-Blank/Vaani/releases
+
+AutoName: Vaani
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-10-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Note:  fulldesc incomplete, video.txt empty; alternative account https://gitlab.com/drblank https://gitlab.com/IzzyOnDroid/repo/-/issues/623
+  Fastlane: https://github.com/Dr-Blank/Vaani/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  FlagIgnore:
+    usesCleartextTraffic: needed for connections within the local network
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: for storing logs on-device and allowing download of audio books to custom locations
+    android.permission.WRITE_EXTERNAL_STORAGE: for storing logs on-device and allowing download of audio books to custom locations
+  Status:
+    - 2025-04-07 signing key changed. All commits are signed, before and after, and the key change was announced with the release, so we accept it.
+
+AllowedAPKSigningKeys: 5f6c787869a51b1a731a42b114f5d01b91dfa57dcebf190a6b16901a1e269866
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

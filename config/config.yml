@@ -1,0 +1,14 @@
+archive:
+  description: >-
+    The repository of older versions of applications from the main IzzyOnDroid repository.
+    This will remain empty, as old versions are not archived but purged here.
+  icon: izzy-on-droid.png
+  name: IzzyOnDroid F-Droid Repo Archive
+repo:
+  description: >-
+    Applications in this repository are official binaries built by the original application
+    developers, taken from their resp. repositories (mostly Github, GitLab, Codeberg), with
+    additional screening applied. Updates for the apps are usually fetched daily, and you
+    can expect daily index updates.
+  icon: izzy-on-droid.png
+  name: IzzyOnDroid F-Droid Repo

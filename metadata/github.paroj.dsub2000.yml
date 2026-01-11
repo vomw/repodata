@@ -1,0 +1,36 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Pavel Rojtberg
+AuthorWebSite: https://www.rojtberg.net
+SourceCode: https://github.com/paroj/DSub2000
+IssueTracker: https://github.com/paroj/DSub2000/issues
+Changelog: https://github.com/paroj/DSub2000/releases
+Donate: https://ko-fi.com/paroj
+
+AutoName: DSub2000
+
+MaintainerNotes:
+  AppAdded: 2025-10-04
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /floss/
+  Fastlane: https://github.com/paroj/DSub2000/blob/edge/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /github/paroj/serverproxy
+  FlagIgnore:
+    usesCleartextTraffic: to connect to subsonic servers in the local network
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to play songs from local storage
+    android.permission.READ_MEDIA_AUDIO: to play songs from local storage (Android 12+)
+    android.permission.ACCESS_FINE_LOCATION: for automatic day/ night mode and different server URL in local WiFi
+    android.permission.ACCESS_COARSE_LOCATION: for automatic day/ night mode and different server URL in local WiFi
+    android.permission.READ_PHONE_STATE: to auto-pause playback when a call is received
+    android.permission.FOREGROUND_SERVICE: for downloading playlists to cache
+  Note: android.permission.RECORD_AUDIO – https://github.com/paroj/DSub2000/issues/74
+
+AllowedAPKSigningKeys: 4ba2043ae63fbcf3054a3a0661e8cf698a580407ba27718a906561c5d7a85cdb
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

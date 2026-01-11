@@ -1,0 +1,48 @@
+Categories:
+  - Security
+License: GPL-3.0-or-later
+AuthorName: Kunzisoft
+AuthorEmail: contact@kunzisoft.com
+WebSite: https://www.keepassdx.com
+SourceCode: https://github.com/Kunzisoft/KeePassDX
+IssueTracker: https://github.com/Kunzisoft/KeePassDX/issues
+Translation: https://hosted.weblate.org/projects/keepass-dx/strings/
+Changelog: https://github.com/Kunzisoft/KeePassDX/blob/HEAD/CHANGELOG
+Donate: https://www.keepassdx.com/#donation
+Liberapay: Kunzisoft
+Bitcoin: 1DSwXCk7Sob24sNsofywNoRQw2f5Qj5t2F
+Litecoin: LRmhvGbKNXFLTxyK8Q9zBxDXjBWm6Rzt34
+
+AutoName: KeePassDX
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-10-09
+  Method: github-release
+  ApkMatch: /free\.apk$/i
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/kunzisoft/keepass
+    - /com/kunzisoft/encrypt
+  Fastlane: https://github.com/Kunzisoft/KeePassDX/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,featureGraphic,screenshots
+  FastlaneIgnore: title
+  Note: title has to be skipped so libre/free can be differentiated
+  IntentFilterIgnore:
+    android.view.InputMethod: needed for the auto-type functionality (Magikeyboard)
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: used to open applications directly from their applicationId from an "AndroidApp" field
+    android.permission.FOREGROUND_SERVICE: needed to keep database operations working when the app itself is not in foreground
+    android.permission.POST_NOTIFICATIONS: needed to post notifications
+    android.permission.SCHEDULE_EXACT_ALARM: needed to manage timers for database closing
+    android.permission.USE_BIOMETRIC: enables biometric/fingerprint recognition
+    android.permission.USE_FINGERPRINT: enables fingerprint recognition for old devices
+    android.permission.VIBRATE: to allow vibration at events, rarely used
+  Status:
+    - 2024-05-10 asked for clarification on QUERY_ALL_PACKAGES and DEPENDENCY_INFO_BLOCK at https://github.com/Kunzisoft/KeePassDX/issues/1821
+    - 2025-07-20 shipped adjusted fulldesc upstream via https://github.com/Kunzisoft/KeePassDX/pull/2092
+
+AllowedAPKSigningKeys: 7d55b8af210381aabf960f07e17cf7857b6d2a642ca2da6bf0bdf1b200362f04
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

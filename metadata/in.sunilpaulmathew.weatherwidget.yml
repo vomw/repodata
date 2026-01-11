@@ -1,0 +1,30 @@
+Categories:
+  - Weather
+License: GPL-3.0-or-later
+AuthorName: sunilpaulmathew
+AuthorEmail: smartpack.org@gmail.com
+AuthorWebSite: https://smartpack.github.io/
+SourceCode: https://github.com/sunilpaulmathew/Weather
+IssueTracker: https://github.com/sunilpaulmathew/Weather/issues
+Translation: https://poeditor.com/join/project/DV7W7CTUV0
+Changelog: https://github.com/sunilpaulmathew/Weather/releases
+
+AutoName: Weather
+
+MaintainerNotes:
+  AppAdded: 2024-03-03
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sunilpaulmathew/Weather/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: to (optionally) use the current location for weather data
+    android.permission.ACCESS_FINE_LOCATION: to (optionally) use the current location for weather data
+  Status:
+    - 2025-06-27 last release 2024-03-03; UCM Tags=>Static
+    - 2025-11-13 single new release 2025-07-10, keeping UCM at Static
+
+AllowedAPKSigningKeys: b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

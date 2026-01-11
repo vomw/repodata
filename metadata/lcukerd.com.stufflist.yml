@@ -1,0 +1,22 @@
+Categories:
+  - Office
+License: MIT
+AuthorName: Lcukerd
+AuthorEmail: Lcukerd1997@gmail.com
+SourceCode: https://github.com/lcukerd/StuffList
+IssueTracker: https://github.com/lcukerd/StuffList/issues
+
+AutoName: Stuff List
+
+MaintainerNotes:
+  AppAdded: 2017-11-17
+  Method: none
+  GHDownloadDir: https://github.com/lcukerd/StuffList/blob/master/app
+  Note: development stalled since 12/2017 but still maintained
+  Status:
+    - 2023-08-08 last release 12/2017, last commit 12/2017, author still around but updates unlikely, so deactivating (from github-repo/Static)
+    - 2025-11-19 tested on Android 10, still works fine.
+
+AllowedAPKSigningKeys: c10b0d91d46d50d4c9df3d0bf9c34001c438fcbff845680bcb6b6939275d0449
+
+UpdateCheckMode: None

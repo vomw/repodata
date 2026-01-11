@@ -1,0 +1,42 @@
+AntiFeatures:
+  Tracking:
+    en-US: The app uses a custom analytics tracker which cannot be disabled.
+    de: Die App verwendet einen eigenen Analysetracker, der nicht deaktiviert werden kann.
+Categories:
+  - Multimedia
+License: LGPL-3.0-only
+AuthorName: vitamin-caig
+AuthorEmail: zxtune@gmail.com
+WebSite: https://zxtune.bitbucket.io/
+SourceCode: https://github.com/vitamin-caig/zxtune
+IssueTracker: https://github.com/vitamin-caig/zxtune/issues
+Changelog: https://github.com/vitamin-caig/zxtune/releases
+
+AutoName: ZXTune
+
+MaintainerNotes:
+  AppAdded: 2025-07-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid_arm64-v8a/i
+  ApkIgnore: /x86/i
+  Fastlane: https://github.com/vitamin-caig/zxtune/blob/develop/apps/zxtune-android/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /app/zxtune
+  FlagIgnore:
+    usesCleartextTraffic: some of the catalogues have no https set up
+  PermIgnore:
+    android.permission.ACCESS_NETWORK_STATE: to check if internet access is available
+    android.permission.INTERNET: to access remote data sources, e.g. music catalogues
+    android.permission.WAKE_LOCK: for scan service speedup
+    android.permission.WRITE_SETTINGS: to set chiptune as ringtone
+    android.permission.READ_EXTERNAL_STORAGE: to access the files to play
+    android.permission.WRITE_EXTERNAL_STORAGE: for playlist export
+    android.permission.READ_MEDIA_AUDIO: to access the files to play
+
+AllowedAPKSigningKeys: 2956df957f047fe81649ec0b6b45ca61ebb5e0da295061d06692ab0e4aace618
+
+VercodeOperation: '(%c -4)/10'
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

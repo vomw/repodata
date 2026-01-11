@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: M A A Z
+SourceCode: https://github.com/maazm7d/QuickSE
+IssueTracker: https://github.com/maazm7d/QuickSE/issues
+Changelog: https://github.com/maazm7d/QuickSE/releases
+
+AutoName: QuickSE
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2025-08-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/maazm7d/QuickSE/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 35ddf4aaaefb288cac020f30fd9303b069502dfcc73845915f6b8bea323d55ab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

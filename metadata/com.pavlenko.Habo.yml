@@ -1,0 +1,30 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Peter Pavlenko
+AuthorEmail: info@habo.space
+AuthorWebSite: https://habo.space/
+SourceCode: https://github.com/xpavle00/Habo
+IssueTracker: https://github.com/xpavle00/Habo/issues
+Translation: https://hosted.weblate.org/engage/habo/
+
+AutoName: Habo (habit tracker)
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-02-04
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/xpavle00/Habo/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-03-23 last release 2024-01-18, last commit 2024-02-11; UCM Tags=>Static
+    - 2025-09-30 upstreaming our Fastlane via https://github.com/xpavle00/Habo/pull/89
+    - 2025-12-25 UCM back to Tags as releases picked up again
+
+AllowedAPKSigningKeys: 12c07be0332afd01f422f543cc96f58ec19f3212ed6ce2749c115d5183aca5fa
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

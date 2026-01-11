@@ -1,0 +1,22 @@
+Categories:
+  - Money
+License: MIT
+AuthorName: Abhaysing Bhosale
+AuthorEmail: abhaysingbhosale1@gmail.com
+SourceCode: https://github.com/Abhay-cloud/Fixed-Deposit-Tracker
+IssueTracker: https://github.com/Abhay-cloud/Fixed-Deposit-Tracker/issues
+Donate: https://www.buymeacoffee.com/Abhaysing
+
+AutoName: FDTracker
+
+MaintainerNotes:
+  AppAdded: 2024-07-26
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-11-13 last release 6/2024, last commit 8/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 1a7838652f897b0f832562b2b829f08bcd5baaeb2a77a2ce3d973f62ace61d4f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

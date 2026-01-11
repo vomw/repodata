@@ -1,0 +1,26 @@
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Mubarak Basha
+AuthorWebSite: https://mubaraknative.github.io/
+SourceCode: https://github.com/CompassMB/MBCompass
+IssueTracker: https://github.com/CompassMB/MBCompass/issues
+Changelog: https://github.com/CompassMB/MBCompass/releases
+
+AutoName: MBCompass
+
+MaintainerNotes:
+  AppAdded: 2025-01-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CompassMB/MBCompass/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: to show the current location on a map
+    android.permission.ACCESS_FINE_LOCATION: to show the current location on a map
+
+AllowedAPKSigningKeys: 5a7910e22abe3ef9d1fd42c64fdd151f7a2ddc38acac5f1f94caf9d79b70a69a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

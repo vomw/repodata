@@ -1,0 +1,25 @@
+Categories:
+  - Science & Education
+License: MPL-2.0
+AuthorName: Matthias Emde
+AuthorEmail: alpha@musikus.app
+SourceCode: https://github.com/matthiasemde/musikus-android
+IssueTracker: https://github.com/matthiasemde/musikus-android/issues
+Changelog: https://github.com/matthiasemde/musikus-android/releases
+
+AutoName: Musikus
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-07-13
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/matthiasemde/musikus-android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed by the integrated Audio Recorder
+
+AllowedAPKSigningKeys: 8e17d2a318585f4263e0852dafc47d5391adb4dfa731ba2198a5d0dcacb600c0
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

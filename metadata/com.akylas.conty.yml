@@ -1,0 +1,34 @@
+Categories:
+  - Reading
+License: MIT
+AuthorName: Akylas
+AuthorEmail: contact@akylas.fr
+AuthorWebSite: https://www.akylas.fr
+SourceCode: https://github.com/Akylas/conty
+IssueTracker: https://github.com/Akylas/conty/issues
+Translation: https://hosted.weblate.org/engage/conty/
+Changelog: https://github.com/Akylas/conty/releases
+
+AutoName: Conty
+
+MaintainerNotes:
+  AppAdded: 2024-10-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/Akylas/conty/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed because the app heavily uses file read, unzip, copy
+    android.permission.WRITE_EXTERNAL_STORAGE: needed because the app heavily uses file read, unzip, copy
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed because the app heavily uses file read, unzip, copy
+  Status:
+    - 2025-02-14 1.8.3.30 added Google Billing & GMS, so we had to add NonFreeComp & NonFreeNet; see https://github.com/Akylas/conty/issues/8
+    - 2025-02-15 1.8.4.31 has them removed again
+    - 2025-07-19 shipped de locale to upstream via https://github.com/Akylas/conty/pull/10
+
+AllowedAPKSigningKeys: 39ea68809209ba74af24f08eded1cb79d7beb69d473d99ffdf1a51540fa35472
+
+AutoUpdateMode: Version ^android/github/[^/]+/%c$
+UpdateCheckMode: Tags

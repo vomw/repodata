@@ -1,0 +1,31 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-07-27, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-07-27 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Theming
+License: MIT
+AuthorName: Joel Koch
+AuthorEmail: support@schildpad.app
+WebSite: https://schildpad.app/
+SourceCode: https://github.com/joelpaulkoch/schildpad
+IssueTracker: https://github.com/joelpaulkoch/schildpad/issues
+
+AutoName: Schildpad Launcher
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-03-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/
+  Fastlane: https://github.com/joelpaulkoch/schildpad/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshotsJPG
+  Status:
+    - 2024-10-23 repo was archived 2024-07-27, UCM Tags=>None
+    - 2024-10-23 reported as still working, see https://gitlab.com/IzzyOnDroid/repo/-/issues/617
+
+AllowedAPKSigningKeys: 7e0b2d99e5b75d58a48194a6b1840e310fa36d4e0cf46cb2ac8d1b1b6e65efdb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

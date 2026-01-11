@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: NlckySolutions
+AuthorEmail: contact@nlckysolutions.org
+AuthorWebSite: http://nlckysolutions.org/
+SourceCode: https://github.com/nlckysolutions/PrivacyStats
+IssueTracker: https://github.com/nlckysolutions/PrivacyStats/issues
+
+AutoName: PrivacyStats
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-11-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nlckysolutions/PrivacyStats/blob/main/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 6c04c9a1ace7c2da8ac9c19243ef430561ba98cf9a55958fc8797a9a9fa8ff37
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

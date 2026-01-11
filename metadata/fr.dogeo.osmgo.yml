@@ -1,0 +1,28 @@
+Categories:
+  - Navigation
+License: MIT
+AuthorName: DoFabien
+AuthorEmail: fabien.delolmo@gmail.com
+WebSite: https://github.com/OsmTravel/OsmGo/wiki
+SourceCode: https://github.com/OsmTravel/OsmGo
+IssueTracker: https://github.com/OsmTravel/OsmGo/issues
+Changelog: https://github.com/OsmTravel/OsmGo/releases
+
+AutoName: Osm Go!
+
+MaintainerNotes:
+  AppAdded: 2019-06-18
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: required to show things near you
+    android.permission.ACCESS_FINE_LOCATION: required to show things near you
+  Status:
+    - 2021-12-07 switching AUM from Tags to Static (last release was 11/2020)
+    - 2023-09-01 new release adds GMS, see https://github.com/OsmTravel/OsmGo/issues/174
+    - 2025-11-13 last release/commit 7/2024, keeping UCM=Static
+
+AllowedAPKSigningKeys: 2443bd458dc9663a2a32e426f3532726baf61af55b8a31dc7c09e3392e0dae76
+
+ArchivePolicy: 2
+UpdateCheckMode: Static

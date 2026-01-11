@@ -1,0 +1,22 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Weslley Almeida
+SourceCode: https://github.com/weslley75/AudioOutputSwitcher
+IssueTracker: https://github.com/weslley75/AudioOutputSwitcher/issues
+Changelog: https://github.com/weslley75/AudioOutputSwitcher/releases
+
+AutoName: Audio Output Switcher
+
+MaintainerNotes:
+  AppAdded: 2025-09-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkIgnore: /debug/
+  Fastlane: https://github.com/weslley75/AudioOutputSwitcher/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs
+
+AllowedAPKSigningKeys: 66a24f46b0eb6d369b4452364be0a40b35b2f5174ed3ecb1636b46a8ed5397a6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

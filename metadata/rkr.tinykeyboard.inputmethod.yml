@@ -1,0 +1,32 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Raimondas Rimkus
+AuthorEmail: narimantukas+playstore@gmail.com
+SourceCode: https://github.com/rkkr/tiny-keyboard
+IssueTracker: https://github.com/rkkr/tiny-keyboard/issues
+Changelog: https://github.com/rkkr/tiny-keyboard/releases
+
+AutoName: Tiny Keyboard
+
+MaintainerNotes:
+  AppAdded: 2020-04-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/rkkr/tiny-keyboard/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  IntentFilterIgnore:
+    android.view.InputMethod: required for a keyboard app
+  Status:
+    - 2020-11-11 not updated for 1y 0m 8d, changing AUM from Tags to Static
+    - 2023-08-08 last release 10/2022, last commit 10/2022
+    - 2024-11-01 signing key changed – https://github.com/rkkr/tiny-keyboard/issues/13
+    - 2024-11-02 fixed, dev accidentally picked the bundle key instead
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/rkkr/tiny-keyboard/pull/16
+    - 2025-11-14 last release 6/2025 – the only one this year, so keeping UCM=Static
+
+AllowedAPKSigningKeys: 12f0750bf1607469764f8acf0db67ae1cef3a6a5e1f097504e642e6edbd10e4e
+
+UpdateCheckMode: Static
+AutoUpdateMode: Version %c

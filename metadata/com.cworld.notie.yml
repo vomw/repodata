@@ -1,0 +1,27 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-07-29, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-07-29 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: CWorld
+AuthorWebSite: https://cworld.top/
+SourceCode: https://github.com/cworld1/notie
+IssueTracker: https://github.com/cworld1/notie/issues
+Changelog: https://github.com/cworld1/notie/releases
+
+AutoName: Notie
+
+MaintainerNotes:
+  AppAdded: 2023-12-28
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-03-23 last release 2024-01-09, last commit 2024-01-24; UCM Tags=>Static
+    - 2025-08-18 monthy check found repo archived 2025-07-29, UCM Static=>None
+
+AllowedAPKSigningKeys: 28470fb88c9f3b9d296ac3d1eb97468c85a10b0262054d1c26a3a2da3595361f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

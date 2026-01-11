@@ -1,0 +1,1 @@
+anderen Anwendungen Zugriff auf den Primärspeicher geben

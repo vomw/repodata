@@ -1,0 +1,1 @@
+prevent the system from allowing apps to always open supported links

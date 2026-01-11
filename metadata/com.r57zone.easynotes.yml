@@ -1,0 +1,30 @@
+Categories:
+  - Writing
+License: PublicDomain
+AuthorName: r57zone
+AuthorEmail: r57zone@gmail.com
+AuthorWebSite: https://r57zone.github.io/
+SourceCode: https://github.com/r57zone/EasyNotes
+IssueTracker: https://github.com/r57zone/EasyNotes/issues
+Donate: https://patreon.com/r57
+
+AutoName: EasyNotes
+
+MaintainerNotes:
+  AppAdded: 2019-03-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/r57zone/EasyNotes/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: used for synchronization with the PC companion in the local network
+  Status:
+    - 2024-02-06 uses debug key https://github.com/r57zone/EasyNotes/issues/5
+    - 2024-02-19 new release uses a different debug key and has versionCode decreased; setting UCM to Static to avoid unnecessary traffic
+    - 2024-03-13 new release has APK signed with a proper release key, but VC was decreased from 10004 to 20; performung full switch removing the old one as uninstall/reinstall is needed anyway
+    - 2025-08-13 upstreaming our Fastlane via https://github.com/r57zone/EasyNotes/pull/7
+
+AllowedAPKSigningKeys: f0e71fc25954d7473636ccedc59378706d01d9cc5b7ae7ee3f069d5bc32a9ab2
+
+UpdateCheckMode: Static

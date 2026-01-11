@@ -1,0 +1,22 @@
+Categories:
+  - Money
+License: BSD-3-Clause-Clear
+AuthorName: Szymon Kolasa
+SourceCode: https://github.com/KSSidll/Arru
+IssueTracker: https://github.com/KSSidll/Arru/issues
+Changelog: https://github.com/KSSidll/Arru/releases
+
+AutoName: Arru
+
+MaintainerNotes:
+  AppAdded: 2024-07-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/KSSidll/Arru/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots,changelogs
+  Note: Fastlane is our starter package
+
+AllowedAPKSigningKeys: 305b4b705861180c93c5f0742c2f62b6c95c3f4a6fca7b5aa71e64fa66971244
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

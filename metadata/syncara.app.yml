@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on Youtube.
+    de: Die App hängt von Youtube ab.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Khaled
+AuthorEmail: spkhalad@gmail.com
+AuthorWebSite: https://khaled.is-a.dev/
+SourceCode: https://github.com/khaled-0/Syncara
+IssueTracker: https://github.com/khaled-0/Syncara/issues
+Changelog: https://github.com/khaled-0/Syncara/releases
+
+AutoName: Syncara
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-11-16
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/khaled-0/Syncara/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to access audio files to play
+    android.permission.READ_MEDIA_AUDIO: to access audio files to play
+  Status:
+    - 2024-12-29 rebranded from tubesync.app
+    - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/khaled-0/Syncara/pull/53
+
+AllowedAPKSigningKeys: 9dad39f4aca69e372d49c034eb6c094ba88da59c82f797222f995773f0ac87ef
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

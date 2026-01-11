@@ -1,0 +1,27 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Fossify
+AuthorEmail: hello@fossify.org
+AuthorWebSite: https://www.fossify.org/
+SourceCode: https://github.com/FossifyOrg/Thank-You
+IssueTracker: https://github.com/FossifyOrg/Thank-You/issues
+Changelog: https://github.com/FossifyOrg/Thank-You/releases
+
+AutoName: Fossify Thank You
+
+MaintainerNotes:
+  AppAdded: 2025-03-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FossifyOrg/Thank-You/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.REQUEST_DELETE_PACKAGES: allow uninstalling unidentified versions (potentially unsafe apps)
+  Status:
+    - 2025-05-29 REQUEST_DELETE_PACKAGES – https://github.com/FossifyOrg/Thank-You/discussions/53
+
+AllowedAPKSigningKeys: affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,33 @@
+Categories:
+  - Security
+  - Office
+License: Apache-2.0
+AuthorName: Binondi Borthakur
+AuthorEmail: borthakurbinondi@gmail.com
+SourceCode: https://github.com/Binondi/Calculator-Hide-Files
+IssueTracker: https://github.com/Binondi/Calculator-Hide-Files/issues
+Changelog: https://github.com/Binondi/Calculator-Hide-Files/releases
+Donate: https://github.com/sponsors/Binondi
+
+AutoName: Calculator
+
+MaintainerNotes:
+  AppAdded: 2025-06-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Binondi/Calculator-Hide-Files/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starterr package
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to access files to hide
+    android.permission.READ_MEDIA_IMAGES: to access files to hide
+    android.permission.READ_MEDIA_VIDEO: to access files to hide
+    android.permission.READ_MEDIA_AUDIO: to access files to hide
+    android.permission.MANAGE_EXTERNAL_STORAGE: to access files to hide
+  Status:
+    - 2025-08-19 upstreaming our fastlane metadata via https://github.com/Binondi/Calculator-Hide-Files/pull/11
+
+AllowedAPKSigningKeys: 1b6a72f8e4c73a7efde023fe9d9f7740cc00534375713d66232d7e4352999b7f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,44 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Faded
+AuthorEmail: contact@fadedhood.com
+AuthorWebSite: https://faded.dev/
+WebSite: https://fadcam.faded.dev/
+SourceCode: https://github.com/anonfaded/FadCam
+IssueTracker: https://github.com/anonfaded/FadCam/issues
+Changelog: https://github.com/anonfaded/FadCam/releases
+
+AutoName: FadCam
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-07-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /armeabi-v7a/i
+  Fastlane: https://github.com/anonfaded/FadCam/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.BLUETOOTH_SCAN: to allow using an external microphone via Bluetooth
+    android.permission.CAMERA: required for video recording
+    android.permission.RECORD_AUDIO: required to include audio with the recordings
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted due to the write permission
+    android.permission.WRITE_EXTERNAL_STORAGE: used to store the recordings
+    android.permission.READ_MEDIA_VIDEO: needed to access videos on-device
+    android.permission.ACCESS_FINE_LOCATION: used for the watermarking feature
+    android.permission.ACCESS_COARSE_LOCATION: used for the watermarking feature
+  Status:
+    - 2024-08-04 APK size increased by factor 60 from < 5 MB at 1.0.2 to > 120 MB https://github.com/anonfaded/FadCam/issues/18
+    - 2024-08-07 switched to per-ABI releases, size down to 25 MB now.
+    - 2024-11-21 signing key changed, UCM Tags=>Static until clarified, see https://github.com/anonfaded/FadCam/issues/62
+    - 2024-11-22 author recovered original key, UCM Static=>Tags again
+    - 2025-06-11 same wrong signing key again, and APK size for the armeabi up to 60+ MB
+    - 2025-06-15 solved, but BLUETOOTH_SCAN ACCESS_MEDIA_LOCATION – https://github.com/anonfaded/FadCam/issues/62#issuecomment-2973692272
+    - 2025-06-23 cleared, but now it’s android.permission.QUERY_ALL_PACKAGES (cleared/gone 2025-09-27)
+
+AllowedAPKSigningKeys: 999e27d8ee66a67319db6827e0f8549c37624601b86f0108c6970413279ef1d4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

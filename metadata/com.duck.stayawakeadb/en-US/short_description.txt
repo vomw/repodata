@@ -1,0 +1,1 @@
+enable/dissable "Stay Awake" based on ADB connection

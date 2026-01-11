@@ -1,0 +1,25 @@
+Categories:
+  - Money
+License: GPL-3.0-only
+AuthorName: minardil
+SourceCode: https://codeberg.org/minardil/BasicCashFlow
+IssueTracker: https://codeberg.org/minardil/BasicCashFlow/issues
+Changelog: https://codeberg.org/minardil/BasicCashFlow/releases
+Liberapay: Minardil
+Donate: https://buymeacoffee.com/minardil
+
+AutoName: BasicCashFlow
+
+MaintainerNotes:
+  AppAdded: 2025-03-20
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/minardil/BasicCashFlow/src/branch/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescNL,icon,featureGraphic,screenshots
+  Note: fulldesc lacks some NL
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 47c264bc2229f09545eda019d27614887e07b905606ef258619467292c2d4b5b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

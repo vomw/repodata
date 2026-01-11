@@ -1,0 +1,37 @@
+Categories:
+  - Graphics
+License: GPL-3.0-only
+AuthorName: Fossify
+AuthorEmail: hello@fossify.org
+AuthorWebSite: https://www.fossify.org/
+SourceCode: https://github.com/FossifyOrg/Gallery
+IssueTracker: https://github.com/FossifyOrg/Gallery/issues
+Changelog: https://github.com/FossifyOrg/Gallery/releases
+
+AutoName: Gallery
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-12-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/FossifyOrg/Gallery/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  Note: video.txt empty
+  DoubleList: keep
+  DoubleListRef: https://github.com/FossifyOrg/Gallery/issues/32#issuecomment-1880161569
+  PermIgnore:
+    android.permission.ACCESS_MEDIA_LOCATION: used to show location data in the image properties dialog
+    android.permission.READ_MEDIA_IMAGES: needed to access pictures on newer Android versions
+    android.permission.READ_MEDIA_VIDEO: needed to access videos on newer Android versions
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed on newer Android versions to access files stored outside media storage
+    android.permission.READ_EXTERNAL_STORAGE: needed to access media on lower Android versions
+  Status:
+    - 2024-01-07 reached F-Droid 2024-01-03, asked whether to keep https://github.com/FossifyOrg/Gallery/issues/32#issuecomment-1880161569
+    - 2024-04-16 scanner reported ACCESS_MEDIA_LOCATION, see https://github.com/FossifyOrg/Gallery/issues/83#issuecomment-2059676286
+
+AllowedAPKSigningKeys: affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

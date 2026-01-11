@@ -1,0 +1,23 @@
+Categories:
+  - Xposed
+  - System
+License: GPL-3.0-only
+AuthorName: dttzyjw0012
+SourceCode: https://github.com/dttzyjw0012/PhantomProcessesSavior
+IssueTracker: https://github.com/dttzyjw0012/PhantomProcessesSavior/issues
+Changelog: https://github.com/dttzyjw0012/PhantomProcessesSavior/releases
+
+AutoName: PhantomProcessesSavior
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-12-13
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-03-23 last release/commit 2023-12-23; UCM Tags=>Static
+
+AllowedAPKSigningKeys: aa4e19101e9df29c68ba3f3992bb042298208aa166addca49f5643dac5a906e3
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

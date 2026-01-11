@@ -1,0 +1,22 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: kaleedTc
+AuthorEmail: kaleed@tutanota.com
+SourceCode: https://github.com/kaleedtc/Privacium
+IssueTracker: https://github.com/kaleedtc/Privacium/issues
+Changelog: https://github.com/kaleedtc/Privacium/releases
+
+AutoName: Privacium
+
+MaintainerNotes:
+  AppAdded: 2025-07-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/kaleedtc/Privacium/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 5e4303afd0d8c85e2a1b0afd764197a5339602cf291409341baddfdf23436034
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

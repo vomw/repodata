@@ -1,0 +1,1 @@
+<p><i>FastoTVLite</i> is a crossplatform free iptv/stream player with EPG support.</p><p><b>IMPORTANT:</b> <i>FastoTVLite</i> doesn't provide any TV sources. You need to add a playlist from your IPTV provider to be able to watch live TV channels or VODs.</p>

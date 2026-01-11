@@ -1,0 +1,37 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on Youtube for videos.
+    de: Die App bezieht Videos von Youtube.
+Categories:
+  - Multimedia
+  - Social Network
+  - Internet
+License: GPL-3.0-or-later
+AuthorName: Team NewPipe
+AuthorEmail: tnp@schabi.org
+WebSite: https://newpipe.net
+SourceCode: https://github.com/TeamNewPipe/NewPipe
+IssueTracker: https://github.com/TeamNewPipe/NewPipe/issues
+Translation: https://hosted.weblate.org/projects/newpipe/
+Changelog: https://github.com/TeamNewPipe/NewPipe/releases
+
+AutoName: NewPipe
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-11-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/TeamNewPipe/NewPipe/blob/dev/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  LibIgnore:
+    - /org/acra
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed for the floating player
+    android.permission.READ_EXTERNAL_STORAGE: needed to access the Downloads folder at least up to Android 9
+
+AllowedAPKSigningKeys: cb84069bd68116bafae5ee4ee5b08a567aa6d898404e7cb12f9e756df5cf5cab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

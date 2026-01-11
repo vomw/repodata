@@ -1,0 +1,19 @@
+/archive/
+/binary_transparency/
+/build/*/
+/logs/
+/repo/*
+/tmp/
+*~
+*.bak
+*.swp
+*.swo
+*.pyc
+*.apk
+*.jks
+
+/config.yml
+
+# just in case, for safety
+keystore.jks
+keystore.p12

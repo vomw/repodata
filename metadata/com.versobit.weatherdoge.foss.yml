@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: This app depends on OpenWeatherMap or Yahoo for weather data.
+    de: Die App bezieht ihre Wetterdaten von OpenWeatherMap bzw. Yahoo.
+Categories:
+  - Weather
+License: GPL-3.0-only
+AuthorName: VersoBit
+AuthorEmail: apps@versobit.com
+AuthorWebSite: https://versobit.com/
+WebSite: https://versob.it/wowDoge
+SourceCode: https://github.com/VersoBit/WeatherDoge
+IssueTracker: https://github.com/VersoBit/WeatherDoge/issues
+Changelog: https://github.com/VersoBit/WeatherDoge/releases
+
+AutoName: Weather Doge
+
+MaintainerNotes:
+  AppAdded: 2023-08-19
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /\df-/i
+  ApkIgnore: /\dp-/i
+  NameSpaces:
+    - /com/versobit/weatherdoge
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: to get the location to obtain weather data for
+  X-AutoUpdateMode: Version v%v appends commit hash
+  Status:
+    - 2024-12-10 last release/commit 8/2023; UCM Tags=>Static
+    - 2025-11-12 a single new release 4/2025, keeping UCM=Static
+
+AllowedAPKSigningKeys: a6a9b02f57c4397e5b5e858fb50689940f8ff3a8a4d21d0a82ada0bad31e68b8
+
+UpdateCheckMode: Static

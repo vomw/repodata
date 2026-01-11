@@ -1,0 +1,1 @@
+<p>This module allows you to disable audio focus, enabling you to play multiple videos and audios simultaneously.</p>

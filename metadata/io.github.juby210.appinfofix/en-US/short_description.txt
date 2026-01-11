@@ -1,0 +1,1 @@
+show version code, package name and disable/enable button on AOSP in app info

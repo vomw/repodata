@@ -1,0 +1,1 @@
+<p><i>Xposed App Locale</i> is an Xposed module that lets you set the language on a per-app basis.</p>

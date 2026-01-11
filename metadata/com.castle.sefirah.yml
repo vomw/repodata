@@ -1,0 +1,47 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: shrimqy
+SourceCode: https://github.com/shrimqy/Sefirah-Android
+IssueTracker: https://github.com/shrimqy/Sefirah-Android/issues
+Changelog: https://github.com/shrimqy/Sefirah-Android/releases
+
+AutoName: Sefirah
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-02-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/shrimqy/Sefirah-Android/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/komu
+    - /komu/seki
+    - /sefirah
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: uses to obtain the clipboard data
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to get package names for syncing notifications
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed for file transfer
+    android.permission.WRITE_EXTERNAL_STORAGE: needed for file transfer
+    android.permission.READ_EXTERNAL_STORAGE: implied by WRITE
+    android.permission.ACCESS_COARSE_LOCATION: needed to access the WiFi SSID
+    android.permission.ACCESS_FINE_LOCATION: needed to access the WiFi SSID
+    android.permission.ACCESS_BACKGROUND_LOCATION: for auto-connection
+    android.permission.RECEIVE_SENSITIVE_NOTIFICATIONS: needed for the notification listener, to allow syncing sensitive notifications as well
+    android.permission.SEND_SMS: for the SMS texting functionality
+    android.permission.READ_SMS: for the SMS texting functionality
+    android.permission.RECEIVE_SMS: for the SMS texting functionality
+    android.permission.RECEIVE_MMS: for the SMS texting functionality
+    android.permission.READ_CONTACTS: to see who send you the SMS
+    android.permission.READ_PHONE_STATE: used to find the active local phone number for SMS activity
+  Status:
+    - 2025-01-24 permissions, dependencyInfo etc. https://github.com/shrimqy/Sefirah-Android/issues/6#issuecomment-2612052651
+    - 2025-02-05 rebranded from com.komu.sekia
+
+AllowedAPKSigningKeys: 03abaaad6c5b9fbddf156cefe8c342f7fe3afd9dc7e9ae74d7b0053b20872484
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

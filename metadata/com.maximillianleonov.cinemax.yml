@@ -1,0 +1,21 @@
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: Afig Aliyev
+SourceCode: https://github.com/AfigAliyev/Cinemax
+IssueTracker: https://github.com/AfigAliyev/Cinemax/issues
+Changelog: https://github.com/AfigAliyev/Cinemax/releases
+
+AutoName: Cinemax
+
+MaintainerNotes:
+  AppAdded: 2022-10-06
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release 7/2023, last commit 5/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 44a3e62feb4f66a90d98a6004f93fd8573992f3ab627c1934993968ec45f6942
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

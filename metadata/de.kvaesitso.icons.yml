@@ -1,0 +1,25 @@
+Categories:
+  - Theming
+License: Apache-2.0
+AuthorName: daywalk3r666
+SourceCode: https://github.com/daywalk3r666/Kvaesitso-Icons
+IssueTracker: https://github.com/daywalk3r666/Kvaesitso-Icons/issues
+Changelog: https://github.com/daywalk3r666/Kvaesitso-Icons/releases
+
+AutoName: Kvæsitso Icons
+
+MaintainerNotes:
+  AppAdded: 2023-02-23
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2023-04-17 repo has been archived 2023-04-14, disabling update checks
+    - 2023-08-08 repo gone now; last release was 4/2023
+    - 2025-05-15 found fork of 1.6.0 at https://github.com/Atn-D/Kvaesitso-Icons
+
+AllowedAPKSigningKeys: 7bbaf8ab4ee3a72f0bcdc98dd102bc324619475845137eec4aee8c8c997959db
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None
+
+NoSourceSince: 1.8.0

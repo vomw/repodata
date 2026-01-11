@@ -1,0 +1,21 @@
+Categories:
+  - Xposed
+License: Apache-2.0
+AuthorName: Pavel Vasiliev
+SourceCode: https://github.com/LuigiVampa92/XLogger
+IssueTracker: https://github.com/LuigiVampa92/XLogger/issues
+
+AutoName: XLogger
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2022-12-06
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release/commit 3/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 78dd5ef5a43ca17e41eafac396e58909101a5dc78a4b10cdd79bc5880c18365a
+
+AutoUpdateMode: Version release-%v
+UpdateCheckMode: Static

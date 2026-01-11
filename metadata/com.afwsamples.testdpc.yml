@@ -1,0 +1,29 @@
+Categories:
+  - Development
+License: Apache-2.0
+AuthorName: Google Samples
+AuthorWebSite: https://developers.google.com/
+SourceCode: https://github.com/googlesamples/android-testdpc
+IssueTracker: https://github.com/googlesamples/android-testdpc/issues
+
+AutoName: Test DPC
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2021-08-05
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed for the app management feature
+    android.permission.ACCESS_FINE_LOCATION: needed by the device policy manager
+    android.permission.ACCESS_COARSE_LOCATION: needed by the device policy manager
+    android.permission.READ_EXTERNAL_STORAGE: needed to get icons from user storage
+  Status:
+    - 2022-12-11 Tags=>Static (last release 10/2021 but still active with last commit 12/2022)
+    - 2023-08-06 no new releases, but last commit 6/2023
+    - 2024-02-01 scanner reports READ_EXTERNAL_STORAGE ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION QUERY_ALL_PACKAGES
+
+AllowedAPKSigningKeys: 8090f6630b4e8962479123249087cb4658feaae36a1b57dbeafd74d109b333dc
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

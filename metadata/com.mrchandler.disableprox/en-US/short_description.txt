@@ -1,0 +1,1 @@
+Disables and modifies sensors on your device. REQUIRES XPOSED.

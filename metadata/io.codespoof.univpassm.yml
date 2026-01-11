@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on connections to univention corporate server software.
+    de: Die App benötigt Verbindungen zu Univention Corporate Server software.
+Categories:
+  - Security
+License: MIT
+AuthorName: CodeSpoof
+SourceCode: https://github.com/CodeSpoof/uniPass
+IssueTracker: https://github.com/CodeSpoof/uniPass/issues
+Changelog: https://github.com/CodeSpoof/uniPass/releases
+
+AutoName: uniPass
+
+MaintainerNotes:
+  AppAdded: 2023-11-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CodeSpoof/uniPass/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2024-12-10 last release/commit 11/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 6b783fd3fac3e416da739a6b4cc85ec0197a02c46f83455d31e512bae68e7e9b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

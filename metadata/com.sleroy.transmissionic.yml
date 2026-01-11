@@ -1,0 +1,23 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: Samuel LEROY
+AuthorEmail: s.leroy1995@gmail.com
+SourceCode: https://github.com/6c65726f79/Transmissionic
+IssueTracker: https://github.com/6c65726f79/Transmissionic/issues
+Translation: https://poeditor.com/join/project?hash=sbVnI9eo3d
+Changelog: https://github.com/6c65726f79/Transmissionic/releases
+
+AutoName: Transmissionic
+
+MaintainerNotes:
+  AppAdded: 2023-09-07
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release/commit 3/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: f86e49f7872e8cc7cebf9987d00476e79d8f487d1bf866045e9706dc64d1aead
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

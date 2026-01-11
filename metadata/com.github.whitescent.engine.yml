@@ -1,0 +1,26 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-11-25, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-11-25 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: WhiteScent
+AuthorWebSite: https://blog.whitescent.top/
+SourceCode: https://github.com/whitescent/Engine
+IssueTracker: https://github.com/whitescent/Engine/issues
+Changelog: https://github.com/whitescent/Engine/releases
+
+AutoName: Engine
+
+MaintainerNotes:
+  AppAdded: 2023-02-12
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-12-10 last release/commit 9/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 2efd94529c1b16e4a216a78f5525df867a18eef06e428c487db15ec404f7a560
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None

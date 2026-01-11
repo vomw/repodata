@@ -1,0 +1,36 @@
+AntiFeatures:
+  NonFreeAssets:
+    en-US: vegetables Images and vegetables data are restricted to copyright
+    de: Grafiken und Daten von Pflanzen stehen unter Copyright.
+Categories:
+  - Science & Education
+  - Food
+License: GPL-3.0-or-later
+AuthorName: MyGardenTeam
+AuthorEmail: BugProgEnterprise@gmail.com
+AuthorWebSite: https://bugprog.studio/
+WebSite: https://m9712.gitlab.io/vegetables-db/
+SourceCode: https://gitlab.com/m9712/mygarden
+IssueTracker: https://gitlab.com/m9712/mygarden/-/issues
+Changelog: https://gitlab.com/m9712/mygarden/-/blob/master/CHANGELOG
+Translation: https://m9712.gitlab.io/vegetables-db/Getting%20started/How_to_translate_MyGarden/
+Liberapay: MyGarden
+
+AutoName: MyGarden
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-05-19
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/m9712/mygarden/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshotsJPG
+  Status:
+    - 2024-03-06 v2.1 has same versionCode as v2.0 – and signing key changed?!? – https://gitlab.com/m9712/mygarden/-/issues/15
+    - 2024-03-06 additionally the signing key was changed; seems the author put the Google signed version up instead the one signed themselves. UCM Tags=>Static until solved, and update rolled back
+    - 2024-03-14 Google signing key was 92e8a646a8e8160a586bfcc0195f3c4da4501fd6b43fa1078e4dd9a6964de8a0, switching back to the developers key
+
+AllowedAPKSigningKeys: 03e1738ef4b084920879051c496ce31c4de1e908359bdd45301d908628fbfb27
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

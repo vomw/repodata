@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeDep:
+    en-US: Depends on Shizuku for functionality
+  NonFreeNet:
+    en-US: Connects to Github as app info data source
+Categories:
+  - System
+License: LGPL-3.0-or-later
+AuthorName: Samo Hribar
+AuthorWebSite: https://samolego.github.io/
+SourceCode: https://github.com/samolego/Canta
+IssueTracker: https://github.com/samolego/Canta/issues
+Changelog: https://github.com/samolego/Canta/releases
+Donate: https://www.paypal.com/donate/?hosted_button_id=HPUP9R6VH7FTN
+Bitcoin: 3G48MrV4zyXhKjBDk6rZvYnVx8rJcuz8va
+
+AutoName: Canta
+
+MaintainerNotes:
+  AppAdded: 2025-06-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/samolego/Canta/blob/master/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/636
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list apps for removal
+  Status:
+    - 2025-06-24 got rebranded to io.github.samolego.canta with v3.0.0 as some imposter uploaded the original app to play (originally added here on 2024-10-25, signing key matches)
+
+AllowedAPKSigningKeys: 0a2640317c43272188c3e13194c15460691f12c39ea19bba727dd67fb56289d4
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

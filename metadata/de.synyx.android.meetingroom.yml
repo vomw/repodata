@@ -1,0 +1,31 @@
+Categories:
+  - Time
+License: BSD-3-Clause
+AuthorName: synyx GmbH & Co. KG
+AuthorWebSite: https://synyx.de/
+SourceCode: https://github.com/synyx/MeeRoo
+IssueTracker: https://github.com/synyx/MeeRoo/issues
+Changelog: https://github.com/synyx/MeeRoo/releases
+
+AutoName: MeeRoo
+
+MaintainerNotes:
+  AppAdded: 2022-10-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/synyx/MeeRoo/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package
+  NameSpaces:
+    - /de/synyx/android/meeroo
+  PermIgnore:
+    android.permission.READ_CALENDAR: to match appointments to rooms
+    android.permission.READ_CONTACTS: to match participants to rooms
+  Status:
+    - 2023-10-02 no commits since 2022-09-13
+    - 2025-11-13 upstreaming fastlane via https://github.com/synyx/MeeRoo/pull/147
+
+AllowedAPKSigningKeys: 05c1961b3c2007621c4f5eb03daa5320a728d8873a59cf225feff352fffb3bac
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

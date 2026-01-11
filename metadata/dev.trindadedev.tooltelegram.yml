@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: This app is based on the Telegram network.
+    de: Die App basiert auf dem Telegram Netzwerk.
+Categories:
+  - Internet
+  - Messaging
+License: GPL-3.0-only
+AuthorName: Aquiles Trindade
+AuthorEmail: devsuay@gmail.com
+SourceCode: https://github.com/trindadedev13/Tool-Telegram
+IssueTracker: https://github.com/trindadedev13/Tool-Telegram/issues
+Changelog: https://github.com/trindadedev13/Tool-Telegram/releases
+
+AutoName: Tool Telegram
+
+MaintainerNotes:
+  AppAdded: 2024-10-21
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2025-05-25 repo gone
+
+AllowedAPKSigningKeys: 28b4b0f743c1ee18bd0227db5f12ebc640ca40754629ba37d84069a731f41d04
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: None
+NoSourceSince: 1.0.2

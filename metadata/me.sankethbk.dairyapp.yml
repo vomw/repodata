@@ -1,0 +1,42 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses Dropbox for storage.
+    de: Die App verwendet Dropox als Cloud-Speicher.
+  TetheredNet:
+    en-US: The app is bound for authentication to AppWrite.io which is libre, but you cannot change the server.
+    de: Die App ist für Authentication an den Service von AppWrite.io gebunden (dieser ist zwar libre, man kann den Server aber nicht selbst wählen).
+Categories:
+  - Writing
+License: MIT
+AuthorName: DiaryVault
+AuthorEmail: sankethbk7777@gmail.com
+SourceCode: https://github.com/SankethBK/diaryvault
+IssueTracker: https://github.com/SankethBK/diaryvault/issues
+Changelog: https://github.com/SankethBK/diaryvault/releases
+
+AutoName: 'DiaryVault: diary with backup'
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-10-11
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  ApkIgnore: /x86/i
+  Fastlane: https://github.com/SankethBK/diaryvault/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.RECORD_AUDIO: Needed by the integrated audio recorder.
+    android.permission.READ_EXTERNAL_STORAGE: This permission is needed to access other app’s media files on Android 9 and below.
+  NameSpaces:
+    - /com/example/dairy_app
+  Status:
+    - 2024-01-22 scanner reports android.permission.RECORD_AUDIO android.permission.READ_EXTERNAL_STORAGE – https://github.com/SankethBK/diaryvault/issues/201
+    - 2024-01-23 permissions clarified.
+    - 2024-10-13 app added GMS and Play Services Core, see https://github.com/SankethBK/diaryvault/issues/244
+    - 2024-10-13 solved by removing them from the foss branch
+
+AllowedAPKSigningKeys: 5420dc09663961b364f821532ca114544ff6f959d6ba80e605cc6de7f3ab7bb0
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

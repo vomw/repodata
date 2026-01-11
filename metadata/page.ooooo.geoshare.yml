@@ -1,0 +1,27 @@
+Categories:
+  - Navigation
+License: GPL-3.0-or-later
+AuthorName: Jakub Valenta
+AuthorWebSite: https://www.jakubvalenta.cz/
+SourceCode: https://github.com/jakubvalenta/geoshare
+IssueTracker: https://github.com/jakubvalenta/geoshare/issues
+Translation: https://hosted.weblate.org/engage/geoshare/
+Changelog: https://github.com/jakubvalenta/geoshare/releases
+
+AutoName: Geo Share
+
+MaintainerNotes:
+  AppAdded: 2024-11-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/jakubvalenta/geoshare/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: for sharing e.g. GPX tracks to a location, starting at your current position
+    android.permission.ACCESS_FINE_LOCATION: for sharing e.g. GPX tracks to a location, starting at your current position
+
+AllowedAPKSigningKeys: 1b27b17a9df05321a93a47df31ed0d6645ebe55d0e89908157d71c1032d17c10
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

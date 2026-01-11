@@ -1,0 +1,55 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google Mobile Services and Google Play Core.
+    de: Die App enthält Bibliotheken von Google Mobile Services und Google Play Core.
+  NonFreeNet:
+    en-US: The app connects to Google Play.
+    de: Die App baut Verbindungen zu Google Play auf.
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Iordan Iordanov (Undatech)
+AuthorEmail: iiordanov@gmail.com
+SourceCode: https://github.com/iiordanov/remote-desktop-clients
+IssueTracker: https://github.com/iiordanov/remote-desktop-clients/issues
+Changelog: https://github.com/iiordanov/remote-desktop-clients/blob/master/bVNC/CHANGELOG-bVNC
+
+AutoName: bVNC
+
+MaintainerNotes:
+  AppAdded: 2017-02-05
+  Method: github-release
+  ApkMatch: /freebVNC-.*-arm64-v8a.apk$/
+  ApkIgnore: /(older|RDP|HakkoHmi)/i
+  Fastlane: https://github.com/iiordanov/remote-desktop-clients/blob/master/remote-desktop-clients-store-metadata/izzyondroid/metadata/com.iiordanov.freebVNC
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Note: Fastlane is our starter package, but in a git submodule (as requested by the dev)
+  NameSpaces:
+    - /com/antlersoft
+    - /com/morpheusly/common
+    - /com/iiordanov/android/bc
+    - /com/iiordanov/android/drawing
+    - /com/iiordanov/aRDP
+    - /com/iiordanov/aSPICE
+    - /com/iiordanov/bVNC/dialogs
+    - /com/iiordanov/bVNC/exceptions
+    - /com/iiordanov/bVNC/input
+    - /com/iiordanov/bVNC/protocol
+    - /com/iiordanov/CustomClientPackage
+    - /com/iiordanov/freeaRDP
+    - /com/iiordanov/freeaSPICE
+    - /com/iiordanov/freebVNC
+    - /com/iiordanov/jcraft/jzlib
+    - /com/iiordanov/pubkeygenerator
+    - /com/iiordanov/tigervnc/rfb
+    - /com/iiordanov/util
+    - /com/ksmaze/android/preference
+    - /com/tigervnc
+    - /com/undatech/opaque
+    - /com/undatech/remoteClientLib
+    - /com/undatech/remoteClientUi
+
+AllowedAPKSigningKeys: 8da46e51384bc994fc6ade6acae2a50a4ca9e451aad7a777c71ba1b2f8d7c9fe
+
+ArchivePolicy: 2
+UpdateCheckMode: Tags

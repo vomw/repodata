@@ -1,0 +1,19 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: outofmemo
+SourceCode: https://github.com/outofmemo/UMS-Interface
+IssueTracker: https://github.com/outofmemo/UMS-Interface/issues
+
+AutoName: UMS Interface
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2017-05-26
+  Method: none
+  Status:
+    - 2023-08-07 last commit 8/2021
+
+AllowedAPKSigningKeys: 0479bb7c4a69389eb3fe238dc410fd429d22178e1a87d3e0eae044aa1976a8db
+
+UpdateCheckMode: None

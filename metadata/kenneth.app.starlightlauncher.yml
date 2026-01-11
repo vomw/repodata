@@ -1,0 +1,25 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Kenneth Ng
+AuthorEmail: kenneth.ng.5226@outlook.com
+SourceCode: https://github.com/kennethnym/StarlightLauncher
+IssueTracker: https://github.com/kennethnym/StarlightLauncher/issues
+Changelog: https://github.com/kennethnym/StarlightLauncher/releases
+
+AutoName: Starlight Launcher
+
+MaintainerNotes:
+  AppAdded: 2022-08-27
+  Method: github-release
+  GHSkipPre: 0
+  Fastlane: https://github.com/kennethnym/StarlightLauncher/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2024-12-10 last release 8/2023, last commit 2/2024; UCM Tags=>Static; latest release has no APK
+
+AllowedAPKSigningKeys: 3974befd8e869c8647ac5ff75422a04e25167306e5052f6ae9c1158dcc2e22b8
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

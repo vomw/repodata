@@ -1,0 +1,26 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: The app requires a connection to Wikipedia, which cannot be replaced.
+    de: Die App benötigt eine Verbindung zu Wikipedia, die nicht ersetzt werden kann.
+Categories:
+  - Reading
+License: GPL-3.0-only
+AuthorName: Nishant Mishra
+SourceCode: https://github.com/nsh07/WikiReader
+IssueTracker: https://github.com/nsh07/WikiReader/issues
+Changelog: https://github.com/nsh07/WikiReader/releases
+
+AutoName: WikiReader
+
+MaintainerNotes:
+  AppAdded: 2024-10-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nsh07/WikiReader/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: 07bef30581baee8f45ec93e47ee68ef20874e50ef5709c78b2ee67ac86be4c3d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

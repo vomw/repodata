@@ -1,0 +1,28 @@
+Categories:
+  - Automation
+License: MIT
+AuthorName: Abul Kalam Robin
+AuthorEmail: robinsrk3@gmail.com
+AuthorWebSite: https://robinsrk.netlify.app/
+SourceCode: https://github.com/robinsrk/flip_2_dnd
+IssueTracker: https://github.com/robinsrk/flip_2_dnd/issues
+
+AutoName: Flip 2 DND
+
+MaintainerNotes:
+  AppAdded: 2024-12-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/robinsrk/flip_2_dnd/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+  Status:
+    - 2024-12-07 v1.03 adds internet, usesCleartextTraffic – and a self-updater (opt-in but without explanations), tripling the app size – https://github.com/robinsrk/flip_2_dnd/issues/1
+    - 2024-12-30 internet permission was removed, hence self-updater gone
+    - 2025-06-14 appId changed, not sure if on purpose, so for now UCM=>Static; https://github.com/robinsrk/flip_2_dnd/issues/17
+    - 2025-07-06 original appId restored, UCM Static=>Tags
+
+AllowedAPKSigningKeys: 3c7cf9ebb6030720493af367c8cf9d8077a30fe104dbb50ea351454fc3ed08f1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

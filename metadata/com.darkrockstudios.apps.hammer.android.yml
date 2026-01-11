@@ -1,0 +1,26 @@
+Categories:
+  - Writing
+License: MIT
+AuthorName: Dark Rock Studios
+AuthorEmail: darkrockstudios@gmail.com
+SourceCode: https://github.com/Wavesonics/hammer-editor
+IssueTracker: https://github.com/Wavesonics/hammer-editor/issue
+Changelog: https://github.com/Wavesonics/hammer-editor/releases
+
+AutoName: Hammer
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-01-09
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Wavesonics/hammer-editor/blob/v1.14.0/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,ifon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  FlagIgnore:
+    usesCleartextTraffic: to connect to instances in the local network
+
+AllowedAPKSigningKeys: 66a4da23c900c2a57c117c026059eb1352a04e8a7dc00b393bbddbcc7e1383b6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

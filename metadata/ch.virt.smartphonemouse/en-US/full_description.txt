@@ -1,0 +1,1 @@
+<p><i>SmartMouse</i> is an app that aims to make a smartphone usable as a normal computer mouse. It does estimate its position by processing data from the integrated accelerometer and gyroscope with a custom sensor-fusion algorithm. This data is then transmitted to a host computer over the Bluetooth HID Profile. The mouse buttons are recreated using the Touchscreen.</p>

@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeAssets:
+    en-US: The offline dictionary cache data is licensed under CC-BY-SA-NC; Audio & artwork is free-to-use.
+    de: Die Offline Cache Daten des Wörterbuchs sind unter CC-BY-SA-NC lizensiert; Audio & Artwork sind gratis, aber nicht libre.
+  NonFreeNet:
+    en-US: The app downloads data from reykunyu.lu at runtime.
+    de: Die App lädt zur Laufzeit Daten von reykunyu.lu.
+Categories:
+  - Science & Education
+License: BSD-2-Clause
+AuthorName: KipJM
+AuthorEmail: kip@kip.gay
+AuthorWebSite: https://kip.gay/
+SourceCode: https://github.com/KipJM/Reykunyutsyip
+IssueTracker: https://github.com/KipJM/Reykunyutsyip/issues
+Changelog: https://github.com/KipJM/Reykunyutsyip/releases
+
+AutoName: Reykunyutsyìp
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-07-31
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /com/kip/reykunyu
+  Status:
+    - 2025-09-30 last release 2024-09-02, last commit 2024-09-23, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 3a210cf428ea03ed91b8bcf71dff8b3aec8c762778852bdda6c9fb0ad643675c
+
+UpdateCheckMode: Static

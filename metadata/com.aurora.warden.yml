@@ -1,0 +1,30 @@
+Categories:
+  - System
+  - Security
+License: GPL-3.0-only
+AuthorName: Rahul Patel
+AuthorEmail: whyorean@gmail.com
+SourceCode: https://gitlab.com/AuroraOSS/AppWarden
+IssueTracker: https://gitlab.com/AuroraOSS/AppWarden/issues
+Changelog: https://gitlab.com/AuroraOSS/AppWarden/-/releases
+Donate: https://paypal.me/AuroraDev
+Liberapay: whyorean
+
+AutoName: Warden
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2020-07-06
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/AuroraOSS/AppWarden/-/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,screenshotsJPG
+  Note: Fastlane only en-US; no icon/featureGraphic
+  Status:
+    - 2021-07-18 switching AUM from Tags to Static (last release was 7/2020)
+    - 2023-08-06 last commit 10/2020, so this is probably dead https://gitlab.com/AuroraOSS/AppWarden/-/issues/20
+
+AllowedAPKSigningKeys: 4c626157ad02bda3401a7263555f68a79663fc3e13a4d4369a12570941aa280f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

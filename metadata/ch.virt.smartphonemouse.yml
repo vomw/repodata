@@ -1,0 +1,24 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: VirtCode
+SourceCode: https://github.com/VirtCode/SmartMouse
+IssueTracker: https://github.com/VirtCode/SmartMouse/issues
+Changelog: https://github.com/VirtCode/SmartMouse/releases
+
+AutoName: SmartMouse
+
+MaintainerNotes:
+  AppAdded: 2023-12-12
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: required on Android 11 and below to be able to discover bluetooth devices
+  Status:
+    - 2024-02-15 switch from debug key (8fd44fc) to release key (17719e3)
+    - 2026-01-09 last release 8/2024, last commit 8/2024; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 17719e3015a8a4922c31e759bfdb45239fb1cdae18b113de6c0ce6cd34f8c103
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

@@ -1,0 +1,1 @@
+<p><i>KineticE-Speedometer</i> ist ein GPS-Tachometer (vorerst) mit einem nichtlinearen Messgerät. Die Messkerben werden auf einer nichtlinearen Skala eingestellt, die proportional zur kinetischen Energie ist, die eine Masse von 1 kg bei der jeweiligen Geschwindigkeit haben wird.</p>

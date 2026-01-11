@@ -1,0 +1,1 @@
+<p><i>Notification Shade Transparency</i> is an Xposed module that lets you make elements of Notification Shade transparent with Android 12 and higher.</p>

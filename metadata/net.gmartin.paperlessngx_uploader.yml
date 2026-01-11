@@ -1,0 +1,33 @@
+Categories:
+  - Connectivity
+License: GPL-3.0-only
+AuthorName: Germán Martín
+AuthorEmail: github@gmartin.net
+SourceCode: https://github.com/gmag11/Paperless_ngx_uploader
+IssueTracker: https://github.com/gmag11/Paperless_ngx_uploader/issues
+Changelog: https://github.com/gmag11/Paperless_ngx_uploader/releases
+
+AutoName: Paperless NGX Uploader
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2025-08-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/
+  ApkIgnore: /x86/
+  Fastlane: https://github.com/gmag11/Paperless_ngx_uploader/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: to access images for upload
+    android.permission.READ_EXTERNAL_STORAGE: to access documents for upload
+  Status:
+    - 2025-08-09 upstreaming our local Fastlane metadata via https://github.com/gmag11/Paperless_ngx_uploader/pull/2
+    - 2025-08-11 READ_MEDIA_IMAGES android.permission.READ_MEDIA_VIDEO android.permission.READ_MEDIA_AUDIO READ_EXTERNAL_STORAGE – https://github.com/gmag11/Paperless_ngx_uploader/issues/4
+    - 2025-08-31 versionCode for 1.7.1 was already used for 1.7.0 – https://github.com/gmag11/Paperless_ngx_uploader/issues/11
+
+AllowedAPKSigningKeys: db4737b51964dec5aae1d67b792dddfd774fa02b483e395baa4e3b0eb528c9e3
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

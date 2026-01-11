@@ -1,0 +1,35 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2024-08-25, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2024-08-25 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - Connectivity
+License: Apache-2.0
+AuthorName: Grzegorz Blach
+AuthorEmail: grzegorz@blach.pl
+AuthorWebSite: https://blach.pl/
+SourceCode: https://github.com/gblach/Sunmachine-app
+IssueTracker: https://github.com/gblach/Sunmachine-app/issues
+
+AutoName: Sunmachine
+
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-01-20
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.BLUETOOTH: needed to communicate with the Bluetooth smart lights
+    android.permission.BLUETOOTH_ADMIN: needed on newer Android versions to pair the Bluetooth smart lights
+    android.permission.BLUETOOTH_CONNECT: needed on newer Android versions to connect to paired Bluetooth smart lights
+    android.permission.BLUETOOTH_SCAN: needed on newer Android versions to scan for the Bluetooth smart lights
+    android.permission.ACCESS_FINE_LOCATION: needed on some Android versions to access Bluetooth features
+    android.permission.ACCESS_COARSE_LOCATION: needed on some Android versions to access Bluetooth features
+  Status:
+    - 2024-11-15 repo was archived 2024-08-25, UCM Tags=>None
+
+AllowedAPKSigningKeys: e8ed625183885bf29a1d6e4015d5f0af488e308139c1e74a48029ac2bddb2f80
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: None

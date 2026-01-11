@@ -1,0 +1,1 @@
+<p><i>Horizon Kernel Flasher</i> is a simple app that can flash <a href='https://github.com/osm0sis/AnyKernel3' target='_blank' rel='nofollow'>AnyKernel</a> flashable ZIPs on Android.</p>

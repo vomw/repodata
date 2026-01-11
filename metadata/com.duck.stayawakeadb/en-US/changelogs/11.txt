@@ -1,0 +1,1 @@
+switched from the debug key to a proper release key for signing, so you'll have to uninstall and re-install if you use a version before v0.11

@@ -1,0 +1,22 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Md. Zahidul Islam
+AuthorWebSite: https://jahidhasanco.medium.com/
+SourceCode: https://github.com/JahidHasanCO/BMI-Calculator
+IssueTracker: https://github.com/JahidHasanCO/BMI-Calculator/issues
+
+AutoName: BMI Calculator
+
+MaintainerNotes:
+  AppAdded: 2022-11-18
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2022-12-12 Tags=>Static as versionName is not increased; see https://github.com/JahidHasanCO/BMI-Calculator/issues/17
+    - 2023-08-08 last release 3/2023, last commit 7/2023
+
+AllowedAPKSigningKeys: 4bcb93857c18b5365c7e4e4c3a44b79dbe5cbecd93a3d17d95be4c460cbaacd3
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

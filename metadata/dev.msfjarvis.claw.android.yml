@@ -1,0 +1,39 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: The app is bound to lobste.rs.
+    de: Die App ist an die Services von lobste.rs gebunden.
+  Tracking:
+    en-US: The app comes with Sentry which seems to be enabled by default.
+    de: Die App verwendet Sentry, was standardmäßig aktiv ist.
+Categories:
+  - Internet
+License: MIT
+AuthorName: Harsh Shandilya
+AuthorEmail: claw@msfjarvis.dev
+AuthorWebSite: https://msfjarvis.dev/
+SourceCode: https://github.com/msfjarvis/compose-lobsters
+IssueTracker: https://github.com/msfjarvis/compose-lobsters/issues
+Changelog: https://raw.githubusercontent.com/msfjarvis/compose-lobsters/main/CHANGELOG.md
+Donate: https://github.com/sponsors/msfjarvis
+
+AutoName: Claw for lobste.rs
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-07-10
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/msfjarvis/compose-lobsters/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /dev/msfjarvis/claw
+    - /justIgnoreTheseAmbiguousOnes
+    - /io/github/furstenheim
+  Status:
+    - 2024-03-07 scanner reports android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE – https://github.com/msfjarvis/compose-lobsters/issues/475
+    - 2025-08-19 upstreaming our fastlane metadata via https://github.com/msfjarvis/compose-lobsters/pull/917
+
+AllowedAPKSigningKeys: 02b3980c669e1d46277b407bf3c41192cfc7652343ec12dd7f7d74198b3dd9d9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

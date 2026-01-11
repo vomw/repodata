@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: Thisal Dilmith
+AuthorWebSite: https://who-am-i-web.netlify.app/
+SourceCode: https://github.com/thisal-d/ip-wizard
+IssueTracker: https://github.com/thisal-d/ip-wizard/issues
+Changelog: https://github.com/thisal-d/ip-wizard/releases
+
+AutoName: IP Wizard
+
+MaintainerNotes:
+  AppAdded: 2025-11-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/thisal-d/ip-wizard/blob/v0.0.1/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 4c01f1545aab5dfdb95960e81880f99f8247bc746c0d60a554037f60c440a024
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

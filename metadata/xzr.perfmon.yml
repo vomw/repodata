@@ -1,0 +1,29 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-08-17, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-08-17 archiviert, es gibt daher keine Updates mehr.
+Categories:
+  - System
+License: BSD-3-Clause
+AuthorName: LibXZR
+AuthorEmail: i@xzr.moe
+AuthorWebSite: https://xzr.moe/
+SourceCode: https://github.com/libxzr/PerfMon-Plus
+IssueTracker: https://github.com/libxzr/PerfMon-Plus/issues
+
+AutoName: PerfMon+
+
+MaintainerNotes:
+  AppAdded: 2020-02-03
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed to show the floating window
+  Status:
+    - 2021-10-31 no updates for 1y 2m 25d, setting from Tags to Static
+    - 2023-08-08 last release 7/2020, last commit 6/2023
+    - 2025-08-23 found upstream repo archived 2025-08-17
+
+AllowedAPKSigningKeys: 9222b2ee458035bcbba471f260e719fbf2f1bbd5dae9da5dcf1ae8738c8d773d
+
+UpdateCheckMode: None

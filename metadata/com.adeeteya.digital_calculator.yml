@@ -1,0 +1,28 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: Adeeteya
+AuthorEmail: lightningbolt340@gmail.com
+SourceCode: https://github.com/adeeteya/DigitalCalculator
+IssueTracker: https://github.com/adeeteya/DigitalCalculator/issues
+Changelog: https://github.com/adeeteya/DigitalCalculator/releases
+
+AutoName: Digital Calculator
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2024-01-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/adeeteya/DigitalCalculator/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneIgnore: video
+  DoubleList: keep
+  Status:
+    - 2025-03-23 last release 2024-02-14, last commit 2024-02-27; UCM Tags=>Static
+    - 2025-07-18 shipping DE locale upstream via https://github.com/adeeteya/DigitalCalculator/pull/5
+
+AllowedAPKSigningKeys: ce1968edabb4d741d4900a9d9eed7fac27703fc3ee7885c01f363d8aa66132a0
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

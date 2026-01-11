@@ -1,0 +1,26 @@
+Categories:
+  - Money
+License: MIT
+AuthorName: Pool-Of-Tears
+SourceCode: https://github.com/Pool-Of-Tears/GreenStash
+IssueTracker: https://github.com/Pool-Of-Tears/GreenStash/issues
+Changelog: https://github.com/Pool-Of-Tears/GreenStash/releases
+
+AutoName: GreenStash
+
+MaintainerNotes:
+  AppAdded: 2022-06-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Pool-Of-Tears/GreenStash/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/Pool-Of-Tears/GreenStash/issues/1#issuecomment-1191896414
+  Status:
+    - 2022-07-21 as it reached F-Droid, asked whether we shall keep it https://github.com/Pool-Of-Tears/GreenStash/issues/1#issuecomment-1191896414
+    - 2022-07-22 answer was to keep it https://github.com/Pool-Of-Tears/GreenStash/issues/1#issuecomment-1192137576
+
+AllowedAPKSigningKeys: 5dfe06da0fe3b0813f3f3dc5305699c2dbb9dfdbab1349da7c41c59d2fcf319c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

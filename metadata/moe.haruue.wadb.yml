@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Haruue Icymoon
+AuthorEmail: i@haruue.moe
+AuthorWebSite: https://haruue.moe/
+SourceCode: https://github.com/RikkaApps/WADB
+IssueTracker: https://github.com/RikkaApps/WADB/issues
+Changelog: https://github.com/RikkaApps/WADB/releases
+
+Name: ADB Over Network
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2017-05-14
+  Method: github-release
+  Status:
+    - 2023-07-13 UCM Tags => Static (last release 6/2022, last commit 7/2023)
+
+AllowedAPKSigningKeys: bcca828c2ff1dcb8e10b4a564d7f25d8e59095c16d2db5b84f0e2c6c9cca46ce
+
+UpdateCheckMode: Static

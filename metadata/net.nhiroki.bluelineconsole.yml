@@ -1,0 +1,32 @@
+Categories:
+  - System
+  - Theming
+License: Apache-2.0
+AuthorName: nhirokinet
+AuthorWebSite: https://nhiroki.net/
+SourceCode: https://github.com/nhirokinet/bluelineconsole
+IssueTracker: https://github.com/nhirokinet/bluelineconsole/issues
+Changelog: https://github.com/nhirokinet/bluelineconsole/releases
+
+AutoName: Blue Line Console
+
+MaintainerNotes:
+  AppAdded: 2020-11-27
+  AppRemoved: 2021-01-10 reached F-Droid
+  AddedBack: 2025-03-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nhirokinet/bluelineconsole/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
+  DoubleList: keep
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list all apps to launch
+    android.permission.READ_CONTACTS: optionally used for contact search
+    android.permission.RECEIVE_BOOT_COMPLETED: needed for option to always show notification
+    android.permission.BIND_APPWIDGET: Blue Line Console has functionality to host widgets
+    android.permission.INTERNET: for ping and web search
+
+AllowedAPKSigningKeys: 77424a3dea344bb33b89332cf6d96d7ce111407483b4b8d3b16f1f0d1ea064d3
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

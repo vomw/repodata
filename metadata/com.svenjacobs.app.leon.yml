@@ -1,0 +1,27 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Sven Jacobs
+AuthorEmail: leon-app@svenjacobs.com
+AuthorWebSite: https://svenjacobs.com
+SourceCode: https://github.com/leon-cleaning-services/leon
+IssueTracker: https://github.com/leon-cleaning-services/leon/issues
+Changelog: https://github.com/leon-cleaning-services/leon/releases
+
+AutoName: Léon – The URL Cleaner
+
+MaintainerNotes:
+  AppAdded: 2025-03-23
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  Note: used Triple-T (we migrated it via PR)
+  Fastlane: https://github.com/leon-cleaning-services/leon/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2025-10-01 migrating Triple-T to Fastlane with https://github.com/leon-cleaning-services/leon/pull/630
+
+AllowedAPKSigningKeys: 3e94e0c5894c175f7f15f517d446fee0711012b1b1e762ed0cb5b28c2c20135d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

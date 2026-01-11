@@ -1,0 +1,26 @@
+Categories:
+  - Internet
+  - System
+License: Apache-2.0
+AuthorName: Sam Leatherdale
+AuthorWebSite: https://samleatherdale.com/
+SourceCode: https://github.com/SamLeatherdale/OpenLinkWith
+IssueTracker: https://github.com/SamLeatherdale/OpenLinkWith/issues
+Translation: https://crowdin.com/project/open-link-with/
+Changelog: https://github.com/SamLeatherdale/OpenLinkWith/releases
+
+AutoName: 'Open Link With: Redux'
+
+MaintainerNotes:
+  AppAdded: 2025-06-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SamLeatherdale/OpenLinkWith/blob/master/fastlane/metadata/android
+  FastlaneFeatures: video,title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/tasomaniac
+
+AllowedAPKSigningKeys: be11af963a93c010cf7781d0bbedee5acc6f7f91effcc22f83027e335feba65d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

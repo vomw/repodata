@@ -1,0 +1,27 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: tfonteyn
+SourceCode: https://github.com/tfonteyn/Sshd4a
+IssueTracker: https://github.com/tfonteyn/Sshd4a/issues
+Changelog: https://github.com/tfonteyn/Sshd4a/releases
+
+AutoName: Sshd4a
+
+MaintainerNotes:
+  AppAdded: 2024-05-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/tfonteyn/Sshd4a/blob/dev/metadata
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: required to access the storage from shell
+    android.permission.RECEIVE_BOOT_COMPLETED: needed to (optionally) start the SSH service when the device is started
+    android.permission.FOREGROUND_SERVICE: required to keep the service running even with the screen off
+    android.permission.FOREGROUND_SERVICE_SPECIAL_USE: needed to tell the system the type of foreground Service that the app uses
+    android.permission.INTERNET: required so the service can be accessed from another device
+
+AllowedAPKSigningKeys: df971ce7d58d3cdf377c32e0e2f53d6599bd7f130a50c0529c45583ddc12a008
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

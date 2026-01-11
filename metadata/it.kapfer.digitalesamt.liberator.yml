@@ -1,0 +1,23 @@
+AntiFeatures:
+  NonFreeAdd:
+    en-US: The app supplements non-libre apps from AT government.
+    de: Die App dient als Ergänzung zu unfreien Apps der Österreichischen Regierung.
+Categories:
+  - Xposed
+License: GPL-3.0-only
+AuthorName: Philipp Kapfer
+SourceCode: https://github.com/Crazyphil/digitales-amt-liberator
+IssueTracker: https://github.com/Crazyphil/digitales-amt-liberator/issues
+
+AutoName: Digitales Amt Liberator
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-05-22
+  Method: github-release
+  GHSkipPre: 1
+
+AllowedAPKSigningKeys: 2cd918179eb23e982b45c1c8a09c03c2992bb279dd79ef8ff3726844af939c71
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

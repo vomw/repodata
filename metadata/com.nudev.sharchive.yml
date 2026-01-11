@@ -1,0 +1,24 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: Narek Torosyan
+AuthorEmail: narek.email@gmail.com
+SourceCode: https://github.com/githubcatw/Sharchive
+IssueTracker: https://github.com/githubcatw/Sharchive/issues
+Changelog: https://github.com/githubcatw/Sharchive/releases
+
+AutoName: Sharchive
+
+MaintainerNotes:
+  AppAdded: 2022-12-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/githubcatw/Sharchive/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshotsJPG
+  Status:
+    - 2024-02-22 last release/commit 12/2022, UCM Tags=>Static
+
+AllowedAPKSigningKeys: 246de0ad24da56df2cee091faa06863fb5b064d86b97240eec35509f641e3410
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

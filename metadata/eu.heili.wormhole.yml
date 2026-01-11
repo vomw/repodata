@@ -1,0 +1,38 @@
+Categories:
+  - Internet
+License: GPL-3.0-or-later
+AuthorName: Lukas Heiligenbrunner
+AuthorEmail: Lukas.Heiligenbrunner@gmail.com
+SourceCode: https://github.com/wormhole-app/wormhole
+IssueTracker: https://github.com/wormhole-app/wormhole/issues
+Changelog: https://github.com/wormhole-app/wormhole/releases
+
+AutoName: Wormhole File Transfer
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2023-09-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/wormhole-app/wormhole/blob/main/android/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,screenshots
+  FastlaneIgnore: video
+  PermIgnore:
+    android.permission.CAMERA: needed for the integrated QR Code reader
+    android.permission.INTERNET: needed to access the network so files can be exchanged
+    android.permission.READ_EXTERNAL_STORAGE: needed to access the files to be sent
+    android.permission.WRITE_EXTERNAL_STORAGE: needed to store received files to the Downloads directory
+    android.permission.READ_MEDIA_IMAGES: needed to access photos and other graphic files in media storage
+    android.permission.READ_MEDIA_VIDEO: needed to access videos stored in media storage
+    android.permission.READ_MEDIA_AUDIO: needed to access audio files stored in media storage
+    android.permission.VIBRATE: used to give a haptic feedback when a transmission is complete
+  Status:
+    - 2024-02-04 scanner reports (in addition to above PermIgnored) android.permission.RECORD_AUDIO – https://gitlab.com/lukas-heiligenbrunner/wormhole/-/issues/28 (including DEPENDENCY_INFO_BLOCK)
+    - 2025-03-23 last release 2024-03-14, last commit 2024-05-08; UCM Tags=>Static
+    - 2025-11-08 project had moved to Github. Switching over, UCM=Tags again
+
+AllowedAPKSigningKeys: 57f6f8e77292e1615de23d43497f007e25685ab154696d31bd103296ed653518
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

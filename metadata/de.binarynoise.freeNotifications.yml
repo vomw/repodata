@@ -1,0 +1,27 @@
+Categories:
+  - Xposed
+  - System
+License: EUPL-1.2
+AuthorName: binarynoise
+AuthorEmail: binarynoise@mail.de
+SourceCode: https://github.com/binarynoise/XposedModulets
+IssueTracker: https://github.com/binarynoise/XposedModulets/issues
+Donate: https://paypal.me/binarynoise
+
+AutoName: Free Notifications
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2023-10-04
+  Method: github-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /de/binarynoise/logger
+    - /de/binarynoise/reflection
+  Fastlane: https://github.com/binarynoise/XposedModulets/blob/main/metadata/de.binarynoise.freeNotifications
+  FastlaneFeatures: title,shortdesc,fulldescMD
+
+AllowedAPKSigningKeys: 70692bac877fad4481f01c181125ebb66d0e234f45f7e88e4200fb566c7207c9
+
+AutoUpdateMode: Version de.binarynoise.freeNotifications-v%c
+UpdateCheckMode: Tags

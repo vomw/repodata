@@ -1,0 +1,25 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: dovecoteescapee
+WebSite: https://ntc.party/c/community-software/byedpi/39
+SourceCode: https://github.com/dovecoteescapee/ByeDPIAndroid
+IssueTracker: https://github.com/dovecoteescapee/ByeDPIAndroid/issues
+Changelog: https://github.com/dovecoteescapee/ByeDPIAndroid/releases
+
+AutoName: ByeDPI
+
+MaintainerNotes:
+  AppAdded: 2024-08-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/dovecoteescapee/ByeDPIAndroid/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Note: Fastlane is our starter package
+  IntentFilterIgnore:
+    android.net.VpnService: needed to run the VpnService
+
+AllowedAPKSigningKeys: 928accee6d7ce387d39f6923cc7e88be04eb459481c9879606396e96301ceb5d
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

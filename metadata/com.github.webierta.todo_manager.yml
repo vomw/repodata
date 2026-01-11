@@ -1,0 +1,26 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: Webierta
+AuthorWebSite: https://webierta.github.io/
+SourceCode: https://github.com/Webierta/todo_manager
+IssueTracker: https://github.com/Webierta/todo_manager/issues
+
+AutoName: ToDo Manager
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2022-11-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Webierta/todo_manager/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  Status:
+    - 2024-01-10 uses expired debug certificate (see https://gitlab.com/IzzyOnDroid/repo/-/issues/477), opened https://github.com/Webierta/todo_manager/issues/8 to get it replaced
+    - 2024-01-11 switched to release key (replaced AllowedAPKSigningKeys accordingly)
+    - 2025-03-23 last release/commit 2024-01-11; UCM Tags=>Static
+
+AllowedAPKSigningKeys: b567f418811426215529a5fb4b33894ec99e1edb7e48eab112a4c0389851f8e2
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

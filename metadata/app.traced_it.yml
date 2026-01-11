@@ -1,0 +1,22 @@
+Categories:
+  - Writing
+License: GPL-3.0-or-later
+AuthorName: traced it
+SourceCode: https://github.com/traced-it/traced-it-android
+IssueTracker: https://github.com/traced-it/traced-it-android/issues
+Changelog: https://github.com/traced-it/traced-it-android/releases
+
+AutoName: traced it
+
+MaintainerNotes:
+  AppAdded: 2025-02-08
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/traced-it/traced-it-android/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
+
+AllowedAPKSigningKeys: d102417bced85dfb23c49ec1e1915963d17cf3d4c028b754877943cc9b865aa9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,21 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: David Takač
+SourceCode: https://github.com/davidtakac/prognoza
+IssueTracker: https://github.com/davidtakac/prognoza/issues
+Changelog: https://github.com/davidtakac/prognoza/releases
+
+AutoName: Prognoza
+
+MaintainerNotes:
+  AppAdded: 2022-11-30
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-11-21 last commit/release 5/2023; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 3a330de2838ca6c9dcf76eb7e502786e1e7f1750f90454304e76a5ff21776eff
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static

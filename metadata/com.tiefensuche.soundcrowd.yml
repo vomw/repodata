@@ -1,0 +1,30 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: soundcrowd
+SourceCode: https://github.com/soundcrowd/soundcrowd
+IssueTracker: https://github.com/soundcrowd/soundcrowd/issues
+Changelog: https://github.com/soundcrowd/soundcrowd/releases
+
+AutoName: SoundCrowd Music Player
+
+MaintainerNotes:
+  AppAdded: 2022-03-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/soundcrowd/soundcrowd/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /io/github/tiefensuche
+    - /com/spotify
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: needd to access the music files
+    android.permission.READ_EXTERNAL_STORAGE: needd to access the music files
+  Status:
+    - 2025-03-07 READ_MEDIA_AUDIO READ_EXTERNAL_STORAGE* – https://github.com/soundcrowd/soundcrowd/issues/101
+    - 2025-08-18 upstreaming our Fastlane via https://github.com/soundcrowd/soundcrowd/pull/114
+
+AllowedAPKSigningKeys: 739d5cff68de473b1f81fa33c1eed8b593737a51603a4bd712c37b4a37dbc2bf
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

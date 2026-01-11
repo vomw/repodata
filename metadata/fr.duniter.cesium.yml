@@ -1,0 +1,30 @@
+Categories:
+  - Money
+License: AGPL-3.0-only
+AuthorName: Duniter
+AuthorEmail: contact@duniter.org
+AuthorWebSite: https://duniter.org/
+WebSite: https://cesium.app/
+SourceCode: https://github.com/duniter/cesium
+IssueTracker: https://git.duniter.org/clients/cesium-grp/cesium/-/issues
+Changelog: https://github.com/duniter/cesium/releases
+
+AutoName: Cesium
+
+MaintainerNotes:
+  AppAdded: 2021-10-25
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.CAMERA: needed for the QR Code scanner
+  NameSpaces:
+    - /com/crypho/plugins
+  Status:
+    - 2022-05-02 no commits since 6/2021, switching UCM from Tags to Static
+    - 2023-08-01 picked up again and had a new release
+    - 2025-05-18 received info by mail that the Github presence is just a mirror of their GitLab (https://git.duniter.org/clients/cesium-grp/cesium), hence the missing issue tracker there
+
+AllowedAPKSigningKeys: bfb90974ee4fffc7f5d19310862cc01387815482f05c18ed1331d1a72556a4bd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Static

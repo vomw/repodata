@@ -1,0 +1,29 @@
+Categories:
+  - Theming
+License: GPL-3.0-or-later
+AuthorName: Arne-Brün Vogelsang
+AuthorEmail: arne@monocles.de
+AuthorWebSite: https://monocles.eu/
+WebSite: https://monocles.wiki/
+SourceCode: https://codeberg.org/monocles/monocles_launcher
+IssueTracker: https://codeberg.org/monocles/monocles_launcher/issues
+
+AutoName: monocles launcher
+
+MaintainerNotes:
+  AppAdded: 2023-10-03
+  Method: codeberg-release
+  GHSkipPre: 1
+  NameSpaces:
+    - /fr/neamar/kiss
+  Fastlane: https://codeberg.org/monocles/monocles_launcher/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  Status:
+    - 2023-12-22 signing key changed, UCM Tags => Static until solved, see https://codeberg.org/monocles/monocles_launcher/issues/1#issuecomment-1391052
+    - 2023-12-22 solved, UCM Static => Tags again (signing key recovered)
+    - 2024-06-22 asked for the use of AccessibilityServices at https://codeberg.org/monocles/monocles_launcher/issues/7
+    - 2025-03-23 last release/commit 2023-12-21; UCM Tags=>Static
+
+AllowedAPKSigningKeys: 409618a9d6d5b34d12a53b8634e2d8e594a1d96d070ec9ca62c2e5ab1c6f0ab2
+
+UpdateCheckMode: Static

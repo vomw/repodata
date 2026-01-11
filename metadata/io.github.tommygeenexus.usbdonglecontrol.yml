@@ -1,0 +1,26 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: Tom Geiselmann
+AuthorEmail: tomgapplicationsdevelopment@gmail.com
+SourceCode: https://github.com/Tommy-Geenexus/usb-dongle-control
+IssueTracker: https://github.com/Tommy-Geenexus/usb-dongle-control/issues
+Translation: https://tomgappdev.oneskyapp.com/collaboration/project?id=390304
+Changelog: https://github.com/Tommy-Geenexus/usb-dongle-control/releases
+
+AutoName: USBDongleControl
+
+MaintainerNotes:
+  AppAdded: 2024-04-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Tommy-Geenexus/usb-dongle-control/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-10-05 upstreamed our local fastlane metadata via https://github.com/Tommy-Geenexus/usb-dongle-control/pull/20
+
+AllowedAPKSigningKeys: e93b0b2eafee950def8be04898d3452522134157b035edec7e84f42ef5f938e6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

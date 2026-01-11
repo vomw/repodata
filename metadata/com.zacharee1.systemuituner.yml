@@ -1,0 +1,50 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains libraries of Google BillingClient.
+    de: Die App enthält den Google BillingClient.
+  NonFreeNet:
+    en-US: The app connects to Google servers (billing).
+    de: Die App verbindet sich mit Google Servern (Billing).
+Categories:
+  - Theming
+License: MIT
+AuthorName: Zachary Wander
+AuthorEmail: zachary.wander@gmail.com
+AuthorWebSite: https://zwander.dev/
+SourceCode: https://github.com/zacharee/Tweaker
+IssueTracker: https://github.com/zacharee/Tweaker/issues
+Translation: https://crowdin.com/project/systemui-tuner
+Changelog: https://github.com/zacharee/Tweaker/blob/master/CHANGELOG.md
+Donate: https://patreon.com/zacharywander
+
+AutoName: SystemUI Tuner
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-02-20
+  Method: github-release
+  GHSkipPre: 1
+  PermIgnore:
+    android.permission.DUMP: needed for the Demo Mode and for the Status Bar icon auto-detect feature
+    android.permission.FOREGROUND_SERVICE: needed to run the Service to manage Persistent Options
+    android.permission.INTERNET: needed for the in-app donation option
+    android.permission.PACKAGE_USAGE_STATS: needed for the Status Bar icon auto-detect feature
+    android.permission.QUERY_ALL_PACKAGES: needed to e.g. pick apps for lockscreen shortcuts
+    android.permission.RECEIVE_BOOT_COMPLETED: needed to restore Persistent Options on boot
+    android.permission.SYSTEM_ALERT_WINDOW: used to work around background launch restrictions on later Android versions
+    android.permission.WRITE_SECURE_SETTINGS: essential for the core functionality, settings to be tuned are stored there
+    android.permission.WRITE_SETTINGS: essential for the core functionality, settings to be tuned are stored there
+  LibIgnore:
+    - /com/bugsnag
+    - /com/joaomgcd/taskerpluginlibrary
+    - /net/dinglisch/android/tasker
+  Status:
+    - 2023-02-21 NonFreeAdd because of Tasker; not being "promoted" we might need white-listing for that, too
+    - 2023-02-22 Bugsnag was made opt-in now. Tasker is not really "promoted", just supported.
+    - 2024-02-01 scanner reports android.permission.QUERY_ALL_PACKAGES android.permission.SYSTEM_ALERT_WINDOW – https://github.com/zacharee/Tweaker/issues/95
+    - 2025-06-27 last commit/release 2024-02-17; UCM Tags=>Static
+
+AllowedAPKSigningKeys: c693e9138f0c2f51fa8b805b8ad5f43fa51badda043624b326c398dee7698a2f
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Static

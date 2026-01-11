@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: CECILL-2.1
+AuthorName: Tyrex Team
+AuthorEmail: thibaud.michel@gmail.com
+AuthorWebSite: https://tyrex.inria.fr/
+SourceCode: https://github.com/tyrex-team/senslogs
+IssueTracker: https://github.com/tyrex-team/senslogs/issues
+
+AutoName: Senslogs
+
+MaintainerNotes:
+  AppAdded: 2018-10-03
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2020-09-19 app was not updated for 2y 8m 3d; switching UCM from Tags to Static
+    - 2023-08-08 last release 1/2018, last commit 11/2020, author still active
+    - 2025-11-13 last commit 6/2024, APK provided 10/2025; keeping UCM=Static
+
+AllowedAPKSigningKeys: a55fc7c71767335b9b1fd6c33bd65d378be52dbd0219842303f6ed24ff3990b7
+
+UpdateCheckMode: Static

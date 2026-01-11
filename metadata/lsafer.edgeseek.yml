@@ -1,0 +1,32 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Sulaiman Oboody
+AuthorEmail: lsafer@cufy.org
+AuthorWebSite: https://lsafer.net/
+SourceCode: https://github.com/LSafer/edgeseek
+IssueTracker: https://github.com/LSafer/edgeseek/issues
+Changelog: https://github.com/LSafer/edgeseek/releases
+
+AutoName: edgeseek
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2025-04-03
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/LSafer/edgeseek/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /net/lsafer/edgeseek
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: needed for controlling background audio in Oppo/OnePlus devices.
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed to show an overlay over other apps.
+  Status:
+    - 2025-05-05 AccessibilityService SYSTEM_ALERT_WINDOW – https://github.com/LSafer/edgeseek/issues/33
+
+AllowedAPKSigningKeys: fdfab44ae3e4cad95ebf96cd6132c72c7cb1903216ac67f928fb52d5d7df6347
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

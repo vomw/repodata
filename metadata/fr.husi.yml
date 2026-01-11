@@ -1,0 +1,43 @@
+Categories:
+  - Internet
+License: GPL-3.0-or-later
+AuthorName: HystericalDragon
+AuthorEmail: HystericalDragons@proton.me
+SourceCode: https://github.com/xchacha20-poly1305/husi
+IssueTracker: https://github.com/xchacha20-poly1305/husi/issues
+Translation: https://hosted.weblate.org/engage/husi/
+Changelog: https://github.com/xchacha20-poly1305/husi/releases
+
+AutoName: husi
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2024-01-25
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/xchacha20-poly1305/husi/blob/dev/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon
+  FastlaneIgnore: changelogs
+  Note: changelogs just have default.txt with content saying look at commits
+  IntentFilterIgnore:
+    android.net.VpnService: Proxy functionality is provided using an VPN service.
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to select apps that shall bypass VPN and to find apps providing VPN services
+    android.permission.CAMERA: for the integrated QR code scanner
+    android.permission.ACCESS_COARSE_LOCATION: for retrieving WiFi information (can be denied if related enhancements are not needed)
+    android.permission.ACCESS_FINE_LOCATION: for retrieving WiFi information (can be denied if related enhancements are not needed)
+    android.permission.ACCESS_BACKGROUND_LOCATION: for retrieving WiFi information (can be denied if related enhancements are not needed)
+    android.permission.NEARBY_WIFI_DEVICES: for retrieving WiFi information (can be denied if related enhancements are not needed)
+  NameSpaces:
+    - /com/github/shadowsocks
+    - /io/nekohasekai/sagernet
+    - /io/nekohasekai/sfa/utils
+    - /moe/matsuri/nb4a
+    - ignore_the_unkown_below
+    - /go/libcore/gojni
+
+AllowedAPKSigningKeys: 55d8507c1b28d64236004ebb5da704e37ace3f102e9f90c6e4ec4182cd390e9e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

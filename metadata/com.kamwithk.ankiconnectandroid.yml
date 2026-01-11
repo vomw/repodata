@@ -1,0 +1,29 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: Kamron Bhavnagri
+AuthorEmail: kamwithk@tuta.io
+AuthorWebSite: https://www.kamwithk.com/
+SourceCode: https://github.com/KamWithK/AnkiconnectAndroid
+IssueTracker: https://github.com/KamWithK/AnkiconnectAndroid/issues
+Changelog: https://github.com/KamWithK/AnkiconnectAndroid/releases
+
+AutoName: Ankiconnect Android
+
+MaintainerNotes:
+  AppAdded: 2022-12-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/KamWithK/AnkiconnectAndroid/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed for local audio support
+    android.permission.SYSTEM_ALERT_WINDOW: required to open another activity from an app in the background
+  Status:
+    - 2024-02-24 scanner reports DEPENDENCY_INFO_BLOCK READ_EXTERNAL_STORAGE SYSTEM_ALERT_WINDOW – https://github.com/KamWithK/AnkiconnectAndroid/issues/53
+    - 2024-07-26 v1.14 did not increase versionCode, see https://github.com/KamWithK/AnkiconnectAndroid/issues/67
+
+AllowedAPKSigningKeys: 0d95a21cc32a64bdadfbc5ef8f7abf57dbd7c3bc2265f31331d0c919e5f49fd4
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

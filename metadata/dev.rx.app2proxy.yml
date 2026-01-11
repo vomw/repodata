@@ -1,0 +1,29 @@
+Categories:
+  - Internet
+  - Security
+License: GPL-3.0-only
+AuthorName: RiddlerXenon
+AuthorEmail: riddler.xenon@gmail.com
+SourceCode: https://github.com/RiddlerXenon/app2proxy
+IssueTracker: https://github.com/RiddlerXenon/app2proxy/issues
+
+AutoName: App2Proxy
+ArchivePolicy: 2
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2025-05-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/RiddlerXenon/app2proxy/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to allow selecting apps for proxying
+  Status:
+    - 2025-05-30 wrong signing key, https://github.com/RiddlerXenon/app2proxy/issues/5
+    - 2025-05-31 verified new key via mail
+
+AllowedAPKSigningKeys: d7fb1f1b325262babd79b609b1d5f373e17d0964d7d47b22493b06f898d8dfcd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

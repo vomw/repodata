@@ -1,0 +1,34 @@
+Categories:
+  - Internet
+  - Security
+  - System
+License: CC-BY-4.0
+AuthorName: TrianguloY
+AuthorEmail: correo--correo+uc@hotmail.com
+AuthorWebSite: https://triangularapps.blogspot.com/
+WebSite: https://triangularapps.blogspot.com/search/label/UrlChecker
+SourceCode: https://github.com/TrianguloY/URLCheck
+IssueTracker: https://github.com/TrianguloY/URLCheck/issues
+Translation: https://hosted.weblate.org/engage/urlcheck/
+Changelog: https://github.com/TrianguloY/URLCheck/releases
+Donate: https://triangularapps.blogspot.com/p/support.html
+
+AutoName: URLCheck
+
+MaintainerNotes:
+  AppAdded: 2025-02-23
+  Method: github-release
+  GHSkipPre: 1
+  DoubleList: keep
+  Fastlane: https://github.com/TrianguloY/URLCheck/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Note: Fastlane was migrated from Triple-T with some imports from us, see https://github.com/TrianguloY/URLCheck/pull/513
+  FlagIgnore:
+    usesCleartextTraffic: needed to check unencrypted (http://) URLs
+  Status:
+    - 2025-08-19 upstreaming our Fastlane metadata via https://github.com/TrianguloY/URLCheck/pull/513
+
+AllowedAPKSigningKeys: bf1b69c14da2420ca72011f72cf4837458ec5d3cc4b538243437bc17c19201c6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -1,0 +1,1 @@
+<p>The RestSMS-App allows you to send SMS via Webservice from your Android-Device. It will start a service you can then address via HTTP requests; by default, it will listen on <code>http://127.0.0.1:8080/</code>. Phone number of the recipient and message text are passed via POST parameters; a JSON response will be returned informing you of the success (or failure).</p>

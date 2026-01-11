@@ -1,0 +1,35 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: enteraname74
+SourceCode: https://github.com/enteraname74/SoulSearching
+IssueTracker: https://github.com/enteraname74/SoulSearching/issues
+Changelog: https://github.com/enteraname74/SoulSearching/releases
+
+AutoName: Soul Searching
+
+MaintainerNotes:
+  AppAdded: 2023-10-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/enteraname74/SoulSearching/tree/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
+  NameSpaces:
+    - /com/github/enteraname74/localdb
+    - /com/github/enteraname74/data
+    - /com/github/soulsearching/classes
+    - /com/github/soulsearching/model
+    - /com/github/soulsearching/service
+    - /com/github/soulsearching/viewmodel
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: needed on higher Android versions to access the audio files to play
+    android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to access the audio files to play
+  Status:
+    - 2024-01-07 applicationId changed from com.github.soulsearching
+
+AllowedAPKSigningKeys: ce1e274879e9609ad9eb36f27a0a01bb8442cc02affb6f3338ef3828d4998ca1
+
+ArchivePolicy: 2
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

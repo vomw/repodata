@@ -1,0 +1,31 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: vicolo-dev
+SourceCode: https://github.com/vicolo-dev/chrono
+IssueTracker: https://github.com/vicolo-dev/chrono/issues
+
+AutoName: Chrono
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2023-12-14
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/vicolo-dev/chrono/blob/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,screenshots
+  DoubleList: keep
+  DoubleListRef: https://github.com/vicolo-dev/chrono/issues/180#issuecomment-2061394961
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to select and play your music for alarms etc.
+    android.permission.READ_MEDIA_AUDIO: to select and play your music for alarms etc.
+  Status:
+    - 2024-03-20 scanner reports DEPENDENCY_INFO_BLOCK android.permission.SYSTEM_ALERT_WINDOW – https://github.com/vicolo-dev/chrono/issues/116
+    - 2024-03-23 solved \o/
+    - 2024-04-16 arrived at F-Droid 2024-03-30, still carries our badge; keep as long as it stays < 15 MB
+
+AllowedAPKSigningKeys: 67ee2965dffd6b509ed274a3c18d39f0e5d55ebba4a95dfc1e34879f437e7581
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

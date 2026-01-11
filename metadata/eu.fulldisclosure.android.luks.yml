@@ -1,0 +1,23 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: full-disclosure
+AuthorWebSite: https://full-disclosure.eu/
+SourceCode: https://github.com/full-disclosure/android-luks
+IssueTracker: https://github.com/full-disclosure/android-luks/issues
+Changelog: https://github.com/full-disclosure/android-luks/releases
+
+AutoName: Android LUKS
+
+MaintainerNotes:
+  AppAdded: 2023-12-29
+  Method: github-release
+  GHSkipPre: 1
+  Status:
+    - 2024-06-09 updater reports versionCode was not adjusted, plus DEPENDENCY_INFO_BLOCK found – https://github.com/full-disclosure/android-luks/issues/2
+    - 2025-06-27 last commit/release 2024-06-09; UCM Tags=>Static
+
+AllowedAPKSigningKeys: caa3c53fc63e9bd7b41178bc556817a08299f7d14bd994be3506d06301c893d2
+
+AutoUpdateMode: Version v.%v
+UpdateCheckMode: Static

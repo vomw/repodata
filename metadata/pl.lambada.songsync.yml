@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses the Spotify Web API and Spotify Lyrics API.
+    de: Die App verwendet die Spotify Web API und Spotify Lyrics API.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Lambada10
+SourceCode: https://github.com/Lambada10/SongSync
+IssueTracker: https://github.com/Lambada10/SongSync/issues
+Translation: https://translate.nift4.org/engage/songsync/
+Changelog: https://github.com/Lambada10/SongSync/releases
+
+AutoName: SongSync
+
+MaintainerNotes:
+  AppAdded: 2023-08-02
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Lambada10/SongSync/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: Up to Android 9, this permission is required to access media files owned by other apps.
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed on Android 11+ to access your music files in e.g. Downloads
+  Note: Fastlane is our starter package
+  Status:
+    - 2024-01-22 scanner reports READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE – https://github.com/Lambada10/SongSync/issues/53
+
+AllowedAPKSigningKeys: 56b13a099dcd24f1d3c53b3c7ac0fc65ea1e30a3f7e43fc713c9593613b715f0
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

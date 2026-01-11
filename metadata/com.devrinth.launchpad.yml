@@ -1,0 +1,29 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Jack Faith
+AuthorEmail: zinczorphin@gmail.com
+AuthorWebSite: https://codepen.io/jaxparrow07
+SourceCode: https://github.com/jaxparrow07/launchpad-search
+IssueTracker: https://github.com/jaxparrow07/launchpad-search/issues
+Changelog: https://github.com/jaxparrow07/launchpad-search/releases
+
+AutoName: Launchpad
+
+MaintainerNotes:
+  AppAdded: 2025-07-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/jaxparrow07/launchpad-search/tree/dev/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to find all apps for the gesture launch
+    android.permission.READ_CONTACTS: for the call feature
+  Status:
+    - 2025-07-18 QUERY_ALL_PACKAGES READ_CONTACTS android.permission.READ_EXTERNAL_STORAGE android.permission.MANAGE_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK
+
+AllowedAPKSigningKeys: 76258106de215e8e3eae53105bac8efca5de1a3a3f8eafe8ed7b9b0e5827f598
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
