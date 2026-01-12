@@ -17,6 +17,9 @@ MaintainerNotes:
   Fastlane: https://github.com/Wavesonics/hammer-editor/blob/v1.14.0/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,ifon,featureGraphic,screenshots
   FastlaneIgnore: video
+  NameSpaces:
+    - /com/darkrockstudios/apps/hammer
+    - /de/jonasbroeckmann/kzip
   FlagIgnore:
     usesCleartextTraffic: to connect to instances in the local network
 
