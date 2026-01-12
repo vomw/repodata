@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: OpenAppsLabs
+AuthorWebSite: https://openappslabs.github.io/OpenAppsLabs/
+SourceCode: https://github.com/OpenAppsLabs/Coffee
+IssueTracker: https://github.com/OpenAppsLabs/Coffee/issues
+Changelog: https://github.com/OpenAppsLabs/Coffee/releases
+
+AutoName: Coffee
+
+MaintainerNotes:
+  AppAdded: 2026-01-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/OpenAppsLabs/Coffee/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: d753f0b3167ecbf2addfbc4fd5d152c1204c9c636bbd8dcf90ec89406aa6bb1c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
