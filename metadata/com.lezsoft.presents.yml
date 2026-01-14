@@ -13,7 +13,6 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2022-04-04
-  Todo: 2026-01-17 remove old signing key 74b4b1d and APKs < vc 22
   Method: codeberg-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
@@ -25,9 +24,7 @@ MaintainerNotes:
     - 2024-12-10 last release/commit 12/2022; UCM Tags=>Static
     - 2025-11-22 new releases coming in, but APK is now signed with a different key, and also too large (54MB); adjusted AUM as the tag name pattern changed, and asked for per-ABI builds; https://codeberg.org/LezSoft/Presents/issues/5#issuecomment-8407995
 
-AllowedAPKSigningKeys:
-  - 74b4b1d3a3b4707f998b7bdbe8ab6f6da92ca3362cfe575361ee76e57953c1da
-  - c4ab24dc3b36b8e0cd7cd9ad5d186a14f24bf5ba5349e678a988eff88d0955ba
+AllowedAPKSigningKeys: c4ab24dc3b36b8e0cd7cd9ad5d186a14f24bf5ba5349e678a988eff88d0955ba
 
 AutoUpdateMode: Version v.*\+%c
 UpdateCheckMode: Tags
