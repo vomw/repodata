@@ -12,6 +12,7 @@ AutoName: Multi Launcher ‧ Home Screen
 
 MaintainerNotes:
   AppAdded: 2025-06-17
+  Todo: 2026-02-14 remove old signing key (8858513) and APKs before 1110304
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/CodeWorksCreativeHub/mLauncher/blob/main/fastlane/metadata/android
@@ -33,8 +34,12 @@ MaintainerNotes:
     com.android.alarm.permission.SET_ALARM: used to open the default alarm app if no other clock app is set in the settings
     android.permission.PACKAGE_USAGE_STATS: to see usage of other apps to list last used apps first in the app list
     android.permission.READ_CONTACTS: needed for the Contact Search and Calling Functionality
+  Status:
+    - 2026-01-14 signing key changed (verified by signed commits and via email)
 
-AllowedAPKSigningKeys: 88585139eac6d8d5922ce7af80a0f2acd9280371676014a114d5e3bf34904ae0
+AllowedAPKSigningKeys:
+  - 88585139eac6d8d5922ce7af80a0f2acd9280371676014a114d5e3bf34904ae0
+  - 431361eebc9d055ed708125def85423c70f05c10f04cc6c25e2e1018700eafd7
 
 AutoUpdateMode: Version %v
 UpdateCheckMode: Tags
