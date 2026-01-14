@@ -40,6 +40,8 @@ MaintainerNotes:
   Status:
     - 2025-01-24 permissions, dependencyInfo etc. https://github.com/shrimqy/Sefirah-Android/issues/6#issuecomment-2612052651
     - 2025-02-05 rebranded from com.komu.sekia
+    - 2026-01-12 v2.2.0 added MLKit (with GMS & Firebase); rolled back and UCM Tags=>Static until cleared, see https://github.com/shrimqy/Sefirah-Android/issues/65
+    - 2026-01-14 v2.2.1 has MLKit & Co removed again, UCM back to Tags.
 
 AllowedAPKSigningKeys: 03abaaad6c5b9fbddf156cefe8c342f7fe3afd9dc7e9ae74d7b0053b20872484
 
