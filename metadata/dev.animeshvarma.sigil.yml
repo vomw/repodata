@@ -1,0 +1,24 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Animesh Varma
+AuthorEmail: sigil@animeshvarma.dev
+AuthorWebSite: https://animeshvarma.dev/
+SourceCode: https://github.com/Animesh-Varma/Sigil
+IssueTracker: https://github.com/Animesh-Varma/Sigil/issues
+Changelog: https://github.com/Animesh-Varma/Sigil/releases
+
+AutoName: Sigil
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-01-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Animesh-Varma/Sigil/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 46bc64a52bf65abaa1b7ea25526be25edd8c524c9d08ad71cc642a63661890dc
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

@@ -23,6 +23,7 @@ MaintainerNotes:
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: to list apps in the launcher
     android.permission.REQUEST_DELETE_PACKAGES: to allow removal of unwanted apps
+    android.permission.ACCESS_COARSE_LOCATION: for the optional weather widget to show the weather at the current location
 
 AllowedAPKSigningKeys: fad536a2eed1f897481b9508e71ef16ea046b34dab0db892596cc6abaef90ed4
 
