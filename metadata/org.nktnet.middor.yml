@@ -1,0 +1,26 @@
+Categories:
+  - Connectivity
+License: AGPL-3.0-only
+AuthorName: Khiet Tam Nguyen
+SourceCode: https://github.com/nktnet1/middor
+IssueTracker: https://github.com/nktnet1/middor/issues
+Changelog: https://github.com/nktnet1/middor/releases
+
+AutoName: Middor
+
+MaintainerNotes:
+  AppAdded: 2026-01-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nktnet1/middor/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: to draw a mirror overlay on top of other apps
+    android.permission.FOREGROUND_SERVICE: to run the mirror service continuously while the overlay is active
+    android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION: for capturing the screen content of the underlying app
+    android.permission.POST_NOTIFICATIONS: (optional) to display the mirror service notification with additional actions
+
+AllowedAPKSigningKeys: 3c5f0a8efea2fe6f9562a81c207d9a261313ae6cb336e44da33e6d3aa6ee8c4a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

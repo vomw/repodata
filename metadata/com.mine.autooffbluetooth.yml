@@ -1,0 +1,24 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: The-First-King
+SourceCode: https://github.com/The-First-King/Auto-Off-Bluetooth
+Changelog: https://github.com/The-First-King/Auto-Off-Bluetooth/releases
+
+AutoName: Auto Off Bluetooth
+
+MaintainerNotes:
+  AppAdded: 2026-01-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/The-First-King/Auto-Off-Bluetooth/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.BLUETOOTH: to allow the app to see the status of connections
+    android.permission.BLUETOOTH_ADMIN: to allow the app to toggle the Bluetooth radio on/off
+    android.permission.BLUETOOTH_CONNECT: to interact with paired devices (required for Android 12+)
+
+AllowedAPKSigningKeys: 2470748cbe6771f6c6e04a3f61dc4c0d82166a8ca2151e8e0ae3f64def0e9cd7
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

@@ -1,0 +1,23 @@
+Categories:
+  - Xposed
+  - System
+License: GPL-3.0-only
+AuthorName: rafareborn
+SourceCode: https://github.com/hxreborn/cleanshare
+IssueTracker: https://github.com/hxreborn/cleanshare/issues
+Changelog: https://github.com/hxreborn/cleanshare/releases
+
+AutoName: CleanShare
+RequiresRoot: true
+
+MaintainerNotes:
+  AppAdded: 2026-01-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/hxreborn/cleanshare/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 32b98dc709a7ee15fae073493a1aeca5d428316cc0d8b8f878eed64ba37f3297
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
