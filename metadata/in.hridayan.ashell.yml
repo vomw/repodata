@@ -21,6 +21,8 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: required to read adb output from a txt file
     android.permission.MANAGE_EXTERNAL_STORAGE: to push/ pull files from other devices which are connected to the device
     android.permission.REQUEST_INSTALL_PACKAGES: for the optional, opt-in in-app updater
+    android.permission.NEARBY_WIFI_DEVICES: to search for devices with wireless debugging pairing service broadcasting
+    android.permission.QUERY_ALL_PACKAGES: for auto-complete when typing ADB commands like 'pm uninstall'
   Status:
     - 2025-03-16 MANAGE_EXTERNAL_STORAGE REQUEST_INSTALL_PACKAGES; in-app updater was added – https://github.com/DP-Hridayan/aShellYou/issues/205
     - 2025-03-17 updater is opt-in now and informing about implications.
