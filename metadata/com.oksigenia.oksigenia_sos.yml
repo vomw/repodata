@@ -2,6 +2,7 @@ Categories:
   - Security
 License: GPL-3.0-only
 AuthorName: Oksigenia
+AuthorEmail: hola@oksigenia.com
 AuthorWebSite: https://oksigenia.com/
 SourceCode: https://github.com/Oksigenia/oksigenia-sos
 IssueTracker: https://github.com/Oksigenia/oksigenia-sos/issues
@@ -17,7 +18,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
   Fastlane: https://github.com/Oksigenia/oksigenia-sos/blob/main/metadata/
-  FastlaneFeatures: title,shortdesc,fulldescMD,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.ACCESS_FINE_LOCATION: to obtain precise GPS coordinates for emergency SMS
     android.permission.ACCESS_COARSE_LOCATION: to improve GPS fix speed using network towers
