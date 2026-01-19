@@ -1,4 +1,7 @@
 AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains Objectbox binaries, which fall under a non-libre license.
+    de: Die App enthält Objectbox Binaries, die unter eine nicht-libre Lizenz fallen.
   NonFreeNet:
     en-US: The app makes use of Google Books API, TMDB API and RAWG API.
     de: Die App greift auf die APIs von Google Books, TMDB und RAWG zurück.

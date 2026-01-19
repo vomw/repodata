@@ -1,3 +1,7 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app contains Objectbox binaries, which fall under a non-libre license.
+    de: Die App enthält Objectbox Binaries, die unter eine nicht-libre Lizenz fallen.
 Categories:
   - Internet
 License: Apache-2.0
