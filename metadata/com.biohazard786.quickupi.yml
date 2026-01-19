@@ -1,0 +1,23 @@
+Categories:
+  - Office
+License: MIT
+AuthorName: Mohd Zaid
+AuthorEmail: message@zaid.qzz.io
+AuthorWebSite: https://zaid.qzz.io/
+SourceCode: https://github.com/BioHazard786/Quick-UPI
+IssueTracker: https://github.com/BioHazard786/Quick-UPI/issues
+Changelog: https://github.com/BioHazard786/Quick-UPI/releases
+
+AutoName: Quick UPI
+
+MaintainerNotes:
+  AppAdded: 2026-01-18
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/BioHazard786/quick-upi/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: d7a1a67a8014237a54fc949e3b582298d0c3d0459024621064afd0fbd757a3fd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

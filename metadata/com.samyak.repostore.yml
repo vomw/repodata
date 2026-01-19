@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses Github as APK source.
+    de: Die App verwendet Github als App-Quelle.
+Categories:
+  - System
+License: MIT
+AuthorName: Samyak Kamble
+SourceCode: https://github.com/samyak2403/RepoStore
+IssueTracker: https://github.com/samyak2403/RepoStore/issues
+Changelog: https://github.com/samyak2403/RepoStore/releases
+
+AutoName: Repo Store
+
+MaintainerNotes:
+  AppAdded: 2026-01-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/samyak2403/RepoStore/blob/v1.0.6/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: this app is intended to install/update apps
+    android.permission.QUERY_ALL_PACKAGES: this app is intended to manage installed apps
+
+AllowedAPKSigningKeys: dbddc76bf7056f3cfde555c3859c3bbfc31a6f38da89764be9a7633c7e64ce25
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
