@@ -6,9 +6,9 @@ Categories:
   - Multimedia
 License: GPL-3.0-only
 AuthorName: Sheikh Haziq
-SourceCode: https://github.com/sheikhhaziq/gyawun
-IssueTracker: https://github.com/sheikhhaziq/gyawun/issues
-Changelog: https://github.com/sheikhhaziq/gyawun/releases
+SourceCode: https://github.com/sheikhhaziq/gyawun_music
+IssueTracker: https://github.com/sheikhhaziq/gyawun_music/issues
+Changelog: https://github.com/sheikhhaziq/gyawun_music/releases
 
 AutoName: Gyavun
 ArchivePolicy: 2
@@ -18,7 +18,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
-  Fastlane: https://github.com/sheikhhaziq/gyawun/tree/main/fastlane/metadata/android
+  Fastlane: https://github.com/sheikhhaziq/gyawun_music/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldesc,icon,screenshots
   FlagIgnore:
     usesCleartextTraffic: used by the integrated streaming server to provide content in the local network

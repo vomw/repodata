@@ -1,3 +1,7 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-01-11, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-01-11, archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Multimedia
 License: GPL-3.0-only
@@ -21,4 +25,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: 47d03279a2ccf5a732f3b84505766cd3fb36c6e51a3e34242d6bc04b4d3b9975
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None

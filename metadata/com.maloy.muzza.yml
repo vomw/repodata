@@ -20,7 +20,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/Maloy-Android/Muzza/blob/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   NameSpaces:
     - /com/maloy/innertube
     - /com/maloy/kugou

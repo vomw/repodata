@@ -16,8 +16,10 @@ MaintainerNotes:
     android.permission.ACCESS_FINE_LOCATION: needed on some Android versions for WiFi access
   Fastlane: https://gitlab.com/axet/android-ping-utils/-/tree/master/metadata
   Note: above entry is just to silence our reporter. No fastlane structures there. And axet won’t accept any, see https://gitlab.com/axet/android-ping-utils/-/merge_requests/3
+  Status:
+    - 2026-01-19 no commits since 2024-12-18, UCM Tags=>Static
 
 AllowedAPKSigningKeys: d36f3ea0802634f7178e7952fabab1b481ce98ae5eae24b63def1feb0ce5a8ff
 
 AutoUpdateMode: Version pingutils-%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static

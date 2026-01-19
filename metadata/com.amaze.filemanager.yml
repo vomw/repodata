@@ -17,7 +17,7 @@ MaintainerNotes:
   DoubleList: keep
   DoubleListRef: https://github.com/TeamAmaze/AmazeFileManager/issues/1684#issuecomment-1268602095
   Fastlane: https://github.com/TeamAmaze/AmazeFileManager/tree/master/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
   FlagIgnore:
     usesCleartextTraffic: needed for connections to the integrated http server on-device
   PermIgnore:

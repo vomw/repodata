@@ -2,6 +2,9 @@ AntiFeatures:
   NonFreeComp:
     en-US: The app contains Objectbox binaries, which fall under a non-libre license.
     de: Die App enthält Objectbox Binaries, die unter eine nicht-libre Lizenz fallen.
+  SourceArchived:
+    en-US: Upstream repo was archived 2025-12-25, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2025-12-25, archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Science & Education
 License: GPL-2.0-only
@@ -25,4 +28,4 @@ MaintainerNotes:
 
 AllowedAPKSigningKeys: f4e05a5d13c3dae614115a46e7d60876e2689a4404f8133608b57b9eceed42e3
 
-UpdateCheckMode: Static
+UpdateCheckMode: None

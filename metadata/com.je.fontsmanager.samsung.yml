@@ -1,19 +1,23 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-01-03, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-01-03, archiviert, es gibt daher keine Updates mehr.
 Categories:
   - System
   - Theming
 License: GPL-3.0-only
 AuthorName: jeeneo
-SourceCode: https://github.com/jeeneo/fonts
-IssueTracker: https://github.com/jeeneo/fonts/issues
-Changelog: https://github.com/jeeneo/fonts/releases
+SourceCode: https://codeberg.org/dryerlint/fontsmanager
+IssueTracker: https://codeberg.org/dryerlint/fontsmanager/issues
+Changelog: https://codeberg.org/dryerlint/fontsmanager/releases
 
 AutoName: Fonts
 
 MaintainerNotes:
   AppAdded: 2025-10-30
-  Method: github-release
+  Method: codeberg-release
   GHSkipPre: 1
-  Fastlane: https://github.com/jeeneo/fonts/tree/main/fastlane/metadata/android
+  Fastlane: https://codeberg.org/dryerlint/fontsmanager/src/branch/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   PermIgnore:
     android.permission.REQUEST_INSTALL_PACKAGES: for installing fonts
@@ -23,4 +27,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: 8f30c8ac0cab1bda356e7fe6e0757114d2e709bf0e94d3066cf0a248ea18694f
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
