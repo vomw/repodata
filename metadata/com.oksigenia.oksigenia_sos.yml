@@ -1,0 +1,30 @@
+Categories:
+  - Security
+License: GPL-3.0-only
+AuthorName: Oksigenia
+AuthorWebSite: https://oksigenia.com/
+SourceCode: https://github.com/Oksigenia/oksigenia-sos
+IssueTracker: https://github.com/Oksigenia/oksigenia-sos/issues
+Changelog: https://github.com/Oksigenia/oksigenia-sos/releases
+Donate: https://www.paypal.com/donate/?business=paypal@oksigenia.cc&currency_code=EUR
+
+AutoName: Oksigenia SOS
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-01-19
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/Oksigenia/oksigenia-sos/blob/main/metadata/
+  FastlaneFeatures: title,shortdesc,fulldescMD,screenshots
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: to obtain precise GPS coordinates for emergency SMS
+    android.permission.ACCESS_COARSE_LOCATION: to improve GPS fix speed using network towers
+    android.permission.ACCESS_BACKGROUND_LOCATION: to monitor safety while screen is locked
+    android.permission.SEND_SMS: to send automated SOS alerts to emergency contacts
+
+AllowedAPKSigningKeys: 11736443fedf605c7663b809532eb922222c37242541fc00868114f92e72990a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
