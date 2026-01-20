@@ -26,7 +26,7 @@ MaintainerNotes:
   Method: gitlab-tags
   GHSkipPre: 1
   Fastlane: https://gitlab.com/AuroraOSS/AuroraStore/-/tree/master/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescNL,changelogs,icon,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
   PermIgnore:
     android.permission.REQUEST_DELETE_PACKAGES: needed to uninstall apps
