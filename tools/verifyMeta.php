@@ -19,7 +19,7 @@
 // * automatically obtain location of JsonSchema package for autoload.php
 // ----------------------------------------------------------------------------
 // This program is free software; you can redistribute and/or modify it under
-// the terms of the GNU General Public License (see ../LICENSE)
+// the terms of the GNU AFFERO General Public License (see ../LICENSE.txt)
 // ============================================================================
 
 $yaml2json = 'yaml2json';
