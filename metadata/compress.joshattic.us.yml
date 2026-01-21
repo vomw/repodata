@@ -1,0 +1,22 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Josh Atticus
+AuthorEmail: git@joshattic.us
+SourceCode: https://github.com/JoshAtticus/Compressor
+IssueTracker: https://github.com/JoshAtticus/Compressor/issues
+Changelog: https://github.com/JoshAtticus/Compressor/releases
+
+AutoName: Compressor
+
+MaintainerNotes:
+  AppAdded: 2026-01-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/JoshAtticus/Compressor/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: f053aa52fb8ee1d13959157889e3c38f13754c693301c60f72c81cf0ae8996a2
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
