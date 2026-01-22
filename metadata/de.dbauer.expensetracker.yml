@@ -23,6 +23,7 @@ MaintainerNotes:
   Status:
     - 2025-05-17 retrieving images from fastlane fails due to git-lfs. Would work when replacing 'https://raw.githubusercontent.com/' by 'https://media.githubusercontent.com/media/'
     - 2025-11-10 re-enabled images, as we meanwhile parse Fastlane from our local git clone
+    - 2026-01-21 android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE – https://github.com/DennisBauer/RecurringExpenseTracker/issues/827
 
 AllowedAPKSigningKeys: 3430fd44cfaf695f564ceb43254bae2a7bd775836a77ad807d6c3131dfdb8341
 

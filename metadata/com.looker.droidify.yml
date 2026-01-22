@@ -23,6 +23,7 @@ MaintainerNotes:
     android.permission.REQUEST_INSTALL_PACKAGES: needed to install/update apps
     android.permission.REQUEST_DELETE_PACKAGES: needed to delete apps
     android.permission.QUERY_ALL_PACKAGES: needed to show apps for deletion and to check for updates
+    android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: needed for seemless updates
   NameSpaces:
     - /com/looker/core
     - /com/looker/core_common

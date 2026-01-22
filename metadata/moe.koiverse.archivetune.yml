@@ -16,12 +16,15 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2025-10-04
+  Todo: 2026-02-03 check if the self updater is properly dealt with, else we need to remove the app
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64/i
   ApkIgnore: /x86/i
   Fastlane: https://github.com/koiverse/ArchiveTune/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2026-01-21 android.permission.READ_MEDIA_AUDIO android.permission.READ_EXTERNAL_STORAGE android.permission.REQUEST_INSTALL_PACKAGES – https://github.com/koiverse/ArchiveTune/issues/208#issuecomment-3782097430
 
 AllowedAPKSigningKeys: bb2e5b7e476c0de63b06686209c0f60e904f9988e9bb452da280596e8ae98e33
 
