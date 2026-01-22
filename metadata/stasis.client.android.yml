@@ -21,6 +21,9 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: needed to access files to back up
     android.permission.MANAGE_EXTERNAL_STORAGE: needed to access files to back up and restore
     android.permission.WRITE_EXTERNAL_STORAGE: needed to access files to restore
+    android.permission.READ_MEDIA_AUDIO: backup and recovery operations require broad access to files stored on the device
+    android.permission.READ_MEDIA_IMAGES: backup and recovery operations require broad access to files stored on the device
+    android.permission.READ_MEDIA_VIDEO: backup and recovery operations require broad access to files stored on the device
   Status:
     - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/sndnv/stasis/pull/66
 
