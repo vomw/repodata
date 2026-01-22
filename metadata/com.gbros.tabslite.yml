@@ -19,8 +19,9 @@ MaintainerNotes:
     - 2023-07-13 UCM Tags => Static (last release 2/2022, last commit 12/2022)
     - 2024-02-01 new release but signed with a different key. Added question to the related issue at https://github.com/More-Than-Solitaire/Tabs-Lite/issues/83
     - 2024-04-20 new signing key SHA-256 confirmed via both official mail addresses today (see the issue for details), UCM Static => Tags as regular releases are in place again
+    - 2026-01-22 v4.0.1 adds GMS, Firebase – rolling back, UCM Tags=>Static – https://github.com/More-Than-Solitaire/Tabs-Lite/issues/179
 
 AllowedAPKSigningKeys: 49805b385aa97f725a3722d3d195de84a376104aad26bdfb08d52a59cbcb9747
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
