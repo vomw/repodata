@@ -1,0 +1,32 @@
+Categories:
+  - Connectivity
+  - Office
+License: GPL-3.0-or-later
+AuthorName: fabik
+AuthorEmail: support@fabik.dev
+SourceCode: https://github.com/Fabi019/hid-barcode-scanner
+IssueTracker: https://github.com/Fabi019/hid-barcode-scanner/issues
+Changelog: https://github.com/Fabi019/hid-barcode-scanner/releases
+
+AutoName: Bluetooth QR &amp; Barcode to PC
+
+ArchivePolicy: 2
+RequiresRoot: false
+
+MaintainerNotes:
+  AppAdded: 2026-01-23
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /universal-release/i
+  Fastlane: https://github.com/Fabi019/hid-barcode-scanner/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: needed for the QR code scanner
+    android.permission.BLUETOOTH_SCAN: needed to connect to your computer
+    android.permission.ACCESS_COARSE_LOCATION: implied for Bluetooth
+    android.permission.ACCESS_FINE_LOCATION: implied for Bluetooth
+
+AllowedAPKSigningKeys: 4e0904469860ef7891ca8951c9380a03c94c4cff0398d2002e27c9b5e80e0491
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

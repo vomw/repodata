@@ -4,8 +4,8 @@ License: GPL-3.0-only
 AuthorName: Konstantin Kulikov
 AuthorEmail: f@cking.software
 AuthorWebSite: https://www.f.cking.software/
-SourceCode: https://github.com/Semper-Viventem/MetaRadar
-IssueTracker: https://github.com/Semper-Viventem/MetaRadar/issues
+SourceCode: https://github.com/BLE-Research-Group/MetaRadar
+IssueTracker: https://github.com/BLE-Research-Group/MetaRadar/issues
 
 AutoName: Bluetooth Radar
 
@@ -14,7 +14,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkIgnore: /debug/i
-  Fastlane: https://github.com/Semper-Viventem/MetaRadar/tree/master/metadata
+  Fastlane: https://github.com/BLE-Research-Group/MetaRadar/tree/master/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphicJPG,screenshots
   DoubleList: keep
   PermIgnore:
