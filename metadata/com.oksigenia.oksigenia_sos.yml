@@ -4,9 +4,9 @@ License: GPL-3.0-only
 AuthorName: Oksigenia
 AuthorEmail: hola@oksigenia.com
 AuthorWebSite: https://oksigenia.com/
-SourceCode: https://github.com/Oksigenia/oksigenia-sos
-IssueTracker: https://github.com/Oksigenia/oksigenia-sos/issues
-Changelog: https://github.com/Oksigenia/oksigenia-sos/releases
+SourceCode: https://github.com/OksigeniaSL/oksigenia-sos
+IssueTracker: https://github.com/OksigeniaSL/oksigenia-sos/issues
+Changelog: https://github.com/OksigeniaSL/oksigenia-sos/releases
 Donate: https://www.paypal.com/donate/?business=paypal@oksigenia.cc&currency_code=EUR
 
 AutoName: Oksigenia SOS
@@ -17,7 +17,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
-  Fastlane: https://github.com/Oksigenia/oksigenia-sos/blob/main/metadata/
+  Fastlane: https://github.com/OksigeniaSL/oksigenia-sos/blob/main/metadata/
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.ACCESS_FINE_LOCATION: to obtain precise GPS coordinates for emergency SMS
