@@ -22,8 +22,10 @@ MaintainerNotes:
     android.permission.ANSWER_PHONE_CALLS: to end calls programmatically
     android.permission.POST_NOTIFICATIONS: to show reminders and call limit alerts
     android.permission.FOREGROUND_SERVICE: to run safely in the background
+  Status:
+    - 2026-01-23 signing key changed, see https://github.com/Thiru-Malai/CallLimiter/issues/52
 
 AllowedAPKSigningKeys: 860a758bb0b361d3fcf329f8091eda60ee055979637cd91126ec7fff1ef4f296
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
