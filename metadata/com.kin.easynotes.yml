@@ -20,8 +20,9 @@ MaintainerNotes:
   DoubleList: keep
   Status:
     - 2024-07-14 reached F-Droid 2024-05-30, RB on both ends, marking for keep
+    - 2026-01-24 UCM Tags=>Static as packageName was changed, see https://github.com/Kin69/EasyNotes/issues/333
 
 AllowedAPKSigningKeys: fce87da97f791301df390bfa47e81685191167cab5dbd555db8287541f786e28
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
