@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Thomas Künneth
+SourceCode: https://codeberg.org/tkuenneth/benice
+IssueTracker: https://codeberg.org/tkuenneth/benice/issues
+Changelog: https://codeberg.org/tkuenneth/benice/releases
+
+AutoName: Be nice
+
+MaintainerNotes:
+  AppAdded: 2026-01-24
+  Method: codeberg-release
+  GHSkipPre: 1
+  Note: author at Fedi as https://mastodon.social/@tkuenneth
+  Fastlane: https://codeberg.org/tkuenneth/benice/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,screenshots
+
+AllowedAPKSigningKeys: 5c9a66790b374c285cfff6c3e652b8842e3e582c55bef141ec7197f80c56a198
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
