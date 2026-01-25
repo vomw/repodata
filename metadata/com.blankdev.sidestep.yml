@@ -1,0 +1,26 @@
+Categories:
+  - Internet
+License: AGPL-3.0-only
+AuthorName: blankdotdev
+AuthorEmail: sidestepdev@proton.me
+SourceCode: https://github.com/blankdotdev/sidestep
+IssueTracker: https://github.com/blankdotdev/sidestep/issues
+Changelog: https://github.com/blankdotdev/sidestep/releases
+
+AutoName: Sidestep
+
+MaintainerNotes:
+  AppAdded: 2026-01-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/blankdotdev/sidestep/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneIgnore: featureGraphic
+  Note: featureGraphic has wrong aspect ratio (squared, 1024x1024)
+  FlagIgnore:
+    usesCleartextTraffic: to catch all URLs
+
+AllowedAPKSigningKeys: d5699817ccce5ff60b8c4b1afaa7e8a861e3a6eac0bf40c6fcea210efc574056
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
