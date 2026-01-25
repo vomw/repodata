@@ -15,7 +15,7 @@ MaintainerNotes:
   AppAdded: 2025-11-18
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /arm64-v8a/i
+  ApkMatch: /fdroid/i
   Fastlane: https://github.com/marlboro-advance/mpvEx/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   PermIgnore:
@@ -24,6 +24,8 @@ MaintainerNotes:
     android.permission.MANAGE_EXTERNAL_STORAGE: for usb otg and sdcard support, plus tree view for recursive directory video discovery
   Status:
     - 2025-11-21 READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE – https://github.com/marlboro-advance/mpvEx/issues/16#issuecomment-3564789885 (answered 10 minutes later, wow!)
+    - 2026-01-24 v1.2.7 adds android.permission.REQUEST_INSTALL_PACKAGES (and added code to check for updates, download the APK, and install it); UCM Tags=>None until clarified, see https://github.com/marlboro-advance/mpvEx/issues/435
+    - 2026-01-25 solved with a special build flavor at v1.2.8
 
 AllowedAPKSigningKeys: 68690654e3ee46d70895a12445dfa98d8c963d13e2de0f8aaa209765cc2c415e
 
