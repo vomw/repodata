@@ -1,0 +1,30 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Nandanrmenon
+AuthorEmail: nandanrmenon@gmail.com
+AuthorWebSite: https://www.nandanmenon.dev/
+SourceCode: https://github.com/Nandanrmenon/florid
+IssueTracker: https://github.com/Nandanrmenon/florid/issues
+Changelog: https://github.com/Nandanrmenon/florid/releases
+
+AutoName: Florid
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-01-26
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/Nandanrmenon/florid/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to install apps
+    android.permission.QUERY_ALL_PACKAGES: needed to check installed apps to list and look for updates for
+    android.permission.REQUEST_DELETE_PACKAGES: needed to uninstall apps no longer wanted
+
+AllowedAPKSigningKeys: 8486d1cb98e0ebeba90b5715c5e9196c6867f0db1044d760416c139e5c10ce12
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v.*\+%c
+UpdateCheckMode: Tags
