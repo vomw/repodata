@@ -15,6 +15,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /degoogled-arm64/i
+  ApkIgnore: /debug/i
   Fastlane: https://github.com/eddyizm/tempus/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: Fediverse contact https://fosstodon.org/@eddyizm
