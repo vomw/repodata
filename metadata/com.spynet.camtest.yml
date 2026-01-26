@@ -12,6 +12,10 @@ MaintainerNotes:
   Method: gone
   X-noGHDownloadDir: https://github.com/dematteispaolo/spynet-camera/blob/master/app/
   RepoGone: 2017-05-17
+  PermIgnore:
+    android.permission.CAMERA: needed to take photos and videos
+    android.permission.RECORD_AUDIO: needed to record audio with videos
+    android.permission.ACCESS_FINE_LOCATION: to embed location data with the media files
   Status:
     - 2017-05-17 entire user disappeared from GH, but sources from https://github.com/dematteispaolo/spynet-camera (was 2.5.4 here) showed up at https://github.com/ziacto/spynet-camera (© in build.gradle says "Paolo Dematteis") from 2.4.6, while Warren has 2.4.13
     - 2025-11-18 reported to be still useful to repurpose old devices, so we keep it; see https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15

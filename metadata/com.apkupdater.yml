@@ -21,6 +21,7 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   PermIgnore:
     android.permission.REQUEST_INSTALL_PACKAGES: needed to install the updates
+    android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: for seemless updates
     android.permission.QUERY_ALL_PACKAGES: needed to see what apps are there that might have updates
   Status:
     - 2019-11-01 seems like dev picked up again
