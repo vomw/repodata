@@ -1,0 +1,22 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: Phoebe Software
+SourceCode: https://github.com/PhoebeSoftware/xrooster
+IssueTracker: https://github.com/PhoebeSoftware/xrooster/issues
+
+AutoName: xrooster
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-01-26
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/PhoebeSoftware/xrooster/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 162994fb20567fe935f8fd36505dab4758df1d738396589d134cfc8200723070
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
