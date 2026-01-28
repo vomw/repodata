@@ -1,0 +1,28 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The license for the API to retrieve the data is unclear.
+    de: Die Lizenz der API zum Datenbezug ist unklar.
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Elías
+SourceCode: https://github.com/eliasbuenosdias/GeoGas
+IssueTracker: https://github.com/eliasbuenosdias/GeoGas/issues
+Changelog: https://github.com/eliasbuenosdias/GeoGas/releases
+
+AutoName: GeoGas
+
+MaintainerNotes:
+  AppAdded: 2026-01-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/eliasbuenosdias/GeoGas/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: to find stations near you
+    android.permission.ACCESS_COARSE_LOCATION: to find stations near you
+
+AllowedAPKSigningKeys: 1dd1c0ac17d1906d8f77024981bc5cd8192f7641c9b88c9c1c2455ed30b5942b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
