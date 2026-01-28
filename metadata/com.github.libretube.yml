@@ -19,7 +19,6 @@ MaintainerNotes:
   AppAdded: 2022-02-02
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /universal/i
   Fastlane: https://github.com/libre-tube/LibreTube/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
   DoubleList: keep
@@ -27,6 +26,7 @@ MaintainerNotes:
   Status:
     - 2022-04-02 app removed because it reached F-Droid 2022-03-19
     - 2022-06-11 app re-esablished on request https://github.com/libre-tube/LibreTube/issues/433#issuecomment-1152899320
+    - 2026-01-28 no more per-ABI releases, dropping ApkMatch (for universal)
 
 AllowedAPKSigningKeys: 720c4fcecf738a41d033b9fbe0bef97ac232030ce93e274d2e0ae232e44eeace
 
