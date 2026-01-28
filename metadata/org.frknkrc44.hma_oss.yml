@@ -19,6 +19,8 @@ MaintainerNotes:
   ApkIgnore: /debug/i
   Fastlane: https://github.com/frknkrc44/HMA-OSS/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to list the apps for configuration
   NameSpaces:
     - /icu/nullptr/hidemyapplist
 

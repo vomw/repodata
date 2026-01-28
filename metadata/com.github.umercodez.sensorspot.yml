@@ -20,6 +20,7 @@ MaintainerNotes:
   PermIgnore:
     android.permission.ACCESS_COARSE_LOCATION: for streaming location data
     android.permission.ACCESS_FINE_LOCATION: for streaming location data
+    android.permission.ACCESS_BACKGROUND_LOCATION: for streaming location data while e.g. the screen is turned off
 
 AllowedAPKSigningKeys: cec73bbafd52ff454f9be372367a02b57a151284fafeedbf4613b912c78a8142
 
