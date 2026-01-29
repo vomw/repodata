@@ -23,7 +23,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/solkin/appteka-android/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
-  Note: our starter package
+  Note: FAstlane is our starter package; crash reporting via own code to the dev’s own server
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to list installed apps
     android.permission.REQUEST_INSTALL_PACKAGES: needed to install apps
