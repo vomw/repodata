@@ -28,8 +28,10 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: used to read images for editing
     android.permission.WRITE_EXTERNAL_STORAGE: used to write edited images
     android.permission.READ_MEDIA_IMAGES: needed to access images
+  Status:
+    - 2026-01-29 no updates for a year, as tag names changed (dropping trailing versionCode), APK names changed, and per-ABI builds disappeared; UCM Tags=>Static for now; https://github.com/picguard/picguard/issues/574
 
 AllowedAPKSigningKeys: 1f1563316d8907218c21217dbb774568d5bda5d1a2d2675af84e8dac3a07f3b5
 
 AutoUpdateMode: Version v%v\+\d+$
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
