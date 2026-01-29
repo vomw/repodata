@@ -25,9 +25,10 @@ MaintainerNotes:
     - 2024-11-28 Cronet was removed, so is NonFreeComp.
     - 2025-01-30 APK signed with different certificate, UCM Tags=>Static for now until solved, see https://github.com/mu-fazil-vk/FluxTube/issues/63
     - 2025-03-13 original keystore was recovered, signature matches again
-    - 2025-12-05 UCM Tags=>Static as the app is currently (temporarily) unmaintaines, see https://github.com/mu-fazil-vk/FluxTube/issues/63#issuecomment-3617291433
+    - 2025-12-05 UCM Tags=>Static as the app is currently (temporarily) unmaintained, see https://github.com/mu-fazil-vk/FluxTube/issues/63#issuecomment-3617291433
+    - 2026-01-28 android.permission.READ_EXTERNAL_STORAGE android.permission.READ_MEDIA_IMAGES android.permission.READ_MEDIA_VIDEO android.permission.READ_MEDIA_AUDIO – and again signed by the wrong key. UCM=>None now.
 
 AllowedAPKSigningKeys: 16a2748e22c36a4211a57840083e1b779236026fc3187f0afd998ab3913d5e6d
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: None
