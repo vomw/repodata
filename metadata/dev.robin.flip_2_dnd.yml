@@ -21,8 +21,9 @@ MaintainerNotes:
     - 2024-12-30 internet permission was removed, hence self-updater gone
     - 2025-06-14 appId changed, not sure if on purpose, so for now UCM=>Static; https://github.com/robinsrk/flip_2_dnd/issues/17
     - 2025-07-06 original appId restored, UCM Static=>Tags
+    - 2026-02-02 signing key changed, UCM Tags=>Static until clarified – https://github.com/robinsrk/flip_2_dnd/issues/32
 
 AllowedAPKSigningKeys: 3c7cf9ebb6030720493af367c8cf9d8077a30fe104dbb50ea351454fc3ed08f1
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
