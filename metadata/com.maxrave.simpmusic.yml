@@ -35,6 +35,7 @@ MaintainerNotes:
   Status:
     - 2024-01-21 scanner reports usesCleartextTraffic, READ_MEDIA_AUDIO, READ_MEDIA_IMAGES, READ_EXTERNAL_STORAGE – https://github.com/maxrave-dev/SimpMusic/issues/227
     - 2025-10-05 update checker – or self updater? https://github.com/maxrave-dev/SimpMusic/issues/1094#issuecomment-3369219407
+    - 2026-02-03 android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE – https://github.com/maxrave-dev/SimpMusic/issues/227#issuecomment-3838439557
 
 AllowedAPKSigningKeys: 76c53bd813ae8f1ce2778f7814b515785719bf9a82c6bee03b8b2dfd706055a1
 
