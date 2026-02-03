@@ -11,6 +11,7 @@ AutoName: Flip 2 DND
 
 MaintainerNotes:
   AppAdded: 2024-12-06
+  Todo: 2026-03-03 remove old signing key (3c7cf9e) and APKs before 1010
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/robinsrk/flip_2_dnd/blob/master/metadata
@@ -22,8 +23,11 @@ MaintainerNotes:
     - 2025-06-14 appId changed, not sure if on purpose, so for now UCM=>Static; https://github.com/robinsrk/flip_2_dnd/issues/17
     - 2025-07-06 original appId restored, UCM Static=>Tags
     - 2026-02-02 signing key changed, UCM Tags=>Static until clarified – https://github.com/robinsrk/flip_2_dnd/issues/32
+    - 2026-02-03 ownership confirmed via mail, re-enabling updates.
 
-AllowedAPKSigningKeys: 3c7cf9ebb6030720493af367c8cf9d8077a30fe104dbb50ea351454fc3ed08f1
+AllowedAPKSigningKeys:
+  - 3c7cf9ebb6030720493af367c8cf9d8077a30fe104dbb50ea351454fc3ed08f1
+  - 91e4aa53dbae8aac4d3ddcbeb0bcae81e6f997ae2726c000655236db93e3d032
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
