@@ -15,8 +15,10 @@ MaintainerNotes:
   Fastlane: https://github.com/tibarj/tranquilstopwatch/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
   DoubleList: keep
+  Status:
+    - 2026-02-05 UCM Tags=>Static as versionCode was not increased; https://github.com/tibarj/tranquilstopwatch/issues/9#issuecomment-3844504177
 
 AllowedAPKSigningKeys: fe13fdfa891cc18426e6a361f2839067201a672b5cadd2bbddea8ce25d39a199
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
