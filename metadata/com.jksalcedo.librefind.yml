@@ -1,0 +1,30 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: The app needs to connect to its central database (Supabase).
+    de: Die App benötigt Verbindung zu ihrer zentralen Datenbank (Supabase).
+Categories:
+  - System
+License: MIT
+AuthorName: Jaressen Kyle Salcedo
+AuthorEmail: jks.create@gmail.com
+SourceCode: https://github.com/jksalcedo/librefind
+IssueTracker: https://github.com/jksalcedo/librefind/issues
+Changelog: https://github.com/jksalcedo/librefind/releases
+
+AutoName: LibreFind
+
+MaintainerNotes:
+  AppAdded: 2026-02-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/jksalcedo/librefind/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: Telegram channel at https://t.me/librefind
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list all installed apps to find alternatives for
+    android.permission.INTERNET: to connect to the Supabase database holding the app definitions
+
+AllowedAPKSigningKeys: 3410f33370a808f7088ba127bf139adf19ec542442a410ef77f1801db50117ab
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
