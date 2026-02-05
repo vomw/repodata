@@ -1,0 +1,25 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: ItsZariep
+SourceCode: https://codeberg.org/ItsZariep/OpenNavBar
+IssueTracker: https://codeberg.org/ItsZariep/OpenNavBar/issues
+Changelog: https://codeberg.org/ItsZariep/OpenNavBar/releases
+
+AutoName: OpenNavBar
+
+MaintainerNotes:
+  AppAdded: 2026-02-05
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/ItsZariep/OpenNavBar/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: needed as this is a replacement for the navigation bar
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed to show the navbar on top of other apps
+
+AllowedAPKSigningKeys: 275ba142d2a96cb8d281ccf3406c68c05ae0d07fb1e4bbae60eccb078b37c71b
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags

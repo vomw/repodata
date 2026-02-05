@@ -1,0 +1,29 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: The app uses OpenStreetMap APIs.
+    de: Die App verwendet OpenStreetMap APIs.
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Masterisk-F
+SourceCode: https://github.com/Masterisk-F/StationAccessSupporter
+IssueTracker: https://github.com/Masterisk-F/StationAccessSupporter/issues
+Changelog: https://github.com/Masterisk-F/StationAccessSupporter/releases
+
+AutoName: AccessSupporter
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-02-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Masterisk-F/StationAccessSupporter/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed to find nearest stations
+    android.permission.ACCESS_COARSE_LOCATION: needed to find nearest stations
+
+AllowedAPKSigningKeys: 182113703765b7f9135dfc8d2c281c7b1b8523e16f7fd3430201a30de3e88ca1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
