@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: IzzyOnDroid
+    url: https://izzyondroid.org/
+    about: Visit the IzzyOnDroid Website
+  - name: Contact (e.g. for confidential issues)
+    url: https://izzyondroid.org/contact/
+    about: How to contact us
