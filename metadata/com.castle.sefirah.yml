@@ -37,6 +37,7 @@ MaintainerNotes:
     android.permission.RECEIVE_MMS: for the SMS texting functionality
     android.permission.READ_CONTACTS: to see who send you the SMS
     android.permission.READ_PHONE_STATE: used to find the active local phone number for SMS activity
+    android.permission.CAMERA: required to scan QR codes
   Status:
     - 2025-01-24 permissions, dependencyInfo etc. https://github.com/shrimqy/Sefirah-Android/issues/6#issuecomment-2612052651
     - 2025-02-05 rebranded from com.komu.sekia
