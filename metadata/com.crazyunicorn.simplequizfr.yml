@@ -1,0 +1,25 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app loads quiz data from quizzapi.jomoreschi.fr, which is not fully libre.
+    de: Die App lädt Quiz-Daten von der non-libre quizzapi.jomoreschi.fr site.
+Categories:
+  - Science & Education
+License: GPL-3.0-or-later
+AuthorName: Crazy_Unicorn
+SourceCode: https://codeberg.org/Crazy_Unicorn/simple_quiz_fr
+IssueTracker: https://codeberg.org/Crazy_Unicorn/simple_quiz_fr/issues
+Changelog: https://codeberg.org/Crazy_Unicorn/simple_quiz_fr/releases
+
+AutoName: Simple Quiz FR
+
+MaintainerNotes:
+  AppAdded: 2026-02-06
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/Crazy_Unicorn/simple_quiz_fr/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: e4c64043b9238fd6472515555240d8d3efc24a08b6082b3d4606a5710a1e08a9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
