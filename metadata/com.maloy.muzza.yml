@@ -26,8 +26,12 @@ MaintainerNotes:
     - /com/maloy/kugou
     - /com/maloy/lrclib
     - /com/my/kizzy
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: to access music files to play
+  Status:
+    - 2026-02-08 UCM Tags=>Static as signing key changed; android.permission.RECORD_AUDIO android.permission.READ_EXTERNAL_STORAGE – https://github.com/Maloy-Android/Muzza/issues/119
 
 AllowedAPKSigningKeys: 3272d046d6c8c15d09ba1bfe264756f817a0a9afd180843a9df6e023e8bc8977
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static

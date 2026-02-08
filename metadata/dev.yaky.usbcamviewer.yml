@@ -22,8 +22,10 @@ MaintainerNotes:
   PermIgnore:
     android.permission.CAMERA: used to access the camera
     android.permission.RECORD_AUDIO: used to obtain the camera’s audio
+  Status:
+    - 2026-02-08 signing key changed; UCM Tags=>Static until resolved; https://gitlab.com/yaky/android-usb-cam-viewer/-/issues/3#note_3067741389
 
 AllowedAPKSigningKeys: 9879bfc5440e9dc66542a3402f2fb2e8843fbd14cf68e5fd8abbc86cf2603310
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
