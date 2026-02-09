@@ -27,7 +27,9 @@ MaintainerNotes:
     - /com/maloy/lrclib
     - /com/my/kizzy
   PermIgnore:
-    android.permission.READ_MEDIA_AUDIO: to access music files to play
+    android.permission.READ_MEDIA_AUDIO: to access music files to play on recent Android versions
+    android.permission.READ_EXTERNAL_STORAGE: to access music files anywhere on device on lower Android versions
+    android.permission.RECORD_AUDIO: for search by voice
   Status:
     - 2026-02-08 UCM Tags=>Static as signing key changed; android.permission.RECORD_AUDIO android.permission.READ_EXTERNAL_STORAGE – https://github.com/Maloy-Android/Muzza/issues/119
 
