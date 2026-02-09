@@ -19,6 +19,8 @@ MaintainerNotes:
   ApkMatch: /arm64-v8a/i
   Fastlane: https://codeberg.org/Reckoner/app/src/branch/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  LibIgnore:
+    - /io/sentry
   PermIgnore:
     android.permission.INTERNET: only used if device synchronization is setup
     android.permission.ACCESS_NETWORK_STATE: used to detect changes in network state for e.g. sync
@@ -27,6 +29,8 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: needed to restore the database from backup
     android.permission.WRITE_EXTERNAL_STORAGE: needed to backup the database to user storage
     android.permission.MANAGE_EXTERNAL_STORAGE: used to allow saving files to custom locations
+  Status:
+    - 2026-02-09 Sentry was added, but is opt-in
 
 AllowedAPKSigningKeys: dfaecff135a5fe0889a53e5de58d841e0e2eb6e7610d303321b95bd3f8d32089
 
