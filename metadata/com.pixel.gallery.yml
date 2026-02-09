@@ -1,0 +1,31 @@
+Categories:
+  - Graphics
+License: GPL-3.0-only
+AuthorName: Bhargava K K
+SourceCode: https://github.com/BKK31/pixel-gallery
+IssueTracker: https://github.com/BKK31/pixel-gallery/issues
+Changelog: https://github.com/BKK31/pixel-gallery/releases
+
+AutoName: Gallery
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-02-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/BKK31/pixel-gallery/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to access graphics across the storage on lower Android versions
+    android.permission.MANAGE_EXTERNAL_STORAGE: to access graphics across the storage on recent Android versions
+    android.permission.ACCESS_MEDIA_LOCATION: to read location data from photos
+    android.permission.INTERNET: for Nominatim lookup, to convert coordinates in place names
+    android.permission.READ_MEDIA_IMAGES: to access graphic files to show
+    android.permission.READ_MEDIA_VIDEO: to access video files to show
+
+AllowedAPKSigningKeys: 6a94e143b71472d41428435a3de7bddcebe746c57357d713999c593b755136dc
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

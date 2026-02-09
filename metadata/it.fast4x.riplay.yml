@@ -1,0 +1,33 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Youtube and Google Translate.
+    de: Die App baut Verbindungen zu Youtube und Google Translate auf.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Rino Russo
+AuthorEmail: rinorusso@gmail.com
+AuthorWebSite: https://www.rinorusso.it/
+SourceCode: https://github.com/fast4x/RiPlay
+IssueTracker: https://github.com/fast4x/RiPlay/issues
+Changelog: https://github.com/fast4x/RiPlay/releases
+
+AutoName: RiPlay
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-02-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-release/i
+  Fastlane: https://github.com/fast4x/RiPlay/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.RECORD_AUDIO: required by the visualizer, which is disabled by default. See https://developer.android.com/reference/android/media/audiofx/Visualizer
+    android.permission.READ_MEDIA_AUDIO: needed to play songs from your local media
+    android.permission.READ_EXTERNAL_STORAGE: needed to play songs from your local media on Android 9 and before
+
+AllowedAPKSigningKeys: 9762e9ab732b0a1cf3c721168450533c8b1905ae1c9e658f488abb84debef2fb
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
