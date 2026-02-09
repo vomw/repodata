@@ -21,8 +21,9 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Status:
     - 2026-02-05 wrong APK at the last 10 releases, UCM Tags=>Static for now; https://github.com/devshield-tech/botox-android/issues/9
+    - 2026-02-09 solved, UCM back to Tags
 
 AllowedAPKSigningKeys: e41f77a2638c8529c4311c74c5b41b404fd7fa3c5674ca74f7c4f1b88f0cc733
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
