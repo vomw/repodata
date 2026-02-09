@@ -1,0 +1,22 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: Antonie
+SourceCode: https://github.com/antoniegil/Astronia
+IssueTracker: https://github.com/antoniegil/Astronia/issues
+Changelog: https://github.com/antoniegil/Astronia/releases
+
+AutoName: Astronia
+
+MaintainerNotes:
+  AppAdded: 2026-02-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /universal-release/i
+  Fastlane: https://github.com/antoniegil/Astronia/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 5d68c14f1efd95d2f7ca46e244b4b7cf0652e929adc6cd1026f8c250731b22b0
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
