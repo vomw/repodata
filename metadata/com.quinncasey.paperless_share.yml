@@ -12,6 +12,7 @@ AutoName: Paperless Share
 
 MaintainerNotes:
   AppAdded: 2020-12-11
+  AppRemoved: 2026-02-11 reported defunc, required server component retired
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /armeabi-v7a/i
@@ -21,6 +22,7 @@ MaintainerNotes:
   DoubleListRef: https://github.com/qcasey/paperless_share/pull/2#issuecomment-743482850
   Status:
     - 2023-02-11 Tags => Static as no release since 1/2022 (last commit 1/2022)
+    - 2026-02-11 removing as it was reported defunc; required server component was archived in 2023; see https://codeberg.org/IzzyOnDroid/EverythingElse/issues/25
 
 AllowedAPKSigningKeys: 0e1d450cf92f55e7f6daf65c2f1e2c319d0b6cf098c1600c569c824bb87588e8
 
