@@ -23,8 +23,10 @@ MaintainerNotes:
   NameSpaces:
     - /com/metrolist
     - /com/my/kizzy
+  Status:
+    - 2026-02-12 v13.0.0 introduces 4 offending libs (ML Kit and dependencies), UCM Tags=>Static until solved; see https://github.com/MetrolistGroup/Metrolist/issues/2774
 
 AllowedAPKSigningKeys: e32c4f2efd7ee9548faee22e45a60425f7728a55a610fd5e8ab9364f74b7bcc9
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
