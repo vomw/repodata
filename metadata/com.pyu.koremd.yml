@@ -1,0 +1,28 @@
+Categories:
+  - Writing
+License: MIT
+AuthorName: PYU224
+SourceCode: https://github.com/PYU224/koremd
+IssueTracker: https://github.com/PYU224/koremd/issues
+
+AutoName: これMD(マジ)?
+
+MaintainerNotes:
+  AppAdded: 2026-02-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/PYU224/koremd/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to access files to edit
+    android.permission.READ_MEDIA_IMAGES: to include images with Markdown documents
+    android.permission.NEARBY_WIFI_DEVICES: for the local-share feature
+    android.permission.INTERNET: for the local-share feature
+    android.permission.ACCESS_WIFI_STATE: to find out if local share can be used
+    android.permission.ACCESS_COARSE_LOCATION:
+    android.permission.ACCESS_FINE_LOCATION:
+
+AllowedAPKSigningKeys: 3f303c4acec74ca823cbe6e0ce5d7c4cb700a8b6ce3898cbe94920bd3dbb41b0
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
