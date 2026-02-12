@@ -1,0 +1,22 @@
+Categories:
+  - Office
+License: AGPL-3.0-or-later
+AuthorName: potatameister
+WebSite: https://potatameister.github.io/PaperKnife/
+SourceCode: https://github.com/potatameister/PaperKnife
+IssueTracker: https://github.com/potatameister/PaperKnife/issues
+Changelog: https://github.com/potatameister/PaperKnife/releases
+
+AutoName: PaperKnife
+
+MaintainerNotes:
+  AppAdded: 2026-02-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/potatameister/PaperKnife/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: aee95e35a247e9fb0fe0b41c0977f889b733c38988c2d1c680f714e318c1e976
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
