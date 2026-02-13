@@ -1,0 +1,105 @@
+name: 'Magisk Module Inclusion'
+description: 'This template is for requesting to include a new Magisk module with our Magisk repository, or to update its Metadata'
+title: '[Magisk] '
+labels:
+  - 'magisk'
+body:
+  - type: input
+    id: source-code
+    attributes:
+      label: 'Link to the source code'
+      description: 'Provide a direct link to the Magisk module''s source code repository'
+      placeholder: 'https://github.com/...'
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: 'License used'
+      description: 'Specify the license under which the Magisk module is distributed'
+      placeholder: 'GPL-3.0, MIT, Apache-2.0, etc.'
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: category
+    attributes:
+      label: 'Categories'
+      description: 'Select all applicable categories for the app'
+      options:
+        - label: Automation
+          required: false
+        - label: Connectivity
+          required: false
+        - label: Development
+          required: false
+        - label: Food
+          required: false
+        - label: Games
+          required: false
+        - label: Graphics
+          required: false
+        - label: Internet
+          required: false
+        - label: Messaging
+          required: false
+        - label: Money
+          required: false
+        - label: Multimedia
+          required: false
+        - label: Navigation
+          required: false
+        - label: Office
+          required: false
+        - label: Phone & SMS
+          required: false
+        - label: Reading
+          required: false
+        - label: Religion
+          required: false
+        - label: Science & Education
+          required: false
+        - label: Security
+          required: false
+        - label: Social Network
+          required: false
+        - label: Sports & Health
+          required: false
+        - label: System
+          required: false
+        - label: Theming
+          required: false
+        - label: Time
+          required: false
+        - label: Weather
+          required: false
+        - label: Writing
+          required: false
+        - label: Xposed
+          required: false
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 'Summary'
+      description: 'Provide a brief summary of the Magisk module (1-2 sentences)'
+      placeholder: 'A short description of the module...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 'Description'
+      description: 'Provide a detailed description of the Magisk module, its purpose, and its features'
+      placeholder: 'A detailed description of the module, its functionality, and any special instructions...'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Thanks for requesting a new Magisk module! We will review your request and get back to you soon enough.**

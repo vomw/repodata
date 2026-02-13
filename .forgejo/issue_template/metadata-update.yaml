@@ -1,0 +1,35 @@
+name: 'Metadata Update'
+description: 'This template is for requesting to update metadata for an existing app in our repository'
+title: '[Metadata] '
+labels:
+  - 'metadata-update'
+body:
+  - type: checkboxes
+    attributes:
+      label: 'Guidelines'
+      description: 'Please ensure you have completed all of the following before submitting.'
+      options:
+        - label: 'I am the developer of the app'
+          required: true
+
+  - type: input
+    id: package-name
+    attributes:
+      label: 'Package Name'
+      description: 'Provide the package name of the app (e.g., com.example.app)'
+      placeholder: 'com.example.app'
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-to-update
+    attributes:
+      label: 'What to update'
+      description: 'Describe the metadata fields you want to update (e.g., description, license, category, screenshots, etc.)'
+      placeholder: |
+        Example:
+        - Change license from GPL-3.0 to MIT.
+        - Update build instructions.
+        - Change source code URL.
+    validations:
+      required: true
