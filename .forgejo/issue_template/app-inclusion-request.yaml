@@ -12,11 +12,11 @@ body:
       description: Please ensure you've completed all of the following.
       options:
         - label: The app complies with the [App Inclusion Policy](https://izzyondroid.org/docs/general/AppInclusionPolicy/).
-          required: true
+          required: false
         - label: The app is not already listed in the repo or issue tracker.
           required: true
         - label: The [Fastlane](https://izzyondroid.org/docs/general/Fastlane/) folder is available in the app's repo.
-          required: true
+          required: false
 
   - type: input
     id: source-code

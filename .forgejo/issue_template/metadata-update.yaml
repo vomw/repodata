@@ -10,7 +10,7 @@ body:
       description: 'Please ensure you have completed all of the following before submitting.'
       options:
         - label: 'I am the developer of the app'
-          required: true
+          required: false
 
   - type: input
     id: package-name
