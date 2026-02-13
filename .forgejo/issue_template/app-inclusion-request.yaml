@@ -1,4 +1,4 @@
-name: 'App Inclusion Request'
+name: App Inclusion Request
 description: 'This template is for requesting a new app to be added to our repository'
 title: '[AppRequest] '
 labels:
@@ -15,7 +15,7 @@ body:
           required: true
         - label: The app is not already listed in the repo or issue tracker.
           required: true
-        - label: [Fastlane](https://izzyondroid.org/docs/general/Fastlane/) is available in the app's repo.
+        - label: The [Fastlane](https://izzyondroid.org/docs/general/Fastlane/) folder is available in the app's repo.
           required: true
 
   - type: input
