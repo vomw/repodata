@@ -1,0 +1,137 @@
+name: 'App Inclusion Request'
+description: 'This template is for requesting a new app to be added to our repository'
+title: '[AppRequest] '
+labels:
+  - 'app-request'
+  - 'needs/on-device-test'
+  - 'needs/apk-scan'
+body:
+  - type: checkboxes
+    attributes:
+      label: Guidelines
+      description: Please ensure you've completed all of the following.
+      options:
+        - label: The app complies with the [App Inclusion Policy](https://izzyondroid.org/docs/general/AppInclusionPolicy/).
+          required: true
+        - label: The app is not already listed in the repo or issue tracker.
+          required: true
+        - label: [Fastlane](https://izzyondroid.org/docs/general/Fastlane/) is available in the app's repo.
+          required: true
+
+  - type: input
+    id: source-code
+    attributes:
+      label: 'Link to the source code'
+      description: 'Provide a direct link to the app's source code repository'
+      placeholder: 'https://github.com/...'
+    validations:
+      required: true
+
+  - type: input
+    id: app-store
+    attributes:
+      label: 'Link to app in another app store'
+      description: 'If available, provide a link to the app in another app store (e.g., Google Play, F-Droid)'
+      placeholder: 'https://play.google.com/...'
+    validations:
+      required: false
+
+  - type: input
+    id: license
+    attributes:
+      label: 'License used'
+      description: 'Specify the license under which the app is distributed'
+      placeholder: 'GPL-3.0, MIT, Apache-2.0, etc.'
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: category
+    attributes:
+      label: 'Categories'
+      description: 'Select all applicable categories for the app'
+      options:
+        - label: Automation
+          required: false
+        - label: Connectivity
+          required: false
+        - label: Development
+          required: false
+        - label: Food
+          required: false
+        - label: Games
+          required: false
+        - label: Graphics
+          required: false
+        - label: Internet
+          required: false
+        - label: Messaging
+          required: false
+        - label: Money
+          required: false
+        - label: Multimedia
+          required: false
+        - label: Navigation
+          required: false
+        - label: Office
+          required: false
+        - label: Phone & SMS
+          required: false
+        - label: Reading
+          required: false
+        - label: Religion
+          required: false
+        - label: Science & Education
+          required: false
+        - label: Security
+          required: false
+        - label: Social Network
+          required: false
+        - label: Sports & Health
+          required: false
+        - label: System
+          required: false
+        - label: Theming
+          required: false
+        - label: Time
+          required: false
+        - label: Weather
+          required: false
+        - label: Writing
+          required: false
+        - label: Xposed
+          required: false
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 'Summary'
+      description: 'Provide a brief summary of the app (1-2 sentences)'
+      placeholder: 'A short description of the app...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 'Description'
+      description: 'Provide a detailed description of the app'
+      placeholder: 'A detailed description of the app, its features, and its purpose...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: build-instructions
+    attributes:
+      label: 'Build instructions'
+      description: 'Provide clear instructions on how to build the app from source'
+      placeholder: 'Step-by-step instructions for building the app...'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Thanks for requesting a new app! We will review your request and get back to you soon enough.**
