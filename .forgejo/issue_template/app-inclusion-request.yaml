@@ -22,7 +22,7 @@ body:
     id: source-code
     attributes:
       label: 'Link to the source code'
-      description: 'Provide a direct link to the app's source code repository'
+      description: "Provide a direct link to the app's source code repository"
       placeholder: 'https://github.com/...'
     validations:
       required: true
