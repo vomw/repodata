@@ -2,22 +2,24 @@ Categories:
   - Theming
 License: GPL-3.0-only
 AuthorName: Jack Eblan
-SourceCode: https://github.com/JackEblan/EinsteinLauncher
-IssueTracker: https://github.com/JackEblan/EinsteinLauncher/issues
-Changelog: https://github.com/JackEblan/EinsteinLauncher/releases
+SourceCode: https://github.com/JackEblan/YagniLauncher
+IssueTracker: https://github.com/JackEblan/YagniLauncher/issues
+Changelog: https://github.com/JackEblan/YagniLauncher/releases
 
-AutoName: Eblan Launcher
+AutoName: Yagni Launcher
 
 MaintainerNotes:
   AppAdded: 2025-10-15
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/JackEblan/EinsteinLauncher/blob/master/fastlane/metadata/android
+  Fastlane: https://github.com/JackEblan/YagniLauncher/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   IntentFilterIgnore:
     android.accessibilityservice.AccessibilityService: for Gesture Actions most common in Android Launchers
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: to show all apps in the app drawer
+  Status:
+    - 2026-02-13 after having renamed from Eblan Launcher to Einstein Launcher in 12/2025, dev renamed again now to Yagni Launcher
 
 AllowedAPKSigningKeys: 1eaea35caae68379f7d4617f283a33805afecec36ab484174562731f756d5d49
 
