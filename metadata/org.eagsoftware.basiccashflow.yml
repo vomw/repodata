@@ -12,7 +12,6 @@ AutoName: BasicCashFlow
 
 MaintainerNotes:
   AppAdded: 2025-03-20
-  Todo: 2026-02-14 remove old signing key (74c264b) and APK with VC 1
   Method: codeberg-release
   GHSkipPre: 1
   Fastlane: https://codeberg.org/minardil/BasicCashFlow/src/branch/main/metadata
@@ -22,9 +21,7 @@ MaintainerNotes:
   Status:
     - 2026-01-13 signing key changed, see https://codeberg.org/minardil/BasicCashFlow/issues/3
 
-AllowedAPKSigningKeys:
-  - 47c264bc2229f09545eda019d27614887e07b905606ef258619467292c2d4b5b
-  - afbd67fad9be2807411fc238f8c28bc68710220c4a22781ebaacebc3e9ef282f
+AllowedAPKSigningKeys: afbd67fad9be2807411fc238f8c28bc68710220c4a22781ebaacebc3e9ef282f
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
