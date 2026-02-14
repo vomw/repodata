@@ -16,6 +16,7 @@ AutoName: PicGuard
 
 MaintainerNotes:
   AppAdded: 2024-11-11
+  Todo: 2026-03-14 remove app if https://github.com/picguard/picguard/issues/574 not solved
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /pro_armeabi-v7a/i
@@ -30,6 +31,7 @@ MaintainerNotes:
     android.permission.READ_MEDIA_IMAGES: needed to access images
   Status:
     - 2026-01-29 no updates for a year, as tag names changed (dropping trailing versionCode), APK names changed, and per-ABI builds disappeared; UCM Tags=>Static for now; https://github.com/picguard/picguard/issues/574
+    - 2026-02-14 author closed issue as "not planned". Asked if we shall remove the app here then.
 
 AllowedAPKSigningKeys: 1f1563316d8907218c21217dbb774568d5bda5d1a2d2675af84e8dac3a07f3b5
 
