@@ -1,0 +1,22 @@
+Categories:
+  - Navigation
+  - Sports & Health
+License: Apache-2.0
+AuthorName: Neon Branch
+SourceCode: https://gitlab.com/neonbranch/schatzsuche
+IssueTracker: https://gitlab.com/neonbranch/schatzsuche/issues
+
+AutoName: Treasure Hunt
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-02-13
+  Method: gitlab-tags
+  GHSkipPre: 1
+  Fastlane: https://gitlab.com/neonbranch/schatzsuche/-/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 25238413a89a413554e5e9414d62f0b8ac0714730a930c57c32cf8f14a5d97ba
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

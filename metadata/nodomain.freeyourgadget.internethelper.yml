@@ -1,0 +1,22 @@
+Categories:
+  - Connectivity
+License: AGPL-3.0-only
+AuthorName: Freeyourgadget
+WebSite: https://gadgetbridge.org/
+SourceCode: https://codeberg.org/Freeyourgadget/Internethelper
+IssueTracker: https://codeberg.org/Freeyourgadget/Internethelper/issues
+Changelog: https://codeberg.org/Freeyourgadget/Internethelper/releases
+
+AutoName: Internet Helper for Gadgetbridge
+
+MaintainerNotes:
+  AppAdded: 2026-02-14
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/Freeyourgadget/Internethelper/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 01cce9316fcb77ea02c6dea81fde9f3176469202c0cea0514c0e03cb969bc7be
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
