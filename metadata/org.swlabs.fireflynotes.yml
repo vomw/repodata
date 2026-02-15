@@ -1,0 +1,24 @@
+Categories:
+  - Writing
+License: MIT
+AuthorName: ShadowWeave Labs
+AuthorEmail: hello@swlabs.org
+AuthorWebSite: https://swlabs.org/
+SourceCode: https://codeberg.org/SWLabs/fireflynotesapk
+IssueTracker: https://codeberg.org/SWLabs/fireflynotesapk/issues
+Changelog: https://codeberg.org/SWLabs/fireflynotesapk/releases
+
+AutoName: FireflyNotes
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-02-15
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/SWLabs/fireflynotesapk/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: d01df1a290fdd7e03183dd5b476bd4c0b3c72b8725d638200645243cd6b15010
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
