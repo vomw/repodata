@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: SwiftStagRime
+SourceCode: https://github.com/SwiftStagRime/ScriptRunner_for_Termux
+IssueTracker: https://github.com/SwiftStagRime/ScriptRunner_for_Termux/issues
+Changelog: https://github.com/SwiftStagRime/ScriptRunner_for_Termux/releases
+
+AutoName: Script Runner for Termux
+
+MaintainerNotes:
+  AppAdded: 2026-02-15
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/SwiftStagRime/ScriptRunner_for_Termux/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 0f7c5e374a8083fbd957a44f4e4901edb4d4f5c17929ee6b21a27d5d866b0d5f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
