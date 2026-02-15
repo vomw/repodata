@@ -26,6 +26,7 @@ MaintainerNotes:
     - 2025-01-07 1.5.5.32 adds GMS + Billing – https://github.com/Akylas/OSS-DocumentScanner/issues/388
     - 2025-01-08 fixed, AFs removed again
     - 2026-02-14 android.permission.READ_PHONE_STATE – https://github.com/Akylas/OSS-DocumentScanner/issues/568
+    - 2026-02-15 READ_PHONE_STATE was removed again (originally entered by accident)
 
 AllowedAPKSigningKeys: 0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871
 
