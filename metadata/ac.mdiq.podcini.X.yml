@@ -29,8 +29,10 @@ MaintainerNotes:
   PermIgnore:
     android.permission.WRITE_EXTERNAL_STORAGE: to store podcasts locally
     android.permission.READ_EXTERNAL_STORAGE: to read stored podcasts
+  Status:
+    - 2026-02-15 tag naming pattern changes with next release, see https://github.com/XilinJia/Podcini.X/issues/47#issuecomment-3904486189
 
 AllowedAPKSigningKeys: cd1328fb5c2ccf50cb99e3ff076eb5fe88298fe28366989dcf9d9899d5eb6940
 
-AutoUpdateMode: Version %v
+AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
