@@ -29,7 +29,6 @@ MaintainerNotes:
     android.permission.ACCESS_NETWORK_STATE: to check internet connection status before downloading content
     android.permission.WAKE_LOCK: to ensure that music playback stays active in the background for as long as possible
     android.permission.SCHEDULE_EXACT_ALARM: to accurately configure the Sleep Timer on Android 12+
-    android.permission.MODIFY_AUDIO_SETTINGS: to be able to set a song as a ringtone directly from the app
     android.permission.WRITE_SETTINGS: needed to set a song as ringtone directly from the app
   Status:
     - 2025-05-16 READ_EXTERNAL_STORAGE RECORD_AUDIO – https://github.com/mardous/BoomingMusic/issues/15
