@@ -23,8 +23,11 @@ MaintainerNotes:
   ApkIgnore: /x86/i
   Fastlane: https://github.com/koiverse/ArchiveTune/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: for the integrated, opt-in self-updater
+    android.permission.READ_MEDIA_AUDIO: to access cached songs for offline playback
   Status:
-    - 2026-01-21 android.permission.READ_MEDIA_AUDIO android.permission.READ_EXTERNAL_STORAGE android.permission.REQUEST_INSTALL_PACKAGES – https://github.com/koiverse/ArchiveTune/issues/208#issuecomment-3782097430
+    - 2026-01-21 READ_MEDIA_AUDIO android.permission.READ_EXTERNAL_STORAGE REQUEST_INSTALL_PACKAGES – https://github.com/koiverse/ArchiveTune/issues/208#issuecomment-3782097430
 
 AllowedAPKSigningKeys: bb2e5b7e476c0de63b06686209c0f60e904f9988e9bb452da280596e8ae98e33
 
