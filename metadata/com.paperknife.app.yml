@@ -13,6 +13,7 @@ MaintainerNotes:
   AppAdded: 2026-02-12
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /paperknife-lite/i
   Fastlane: https://github.com/potatameister/PaperKnife/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
 
