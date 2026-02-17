@@ -1,0 +1,24 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Gašper Pintar
+AuthorWebSite: https://gasperpintar.com/
+WebSite: https://gasperpintar.com/smoking-tracker
+SourceCode: https://github.com/pintargasper/SmokingTracker
+IssueTracker: https://github.com/pintargasper/SmokingTracker/issues
+Translation: https://translate.gasperpintar.com/engage/smokingtracker/
+Changelog: https://github.com/pintargasper/SmokingTracker/releases
+
+AutoName: Smoking Tracker
+
+MaintainerNotes:
+  AppAdded: 2026-02-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/pintargasper/SmokingTracker/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 8ab92b8c823d667d2f356665cee4b4ab7d2127d36f09ef143676a2f5f7dcf680
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
