@@ -1,0 +1,27 @@
+Categories:
+  - Time
+  - Office
+License: AGPL-3.0-only
+AuthorName: Dongda Li
+AuthorEmail: dli160@syr.edu
+AuthorWebSite: https://dongdongbh.tech/
+WebSite: https://github.com/dongdongbh/Mindwtr/wiki
+SourceCode: https://github.com/dongdongbh/Mindwtr
+IssueTracker: https://github.com/dongdongbh/Mindwtr/issues
+Changelog: https://github.com/dongdongbh/Mindwtr/releases
+
+AutoName: Mindwtr
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-02-17
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss\.apk$/i
+  Fastlane: https://github.com/dongdongbh/Mindwtr/blob/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 1a3e0ab42178306c36534cee2ef3b888756c6e43f0d19de67f7b55246c473df5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
