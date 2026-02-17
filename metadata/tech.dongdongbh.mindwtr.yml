@@ -19,7 +19,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /foss\.apk$/i
   Fastlane: https://github.com/dongdongbh/Mindwtr/blob/main/metadata
-  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
 
 AllowedAPKSigningKeys: 1a3e0ab42178306c36534cee2ef3b888756c6e43f0d19de67f7b55246c473df5
 
