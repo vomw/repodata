@@ -23,8 +23,9 @@ MaintainerNotes:
     android.permission.SYSTEM_ALERT_WINDOW: to start activities from background
   Status:
     - 2025-07-15 AccessibilityService SYSTEM_ALERT_WINDOW https://github.com/PranavPurwar/AppLock/issues/15#issuecomment-3075791914
+    - 2026-02-17 all releases are gone, disabling update check (UCM Tags=>None). Contacted author by mail for clarification.
 
 AllowedAPKSigningKeys: af7f36023c6a7750847252e5d4d14a992b621364600705e1d8b0fe44d1ac8c81
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
