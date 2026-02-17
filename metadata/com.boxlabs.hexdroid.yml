@@ -1,0 +1,24 @@
+Categories:
+  - Messaging
+  - Internet
+License: GPL-3.0-only
+AuthorName: boxlabs
+AuthorEmail: android@boxlabs.co.uk
+AuthorWebSite: https://boxlabs.uk/
+WebSite: https://hexdroid.boxlabs.uk/
+SourceCode: https://github.com/boxlabss/HexDroid
+IssueTracker: https://github.com/boxlabss/HexDroid/issues
+
+AutoName: HexDroid IRC
+
+MaintainerNotes:
+  AppAdded: 2026-02-17
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/boxlabss/HexDroid/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: e1ded97f0c949958a990f72fc0a8c14533cc31bf1c0daf41922f7301e2537213
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
