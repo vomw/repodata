@@ -25,6 +25,7 @@ MaintainerNotes:
   AppAdded: 2024-11-05
   Method: gitlab-tags
   GHSkipPre: 1
+  ApkIgnore: /(preload|hw)/i
   Fastlane: https://gitlab.com/AuroraOSS/AuroraStore/-/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
