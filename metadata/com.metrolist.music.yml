@@ -8,10 +8,11 @@ License: GPL-3.0-only
 AuthorName: Mo Agamy
 SourceCode: https://github.com/mostafaalagamy/Metrolist
 IssueTracker: https://github.com/mostafaalagamy/Metrolist/issues
+Translation: https://hosted.weblate.org/projects/Metrolist/
 Changelog: https://github.com/mostafaalagamy/Metrolist/releases
 
 AutoName: Metrolist
-ArchivePolicy: 2
+ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2024-12-31
@@ -23,10 +24,13 @@ MaintainerNotes:
   NameSpaces:
     - /com/metrolist
     - /com/my/kizzy
+  PermIgnore:
+    android.permission.RECORD_AUDIO: for the music recognition feature
   Status:
     - 2026-02-12 v13.0.0 introduces 4 offending libs (ML Kit and dependencies), UCM Tags=>Static until solved; see https://github.com/MetrolistGroup/Metrolist/issues/2774
+    - 2026-02-19 v13.1.1 solves this, UCM=>Tags again
 
 AllowedAPKSigningKeys: e32c4f2efd7ee9548faee22e45a60425f7728a55a610fd5e8ab9364f74b7bcc9
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
