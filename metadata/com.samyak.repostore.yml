@@ -21,6 +21,7 @@ MaintainerNotes:
   PermIgnore:
     android.permission.REQUEST_INSTALL_PACKAGES: this app is intended to install/update apps
     android.permission.QUERY_ALL_PACKAGES: this app is intended to manage installed apps
+    android.permission.REQUEST_DELETE_PACKAGES: this app is intended to manage installed apps
 
 AllowedAPKSigningKeys: dbddc76bf7056f3cfde555c3859c3bbfc31a6f38da89764be9a7633c7e64ce25
 

@@ -20,6 +20,8 @@ MaintainerNotes:
   ApkMatch: /foss\.apk$/i
   Fastlane: https://github.com/dongdongbh/Mindwtr/blob/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.RECORD_AUDIO: for voice input (dictation)
 
 AllowedAPKSigningKeys: 1a3e0ab42178306c36534cee2ef3b888756c6e43f0d19de67f7b55246c473df5
 
