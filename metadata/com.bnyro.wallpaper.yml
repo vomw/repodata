@@ -20,6 +20,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/you-apps/WallYou/blob/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  NameSpaces:
+    - /net/youapps/wallpaper_apis
   DoubleList: keep
   DoubleListRef: https://github.com/you-apps/WallYou/pull/113#issuecomment-1668350221
   Status:

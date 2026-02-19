@@ -22,6 +22,7 @@ MaintainerNotes:
     - /com/jocmp/capy
     - /com/jocmp/feedbinclient
     - /com/jocmp/feedfinder
+    - /com/jocmp/minifluxclient
     - /com/jocmp/readerclient
     - /com/jocmp/rssparser
   FlagIgnore:

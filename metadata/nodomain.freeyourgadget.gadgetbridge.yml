@@ -29,6 +29,7 @@ MaintainerNotes:
     - /lineageos/weather/util
     - /net/osmand/aidlapi
     - /no/nordicsemi/android/error
+    - /nodomain/freeyourgadget/internethelper
   PermIgnore:
     android.permission.BLUETOOTH_SCAN: to find devices to connect
     android.permission.ACCESS_COARSE_LOCATION: e.g. for calculation of Sunrise/Sunset times

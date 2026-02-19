@@ -18,6 +18,8 @@ MaintainerNotes:
   X-ApkMatch: /libre/i
   Fastlane: https://github.com/you-apps/TranslateYou/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  NameSpaces:
+    - /net/youapps/translation_engines
   PermIgnore:
     android.permission.RECORD_AUDIO: to perform a vocal translation, only at the user’s request
   DoubleList: keep
