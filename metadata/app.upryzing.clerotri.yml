@@ -20,7 +20,7 @@ MaintainerNotes:
   ApkMatch: /arm64-v8a/i
   ApkIgnore: /x86/i
   Fastlane: https://github.com/upryzing/clerotri/tree/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: Fastlane is our starter package
 
 AllowedAPKSigningKeys: 90fd582a495a7ec59282a19527b80b09ab3bc91dbb8246121832bd61006ca9ae
