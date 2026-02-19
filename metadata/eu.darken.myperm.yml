@@ -10,6 +10,7 @@ AuthorEmail: support@darken.eu
 AuthorWebSite: https://darken.eu/
 SourceCode: https://github.com/d4rken-org/permission-pilot
 IssueTracker: https://github.com/d4rken-org/permission-pilot/issues
+Translation: https://crowdin.com/project/permission-pilot
 Changelog: https://github.com/d4rken-org/permission-pilot/releases
 
 AutoName: Mystic Permissions
