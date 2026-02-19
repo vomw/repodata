@@ -19,8 +19,9 @@ MaintainerNotes:
     usesCleartextTraffic: to connect to Linkace servers running on local network
   Status:
     - 2025-06-06 forgot to increase versionCode, so UCM Tags=>Static for now; https://gitlab.com/ananasem/hyperlinks-knapsack/-/issues/1#note_2549068960
+    - 2026-02-19 seems to have rebranded to eu.comosus.hyperlinkknapsack, but no valid APKs attached to releases. Disabling updates now.
 
 AllowedAPKSigningKeys: 81cba60d39ea00f6f18a1c20f88334bdd42fc2a2f90719a247737ffc22570bce
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
