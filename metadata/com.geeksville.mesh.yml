@@ -40,8 +40,9 @@ MaintainerNotes:
     - 2024-04-16 app reached F-Droid at 2024-04-03, but still carries our badge. Let’s keep it as long as it stays < 15 MB per APK.
     - 2025-05-25 usesCleartextTraffic, see https://github.com/meshtastic/Meshtastic-Android/issues/829#issuecomment-2908133496
     - 2025-09-29 v2.7.1 comes with privacySandbox, Crashlytics, Firebase Analytics, GMS, Firebase; UCM Tags=>Static until solved – https://github.com/meshtastic/Meshtastic-Android/issues/3231#issuecomment-3344350645
+    - 2026-02-20 v2.7.13 now with ML Kit and friends, so UCM=>Static once more – https://github.com/meshtastic/Meshtastic-Android/issues/3231#issuecomment-3937150758
 
 AllowedAPKSigningKeys: a93b456568c175db0800a09f06777f892d812432adb8a3df73bc3e7f06c80c6d
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
