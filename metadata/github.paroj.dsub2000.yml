@@ -26,7 +26,6 @@ MaintainerNotes:
     android.permission.READ_MEDIA_AUDIO: to play songs from local storage (Android 12+)
     android.permission.ACCESS_FINE_LOCATION: for automatic day/ night mode and different server URL in local WiFi
     android.permission.ACCESS_COARSE_LOCATION: for automatic day/ night mode and different server URL in local WiFi
-    android.permission.READ_PHONE_STATE: to auto-pause playback when a call is received
     android.permission.FOREGROUND_SERVICE: for downloading playlists to cache
   Note: android.permission.RECORD_AUDIO – https://github.com/paroj/DSub2000/issues/74
 
