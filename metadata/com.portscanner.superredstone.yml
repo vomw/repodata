@@ -18,8 +18,10 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   Status:
     - 2023-08-07 last release 6/2021, last commit 6/2021, author still active
+    - 2026-02-17 monthly quality scan found the repo gone
 
 AllowedAPKSigningKeys: 86cf9628f05ab471267edf1865eb6af87da2f5bd0269bcf00dbc915b36e755fd
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: None
+NoSourceSince: 1.0.4
