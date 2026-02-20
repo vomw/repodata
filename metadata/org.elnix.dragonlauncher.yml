@@ -13,6 +13,7 @@ MaintainerNotes:
   AppAdded: 2025-12-18
   Method: github-release
   GHSkipPre: 1
+  ApkIgnore: /debuggable/i
   Fastlane: https://github.com/Elnix90/Dragon-Launcher/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   IntentFilterIgnore:
