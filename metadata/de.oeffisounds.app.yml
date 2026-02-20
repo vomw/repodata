@@ -1,0 +1,26 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses fyyd as an optional podcast directory search provider
+    de: Die App verwendet fyyd als optionalen Podcast Suchanbieter.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: thrillfall
+AuthorEmail: thrillfall@disroot.org
+SourceCode: https://github.com/thrillfall/OeffiSounds
+IssueTracker: https://github.com/thrillfall/OeffiSounds/issues
+Translation: https://hosted.weblate.org/projects/antennapod/
+
+AutoName: Öffi Sounds
+
+MaintainerNotes:
+  AppAdded: 2026-02-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/thrillfall/OeffiSounds/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 845596dd44236722a9ec8d5be4508e6fe27887ccc35c3914f575f250e18f5874
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
