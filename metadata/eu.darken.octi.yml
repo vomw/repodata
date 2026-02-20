@@ -16,6 +16,8 @@ AuthorEmail: support@darken.eu
 AuthorWebSite: https://darken.eu/
 SourceCode: https://github.com/d4rken-org/octi
 IssueTracker: https://github.com/d4rken-org/octi/issues
+Translation: https://crowdin.com/project/octi
+Changelog: https://github.com/d4rken-org/octi/releases
 
 AutoName: Octi - Multi-Device Monitor
 
