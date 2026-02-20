@@ -1,0 +1,35 @@
+Categories:
+  - Multimedia
+License: AGPL-3.0-only
+AuthorName: greenbugx(0xNA)
+SourceCode: https://github.com/greenbugx/Hongeet
+IssueTracker: https://github.com/greenbugx/Hongeet/issues
+Changelog: https://github.com/greenbugx/Hongeet/releases
+
+AutoName: Hongeet
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-02-20
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/greenbugx/Hongeet/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  permIgnore:
+    android.permission.INTERNET: for streaming audio and metadata fetching
+    android.permission.POST_NOTIFICATIONS: for playback controls in notification/lock screen and download notifications
+    android.permission.FOREGROUND_SERVICE: to keep background playback stable while the app is minimized or the screen is locked
+    android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK: to keep background playback stable while the app is minimized or the screen is locked
+    android.permission.WAKE_LOCK: to keep background playback stable while the app is minimized or the screen is locked
+    android.permission.FOREGROUND_SERVICE_DATA_SYNC: to support background data tasks such as download/stream sync operations
+    android.permission.READ_MEDIA_AUDIO: to read audio files from device storage (downloads/local tracks) on Android 13+
+    android.permission.READ_EXTERNAL_STORAGE: to read audio files from device storage (downloads/local tracks) on Android 12 and below
+    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: optionally used to open battery optimization settings on aggressive OEM devices
+    android.permission.MANAGE_EXTERNAL_STORAGE: used only if the user opts in to manage local audio/downloaded songs directly from the app
+
+AllowedAPKSigningKeys: 76facaf6d0db29f0d78055d419da70ec785a85a270289ed4529949e264ebedee
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
