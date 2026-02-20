@@ -11,7 +11,7 @@ MaintainerNotes:
   Method: codeberg-release
   GHSkipPre: 1
   Fastlane: https://codeberg.org/Starfish/TinyWeatherForecastGermany/src/branch/master/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshotsJPG
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
   DoubleList: keep
   NameSpaces:
     - /nodomain/freeyourgadget/gadgetbridge/model

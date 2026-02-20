@@ -17,7 +17,7 @@ MaintainerNotes:
   AppAdded: 2026-02-05
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/jksalcedo/librefind/blob/main/metadata
+  Fastlane: https://github.com/jksalcedo/librefind/blob/main/fastlane/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: Telegram channel at https://t.me/librefind
   PermIgnore:
