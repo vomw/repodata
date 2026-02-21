@@ -23,7 +23,7 @@ MaintainerNotes:
   PermIgnore:
     android.permission.RECORD_AUDIO: to perform a vocal translation, only at the user’s request
   DoubleList: keep
-  DoubleListRef: https://github.com/you-apps/TranslateYouissues/15#issuecomment-1464939199
+  DoubleListRef: https://github.com/you-apps/TranslateYou/issues/15#issuecomment-1464939199
   Status:
     - 2023-03-11 ready to enter F-Droid (MR merged 2023-03-10) and shall stay here, see https://github.com/Bnyro/TranslateYou/issues/15#issuecomment-1464939199
     - 2023-08-15 signing keys got lost, see https://github.com/you-apps/WallYou/pull/113#issuecomment-1678958311
