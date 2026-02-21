@@ -1,0 +1,25 @@
+Categories:
+  - Navigation
+  - Sports & Health
+License: Apache-2.0
+AuthorName: OpenTracksApp
+AuthorWebSite: https://opentracksapp.com/
+WebSite: https://opentracksapp.com/
+SourceCode: https://codeberg.org/OpenTracksApp/OSMDashboard
+IssueTracker: https://codeberg.org/OpenTracksApp/OSMDashboard/issues
+Changelog: https://codeberg.org/OpenTracksApp/OSMDashboard/releases
+
+AutoName: OSM Dashboard (Offline)
+
+MaintainerNotes:
+  AppAdded: 2026-02-21
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /offline/i
+  Fastlane: https://codeberg.org/OpenTracksApp/OSMDashboard/src/branch/main/src/offline/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: a3fa2ab15d340794c0a0a230f7d0619c6ba35fb8d1e7dc541f5b9cef4769b6d8
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
