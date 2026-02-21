@@ -1,0 +1,28 @@
+Categories:
+  - Graphics
+License: Apache-2.0
+AuthorName: Zakir Sheikh
+SourceCode: https://github.com/iZakirSheikh/Gallery
+IssueTracker: https://github.com/iZakirSheikh/Gallery/issues
+Translation: https://crowdin.com/project/gallery-photos-videos
+Changelog: https://github.com/iZakirSheikh/Gallery/releases
+
+AutoName: Gallery
+
+MaintainerNotes:
+  AppAdded: 2026-02-21
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /community/
+  ApkIgnore: /standard/
+  Fastlane: https://github.com/iZakirSheikh/Gallery/blob/v1.0.4/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to access images and videos on Android 12 and before
+    android.permission.READ_MEDIA_IMAGES: to access images to show
+    android.permission.READ_MEDIA_VIDEO: to access video files to show
+
+AllowedAPKSigningKeys: fdac44207942c30b0692453b5666aa73d1413140a8f05cc279eaaf45df9dc245
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
