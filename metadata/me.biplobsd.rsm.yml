@@ -21,7 +21,6 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to show all running processes
-    android.permission.REQUEST_DELETE_PACKAGES: to remove unwanted resource hoggers
 
 AllowedAPKSigningKeys: 1eb447280255c3b807fb8176556f31757a484619e8a989f29024a26e0fac3274
 
