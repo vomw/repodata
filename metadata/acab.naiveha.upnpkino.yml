@@ -1,0 +1,27 @@
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: naive-HA
+SourceCode: https://github.com/naive-HA/UpnpKino
+IssueTracker: https://github.com/naive-HA/UpnpKino/issues
+Changelog: https://github.com/naive-HA/UpnpKino/releases
+Bitcoin: 1HwgShr1TniuBxNQwy2xAhpQaNuZhtw6sh
+
+AutoName: UPnP Kino
+
+MaintainerNotes:
+  AppAdded: 2026-02-22
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/naive-HA/UpnpKino/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to access media for streaming on lower Android versions
+    android.permission.READ_MEDIA_IMAGES: to access images for streaming on recent Android versions
+    android.permission.READ_MEDIA_VIDEO: to access videos for streaming on recent Android versions
+    android.permission.READ_MEDIA_AUDIO: to access audio files for streaming on recent Android versions
+
+AllowedAPKSigningKeys: 512ccef51ab8ba405c22f193ea1205629f7888be8be069b67bea768bc0e536ac
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
