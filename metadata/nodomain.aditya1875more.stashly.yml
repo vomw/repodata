@@ -9,7 +9,7 @@ AutoName: Stashly
 
 MaintainerNotes:
   AppAdded: 2025-09-22
-  Todo: 2026-01-23 check what is the status with that signing key now, https://gitlab.com/aditya1875more/Stashly/-/issues/3
+  Todo: 2026-03-23 check what is the status with that signing key now, https://gitlab.com/aditya1875more/Stashly/-/issues/3 => https://github.com/Dev-Aditya-More/Stashly/issues/9
   Method: gitlab-tags
   GHSkipPre: 1
   Fastlane: https://gitlab.com/aditya1875more/Stashly/-/tree/master/fastlane/metadata/android
@@ -21,6 +21,7 @@ MaintainerNotes:
   Status:
     - 2025-09-27 signing key changed, UCM Tags=>Static until clarified – https://gitlab.com/aditya1875more/Stashly/-/issues/3
     - 2025-10-20 still not even a reply from the author, UCM=None until solved.
+    - 2026-02-23 turns out the repo was moved/copied to Github, and development continues there. Probably not getting notifications from GitLab anymore; so https://github.com/Dev-Aditya-More/Stashly/issues/9
 
 AllowedAPKSigningKeys: f25dd29737a5b29980cb3358175921ab35fda3ebc7d31499f4920e90dc25fea9
 
