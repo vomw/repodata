@@ -18,6 +18,7 @@ ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2023-02-03
+  AppRemoved: 2023-02-23 author requested removal, as the app is no longer FOSS
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/Theta-Limited/OpenAthenaAndroid/tree/master/metadata
@@ -35,6 +36,7 @@ MaintainerNotes:
     - 2024-02-04 same again, but this time APK size almost doubled, and the APK uses a debug key; so UCM Tags => Static until this one is solved (reported to the same issue which is still unsolved and open)
     - 2024-02-05 debug key and size issue solved, setting UCM back to Tags
     - 2025-09-08 app went proprietary, removing all releases
+    - 2026-02-23 author requested removal at https://gitlab.com/fdroid/fdroiddata/-/merge_requests/33359 on 2026-02-13, probably forgot to inform us to given the context
 
 AllowedAPKSigningKeys: 4faa6dab09f9d15ac204ea8b8c056ccaf8c52993007cd643001a3d3497c7944b
 
