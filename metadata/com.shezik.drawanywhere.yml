@@ -14,6 +14,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/shezik/DrawAnywhere/tree/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
 
 AllowedAPKSigningKeys: 585e346f9eb536f6872ad530ec425403359442df2553ccae3849f6c3003f2460
 

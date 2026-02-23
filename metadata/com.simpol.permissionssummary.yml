@@ -16,6 +16,7 @@ MaintainerNotes:
   Fastlane: https://github.com/SimpolCo/Permissions-Summary/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: Fastlane is our starter package
+  DoubleList: keep
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to find the apps to check
   Status:

@@ -15,6 +15,7 @@ MaintainerNotes:
   ApkMatch: /signed\.apk$/i
   Fastlane: https://codeberg.org/blindcoder/hackersdietoffline/src/branch/master/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
 
 AllowedAPKSigningKeys: 87a1e632a421a07687102abea69576e57fa30f46688d6e52857539880ef20fc6
 

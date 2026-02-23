@@ -17,6 +17,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/dorumrr/happytaxes/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.CAMERA: for scanning documents
     android.permission.READ_EXTERNAL_STORAGE: to read documents from storage

@@ -22,7 +22,6 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/Bnyro/ClockYou/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
-  DoubleList: keep
   Status:
     - 2025-07-15 repo was archived 2025-06-26, disabling updates (Tags=>None)
 

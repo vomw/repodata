@@ -14,6 +14,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/nktnet1/middor/blob/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.SYSTEM_ALERT_WINDOW: to draw a mirror overlay on top of other apps
     android.permission.FOREGROUND_SERVICE: to run the mirror service continuously while the overlay is active

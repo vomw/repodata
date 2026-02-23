@@ -17,6 +17,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/WeilJimmer/SOSFlashlightApp/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
 
 AllowedAPKSigningKeys: 2835badb45302f83c3cd91c6c480cf0d3acb7a3d26a4cc02c39f580f56e5ec1e
 

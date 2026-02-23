@@ -15,6 +15,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/maazm7d/QuickSE/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
 
 AllowedAPKSigningKeys: 35ddf4aaaefb288cac020f30fd9303b069502dfcc73845915f6b8bea323d55ab
 

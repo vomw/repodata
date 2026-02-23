@@ -16,6 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/Wavesonics/hammer-editor/blob/v1.14.0/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   FastlaneIgnore: video
   NameSpaces:
     - /com/darkrockstudios/apps/hammer

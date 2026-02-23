@@ -19,6 +19,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/AKS-Labs/CloudGallery/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.READ_MEDIA_IMAGES: needed to access images for upload
     android.permission.READ_EXTERNAL_STORAGE: needed on some Android versions to access files for upload

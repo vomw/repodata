@@ -15,6 +15,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/VishnuSanal/RemindMe/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.SYSTEM_ALERT_WINDOW: needed to start an activity from the background
 

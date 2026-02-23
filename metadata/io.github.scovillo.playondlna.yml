@@ -20,6 +20,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/scovillo/playondlna/blob/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   FlagIgnore:
     usesCleartextTraffic: needed to communicate with DLNA devices in the local network
 

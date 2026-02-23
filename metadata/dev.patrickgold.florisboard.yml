@@ -15,6 +15,7 @@ MaintainerNotes:
   ApkMatch: /stable/i
   Fastlane: https://github.com/florisboard/florisboard/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
+  DoubleList: keep
   IntentFilterIgnore:
     android.view.InputMethod: being a keyboard app this intent filter is needed
   NameSpaces:

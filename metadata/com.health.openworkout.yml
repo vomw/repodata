@@ -23,7 +23,6 @@ MaintainerNotes:
   ApkMatch: /fdroid-release/i
   Fastlane: https://github.com/oliexdev/openWorkout/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
-  DoubleList: keep
   Status:
     - 2025-08-24 app declared EOL, see eg. https://github.com/oliexdev/openWorkout/pull/62#issuecomment-3217934257 – UCM Tags=>None
 

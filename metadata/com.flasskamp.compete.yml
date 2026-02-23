@@ -20,6 +20,7 @@ MaintainerNotes:
   ApkIgnore: /x86/i
   Fastlane: https://codeberg.org/epinez/Compete/src/branch/main/app/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
 
 AllowedAPKSigningKeys: a2fdf47278740e26baad8a1dce96cd75b94fa25f9ba17014167d6c2d9ea512a8
 

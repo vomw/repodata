@@ -18,6 +18,7 @@ MaintainerNotes:
   Fastlane: https://codeberg.org/Loowiz/PhotoSwooper/src/branch/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: Fastlane is our starter package
+  DoubleList: keep
   PermIgnore:
     android.permission.READ_MEDIA_VIDEO: to access videos on Android 12+
     android.permission.READ_MEDIA_IMAGES: to access photos on Android 12+

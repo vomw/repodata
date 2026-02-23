@@ -17,6 +17,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/SecUSo/Aktivpause/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,title,icon,screenshots
+  DoubleList: keep
   Status:
     - 2021-07-18 switching AUM from Tags to Static (last release was 7/2020)
     - 2023-08-08 last release 5/2023, last commit 5/2023

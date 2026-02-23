@@ -16,6 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/monuk7735/nope-remote/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
 
 AllowedAPKSigningKeys: 1099818177f54a4901b9c44884ecc0dcd135e631a7cdea0094e8059f1b0d016e
 

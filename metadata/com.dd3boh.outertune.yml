@@ -24,6 +24,7 @@ MaintainerNotes:
   Fastlane: https://github.com/OuterTune/OuterTune/tree/dev/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: Fastlane is our starter package
+  DoubleList: keep
   NameSpaces:
     - /com/dd3boh/ffMetadataEx
     - /com/dd3boh/lrclib

@@ -16,6 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/dorumrr/de1984/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   IntentFilterIgnore:
     android.net.VpnService: required for the VPN based firewall
   PermIgnore:

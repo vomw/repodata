@@ -17,6 +17,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/NeatCode-Labs/fixupxer/blob/main/metadata
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
 
 AllowedAPKSigningKeys: 78e36950963a98ea39fe30b955c27364e187feca85a1af6ad10987d15f18ec2f
 

@@ -17,6 +17,7 @@ MaintainerNotes:
   ApkMatch: /floss/
   Fastlane: https://github.com/paroj/DSub2000/blob/edge/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  DoubleList: keep
   NameSpaces:
     - /github/paroj/serverproxy
   FlagIgnore:

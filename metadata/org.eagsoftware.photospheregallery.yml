@@ -17,6 +17,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://codeberg.org/minardil/PhotoSphereGallery/src/branch/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.READ_MEDIA_IMAGES: needed to access the photos in e.g. DCIM
     android.permission.READ_EXTERNAL_STORAGE: to access photos elsewhere

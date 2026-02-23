@@ -15,6 +15,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/CDrummond/squeezelite/tree/android/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
   FlagIgnore:
     usesCleartextTraffic: needed to connect the self-hosted server in the local network
 

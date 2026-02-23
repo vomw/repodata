@@ -16,6 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/DP-Hridayan/aShellYou/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.WRITE_EXTERNAL_STORAGE: required to save the adb output into a txt file
     android.permission.READ_EXTERNAL_STORAGE: required to read adb output from a txt file

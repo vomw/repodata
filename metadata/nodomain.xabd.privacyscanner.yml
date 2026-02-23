@@ -16,6 +16,7 @@ MaintainerNotes:
   Fastlane: https://github.com/xabd/PrivacyScanner/tree/main/metadata
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: Fastlane is our starter package
+  DoubleList: keep
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to list all packages for scan
 

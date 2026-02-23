@@ -18,6 +18,7 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   FastlaneIgnore: video
   Note: video empty
+  DoubleList: keep
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: to read and edit files
     android.permission.WRITE_EXTERNAL_STORAGE: to read and edit files

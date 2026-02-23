@@ -15,6 +15,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/shalenMathew/MovieFlix_App/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
 
 AllowedAPKSigningKeys: ec20b70fd628fef42b53ba82650b7b15b9e83c0b62ed0886365b1e6a2ec72231
 

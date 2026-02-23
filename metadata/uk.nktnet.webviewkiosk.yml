@@ -16,6 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/nktnet1/webview-kiosk/tree/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.CAMERA: for use with WebApps, e.g. messenger apps
     android.permission.RECORD_AUDIO: for use with WebApps, e.g. messenger apps

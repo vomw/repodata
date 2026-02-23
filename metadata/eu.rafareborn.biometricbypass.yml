@@ -15,6 +15,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/hxreborn/biometric-bypass/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshots
+  DoubleList: keep
   Status:
     - 2026-01-10 signing key changed, UCM Tags=>Static until clarified; see https://github.com/hxreborn/biometric-bypass/issues/8#issuecomment-3733911786
     - 2026-01-11 key change confirmed by providing the same APK signed with original key

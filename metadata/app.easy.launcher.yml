@@ -19,6 +19,7 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   FastlaneIgnore: title
   Note: title skipped as we need to override the app name (to make clear this is not the same variant as on F-Droid)
+  DoubleList: keep
   NameSpaces:
     - /com/github/droidworksstudio/common
     - /com/github/droidworksstudio/fuzzywuzzy

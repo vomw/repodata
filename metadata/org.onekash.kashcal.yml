@@ -17,6 +17,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/KashCal/KashCal/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.READ_CONTACTS: to sync birthday from Android contacts
 

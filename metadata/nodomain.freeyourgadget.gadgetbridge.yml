@@ -21,6 +21,7 @@ MaintainerNotes:
   ApkIgnore: /bangle/i
   Fastlane: https://codeberg.org/Freeyourgadget/Gadgetbridge/src/branch/master/src/mainline/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   NameSpaces:
     - /cyanogenmod/os
     - /cyanogenmod/providers

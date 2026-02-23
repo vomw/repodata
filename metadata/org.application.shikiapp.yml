@@ -18,6 +18,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/pewaru-333/ShikiApp/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   NameSpaces:
     - /org/application
 

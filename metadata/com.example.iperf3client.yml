@@ -14,6 +14,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/CachoCh/iperf3AndroidClient/blob/0.1.0/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.ACCESS_COARSE_LOCATION: used to give context to the measurments, data can be exported from the app for further analysis.
     android.permission.ACCESS_FINE_LOCATION: used to give context to the measurments, data can be exported from the app for further analysis.

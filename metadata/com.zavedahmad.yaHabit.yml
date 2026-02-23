@@ -15,6 +15,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/zaved707/Yet-Another-Habit-Tracker/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
 
 AllowedAPKSigningKeys: 9cbf69b4e2275ab0cb14e2cc6d462fc08418e4bfab9ae5138cf40c397d08f9ed
 

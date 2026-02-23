@@ -18,6 +18,7 @@ MaintainerNotes:
   ApkIgnore: /x86/
   Fastlane: https://github.com/heddxh/NeoDB-You/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
   Status:
     - 2025-08-14 upstreaming our Fastlane metadata via https://github.com/heddxh/NeoDB-You/pull/3
 

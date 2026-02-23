@@ -18,6 +18,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/MuntashirAkon/AppManager/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
   NameSpaces:
     - /io/github/muntashirakon/adapters
     - /io/github/muntashirakon/compat

@@ -17,6 +17,7 @@ MaintainerNotes:
   ApkIgnore: /debug/i
   Fastlane: https://github.com/SteveZMTstudios/calsync/blob/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.READ_CALENDAR: needed to handle calendar events
     android.permission.WRITE_CALENDAR: needed to handle calendar events

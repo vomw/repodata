@@ -16,6 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/AppFuton/Futon/blob/devel/metadata
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.REQUEST_DELETE_PACKAGES: required for managing external manga source plugins and allow their direct uninstallation
     android.permission.MANAGE_EXTERNAL_STORAGE: required for manga library management on Android 11+

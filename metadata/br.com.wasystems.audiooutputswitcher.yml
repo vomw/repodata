@@ -15,6 +15,7 @@ MaintainerNotes:
   ApkIgnore: /debug/
   Fastlane: https://github.com/weslley75/AudioOutputSwitcher/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,changelogs
+  DoubleList: keep
 
 AllowedAPKSigningKeys: 66a24f46b0eb6d369b4452364be0a40b35b2f5174ed3ecb1636b46a8ed5397a6
 

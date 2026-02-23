@@ -14,6 +14,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://codeberg.org/Gonbei774/CalisthenicsMemory/src/branch/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
 
 AllowedAPKSigningKeys: 18c00c347ea1001afcdd87258881d24d684047bbeb22c47fbe7b51499516ab54
 

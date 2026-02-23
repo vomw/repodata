@@ -19,6 +19,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/devshield-tech/botox-android/blob/v1.0.39/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  DoubleList: keep
   Status:
     - 2026-02-05 wrong APK at the last 10 releases, UCM Tags=>Static for now; https://github.com/devshield-tech/botox-android/issues/9
     - 2026-02-09 solved, UCM back to Tags

@@ -14,6 +14,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/Thiru-Malai/CallLimiter/tree/master/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.READ_CONTACTS: to show contact names
     android.permission.READ_PHONE_STATE: to detect ongoing calls

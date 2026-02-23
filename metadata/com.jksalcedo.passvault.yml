@@ -16,6 +16,7 @@ MaintainerNotes:
   ApkMatch: /universal-release/i
   Fastlane: https://github.com/jksalcedo/PassVault/blob/master/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  DoubleList: keep
   Status:
     - 2025-11-22 v0.7.1 has versionCode not increased, UCM Tags=>Static until fixed; see https://github.com/jksalcedo/PassVault/issues/71
     - 2025-12-15 v1.3.0 adds GMS (the OSS license plugin trap); https://github.com/jksalcedo/PassVault/issues/146

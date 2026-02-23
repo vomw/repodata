@@ -21,6 +21,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/shalenMathew/Quotes-app/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,icon,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.WRITE_EXTERNAL_STORAGE: used to export quote bitmaps
     android.permission.READ_EXTERNAL_STORAGE: implied by the write permission

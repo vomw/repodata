@@ -16,6 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://codeberg.org/danb/retherm/src/branch/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  DoubleList: keep
 
 AllowedAPKSigningKeys: 62b28e48e8c12afe020618ea4b0c10c9567540049b2556e6e8fdc963d68a200c
 
