@@ -1,0 +1,29 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: The app is bound to Quran.com and the Al Quran Cloud project, which are both libre.
+    de: Die App ist an die Server von Quran.com und dem Al Quran Cloud Projekt gebunden, die jeweils libre sind.
+Categories:
+  - Religion
+  - Reading
+License: MIT
+AuthorName: Muhammad Haseeb Iqbal
+AuthorEmail: muhammadhaseebiqbal.official@gmail.com
+AuthorWebSite: https://haseebiqbal.site/
+SourceCode: https://github.com/muhammadhaseebiqbal-dev/QuranMajeed
+IssueTracker: https://github.com/muhammadhaseebiqbal-dev/QuranMajeed/issues
+Changelog: https://github.com/muhammadhaseebiqbal-dev/QuranMajeed/releases
+
+AutoName: Quran Majeed
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-02-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/muhammadhaseebiqbal-dev/QuranMajeed/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 8dc75544f112e24601a3d1e94d8d53228f35e5df10cdf1aede940b479efa02a2
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
