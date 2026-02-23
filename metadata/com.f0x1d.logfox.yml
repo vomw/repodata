@@ -24,9 +24,10 @@ MaintainerNotes:
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to obtain the apps for logging
   Status:
-    - 2025-10-21 [no longer maintained](https://github.com/F0x1d/LogFox/commit/a547b5b6bab85c43e78bc43a370f4f719e6349dd), so UCM TAGS=>None
+    - 2025-10-21 [no longer maintained](https://github.com/F0x1d/LogFox/commit/a547b5b6bab85c43e78bc43a370f4f719e6349dd), so UCM Tags=>None
+    - 2026-02-23 several new releases, so obviously picked up again; re-enabling updates
 
 AllowedAPKSigningKeys: 741f819a4c213ba438053134890b40e258774fce55a778846ec5c67a1c92709f
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
