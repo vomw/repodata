@@ -19,6 +19,7 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/NoWakeLock/NoWakeLock/blob/dev/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  DoubleList: keep
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: works on app-level so it needs to find all apps
   Status:
@@ -28,5 +29,5 @@ MaintainerNotes:
 
 AllowedAPKSigningKeys: d86aeff598bcb2e2642c42957380823b9a46602f17821d01a9ea47de20051fd8
 
-AutoUpdateMode: Version v.*/%c
+AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
