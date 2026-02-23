@@ -16,6 +16,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/fibelatti/photo-widget/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Status:
+    - 2026-02-23 android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE – https://github.com/fibelatti/photo-widget/issues/375
 
 AllowedAPKSigningKeys: 3a3630f5eb47824349469f1153d72e023a152939506044a2dbef63760876e45b
 
