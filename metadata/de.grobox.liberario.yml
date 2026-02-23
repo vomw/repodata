@@ -36,8 +36,9 @@ MaintainerNotes:
     - 2022-12-11 Tags=>Static (last release 11/2021, last commit 8/2022)
     - 2023-08-08 last release 6/2023, last commit 7/2023
     - 2024-02-26 remove NonFreeComp; Mapbox here is Mapbox Libre, using the same signature
+    - 2026-02-23 v2.2.3 (12/2024) was the last release providing APKs. Asked for APKs at https://github.com/grote/Transportr/issues/1003 – UCM Tags=>Static until then
 
 AllowedAPKSigningKeys: 39bd8e0f54c8ab87ac21c07a15b30fc95cdff1d25d75df029d523b18df864b79
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
