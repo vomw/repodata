@@ -21,9 +21,9 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/d4rken-org/sdmaid-se/blob/main/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescNL,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   FastlaneIgnore: changelogs
-  Note: fulldesc lacks some linebreaks (https://github.com/d4rken-org/sdmaid-se/issues/1962), changelogs only have default.txt
+  Note: changelogs only have default.txt
   DoubleList: keep
   NameSpaces:
     - /eu/darken/flowshell
