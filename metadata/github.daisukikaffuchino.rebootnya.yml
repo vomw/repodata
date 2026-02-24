@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: KaffuChino
+SourceCode: https://github.com/daisukiKaffuChino/RebootNya
+IssueTracker: https://github.com/daisukiKaffuChino/RebootNya/issues
+Translation: https://crowdin.com/project/rebootnya
+Changelog: https://github.com/daisukiKaffuChino/RebootNya/releases
+
+AutoName: RebootNya
+
+MaintainerNotes:
+  AppAdded: 2026-02-24
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/daisukiKaffuChino/RebootNya/blob/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: f28a4e14d2a2c5014be546cb1aff7aaf0bdcf8ea8534a29f9c35c20a4aa8cfe7
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
