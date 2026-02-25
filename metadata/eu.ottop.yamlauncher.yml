@@ -2,19 +2,19 @@ Categories:
   - Theming
   - System
 License: MIT
-AuthorName: Otto Petäjä
-AuthorWebSite: https://ottop.eu/
-SourceCode: https://codeberg.org/ThomasNowProductions/YAM-Launcher
-IssueTracker: https://codeberg.org/ThomasNowProductions/YAM-Launcher/issues
-Changelog: https://codeberg.org/ThomasNowProductions/YAM-Launcher/releases
+AuthorName: Thomas Boom
+AuthorWebSite: https://thomasboom.vercel.app
+SourceCode: https://github.com/ThomasNowProductions/YAM-Launcher
+IssueTracker: https://github.com/ThomasNowProductions/YAM-Launcher/issues
+Changelog: https://github.com/ThomasNowProductions/YAM-Launcher/releases
 
 AutoName: YAM Launcher
 
 MaintainerNotes:
   AppAdded: 2024-08-13
-  Method: codeberg-release
+  Method: github-release
   GHSkipPre: 1
-  Fastlane: https://codeberg.org/ThomasNowProductions/YAM-Launcher/src/branch/main/metadata
+  Fastlane: https://github.com/ThomasNowProductions/YAM-Launcher/src/main/metadata/en-US
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   IntentFilterIgnore:
     android.accessibilityservice.AccessibilityService: needed for the optional the double tap to lock feature
