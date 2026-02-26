@@ -15,7 +15,7 @@ MaintainerNotes:
   AppAdded: 2021-07-21
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /v7a/i
+  ApkMatch: /app-release/i
   Fastlane: https://github.com/uintdev/qrserv/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
@@ -25,9 +25,9 @@ MaintainerNotes:
     android.permission.MANAGE_EXTERNAL_STORAGE: needed on newer Android versions to access all files
   Status:
     - 2026-01-16 UCM Tags=>Static as versionCode was decreased; Flutter bug, see https://github.com/uintdev/qrserv/issues/27#issuecomment-3757610580
+    - 2026-02-26 UCM=>Tags again; switched to arm64 (builds only that one, so no VercodeOperation needed anymore) and has versionCode properly increased again
 
 AllowedAPKSigningKeys: dfb4daee79fff995b8f875295e01cfe3b39c111ed903dee013a5a9caad2bba65
 
-VercodeOperation: '%c -1000'
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
