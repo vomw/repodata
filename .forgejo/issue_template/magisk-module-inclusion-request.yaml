@@ -1,6 +1,6 @@
 name: 'Magisk Module Inclusion'
 description: 'This template is for requesting to include a new Magisk module with our Magisk repository, or to update its Metadata'
-title: '[Magisk] '
+title: '[Magisk] <Module Name>'
 labels:
   - 'magisk'
 body:
@@ -78,6 +78,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Thanks for requesting a new Magisk module! We will review your request and get back to you soon enough.**
-
         **Reminder:** Please don't forget to include the module's name in the issue title.
+
+        **Thanks for requesting a new Magisk module! We will review your request and get back to you soon enough.**
