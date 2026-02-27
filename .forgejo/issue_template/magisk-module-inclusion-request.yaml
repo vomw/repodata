@@ -22,62 +22,38 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: dropdown
     id: category
     attributes:
       label: 'Categories'
-      description: 'Select all applicable categories for the app'
+      description: 'Select all applicable categories for the Magisk module'
+      multiple: true
       options:
-        - label: Automation
-          required: false
-        - label: Connectivity
-          required: false
-        - label: Development
-          required: false
-        - label: Food
-          required: false
-        - label: Games
-          required: false
-        - label: Graphics
-          required: false
-        - label: Internet
-          required: false
-        - label: Messaging
-          required: false
-        - label: Money
-          required: false
-        - label: Multimedia
-          required: false
-        - label: Navigation
-          required: false
-        - label: Office
-          required: false
-        - label: Phone & SMS
-          required: false
-        - label: Reading
-          required: false
-        - label: Religion
-          required: false
-        - label: Science & Education
-          required: false
-        - label: Security
-          required: false
-        - label: Social Network
-          required: false
-        - label: Sports & Health
-          required: false
-        - label: System
-          required: false
-        - label: Theming
-          required: false
-        - label: Time
-          required: false
-        - label: Weather
-          required: false
-        - label: Writing
-          required: false
-        - label: Xposed
-          required: false
+        - Automation
+        - Connectivity
+        - Development
+        - Food
+        - Games
+        - Graphics
+        - Internet
+        - Messaging
+        - Money
+        - Multimedia
+        - Navigation
+        - Office
+        - Phone & SMS
+        - Reading
+        - Religion
+        - Science & Education
+        - Security
+        - Social Network
+        - Sports & Health
+        - System
+        - Theming
+        - Time
+        - Weather
+        - Writing
+        - Xposed
     validations:
       required: true
 
@@ -103,3 +79,5 @@ body:
     attributes:
       value: |
         **Thanks for requesting a new Magisk module! We will review your request and get back to you soon enough.**
+
+        **Reminder:** Please don't forget to include the module's name in the issue title.
