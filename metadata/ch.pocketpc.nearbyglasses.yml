@@ -1,0 +1,27 @@
+Categories:
+  - Security
+License: AGPL-3.0-only
+AuthorName: Yves Jeanrenaud
+AuthorWebSite: https://yves.jeanrenaud.net/
+SourceCode: https://github.com/yjeanrenaud/yj_nearbyglasses/
+IssueTracker: https://github.com/yjeanrenaud/yj_nearbyglasses//issues
+Changelog: https://github.com/yjeanrenaud/yj_nearbyglasses/releases
+
+AutoName: Nearby Glasses
+
+MaintainerNotes:
+  AppAdded: 2026-02-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/yjeanrenaud/yj_nearbyglasses/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic
+  Note: Fediverse contact @yjeanrenaud@tech.lgbt – changelogs start at 103, while APK is at 5
+  PermIgnore:
+    android.permission.BLUETOOTH_SCAN: needed to find nearby glasses
+    android.permission.ACCESS_FINE_LOCATION: required by Android if Bluetooth permissions are requested
+    android.permission.ACCESS_COARSE_LOCATION: required by Android if Bluetooth permissions are requested
+
+AllowedAPKSigningKeys: 3ef59d2bf93c7564215b7c016ad1dc28964ecbd3095dfa5661174fb00104eba4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
