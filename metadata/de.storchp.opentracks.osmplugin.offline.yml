@@ -18,6 +18,8 @@ MaintainerNotes:
   ApkMatch: /offline/i
   Fastlane: https://codeberg.org/OpenTracksApp/OSMDashboard/src/branch/main/src/offline/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /de/storchp/opentracks/osmplugin
 
 AllowedAPKSigningKeys: a3fa2ab15d340794c0a0a230f7d0619c6ba35fb8d1e7dc541f5b9cef4769b6d8
 

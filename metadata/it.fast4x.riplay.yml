@@ -22,6 +22,14 @@ MaintainerNotes:
   ApkMatch: /foss-release/i
   Fastlane: https://github.com/fast4x/RiPlay/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /com/zionhuang/innertube
+    - /it/fast4x/audiotaginfo
+    - /it/fast4x/environment
+    - /it/fast4x/kugou
+    - /it/fast4x/lastfm
+    - /it/fast4x/lrclib
+    - /riplay/composeapp/generated
   PermIgnore:
     android.permission.RECORD_AUDIO: required by the visualizer, which is disabled by default. See https://developer.android.com/reference/android/media/audiofx/Visualizer
     android.permission.READ_MEDIA_AUDIO: needed to play songs from your local media

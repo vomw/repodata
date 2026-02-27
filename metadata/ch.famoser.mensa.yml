@@ -28,6 +28,8 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   FastlaneIgnore: changelogs
   Note: video.txt is empty, icon+featureGraphic only in de/en, changelogs not updated for 5 years now
+  NameSpaces:
+    - /ch/florianfrauenfelder/mensazh
   DoubleList: keep
   Status:
     - 2025-11-10 repo was archived
@@ -38,4 +40,4 @@ AllowedAPKSigningKeys:
   - 89b066a5e5ebce37aad9ae51c4fbbf3d57a6b2cd923e95b97d05a338f9268ce6
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Tags

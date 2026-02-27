@@ -17,6 +17,8 @@ MaintainerNotes:
   ApkIgnore: /standard/
   Fastlane: https://github.com/iZakirSheikh/Gallery/blob/v1.0.4/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /com/zs/gallery
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: to access images and videos on Android 12 and before
     android.permission.READ_MEDIA_IMAGES: to access images to show

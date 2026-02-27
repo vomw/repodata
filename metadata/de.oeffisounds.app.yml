@@ -19,6 +19,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/thrillfall/OeffiSounds/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /de/danoeh/antennapod
 
 AllowedAPKSigningKeys: 845596dd44236722a9ec8d5be4508e6fe27887ccc35c3914f575f250e18f5874
 
