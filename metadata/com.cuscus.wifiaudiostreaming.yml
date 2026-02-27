@@ -14,6 +14,11 @@ MaintainerNotes:
   AppAdded: 2025-09-06
   Method: gitlab-tags
   GHSkipPre: 1
+  Fastlane: https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Note: Fastlane is our starter package
+  Status:
+    - 2025-09-06 upstreaming our Fastlane metadata
 
 AllowedAPKSigningKeys: e69d57816fe692018c8d6fd343c9d077753adb2a21e8227076a46d8f0a23c097
 
