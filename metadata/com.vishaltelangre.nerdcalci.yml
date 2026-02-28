@@ -1,0 +1,25 @@
+Categories:
+  - Science & Education
+  - Office
+License: GPL-3.0-only
+AuthorName: Vishal Telangre
+AuthorEmail: vishaltelangre@gmail.com
+AuthorWebSite: https://vishaltelangre.com/
+SourceCode: https://github.com/vishaltelangre/NerdCalci
+IssueTracker: https://github.com/vishaltelangre/NerdCalci/issues
+Changelog: https://github.com/vishaltelangre/NerdCalci/releases
+
+AutoName: NerdCalci
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-02-28
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/vishaltelangre/NerdCalci/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 00472f5642fdf6cc01f84dc3433837f6e4d68398c0741e2f6cfc3f453c73f186
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
