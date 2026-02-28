@@ -9,6 +9,7 @@ IssueTracker: https://github.com/stratumauth/app/issues
 Changelog: https://github.com/stratumauth/app/releases
 
 AutoName: Stratum
+ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2019-06-26
@@ -30,5 +31,5 @@ MaintainerNotes:
 
 AllowedAPKSigningKeys: b975b325e4f39465df1034d6bc2c11a3926f60cc07b820c51fbe1c757555f28a
 
-ArchivePolicy: 1
+AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
