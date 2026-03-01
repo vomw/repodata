@@ -23,6 +23,7 @@ MaintainerNotes:
   Status:
     - 2024-02-22 last release 1/2023, last commit 1/2023, UCM Tags=>Static
     - 2024-10-07 scanner reports SYSTEM_ALERT_WINDOW READ_EXTERNAL_STORAGE* – https://github.com/warren-bank/Android-Bonjour-WebRTC/issues/5
+    - 2026-03-01 scanner reports android.permission.MANAGE_EXTERNAL_STORAGE – https://github.com/warren-bank/Android-Bonjour-WebRTC/issues/10
 
 AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
 

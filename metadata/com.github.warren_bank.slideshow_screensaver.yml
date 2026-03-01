@@ -11,8 +11,12 @@ MaintainerNotes:
   AppAdded: 2022-12-07
   Method: github-release
   GHSkipPre: 1
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to access images for the screensaver
+    android.permission.READ_MEDIA_IMAGES: needed on recent Android versions to access images for the screensaver
   Status:
     - 2024-02-22 last release 2/2023, last commit 2/2023, UCM Tags=>Static
+    - 2026-03-01 scanner reports android.permission.MANAGE_EXTERNAL_STORAGE – https://github.com/warren-bank/Android-Image-Slideshow-Screensaver/issues/3
 
 AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
 
