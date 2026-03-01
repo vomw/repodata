@@ -18,8 +18,9 @@ MaintainerNotes:
   DoubleList: keep
   Status:
     - 2025-12-10 signing key was lost, see https://github.com/grmasa/Sound-Toggle/issues/11#issuecomment-3637296699 (UCM Tags=>Static for now)
+    - 2026-03-01 disabling updates altogether as issue still unsolved
 
 AllowedAPKSigningKeys: 741c8488343d730665e7636cc7dbc3920c0af85efa9303277ebd0f96689ac3d8
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: None
