@@ -1,0 +1,22 @@
+Categories:
+  - Automation
+License: GPL-3.0-only
+AuthorName: Aditya Rajput
+WebSite: https://github.com/BURG3R5/FileFlow/wiki
+SourceCode: https://github.com/BURG3R5/FileFlow
+IssueTracker: https://github.com/BURG3R5/FileFlow/issues
+Changelog: https://github.com/BURG3R5/FileFlow/releases
+
+AutoName: FileFlow
+
+MaintainerNotes:
+  AppAdded: 2026-03-01
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/BURG3R5/FileFlow/tree/dev/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 560a309b4f01ac3d2865eac6e3c33559ecc7e9ad8ea79ecd58d256b4b6458a0e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
