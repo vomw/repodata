@@ -31,9 +31,10 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: to access music files anywhere on device on lower Android versions
     android.permission.RECORD_AUDIO: for search by voice
   Status:
-    - 2026-02-08 UCM Tags=>Static as signing key changed; android.permission.RECORD_AUDIO android.permission.READ_EXTERNAL_STORAGE – https://github.com/Maloy-Android/Muzza/issues/119
+    - 2026-02-08 UCM Tags=>Static as signing key changed; RECORD_AUDIO READ_EXTERNAL_STORAGE – https://github.com/Maloy-Android/Muzza/issues/119
+    - 2026-03-01 still no answer on the signing key, disabling update check completely now.
 
 AllowedAPKSigningKeys: 3272d046d6c8c15d09ba1bfe264756f817a0a9afd180843a9df6e023e8bc8977
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: None
