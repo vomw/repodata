@@ -10,6 +10,7 @@ AutoName: Call Limiter
 
 MaintainerNotes:
   AppAdded: 2025-10-16
+  Todo: 2026-04-01 remove old signing key 860a75 and APKs < VC 8
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/Thiru-Malai/CallLimiter/tree/master/metadata
@@ -25,8 +26,11 @@ MaintainerNotes:
     android.permission.FOREGROUND_SERVICE: to run safely in the background
   Status:
     - 2026-01-23 signing key changed, see https://github.com/Thiru-Malai/CallLimiter/issues/52
+    - 2026-01-24 new signing key confirmed
 
-AllowedAPKSigningKeys: 860a758bb0b361d3fcf329f8091eda60ee055979637cd91126ec7fff1ef4f296
+AllowedAPKSigningKeys:
+  - 860a758bb0b361d3fcf329f8091eda60ee055979637cd91126ec7fff1ef4f296
+  - 58cbd3798fbf9478aac4ad2fa080debf95ebdf8eaa5e03f6df7a0d87ac43772a
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
