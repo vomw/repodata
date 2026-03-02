@@ -21,6 +21,7 @@ ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-07-16
+  AppRemoved: 2026-03-03 last release 7/2024, archived 10/2025, app and library no longer maintained; NonFreeAdd+NonFreeNet
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/anfreire/updateMe-Mobile/blob/master/fastlane/metadata/android
