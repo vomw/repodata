@@ -1,0 +1,20 @@
+Categories:
+  - Graphics
+License: GPL-3.0-only
+AuthorName: potatameister
+SourceCode: https://github.com/potatameister/MetaPurge
+IssueTracker: https://github.com/potatameister/MetaPurge/issues
+
+AutoName: MetaPurge
+
+MaintainerNotes:
+  AppAdded: 2026-03-03
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/potatameister/MetaPurge/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 0f66898bc48548acd6bd50453dfc576d7ac2efc9cc6830f76d65b12688d90e3a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
