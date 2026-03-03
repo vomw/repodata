@@ -6,6 +6,7 @@ AuthorEmail: support@jmh.me
 WebSite: https://jmh.me/
 SourceCode: https://github.com/stratumauth/app
 IssueTracker: https://github.com/stratumauth/app/issues
+Translation: https://crowdin.com/project/authenticator-pro
 Changelog: https://github.com/stratumauth/app/releases
 
 AutoName: Stratum
