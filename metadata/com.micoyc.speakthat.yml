@@ -40,6 +40,11 @@ MaintainerNotes:
     android.permission.POST_NOTIFICATIONS: to have a persistent notification when the app is active, and another when it’s actively speaking
     android.permission.READ_PHONE_STATE: to keep the app from talking during phone calls
     android.permission.BIND_QUICK_SETTINGS_TILE: for a quick settings tile option to easily disable/enable SpeakThat
+    android.permission.WAKE_LOCK: to prevent power saving shutting the app down when SpeakThat was exempted from power management
+    android.permission.FOREGROUND_SERVICE: to keep SpeakThat from being killed by the system by allowing it to run as a foreground service
+    android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK: similar to FOREGROUND_SERVICE
+    android.permission.CHANGE_WIFI_STATE: to ensure WiFi is enabled, so SpeakThat can detect networks and wireless devices
+    android.permission.BIND_ACCESSIBILITY_SERVICE: optionally used for some convenience features, once explicitly agreed
   Status:
     - 2025-08-02 DEPENDENCY_INFO_BLOCK android.permission.REQUEST_INSTALL_PACKAGES ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION BLUETOOTH_SCAN NEARBY_WIFI_DEVICES android.permission.READ_EXTERNAL_STORAGE* – https://github.com/mitchib1440/SpeakThat/issues/11
     - 2025-11-23 dev informs about adding support for Tasker and Macrodroid. It is optional and opt-in, intent based, and works with any automation app, so no NonFreeAdd needed; https://github.com/mitchib1440/SpeakThat/discussions/41#discussioncomment-15033252
