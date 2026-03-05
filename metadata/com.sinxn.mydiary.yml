@@ -1,0 +1,21 @@
+Categories:
+  - Writing
+License: MIT
+AuthorName: Sinan Muhammed P
+SourceCode: https://github.com/sinan-q/My_Diary
+IssueTracker: https://github.com/sinan-q/My_Diary/issues
+Changelog: https://github.com/sinan-q/My_Diary/releases
+
+AutoName: My Diary
+
+MaintainerNotes:
+  AppAdded: 2026-03-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/sinan-q/My_Diary/blob/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 8aa9dcf29eda35550114363d715112d1173928d7da564c61fe0cc7d7721c0c12
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
