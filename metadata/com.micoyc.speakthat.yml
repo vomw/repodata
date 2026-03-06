@@ -23,6 +23,7 @@ MaintainerNotes:
   PermIgnore:
     android.permission.ACCESS_COARSE_LOCATION: required for Bluetooth scanning on newer versions of Android
     android.permission.ACCESS_FINE_LOCATION: required for Bluetooth scanning on newer versions of Android
+    android.permission.ACCESS_BACKGROUND_LOCATION: used to detect which WiFi network the device is connected to and block notification reading when connected to it
     android.permission.BLUETOOTH: used for the Conditional Rules feature
     android.permission.BLUETOOTH_ADMIN: used for the Conditional Rules feature
     android.permission.BLUETOOTH_CONNECT: used for the Conditional Rules feature
@@ -49,8 +50,9 @@ MaintainerNotes:
     - 2025-08-02 DEPENDENCY_INFO_BLOCK android.permission.REQUEST_INSTALL_PACKAGES ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION BLUETOOTH_SCAN NEARBY_WIFI_DEVICES android.permission.READ_EXTERNAL_STORAGE* – https://github.com/mitchib1440/SpeakThat/issues/11
     - 2025-11-23 dev informs about adding support for Tasker and Macrodroid. It is optional and opt-in, intent based, and works with any automation app, so no NonFreeAdd needed; https://github.com/mitchib1440/SpeakThat/discussions/41#discussioncomment-15033252
     - 2026-03-04 v1.7.4 adds GMS, so this release was rejected by our updater. UCM Tags=>Static until solved, see https://github.com/mitchib1440/SpeakThat/issues/94
+    - 2026-03-06 v1.7.5 has solved this, by switching grom oss_licenses to aboutLibraries
 
 AllowedAPKSigningKeys: 42e2e0fb7b791ce6440f72e0cdb1c71a37d07439996af23f8f32912b4663f4b5
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
