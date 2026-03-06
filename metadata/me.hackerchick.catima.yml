@@ -14,6 +14,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/CatimaLoyalty/Android/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
+  LibIgnore:
+    - /org/acra
   PermIgnore:
     android.permission.CAMERA: needed to scan Barcodes
     android.permission.READ_EXTERNAL_STORAGE: needed on Android 6 and below to create or import backups. You can safely deny this permission, but then you’ll not be able to create or import backups
