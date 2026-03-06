@@ -1,13 +1,3 @@
-AntiFeatures:
-  NonFreeComp:
-    en-US: The app contains libraries of Google BillingClient and the Bugly SDK.
-    de: Die App enthält den Google BillingClient und das Bugly SDK.
-  NonFreeNet:
-    en-US: The app connects to Google servers (billing).
-    de: Die App nutzt Verbindungen zu Google Servern (Billing).
-  Tracking:
-    en-US: The app uses Bugly (crash reporting).
-    de: Die App sendet Analysedaten an Bugly (Absturzberichte).
 Categories:
   - Multimedia
 License: GPL-3.0-only
@@ -36,6 +26,7 @@ MaintainerNotes:
     - 2024-03-05 scanner reports DEPENDENCY_INFO_BLOCK MANAGE_EXTERNAL_STORAGE android.permission.REQUEST_INSTALL_PACKAGES READ_EXTERNAL_STORAGE SYSTEM_ALERT_WINDOW READ_MEDIA_AUDIO android.permission.READ_MEDIA_IMAGES – https://github.com/rRemix/APlayer/issues/227
     - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/rRemix/APlayer/pull/296
     - 2025-12-31 dev now provides build variant without updater, so no more REQUEST_INSTALL_PACKAGES
+    - 2026-03-06 Bugly and BillingClient have been removed, so we dropped NonFreeComp, NonFreeNet, and Tracking
 
 AllowedAPKSigningKeys: c7cf0940ef65a01535aa59280523d1f2723c347ff9b35ec96cb68baad2482ff7
 
