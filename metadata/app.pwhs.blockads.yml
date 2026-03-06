@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: Filter lists are loaded from Github & Co.
+    de: Filter-Listen werden von Github & Co geladen.
+Categories:
+  - Security
+  - Internet
+License: GPL-3.0-only
+AuthorName: pass-with-high-score
+AuthorEmail: weareateam@pwhs.app
+AuthorWebSite: https://www.pwhs.app/
+SourceCode: https://github.com/pass-with-high-score/blockads-android
+IssueTracker: https://github.com/pass-with-high-score/blockads-android/issues
+Changelog: https://github.com/pass-with-high-score/blockads-android/releases
+Donate: https://github.com/sponsors/pass-with-high-score
+
+AutoName: BlockAds
+
+MaintainerNotes:
+  AppAdded: 2026-03-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/pass-with-high-score/blockads-android/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Note: repo shows agent support; responsible use [confirmed by our team](https://codeberg.org/IzzyOnDroid/repodata/issues/35#issuecomment-11226232)
+  IntentFilterIgnore:
+    android.net.VpnService: VPN needed for main functionality
+
+AllowedAPKSigningKeys: 229ea49584360b22a8c7e7e530cfb7e1103faa1b6ba5f32837691fb96fdcfe5a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
