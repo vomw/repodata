@@ -22,13 +22,12 @@ MaintainerNotes:
   AppAdded: 2021-06-12
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /withoutUpdater/i
+  ApkMatch: /foss-release/i
   ApkIgnore: /withUpdater/i
   Fastlane: https://github.com/rRemix/APlayer/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: needed on lower Android version to access the music files to play
-    android.permission.MANAGE_EXTERNAL_STORAGE: needed on newer Android versions to access files such as reading lyric files/blacklist
     android.permission.READ_MEDIA_AUDIO: needed on newer Android versions to access the music files to play
     android.permission.SYSTEM_ALERT_WINDOW: used to show lyrics in an overlay
   Status:
