@@ -23,9 +23,11 @@ MaintainerNotes:
     android.permission.REQUEST_INSTALL_PACKAGES: needed to install apps
     android.permission.QUERY_ALL_PACKAGES: needed to check installed apps to list and look for updates for
     android.permission.REQUEST_DELETE_PACKAGES: needed to uninstall apps no longer wanted
+  Status:
+    - 2026-03-06 UCM Tags=>Static as MLKit was added, see https://github.com/Nandanrmenon/florid/issues/73
 
 AllowedAPKSigningKeys: 8486d1cb98e0ebeba90b5715c5e9196c6867f0db1044d760416c139e5c10ce12
 
 VercodeOperation: '%c -2000'
 AutoUpdateMode: Version v%v\+\d+
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
