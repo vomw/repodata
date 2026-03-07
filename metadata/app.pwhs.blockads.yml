@@ -25,8 +25,10 @@ MaintainerNotes:
   Note: repo shows agent support; responsible use [confirmed by our team](https://codeberg.org/IzzyOnDroid/repodata/issues/35#issuecomment-11226232)
   IntentFilterIgnore:
     android.net.VpnService: VPN needed for main functionality
+  Status:
+    - 2026-03-07 adds play-services-cronet, which additionally drags in GMS; UCM Tags=>Static until solved, see https://github.com/pass-with-high-score/blockads-android/issues/50
 
 AllowedAPKSigningKeys: 229ea49584360b22a8c7e7e530cfb7e1103faa1b6ba5f32837691fb96fdcfe5a
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
