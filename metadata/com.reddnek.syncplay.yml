@@ -40,8 +40,11 @@ MaintainerNotes:
     - 2025-08-14 upstreaming our Fastlane via https://github.com/yuroyami/syncplay-mobile/pull/128
     - 2025-11-19 update with a wrong signing key, UCM=>Static until solved; see https://github.com/yuroyami/syncplay-mobile/issues/105#issuecomment-3554319884
     - 2026-03-01 disabling update checks entirely now, as signing key issue is still unsolved.
+    - 2026-03-08 new signing key confirmed (by mail), so we accept v0.16 in; but v0.17.0 AGAIN REBRANDED (to com.yuroyami.syncplay), so updates remain disabled (see entry for 2023-01-31)
 
-AllowedAPKSigningKeys: f5e113709479c81bf1db2b7bc6a8d406404ea2cee7bdcf4d3595b590c643c275
+AllowedAPKSigningKeys:
+  - f5e113709479c81bf1db2b7bc6a8d406404ea2cee7bdcf4d3595b590c643c275
+  - cfeed0f6458db903ef44f558ed97a6edd0a656bb76bc645178b3f266de2a9566
 
 AutoUpdateMode: Version %v
 UpdateCheckMode: None
