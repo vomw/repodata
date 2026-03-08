@@ -16,6 +16,7 @@ MaintainerNotes:
   AppAdded: 2022-06-12
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /open-release/i
   Fastlane: https://github.com/watea/RadioUpnp/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Note: Fastlane is our starter kit
@@ -26,8 +27,9 @@ MaintainerNotes:
     - 2022-11-07 fixed, back to normal
     - 2024-10-07 scanner reports DEPENDENCY_INFO_BLOCK android.permission.READ_EXTERNAL_STORAGE – https://github.com/watea/RadioUpnp/issues/18
     - 2026-02-25 proprietary components added (Cast, GMS, Firebase); UCM Tags=>Static for now (consider RBs as well if not solved with next release), see https://github.com/watea/RadioUpnp/issues/38
+    - 2026-03-08 issue solved, UCM=>Tags again
 
 AllowedAPKSigningKeys: 93e958527972a6d7c786be10c04412f624516cb3b6fa9204da6cc6c9e00ecd2a
 
 AutoUpdateMode: Version V%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
