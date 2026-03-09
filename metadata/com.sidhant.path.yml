@@ -1,0 +1,25 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: Sidhant
+AuthorWebSite: https://sidhant947.github.io/
+SourceCode: https://github.com/sidhant947/Path
+IssueTracker: https://github.com/sidhant947/Path/issues
+Changelog: https://github.com/sidhant947/Path/releases
+
+AutoName: Path
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-03-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/sidhant947/Path/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 5e4c3403e16cc60217d29e89773e31656aa77f407f1f3210bd80c370e5413379
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version V%v
+UpdateCheckMode: Tags
