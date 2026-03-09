@@ -26,8 +26,7 @@ MaintainerNotes:
     - /com/music
     - /com/my/kizzy
   PermIgnore:
-    android.permission.READ_EXTERNAL_STORAGE: to play local audio files
-    android.permission.WRITE_EXTERNAL_STORAGE: to store downloaded audio files
+    android.permission.RECORD_AUDIO: for music recognition
   Status:
     - 2025-06-29 v3.0.0 adds MLKit, GMS, Firebase – and doubles APK size, pushing it beyond our per-app size limit. UCN Tags=>Static for now, rolling back to previous release; https://github.com/vivizzz007/vivi-music/issues/17
     - 2025-07-17 still no response. Also versionCode not increased, so disabling updates altogether for now.
