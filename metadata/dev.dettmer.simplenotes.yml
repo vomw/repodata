@@ -22,9 +22,9 @@ MaintainerNotes:
     usesCleartextTraffic: needed to connect to e.g. local DAV servers which have no SSL
   Status:
     - 2026-03-04 repo and its Github account disappeared
+    - 2026-03-09 both are back again (Github shenanigans)
 
 AllowedAPKSigningKeys: 42a1c613bbc673045af3dc8191bf9cb6456ee44c7dce40c7cfb566facb69f16a
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
-NoSourceSince: 1.10.0
+UpdateCheckMode: Tags
