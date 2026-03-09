@@ -20,6 +20,7 @@ MaintainerNotes:
   DoubleList: keep
   PermIgnore:
     android.permission.READ_CONTACTS: to sync birthday from Android contacts
+    android.permission.READ_CALENDAR: to see events from the phone´s built-in calendar alongside everything else
 
 AllowedAPKSigningKeys: b0476c128828be047b64fe43f79b1d5f2c3460b0726fb39933b11620d8954622
 
