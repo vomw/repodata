@@ -18,7 +18,7 @@ MaintainerNotes:
   AppAdded: 2024-12-31
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /^app-arm64-release\.apk$/i
+  ApkMatch: /^Metrolist\.apk$/i
   Fastlane: https://github.com/MetrolistGroup/Metrolist/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   NameSpaces:
