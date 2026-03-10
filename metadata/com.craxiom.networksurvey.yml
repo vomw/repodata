@@ -12,6 +12,7 @@ MaintainerNotes:
   AppAdded: 2020-02-10
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /cdr-arm64-v8a/i
   Fastlane: https://github.com/christianrowlands/android-network-survey/tree/develop/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshotsJPG
   DoubleList: keep
