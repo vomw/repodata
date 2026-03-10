@@ -1,0 +1,10 @@
+---
+when:
+  - event: pull_request
+
+steps:
+  - name: check-metadata
+    image: debian:stable-slim
+    commands:
+      - apt-get update && apt-get -y install jq bash # TODO: use dedicated slimmer image with these tools installed
+      - bash tools/check-meta.sh
