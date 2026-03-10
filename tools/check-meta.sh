@@ -9,8 +9,8 @@ git fetch origin $CI_REPO_DEFAULT_BRANCH
 
 check_target="HEAD" # always HEAD, but needed for local debuggung
 
-deleted=("$(git diff --name-only --diff-filter=D $check_target $CI_REPO_DEFAULT_BRANCH | sed -n 's,metadata/\([^/]*\.yml\),\1,p')")
-added=("$(git diff --name-only --diff-filter=A $check_target $CI_REPO_DEFAULT_BRANCH | sed -n 's,metadata/\([^/]*\.yml\),\1,p')")
+deleted=("$(git diff --name-only --diff-filter=D $CI_REPO_DEFAULT_BRANCH $check_target | sed -n 's,metadata/\([^/]*\.yml\),\1,p')")
+added=("$(git diff --name-only --diff-filter=A $CI_REPO_DEFAULT_BRANCH $check_target | sed -n 's,metadata/\([^/]*\.yml\),\1,p')")
 
 global_error=false
 
