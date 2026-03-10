@@ -19,10 +19,12 @@ MaintainerNotes:
     android.permission.NEARBY_WIFI_DEVICES: for the local-share feature
     android.permission.INTERNET: for the local-share feature
     android.permission.ACCESS_WIFI_STATE: to find out if local share can be used
-    android.permission.ACCESS_COARSE_LOCATION:
-    android.permission.ACCESS_FINE_LOCATION:
+    android.permission.ACCESS_COARSE_LOCATION: due to WiFi permission
+    android.permission.ACCESS_FINE_LOCATION: due to WiFi permission
+  Status:
+    - 2026-03-10 UCM Tags=>Static, as v1.1.8 comes with GMS – see https://github.com/PYU224/koremd/issues/1
 
 AllowedAPKSigningKeys: 3f303c4acec74ca823cbe6e0ce5d7c4cb700a8b6ce3898cbe94920bd3dbb41b0
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
