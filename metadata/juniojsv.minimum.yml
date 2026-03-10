@@ -16,6 +16,7 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2020-04-24
+  AppRemoved: 2026-03-10 Tracking, VT warnings, development stopped 3/2025
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /armeabi-v7a/i
