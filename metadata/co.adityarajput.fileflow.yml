@@ -15,6 +15,9 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/BURG3R5/FileFlow/tree/dev/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to be able to work on the entire storage
+    android.permission.MANAGE_EXTERNAL_STORAGE: to be able to work on the entire storage
 
 AllowedAPKSigningKeys: 560a309b4f01ac3d2865eac6e3c33559ecc7e9ad8ea79ecd58d256b4b6458a0e
 

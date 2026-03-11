@@ -25,6 +25,8 @@ MaintainerNotes:
   Note: repo shows agent support; responsible use [confirmed by our team](https://codeberg.org/IzzyOnDroid/repodata/issues/35#issuecomment-11226232)
   IntentFilterIgnore:
     android.net.VpnService: VPN needed for main functionality
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to filter apps by rules
   Status:
     - 2026-03-07 adds play-services-cronet, which additionally drags in GMS; UCM Tags=>Static until solved, see https://github.com/pass-with-high-score/blockads-android/issues/50
     - 2026-03-08 solved (cronet was replaced by kwik), UCM back to Tags
