@@ -22,8 +22,9 @@ MaintainerNotes:
   Status:
     - 2025-11-21 v0.15.0 uses same versionCode as v0.14.5 already did; UCM Tags=>Static for now, see https://github.com/AdamGuidarini/MediTrak/issues/175
     - 2025-11-23 solved, UCM back to Tags
+    - 2026-03-11 UCM Tags=>Static as versionCode was not increased
 
 AllowedAPKSigningKeys: 194f80e8d5001784aabe0d6a02a0da4210f455e4ce3777e0eb726a76b6833467
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static

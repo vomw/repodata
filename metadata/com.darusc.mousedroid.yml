@@ -14,8 +14,10 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/darusc/Mousedroid/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon
+  Status:
+    - 2026-03-11 UCM Tags=>Static as versionCode was not increased
 
 AllowedAPKSigningKeys: 50cdcd3e18a3550eabe52864c2fae9079d4c282456d4a2ffed50caa58c5d4a22
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
