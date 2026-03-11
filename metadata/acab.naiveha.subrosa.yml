@@ -1,0 +1,22 @@
+Categories:
+  - Security
+License: Apache-2.0
+AuthorName: naive-HA
+SourceCode: https://github.com/naive-HA/subrosa
+IssueTracker: https://github.com/naive-HA/subrosa/issues
+Changelog: https://github.com/naive-HA/subrosa/releases
+Bitcoin: 1HwgShr1TniuBxNQwy2xAhpQaNuZhtw6sh
+
+AutoName: sub rosa
+
+MaintainerNotes:
+  AppAdded: 2026-03-11
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/naive-HA/subrosa/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 512ccef51ab8ba405c22f193ea1205629f7888be8be069b67bea768bc0e536ac
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
