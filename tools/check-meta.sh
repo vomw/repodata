@@ -6,7 +6,7 @@ set -o nounset
 set -o pipefail
 
 CI_REPO_DEFAULT_BRANCH="${CI_REPO_DEFAULT_BRANCH:-main}"
-#git fetch origin $CI_REPO_DEFAULT_BRANCH
+git fetch origin $CI_REPO_DEFAULT_BRANCH
 
 check_target="${CHECK_TARGET:-HEAD}"
 
