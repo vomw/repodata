@@ -13,7 +13,6 @@ AutoName: USB Camera
 
 MaintainerNotes:
   AppAdded: 2025-05-26
-  Todo: 2023-03-13 remove old signing key 9879bfc and APK with versionCode 1
   Method: gitlab-tags
   GHSkipPre: 1
   ApkMatch: /viewer_release/i
@@ -26,9 +25,7 @@ MaintainerNotes:
     - 2026-02-08 signing key changed; UCM Tags=>Static until resolved; https://gitlab.com/yaky/android-usb-cam-viewer/-/issues/3#note_3067741389
     - 2026-02-13 verified by mail, new signing key accepted
 
-AllowedAPKSigningKeys:
-  - 9879bfc5440e9dc66542a3402f2fb2e8843fbd14cf68e5fd8abbc86cf2603310
-  - 148b3ca64fa6deedb804ee376d9cdd2efa552b0ca125a6c370c0f07eeb349e1e
+AllowedAPKSigningKeys: 148b3ca64fa6deedb804ee376d9cdd2efa552b0ca125a6c370c0f07eeb349e1e
 
 AutoUpdateMode: Version %v
 UpdateCheckMode: Tags
