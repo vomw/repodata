@@ -23,8 +23,9 @@ MaintainerNotes:
     android.permission.ACCESS_COARSE_LOCATION: to find stations near you
   Status:
     - 2026-03-10 UCM Tags=>Static due to wrong signing key, see https://github.com/eliasbuenosdias/GeoGas/issues/2
+    - 2026-03-12 signing key restored, UCM back to Tags
 
 AllowedAPKSigningKeys: 1dd1c0ac17d1906d8f77024981bc5cd8192f7641c9b88c9c1c2455ed30b5942b
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
