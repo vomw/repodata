@@ -16,7 +16,6 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2025-10-04
-  Todo: 2026-02-03 check if the self updater is properly dealt with, else we need to remove the app
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64/i
