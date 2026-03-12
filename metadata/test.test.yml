@@ -1,0 +1,3 @@
+# just a minimal yaml file to trigger many errors
+MaintainerNotes:
+  FastlaneFeatures: title,shortdesssc,fulldescMD,changelogs,icon,featureGraphic,screenshots
