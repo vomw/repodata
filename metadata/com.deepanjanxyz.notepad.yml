@@ -14,8 +14,11 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/deepanjanxyz/notepad/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,icon,screenshots
+  Status:
+    - 2026-03-12 repo and Github account are gone
 
 AllowedAPKSigningKeys: e4995ace981e9553c493a768b19dbce44d66bcf275a9405027e3cf34324cacfd
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
+NoSourceSince: 1.0.4
