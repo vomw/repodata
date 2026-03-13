@@ -1,3 +1,7 @@
+AntiFeatures:
+  Tracking:
+    en-US: Sentry crash reporting is enabled by default.
+    de: Sentry Crash-Reporting ist per Default aktiviert.
 Categories:
   - Reading
 License: GPL-3.0-only
