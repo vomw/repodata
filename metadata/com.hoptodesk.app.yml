@@ -30,8 +30,9 @@ MaintainerNotes:
   Status:
     - 2024-04-20 scanner reports DEPENDENCY_INFO_BLOCK MANAGE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE RECORD_AUDIO SYSTEM_ALERT_WINDOW android.permission.CAMERA – https://gitlab.com/hoptodesk/hoptodesk/-/issues/58
     - 2025-03-31 fastlane broken, see https://gitlab.com/hoptodesk/hoptodesk/-/issues/81
+    - 2026-03-13 VT alerts for 1.45.10, rolled back to 1.43.1 (the only one we could find an APK for quickly, as all their releases point to the same APK) – https://gitlab.com/hoptodesk/hoptodesk/-/work_items/95
 
 AllowedAPKSigningKeys: 0946d0d8ef99234a2031f4bfde08b6190c93eff23a541cd3dd934798e079b009
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
