@@ -23,8 +23,9 @@ MaintainerNotes:
     android.permission.ACCESS_FINE_LOCATION: due to WiFi permission
   Status:
     - 2026-03-10 UCM Tags=>Static, as v1.1.8 comes with GMS – see https://github.com/PYU224/koremd/issues/1
+    - 2026-03-12 solved with v1.1.8.3
 
 AllowedAPKSigningKeys: 3f303c4acec74ca823cbe6e0ce5d7c4cb700a8b6ce3898cbe94920bd3dbb41b0
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
