@@ -1,10 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-set -o errexit
-set -o nounset
-set -o pipefail
-
 CI_REPO_DEFAULT_BRANCH="${CI_REPO_DEFAULT_BRANCH:-main}"
 git fetch origin $CI_REPO_DEFAULT_BRANCH
 
