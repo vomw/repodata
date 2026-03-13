@@ -31,9 +31,10 @@ MaintainerNotes:
   DoubleListRef: https://gitlab.com/IzzyOnDroid/repo/-/issues/262
   NameSpaces:
     - /at/techbee/jtx
-    - /org/dmfs/tasks
+    - /com/davx5/ose
     - /javax/cache/spi
     - /javax/xml/namespace
+    - /org/dmfs/tasks
   Note: No idea how to label the javax stuff
 
 AllowedAPKSigningKeys: b39e7b77ec853483646b21b4a3e3ca540ba094ef8daa18e87e0be1fa4638d321

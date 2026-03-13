@@ -22,6 +22,7 @@ MaintainerNotes:
   Fastlane: https://github.com/MetrolistGroup/Metrolist/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   NameSpaces:
+    - /com/dpi
     - /com/metrolist
     - /com/my/kizzy
   PermIgnore:

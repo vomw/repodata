@@ -19,6 +19,7 @@ MaintainerNotes:
   NameSpaces:
     - /com/bitmavrick/data
     - /com/bitmavrick/flash
+    - /com/bitmavrick/lumoflash
     - /com/bitmavrick/screen
     - /com/bitmavrick/shortcuts
   Status:

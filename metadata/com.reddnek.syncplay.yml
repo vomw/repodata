@@ -23,6 +23,7 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: needed to access local media to play and sync
     android.permission.SYSTEM_ALERT_WINDOW: needed for the Pip (picture-in-picture) feature
   NameSpaces:
+    - /app/player/mpv
     - /com/chromaticnoob/colorpreference
     - /com/reddnek/syncplay
     - /com/yuroyami/syncplay
