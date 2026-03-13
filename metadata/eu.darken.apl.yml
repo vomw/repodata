@@ -24,6 +24,7 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   PermIgnore:
     android.permission.ACCESS_COARSE_LOCATION: to get the local place to show air traffic for
+    android.permission.ACCESS_FINE_LOCATION: to get the local place to show air traffic for
     android.permission.CAMERA: for the integrated QR code scanner
   Status:
     - 2025-06-24 v0.5.0-rc0 adds MLKit, so we rolled that back and set UCM Tags=>Static; https://github.com/d4rken/airplanes-live-app/issues/37
