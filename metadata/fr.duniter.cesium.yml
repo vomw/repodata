@@ -23,6 +23,7 @@ MaintainerNotes:
     - 2022-05-02 no commits since 6/2021, switching UCM from Tags to Static
     - 2023-08-01 picked up again and had a new release
     - 2025-05-18 received info by mail that the Github presence is just a mirror of their GitLab (https://git.duniter.org/clients/cesium-grp/cesium), hence the missing issue tracker there
+    - 2026-03-14 update by mail, repo is now https://git.duniter.org/clients/cesium-grp/cesium2s – but APK is 40 MB (multi-arch), including MLKit and friends
 
 AllowedAPKSigningKeys: bfb90974ee4fffc7f5d19310862cc01387815482f05c18ed1331d1a72556a4bd
 
