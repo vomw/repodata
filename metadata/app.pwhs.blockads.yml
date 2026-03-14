@@ -22,7 +22,9 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/pass-with-high-score/blockads-android/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
-  Note: repo shows agent support; responsible use [confirmed by our team](https://codeberg.org/IzzyOnDroid/repodata/issues/35#issuecomment-11226232)
+  Note: repo shows agent support; responsible use [confirmed by our team](https://codeberg.org/IzzyOnDroid/repodata/issues/35#issuecomment-11226232); /go/tunnel/gojni is [an own variant of GoTunnel](https://github.com/pass-with-high-score/blockads-android/issues/78)
+  NameSpaces:
+    - /go/tunnel/gojni
   IntentFilterIgnore:
     android.net.VpnService: VPN needed for main functionality
   PermIgnore:
