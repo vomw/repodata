@@ -1,26 +1,22 @@
-AntiFeatures:
-  SourceArchived:
-    en-US: Upstream repo was archived 2026-03-02, there will be no updates anymore.
-    de: Das Quellrepo der App wurde am 2026-03-02 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Internet
 License: GPL-3.0-or-later
 AuthorName: HystericalDragon
 AuthorEmail: HystericalDragons@proton.me
-SourceCode: https://github.com/xchacha20-poly1305/husi
-IssueTracker: https://github.com/xchacha20-poly1305/husi/issues
+SourceCode: https://codeberg.org/xchacha20-poly1305/husi
+IssueTracker: https://codeberg.org/xchacha20-poly1305/husi/issues
 Translation: https://hosted.weblate.org/engage/husi/
-Changelog: https://github.com/xchacha20-poly1305/husi/releases
+Changelog: https://codeberg.org/xchacha20-poly1305/husi/releases
 
 AutoName: husi
 ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-01-25
-  Method: github-release
+  Method: codeberg-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
-  Fastlane: https://github.com/xchacha20-poly1305/husi/blob/dev/fastlane/metadata/android
+  Fastlane: https://codeberg.org/xchacha20-poly1305/husi/src/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon
   FastlaneIgnore: changelogs
   Note: changelogs just have default.txt with content saying look at commits
@@ -34,16 +30,11 @@ MaintainerNotes:
     android.permission.ACCESS_BACKGROUND_LOCATION: for retrieving WiFi information (can be denied if related enhancements are not needed)
     android.permission.NEARBY_WIFI_DEVICES: for retrieving WiFi information (can be denied if related enhancements are not needed)
   NameSpaces:
-    - /com/github/shadowsocks
-    - /io/nekohasekai/sagernet
-    - /io/nekohasekai/sfa/utils
-    - /moe/matsuri/nb4a
+    - /fr/husi
     - ignore_the_unkown_below
     - /go/libcore/gojni
-  Status:
-    - 2026-03-17 monthly check found repo archived; UCM Tags=>None
 
 AllowedAPKSigningKeys: 55d8507c1b28d64236004ebb5da704e37ace3f102e9f90c6e4ec4182cd390e9e
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
