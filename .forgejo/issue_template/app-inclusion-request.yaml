@@ -20,6 +20,12 @@ body:
         - label: The [Fastlane](https://izzyondroid.org/docs/general/Fastlane/) folder is available in the app's repo.
           required: false
 
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### App meta-data
+
   - type: input
     id: source-code
     attributes:
@@ -100,6 +106,13 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### Technical instructions & AI Tools Usage
+        *If any "AI" tools were used during the development of this app, please fill in the "AI"-related fields below. This section is optional but encouraged for transparency.*
+
   - type: textarea
     id: build-instructions
     attributes:
@@ -108,6 +121,49 @@ body:
       placeholder: 'Step-by-step instructions for building the app...'
     validations:
       required: true
+
+  - type: dropdown
+    id: ai-assistance-level
+    attributes:
+      label: 'Assistance Level'
+      description: 'How extensively were the "AI" tools used?'
+      options:
+        - 'None – No "AI" tools were used'
+        - 'Minimal – Occasional suggestions or lookups'
+        - 'Moderate – Used for specific tasks or modules'
+        - 'Substantial – Used throughout development'
+        - 'Dominant – Most code or content was "AI"-generated'
+    validations:
+      required: false
+
+  - type: input
+    id: ai-tool
+    attributes:
+      label: '"AI" Tool(s)'
+      description: 'Name of the "AI" tool(s) used during development (e.g., ChatGPT, Claude, Ollama, OpenCode)'
+      placeholder: 'e.g., Claude'
+    validations:
+      required: false
+
+  - type: textarea
+    id: ai-usage-description
+    attributes:
+      label: 'What did the tools help with?'
+      description: 'Briefly describe what the tools were used for (e.g., brainstorming, boilerplate generation, architecture, UI-design, debugging, documentation, vibe-coding)'
+      placeholder: 'e.g., helped debug a concurrency issue.'
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: ai-accountability
+    attributes:
+      label: 'AI Accountability'
+      description: 'Please confirm the following regarding "AI"-generated contributions.'
+      options:
+        - label: 'The human developer(s) reviewed and edited all "AI"-generated outputs'
+          required: false
+        - label: 'The human developer(s) ran manual tests and manually verified all changes'
+          required: false
 
   - type: textarea
     id: applicant-notice
