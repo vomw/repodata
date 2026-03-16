@@ -1,0 +1,23 @@
+Categories:
+  - Connectivity
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: André
+SourceCode: https://github.com/Legandy/EnigmaBridge
+IssueTracker: https://github.com/Legandy/EnigmaBridge/issues
+Changelog: https://github.com/Legandy/EnigmaBridge/releases
+Donate: https://ko-fi.com/legandy
+
+AutoName: Enigma Bridge
+
+MaintainerNotes:
+  AppAdded: 2026-03-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Legandy/EnigmaBridge/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 9bd7887e9682cf66299d0c6c535b415c98d0f7629c86e8749320bccf9c72a94c
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
