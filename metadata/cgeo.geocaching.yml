@@ -39,6 +39,7 @@ MaintainerNotes:
   Status:
     - 2024-03-20 scanner reports usesCleartextTraffic DEPENDENCY_INFO_BLOCK ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION android.permission.READ_CONTACTS android.permission.READ_EXTERNAL_STORAGE – https://github.com/cgeo/cgeo/issues/15491
     - 2025-07-18 added MLKit, blowing the APK size from less than 15 to more than 40 MB – https://github.com/cgeo/cgeo/issues/17142 – solved 2025-09-21
+    - 2026-03-17 Fastlane is currently on a different branch then releases are based on. This will be consolidated later, see https://github.com/cgeo/cgeo/issues/17956
 
 AllowedAPKSigningKeys: 3db1dd8443b96fe9f7680eea4f7f9d0234f8407283ffe3e6a43ad68adcfdc5e4
 
