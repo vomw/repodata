@@ -6,5 +6,5 @@ steps:
   - name: check-metadata
     image: debian:stable-slim
     commands:
-      - apt-get update && apt-get -y install jq yq git # TODO: use dedicated slimmer image with these tools installed
+      - apt-get update && apt-get -y install jq yq git curl # TODO: use dedicated slimmer image with these tools installed
       - bash tools/check-meta.sh
