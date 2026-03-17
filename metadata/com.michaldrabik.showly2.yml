@@ -8,10 +8,10 @@ License: GPL-3.0-only
 AuthorName: Michal Drabik
 AuthorEmail: showlyapp@gmail.com
 WebSite: http://showlyapp.com
-SourceCode: https://github.com/michaldrabik/showly
-IssueTracker: https://github.com/michaldrabik/showly/issues
+SourceCode: https://github.com/trakt/showly
+IssueTracker: https://github.com/trakt/showly/issues
 Translation: https://crwd.in/showly-android-app
-Changelog: https://github.com/michaldrabik/showly/releases
+Changelog: https://github.com/trakt/showly/releases
 Donate: https://www.buymeacoffee.com/showly
 
 AutoName: 'Showly: Track Shows &amp; Movies'
@@ -20,7 +20,7 @@ MaintainerNotes:
   AppAdded: 2024-09-02
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/michaldrabik/showly/tree/master/fastlane/metadata/android
+  Fastlane: https://github.com/trakt/showly/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
   NameSpaces:

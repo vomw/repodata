@@ -32,8 +32,10 @@ MaintainerNotes:
     android.permission.WRITE_SETTINGS: needed to set a song as ringtone directly from the app
   Status:
     - 2025-05-16 READ_EXTERNAL_STORAGE RECORD_AUDIO – https://github.com/mardous/BoomingMusic/issues/15
+    - 2026-03-17 repo disappeared
 
 AllowedAPKSigningKeys: 971e4ea01b40120df023d00e72111325dcd802def7a1e5e5dbdd192f3c60d7d7
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
+NoSourceSince: 1.2.1

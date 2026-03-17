@@ -4,7 +4,7 @@ AntiFeatures:
     de: Die App speichert die Bilder bei Telegram.
 Categories:
   - Graphics
-License: Apache-2.0
+License: GPL-3.0-only
 AuthorName: AKS-Labs
 AuthorWebSite: https://t.me/AKSLabs
 SourceCode: https://github.com/AKS-Labs/CloudGallery

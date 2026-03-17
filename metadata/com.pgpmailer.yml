@@ -13,7 +13,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/bjoernch/pgpmailer/tree/main/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: changelogs just have 1.txt
   PermIgnore:
     android.permission.CAMERA: to allow QR login for browser mailbox access over local network

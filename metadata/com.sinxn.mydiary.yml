@@ -13,7 +13,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/sinan-q/My_Diary/blob/master/metadata
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
 
 AllowedAPKSigningKeys: 8aa9dcf29eda35550114363d715112d1173928d7da564c61fe0cc7d7721c0c12
 

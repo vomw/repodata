@@ -3,10 +3,10 @@ Categories:
 License: GPL-3.0-only
 AuthorName: Helium314
 AuthorEmail: helium314@disroot.org
-SourceCode: https://github.com/Helium314/HeliBoard
-IssueTracker: https://github.com/Helium314/HeliBoard/issues
+SourceCode: https://github.com/HeliBorg/HeliBoard
+IssueTracker: https://github.com/HeliBorg/HeliBoard/issues
 Translation: https://translate.codeberg.org/projects/heliboard/
-Changelog: https://github.com/Helium314/HeliBoard/releases
+Changelog: https://github.com/HeliBorg/HeliBoard/releases
 
 AutoName: HeliBoard
 ArchivePolicy: 1
@@ -16,7 +16,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkIgnore: /(debug|nouserlib)/i
-  Fastlane: https://github.com/Helium314/HeliBoard/blob/main/fastlane/metadata/android
+  Fastlane: https://github.com/HeliBorg/HeliBoard/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   DoubleList: keep
   DoubleListRef: https://github.com/Helium314/HeliBoard/issues/61#issuecomment-2067256523

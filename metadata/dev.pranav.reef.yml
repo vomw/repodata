@@ -4,9 +4,9 @@ License: MIT
 AuthorName: PranavPurwar
 AuthorEmail: purwarpranav80@gmail.com
 WebSite: https://reef.vercel.app/
-SourceCode: https://github.com/PranavPurwar/Reef
-IssueTracker: https://github.com/PranavPurwar/Reef/issues
-Changelog: https://github.com/PranavPurwar/Reef/releases
+SourceCode: https://github.com/aload0/Reef
+IssueTracker: https://github.com/aload0/Reef/issues
+Changelog: https://github.com/aload0/Reef/Reef/releases
 Donate: https://paypal.me/pranavpurwar
 
 AutoName: Reef - Focus and Productivity
@@ -15,7 +15,7 @@ MaintainerNotes:
   AppAdded: 2025-08-25
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/PranavPurwar/Reef/tree/main/fastlane/metadata/android
+  Fastlane: https://github.com/aload0/Reef/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   NameSpaces:
     - /org/nsh07/pomodoro
