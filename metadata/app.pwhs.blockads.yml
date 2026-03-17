@@ -21,6 +21,7 @@ MaintainerNotes:
   AppAdded: 2026-03-06
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
   Fastlane: https://github.com/pass-with-high-score/blockads-android/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Note: repo shows agent support; responsible use [confirmed by our team](https://codeberg.org/IzzyOnDroid/repodata/issues/35#issuecomment-11226232); /go/tunnel/gojni is [an own variant of GoTunnel](https://github.com/pass-with-high-score/blockads-android/issues/78)
