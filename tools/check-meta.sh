@@ -1,6 +1,15 @@
 #!/bin/bash
 set -euo pipefail
 
+does_file_exist (){
+  return_code="$(curl -s -o /dev/null -w '%{http_code}' "$1" | cut -c1-1)"
+  if [[ "$return_code" = "2" ]]; then
+    exists=true
+  else
+    exists=false
+  fi
+}
+
 CI_REPO_DEFAULT_BRANCH="${CI_REPO_DEFAULT_BRANCH:-main}"
 git fetch origin $CI_REPO_DEFAULT_BRANCH
 
@@ -53,6 +62,31 @@ if [[ -n "${added[*]}" ]]; then
         app_succeeded=false
       fi
 
+
+      # check if minimal file set exists
+      url="$fastlane_url/en-US/short_description.txt"
+      does_file_exist "$url"
+      if [ $exists = false ]; then
+        echo "    ✗ Fastlane for $app contains no /en-US/short_description.txt ($url)"
+        global_error=true
+        app_succeeded=false
+      fi
+
+      url="$fastlane_url/en-US/full_description.txt"
+      does_file_exist "$url"
+      if [ $exists = false ]; then
+        echo "    ✗ Fastlane for $app contains no /en-US/full_description.txt ($url)"
+        global_error=true
+        app_succeeded=false
+      fi
+
+      url="$fastlane_url/en-US/images/icon.png"
+      does_file_exist "$url"
+      if [ $exists = false ]; then
+        echo "    ✗ Fastlane for $app contains no /en-US/images/icon.png ($url)"
+        global_error=true
+        app_succeeded=false
+      fi
       # check if MaintainerNotes.FastlaneFeatures exist
       if [[ "$fastlane_features" = "null" ]]; then
         echo "    ✗ $app has no FastlaneFeatures defined"
@@ -76,7 +110,7 @@ if [[ -n "${added[*]}" ]]; then
       fi
 
       if $app_succeeded; then
-        echo "  ✓ no errors found"
+        echo "  ✓ no errors for $appid found"
       fi
   done
 else
