@@ -1,0 +1,29 @@
+Categories:
+  - Navigation
+License: AGPL-3.0-only
+AuthorName: Max Dietrich
+AuthorWebSite: https://mxd.codes/
+WebSite: https://colota.app/
+SourceCode: https://github.com/dietrichmax/colota
+IssueTracker: https://github.com/dietrichmax/colota/issues
+Changelog: https://github.com/dietrichmax/colota/releases
+
+AutoName: Colota
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-03-18
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-arm64-v8a/i
+  Fastlane: https://github.com/dietrichmax/colota/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed for the core features, GPS tracking & geofencing
+    android.permission.ACCESS_FINE_LOCATION: needed for the core features, GPS tracking & geofencing
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed for the core features, GPS tracking & geofencing
+
+AllowedAPKSigningKeys: f1e0bbfeaaa1912efebf109dbd9b6635761e0b7c72f33a80624ba8e86b216795
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
