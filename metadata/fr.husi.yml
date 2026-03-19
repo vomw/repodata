@@ -16,7 +16,7 @@ MaintainerNotes:
   Method: codeberg-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
-  Fastlane: https://codeberg.org/xchacha20-poly1305/husi/src/fastlane/metadata/android
+  Fastlane: https://codeberg.org/xchacha20-poly1305/husi/src/branch/dev/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon
   FastlaneIgnore: changelogs
   Note: changelogs just have default.txt with content saying look at commits
@@ -38,5 +38,5 @@ MaintainerNotes:
 
 AllowedAPKSigningKeys: 55d8507c1b28d64236004ebb5da704e37ace3f102e9f90c6e4ec4182cd390e9e
 
-AutoUpdateMode: Version v%v
+AutoUpdateMode: Version ^v%v
 UpdateCheckMode: Tags
