@@ -23,7 +23,7 @@ MaintainerNotes:
   Fastlane: https://github.com/koiverse/ArchiveTune/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   PermIgnore:
-    android.permission.REQUEST_INSTALL_PACKAGES: for the integrated, opt-in self-updater
+    android.permission.RECORD_AUDIO: for the music recognision feature
     android.permission.READ_MEDIA_AUDIO: to access cached songs for offline playback
     android.permission.READ_EXTERNAL_STORAGE: needed to access cached songs for offline playback on Android 8-12
   Status:

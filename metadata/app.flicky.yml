@@ -19,10 +19,16 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   FastlaneIgnore: video
   Note: video.txt empty
+  FlagIgnore:
+    usesCleartextTraffic: to access repositories in the local network which have no certificates
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: to show all apps and check which apps need to be updated
     android.permission.REQUEST_DELETE_PACKAGES: to uninstall apps (this is an app manager)
     android.permission.REQUEST_INSTALL_PACKAGES: to install apps (this is an app manager)
+    android.permission.READ_EXTERNAL_STORAGE: implicitly granted by WRITE_EXTERNAL_STORAGE
+    android.permission.WRITE_EXTERNAL_STORAGE: needed by DownloadManager
+  Status:
+    - 2026-03-18 android.permission.READ_EXTERNAL_STORAGE – https://github.com/mlm-games/flicky/issues/60
 
 AllowedAPKSigningKeys: 4aed2f691df64a7b0fea25a6b8c80183c6dc520e049dac0178defa1d6472228f
 
