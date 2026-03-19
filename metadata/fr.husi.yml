@@ -30,9 +30,11 @@ MaintainerNotes:
     android.permission.ACCESS_BACKGROUND_LOCATION: for retrieving WiFi information (can be denied if related enhancements are not needed)
     android.permission.NEARBY_WIFI_DEVICES: for retrieving WiFi information (can be denied if related enhancements are not needed)
   NameSpaces:
-    - /fr/husi
     - ignore_the_unkown_below
     - /go/libcore/gojni
+  Status:
+    - 2026-03-17 monthly check found repo archived; UCM Tags=>None
+    - 2026-03-19 app repo moved to Codeberg, UCM=>Tags again
 
 AllowedAPKSigningKeys: 55d8507c1b28d64236004ebb5da704e37ace3f102e9f90c6e4ec4182cd390e9e
 
