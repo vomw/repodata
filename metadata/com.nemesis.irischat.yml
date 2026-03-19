@@ -14,8 +14,10 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/umutcamliyurt/IrisChat/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  Status:
+    - 2026-03-19 UCM Tags=>Static as versionCode was not increased at v1.1, see https://github.com/umutcamliyurt/IrisChat/issues/13
 
 AllowedAPKSigningKeys: 9296f0754115465e0ae13ce43af5e1249ccfb157ffe13bf266a91d2fee48f9de
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static

@@ -27,8 +27,9 @@ MaintainerNotes:
     - 2025-02-07 versionName always 1.0, versionCode always 5, so UCM=Static instead of Tags for now, see https://github.com/zwc456baby/ScrcpyForAndroid/issues/9
     - 2025-02-16 added NonFreeDep due to unknown origin of the ADB binaries.
     - 2025-08-22 upstreaming our local Fastlane metadata via https://github.com/zwc456baby/ScrcpyForAndroid/pull/29
+    - 2026-03-19 UCM Tags=>Static, as versionCode is not being increased; see https://github.com/zwc456baby/ScrcpyForAndroid/issues/9#issuecomment-4061195878
 
 AllowedAPKSigningKeys: 42f52b52515444a6c361cb9e72027841e4e23053b5e537b6834770ea74c3ef40
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
