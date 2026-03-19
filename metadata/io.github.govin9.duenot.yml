@@ -1,0 +1,21 @@
+Categories:
+  - Money
+License: MIT
+AuthorName: Govin9
+SourceCode: https://github.com/Govin9/DueNot
+IssueTracker: https://github.com/Govin9/DueNot/issues
+Changelog: https://github.com/Govin9/DueNot/releases
+
+AutoName: DueNot
+
+MaintainerNotes:
+  AppAdded: 2026-03-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Govin9/DueNot/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 51241eaaaa363968d079a6dc384f179d5d81cb70f65515b5aa49b73dec5ac927
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
