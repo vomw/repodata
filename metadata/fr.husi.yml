@@ -17,7 +17,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
   Fastlane: https://codeberg.org/xchacha20-poly1305/husi/src/branch/dev/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   FastlaneIgnore: changelogs
   Note: changelogs just have default.txt with content saying look at commits
   IntentFilterIgnore:
