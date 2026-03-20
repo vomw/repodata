@@ -1,0 +1,24 @@
+Categories:
+  - Writing
+License: GPL-3.0-or-later
+AuthorName: Ronit Chinda
+AuthorEmail: ronitchinda100@gmail.com
+SourceCode: https://github.com/chindaronit/Flux
+IssueTracker: https://github.com/chindaronit/Flux/issues
+Changelog: https://github.com/chindaronit/Flux/releases
+
+AutoName: Flux
+
+MaintainerNotes:
+  AppAdded: 2026-03-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/chindaronit/Flux/tree/master/metadata
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.RECORD_AUDIO: used for the integrated audio recorder
+
+AllowedAPKSigningKeys: bdccca30ae93302c4646db9cf23f4e4759c1d5b60ad5728b35ae0fc0feb79402
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
