@@ -18,6 +18,8 @@ MaintainerNotes:
     - /fr/oupson/libjxl
   Fastlane: https://github.com/oupson/jxlviewer/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  Status:
+    - 2026-03-21 android.permission.READ_EXTERNAL_STORAGE android.permission.MANAGE_EXTERNAL_STORAGE – https://github.com/oupson/jxlviewer/issues/43#issuecomment-4104391391
 
 AllowedAPKSigningKeys: 7a7b0ea0e8c93bd4fd59d6ffbf588f0e81b6450cabddb0deac5675fc04b8b0f4
 
