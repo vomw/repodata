@@ -18,6 +18,9 @@ MaintainerNotes:
     - /fr/oupson/libjxl
   Fastlane: https://github.com/oupson/jxlviewer/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: required to read from the Files mediastore table on earlier Android versions
+    android.permission.READ_EXTERNAL_STORAGE: needed for Android versions before Lolipop (Android 5)
   Status:
     - 2026-03-21 android.permission.READ_EXTERNAL_STORAGE android.permission.MANAGE_EXTERNAL_STORAGE – https://github.com/oupson/jxlviewer/issues/43#issuecomment-4104391391
 
