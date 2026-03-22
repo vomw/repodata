@@ -15,6 +15,9 @@ MaintainerNotes:
   Fastlane: https://codeberg.org/Starfish/Imagepipe/src/branch/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   DoubleList: keep
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: needed for the "auto-save" option
+    android.permission.READ_EXTERNAL_STORAGE: needed for Android < 10, where scoped storage is not yet supported
 
 AllowedAPKSigningKeys: 54b3c146f2c9ccd1fe23171320517e2aad9666798d383c52332fff99400a796e
 
