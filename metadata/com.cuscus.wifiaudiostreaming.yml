@@ -17,6 +17,8 @@ MaintainerNotes:
   Fastlane: https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android/-/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.RECORD_AUDIO: used for an optional experimental feature that allows streaming microphone audio
   Status:
     - 2025-09-06 upstreaming our Fastlane metadata
 
