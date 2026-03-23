@@ -1,0 +1,22 @@
+Categories:
+  - Multimedia
+  - Theming
+License: GPL-3.0-only
+AuthorName: SebiAi
+SourceCode: https://github.com/SebiAi/GlyphPort
+IssueTracker: https://github.com/SebiAi/GlyphPort/issues
+Changelog: https://github.com/SebiAi/GlyphPort/releases
+
+AutoName: GlyphPort
+
+MaintainerNotes:
+  AppAdded: 2026-03-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/SebiAi/GlyphPort/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 05a191895277adbb9d40ceecfdc662a551c8a191886ee5004bb366815ac9b5ce
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
