@@ -13,6 +13,7 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2023-07-14
+  Todo: 2026-04-22 check https://github.com/PrimalHQ/primal-android-app/issues/984 if per-ABI builds are available, else we have to remove the app (150+ MB per APK)
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/PrimalHQ/primal-android-app/blob/main/fastlane/metadata/android
@@ -34,6 +35,7 @@ MaintainerNotes:
     - 2024-01-23 scanner reports usesCleartextTraffic – https://github.com/PrimalHQ/primal-android-app/issues/67
     - 2024-02-02 scanner reports android.permission.READ_EXTERNAL_STORAGE* – added to issue 67 together with DEPENDENCY_INFO_BLOCK hints.
     - 2024-03-04 scanner reports android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE
+    - 2026-03-23 APK size now exceeds 150 MB; asked for per-ABI builds at https://github.com/PrimalHQ/primal-android-app/issues/984
 
 AllowedAPKSigningKeys: 22dd83353c5f76ffe1e89718caefce3d126de25342f2cd1b5e0bb14b75607380
 
