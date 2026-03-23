@@ -20,10 +20,13 @@ MaintainerNotes:
   ApkIgnore: /googleplay/i
   Fastlane: https://github.com/vitorpamplona/amethyst/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
+  FlagIgnore:
+    usesCleartextTraffic: for using relays that are not secured, of which unfortunately there are plenty at Nostr
   PermIgnore:
     android.permission.ACCESS_COARSE_LOCATION: to (optionally) tag own posts with the current location
     android.permission.CAMERA: needed for the ingrated QR Code scanner
     android.permission.RECORD_AUDIO: to record (and then send) audio messages
+    android.permission.READ_EXTERNAL_STORAGE: legacy, needed for some lower Android versions only
   Status:
     - 2023-01-13 originally added
     - 2023-01-29 v0.1.14 added MLKit, dragging in Firebase, GMS & Co so NonFreeNet,NonFreeDep,Tracking had to be added https://github.com/vitorpamplona/amethyst/issues/54
