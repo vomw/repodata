@@ -1,3 +1,7 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Saavn and Vercel.
+    de: Die App baut Verbindungen zu Saavn und Vercel auf.
 Categories:
   - Multimedia
 License: MIT
@@ -17,6 +21,10 @@ MaintainerNotes:
   Fastlane: https://github.com/Harshshah6/SaavnMp3-Android/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic:
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to access stored media files on some Android versions
   Status:
     - 2025-10-06 v1.0.6 adds GMS, Firebase, Google Ads, and more proprietary libs, UCM Tags=>Static for now; https://github.com/Harshshah6/SaavnMp3-Android/issues/16
     - 2025-10-28 dev closed issue as "not planned"; UCM=>None, marked app for removal unless author redecides. Besides, app description as "no ads, no tracking", no longer holds true.
