@@ -1,0 +1,25 @@
+Categories:
+  - System
+License: MIT
+AuthorName: nulldio
+SourceCode: https://github.com/nulldio/32steps
+IssueTracker: https://github.com/nulldio/32steps/issues
+Changelog: https://github.com/nulldio/32steps/releases
+
+AutoName: 32steps
+
+MaintainerNotes:
+  AppAdded: 2026-03-23
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nulldio/32steps/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: needed to intercept hardware volume button presses to apply custom volume stepping
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: to display a small volume overlay when volume buttons are pressed outside the app
+
+AllowedAPKSigningKeys: b502e2f0f3cb78080f8508b4460bc65958798a10d97029cd5945a6577548875b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
