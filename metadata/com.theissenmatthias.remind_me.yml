@@ -1,0 +1,23 @@
+Categories:
+  - Time
+License: MIT
+AuthorName: Matthias Theißen
+SourceCode: https://github.com/thssnm/remind-me
+IssueTracker: https://github.com/thssnm/remind-me/issues
+Donate: https://ko-fi.com/thssnm
+
+AutoName: Remind Me
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-03-23
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/thssnm/remind-me/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 44073c04d0ac9c52c2134e67b3f23687677000509f51e12571a0fb73e5c60d2f
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
