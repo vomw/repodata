@@ -1,0 +1,82 @@
+#!/bin/bash
+# SPDX-FileCopyrightText: 2026 Andreas Itzchak Rehberg <izzysoft@qumran.org>
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# hook to deal with removed apps. to be run on the repository machine.
+# - gets the latest version of the deleted .yml, adds the current date as AppRemoved, and writes it to archive (for our stats)
+# - archives app's repo sources and fastlane graphics (not part of our repodata; in case we want to restore it)
+# - removes app icons and APK from 'repo/'
+# Note: This needs to go into the 'post-merge' hook, as that's the only one reliably called on 'pull'.
+#   We cannot modify any repository content here, as that would not reflect in the merge results
+#   (though it could probably be staged, as 'post-merge' runs as the very last thing in the process).
+#   Luckily, that's not needed for dealing with removed apps – as long as things have been ensured before (PR / CI):
+#   - if 'metadata/foo.yml` is removed, make sure 'metadata/foo/' is removed as well (or does not exist)
+# ENV variables honored:
+# - REPOROOT: the repository root, i.e. where the metadata/ and repo/ directories are located in (default: root of this git repo)
+# - BINDIR  : where the required scripts are stored (default: $REPOROOT/bin)
+# - META_ARCHIVE : where metadata which are not part of this repo (currently, graphics) are archived to (default: $REPOROOT/archive/metadata/removed)
+# - BUILD_ARCHIVE: where the build tree (checked out app repos) are archived to (default: $REPOROOT/archive/build/removed)
+# REQUIREMENTS:
+# - tools/updateRemovedAppMeta.py script (for adding AppREmoved date to the .yml for archiving)
+# - archive dirs need to exist (see 'environment' section below)
+
+set -euo pipefail
+
+# get branch information (not yet used – but we might want to process the below only on main/master, for example)
+# current_branch="$(git branch | sed "s/\* //")"
+# reflog_message="$(git reflog -1)"   # we might want to process this only on 'git pull', i.e.: if [[ $reflog_message =~ "pull" ]]
+# merged_branch="$(echo "$reflog_message" | cut -d" " -f 4 | sed "s/://")"  # 'git reflog -1' is 'pull' on a 'git pull'?
+
+# Redirect output to stderr.
+exec 1>&2
+
+# Environment
+REPOROOT="${REPOROOT:-$(realpath "${PWD}")}" #"
+BINDIR="${BINDIR:-${REPOROOT}/bin}"
+META_ARCHIVE="${META_ARCHIVE:-${REPOROOT}/archive/metadata/removed}"
+BUILD_ARCHIVE="${BUILD_ARCHIVE:-${REPOROOT}/archive/build/removed}"
+
+# Obtain names of .yml files deleted during the current merge
+deleted=("$(git diff --name-only --diff-filter=D 'HEAD@{1}' HEAD | sed -n 's,metadata/\([^/]*\.yml\),\1,p')")
+
+# --=[ Deal with deleted apps ]=--
+# if an app's YML file was removed, this shall remove the app – so make sure to remove all related files are dealt with
+if [[ -n "${deleted[*]}" ]]; then
+  echo "Archiving metadata of removed apps"
+  # shellcheck disable=SC2068
+  for app in ${deleted[@]}; do
+    appid="$(basename "$app" .yml)"
+    # archive metadata
+    set +o pipefail
+    delcom="$(git log --format=%h --all -- "metadata/${appid}.yml" | head -n 1)" # get the commit that deleted the file. why does this fail with pipefail set?
+    set -o pipefail
+    # shellcheck disable=SC2086
+    git show ${delcom}~1:"metadata/${appid}.yml" 2>&1 | tools/updateRemovedAppMeta.py > "${META_ARCHIVE}/${appid}.yml" # we need this for our stats on removed apps
+    [[ -d "${REPOROOT}/metadata/${appid}" ]] && {
+      cp -a "${REPOROOT}/metadata/${appid}" "${META_ARCHIVE}/${appid}"
+      #git rm -r "${REPOROOT}/metadata/${appid}" # just in case they were forgotten => git diff --name-only --diff-filter=D 'HEAD@{1}' HEAD | grep -q "metadata/${appid}/" || echo "metadata/${appid}/ was not removed!"
+    }
+    # remove generated icon + APKs
+    rm -f "${REPOROOT}"/repo/icon*/"${appid}".*
+    rm "${REPOROOT}/repo/${appid}"_[0-9]*.apk
+    # archive app sources
+    [[ -d "${REPOROOT}/build/${appid}" ]] && {
+      [[ -d "${REPOROOT}/build/${appid}/repo" ]] && {
+        pushd "${REPOROOT}/build/${appid}" >/dev/null
+        if tar cjf sources.tar.bz2 repo/*; then
+          rm -rf repo
+        else # if this failed, it is either empty or not there, so archive repo.bak if exists
+          [[ -d repo.bak ]] && tar cjf sources.tar.bz2 repo.bak/* && rm -rf repo.bak
+        fi
+        popd >/dev/null
+      }
+      mv "${REPOROOT}/build/${appid}" "${BUILD_ARCHIVE}/"
+    }
+    # archive graphics:
+    [[ -d "${REPOROOT}/repo/${appid}" ]] && {
+      [[ ! -d "${META_ARCHIVE}/${appid}" ]] && mkdir -p "${META_ARCHIVE}/${appid}"
+      mv "${REPOROOT}/repo/${appid}" "${META_ARCHIVE}/${appid}/images"
+    }
+  done
+  echo "Archiving completed."
+fi

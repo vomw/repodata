@@ -16,7 +16,7 @@ While we reorgnize our repository related processes to be controlled via this re
 
 * [x] making it available so you can see the underlying metadata
 * [x] allowing for PRs to _adjust existing_ metadata (e.g. updating URLs/developer data)
-* [ ] allowing for PRs to remove apps
+* [x] allowing for PRs to remove apps
 * [ ] allowing for PRs to add new apps
 
 At a later point, we also might introduce ways for more localization/translations.
