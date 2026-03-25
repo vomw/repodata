@@ -2,9 +2,6 @@ AntiFeatures:
   NonFreeNet:
     en-US: The app connects to traewelling.de for push, GitHub for Emoji fonts and line colors and OpenStreetMap and OpenRailwayMap for maps
     de-DE: Die App nutzt Verbindungen zu traewelling.de für Push Nachrichten, GitHub für Emoji Schriftarten und Linien Farben und OpenStreetMap & OpenRailwayMap für Karten
-  SourceArchived:
-    en-US: Upstream repo was archived 2026-03-02, there will be no updates anymore.
-    de: Das Quellrepo der App wurde am 2026-03-02 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Navigation
 License: AGPL-3.0-only
@@ -12,18 +9,18 @@ AuthorName: Jonas Heubuch
 AuthorEmail: app@traewelldroid.de
 AuthorWebSite: https://traewelldroid.de/
 WebSite: https://traewelldroid.de/
-SourceCode: https://github.com/Traewelldroid/traewelldroid
-IssueTracker: https://github.com/Traewelldroid/traewelldroid/issues
-Changelog: https://github.com/Traewelldroid/traewelldroid/releases
+SourceCode: https://codeberg.org/traewelldroid/traewelldroid
+IssueTracker: https://codeberg.org/traewelldroid/traewelldroid/issues
+Changelog: https://codeberg.org/traewelldroid/traewelldroid/releases
 
 AutoName: Träwelldroid
 ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2023-02-21
-  Method: github-release
+  Method: codeberg-release
   GHSkipPre: 1
-  Fastlane: https://github.com/Traewelldroid/traewelldroid/tree/dev/fastlane/metadata/android
+  Fastlane: https://codeberg.org/traewelldroid/traewelldroid/src/branch/dev/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
   Note: Fastlane is our starter-package
   DoubleList: keep
@@ -36,6 +33,7 @@ MaintainerNotes:
   Status:
     - 2024-01-13 updater reported usesCleartextTraffic, asked upstream at https://github.com/Traewelldroid/traewelldroid/issues/320
     - 2026-03-17 monthly check found repo archived; UCM Tags=>None
+    - 2026-03-26 Repo was moved to codeberg see readme.md at https://github.com/Traewelldroid/traewelldroid
 
 AllowedAPKSigningKeys: 989fb4f387a7ea95f56405841bbae8af0c14ddff0462a1c919d9119944b20efc
 
