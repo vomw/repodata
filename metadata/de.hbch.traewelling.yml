@@ -20,6 +20,7 @@ MaintainerNotes:
   AppAdded: 2023-02-21
   Method: codeberg-release
   GHSkipPre: 1
+  ApkMatch: /foss-release/i
   Fastlane: https://codeberg.org/traewelldroid/traewelldroid/src/branch/dev/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
   Note: Fastlane is our starter-package
