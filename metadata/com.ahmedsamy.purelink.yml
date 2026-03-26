@@ -18,8 +18,11 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   IntentFilterIgnore:
     android.accessibilityservice.AccessibilityService: required for the "Background Clipboard Monitor" feature
+  Status:
+    - 2026-03-18 APK missing at releases, see https://github.com/ahmedthebest31/PureLink-Android/issues/8
+    - 2026-03-26 still no APK nor a response, disabling updates for the app here (UCM Tags=>None) and at our RBs.
 
 AllowedAPKSigningKeys: eddae3441ba19e516cdcf04c73e99b0bc9550811269b834fabf96e60b36dff3b
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
