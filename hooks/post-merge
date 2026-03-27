@@ -48,10 +48,14 @@ if [[ -n "${deleted[*]}" ]]; then
     appid="$(basename "$app" .yml)"
     # archive metadata
     set +o pipefail
-    delcom="$(git log --format=%h --all -- "metadata/${appid}.yml" | head -n 1)" # get the commit that deleted the file. why does this fail with pipefail set?
+    delcom="$(git rev-list HEAD -- "metadata/${appid}.yml" | head -n 1)" # get the commit that deleted the file. why does this fail with pipefail set?
     set -o pipefail
+    delmsg="$(git rev-list --format=%B --max-count=1 --no-commit-header "$delcom")" # obtain the subject from the delete commit
+    # shellcheck disable=SC2206
+    delmsg_arr=($delmsg)
+    [[ ${delmsg[0]} =~ ^${appid}:?$ ]] && delmsg="${delmsg_arr[*]:1}" # commit message starts with packageName, so remove that
     # shellcheck disable=SC2086
-    git show ${delcom}~1:"metadata/${appid}.yml" 2>&1 | tools/updateRemovedAppMeta.py > "${META_ARCHIVE}/${appid}.yml" # we need this for our stats on removed apps
+    git cat-file -p ${delcom}~1:"metadata/${appid}.yml" 2>&1 | tools/updateRemovedAppMeta.py "${delmsg}" > "${META_ARCHIVE}/${appid}.yml" # we need this for our stats on removed apps
     [[ -d "${REPOROOT}/metadata/${appid}" ]] && {
       cp -a "${REPOROOT}/metadata/${appid}" "${META_ARCHIVE}/${appid}"
       #git rm -r "${REPOROOT}/metadata/${appid}" # just in case they were forgotten => git diff --name-only --diff-filter=D 'HEAD@{1}' HEAD | grep -q "metadata/${appid}/" || echo "metadata/${appid}/ was not removed!"
