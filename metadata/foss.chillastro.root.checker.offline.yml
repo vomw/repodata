@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: MIT
+AuthorName: Dev. Chill-Astro
+AuthorEmail: MasterArc3435@outlook.com
+SourceCode: https://github.com/Chill-Astro/FOSS-Root-Checker
+IssueTracker: https://github.com/Chill-Astro/FOSS-Root-Checker/issues
+Changelog: https://github.com/Chill-Astro/FOSS-Root-Checker/releases
+
+AutoName: Root Checker
+
+MaintainerNotes:
+  AppAdded: 2026-03-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /offline-release/i
+  Fastlane: https://github.com/Chill-Astro/FOSS-Root-Checker/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 2fee27bfab96a7529ddb05769a09a9b8933ca82ba82c2a0da37be47cfa45eb7d
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
