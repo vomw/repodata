@@ -1,0 +1,25 @@
+Categories:
+  - Theming
+License: Apache-2.0
+AuthorName: alesimula
+SourceCode: https://github.com/alesimula/Murine-launcher
+IssueTracker: https://github.com/alesimula/Murine-launcher/issues
+Changelog: https://github.com/alesimula/Murine-launcher/releases
+Donate: https://www.paypal.com/donate/?hosted_button_id=3HRAWU9KVYKKS
+
+AutoName: Launcher:3
+
+MaintainerNotes:
+  AppAdded: 2026-03-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/alesimula/Murine-launcher/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.REQUEST_DELETE_PACKAGES: to allow uninstalling unwanted apps directly from the launcher
+    android.permission.QUERY_ALL_PACKAGES: to allow listing all installed apps in the drawer
+
+AllowedAPKSigningKeys: 4ee045489a40c3072dca4ad7c50e30961c6256182511368c53a56a5acc07e2e5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
