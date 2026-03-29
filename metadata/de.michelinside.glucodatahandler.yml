@@ -20,6 +20,8 @@ MaintainerNotes:
   ApkIgnore: /(wear|second)/i
   Fastlane: https://github.com/pachi81/GlucoDataHandler/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /com/microtechmd/blecomm
   FlagIgnore:
     usesCleartextTraffic: used to access local http webserver provided by other apps to receive data from
   IntentFilterIgnore:

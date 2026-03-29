@@ -17,6 +17,8 @@ MaintainerNotes:
   Fastlane: https://github.com/AppFuton/Futon/blob/devel/metadata
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   DoubleList: keep
+  NameSpaces:
+    - /org/koitharu/kotatsu
   LibIgnore:
     - /io/sentry
   PermIgnore:

@@ -22,6 +22,8 @@ MaintainerNotes:
   ApkIgnore: /x86/i
   Fastlane: https://github.com/koiverse/ArchiveTune/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /kizzy/gateway
   PermIgnore:
     android.permission.RECORD_AUDIO: for the music recognision feature
     android.permission.READ_MEDIA_AUDIO: to access cached songs for offline playback

@@ -33,6 +33,7 @@ MaintainerNotes:
     - /com/iiordanov/aSPICE
     - /com/iiordanov/bVNC/dialogs
     - /com/iiordanov/bVNC/exceptions
+    - /com/iiordanov/bVNC/extrakeys
     - /com/iiordanov/bVNC/input
     - /com/iiordanov/bVNC/protocol
     - /com/iiordanov/CustomClientPackage
@@ -40,6 +41,7 @@ MaintainerNotes:
     - /com/iiordanov/freeaSPICE
     - /com/iiordanov/freebVNC
     - /com/iiordanov/jcraft/jzlib
+    - /com/iiordanov/permissions
     - /com/iiordanov/pubkeygenerator
     - /com/iiordanov/tigervnc/rfb
     - /com/iiordanov/util

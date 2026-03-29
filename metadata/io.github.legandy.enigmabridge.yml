@@ -16,6 +16,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/Legandy/EnigmaBridge/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /org/tvbrowser/devplugin
 
 AllowedAPKSigningKeys: 9bd7887e9682cf66299d0c6c535b415c98d0f7629c86e8749320bccf9c72a94c
 

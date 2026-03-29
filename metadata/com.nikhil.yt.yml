@@ -19,6 +19,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/nikhilvishwakarma00/Velune/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/my/kizzy
   FlagIgnore:
     usesCleartextTraffic: used for the Music Together feature with connections in the local network
   PermIgnore:

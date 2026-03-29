@@ -20,6 +20,9 @@ MaintainerNotes:
   ApkIgnore: /googleplay/i
   Fastlane: https://github.com/vitorpamplona/amethyst/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
+  NameSpaces:
+    - /com/vitorpamplona/ammolite
+    - /com/vitorpamplona/quartz
   FlagIgnore:
     usesCleartextTraffic: for using relays that are not secured, of which unfortunately there are plenty at Nostr
   PermIgnore:

@@ -16,6 +16,8 @@ MaintainerNotes:
   ApkMatch: /offline-release/i
   Fastlane: https://github.com/Chill-Astro/FOSS-Root-Checker/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /foss/chillastro/root/checker
 
 AllowedAPKSigningKeys: 2fee27bfab96a7529ddb05769a09a9b8933ca82ba82c2a0da37be47cfa45eb7d
 
