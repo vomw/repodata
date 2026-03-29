@@ -1,0 +1,22 @@
+Categories:
+  - Writing
+License: MIT
+AuthorName: Kaorun
+AuthorEmail: hotarunichijou@ik.me
+SourceCode: https://github.com/HotarunIchijou/Nouto
+IssueTracker: https://github.com/HotarunIchijou/Nouto/issues
+Changelog: https://github.com/HotarunIchijou/Nouto/releases
+
+AutoName: Nouto
+
+MaintainerNotes:
+  AppAdded: 2026-03-29
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/HotarunIchijou/Nouto/tree/master/fastline/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 8f62e51bb37fe1fd85da1c304be2a7b1a2b02004ece58656b59e793d4f57a262
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
