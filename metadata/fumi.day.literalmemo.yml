@@ -1,0 +1,26 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses Github.
+    de: Die App verwendet Github.
+Categories:
+  - Writing
+License: MIT
+AuthorName: fumi
+SourceCode: https://github.com/256x/memo
+IssueTracker: https://github.com/256x/memo/issues
+Changelog: https://github.com/256x/memo/releases
+
+AutoName: Literal Memo
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-03-30
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/256x/memo/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 4caac6d5219f68c3f554c08cdc460e8bf95850001a9ffea0dd7b1c443bacfcff
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
