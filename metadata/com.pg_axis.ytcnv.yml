@@ -1,0 +1,26 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to Youtube.
+    de: Die App verbindet sich mit Youtube.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Jan Sixta
+SourceCode: https://github.com/PGAxis/YTCnv
+IssueTracker: https://github.com/PGAxis/YTCnv/issues
+Changelog: https://github.com/PGAxis/YTCnv/releases
+
+AutoName: YouTube Convert
+
+MaintainerNotes:
+  AppAdded: 2026-03-31
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid/i
+  Fastlane: https://github.com/PGAxis/YTCnv/tree/main/fastlane/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: c9599ab3880f3bd6605aec122e8a9b068330ea6361e5071fd1180d26e2060bf1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
