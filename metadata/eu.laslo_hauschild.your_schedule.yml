@@ -16,7 +16,7 @@ MaintainerNotes:
   AppAdded: 2024-02-02
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /amr64-v8a/i
+  ApkMatch: /arm64-v8a/i
   Fastlane: https://github.com/Lasslos/your_schedule/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
@@ -26,8 +26,9 @@ MaintainerNotes:
     - 2024-02-02 asked about Sentry at https://github.com/Lasslos/your_schedule/issues/1
     - 2024-02-11 is now opt-in (asking for consent)
     - 2025-08-20 upstreaming our local fastlane metadata via https://github.com/Lasslos/your_schedule/pull/13
+    - 2026-03-31 MLKit was added, UCM Tags=>Static until solved – https://codeberg.org/IzzyOnDroid/repodata/issues/113
 
 AllowedAPKSigningKeys: 0775cfaec8744aa43f346cb86ebeee52a20dbec84cb05e1f52579b06646432f0
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
