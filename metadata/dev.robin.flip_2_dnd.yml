@@ -6,6 +6,7 @@ AuthorEmail: robinsrk3@gmail.com
 AuthorWebSite: https://robinsrk.netlify.app/
 SourceCode: https://github.com/robinsrk/flip_2_dnd
 IssueTracker: https://github.com/robinsrk/flip_2_dnd/issues
+Changelog: https://github.com/robinsrk/flip_2_dnd/releases
 
 AutoName: Flip 2 DND
 
@@ -16,6 +17,8 @@ MaintainerNotes:
   Fastlane: https://github.com/robinsrk/flip_2_dnd/blob/master/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   DoubleList: keep
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: to allow the app to turn screen off on Android 9 and higher
   Status:
     - 2024-12-07 v1.03 adds internet, usesCleartextTraffic – and a self-updater (opt-in but without explanations), tripling the app size – https://github.com/robinsrk/flip_2_dnd/issues/1
     - 2024-12-30 internet permission was removed, hence self-updater gone
