@@ -19,7 +19,6 @@ AutoName: ETH &amp; UZH canteens Zürich
 
 MaintainerNotes:
   AppAdded: 2020-12-05
-  Todo: 2026-03-23 remove old signing key 0aea822 and APKs with VC < 60
   AppRemoved: 2021-11-20 reached F-Droid
   AddedBack: 2025-03-18
   Method: github-release
@@ -34,10 +33,9 @@ MaintainerNotes:
   Status:
     - 2025-11-10 repo was archived
     - 2026-02-23 new maintainer continues at new repo (old was https://github.com/famoser/Mensa), but with different signing key
+    - 2026-03-31 old signing key and corresponding APKs removed
 
-AllowedAPKSigningKeys:
-  - 0aea822fa00a6dda8d754db9db1bd1b3e5adc90de4995b2ea111adeeb083159d
-  - 89b066a5e5ebce37aad9ae51c4fbbf3d57a6b2cd923e95b97d05a338f9268ce6
+AllowedAPKSigningKeys: 89b066a5e5ebce37aad9ae51c4fbbf3d57a6b2cd923e95b97d05a338f9268ce6
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
