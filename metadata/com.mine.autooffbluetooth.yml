@@ -18,6 +18,7 @@ MaintainerNotes:
     android.permission.BLUETOOTH: to allow the app to see the status of connections
     android.permission.BLUETOOTH_ADMIN: to allow the app to toggle the Bluetooth radio on/off
     android.permission.BLUETOOTH_CONNECT: to interact with paired devices (required for Android 12+)
+    android.permission.BLUETOOTH_SCAN: required on Android 12+ to monitor Bluetooth state reliably
 
 AllowedAPKSigningKeys: 2470748cbe6771f6c6e04a3f61dc4c0d82166a8ca2151e8e0ae3f64def0e9cd7
 
