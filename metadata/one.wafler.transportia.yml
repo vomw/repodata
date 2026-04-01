@@ -1,0 +1,28 @@
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Wafler
+AuthorEmail: contact@wafler.one
+AuthorWebSite: https://wafler.one/
+SourceCode: https://github.com/Wafler1/transportia
+IssueTracker: https://github.com/Wafler1/transportia/issues
+Changelog: https://github.com/Wafler1/transportia/releases
+
+AutoName: Transportia
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-04-01
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /transportia-arm64-v8a/i
+  Fastlane: https://github.com/Wafler1/transportia/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: to use the current location as starting point
+    android.permission.ACCESS_COARSE_LOCATION: to use the current location as starting point
+
+AllowedAPKSigningKeys: ef3d4b6c37e1a8ae148e66e080c49f5beae1c89389ae012865d6f3b6d489df21
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
