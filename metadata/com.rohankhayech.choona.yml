@@ -12,6 +12,7 @@ AutoName: Choona - Guitar Tuner
 MaintainerNotes:
   AppAdded: 2025-04-29
   Method: github-release
+  ApkMatch: /Android-Open/i
   GHSkipPre: 1
   Fastlane: https://github.com/rohankhayech/Choona/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
