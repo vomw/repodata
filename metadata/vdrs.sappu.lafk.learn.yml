@@ -19,6 +19,7 @@ MaintainerNotes:
   Note: Fastlane is our starter package
   Status:
     - 2025-03-23 last release 2024-02-08; UCM Tags=>Static
+    - 2026-04-01 signing key changed without notice – https://github.com/EkaAI-Tech/learn/issues/211
 
 AllowedAPKSigningKeys: 5c1100494e222e297ba4e2e6b90707a94bc1c9322dce6de38f25f311d3f93dd0
 
