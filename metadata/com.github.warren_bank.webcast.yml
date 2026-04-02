@@ -18,6 +18,7 @@ MaintainerNotes:
   AppAdded: 2019-07-30
   Method: github-release
   GHSkipPre: 1
+  Note: Warren [does not want to maintain fastlane](https://github.com/warren-bank/Android-Mock-Location/issues/31#issuecomment-4180570389), so we keep it locally here
   FlagIgnore:
     usesCleartextTraffic: to access plain http resources e.g. in local networks
   Status:

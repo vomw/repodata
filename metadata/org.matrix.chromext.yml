@@ -16,7 +16,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Status:
-    - 2025-08-23 upstreaming Fastlane via https://github.com/JingMatrix/ChromeXt/pull/265 – unfortunately still not merged 2025-11-13
+    - 2025-08-23 upstreaming Fastlane via https://github.com/JingMatrix/ChromeXt/pull/265 – unfortunately still not merged 2025-11-13, simply closed 2026-01-24, author not really interested in keeping it with us
 
 AllowedAPKSigningKeys: b10b03393e1f7df49a6dcd97cdb6478fb19cb5efd2024841be1129fd807697ed
 

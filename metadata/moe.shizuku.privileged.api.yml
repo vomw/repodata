@@ -18,7 +18,7 @@ MaintainerNotes:
   AppAdded: 2020-11-16
   Method: github-release
   GHSkipPre: 1
-  Note: explicit permission granted to us, see https://github.com/RikkaApps/Shizuku/issues/69#issuecomment-727717512
+  Note: explicit permission granted to us, see https://github.com/RikkaApps/Shizuku/issues/69#issuecomment-727717512 – but not interested in contributions (PRs seem to be generally ignored, they have over 40 pending, not a single one processed or even replied to)
   NameSpaces:
     - /moe/shizuku/manager
     - /moe/shizuku/starter

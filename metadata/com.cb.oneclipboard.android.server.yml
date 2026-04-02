@@ -12,6 +12,7 @@ MaintainerNotes:
   Method: codeberg-release
   GHSkipPre: 1
   ApkMatch: /AndroidServer.+release/i
+  Note: Warren [does not want to maintain fastlane](https://github.com/warren-bank/Android-Mock-Location/issues/31#issuecomment-4180570389), so we keep it locally here
   NameSpaces:
     - /com/cb/oneclipboard
   Status:

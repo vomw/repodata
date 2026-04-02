@@ -13,7 +13,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /withAllLanguageTranslations-noDecoderExtensions-release/i
-  Note: description taken from https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/issues/3 – ApkMatch grabs the only "fat build", withDecoder is only available per-ABI
+  Note: description taken from https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/issues/3 – ApkMatch grabs the only "fat build", withDecoder is only available per-ABI; Warren [does not want to maintain fastlane](https://github.com/warren-bank/Android-Mock-Location/issues/31#issuecomment-4180570389), so we keep it locally here
   X-AutoUpdateMode: Version v%v tag v2.0.16 => versionName 002.00.16-16API
   FlagIgnore:
     usesCleartextTraffic: needed for access with unencrypted connections in the local network

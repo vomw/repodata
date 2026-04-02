@@ -11,6 +11,7 @@ MaintainerNotes:
   AppAdded: 2022-12-07
   Method: github-release
   GHSkipPre: 1
+  Note: Warren [does not want to maintain fastlane](https://github.com/warren-bank/Android-Mock-Location/issues/31#issuecomment-4180570389), so we keep it locally here
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to access images for the screensaver
     android.permission.READ_MEDIA_IMAGES: needed on recent Android versions to access images for the screensaver

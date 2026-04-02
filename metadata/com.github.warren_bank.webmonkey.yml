@@ -13,6 +13,7 @@ MaintainerNotes:
   Todo: 0000-00-00 maybe switch to the full-flavored variant?
   Method: github-release
   GHSkipPre: 1
+  Note: Warren [does not want to maintain fastlane](https://github.com/warren-bank/Android-Mock-Location/issues/31#issuecomment-4180570389), so we keep it locally here
   FlagIgnore:
     usesCleartextTraffic: as a web browser, the app needs to support unencrypted http as well
   X-AutoUpdateMode: Version v%v Warren always uses strange versionCodes…
