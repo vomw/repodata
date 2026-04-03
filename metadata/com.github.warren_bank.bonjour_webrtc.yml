@@ -11,7 +11,7 @@ MaintainerNotes:
   AppAdded: 2023-01-20
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /AllLanguageTranslations-arm64/i
+  ApkMatch: /withAllLanguageTranslations-noExternalStorage-arm64-v8a/i
   Note: Warren [does not want to maintain fastlane](https://github.com/warren-bank/Android-Mock-Location/issues/31#issuecomment-4180570389), so we keep it locally here
   FlagIgnore:
     usesCleartextTraffic: for connections in the local network
@@ -28,4 +28,4 @@ MaintainerNotes:
 
 AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
 
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
