@@ -25,6 +25,8 @@ MaintainerNotes:
   Fastlane: https://github.com/pass-with-high-score/blockads-android/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Note: repo shows agent support; responsible use [confirmed by our team](https://codeberg.org/IzzyOnDroid/repodata/issues/35#issuecomment-11226232); /go/tunnel/gojni is [an own variant of GoTunnel](https://github.com/pass-with-high-score/blockads-android/issues/78)
+  LibIgnore:
+    - /io/sentry
   NameSpaces:
     - /go/tunnel/gojni
   IntentFilterIgnore:
@@ -34,6 +36,7 @@ MaintainerNotes:
   Status:
     - 2026-03-07 adds play-services-cronet, which additionally drags in GMS; UCM Tags=>Static until solved, see https://github.com/pass-with-high-score/blockads-android/issues/50
     - 2026-03-08 solved (cronet was replaced by kwik), UCM back to Tags
+    - 2026-04-03 Sentry is opt-in, hence added to LibIgnore
 
 AllowedAPKSigningKeys: 229ea49584360b22a8c7e7e530cfb7e1103faa1b6ba5f32837691fb96fdcfe5a
 
