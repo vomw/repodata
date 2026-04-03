@@ -1,0 +1,35 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on YouTube.
+    de: Die App benötigt YouTube.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: A-EDev
+WebSite: https://flow.aedev.me/
+SourceCode: https://github.com/A-EDev/Flow
+IssueTracker: https://github.com/A-EDev/Flow/issues
+Changelog: https://github.com/A-EDev/Flow/releases
+Bitcoin: bc1qgmkkxxvzvsymtpfazqfl93jw6k4jgy0xmrtnv8
+
+AutoName: Flow
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-04-03
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /flow-foss/i
+  Fastlane: https://github.com/A-EDev/Flow/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: required for the NewPipe Extractor to fetch stream metadata
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to auto recover downloaded videos if the app was deleted by mistake
+    android.permission.READ_MEDIA_VIDEO: to auto recover downloaded videos if the app was deleted by mistake
+    android.permission.MANAGE_EXTERNAL_STORAGE: to access storage for video downloads also for custom locations
+
+AllowedAPKSigningKeys: 4322294ed4caa2d4294140095818080ffe8acc1fbe3cdc76107df45c5286be40
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
