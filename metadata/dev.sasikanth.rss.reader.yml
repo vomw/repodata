@@ -1,7 +1,3 @@
-AntiFeatures:
-  Tracking:
-    en-US: The app uses Bugsnag which is enabled by default.
-    de: Die App verwendet Bugsnag, was standardmäßig aktiviert ist.
 Categories:
   - Reading
 License: GPL-3.0-only
@@ -30,7 +26,7 @@ MaintainerNotes:
     - 2025-09-06 v2.5.0 adds several proprietary components; rolled back the update and UCM Tags=>Static until solved, see https://github.com/msasikanth/twine/issues/1305
     - 2025-11-01 v2.8.0 was picked up by monthly check, still having the proprietary components; disabled updates entirely now.
     - 2026-01-06 dev prepared foss build flavor (see https://github.com/msasikanth/twine/pull/1431/files), waiting for next release
-    - 2026-04-03 all fine again, re-enabling updates
+    - 2026-04-03 all fine again, re-enabling updates and removing Tracking (Bugsnag gone with the foss flavor)
 
 AllowedAPKSigningKeys: e04b9411c5f1201b3c0781ee23d1a8e4c5f0aa74ceb643b1f74cc5b40211cddd
 
