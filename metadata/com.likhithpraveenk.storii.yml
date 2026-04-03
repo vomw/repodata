@@ -1,0 +1,26 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: Likhith Praveen K
+AuthorEmail: lpkatlagunta@gmail.com
+SourceCode: https://github.com/likhithpraveenk/storii
+IssueTracker: https://github.com/likhithpraveenk/storii/issues
+Changelog: https://github.com/likhithpraveenk/storii/releases
+
+AutoName: Storii
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-04-04
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64/i
+  Fastlane: https://github.com/likhithpraveenk/storii/tree/main/metadata/android
+  FastlaneFeatures: video,title,shortdesc,fulldescMD,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: to connect to instances in the local network
+
+AllowedAPKSigningKeys: 94732296445ca0c2511fac8a6f744b87fed67ced37d16428ef88985e0ba8676a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
