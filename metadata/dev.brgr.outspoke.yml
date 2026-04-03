@@ -1,0 +1,31 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: Depends on HugginFace to download models.
+    de: Benötigt HugginFace zum Download von Sprachmodellen.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: minburg
+SourceCode: https://github.com/minburg/outspoke
+IssueTracker: https://github.com/minburg/outspoke/issues
+
+AutoName: Outspoke
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-04-03
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/minburg/outspoke/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  IntentFilterIgnore:
+    android.view.InputMethod: this app acts as an input method
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed for voice input
+
+AllowedAPKSigningKeys: 1ee2433ebf79584200fbfcf01cf323e5876fd49139570fe690448e7c3304e388
+
+VercodeOperation: '(%c -2) / 10'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
