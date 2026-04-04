@@ -19,9 +19,10 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Status:
     - 2026-04-03 v1.0.3 comes with GMS; UCM Tags=>Static until cleared – https://github.com/sidhant947/Path/issues/5
+    - 2026-04-04 v1.0.4 has GMS removed again, UCM back to Tags
 
 AllowedAPKSigningKeys: 5e4c3403e16cc60217d29e89773e31656aa77f407f1f3210bd80c370e5413379
 
 VercodeOperation: '%c -2000'
 AutoUpdateMode: Version V%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
