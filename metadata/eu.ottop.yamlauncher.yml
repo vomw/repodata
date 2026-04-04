@@ -27,9 +27,9 @@ MaintainerNotes:
   Status:
     - 2026-03-25 repo and account gone from Github, reached out via Mastodon
     - 2026-03-26 no response, so UCM Tags=>None for now. Code is available at https://codeberg.org/thomasboom/YAM-Launcher still, but no releases there. https://codeberg.org/thomasboom/YAM-Launcher/issues/88
+    - 2026-04-04 all set again, re-enabling updates
 
 AllowedAPKSigningKeys: be988b6bb056e6cdf0bb41d8d8fcdceb966fc404b76504d469dbfcf1e6c867a3
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
-
+UpdateCheckMode: Tags
