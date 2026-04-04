@@ -24,6 +24,7 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   NameSpaces:
     - /com/zionhuang/innertube
+    - /it/fast4x/androidyoutubeplayer
     - /it/fast4x/audiotaginfo
     - /it/fast4x/environment
     - /it/fast4x/kugou

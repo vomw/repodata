@@ -17,6 +17,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/binarynoise/XposedModulets/blob/main/metadata/de.binarynoise.AutomaticAdvancedSettingsExpander
   FastlaneFeatures: title,shortdesc,fulldescMD,screenshots
+  NameSpaces:
+    - /de/binarynoise/logger
   Status:
     - 2023-07-13 UCM Tags => Static (last release 2/2022, last commit 4/2023)
     - 2023-10-02 preparing to switch to new repo https://github.com/binarynoise/XposedModulets containing multiple modules, each having its own tag prefix https://github.com/binarynoise/XposedModulets/pull/1

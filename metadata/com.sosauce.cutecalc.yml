@@ -18,6 +18,8 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
   Note: Fastlane is our starter package
   DoubleList: keep
+  NameSpaces:
+    - /com/sosauce/vanilla
 
 AllowedAPKSigningKeys: fd2d95cdb348b2f1aebedbab879ced737385ee13c305a139d6580d4cf2c0d65a
 

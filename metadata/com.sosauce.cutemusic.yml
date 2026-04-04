@@ -17,6 +17,8 @@ MaintainerNotes:
   Fastlane: https://github.com/sosauce/CuteMusic/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
+  NameSpaces:
+    - /com/sosauce/chocola
   PermIgnore:
     android.permission.READ_MEDIA_AUDIO: needed on newer Android versions to access music files
     android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to access music files

@@ -25,6 +25,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/metabrainz/listenbrainz-android/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,video,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /org/listenbrainz
   PermIgnore:
     android.permission.READ_MEDIA_AUDIO: needed on newer Android versions to access local music files to play
     android.permission.READ_EXTERNAL_STORAGE: needed on older Android versions to access local music files to play
