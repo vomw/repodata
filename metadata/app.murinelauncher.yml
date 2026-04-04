@@ -19,7 +19,7 @@ MaintainerNotes:
   NameSpaces:
     - /app/lawnchair/icons
   IntentFilterIgnore:
-    android.accessibilityservice.AccessibilityService: used (opt-in) for enabling double tap to sleep
+    android.accessibilityservice.AccessibilityService: used (opt-in) for enabling double tap to sleep, and for navigation gestures
   PermIgnore:
     android.permission.REQUEST_DELETE_PACKAGES: to allow uninstalling unwanted apps directly from the launcher
     android.permission.QUERY_ALL_PACKAGES: to allow listing all installed apps in the drawer
