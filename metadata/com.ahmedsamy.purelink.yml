@@ -21,8 +21,9 @@ MaintainerNotes:
   Status:
     - 2026-03-18 APK missing at releases, see https://github.com/ahmedthebest31/PureLink-Android/issues/8
     - 2026-03-26 still no APK nor a response, disabling updates for the app here (UCM Tags=>None) and at our RBs.
+    - 2026-04-04 APKs are available again, re-enable update checks.
 
 AllowedAPKSigningKeys: eddae3441ba19e516cdcf04c73e99b0bc9550811269b834fabf96e60b36dff3b
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
