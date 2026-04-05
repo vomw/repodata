@@ -1,0 +1,26 @@
+Categories:
+  - Theming
+  - Religion
+License: Apache-2.0
+AuthorName: Samuel
+SourceCode: https://github.com/DaKlok/BibleLockScreen
+IssueTracker: https://github.com/DaKlok/BibleLockScreen/issues
+Changelog: https://github.com/DaKlok/BibleLockScreen/releases
+
+AutoName: BibleLockScreen
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-04-06
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/DaKlok/BibleLockScreen/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_IMAGES: needed to load images for the lock screen
+    android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to load images for the lock screen
+
+AllowedAPKSigningKeys: 3746ebbe2f387752148cbe59d1faeaf749180e03dca05800d80bbf449632a9d7
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
