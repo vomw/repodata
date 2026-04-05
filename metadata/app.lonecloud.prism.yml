@@ -15,6 +15,8 @@ MaintainerNotes:
   Note: GitLab account https://gitlab.com/lone-cloud
   Fastlane: https://github.com/lone-cloud/prism-android/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list apps
 
 AllowedAPKSigningKeys: fd2986457a6a6e4dd9056b3ca5a69e0edfd5aa9dd45b3d78db21e8ad72fbaead
 
