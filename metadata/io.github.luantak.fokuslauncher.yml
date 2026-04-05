@@ -17,6 +17,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/luantak/FokusLauncher/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: needed for double tap to lock & return home after long lock
   PermIgnore:
     android.permission.REQUEST_DELETE_PACKAGES: to remove unwanted apps right from the launcher
     android.permission.ACCESS_COARSE_LOCATION: needed for the optional weather widget
