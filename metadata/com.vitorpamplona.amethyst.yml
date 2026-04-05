@@ -1,3 +1,7 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes the Android-Kotlin-Geohash library, which has no license declared.
+    de: Die App enthält die Android-Kotlin-Geohash Bibliothek, welche keine Lizenz deklariert hat.
 Categories:
   - Messaging
   - Internet
