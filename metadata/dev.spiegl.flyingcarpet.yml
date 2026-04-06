@@ -9,6 +9,7 @@ IssueTracker: https://github.com/spieglt/FlyingCarpet/issues
 Changelog: https://github.com/spieglt/FlyingCarpet/releases
 
 AutoName: Flying Carpet File Transfer
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-01-22

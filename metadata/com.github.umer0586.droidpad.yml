@@ -7,6 +7,7 @@ IssueTracker: https://github.com/UmerCodez/DroidPad/issues
 Changelog: https://github.com/UmerCodez/DroidPad/releases
 
 AutoName: Droid Pad
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2025-01-10

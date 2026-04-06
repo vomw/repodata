@@ -11,6 +11,7 @@ Translation: https://hosted.weblate.org/projects/capy-reader
 Changelog: https://github.com/jocmp/capyreader/releases
 
 AutoName: Capy Reader
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-07-09
