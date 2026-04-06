@@ -31,6 +31,7 @@ MaintainerNotes:
   Status:
     - 2024-02-07 scanner reports usesCleartextTraffic READ_EXTERNAL_STORAGE – https://github.com/NO-ob/LoliSnatcher_Droid/issues/245
     - 2025-08-11 upstreaming our Fastlane via https://github.com/NO-ob/LoliSnatcher_Droid/pull/340
+    - 2026-04-06 APK size now at 70 MB. Asked for options at https://github.com/NO-ob/LoliSnatcher_Droid/issues/379
 
 AllowedAPKSigningKeys: e1b0cf8cf51b1f3adb6bce0843aec410a1d8ee037b1d1973bbf75c451b2b80cb
 

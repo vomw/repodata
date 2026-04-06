@@ -23,6 +23,7 @@ MaintainerNotes:
   Status:
     - 2024-07-07 scanner reports DEPENDENCY_INFO_BLOCK android.permission.READ_EXTERNAL_STORAGE* – https://github.com/CarGuo/gsy_github_app_flutter/issues/890
     - 2025-10-01 upstreaming our Fastlane via https://github.com/CarGuo/gsy_github_app_flutter/pull/923
+    - 2026-04-06 APK size above 35 MB now, asked for making them smaller at https://github.com/CarGuo/gsy_github_app_flutter/issues/937
 
 AllowedAPKSigningKeys: 374ef6e428ebe4b908a072833e681adc9784d87559824ce3efdb14ed77cc4962
 

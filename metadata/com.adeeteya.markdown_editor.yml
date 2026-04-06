@@ -26,6 +26,7 @@ MaintainerNotes:
     - 2025-03-23 last release 2023-12-21, last commit 2024-02-18; UCM Tags=>Static
     - 2025-07-19 sent our fastlane de locale upstream via https://github.com/adeeteya/FlutterMarkdownEditor/pull/20
     - 2025-11-10 3 releases in the past 6 months, UCM=Tags again
+    - 2026-04-06 APK size beyond 60 MB now, asked for per-ABI builds at https://github.com/adeeteya/FlutterMarkdownEditor/issues/54
 
 AllowedAPKSigningKeys: 8d8c4d516d598515de6a4b068a922f69b239bcde90b0d1ec91d740d7879dac53
 

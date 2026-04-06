@@ -42,6 +42,7 @@ MaintainerNotes:
     - 2024-07-07 scanner reports CAMERA READ_PHONE_STATE – https://github.com/smswithoutborders/SMSWithoutBorders-App-Android/issues/101
     - 2025-04-07 android.permission.READ_CONTACTS
     - 2025-10-23 AFs now seem to be obfuscated; Fido, PlayCore, GMS still show up with extended smali scan, APK also contains PlayService files
+    - 2026-04-06 APK size now passed 60 MB, asking for per-ABI builds at https://github.com/smswithoutborders/RelaySMS-Android/issues/282
 
 AllowedAPKSigningKeys: dee0522c2f17d711e6b468bf212abfd10d346350c8df41c4d474d34c33fc01fc
 

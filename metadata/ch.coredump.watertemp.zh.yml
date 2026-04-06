@@ -32,6 +32,7 @@ MaintainerNotes:
     - 2023-08-28 uses Mapbox libre, hence the LibIgnore; bound to https://github.com/gfroerli/api/ and not yet changeable in the app (TetheredNet)
     - 2024-04-20 scanner reports ACCESS_COARSE_LOCATION ACCESS_FINE_LOCATION DEPENDENCY_INFO_BLOCK – https://github.com/gfroerli/app-android/issues/65
     - 2025-05-19 no commits since 2024-05-10, UCM Tags=>Static
+    - 2026-04-06 APK size at 65 MB now, asked for per-ABI builds at https://github.com/gfroerli/app-android/issues/150
 
 AllowedAPKSigningKeys: b9a5bcc08afa69200aa6aa84b4a03bac8f3a63c98c86a2d4cbc826a0f73d1971
 

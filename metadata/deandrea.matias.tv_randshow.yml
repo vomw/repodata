@@ -30,6 +30,7 @@ MaintainerNotes:
   Status:
     - 2023-07-13 APKs missing from last 2 releases https://github.com/deandreamatias/tv-randshow/issues/9
     - 2025-08-19 upstreaming our fastlane metadata via https://github.com/deandreamatias/tv-randshow/pull/16
+    - 2026-04-06 APK size beyond 60 MB now, asking for per-ABI builds at https://github.com/deandreamatias/tv-randshow/issues/21
 
 AllowedAPKSigningKeys: e0caa5dd9f265a145581faf1c6a25db606fed011df5b824e4cdc4a46e05c861e
 
