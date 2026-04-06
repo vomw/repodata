@@ -10,15 +10,16 @@ AutoName: WebMonkey
 
 MaintainerNotes:
   AppAdded: 2020-10-20
-  Todo: 0000-00-00 maybe switch to the full-flavored variant?
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /withAllLanguageTranslations-withAdBlock/i
   Note: Warren [does not want to maintain fastlane](https://github.com/warren-bank/Android-Mock-Location/issues/31#issuecomment-4180570389), so we keep it locally here
   FlagIgnore:
     usesCleartextTraffic: as a web browser, the app needs to support unencrypted http as well
   X-AutoUpdateMode: Version v%v Warren always uses strange versionCodes…
   Status:
     - 2024-11-13 Warren provides 4 builds. Currently, our updater picks the first one, which is english-noAdBlock-release.apk – we might wish to switch to the withAllLanguageTranslations-withAdBlock-release.apk variant. Both are covered by RB
+    - 2026-04-07 switching to the withAllLanguageTranslations-withAdBlock variant after [discussion with Warren](https://github.com/warren-bank/Android-Bonjour-WebRTC/issues/10#issuecomment-4185468449)
 
 AllowedAPKSigningKeys: 7c2a9c3e54cff3cbe6f9f7293aeec465403b2350e03ff85cd0dd32a23d001cee
 
