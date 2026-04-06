@@ -8,6 +8,7 @@ IssueTracker: https://github.com/Johboh/hassalarm/issues
 Changelog: https://github.com/Johboh/hassalarm/releases
 
 AutoName: Hassalarm
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2023-03-26
