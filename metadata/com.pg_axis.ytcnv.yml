@@ -17,7 +17,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /fdroid/i
-  Fastlane: https://github.com/PGAxis/YTCnv/tree/main/fastlane/android
+  Fastlane: https://github.com/PGAxis/YTCnv/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
 
 AllowedAPKSigningKeys: c9599ab3880f3bd6605aec122e8a9b068330ea6361e5071fd1180d26e2060bf1
