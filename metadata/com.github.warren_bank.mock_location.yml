@@ -12,7 +12,7 @@ MaintainerNotes:
   AppAdded: 2020-10-20
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /withAospLocation/i
+  ApkMatch: /withAospLocation.*noBackup/i
   ManualHint: uses tag names with slashes in ("service/v02.01.08" for versionName "002.01.08-03API")
   Note: Warren [does not want to maintain fastlane](https://github.com/warren-bank/Android-Mock-Location/issues/31#issuecomment-4180570389), so we keep it locally here
   PermIgnore:
