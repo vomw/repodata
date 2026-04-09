@@ -25,7 +25,6 @@ MaintainerNotes:
     android.permission.INTERNET: to optionally fetch weather from OpenMeteo
     android.permission.ACCESS_HIDDEN_PROFILES: for a private Space apps in the drawer when unlocked
     android.permission.EXPAND_STATUS_BAR: to open notification shade from swipe-down gestures
-    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: to optionally disable battery optimization (required for return home after long lock)
     android.permission.SET_WALLPAPER: to set image or solid black wallpaper from settings
 
 AllowedAPKSigningKeys: 79351d7edaa5e54b339c1c9be68e3f08bcdb97dc7e82912916df6038557ebe48
