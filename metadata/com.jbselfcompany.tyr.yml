@@ -18,8 +18,11 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.CAMERA: needed by the integrated QR code scanner
+    android.permission.READ_MEDIA_IMAGES: needed to allow picking images to send in chat
+    android.permission.READ_MEDIA_VIDEO: needed to allow picking videos to send in chat
+    android.permission.READ_EXTERNAL_STORAGE: needed on some Android versions to allow picking media to send in chat
   Status:
-    - 2026-04-08 1.8.0 adds sensitive permissions CAMERA, android.permission.READ_EXTERNAL_STORAGE android.permission.READ_MEDIA_IMAGES android.permission.READ_MEDIA_VIDEO – https://github.com/JB-SelfCompany/Tyr/issues/35
+    - 2026-04-08 1.8.0 adds sensitive permissions CAMERA, READ_EXTERNAL_STORAGE, READ_MEDIA_IMAGES, READ_MEDIA_VIDEO – https://github.com/JB-SelfCompany/Tyr/issues/35
 
 AllowedAPKSigningKeys: 5bae87767727de3d39600125f6263e515a6987f1faa972527598a9b1fda4f69e
 
