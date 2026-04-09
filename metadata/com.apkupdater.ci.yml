@@ -1,0 +1,40 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app connects to several non-libre services (e.g. Google Play, Uptodown).
+    de: Die App verbindet sich mit nicht-freien Netzwerkdiensten wie Google Play, Uptodown und weiteren.
+  Tracking:
+    en-US: The app uses the GPlayAPI.
+    de: Die App verwendet die GPlayAPI.
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: rumboalla
+SourceCode: https://github.com/rumboalla/apkupdater
+IssueTracker: https://github.com/rumboalla/apkupdater/issues
+Translation: https://poeditor.com/join/project/NWTNMrPFj8
+Changelog: https://github.com/rumboalla/apkupdater/releases
+
+AutoName: APKUpdater
+
+MaintainerNotes:
+  AppAdded: 2017-02-26
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/rumboalla/apkupdater/tree/3.x/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: needed to install the updates
+    android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: for seemless updates
+    android.permission.QUERY_ALL_PACKAGES: needed to see what apps are there that might have updates
+  Status:
+    - 2019-11-01 seems like dev picked up again
+    - 2020-02-12 removed Ads + Tracking as StartApp was removed with v2.0.4, see https://github.com/rumboalla/apkupdater/issues/285
+    - 2022-05-01 no commit since 3/2021, switching UCM from Tags to Static
+    - 2022-07-28 added back Tracking as ACRA was discovered defaulting to opt-out
+    - 2023-08-01 development picked up again (added GHSkipPre 1 as alphas were fetched), applicationId seemingly changed to com.apkupdater3 = v3.x; APK size grew vrom 3 to 13 MB (Alpha-12)
+    - 2023-08-13 UCM Static => Tags again, new release(s) available
+    - 2026-04-09 rebranded from com.apkupdater
+
+AllowedAPKSigningKeys: 7294a15b12efb0ffe7d6f29f9a032329a681a05a5730309cc6f9bf387764b559
+
+UpdateCheckMode: Tags
