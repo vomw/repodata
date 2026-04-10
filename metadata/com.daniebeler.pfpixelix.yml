@@ -21,6 +21,8 @@ MaintainerNotes:
   Fastlane: https://github.com/ghostbyte-dev/pixelix/blob/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
+  Status:
+    - 2026-04-09 v4.3.3 requests android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE – https://github.com/ghostbyte-dev/pixelix/issues/366
 
 AllowedAPKSigningKeys: 6a23d7a34702add1c069faf381b60f2049e238537ce76c6dcc89b7c636f59228
 
