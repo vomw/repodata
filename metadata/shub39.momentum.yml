@@ -1,0 +1,25 @@
+Categories:
+  - Graphics
+License: GPL-3.0-only
+AuthorName: Shubham
+AuthorEmail: cptnshubham39@gmail.com
+AuthorWebSite: https://shub39.netlify.app/
+SourceCode: https://github.com/shub39/Momentum
+IssueTracker: https://github.com/shub39/Momentum/issues
+Changelog: https://github.com/shub39/Momentum/releases
+
+AutoName: Momentum
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-04-10
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-arm64/i
+  Fastlane: https://github.com/shub39/Momentum/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 0fe1b9f44a4db97ec50948f5189f6b4300716cc6d4843f5698d614a2152e2188
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
