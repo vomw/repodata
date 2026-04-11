@@ -110,8 +110,7 @@ body:
     attributes:
       value: |
         ---
-        ### Technical instructions & AI Tools Usage
-        *If any "AI" tools were used during the development of this app, please fill in the "AI"-related fields below. This section is optional but encouraged for transparency.*
+        ### Technical instructions
 
   - type: textarea
     id: build-instructions
@@ -121,6 +120,13 @@ body:
       placeholder: 'Step-by-step instructions for building the app...'
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### AI Tools Usage
+        *If any "AI" tools were used during the development of this app, please fill the following fields below.*
 
   - type: dropdown
     id: ai-assistance-level
