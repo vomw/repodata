@@ -116,8 +116,8 @@ body:
     id: build-instructions
     attributes:
       label: 'Build instructions'
-      description: 'Provide clear instructions on how to build the app from source'
-      placeholder: 'Step-by-step instructions for building the app...'
+      description: 'Provide clear instructions on how to build the app from source at the command line.'
+      placeholder: 'Step-by-step CLI instructions for building the app...'
     validations:
       required: true
 
