@@ -15,7 +15,7 @@ MaintainerNotes:
   Todo: 2026-03-19 check if auto-update handling is adjusted, else app needs to be removed; see https://github.com/deniscerri/ytdlnis/issues/393#issuecomment-4049746732
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /arm64-v8a/i
+  ApkMatch: /foss-arm64-v8a/i
   ApkIgnore: /(universal|x86)/i
   DoubleList: keep
   PermIgnore:
