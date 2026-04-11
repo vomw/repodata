@@ -23,6 +23,8 @@ MaintainerNotes:
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to list all apps in the app drawer
     android.permission.REQUEST_DELETE_PACKAGES: to allow uninstalling unwanted apps directly from the drawer
+  Status:
+    - 2026-04-11 android.permission.REQUEST_INSTALL_PACKAGES android.permission.SYSTEM_ALERT_WINDOW android.permission.READ_PHONE_STATE – https://github.com/Elnix90/Dragon-Launcher/issues/239#issuecomment-4229966271
 
 AllowedAPKSigningKeys: 63068d94e01eeae50efcb2a0c43dfa8ac503a421cdeaf353d45b69ab933c0a06
 
