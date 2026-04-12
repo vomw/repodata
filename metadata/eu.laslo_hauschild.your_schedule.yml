@@ -22,13 +22,16 @@ MaintainerNotes:
   Note: Fastlane is our starter package
   LibIgnore:
     - /io/sentry
+  PermIgnore:
+    android.permission.CAMERA: needed for the built-in QR code scanner
   Status:
     - 2024-02-02 asked about Sentry at https://github.com/Lasslos/your_schedule/issues/1
     - 2024-02-11 is now opt-in (asking for consent)
     - 2025-08-20 upstreaming our local fastlane metadata via https://github.com/Lasslos/your_schedule/pull/13
     - 2026-03-31 MLKit was added, UCM Tags=>Static until solved – https://codeberg.org/IzzyOnDroid/repodata/issues/113
+    - 2026-04-12 all issues solved, re-enabling daily update check
 
 AllowedAPKSigningKeys: 0775cfaec8744aa43f346cb86ebeee52a20dbec84cb05e1f52579b06646432f0
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
