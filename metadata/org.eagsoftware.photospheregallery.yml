@@ -21,8 +21,12 @@ MaintainerNotes:
   PermIgnore:
     android.permission.READ_MEDIA_IMAGES: needed to access the photos in e.g. DCIM
     android.permission.READ_EXTERNAL_STORAGE: to access photos elsewhere
+  Status:
+    - 2026-04-12 signing key changed, confirmed already in the past, see https://codeberg.org/minardil/PhotoSphereGallery/issues/2
 
-AllowedAPKSigningKeys: 47c264bc2229f09545eda019d27614887e07b905606ef258619467292c2d4b5b
+AllowedAPKSigningKeys:
+  - 47c264bc2229f09545eda019d27614887e07b905606ef258619467292c2d4b5b
+  - afbd67fad9be2807411fc238f8c28bc68710220c4a22781ebaacebc3e9ef282f
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
