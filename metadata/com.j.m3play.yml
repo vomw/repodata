@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on YouTube.
+    de: Die App benötigt YouTube.
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Jay Chaudhary
+WebSite: https://m3-play.vercel.app/
+SourceCode: https://github.com/JAY01-CYBER/M3-Play
+IssueTracker: https://github.com/JAY01-CYBER/M3-Play/issues
+Changelog: https://github.com/JAY01-CYBER/M3-Play/releases
+
+AutoName: M3Play
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-04-12
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /universal-release/i
+  Fastlane: https://github.com/JAY01-CYBER/M3-Play/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: needed to access local audio files
+    android.permission.READ_EXTERNAL_STORAGE: needed on some Android versions to access local audio files
+    android.permission.RECORD_AUDIO: used for the Music Recognition feature
+
+AllowedAPKSigningKeys: 9df06061266e4b9d9846d13a0f49d9a75315d30c74c5f47ea12f830ad09036cb
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
