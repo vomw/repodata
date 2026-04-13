@@ -14,6 +14,7 @@ AutoName: Screen Recorder
 
 MaintainerNotes:
   AppAdded: 2026-03-24
+  AppRemoved: 2026-04-14 app violates our AI policy
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder/tree/master/fastlane/metadata/android
@@ -23,6 +24,8 @@ MaintainerNotes:
     android.permission.SYSTEM_ALERT_WINDOW: to show a "floating pill" overlay on running recordings
     android.permission.READ_MEDIA_VIDEO: to read recordings
     android.permission.READ_EXTERNAL_STORAGE: to read recordings on Android 12 and below
+  Status:
+    - 2026-04-14 app violates our AI policy, see https://codeberg.org/IzzyOnDroid/repodata/issues/135#issuecomment-12988152
 
 AllowedAPKSigningKeys: 1dfe42c1b2f04ac3ca57ed395c182edc59c4b13950fda28371d9a5dca302d0e2
 
