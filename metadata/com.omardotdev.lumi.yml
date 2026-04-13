@@ -18,8 +18,9 @@ MaintainerNotes:
   Status:
     - 2025-11-15 APK at release 1.1.7 uses wrong signing key, see https://github.com/omardotdev/lumi/issues/2 – UCM Tags=>Static until solved
     - 2025-11-16 solved (original key was restored)
+    - 2026-04-14 v1.2.0 comes with wrong signing key, see https://github.com/omardotdev/lumi/issues/4 – UCM Tags=>Static for now
 
 AllowedAPKSigningKeys: b780aa1d8ed1aef3367d9fa1725e422800c327b6ef8e165917d56eb643032151
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
