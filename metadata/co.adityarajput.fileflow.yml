@@ -13,6 +13,7 @@ MaintainerNotes:
   AppAdded: 2026-03-01
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /FileFlow_v/i
   Fastlane: https://github.com/BURG3R5/FileFlow/tree/dev/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   PermIgnore:
