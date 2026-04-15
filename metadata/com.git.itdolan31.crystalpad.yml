@@ -1,0 +1,20 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: Артём
+SourceCode: https://github.com/itdolan31/crystalpad
+IssueTracker: https://github.com/itdolan31/crystalpad/issues
+
+AutoName: Crystalpad
+
+MaintainerNotes:
+  AppAdded: 2026-04-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/itdolan31/crystalpad/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 724cc065183b7358917abdef21d8064cfcf397c127c15e77a577dde187957c6a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
