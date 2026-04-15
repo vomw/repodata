@@ -19,7 +19,10 @@ MaintainerNotes:
   Fastlane: https://github.com/T8RIN/ImageToolbox/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
   NameSpaces:
+    - /com/t8rin/cropper
+    - /com/t8rin/gesture
     - /com/t8rin/imagetoolbox
+    - /com/t8rin/snowfall
   FlagIgnore:
     usesCleartextTraffic: to scrape images from non-https websites, too
   PermIgnore:

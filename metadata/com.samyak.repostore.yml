@@ -16,6 +16,8 @@ MaintainerNotes:
   AppAdded: 2026-01-19
   Method: github-release
   GHSkipPre: 1
+  NameSpaces:
+    - /com/samyak/gitcore
   Fastlane: https://github.com/samyak2403/RepoStore/blob/v1.0.6/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
   PermIgnore:

@@ -24,6 +24,7 @@ MaintainerNotes:
     android.permission.SYSTEM_ALERT_WINDOW: needed for the Pip (picture-in-picture) feature
   NameSpaces:
     - /app/player/mpv
+    - /app/server
     - /com/chromaticnoob/colorpreference
     - /com/reddnek/syncplay
     - /com/yuroyami/syncplay

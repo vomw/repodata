@@ -18,6 +18,7 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
   NameSpaces:
+    - /com/valhalla/bypass
     - /com/valhalla/superuser
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to find the apps to handle

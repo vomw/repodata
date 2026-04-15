@@ -22,6 +22,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/rumboalla/apkupdater/tree/3.x/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  NameSpaces:
+    - /com/apkupdater
   PermIgnore:
     android.permission.REQUEST_INSTALL_PACKAGES: needed to install the updates
     android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: for seemless updates

@@ -19,6 +19,8 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /universal-release/i
+  NameSpaces:
+    - /com/my/kizzy
   Fastlane: https://github.com/JAY01-CYBER/M3-Play/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   PermIgnore:

@@ -23,6 +23,7 @@ MaintainerNotes:
   Fastlane: https://github.com/koiverse/ArchiveTune/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   NameSpaces:
+    - /com/my/kizzy
     - /kizzy/gateway
   PermIgnore:
     android.permission.RECORD_AUDIO: for the music recognision feature

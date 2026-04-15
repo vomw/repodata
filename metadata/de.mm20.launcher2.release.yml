@@ -25,6 +25,13 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,screenshotsJPG
   DoubleList: keep
   DoubleListRef: https://github.com/MM2-0/Kvaesitso/issues/227#issuecomment-1555982694
+  NameSpaces:
+    - /com/google/android/libraries/launcherclient
+    - /de/mm20/launcher2
+    - /hct
+    - /palettes
+    - /scheme
+    - /utils
   FlagIgnore:
     usesCleartextTraffic: used for (local) unencrypted Nextcloud / Mediawiki instances for Nextcloud/Wikipedia search
   IntentFilterIgnore:
@@ -40,12 +47,6 @@ MaintainerNotes:
     android.permission.READ_CONTACTS: used by the app’s search feature
     android.permission.READ_EXTERNAL_STORAGE: used for local file search
     android.permission.MANAGE_EXTERNAL_STORAGE: used for local file search
-  NameSpaces:
-    - /de/mm20/launcher2
-    - /hct
-    - /palettes
-    - /scheme
-    - /utils
   Status:
     - 2023-01-21 reached F-Droid
     - 2023-05-20 asked if it shall be kept here https://github.com/MM2-0/Kvaesitso/issues/227#issuecomment-1555973218 as versions differ (F-Droid has the non-FOSS parts removed). Prompt answer, keep.
