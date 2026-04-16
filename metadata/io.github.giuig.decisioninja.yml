@@ -1,0 +1,24 @@
+Categories:
+  - Games
+License: GPL-3.0-only
+AuthorName: Giuig
+SourceCode: https://github.com/Giuig/decisioninja
+IssueTracker: https://github.com/Giuig/decisioninja/issues
+Changelog: https://github.com/Giuig/decisioninja/releases
+Donate: https://ko-fi.com/giuig
+
+AutoName: Decisioninja
+
+MaintainerNotes:
+  AppAdded: 2026-04-16
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/Giuig/decisioninja/tree/main/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: a84de9754f6537685abb56cb73e066ff0d0cc0e9c1ef6b29a4dba1de493cd4d4
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
