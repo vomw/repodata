@@ -15,7 +15,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/auag0/HideMockLocation/tree/master/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD
+  FastlaneFeatures: shortdesc,fulldescMD,icon
   Note: Fastlane is our starter package
   Status:
     - 2025-11-13 found repo archived 2025-11-02
