@@ -5,10 +5,10 @@ License: MIT
 AuthorName: Zane Schepke
 AuthorEmail: support@wgtunnel.com
 WebSite: https://wgtunnel.com/
-SourceCode: https://github.com/wgtunnel/wgtunnel
-IssueTracker: https://github.com/wgtunnel/wgtunnel/issues
+SourceCode: https://github.com/wgtunnel/android
+IssueTracker: https://github.com/wgtunnel/android/issues
 Translation: https://hosted.weblate.org/engage/wg-tunnel/
-Changelog: https://github.com/wgtunnel/wgtunnel/releases
+Changelog: https://github.com/wgtunnel/android/releases
 
 AutoName: WG Tunnel
 ArchivePolicy: 2
@@ -19,7 +19,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /fdroid.*arm64/i
   ApkIgnore: /standalone/i
-  Fastlane: https://github.com/wgtunnel/wgtunnel/blob/master/fastlane/metadata/android
+  Fastlane: https://github.com/wgtunnel/android/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   IntentFilterIgnore:
     android.net.VpnService: this is a VPN app.

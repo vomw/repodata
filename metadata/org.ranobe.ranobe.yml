@@ -16,7 +16,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/ranobe-org/ranobe/tree/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshotsJPG
   Status:
     - 2023-01-11 asked whether to keep once it entered F-Droid https://gitlab.com/fdroid/rfp/-/issues/2311#note_1236288249
     - 2023-01-12 answer is "your choice"

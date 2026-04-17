@@ -3,9 +3,9 @@ Categories:
 License: MIT
 AuthorName: Akylas
 AuthorEmail: contact@akylas.fr
-SourceCode: https://github.com/Akylas/OSS-DocumentScanner
-IssueTracker: https://github.com/Akylas/OSS-DocumentScanner/issues
-Changelog: https://github.com/Akylas/OSS-DocumentScanner/releases
+SourceCode: https://github.com/ossdocumentscanner/OSS-DocumentScanner
+IssueTracker: https://github.com/ossdocumentscanner/OSS-DocumentScanner/issues
+Changelog: https://github.com/ossdocumentscanner/OSS-DocumentScanner/releases
 
 AutoName: OSS Card Wallet
 ArchivePolicy: 1
@@ -15,7 +15,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
-  Fastlane: https://github.com/Akylas/OSS-DocumentScanner/blob/master/fastlane/metadata/com.akylas.cardwallet/android
+  Fastlane: https://github.com/ossdocumentscanner/OSS-DocumentScanner/blob/master/fastlane/metadata/com.akylas.cardwallet/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   NameSpaces:
     - /com/akylas/documentscanner

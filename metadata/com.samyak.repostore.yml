@@ -18,7 +18,7 @@ MaintainerNotes:
   GHSkipPre: 1
   NameSpaces:
     - /com/samyak/gitcore
-  Fastlane: https://github.com/samyak2403/RepoStore/blob/v1.0.6/fastlane/metadata/android
+  Fastlane: https://github.com/samyak2403/RepoStore/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
   PermIgnore:
     android.permission.REQUEST_INSTALL_PACKAGES: this app is intended to install/update apps

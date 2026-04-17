@@ -21,7 +21,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/d4rken-org/airplanes-live-app/tree/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   PermIgnore:
     android.permission.ACCESS_COARSE_LOCATION: to get the local place to show air traffic for
     android.permission.ACCESS_FINE_LOCATION: to get the local place to show air traffic for

@@ -1,3 +1,7 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-03-30, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-03-30 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Multimedia
 License: Apache-2.0
@@ -22,8 +26,9 @@ MaintainerNotes:
     - /is/xyz/mpv
   Status:
     - 2024-08-31 WRITE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE READ_MEDIA_IMAGES plus RB – https://github.com/abdallahmehiz/mpvKt/issues/9
+    - 2026-04-17 quality checker found the repo archived
 
 AllowedAPKSigningKeys: 45595115db22ae17f29eb678c4a686780cd4a11a5d1c6ce7bda18168bfce00dc
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None

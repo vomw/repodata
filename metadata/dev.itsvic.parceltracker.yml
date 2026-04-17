@@ -1,6 +1,6 @@
 AntiFeatures:
   NonFreeNet:
-    en-US: The app needs to connect to the service‘s APIs.
+    en-US: The app needs to connect to the services‘ APIs.
     de: Die App muss sich mit den APIs der jeweiligen Paketdienste verbinden.
 Categories:
   - Office
@@ -9,9 +9,9 @@ License: GPL-3.0-only
 AuthorName: it‘s vic!
 AuthorEmail: contact@itsvic.dev
 AuthorWebSite: https://itsvic.dev/
-SourceCode: https://github.com/itsvic-dev/parcel
-IssueTracker: https://github.com/itsvic-dev/parcel/issues
-Changelog: https://github.com/itsvic-dev/parcel/releases
+SourceCode: https://github.com/itsvic-dev/deliveries
+IssueTracker: https://github.com/itsvic-dev/deliveries/issues
+Changelog: https://github.com/itsvic-dev/deliveries/releases
 
 AutoName: Parcel
 
@@ -19,7 +19,7 @@ MaintainerNotes:
   AppAdded: 2025-04-03
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/itsvic-dev/parcel/blob/master/fastlane/metadata/android
+  Fastlane: https://github.com/itsvic-dev/deliveries/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   FastlaneIgnore: video
   Note: video.txt empty

@@ -2,7 +2,6 @@ Categories:
   - Theming
 License: GPL-3.0-only
 AuthorName: LeanBitLab
-AuthorEmail: 
 AuthorWebSite: https://www.reddit.com/r/LeanBitLab_/
 SourceCode: https://github.com/LeanBitLab/LtvLauncher
 IssueTracker: https://github.com/LeanBitLab/LtvLauncher/issues
@@ -16,11 +15,12 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
   Fastlane: https://github.com/LeanBitLab/LtvLauncher/blob/master/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   PermIgnore:
     android.permission.REQUEST_DELETE_PACKAGES: to allow removing unwanted apps directly from the launcher
 
 AllowedAPKSigningKeys: df819e5940a514f3d2d5d19d852c18e4cbe2d1d636cb92011b8c101dac72aa9a
 
+VercodeOperation: '%c -2000'
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags

@@ -1,12 +1,14 @@
 Categories:
   - Writing
-License: MIT
+License: AGPL-3.0-only
 AuthorName: Inventory69
 AuthorWebSite: https://dettmer.dev/
 WebSite: https://dettmer.dev/projects/simple-notes/
 SourceCode: https://github.com/inventory69/simple-notes-sync
 IssueTracker: https://github.com/inventory69/simple-notes-sync/issues
+Translation: https://hosted.weblate.org/engage/simple-notes-sync/
 Changelog: https://github.com/inventory69/simple-notes-sync/releases
+Donate: https://liberapay.com/inventory/
 
 AutoName: Simple Notes
 

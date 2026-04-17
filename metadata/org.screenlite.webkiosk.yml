@@ -2,9 +2,9 @@ Categories:
   - Connectivity
 License: MIT
 AuthorName: Screenlite
-SourceCode: https://github.com/screenlite/web-kiosk
-IssueTracker: https://github.com/screenlite/web-kiosk/issues
-Changelog: https://github.com/screenlite/web-kiosk/releases
+SourceCode: https://github.com/screenlite/android-web-kiosk
+IssueTracker: https://github.com/screenlite/android-web-kiosk/issues
+Changelog: https://github.com/screenlite/android-web-kiosk/releases
 
 AutoName: Screenlite Web Kiosk
 
@@ -12,7 +12,7 @@ MaintainerNotes:
   AppAdded: 2025-09-08
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/screenlite/web-kiosk/tree/main/fastlane/metadata/android
+  Fastlane: https://github.com/screenlite/android-web-kiosk/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: Fastlane is our starter package
   FlagIgnore:
