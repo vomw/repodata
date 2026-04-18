@@ -18,7 +18,8 @@ MaintainerNotes:
   X-AutoUpdateMode: Version v%v sometimes uppercase, other times lowercase V
   Status:
     - 2024-12-10 last release 12/2023, last commit 1/2024; UCM Tags=>Static
+    - 2026-04-18 app rebranded to com.programmingtools.app – but now comes with MLKit & Co; disabling updates
 
 AllowedAPKSigningKeys: ad1a71535c75aa3c209e501de3168ae485c92897afa9ffa00973d5fdbe332dc8
 
-UpdateCheckMode: Static
+UpdateCheckMode: None
