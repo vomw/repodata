@@ -1,0 +1,23 @@
+Categories:
+  - Internet
+  - Security
+License: MIT
+AuthorName: Eyal Meirom
+SourceCode: https://github.com/eyalm2000/adns
+IssueTracker: https://github.com/eyalm2000/adns/issues
+Changelog: https://github.com/eyalm2000/adns/releases
+
+AutoName: ADNS
+
+MaintainerNotes:
+  AppAdded: 2026-04-18
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-release/i
+  Fastlane: https://github.com/eyalm2000/adns/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 194917a53d1cad19163da57225b9a9bd88370dc21c1315151e8f32bb6bc27a0b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
