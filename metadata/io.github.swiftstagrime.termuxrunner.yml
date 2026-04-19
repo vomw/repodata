@@ -15,8 +15,10 @@ MaintainerNotes:
   ApkMatch: /arm64-v8a/i
   Fastlane: https://github.com/SwiftStagRime/ScriptRunner_for_Termux/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Status:
+    - 2026-04-19 APKs at v1.7.1 identify with versioning from 1.7.0; UCM Tags=>Static for now, see https://github.com/SwiftStagRime/ScriptRunner_for_Termux/issues/6#issuecomment-4276623856
 
 AllowedAPKSigningKeys: 0f7c5e374a8083fbd957a44f4e4901edb4d4f5c17929ee6b21a27d5d866b0d5f
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
