@@ -807,7 +807,8 @@
   "required": [
     "Categories",
     "License",
-    "MaintainerNotes"
+    "MaintainerNotes",
+    "AllowedAPKSigningKeys"
   ],
   "allOf": [
     {
