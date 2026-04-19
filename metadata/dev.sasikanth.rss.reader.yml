@@ -12,7 +12,6 @@ ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2023-05-23
-  Todo: 2026-01-20 check with https://github.com/msasikanth/twine/issues/1305#issuecomment-3476535903 whether we should remove the app
   Method: github-release
   ApkMatch: /foss/i
   GHSkipPre: 1
