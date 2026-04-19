@@ -29,8 +29,9 @@ MaintainerNotes:
     - 2026-02-14 android.permission.READ_PHONE_STATE – https://github.com/Akylas/OSS-DocumentScanner/issues/568
     - 2026-02-15 READ_PHONE_STATE was removed again (originally entered by accident)
     - 2026-04-19 v1.20.5 adds Sentry, temporarily UCM Tags=>Static until clarified, see https://github.com/ossdocumentscanner/OSS-DocumentScanner/issues/618
+    - 2026-04-20 Sentry removed again (was intended for different flavor only), updates re-enabled
 
 AllowedAPKSigningKeys: 0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871
 
 AutoUpdateMode: Version ^com.akylas.documentscanner/android/github/[^/]+/%c$
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
