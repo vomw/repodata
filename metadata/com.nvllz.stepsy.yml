@@ -12,6 +12,8 @@ MaintainerNotes:
   AppAdded: 2025-04-09
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /app-release\.apk/
+  ApkIgnore: /full-release/i
   Fastlane: https://github.com/nvllz/stepsy/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
