@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Pass With High Score
+AuthorEmail: weareateam@pwhs.app
+AuthorWebSite: https://www.pwhs.app/
+WebSite: https://universal-installer.pwhs.app/
+SourceCode: https://github.com/pass-with-high-score/universal-installer
+IssueTracker: https://github.com/pass-with-high-score/universal-installer/issues
+Changelog: https://github.com/pass-with-high-score/universal-installer/releases
+
+AutoName: Universal Installer
+
+MaintainerNotes:
+  AppAdded: 2026-04-20
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/pass-with-high-score/universal-installer/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: required to install apps
+    android.permission.REQUEST_DELETE_PACKAGES: required to uninstall apps
+    android.permission.READ_EXTERNAL_STORAGE: to access installer packages on local storage
+
+AllowedAPKSigningKeys: 40e1d86c6228809e07857a62edcf72952fea664e715317920150b937ef75f5de
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
