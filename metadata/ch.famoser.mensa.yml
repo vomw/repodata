@@ -23,7 +23,7 @@ MaintainerNotes:
   AddedBack: 2025-03-18
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/famoser/Mensa/tree/v1.5.4/fastlane/metadata/android
+  Fastlane: https://github.com/fflopsi/mensa-zh/tree/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   FastlaneIgnore: changelogs
   Note: video.txt is empty, icon+featureGraphic only in de/en, changelogs not updated for 5 years now
