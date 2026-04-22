@@ -20,8 +20,9 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Status:
     - 2026-04-19 temporarily UCM Tags=>Static, see https://github.com/sak96/read_later/issues/2#issuecomment-4276513781
+    - 2026-04-22 problems solved, reactivating
 
 AllowedAPKSigningKeys: ed3f4d85af06e1fe0ab487df5a12ce9bc9df0bdc75229cb92cf5c0ecc820cfe1
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
