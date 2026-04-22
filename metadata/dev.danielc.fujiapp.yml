@@ -4,9 +4,9 @@ License: GPL-2.0-only
 AuthorName: Based Technologies
 AuthorEmail: brikbusters@gmail.com
 AuthorWebSite: https://basedtech.us/
-SourceCode: https://github.com/petabyt/fudge
-IssueTracker: https://github.com/petabyt/fudge/issues
-Changelog: https://github.com/petabyt/fudge/releases
+SourceCode: https://github.com/petabyt/fudge-legacy-android
+IssueTracker: https://github.com/petabyt/fudge-legacy-android/issues
+Changelog: https://github.com/petabyt/fudge-legacy-android/releases
 
 AutoName: Fuji WiFi App
 
@@ -14,7 +14,7 @@ MaintainerNotes:
   AppAdded: 2023-07-13
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/petabyt/fudge/tree/master/fastlane/metadata/android
+  Fastlane: https://github.com/petabyt/fudge-legacy-android/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   NameSpaces:
     - /dev/danielc/common
