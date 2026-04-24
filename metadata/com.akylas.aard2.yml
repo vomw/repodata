@@ -3,10 +3,10 @@ Categories:
 License: GPL-3.0-only
 AuthorName: Akylas
 AuthorEmail: contact@akylas.fr
-SourceCode: https://github.com/farfromrefug/OSS-Dict
-IssueTracker: https://github.com/farfromrefug/OSS-Dict/issues
+SourceCode: https://github.com/Akylas/OSS-Dict
+IssueTracker: https://github.com/Akylas/OSS-Dict/issues
 Translation: https://hosted.weblate.org/engage/ossdict/
-Changelog: https://github.com/farfromrefug/OSS-Dict/releases
+Changelog: https://github.com/Akylas/OSS-Dict/releases
 
 AutoName: OSSDict
 
@@ -14,8 +14,8 @@ MaintainerNotes:
   AppAdded: 2025-01-21
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/farfromrefug/OSS-Dict/blob/master/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  Fastlane: https://github.com/Akylas/OSS-Dict/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   DoubleList: keep
   NameSpaces:
     - /itkach/aard2

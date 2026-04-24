@@ -3,9 +3,10 @@ Categories:
 License: GPL-3.0-only
 AuthorName: farfromrefuge
 AuthorWebSite: https://www.akylas.fr/
-SourceCode: https://github.com/farfromrefug/EnforceDoze
-IssueTracker: https://github.com/farfromrefug/EnforceDoze/issues
+SourceCode: https://github.com/Akylas/EnforceDoze
+IssueTracker: https://github.com/Akylas/EnforceDoze/issues
 Translation: https://hosted.weblate.org/engage/enforcedoze/
+Changelog: https://github.com/Akylas/EnforceDoze/releases
 
 AutoName: EnforceDoze
 
@@ -14,7 +15,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/farfromrefug/EnforceDoze/tree/master/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   DoubleList: keep
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to select apps to doze
