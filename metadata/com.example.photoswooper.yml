@@ -16,7 +16,7 @@ MaintainerNotes:
   Method: codeberg-release
   GHSkipPre: 1
   Fastlane: https://codeberg.org/Loowiz/PhotoSwooper/src/branch/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: Fastlane is our starter package
   DoubleList: keep
   PermIgnore:

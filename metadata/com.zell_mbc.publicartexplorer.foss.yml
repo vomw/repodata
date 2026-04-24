@@ -19,7 +19,7 @@ MaintainerNotes:
   Method: codeberg-release
   GHSkipPre: 1
   Fastlane: https://codeberg.org/toz/PublicArtExplorer/src/branch/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,changelogs,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
   NameSpaces:
     - /com/zell_mbc/publicartexplorer

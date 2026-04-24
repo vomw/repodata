@@ -16,7 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /signed/i
   Fastlane: https://codeberg.org/svewa/MedicalCalendarLog/src/branch/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
   PermIgnore:
     android.permission.READ_CALENDAR: to combine logs with calendar events

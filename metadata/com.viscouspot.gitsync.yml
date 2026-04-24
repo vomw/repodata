@@ -17,7 +17,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /arm64/i
   Fastlane: https://github.com/ViscousPot/GitSync/tree/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   IntentFilterIgnore:
     android.accessibilityservice.AccessibilityService: used to to detect when apps are opened or closed. Can be disabled in settings.
   PermIgnore:

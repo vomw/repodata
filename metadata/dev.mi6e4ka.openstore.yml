@@ -21,7 +21,7 @@ MaintainerNotes:
   Method: codeberg-release
   GHSkipPre: 1
   Fastlane: https://codeberg.org/mi6e4ka/openstore/src/branch/main/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   Note: icon temporarily removed due to conflict with RuStore trademark
   PermIgnore:
     android.permission.REQUEST_INSTALL_PACKAGES: required for app management

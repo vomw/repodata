@@ -14,7 +14,7 @@ MaintainerNotes:
   GHSkipPre: 1
   GHDownloadDir: https://gitlab.com/mudlej_android/mj_pdf_reader/blob/main/app/release
   Fastlane: https://gitlab.com/mudlej_android/mj_pdf_reader/-/tree/main/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphicJPG,screenshotsJPG
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
   LibIgnore:
     - /org/acra
   FlagIgnore:

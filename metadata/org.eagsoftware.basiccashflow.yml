@@ -15,7 +15,7 @@ MaintainerNotes:
   Method: codeberg-release
   GHSkipPre: 1
   Fastlane: https://codeberg.org/minardil/BasicCashFlow/src/branch/main/metadata
-  FastlaneFeatures: title,shortdesc,fulldescNL,icon,featureGraphic,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
   Note: fulldesc lacks some NL
   DoubleList: keep
   Status:
