@@ -15,7 +15,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /foss-release/i
   Fastlane: https://github.com/eyalm2000/adns/tree/master/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
 
 AllowedAPKSigningKeys: 194917a53d1cad19163da57225b9a9bd88370dc21c1315151e8f32bb6bc27a0b
 
