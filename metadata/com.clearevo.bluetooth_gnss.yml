@@ -1,3 +1,7 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-04-23, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-04-23 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Navigation
 License: GPL-2.0-or-later
@@ -38,4 +42,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: a7788592bd7fe689a0a3557663391b86f8718c33b201dd045d4ba9d7a575a794
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
