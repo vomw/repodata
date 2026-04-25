@@ -1,0 +1,30 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app loads a list of available maps from Github, and maps from HuggingFace
+    de: Die App lädt eine Liste verfügbarer Karten von Github, und Kartenmaterial von HuggingFace
+Categories:
+  - Navigation
+License: MIT
+AuthorName: khoa083
+SourceCode: https://github.com/khoa083/map-offline-navigation
+IssueTracker: https://github.com/khoa083/map-offline-navigation/issues
+Changelog: https://github.com/khoa083/map-offline-navigation/releases
+
+AutoName: 'Kblack: Offline Map Navigation'
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-04-25
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/khoa083/map-offline-navigation/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed for navigation
+    android.permission.ACCESS_FINE_LOCATION: needed for navigation
+    android.permission.READ_EXTERNAL_STORAGE: needed to read maps from storage
+
+AllowedAPKSigningKeys: 274348c58e9f95802ee8b2c19d74eeeeeb478e6b79a71ab8fee4faafa3fe0bcd
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
