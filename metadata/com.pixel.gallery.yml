@@ -23,6 +23,8 @@ MaintainerNotes:
     android.permission.INTERNET: for Nominatim lookup, to convert coordinates in place names
     android.permission.READ_MEDIA_IMAGES: to access graphic files to show
     android.permission.READ_MEDIA_VIDEO: to access video files to show
+  Status:
+    - 2026-04-25 usesCleartextTraffic – https://github.com/BKK31/pixel-gallery/issues/26
 
 AllowedAPKSigningKeys: 6a94e143b71472d41428435a3de7bddcebe746c57357d713999c593b755136dc
 
