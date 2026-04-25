@@ -24,6 +24,11 @@ MaintainerNotes:
     android.permission.ACCESS_COARSE_LOCATION: to improve GPS fix speed using network towers
     android.permission.ACCESS_BACKGROUND_LOCATION: to monitor safety while screen is locked
     android.permission.SEND_SMS: to send automated SOS alerts to emergency contacts
+    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: to keep Sentinel alive in deep sleep
+    android.permission.ACTIVITY_RECOGNITION: for sensor access
+    android.permission.POST_NOTIFICATIONS: optional, to show Sentinel status bar
+  Status:
+    - 2026-04-25 android.permission.READ_PHONE_STATE – https://github.com/OksigeniaSL/oksigenia-sos/issues/5
 
 AllowedAPKSigningKeys: 11736443fedf605c7663b809532eb922222c37242541fc00868114f92e72990a
 
