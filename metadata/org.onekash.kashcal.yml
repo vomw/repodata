@@ -9,7 +9,7 @@ IssueTracker: https://github.com/KashCal/KashCal/issues
 Changelog: https://github.com/KashCal/KashCal/releases
 
 AutoName: KashCal
-ArchivePolicy: 2
+ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2026-01-15
@@ -21,6 +21,8 @@ MaintainerNotes:
   PermIgnore:
     android.permission.READ_CONTACTS: to sync birthday from Android contacts
     android.permission.READ_CALENDAR: to see events from the phone´s built-in calendar alongside everything else
+  Status:
+    - 2026-04-26 APK size almost tripled, so we had to reduce ArchivePolicy to 1 (and are still over size); https://github.com/KashCal/KashCal/issues/189
 
 AllowedAPKSigningKeys: b0476c128828be047b64fe43f79b1d5f2c3460b0726fb39933b11620d8954622
 

@@ -13,6 +13,7 @@ AutoName: OpenTodoList
 
 MaintainerNotes:
   AppAdded: 2018-05-24
+  Todo: 2026-05-23 check if https://github.com/mhoeher/opentodolist/issues/120 was responded to, else remove app (now 70 MB APK size)
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /armv7|armeabi/i

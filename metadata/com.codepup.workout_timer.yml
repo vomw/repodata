@@ -21,6 +21,7 @@ MaintainerNotes:
     - /id/flutter/openhiit_background_service
   Status:
     - 2024-07-07 scanner reports storage permissions and dependency blob – https://github.com/a-mabe/OpenHIIT/issues/156
+    - 2026-04-26 APK size is approaching 60 MB, asking for per-ABI builds at https://github.com/a-mabe/OpenHIIT/issues/336
 
 AllowedAPKSigningKeys: 2f791705edd65a291f2ccfbfe1dc9b7b3751677a55021956788b8f65d97dc59f
 
