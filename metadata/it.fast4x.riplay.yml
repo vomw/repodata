@@ -38,8 +38,9 @@ MaintainerNotes:
     android.permission.QUERY_ALL_PACKAGES: needed to select an app for direct share
   Status:
     - 2026-02-12 update author info on author´s request, see https://github.com/fast4x/RiPlay/issues/114#issuecomment-3885716004
+    - 2026-04-28 Self-Updater introduced, UCM Tags=>Static, see https://github.com/fast4x/RiPlay/issues/226
 
 AllowedAPKSigningKeys: 9762e9ab732b0a1cf3c721168450533c8b1905ae1c9e658f488abb84debef2fb
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
