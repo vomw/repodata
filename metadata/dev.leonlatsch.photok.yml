@@ -25,6 +25,7 @@ MaintainerNotes:
   DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/7737#note_474064949
   Status:
     - 2026-03-13 updated library definition popped up TelemetryDeck SDK (NonFreeNet, Tracking); https://github.com/leonlatsch/Photok/issues/663 => strictly opt-in
+    - 2026-04-27 APK size is beyond 40 MB now, as DEX files are not compressed. Asked for legacyCompression at https://github.com/leonlatsch/Photok/issues/672
 
 AllowedAPKSigningKeys: b704a2d2d58a37e95ab23496c39a819135b87a03b9b3f4c14d3fedcce9cc2c9a
 

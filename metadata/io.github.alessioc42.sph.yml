@@ -37,6 +37,7 @@ MaintainerNotes:
     - 2024-02-23 signing key changed from Google’s to the dev’s own, as discussed in the issue
     - 2025-07-02 v3.4.6 adds MLKit, GMS, Firebase. Rolled back and UCM Tags=>Static until resolved. https://github.com/lanis-mobile/lanis-mobile/issues/426
     - 2025-08-05 v3.5.0 has this fixed, re-enabling updates
+    - 2026-04-27 APK size now approaching 50 MB, asked for legacy compression at https://github.com/lanis-mobile/lanis/issues/499
 
 AllowedAPKSigningKeys: 03a817cd87fc5dcccf6e542704013c46bd09a1003da50f7db579fac7b1daf707
 

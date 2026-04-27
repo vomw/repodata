@@ -29,6 +29,7 @@ MaintainerNotes:
     - 2023-08-08 last release 3/2023, last commit 4/2023
     - 2024-07-24 scanner reports DEPENDENCY_INFO_BLOCK SYSTEM_ALERT_WINDOW SEND_SMS RECEIVE_SMS READ_SMS – https://github.com/nfdz/Cryptool/issues/51
     - 2025-10-28 upstreaming our metadata via https://github.com/nfdz/Cryptool/pull/69
+    - 2026-04-27 APK size is at 40 MB, asked for per-ABI builds at https://github.com/nfdz/Cryptool/issues/71
 
 AllowedAPKSigningKeys: 58a51e9ce4582690534c5c709f3b2eeb130eea06cf26372c707e6eb4cbab2916
 

@@ -20,6 +20,7 @@ MaintainerNotes:
     - 2023-07-13 <s>Reached</s> Applied to F-Droid half a year ago, but still carries our badge https://github.com/muslimpack/Qadaa/issues/2
     - 2024-02-12 seemingly did not reach F-Droid despite of having that badge added
     - 2024-07-14 reached F-Droid 2024-06-02, not RB, still carrying our badge so we keep it as long as its size (currently 25 MB) allows
+    - 2026-04-27 APK size is now beyond 50 MB, asking for per-ABI builds at https://github.com/muslimpack/Qadaa/issues/19
 
 AllowedAPKSigningKeys: 890f7c6bd1633d85fd21de51643943811fe34a30c06affe2fb62027e3e5e9e8b
 
