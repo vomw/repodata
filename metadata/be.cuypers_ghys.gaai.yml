@@ -9,7 +9,6 @@ IssueTracker: https://github.com/FrankHJCuypers/gaai/issues
 Changelog: https://github.com/FrankHJCuypers/gaai/releases
 
 AutoName: Gaai
-ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2025-09-29
@@ -27,6 +26,7 @@ MaintainerNotes:
   Status:
     - 2025-12-12 v1.1.0 added a load of proprietary components, so it had to be rolled back; UCM Tags=>Static until solved; see https://github.com/FrankHJCuypers/gaai/issues/46
     - 2025-12-29 solved (separate build now), UCM back to Tags
+    - 2026-04-27 reset ArchivePolicy to default as APK size decreased a lot (15.7 MB => 2.5 MB)
 
 AllowedAPKSigningKeys: 0ffedbf7fbc6417ebd87baff859bd4717278c0457c5eb32b37563ef88a6723d4
 
