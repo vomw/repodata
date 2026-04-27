@@ -1,1 +1,0 @@
-End-to-end encrypted file transfer for Android. An Android Magic Wormhole client
