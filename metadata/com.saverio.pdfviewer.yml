@@ -13,6 +13,7 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2023-08-01
+  Todo: 2026-05-28 remove app if https://github.com/Sav22999/sav-pdf-viewer-pro/issues/66 still not responded to
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/Sav22999/sav-pdf-viewer-pro/tree/main/fastlane/metadata/android
@@ -22,8 +23,9 @@ MaintainerNotes:
     - 2024-02-06 uses debug key https://github.com/Sav22999/sav-pdf-viewer-pro/issues/58 => fixed, replaced AllowedAPKSigningKeys
     - 2025-06-27 last commit/release 2024-02-06; UCM Tags=>Static
     - 2026-04-01 v2.0 comes with MLKit & Co – https://github.com/Sav22999/sav-pdf-viewer-pro/issues/66
+    - 2026-04-28 no reponse at all despite of multiple pings; disabling updates and mark for removal.
 
 AllowedAPKSigningKeys: 0c9713a615e07bc9f401862158d3f5bdce056ca510010035e0fa84c812aeb203
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: None
