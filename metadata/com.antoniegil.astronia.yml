@@ -12,9 +12,11 @@ MaintainerNotes:
   AppAdded: 2026-02-09
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /universal-release/i
+  ApkMatch: /arm64-v8a-release/i
   Fastlane: https://github.com/antoniegil/Astronia/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Status:
+    - 2026-04-27 APK size doubled to over 20 MB, switching from universal to arm64 build
 
 AllowedAPKSigningKeys: 5d68c14f1efd95d2f7ca46e244b4b7cf0652e929adc6cd1026f8c250731b22b0
 
