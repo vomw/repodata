@@ -18,7 +18,7 @@ ArchivePolicy: 1
 MaintainerNotes:
   AppAdded: 2025-05-31
   Method: github-release
-  ApkMatch: /vivi-izzy/i
+  ApkMatch: /universal-foss-release/i
   GHSkipPre: 1
   Fastlane: https://github.com/vivizzz007/vivi-music/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
