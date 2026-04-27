@@ -29,9 +29,10 @@ MaintainerNotes:
     android.permission.ACCESS_COARSE_LOCATION: needed on lower Android versions to use Bluetooth functionality
   Status:
     - 2025-08-11 opening PR to upstream our Fastlane metadata – https://github.com/nikashitsa/heart-alert-android/pull/2
-    - 2026-03-20 v2.0.0 addedPlay Core & GMS, see https://github.com/nikashitsa/heart-alert-android/issues/3 (UCM Tags=>Static for now)
+    - 2026-03-20 v2.0.2 addedPlay Core & GMS, see https://github.com/nikashitsa/heart-alert-android/issues/3 (UCM Tags=>Static for now)
+    - 2026-04-28 entirely disabling update check now, as there is still no response from the author
 
 AllowedAPKSigningKeys: 9b0c71a9d29c18db0767237cfb7fc7dcc668e12991f1a171472c011dc93e0b3d
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: None
