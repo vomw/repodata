@@ -33,8 +33,9 @@ MaintainerNotes:
     android.permission.USE_CREDENTIALS: for the opt-in sync feature (favourites/history)
   Status:
     - 2026-03-17 Sentry (added with 9.6.12) is now opt-in, starting with 9.6.13
+    - 2026-04-28 self-updater, UCM tags=>Static; see https://github.com/AppFuton/Futon/issues/57#issuecomment-4338541758
 
 AllowedAPKSigningKeys: ef48b22ef2c54045531f6e7600c27ec3d03b71221e0b05ffb68e3357cf8e4d40
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
