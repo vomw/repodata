@@ -8,7 +8,7 @@ IssueTracker: https://github.com/ethereal-developers/OpenScan/issues
 Changelog: https://github.com/ethereal-developers/OpenScan/releases
 
 AutoName: OpenScan
-ArchivePolicy: 1
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2021-01-02

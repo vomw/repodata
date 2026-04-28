@@ -7,7 +7,6 @@ IssueTracker: https://github.com/DennisBauer/RecurringExpenseTracker/issues
 Changelog: https://github.com/DennisBauer/RecurringExpenseTracker/releases
 
 AutoName: Recurring Expenses
-ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2023-10-03

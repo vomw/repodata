@@ -9,7 +9,6 @@ IssueTracker: https://github.com/DavidBerdik/Let-Me-Downgrade/issues
 Changelog: https://github.com/DavidBerdik/Let-Me-Downgrade/releases
 
 AutoName: Let Me Downgrade
-ArchivePolicy: 2
 RequiresRoot: true
 
 MaintainerNotes:

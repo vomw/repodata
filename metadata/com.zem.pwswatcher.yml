@@ -14,7 +14,6 @@ SourceCode: https://github.com/GiorgioBertolotti/PWSWatcher
 IssueTracker: https://github.com/GiorgioBertolotti/PWSWatcher/issues
 
 AutoName: PWS Watcher
-ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2020-04-02

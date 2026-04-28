@@ -5,9 +5,9 @@ AuthorName: Rohit Kushvaha
 AuthorEmail: oldisg131@gmail.com
 SourceCode: https://github.com/RohitKushvaha01/TaskManager
 IssueTracker: https://github.com/RohitKushvaha01/TaskManager/issues
+Changelog: https://github.com/RohitKushvaha01/TaskManager/releases
 
 AutoName: TaskManager
-ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2025-07-01

@@ -8,8 +8,6 @@ Changelog: https://github.com/jff99/KeyCip/releases
 
 AutoName: KeyCip
 
-ArchivePolicy: 2
-
 MaintainerNotes:
   AppAdded: 2022-06-22
   Method: github-release

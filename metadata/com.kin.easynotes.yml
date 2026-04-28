@@ -9,7 +9,6 @@ Translation: https://hosted.weblate.org/projects/easy-notes/
 Changelog: https://github.com/Kin69/EasyNotes/releases
 
 AutoName: Easy Notes
-ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-05-27
@@ -25,4 +24,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: fce87da97f791301df390bfa47e81685191167cab5dbd555db8287541f786e28
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags

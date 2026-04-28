@@ -9,7 +9,6 @@ Translation: https://hosted.weblate.org/engage/mmrlapp/
 Changelog: https://github.com/MMRLApp/MMRL/releases
 
 AutoName: MMRL
-ArchivePolicy: 2
 RequiresRoot: true
 
 MaintainerNotes:
