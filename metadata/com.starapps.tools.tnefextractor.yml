@@ -14,7 +14,7 @@ MaintainerNotes:
   GHSkipPre: 1
   DoubleList: keep
   Fastlane: https://gitlab.starapps-network.com/tools/tnef-extractor/-/tree/master/fastlane/metadata
-  FastlaneFeatures: shortdesc,fulldesc,changelogs
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,screenshots
   Note: Fastlane (2 locales) with good shortdesc, HTML fulldesc, only 1 screenshot en-US
   Status:
     - 2023-12-01 their GitLab now requires login

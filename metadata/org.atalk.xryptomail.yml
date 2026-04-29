@@ -9,7 +9,7 @@ IssueTracker: https://github.com/cmeng-git/xmail/issues
 Changelog: https://github.com/cmeng-git/xmail/releases
 
 AutoName: XryptoMail (Mail Client)
-ArchivePolicy: 1
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2023-08-21

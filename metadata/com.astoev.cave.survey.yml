@@ -23,5 +23,4 @@ MaintainerNotes:
 
 AllowedAPKSigningKeys: 963fd43951b0565588ced3a3bfaa33e49daaf4226a1c59de82425329861720f3
 
-ArchivePolicy: 2
 UpdateCheckMode: Static

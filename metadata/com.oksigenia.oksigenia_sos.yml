@@ -18,7 +18,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
   Fastlane: https://github.com/OksigeniaSL/oksigenia-sos/blob/main/metadata/
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.ACCESS_FINE_LOCATION: to obtain precise GPS coordinates for emergency SMS
     android.permission.ACCESS_COARSE_LOCATION: to improve GPS fix speed using network towers
@@ -32,5 +32,6 @@ MaintainerNotes:
 
 AllowedAPKSigningKeys: 11736443fedf605c7663b809532eb922222c37242541fc00868114f92e72990a
 
+VercodeOperation: '%c -2000'
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags

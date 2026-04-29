@@ -6,7 +6,6 @@ AuthorEmail: contact@duniter.org
 AuthorWebSite: https://duniter.org/
 WebSite: https://cesium.app/
 SourceCode: https://github.com/duniter/cesium
-IssueTracker: https://git.duniter.org/clients/cesium-grp/cesium/-/issues
 Changelog: https://github.com/duniter/cesium/releases
 
 AutoName: Cesium
