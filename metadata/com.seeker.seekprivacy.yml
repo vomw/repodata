@@ -18,7 +18,6 @@ MaintainerNotes:
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: needed to read (and then decrypt) the files (legacy)
     android.permission.WRITE_EXTERNAL_STORAGE: needed to write encrypted files (legacy)
-    android.permission.MANAGE_EXTERNAL_STORAGE: needed to write encrypted files (newer Android versions)
 
 AllowedAPKSigningKeys: 2bee8f8b45ad591fb130f9a1152f2e5f2fafd3a04b64366b5b673805d42f9e35
 
