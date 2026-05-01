@@ -16,6 +16,11 @@ MaintainerNotes:
   ApkMatch: /release-oss/i
   Fastlane: https://github.com/AChep/PocketMode/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: used to lock the screen
+  PermIgnore:
+    android.permission.READ_PHONE_STATE: used to to disable app´s functionality during calls
+    android.permission.SYSTEM_ALERT_WINDOW: used to show an overlay that the screen is being blocked from touches
   Status:
     - 2020-09-19 app was not updated for 1y 4m 8d; switching UCM from Tags to Static
     - 2020-11-04 dev removed Fastlane
@@ -26,6 +31,7 @@ MaintainerNotes:
     - 2022-08-07 ACRA was removed
     - 2024-02-22 last release 1/2023, last commit 8/2023, UCM Tags=>Static
     - 2025-09-27 fastlane added back via PR from us
+    - 2026-05-01 AccessibilityService READ_PHONE_STATE SYSTEM_ALERT_WINDOW DEPENDENCY_INFO_BLOCK – https://github.com/AChep/PocketMode/issues/133
 
 AllowedAPKSigningKeys: 0e56944562ac4b573cd013befe2077a384122e5ed18ad6476ce48877bc8ce705
 
