@@ -27,8 +27,9 @@ MaintainerNotes:
     - 2024-04-16 reached F-Droid 2024-04-09; does not carry our badge, APK size already slightly beyond 15 MB
     - 2024-06-15 asked whether to keep https://github.com/Futsch1/medTimer/issues/61#issuecomment-2168888608 => keep
     - 2026-04-06 APK size approaching 40 MB, asking for optimization at https://github.com/Futsch1/medTimer/issues/1349
+    - 2026-05-01 NonFreeComp GMS slipped in, UCM Tags=>Static for now – https://github.com/Futsch1/medTimer/issues/1375
 
 AllowedAPKSigningKeys: 69bc7c72e499045b44c87fc8463f599472deb408c48de38de8554ae7754b9d84
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
