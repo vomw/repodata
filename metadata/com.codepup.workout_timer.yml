@@ -14,6 +14,7 @@ MaintainerNotes:
   AppAdded: 2023-11-07
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
   Fastlane: https://github.com/a-mabe/OpenHIIT/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Note: our starter package
@@ -22,6 +23,7 @@ MaintainerNotes:
   Status:
     - 2024-07-07 scanner reports storage permissions and dependency blob – https://github.com/a-mabe/OpenHIIT/issues/156
     - 2026-04-26 APK size is approaching 60 MB, asking for per-ABI builds at https://github.com/a-mabe/OpenHIIT/issues/336
+    - 2026-05-01 dev prepared for per-ABI builds; ApkMatch added to pick the arm64 build then
 
 AllowedAPKSigningKeys: 2f791705edd65a291f2ccfbfe1dc9b7b3751677a55021956788b8f65d97dc59f
 
