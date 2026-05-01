@@ -17,8 +17,10 @@ MaintainerNotes:
   Status:
     - 2023-07-13 UCM Tags => Static (last release 7/2022, last commit 10/2022)
     - 2026-01-09 still no new commits; disable update checks entirely now
+    - 2026-05-01 repo, Github account, and website disappeared around the end of 4/2026
 
 AllowedAPKSigningKeys: 9452907019d240a2e7dc42b720a753d753f7f6013895936d651c5c854a46715a
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: None
+NoSourceSince: 1.0.1
