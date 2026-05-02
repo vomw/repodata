@@ -21,6 +21,8 @@ MaintainerNotes:
   Fastlane: https://github.com/Harshshah6/SaavnMp3-Android/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: Fastlane is our starter package
+  NameSpaces:
+    - /com/samyak/lrclib
   FlagIgnore:
     usesCleartextTraffic:
   PermIgnore:

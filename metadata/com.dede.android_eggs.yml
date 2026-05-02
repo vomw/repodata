@@ -18,6 +18,7 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   NameSpaces:
     - /com/android_baklava/egg/landroid
+    - /com/android_cinnamon_bun/egg
     - /com/android_g/egg
     - /com/android_h/egg
     - /com/android_i/egg

@@ -18,6 +18,7 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   DoubleList: keep
   NameSpaces:
+    - /eu/kanade/tachiyomi
     - /org/koitharu/kotatsu
   LibIgnore:
     - /io/sentry
