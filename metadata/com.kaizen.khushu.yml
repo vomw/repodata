@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses connections to AlAdhan (prayer times) and other Islamic sites (audio / translation / tafsir downloads), if the corresponding features are enabled.
+    de: Die App verbindet sich zu AlAdhan (Gebetszeiten) und anderen islamischen Sites (Audio, Übersetzungen, Tafsir Downloads), sofern die entsprechenden Features aktiviert wurden.
+Categories:
+  - Religion
+License: GPL-3.0-only
+AuthorName: Syed Ali
+AuthorWebSite: https://dev.to/greykaizen
+SourceCode: https://github.com/greykaizen/khushu
+IssueTracker: https://github.com/greykaizen/khushu/issues
+Bitcoin: bc1q04zs40e9cakxuu2lw3r04jc2vmmv084rvz5kx9
+
+AutoName: Khushu
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-05-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid-release/i
+  ApkIgnore: /x86/i
+  Fastlane: https://github.com/greykaizen/khushu/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: used to calculate prayer times
+    android.permission.ACCESS_FINE_LOCATION: used to calculate prayer times
+
+AllowedAPKSigningKeys: e5502908cac739ef967393cdcf8767e64137413457b4bba790e4f5b954fdc340
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
