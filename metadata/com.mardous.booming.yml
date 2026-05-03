@@ -13,8 +13,8 @@ MaintainerNotes:
   AppAdded: 2025-05-14
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /fdroid-release/i
-  ApkIgnore: /normal-release/i
+  ApkMatch: /fdroid-arm64-v8a/i
+  ApkIgnore: /(-normal-|x86)/i
   Fastlane: https://github.com/mardous/BoomingMusic/tree/master/metadata
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
