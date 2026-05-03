@@ -39,4 +39,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: 989fb4f387a7ea95f56405841bbae8af0c14ddff0462a1c919d9119944b20efc
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
