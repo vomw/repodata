@@ -1,0 +1,22 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Kel B
+AuthorEmail: mburgosfr@gmail.com
+SourceCode: https://github.com/mburgosfr-star/kelani-sbd-tracker
+IssueTracker: https://github.com/mburgosfr-star/kelani-sbd-tracker/issues
+Changelog: https://github.com/mburgosfr-star/kelani-sbd-tracker/releases
+
+AutoName: Kelani SBD Tracker
+
+MaintainerNotes:
+  AppAdded: 2026-05-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/mburgosfr-star/kelani-sbd-tracker/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: e94912533b5221a3add72475a6590dd9814b3bfbb00b4599b20713d4edc4e55b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
