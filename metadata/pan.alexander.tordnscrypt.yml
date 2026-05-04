@@ -31,6 +31,7 @@ MaintainerNotes:
   Status:
     - 2024-01-25 scanner reported android.permission.READ_EXTERNAL_STORAGE android.permission.REQUEST_INSTALL_PACKAGES android.permission.QUERY_ALL_PACKAGES – https://github.com/Gedsh/InviZible/issues/243
     - 2024-01-26 author doesn’t want to make the installer opt-in as fast updates are essential for a beta version (which is what we have here). Hence the permission was added to PermIgnore without a reason specified, so the warning won’t pop up with the scans while the permission is still shown in warning colors.
+    - 2026-05-04 android.permission.NEARBY_WIFI_DEVICES – https://github.com/Gedsh/InviZible/issues/433
 
 AllowedAPKSigningKeys: 1ea09e9062285984ffe8965605edab8b01ed19dfa019c31484a3382accc19ace
 

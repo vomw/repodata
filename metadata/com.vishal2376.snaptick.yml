@@ -21,6 +21,7 @@ MaintainerNotes:
   Status:
     - 2024-11-01 signing key changed, so UCM Tags=>Static until clarified – https://github.com/vishal2376/snaptick/issues/82
     - 2024-11-02 verified by mail, switching to new key
+    - 2026-05-04 android.permission.READ_CALENDAR DEPENDENCY_INFO_BLOCK plus update checker – https://github.com/vishal2376/snaptick/issues/123
 
 AllowedAPKSigningKeys: 68253097450437107ac46c17904e102ce3ca3fa7ae5cecf367ac38bf48489072
 
