@@ -27,6 +27,8 @@ MaintainerNotes:
     android.permission.READ_SMS: Needed to export SMS/MMS.
     android.permission.READ_CALL_LOG: Needed to export call logs.
     android.permission.WRITE_CALL_LOG: Needed to restore call logs from backups.
+    android.permission.READ_PHONE_STATE: Used by the call log exporter to determine which SIM card was used to make a phone call.
+    android.permission.READ_PHONE_NUMBERS: Used by the call log exporter to get the SIM card display name on Dual SIM devices.
   Status:
     - 2023-07-25 rebranded from com.example.companion_app
     - 2023-09-15 versionCode decreased again – and signing key changed!!! https://github.com/mrrfv/open-android-backup/issues/49#issuecomment-1721702463
