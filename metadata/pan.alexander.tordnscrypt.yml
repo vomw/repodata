@@ -28,10 +28,11 @@ MaintainerNotes:
     android.permission.QUERY_ALL_PACKAGES: needed to obtain a list of all apps for app-specific firewall rules
     android.permission.READ_EXTERNAL_STORAGE: required on older Android versions to import DNSCrypt blocklists and restore the app configuration from a backup
     android.permission.REQUEST_INSTALL_PACKAGES: this BETA release contains a self-updater pulling directly from Github releases, which can be turned off in the app’s settings
+    android.permission.NEARBY_WIFI_DEVICES: required on Android 17+ to exclude local traffic from being forwarded to remote services
   Status:
     - 2024-01-25 scanner reported android.permission.READ_EXTERNAL_STORAGE android.permission.REQUEST_INSTALL_PACKAGES android.permission.QUERY_ALL_PACKAGES – https://github.com/Gedsh/InviZible/issues/243
     - 2024-01-26 author doesn’t want to make the installer opt-in as fast updates are essential for a beta version (which is what we have here). Hence the permission was added to PermIgnore without a reason specified, so the warning won’t pop up with the scans while the permission is still shown in warning colors.
-    - 2026-05-04 android.permission.NEARBY_WIFI_DEVICES – https://github.com/Gedsh/InviZible/issues/433
+    - 2026-05-04 NEARBY_WIFI_DEVICES – https://github.com/Gedsh/InviZible/issues/433
 
 AllowedAPKSigningKeys: 1ea09e9062285984ffe8965605edab8b01ed19dfa019c31484a3382accc19ace
 
