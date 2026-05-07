@@ -21,8 +21,10 @@ MaintainerNotes:
     android.permission.BLUETOOTH_SCAN: needed to find nearby glasses
     android.permission.ACCESS_FINE_LOCATION: required by Android if Bluetooth permissions are requested
     android.permission.ACCESS_COARSE_LOCATION: required by Android if Bluetooth permissions are requested
+  Status:
+    - 2026-05-07 v1.0.7 is signed with a debug key (again) – https://github.com/yjeanrenaud/yj_nearbyglasses/issues/51#issuecomment-4401330521
 
 AllowedAPKSigningKeys: 3ef59d2bf93c7564215b7c016ad1dc28964ecbd3095dfa5661174fb00104eba4
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
