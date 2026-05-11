@@ -18,7 +18,6 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /arm64/i
   DoubleList: keep
-  DoubleListRef: https://codeberg.org/NullPointerException/PipePipe/issues/2#issuecomment-774535
   Fastlane: https://github.com/InfinityLoop1308/PipePipe/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
   PermIgnore:
