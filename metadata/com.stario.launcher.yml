@@ -21,7 +21,6 @@ MaintainerNotes:
   IntentFilterIgnore:
     android.accessibilityservice.AccessibilityService: used optionally to let you turn off your phone’s screen with a gesture
   PermIgnore:
-    android.permission.QUERY_ALL_PACKAGES: to list apps in the launcher
     android.permission.REQUEST_DELETE_PACKAGES: to allow removal of unwanted apps
     android.permission.ACCESS_COARSE_LOCATION: for the optional weather widget to show the weather at the current location
 

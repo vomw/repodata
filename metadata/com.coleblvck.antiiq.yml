@@ -19,9 +19,6 @@ MaintainerNotes:
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: needed on older Android versions to access the media files to play and restore backups
     android.permission.WRITE_EXTERNAL_STORAGE: needed to backup user preferences and playlists
-    android.permission.MANAGE_EXTERNAL_STORAGE: needed on newer Android versions to access the media files to play
-    android.permission.READ_MEDIA_IMAGES: needed on newer Android versions to access the media files to play
-    android.permission.READ_MEDIA_VIDEO: needed on newer Android versions to access the media files to play
     android.permission.READ_MEDIA_AUDIO: needed on newer Android versions to access the media files to play
     android.permission.FOREGROUND_SERVICE: needed to continue playing when the app is not in foreground
   Status:
