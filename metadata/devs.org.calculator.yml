@@ -24,9 +24,10 @@ MaintainerNotes:
     android.permission.READ_MEDIA_VIDEO: to access files to hide
     android.permission.READ_MEDIA_AUDIO: to access files to hide
     android.permission.MANAGE_EXTERNAL_STORAGE: to access files to hide
+    android.permission.CAMERA: to directly capture photos inside hidden directory
   Status:
     - 2025-08-19 upstreaming our fastlane metadata via https://github.com/Binondi/Calculator-Hide-Files/pull/11
-    - 2026-05-10 v2.0.2 adds android.permission.CAMERA – https://github.com/Binondi/Calculator-Hide-Files/issues/28
+    - 2026-05-10 v2.0.2 adds CAMERA permission – https://github.com/Binondi/Calculator-Hide-Files/issues/28
 
 AllowedAPKSigningKeys: 1b6a72f8e4c73a7efde023fe9d9f7740cc00534375713d66232d7e4352999b7f
 
