@@ -12,6 +12,7 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2023-04-07
+  Todo: 2026-06-15 check if https://github.com/adeeteya/FlutterMarkdownEditor/issues/54 has been replied to
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/adeeteya/FlutterMarkdownEditor/tree/master/fastlane/metadata/android
