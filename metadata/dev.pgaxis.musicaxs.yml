@@ -1,0 +1,26 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: Jan Sixta
+AuthorEmail: pgaxis.dev@gmail.com
+AuthorWebSite: https://pgaxis.dev/
+SourceCode: https://github.com/PGAxis/MusicPlayer
+IssueTracker: https://github.com/PGAxis/MusicPlayer/issues
+Changelog: https://github.com/PGAxis/MusicPlayer/releases
+
+AutoName: Music.axs
+
+MaintainerNotes:
+  AppAdded: 2026-05-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/PGAxis/MusicPlayer/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelog,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: to access local audio files to play
+    android.permission.READ_EXTERNAL_STORAGE: to access local audio files to play
+
+AllowedAPKSigningKeys: ff2f2c3a37046a9f52bf73d0f6d538927dc2be0b30a4901b48ea10774a1fa20d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
