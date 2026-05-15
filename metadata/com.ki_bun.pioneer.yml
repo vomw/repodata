@@ -1,0 +1,22 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Kurt Ian Buenaventura
+AuthorEmail: ki-bun.dev@proton.me
+SourceCode: https://github.com/ki-bun/Pioneer
+IssueTracker: https://github.com/ki-bun/Pioneer/issues
+Changelog: https://github.com/ki-bun/Pioneer/releases
+
+AutoName: Pioneer
+
+MaintainerNotes:
+  AppAdded: 2026-05-15
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ki-bun/Pioneer/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 7292c73b8fa867a687b2c474c0f7b7be77172aaccefa2e6fee925641eb940e36
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
