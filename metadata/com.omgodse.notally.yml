@@ -5,6 +5,7 @@ AuthorName: Om Godse
 AuthorEmail: omgodseapps@gmail.com
 SourceCode: https://github.com/OmGodse/Notally
 IssueTracker: https://github.com/OmGodse/Notally/issues
+Changelog: https://github.com/OmGodse/Notally/releases
 
 AutoName: Notally - Minimalist Notes
 
@@ -17,6 +18,8 @@ MaintainerNotes:
   Fastlane: https://github.com/OmGodse/Notally/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
+  PermIgnore:
+    android.permission.RECORD_AUDIO: used for voice notes
 
 AllowedAPKSigningKeys: 8048268f9dcbd186538a831cfdb212f14f2e6200828844fe60f730305ae1385e
 
