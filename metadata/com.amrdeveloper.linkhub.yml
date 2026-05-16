@@ -1,0 +1,26 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: Amr Hesham
+AuthorEmail: amr96@programmer.net
+AuthorWebSite: https://amrdeveloper.medium.com/
+SourceCode: https://github.com/AmrDeveloper/LinkHub
+IssueTracker: https://github.com/AmrDeveloper/LinkHub/issues
+Changelog: https://github.com/AmrDeveloper/LinkHub/releases
+
+AutoName: LinkHub
+
+MaintainerNotes:
+  AppAdded: 2026-05-16
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/AmrDeveloper/LinkHub/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: for the export/import feature
+    android.permission.WRITE_EXTERNAL_STORAGE: for the export/import feature
+
+AllowedAPKSigningKeys: 66c1797933ec9c4cd4fab7d65000642b64e266f2c13b6cbd3958d3675e4e34fc
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
