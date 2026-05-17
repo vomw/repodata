@@ -15,7 +15,7 @@ MaintainerNotes:
   Method: gitlab-tags
   GHSkipPre: 1
   Fastlane: https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android/-/tree/master/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: Fastlane is our starter package
   PermIgnore:
     android.permission.RECORD_AUDIO: used for an optional experimental feature that allows streaming microphone audio

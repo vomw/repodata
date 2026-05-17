@@ -1,7 +1,3 @@
-AntiFeatures:
-  SourceArchived:
-    en-US: Upstream repo was archived 2024-11-08, there will be no updates anymore.
-    de: Das Quellrepo der App wurde am 2024-11-08 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Time
 License: GPL-3.0-only
@@ -22,8 +18,9 @@ MaintainerNotes:
   Status:
     - 2023-04-24 keep when it reached F-Droid, see https://gitlab.com/fdroid/fdroiddata/-/merge_requests/12776#note_1363920842
     - 2024-11-24 repo was archived 2024-11-08, UCM Tags=>None, RB updates disabled as well
+    - 2026-05-17 monthly check found upstream repo unarchived, but all releases gone; UCM=>Static for now
 
 AllowedAPKSigningKeys: 7eef49f0e016026000f00da20120632b90d898640b65d785caf6a587c382724f
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Static

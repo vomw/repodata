@@ -1,3 +1,7 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-05-11, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-05-11 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Multimedia
   - System
@@ -18,7 +22,9 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldesc,icon
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: used up to Android 8 by the theme manager
+  Status:
+    - 2026-05-17 monthly check found the upstream repo archived
 
 AllowedAPKSigningKeys: 421e7b05695683015ac0e6c20a38669f14e83f4635fb703cd205697a74ba2463
 
-UpdateCheckMode: Tags
+UpdateCheckMode: None

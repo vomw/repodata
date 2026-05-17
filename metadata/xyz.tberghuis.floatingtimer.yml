@@ -28,6 +28,7 @@ MaintainerNotes:
     android.permission.SYSTEM_ALERT_WINDOW: This is a *floating* timer, so it needs to display over other windows/applications.
   Status:
     - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/tberghuis/FloatingCountdownTimer/pull/42
+    - 2026-05-17 monthly check shows APK size exploded (from ~14 MB to ~52 MB) – https://github.com/tberghuis/FloatingCountdownTimer/issues/58
 
 AllowedAPKSigningKeys: 417602e65c51b62f9bddc37775febdfc9801d0eddb12f02c65a97fa9ccbb9c34
 

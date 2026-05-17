@@ -3,10 +3,10 @@ Categories:
 License: MIT
 AuthorName: Akylas
 AuthorEmail: contact@akylas.fr
-SourceCode: https://github.com/ossdocumentscanner/OSS-DocumentScanner
-IssueTracker: https://github.com/ossdocumentscanner/OSS-DocumentScanner/issues
+SourceCode: https://github.com/ossappscollective/OSS-DocumentScanner
+IssueTracker: https://github.com/ossappscollective/OSS-DocumentScanner/issues
 Translation: https://hosted.weblate.org/engage/oss-document-scanner/
-Changelog: https://github.com/ossdocumentscanner/OSS-DocumentScanner/releases
+Changelog: https://github.com/ossappscollective/OSS-DocumentScanner/releases
 
 AutoName: OSS Document Scanner
 ArchivePolicy: 2
@@ -17,7 +17,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
   X-oldFastlane: https://github.com/Akylas/com.akylas.documentscanner/blob/master/fastlane/metadata/android
-  Fastlane: https://github.com/ossdocumentscanner/OSS-DocumentScanner/blob/master/fastlane/metadata/com.akylas.documentscanner/android
+  Fastlane: https://github.com/ossappscollective/OSS-DocumentScanner/blob/master/fastlane/metadata/com.akylas.documentscanner/android
   FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.CAMERA: the app needs access to the camera to scan documents

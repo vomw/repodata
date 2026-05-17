@@ -14,7 +14,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/nwrkbiz/android-xserver/blob/master/demo/src/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: video,shortdesc,fulldescMD,changelogs,icon,screenshots
   NameSpaces:
     - /au/com/darkside/xserver
   Status:

@@ -1,3 +1,7 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-05-10, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-05-10 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Theming
 License: GPL-3.0-only
@@ -23,8 +27,10 @@ MaintainerNotes:
   PermIgnore:
     android.permission.REQUEST_DELETE_PACKAGES: to allow removal of unwanted apps
     android.permission.ACCESS_COARSE_LOCATION: for the optional weather widget to show the weather at the current location
+  Status:
+    - 2026-05-17 monthly check found upstream repo archived
 
 AllowedAPKSigningKeys: fad536a2eed1f897481b9508e71ef16ea046b34dab0db892596cc6abaef90ed4
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None

@@ -2,9 +2,6 @@ AntiFeatures:
   NonFreeNet:
     en-US: Requires the ETH/UZH backends, which are proprietary.
     de: Benötigt die Backends der ETH/UZH, die nicht libre sind.
-  SourceArchived:
-    en-US: Upstream repo was archived 2025-11-10, there will be no updates anymore.
-    de: Das Quellrepo der App wurde am 2025-11-10 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Internet
   - Food

@@ -2,9 +2,6 @@ AntiFeatures:
   NonFreeNet:
     en-US: The app connects to Reddit.
     de: Die App baut Verbindungen zu Reddit auf.
-  SourceArchived:
-    en-US: Upstream repo was archived 2024-08-11, there will be no updates anymore.
-    de: Das Quellrepo der App wurde am 2024-08-11 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Graphics
 License: GPL-3.0-only
@@ -25,8 +22,9 @@ MaintainerNotes:
   Status:
     - 2024-10-23 repo was archived 2024-08-11, UCM Tags=>None
     - 2024-10-23 reported as still working, see https://gitlab.com/IzzyOnDroid/repo/-/issues/617
+    - 2026-05-17 monthly check reported the repo unarchived, but still no new releases or commits
 
 AllowedAPKSigningKeys: 07b9c766979a7d4ac3ca04da86e9f1b599768cb0e39931d1fbbc1b7c443b78cd
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Static

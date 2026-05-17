@@ -17,8 +17,10 @@ MaintainerNotes:
   Note: Fastlane is our starter package
   NameSpaces:
     - /rbtlui/composeapp
+  Status:
+    - 2026-05-17 monthly check reports last commit 2025-05-14 (last release was 2025-02-06); UCM Tags=>Static
 
 AllowedAPKSigningKeys: 3956533c542218349b5f3f7f3d3a6926060c1a0cdf32d6e58ea1de3a36c21213
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static

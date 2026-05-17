@@ -24,7 +24,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/juanro49/FeedTV/tree/master/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Status:
     - 2025-03-23 last release/commit 2024-01-03; UCM Tags=>Static
     - 2025-09-24 upstreaming DE+EN locale to fastlane with https://github.com/juanro49/FeedTV/pull/41 (finding 1 new release 8/2025)

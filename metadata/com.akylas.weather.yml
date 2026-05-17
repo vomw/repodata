@@ -7,10 +7,9 @@ Categories:
 License: MIT
 AuthorName: Akylas
 AuthorWebSite: https://www.akylas.fr/
-SourceCode: https://github.com/Akylas/oss-weather
-IssueTracker: https://github.com/Akylas/oss-weather/issues
-Changelog: https://github.com/Akylas/oss-weather/releases
-Donate: https://github.com/sponsors/farfromrefug
+SourceCode: https://github.com/ossappscollective/oss-weather
+IssueTracker: https://github.com/ossappscollective/oss-weather/issues
+Changelog: https://github.com/ossappscollective/oss-weather/releases
 
 AutoName: OSS Weather
 ArchivePolicy: 2
@@ -26,7 +25,7 @@ MaintainerNotes:
     - /com/tns/internal
     - /ignoreUnidentified
     - /com/nativescript/swiperefreshlayout
-  Fastlane: https://github.com/Akylas/oss-weather/tree/master/fastlane/metadata/android
+  Fastlane: https://github.com/ossappscollective/oss-weather/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
   FastlaneIgnore: video
   Note: video.txt empty

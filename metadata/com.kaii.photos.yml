@@ -27,6 +27,7 @@ MaintainerNotes:
   Status:
     - 2025-03-09 REQUEST_INSTALL_PACKAGES – https://github.com/kaii-lb/LavenderPhotos/issues/41
     - 2026-01-01 APK size now exceeds our per-app size limit (starting with v1.3.0, it is 40+ MB). Asked for per-ABI builds at https://github.com/kaii-lb/LavenderPhotos/issues/171
+    - 2026-01-03 switching to arm64 build now (22 MB)
 
 AllowedAPKSigningKeys: b26e8acd20d2bdb51dee0df965aa40bd8643d3f895e825a0cddf51fe275b3ec1
 

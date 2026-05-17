@@ -20,6 +20,7 @@ MaintainerNotes:
   AppAdded: 2022-10-22
   Method: github-release
   GHSkipPre: 1
+  Note: source code is at https://github.com/Mikotwa/FuckLocation
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to show a list of apps to return custom locations to
   Status:

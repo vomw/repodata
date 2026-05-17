@@ -15,6 +15,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/cogwheel0/luci-mobile/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Status:
+    - 2026-04-07 APK size exceeds 50 MB meanwhile, asked for per-ABI builds at https://github.com/cogwheel0/luci-mobile/issues/42#issuecomment-4195483415
 
 AllowedAPKSigningKeys: 65258b784e167f5b7e16e234ce2d65e69dad2636a37850eb9879eaca1b00e5d1
 

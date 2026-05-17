@@ -28,6 +28,7 @@ MaintainerNotes:
   Status:
     - 2024-03-23 last release 2024-03-06, last real commit 8/2024; UCM Tags=>Static
     - 2026-05-15 development picked up again, 5 releases since 3/2026; UCM=>Tags again
+    - 2026-05-17 APK size closing up to 40 MB now, asked for per-ABI builds at https://github.com/jackBonadies/SeekerAndroid/issues/78
 
 AllowedAPKSigningKeys: 73345e7d43feb55939450de4497d64c001d2ae764265b69c2cbf3ea03677a8a2
 

@@ -20,6 +20,7 @@ Translation: https://crowdin.com/project/octi
 Changelog: https://github.com/d4rken-org/octi/releases
 
 AutoName: Octi - Multi-Device Monitor
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2022-11-02

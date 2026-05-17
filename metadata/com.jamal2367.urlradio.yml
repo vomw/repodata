@@ -1,7 +1,3 @@
-AntiFeatures:
-  SourceArchived:
-    en-US: Upstream repo was archived 2024-12-06, there will be no updates anymore.
-    de: Das Quellrepo der App wurde am 2024-12-06 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Internet
   - Multimedia
@@ -24,8 +20,9 @@ MaintainerNotes:
     - 2022-01-15 repo gone again
     - 2022-05-27 back again. Switching it on for a last time; next time it disappears it stays off, see https://gitlab.com/IzzyOnDroid/repo/-/issues/267
     - 2024-12-10 repo was archived 2024-12-06, UCM Tags=>None
+    - 2026-05-17 monthly check found repo unarchived again, but no new commits/releases; UCM=>Static for now
 
 AllowedAPKSigningKeys: 7bbaf8ab4ee3a72f0bcdc98dd102bc324619475845137eec4aee8c8c997959db
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: None
+UpdateCheckMode: Static

@@ -13,7 +13,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 0
   ApkMatch: /preview/i
-  Fastlane: https://github.com/florisboard/florisboard/tree/master/fastlane/metadata/androidbeta/en-US
+  Fastlane: https://github.com/florisboard/florisboard/tree/master/fastlane/metadata/androidbeta
   FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphicJPG,screenshotsJPG
   IntentFilterIgnore:
     android.view.InputMethod: being a keyboard app this intent filter is needed
