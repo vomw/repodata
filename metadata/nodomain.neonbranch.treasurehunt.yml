@@ -15,6 +15,9 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://codeberg.org/neonbranch/treasurehunt/src/branch/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed to guide to the waypoints
+    android.permission.ACCESS_COARSE_LOCATION: needed to guide to the waypoints
 
 AllowedAPKSigningKeys: 25238413a89a413554e5e9414d62f0b8ac0714730a930c57c32cf8f14a5d97ba
 
