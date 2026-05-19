@@ -23,8 +23,14 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: needed to access local media to play and sync
     android.permission.SYSTEM_ALERT_WINDOW: needed for the Pip (picture-in-picture) feature
   NameSpaces:
+    - /app/home
+    - /app/klipy
     - /app/player/mpv
+    - /app/protocol
+    - /app/room
     - /app/server
+    - /app/subtitles
+    - /app/theme
     - /com/chromaticnoob/colorpreference
     - /com/reddnek/syncplay
     - /com/yuroyami/syncplay

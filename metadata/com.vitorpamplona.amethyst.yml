@@ -22,7 +22,9 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
   NameSpaces:
     - /com/vitorpamplona/ammolite
+    - /com/vitorpamplona/nestsclient
     - /com/vitorpamplona/quartz
+    - /com/vitorpamplona/quic
   FlagIgnore:
     usesCleartextTraffic: for using relays that are not secured, of which unfortunately there are plenty at Nostr
   PermIgnore:

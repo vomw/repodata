@@ -7,6 +7,7 @@ SourceCode: https://github.com/T8RIN/ImageToolbox
 IssueTracker: https://github.com/T8RIN/ImageToolbox/issues
 Translation: https://hosted.weblate.org/engage/image-resizer
 Changelog: https://github.com/T8RIN/ImageToolbox/releases
+Bitcoin: 18QFWMREkjzQa4yetfYsN5Ua51UubKmJut
 
 AutoName: Image Resizer (Shrinker)
 ArchivePolicy: 1
@@ -19,6 +20,7 @@ MaintainerNotes:
   Fastlane: https://github.com/T8RIN/ImageToolbox/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
   NameSpaces:
+    - /com/t8rin/crop
     - /com/t8rin/cropper
     - /com/t8rin/gesture
     - /com/t8rin/imagetoolbox
