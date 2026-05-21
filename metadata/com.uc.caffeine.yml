@@ -1,0 +1,23 @@
+Categories:
+  - Sports & Health
+License: GPL-3.0-only
+AuthorName: ohuc
+SourceCode: https://github.com/ohuc/CaffeineHealth
+IssueTracker: https://github.com/ohuc/CaffeineHealth/issues
+Translation: https://hosted.weblate.org/engage/caffeine-health/
+Changelog: https://github.com/ohuc/CaffeineHealth/releases
+
+AutoName: Caffeine Health
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-05-21
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/ohuc/CaffeineHealth/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: c76cc07ef96d4a42abc6e42acfecb55c6a17574f5d557208fa024bfc1b74e12a
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
