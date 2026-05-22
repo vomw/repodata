@@ -1,0 +1,22 @@
+Categories:
+  - Social Network
+  - Internet
+License: AGPL-3.0-only
+AuthorName: bg443
+SourceCode: https://codeberg.org/bg443/Skylib
+IssueTracker: https://codeberg.org/bg443/Skylib/issues
+Changelog: https://codeberg.org/bg443/Skylib/releases
+
+AutoName: Skylib
+
+MaintainerNotes:
+  AppAdded: 2026-05-23
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/bg443/Skylib/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 3956533c542218349b5f3f7f3d3a6926060c1a0cdf32d6e58ea1de3a36c21213
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
