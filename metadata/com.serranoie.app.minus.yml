@@ -1,0 +1,23 @@
+Categories:
+  - Money
+License: Apache-2.0
+AuthorName: Isaac Serrano
+AuthorEmail: serranoie99@gmail.com
+SourceCode: https://github.com/isaacsa51/Minus
+IssueTracker: https://github.com/isaacsa51/Minus/issues
+
+AutoName: Minus
+
+MaintainerNotes:
+  AppAdded: 2026-05-22
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss-release/i
+  ApkIgnore: /wear-release/i
+  Fastlane: https://github.com/isaacsa51/Minus/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: d4d41200a0455788369e345d23627aad4c672025603b39f158be84d15221ed82
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
