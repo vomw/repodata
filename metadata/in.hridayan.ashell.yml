@@ -13,7 +13,7 @@ MaintainerNotes:
   AppAdded: 2024-03-18
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /github-release/i
+  ApkMatch: /fdroid-release/i
   Fastlane: https://github.com/DP-Hridayan/aShellYou/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   DoubleList: keep
