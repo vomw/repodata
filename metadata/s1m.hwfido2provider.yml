@@ -4,6 +4,7 @@ License: Apache-2.0
 AuthorName: s1m
 SourceCode: https://codeberg.org/s1m/hw-fido2-provider
 IssueTracker: https://codeberg.org/s1m/hw-fido2-provider/issues
+Translation: https://translate.codeberg.org/projects/passchain/
 Changelog: https://codeberg.org/s1m/hw-fido2-provider/releases
 Liberapay: S1m
 
@@ -20,6 +21,11 @@ MaintainerNotes:
     - /com/google/android/gms/fido
     - /com/google/android/gms/safetynet
     - /com/google/android/gms
+  PermIgnore:
+    android.permission.BLUETOOTH_SCAN: required for cross-device login
+    android.permission.ACCESS_FINE_LOCATION: needed by Android in conjunction with Bluetooth
+    android.permission.ACCESS_COARSE_LOCATION: needed by Android in conjunction with Bluetooth
+    android.permission.QUERY_ALL_PACKAGES: needed to get the caller signing key
 
 AllowedAPKSigningKeys: 94bd36ba4648d38697cdfcf3385b6c0088ff3d551ce9fc16050ee080b9553ec5
 
