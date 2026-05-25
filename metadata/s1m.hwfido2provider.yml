@@ -22,10 +22,18 @@ MaintainerNotes:
     - /com/google/android/gms/safetynet
     - /com/google/android/gms
   PermIgnore:
+    android.permission.BLUETOOTH: required for cross-device login
+    android.permission.BLUETOOTH_ADMIN: required for cross-device login
+    android.permission.BLUETOOTH_ADVERTISE: required for cross-device login
+    android.permission.BLUETOOTH_CONNECT: required for cross-device login
     android.permission.BLUETOOTH_SCAN: required for cross-device login
     android.permission.ACCESS_FINE_LOCATION: needed by Android in conjunction with Bluetooth
     android.permission.ACCESS_COARSE_LOCATION: needed by Android in conjunction with Bluetooth
     android.permission.QUERY_ALL_PACKAGES: needed to get the caller signing key
+    android.permission.INTERNET: needed for cross-device login and to verify non-browser applications
+    android.permission.MANAGE_USB: to connect security keys via USB
+    android.permission.NFC: to connect security keys via NFC
+    android.permission.USE_BIOMETRIC: needed for on-device login with screen lock
 
 AllowedAPKSigningKeys: 94bd36ba4648d38697cdfcf3385b6c0088ff3d551ce9fc16050ee080b9553ec5
 
