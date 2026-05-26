@@ -20,8 +20,10 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: to read image files
     android.permission.MANAGE_EXTERNAL_STORAGE: to write the image files
     android.permission.WRITE_EXTERNAL_STORAGE: to write the image files
+  Status:
+    - 2026-05-26 signing key changed, temporarily UCM Tags=>Static until solved; https://github.com/rajmani7584/Payload-Dumper-Android/issues/25
 
 AllowedAPKSigningKeys: 843a64c1c718dea5aa72fcb47036e651cf4c724bbbc4f50b81b9f4189a5856c1
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
