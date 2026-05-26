@@ -15,13 +15,14 @@ MaintainerNotes:
   AppAdded: 2025-07-16
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /arm64/i
+  ApkMatch: /WeatherMaster/i
   Fastlane: https://github.com/PranshulGG/WeatherMaster/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
   Note: Fastlane is our starter package
   PermIgnore:
     android.permission.ACCESS_FINE_LOCATION: needed to find current location for weather
     android.permission.ACCESS_COARSE_LOCATION: needed to find current location for weather
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed to find current location for weather when running in background
   Status:
     - 2024-10-07 signing key changed, UCM Tags=>Static until clarified – https://github.com/PranshulGG/WeatherMaster/issues/61
     - 2024-10-08 solved (original keystore restored), UCM Static=>Tags again
@@ -34,6 +35,7 @@ MaintainerNotes:
     - 2025-07-20 GMS gone again.
     - 2025-08-28 versionCode forgotten again, UCM Tags=>Static
     - 2025-08-30 solved, UCM=Tags again
+    - 2026-05-26 fastlane is gone? https://github.com/PranshulGG/WeatherMaster/issues/842#issuecomment-4543407839
 
 AllowedAPKSigningKeys: c97f592ad5a426ef17aa4b113aa8f9c1bc3c2f2675c857ad86bdacc05fbeee01
 
