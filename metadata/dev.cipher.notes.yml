@@ -1,0 +1,23 @@
+Categories:
+  - Office
+License: MIT
+AuthorName: CipherApps
+AuthorEmail: cipher-apps@proton.me
+SourceCode: https://github.com/CipherApps/cipher-notes
+IssueTracker: https://github.com/CipherApps/cipher-notes/issues
+Changelog: https://github.com/CipherApps/cipher-notes/releases
+
+AutoName: Cipher
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-05-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/CipherApps/cipher-notes/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 61ee36ff08a3555bb2d4e53147ad15063b9a2e05fa0b47d3774c62ad92d67b8c
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
