@@ -32,9 +32,10 @@ MaintainerNotes:
     - 2026-03-06 UCM Tags=>Static as MLKit was added, see https://github.com/Nandanrmenon/florid/issues/73
     - 2026-03-06 solved the same day
     - 2026-05-06 v1.3.0 added in-app updater – https://codeberg.org/IzzyOnDroid/repodata/issues/181
+    - 2026-05-27 still no reply from the dev, despite of multiple new releases. So, UCM=>None to not accidentally drag in a new release with the monthly run.
 
 AllowedAPKSigningKeys: 8486d1cb98e0ebeba90b5715c5e9196c6867f0db1044d760416c139e5c10ce12
 
 VercodeOperation: '%c -2000'
 AutoUpdateMode: Version v%v\+\d+
-UpdateCheckMode: Static
+UpdateCheckMode: None
