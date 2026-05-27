@@ -20,6 +20,8 @@ MaintainerNotes:
   ApkMatch: /foss\.apk$/i
   Fastlane: https://github.com/dongdongbh/Mindwtr/blob/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: for user-configured WebDAV and self-hosted sync endpoints on trusted local/private HTTP networks
   PermIgnore:
     android.permission.RECORD_AUDIO: for voice input (dictation)
     android.permission.READ_CALENDAR: for calendar integration so events can be read directly from device calendars
