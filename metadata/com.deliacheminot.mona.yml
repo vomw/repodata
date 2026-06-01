@@ -1,0 +1,26 @@
+Categories:
+  - Sports & Health
+License: AGPL-3.0-only
+AuthorName: Mona
+SourceCode: https://github.com/mona-hrt/mona
+IssueTracker: https://github.com/mona-hrt/mona/issues
+Translation: https://hosted.weblate.org/engage/mona/
+Changelog: https://github.com/mona-hrt/mona/releases
+Donate: https://ko-fi.com/deliacheminot
+
+AutoName: Mona
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-06-01
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /mona-store-arm64-v8a\.apk/i
+  Fastlane: https://github.com/mona-hrt/mona/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: bc409dacfbec35699b8ce93751da85923419a2a1e71b3c5009b679aefdfa56f9
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
