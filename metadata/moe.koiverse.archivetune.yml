@@ -1,4 +1,7 @@
 AntiFeatures:
+  NonFreeComp:
+    en-US: The app uses the proprietary Discord SDK.
+    de: Die App verwendet das proprietäre Discord SDK.
   NonFreeNet:
     en-US: The app depends on YouTube.
     de: Die App verwendet YouTube.
