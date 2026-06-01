@@ -37,7 +37,6 @@ MaintainerNotes:
     android.permission.READ_MEDIA_AUDIO: needed to play songs from your local media
     android.permission.READ_EXTERNAL_STORAGE: needed to play songs from your local media on Android 9 and before
     android.permission.QUERY_ALL_PACKAGES: needed to select an app for direct share
-    android.permission.READ_PHONE_STATE: required to resume playback after received call
   Status:
     - 2026-02-12 update author info on author´s request, see https://github.com/fast4x/RiPlay/issues/114#issuecomment-3885716004
     - 2026-04-28 Self-Updater introduced, UCM Tags=>Static, see https://github.com/fast4x/RiPlay/issues/226
