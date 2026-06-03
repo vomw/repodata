@@ -15,7 +15,7 @@ MaintainerNotes:
   AppAdded: 2025-06-30
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /github-universal/i
+  ApkMatch: /githubRelease\.apk/i
   Fastlane: https://github.com/cromaguy/Rhythm/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
