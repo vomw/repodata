@@ -1,0 +1,27 @@
+Categories:
+  - Security
+License: EUPL-1.2
+AuthorName: '979'
+AuthorEmail: contact@979.st
+AuthorWebSite: https://979.st/
+SourceCode: https://codeberg.org/979/2fa
+IssueTracker: https://codeberg.org/979/2fa/issues
+Translation: https://translate.codeberg.org/projects/979/2fa
+Changelog: https://codeberg.org/979/2fa/releases
+Donate: https://979.st/donate
+
+AutoName: 2fa
+
+MaintainerNotes:
+  AppAdded: 2026-06-04
+  Method: codeberg-release
+  GHSkipPre: 1
+  Fastlane: https://codeberg.org/979/2fa/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: needed to scan QR codes
+
+AllowedAPKSigningKeys: e5b28ea1e051c232dea94c27c0592e2c002d17c5ca81788b51306d608afe52c5
+
+AutoUpdateMode: Version %c
+UpdateCheckMode: Tags
