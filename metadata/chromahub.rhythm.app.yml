@@ -15,7 +15,7 @@ MaintainerNotes:
   AppAdded: 2025-06-30
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /githubRelease\.apk/i
+  ApkMatch: /fdroidRelease\.apk/i
   Fastlane: https://github.com/cromaguy/Rhythm/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
@@ -39,6 +39,7 @@ MaintainerNotes:
     - 2025-10-07 usesCleartextTraffic android.permission.MANAGE_EXTERNAL_STORAGE android.permission.ACCESS_MEDIA_LOCATION – https://github.com/cromaguy/Rhythm/issues/1#issuecomment-3378096312
     - 2025-12-21 v3.8.292.815 introduced Google Cast, FCM, GMS & Co; rolled back that update, UCM Tags=>Static until clarified; see https://github.com/cromaguy/Rhythm/issues/149
     - 2025-12-23 solved (were remains from a test forgotten to clean up)
+    - 2026-06-05 integrated self-updater is now opt-out, and does not mention implications, thus violating our inclusion criteria – https://github.com/cromaguy/Rhythm/issues/400 => switching to fdroid flavor
 
 AllowedAPKSigningKeys: cb9045124f6f7066c70f3b85c2bcfb75cc2293bb1b4ba1c3ec40e223a5cc6a35
 
