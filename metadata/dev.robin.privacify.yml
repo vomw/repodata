@@ -1,0 +1,36 @@
+Categories:
+  - Security
+  - System
+License: Apache-2.0
+AuthorName: Abul Kalam Robin
+AuthorEmail: robinsrk3@gmail.com
+AuthorWebSite: https://robinsrk.netlify.app/
+SourceCode: https://github.com/robinsrk/privacify
+IssueTracker: https://github.com/robinsrk/privacify/issues
+Donate: https://www.patreon.com/posts/privacify-159119797
+
+AutoName: Privacify
+
+MaintainerNotes:
+  AppAdded: 2026-06-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/robinsrk/privacify/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list all installed apps for permission scanning
+    android.permission.PACKAGE_USAGE_STATS: needed to detect which apps are currently active to apply privacy rules
+    android.permission.POST_NOTIFICATIONS: needed to alert you when apps access camera or microphone
+    android.permission.FOREGROUND_SERVICE: needed to run background monitoring and automation
+    android.permission.FOREGROUND_SERVICE_SPECIAL_USE: required for ongoing sensor monitoring service
+    android.permission.RECEIVE_BOOT_COMPLETED: needed to restart automation service after device reboot
+    android.permission.INTERNET: required by Shizuku for inter-process communication
+    android.permission.ACCESS_NETWORK_STATE: required by Shizuku for network state queries
+    android.permission.INTERACT_ACROSS_USERS_FULL: required by Shizuku for multi-user support
+    android.permission.WAKE_LOCK: needed to keep the device awake during critical operations
+    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: to allow users to exempt app from battery optimization
+
+AllowedAPKSigningKeys: 91e4aa53dbae8aac4d3ddcbeb0bcae81e6f997ae2726c000655236db93e3d032
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
