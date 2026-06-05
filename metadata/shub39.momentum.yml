@@ -17,6 +17,8 @@ MaintainerNotes:
   ApkMatch: /foss-arm64/i
   Fastlane: https://github.com/shub39/Momentum/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: needed to add pictures with the camera
 
 AllowedAPKSigningKeys: 0fe1b9f44a4db97ec50948f5189f6b4300716cc6d4843f5698d614a2152e2188
 
