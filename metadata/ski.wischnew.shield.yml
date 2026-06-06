@@ -1,0 +1,29 @@
+Categories:
+  - Phone & SMS
+License: GPL-3.0-only
+AuthorName: Coffee-Viking
+AuthorWebSite: https://wischnew.ski/
+WebSite: https://shield.wischnew.ski/
+SourceCode: https://github.com/Coffee-Viking/sms-shield
+IssueTracker: https://github.com/Coffee-Viking/sms-shield/issues
+Changelog: https://github.com/Coffee-Viking/sms-shield/releases
+
+AutoName: SMS Shield
+
+MaintainerNotes:
+  AppAdded: 2026-06-07
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Coffee-Viking/sms-shield/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.RECEIVE_SMS: needed to act as default SMS app
+    android.permission.READ_SMS: needed to read existing SMS
+    android.permission.SEND_SMS: needed to send SMS
+    android.permission.READ_CONTACTS: needed to show the names belonging to the SMS phone numbers
+    android.permission.READ_PHONE_STATE: needed to check network availability
+
+AllowedAPKSigningKeys: 282e3a0ab4095b4f4b6a324144de95297eba2e3bda48a276e58cd2d931ff65b0
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
