@@ -21,8 +21,9 @@ MaintainerNotes:
     - 2022-05-01 no commits since 4/2021, switching UCM from Tags to Static
     - 2025-04-01 signing key changed, see https://github.com/nwrkbiz/android-xserver/issues/42
     - 2025-04-10 verified via website
+    - 2026-06-06 last release 4/2025, UCM Tags=>Static
 
 AllowedAPKSigningKeys: 0d033d57b0554b58babd46c7b36ef72282ef15e3979e6b451406132a67fb2779
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
