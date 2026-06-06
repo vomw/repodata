@@ -19,6 +19,8 @@ MaintainerNotes:
   Fastlane: https://github.com/cromaguy/Rhythm/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
+  FlagIgnore:
+    usesCleartextTraffic: to connect to streaming self hosted servers like Jellyfin or Subsonic/Navidrome
   PermIgnore:
     android.permission.BLUETOOTH: for Bluetooth device integration
     android.permission.BLUETOOTH_ADMIN: for Bluetooth device integration
