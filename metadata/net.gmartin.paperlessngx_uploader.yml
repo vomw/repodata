@@ -17,7 +17,7 @@ MaintainerNotes:
   ApkMatch: /arm64-v8a/
   ApkIgnore: /x86/
   Fastlane: https://github.com/gmag11/Paperless_ngx_uploader/tree/main/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: Fastlane is our starter package
   Status:
     - 2025-08-09 upstreaming our local Fastlane metadata via https://github.com/gmag11/Paperless_ngx_uploader/pull/2

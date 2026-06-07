@@ -17,7 +17,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/donmor/TiddloidLite/tree/master/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
   FlagIgnore:
     usesCleartextTraffic: used for LAN connections only
