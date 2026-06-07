@@ -15,6 +15,7 @@ IssueTracker: https://github.com/UpAllNite-Software/simple-song-collector/issues
 Changelog: https://github.com/UpAllNite-Software/simple-song-collector/releases
 
 AutoName: Simple Song Collector
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-07-25
@@ -31,7 +32,7 @@ MaintainerNotes:
     android.permission.WRITE_EXTERNAL_STORAGE: needed to save the downloaded files
   Status:
     - 2025-08-11 upstreaming our Fastlane via https://github.com/UpAllNite-Software/simple-song-collector/pull/9
-
+    - 2026-06-07 APK size exploded from ~8 to 42+ MB. Asked for per-ABI builds at https://github.com/UpAllNite-Software/simple-song-collector/issues/12
 
 AllowedAPKSigningKeys: f15249882a77a1dd12efef956352419f47d35beff0c9b3b7462851eb11aec694
 
