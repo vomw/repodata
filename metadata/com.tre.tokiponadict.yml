@@ -1,7 +1,3 @@
-AntiFeatures:
-  SourceArchived:
-    en-US: Upstream repo was archived 2025-10-28, there will be no updates anymore.
-    de: Das Quellrepo der App wurde am 2025-10-28 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Science & Education
 License: GPL-3.0-only
@@ -18,8 +14,11 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://codeberg.org/Tre_brock/Toki-Pona-Dict-App/src/branch/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Status:
+    - 2025-10-28 upstream repo was archived
+    - 2026-06-07 found the repo unarchived again
 
 AllowedAPKSigningKeys: 9a6f05c6545c8f13b9d1efe0cfccad31772c146cd2295110f40a71c5475dd52b
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: None
+UpdateCheckMode: Static
