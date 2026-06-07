@@ -21,7 +21,7 @@ MaintainerNotes:
     android.permission.READ_SMS: needed to read existing SMS
     android.permission.SEND_SMS: needed to send SMS
     android.permission.READ_CONTACTS: needed to show the names belonging to the SMS phone numbers
-    android.permission.READ_PHONE_STATE: needed to check network availability
+    android.permission.READ_PHONE_STATE: needed to check network availability, and to identify the SIM used on multi-SIM devices
 
 AllowedAPKSigningKeys: 282e3a0ab4095b4f4b6a324144de95297eba2e3bda48a276e58cd2d931ff65b0
 
