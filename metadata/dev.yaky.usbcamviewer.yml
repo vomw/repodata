@@ -18,7 +18,7 @@ MaintainerNotes:
   ApkMatch: /viewer_release/i
   ApkIgnore: /viewer_debug/i
   Fastlane: https://gitlab.com/yaky/android-usb-cam-viewer/-/tree/main/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon
   PermIgnore:
     android.permission.CAMERA: used to access the camera
   Status:

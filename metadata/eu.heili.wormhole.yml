@@ -16,7 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
   Fastlane: https://github.com/wormhole-app/wormhole/blob/main/android/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   FastlaneIgnore: video
   PermIgnore:
     android.permission.CAMERA: needed for the integrated QR Code reader
