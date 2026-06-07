@@ -3,9 +3,9 @@ Categories:
 License: GPL-3.0-only
 AuthorName: dic1911
 AuthorEmail: d69873@gmail.com
-SourceCode: https://github.com/dic1911/android_URLSanitizer
-IssueTracker: https://github.com/dic1911/android_URLSanitizer/issues
-Changelog: https://github.com/dic1911/android_URLSanitizer/releases
+SourceCode: https://github.com/im030/android_URLSanitizer
+IssueTracker: https://github.com/im030/android_URLSanitizer/issues
+Changelog: https://github.com/im030/android_URLSanitizer/releases
 
 AutoName: URLSanitizer
 
@@ -15,7 +15,7 @@ MaintainerNotes:
   AddedBack: 2025-03-11
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/dic1911/android_URLSanitizer/tree/reboot/fastlane/metadata/android
+  Fastlane: https://github.com/im030/android_URLSanitizer/tree/reboot/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   DoubleList: keep
   FlagIgnore:

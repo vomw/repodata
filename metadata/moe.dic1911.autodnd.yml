@@ -3,8 +3,8 @@ Categories:
 License: AGPL-3.0-only
 AuthorName: dic1911
 AuthorEmail: d69873@gmail.com
-SourceCode: https://github.com/dic1911/android_AutoDND
-IssueTracker: https://github.com/dic1911/android_AutoDND/issues
+SourceCode: https://github.com/im030/android_AutoDND
+IssueTracker: https://github.com/im030/android_AutoDND/issues
 
 AutoName: AutoDND
 
@@ -13,7 +13,7 @@ MaintainerNotes:
   AppRemoved: 2021-11-26 arrived at F-Droid 2021-11-16
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/dic1911/android_AutoDND/tree/master/fastlane/metadata/android
+  Fastlane: https://github.com/im030/android_AutoDND/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   DoubleList: keep
   IntentFilterIgnore:
