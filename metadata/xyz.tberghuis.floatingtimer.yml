@@ -14,7 +14,6 @@ SourceCode: https://github.com/tberghuis/FloatingCountdownTimer
 IssueTracker: https://github.com/tberghuis/FloatingCountdownTimer/issues
 
 AutoName: Floating Timer
-ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2022-08-05
