@@ -27,6 +27,7 @@ MaintainerNotes:
     android.permission.ACCESS_FINE_LOCATION: required to include the location with photos taken/uploaded
     android.permission.READ_EXTERNAL_STORAGE: for phones below Android 10 to read photos in the PICTURE directory
     android.permission.WRITE_EXTERNAL_STORAGE: for phones below Android 10 to save photos in the PICTURE directory
+    android.permission.ACCESS_MEDIA_LOCATION: to read location data from photos imported to a sequence
   Status:
     - 2025-09-05 v1.17.0 added GMS, see https://gitlab.com/ravenfeld/baba/-/issues/201 – false positive, it’s microG
 
