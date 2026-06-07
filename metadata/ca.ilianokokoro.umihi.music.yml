@@ -19,8 +19,10 @@ MaintainerNotes:
   Fastlane: https://github.com/ilianoKokoro/umihi-music/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: Fastlane is our starter package
+  Status:
+    - 2026-06-08 v1.12.0 comes with a full self-updater, violating our policy. UCM Tags=>Static until solved. https://github.com/ilianoKokoro/umihi-music/issues/92
 
 AllowedAPKSigningKeys: f1f83fa5ebf5a43ee0f4abc8d0add89d9434380ea4e7f296ffe84e1a6610c5bb
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
