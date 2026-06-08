@@ -21,9 +21,6 @@ MaintainerNotes:
     android.permission.QUERY_ALL_PACKAGES: needed to list all installed apps for permission scanning
     android.permission.PACKAGE_USAGE_STATS: needed to detect which apps are currently active to apply privacy rules
     android.permission.POST_NOTIFICATIONS: needed to alert you when apps access camera or microphone
-    android.permission.FOREGROUND_SERVICE: needed to run background monitoring and automation
-    android.permission.FOREGROUND_SERVICE_SPECIAL_USE: required for ongoing sensor monitoring service
-    android.permission.RECEIVE_BOOT_COMPLETED: needed to restart automation service after device reboot
     android.permission.INTERNET: required by Shizuku for inter-process communication
     android.permission.ACCESS_NETWORK_STATE: required by Shizuku for network state queries
     android.permission.INTERACT_ACROSS_USERS_FULL: required by Shizuku for multi-user support

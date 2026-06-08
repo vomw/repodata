@@ -23,6 +23,8 @@ MaintainerNotes:
     - /de/jonasbroeckmann/kzip
   FlagIgnore:
     usesCleartextTraffic: to connect to instances in the local network
+  Status:
+    - 2026-06-09 v3.2.0 adds android.permission.MANAGE_EXTERNAL_STORAGE android.permission.READ_EXTERNAL_STORAGE – https://github.com/Wavesonics/hammer-editor/issues/576
 
 AllowedAPKSigningKeys: 66a4da23c900c2a57c117c026059eb1352a04e8a7dc00b393bbddbcc7e1383b6
 
