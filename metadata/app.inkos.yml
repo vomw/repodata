@@ -22,11 +22,26 @@ MaintainerNotes:
     android.permission.QUERY_ALL_PACKAGES: to show all apps in the app drawer
     android.permission.REQUEST_DELETE_PACKAGES: to allow uninstalling unwanted apps
     android.permission.USE_BIOMETRIC: to use PIN or fingerprint lock for apps or settings
-    android.permission.SYSTEM_ALERT_WINDOW: for overlay features, such as showing notifications or dialogs over other apps
     android.permission.CAMERA: needed to use camera2api to turn flash light on/off
-    android.permission.READ_PHONE_STATE: used to access the "if phone is connected to data" for turning on/off data
-    android.permission.READ_MEDIA_IMAGES: used for wallpaper selection
-    android.permission.READ_EXTERNAL_STORAGE: used for wallpaper selection
+    android.permission.READ_PHONE_STATE: used to access the "if phone is connected to data" for turning on/off data, and for cellular signal display
+    android.permission.READ_EXTERNAL_STORAGE: used for Media access (Android 12 and below)
+    android.permission.READ_CONTACTS: used by the search functionality
+    android.permission.READ_MEDIA_AUDIO: used by the search functionality
+    android.permission.READ_CALENDAR: used for the calendar events widget
+    android.permission.EXPAND_STATUS_BAR: to expand/collapse status bar via gestures
+    android.permission.VIBRATE: for haptic feedback
+    android.permission.SET_WALLPAPER: to set the wallpaper
+    android.permission.WRITE_SETTINGS: for brightness control (Simple Tray)
+    android.permission.MODIFY_AUDIO_SETTINGS: for volume control (Simple Tray)
+    android.permission.ACCESS_WIFI_STATE: for WiFi status (Simple Tray)
+    android.permission.CHANGE_WIFI_STATE: for the WiFi toggle (Simple Tray)
+    android.permission.BLUETOOTH: for the Bluetooth status (Hub, API 30 and below)
+    android.permission.BLUETOOTH_ADMIN: for the Bluetooth admin (Hub, API 30 and below)
+    android.permission.BLUETOOTH_CONNECT: for Bluetooth device info (Hub)
+    android.permission.PACKAGE_USAGE_STATS: to show recent/most-used apps (Recents screen)
+    android.permission.BIND_APPWIDGET: to embed Android widgets on home screen
+    com.android.launcher.permission.INSTALL_SHORTCUT: for legacy shortcut pinning
+    android.permission.ACCESS_HIDDEN_PROFILES: for Private Space on Android 15+
   Status:
     - 2025-07-03 android.accessibilityservice.AccessibilityService + DEPENDENCY_INFO_BLOCK – https://github.com/gezimos/inkOS/issues/1#issuecomment-3032469888
     - 2025-09-05 dev forgot to increase versionCode; UCM Tags=>Static until solved – https://github.com/gezimos/inkOS/issues/1#issuecomment-3259829628
