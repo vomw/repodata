@@ -16,7 +16,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/schorschii/RemotePointer-Android/tree/master/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescNL,icon,featureGraphic,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.CAMERA: used by the integrated QR code scanner
   Status:
