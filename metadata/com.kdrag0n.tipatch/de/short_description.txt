@@ -1,1 +1,0 @@
-veranlasse TWRP, den internen Speicher (Fotos, Videos, …) in Backups aufzunehmen

@@ -1,1 +1,0 @@
-Make TWRP include internal storage (photos, videos, downloads, etc) in backups
