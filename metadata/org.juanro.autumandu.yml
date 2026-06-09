@@ -20,8 +20,9 @@ MaintainerNotes:
   Fastlane: https://github.com/juanro49/autu-mandu/tree/master/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
   PermIgnore:
-    android.permission.MANAGE_EXTERNAL_STORAGE: needed for the automatic periodic backup option
     android.permission.READ_EXTERNAL_STORAGE: needed for the automatic periodic backup option
+    android.permission.ACCESS_FINE_LOCATION: used for geolocation for trips
+    android.permission.ACCESS_COARSE_LOCATION: used for geolocation for trips
   Status:
     - 2024-11-20 scanner reports READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK – https://github.com/juanro49/autu-mandu/issues/11
 
