@@ -9,6 +9,7 @@ AuthorWebSite: https://daniebeler.com/
 WebSite: https://pixelix.vercel.app/
 SourceCode: https://github.com/ghostbyte-dev/pixelix
 IssueTracker: https://github.com/ghostbyte-dev/pixelix/issues
+Translation: https://hosted.weblate.org/engage/pixelix
 Changelog: https://github.com/ghostbyte-dev/pixelix/releases
 
 AutoName: Pixelix - A Pixelfed Client
