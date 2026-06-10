@@ -12,7 +12,6 @@ AutoName: Neer
 
 MaintainerNotes:
   AppAdded: 2024-03-07
-  Todo: 2026-06-02 remove old signing key 0fc14e3 and APKs before VC 20000300
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/criticalAY/Neer/tree/master/fastlane/metadata/android
@@ -23,9 +22,7 @@ MaintainerNotes:
     - 2026-05-01 wrong signing key https://github.com/criticalAY/Neer/issues/30
     - 2026-05-02 new signing key verified by mail, website + author name adjusted as well
 
-AllowedAPKSigningKeys:
-  - 0fc14e34e5d49c7f2994f0984c77a4d526f25b6573df7e0f1d5b4d7b8d0f96db
-  - 6248657a9f292d32f4086f3580a6b945c06d0a7a4108d6d37254afe3dc1aea3e
+AllowedAPKSigningKeys: 6248657a9f292d32f4086f3580a6b945c06d0a7a4108d6d37254afe3dc1aea3e
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
