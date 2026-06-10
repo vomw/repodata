@@ -13,7 +13,6 @@ AutoName: OpenTodoList
 
 MaintainerNotes:
   AppAdded: 2018-05-24
-  Todo: 2026-05-23 check if https://github.com/mhoeher/opentodolist/issues/120 was responded to, else remove app (now 70 MB APK size)
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /armv7|armeabi/i
@@ -28,6 +27,7 @@ MaintainerNotes:
     - 2024-10-07 scanner reports usesCleartextTraffic android.permission.READ_EXTERNAL_STORAGE* – https://github.com/mhoeher/opentodolist/issues/100
     - 2025-08-22 upstreaming metadata via https://github.com/mhoeher/opentodolist/pull/109 – unfortunately not yet merged 2025-11-13; last release 1/2025
     - 2026-03-23 APK size now exceeds 70 MB – https://github.com/mhoeher/opentodolist/issues/120
+    - 2026-06-10 solved with 3.51.1, APK size now down to 35 MB
 
 AllowedAPKSigningKeys: cbd1903a1a10f9488c0f5207261783dc4cc5b28353adf136115e623b7a287d55
 
