@@ -10,6 +10,7 @@ AutoName: IrisChat
 
 MaintainerNotes:
   AppAdded: 2024-10-08
+  Todo: 2026-07-28 remove, rebranded to com.umut.irischat
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/umutcamliyurt/IrisChat/blob/main/fastlane/metadata/android
@@ -17,6 +18,7 @@ MaintainerNotes:
   Status:
     - 2026-03-19 UCM Tags=>Static as versionCode was not increased at v1.1, see https://github.com/umutcamliyurt/IrisChat/issues/13
     - 2026-04-17 source repo went 404, and didn not show up again after ~2 weeks
+    - 2026-06-12 rebranded to com.umut.irischat
 
 AllowedAPKSigningKeys: 9296f0754115465e0ae13ce43af5e1249ccfb157ffe13bf266a91d2fee48f9de
 
