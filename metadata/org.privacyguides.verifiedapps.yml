@@ -1,0 +1,25 @@
+Categories:
+  - Security
+  - System
+License: MIT
+AuthorName: Privacy Guides
+AuthorWebSite: https://privacyguides.org/
+SourceCode: https://github.com/privacyguides/verified-apps-android
+IssueTracker: https://github.com/privacyguides/verified-apps-android/issues
+
+AutoName: Verified Apps
+
+MaintainerNotes:
+  AppAdded: 2026-06-12
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/privacyguides/verified-apps-android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Note: https://mastodon.neat.computer/@privacyguides
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to list all installed apps
+
+AllowedAPKSigningKeys: 405c6bd2ca7c3aae8f463c6f8b55bcf0ddac431c5ed8eaff65d106c9817a207f
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
