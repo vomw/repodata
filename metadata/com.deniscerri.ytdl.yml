@@ -33,6 +33,7 @@ MaintainerNotes:
     - 2024-06-10 android.permission.SYSTEM_ALERT_WINDOW
     - 2024-09-01 RB check revealed signing data (incl. passwords) are stored inside the APK https://github.com/deniscerri/ytdlnis/issues/539#issuecomment-2323336513
     - 2026-03-12 android.permission.REQUEST_INSTALL_PACKAGES is back, see https://github.com/deniscerri/ytdlnis/issues/393#issuecomment-4049746732
+    - 2026-06-13 install permission gone now with the foss build, but usesCleartextTraffic popping up – https://github.com/deniscerri/ytdlnis/issues/393#issuecomment-4699484087
 
 AllowedAPKSigningKeys: 263645cb5272eb290759fe1f59149ae24df6ce171e9f6666eead981d3fc64c95
 
