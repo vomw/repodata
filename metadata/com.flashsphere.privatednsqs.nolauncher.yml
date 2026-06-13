@@ -1,0 +1,22 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Senxian Z
+SourceCode: https://github.com/flashsphere/private-dns-qs
+IssueTracker: https://github.com/flashsphere/private-dns-qs/issues
+Changelog: https://github.com/flashsphere/private-dns-qs/releases
+
+AutoName: Private DNS Quick Setting
+
+MaintainerNotes:
+  AppAdded: 2026-06-13
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /nolauncher-release/i
+  Fastlane: https://github.com/flashsphere/private-dns-qs/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: b2d8a4708b059473d904d0f82707d71e3e72586f50ba2d1183ccfab1dfd845c4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
