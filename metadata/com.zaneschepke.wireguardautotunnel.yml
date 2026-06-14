@@ -21,6 +21,9 @@ MaintainerNotes:
   ApkIgnore: /standalone/i
   Fastlane: https://github.com/wgtunnel/android/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /com/zaneschepke/hevtunnel
+    - /com/zaneschepke/tunnel
   IntentFilterIgnore:
     android.net.VpnService: this is a VPN app.
   PermIgnore:

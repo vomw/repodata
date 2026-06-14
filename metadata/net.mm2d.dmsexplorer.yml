@@ -22,6 +22,8 @@ MaintainerNotes:
   Fastlane: https://github.com/ohmae/dms-explorer/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
+  NameSpaces:
+    - /net/mm2d/android/transition
   FlagIgnore:
     usesCleartextTraffic: for unencrypted traffic in local networks
   Status:

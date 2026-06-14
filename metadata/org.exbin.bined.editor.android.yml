@@ -22,6 +22,7 @@ MaintainerNotes:
     - /org/exbin/bined/basic
     - /org/exbin/bined/capability
     - /org/exbin/bined/color
+    - /org/exbin/bined/component
     - /org/exbin/bined/highlight
     - /org/exbin/bined/operation
     - /org/exbin/framework/bined
