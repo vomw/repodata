@@ -1,0 +1,25 @@
+Categories:
+  - Security
+  - System
+  - Internet
+License: Apache-2.0
+AuthorName: Kasumicic
+SourceCode: https://github.com/Kasumicic/vpn-inspector
+IssueTracker: https://github.com/Kasumicic/vpn-inspector/issues
+Changelog: https://github.com/Kasumicic/vpn-inspector/releases
+
+AutoName: VPN Inspector
+
+MaintainerNotes:
+  AppAdded: 2026-06-14
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/Kasumicic/vpn-inspector/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: needed to scan installed packages to detect known active VPN/Proxy clients
+
+AllowedAPKSigningKeys: c4ccaeb2ab85d48bc55bce0580a14388958d0904f73ea0d51df4f6d9da34fbf1
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
