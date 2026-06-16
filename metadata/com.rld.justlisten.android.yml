@@ -17,10 +17,12 @@ MaintainerNotes:
   AppAdded: 2022-05-30
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /justlisten-foss-release/i
   Status:
     - 2025-11-12 last release/commit 10/2024, UCM Tags=>Static
+    - 2026-06-16 development picked up again, now with flavors
 
 AllowedAPKSigningKeys: 417b87c8118c09af381272d826d59908ad23f5ebc4e8a445665f84c35b17a850
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
