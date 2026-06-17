@@ -7,6 +7,7 @@ SourceCode: https://github.com/umutcamliyurt/IrisChat
 IssueTracker: https://github.com/umutcamliyurt/IrisChat/issues
 
 AutoName: IrisChat
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-10-08

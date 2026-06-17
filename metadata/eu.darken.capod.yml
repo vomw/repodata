@@ -10,6 +10,7 @@ AuthorEmail: support@darken.eu
 AuthorWebSite: https://darken.eu/
 SourceCode: https://github.com/d4rken-org/capod
 IssueTracker: https://github.com/d4rken-org/capod/issues
+Translation: https://crowdin.com/project/capod
 Changelog: https://github.com/d4rken-org/capod/releases
 
 AutoName: CAPod - Companion for AirPods

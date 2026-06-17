@@ -5,6 +5,7 @@ AuthorName: minar
 AuthorEmail: minar.tastic@gmail.com
 SourceCode: https://github.com/m-i-n-a-r/birday
 IssueTracker: https://github.com/m-i-n-a-r/birday/issues
+Translation: https://crowdin.com/project/birday
 Changelog: https://github.com/m-i-n-a-r/birday/releases
 
 AutoName: Birday - Birthday Manager

@@ -4,6 +4,8 @@ License: GPL-3.0-only
 AuthorName: vicolo-dev
 SourceCode: https://github.com/vicolo-dev/chrono
 IssueTracker: https://github.com/vicolo-dev/chrono/issues
+Translation: https://hosted.weblate.org/engage/chrono
+Changelog: https://github.com/vicolo-dev/chrono/releases
 
 AutoName: Chrono
 ArchivePolicy: 2
@@ -24,6 +26,7 @@ MaintainerNotes:
     - 2024-03-20 scanner reports DEPENDENCY_INFO_BLOCK android.permission.SYSTEM_ALERT_WINDOW – https://github.com/vicolo-dev/chrono/issues/116
     - 2024-03-23 solved \o/
     - 2024-04-16 arrived at F-Droid 2024-03-30, still carries our badge; keep as long as it stays < 15 MB
+    - 2026-06-17 last commit/release 1/2025, UCM Tags=>Static
 
 AllowedAPKSigningKeys: 67ee2965dffd6b509ed274a3c18d39f0e5d55ebba4a95dfc1e34879f437e7581
 

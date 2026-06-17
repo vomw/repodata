@@ -6,6 +6,7 @@ AuthorEmail: sergio@secam.dev
 AuthorWebSite: https://secam.dev/
 SourceCode: https://github.com/sergcam/SimpleTag
 IssueTracker: https://github.com/sergcam/SimpleTag/issues
+Translation: https://crowdin.com/project/simpletag
 Changelog: https://github.com/sergcam/SimpleTag/releases
 
 AutoName: SimpleTag

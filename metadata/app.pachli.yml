@@ -8,6 +8,7 @@ AuthorWebSite: https://pachli.app/
 WebSite: https://pachli.app/
 SourceCode: https://github.com/pachli/pachli-android
 IssueTracker: https://github.com/pachli/pachli-android/issues
+Translation: https://hosted.weblate.org/projects/pachli
 Changelog: https://github.com/pachli/pachli-android/releases
 
 AutoName: Pachli for Mastodon

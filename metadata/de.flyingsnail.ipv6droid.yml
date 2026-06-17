@@ -23,8 +23,10 @@ MaintainerNotes:
     - /de/flyingsnail/util
   IntentFilterIgnore:
     android.net.VpnService: needed for the main functionality of this app
+  Status:
+    - 2026-06-17 no commits/releases since 6/2025, UCM Tags=>Static
 
 AllowedAPKSigningKeys: 95f3a9a90b98386464bb1bd1779a5316001d575e846b727a12b57f9dc4157b98
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static

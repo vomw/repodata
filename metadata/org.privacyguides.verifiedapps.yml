@@ -14,7 +14,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/privacyguides/verified-apps-android/tree/main/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Note: https://mastodon.neat.computer/@privacyguides
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to list all installed apps

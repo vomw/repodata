@@ -10,6 +10,7 @@ AuthorEmail: axiel7lopez@gmail.com
 AuthorWebSite: https://axiel7.github.io/
 SourceCode: https://github.com/axiel7/MoeList
 IssueTracker: https://github.com/axiel7/MoeList/issues
+Translation: https://crowdin.com/project/moelist
 Changelog: https://github.com/axiel7/MoeList/releases
 
 AutoName: MoeList - MyAnimeList Client

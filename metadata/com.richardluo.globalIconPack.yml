@@ -5,6 +5,7 @@ License: GPL-3.0-only
 AuthorName: RichardLuo
 SourceCode: https://github.com/RichardLuo0/global-icon-pack-android
 IssueTracker: https://github.com/RichardLuo0/global-icon-pack-android/issues
+Translation: https://crowdin.com/project/global-icon-pack-android
 
 AutoName: Global Icon Pack
 RequiresRoot: true

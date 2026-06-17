@@ -8,6 +8,7 @@ AuthorEmail: appstore@jwr.one
 WebSite: https://interstellar.jwr.one/
 SourceCode: https://github.com/interstellar-app/interstellar
 IssueTracker: https://github.com/interstellar-app/interstellar/issues
+Translation: https://hosted.weblate.org/engage/interstellar
 Changelog: https://github.com/interstellar-app/interstellar/releases
 
 AutoName: Interstellar

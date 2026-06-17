@@ -4,6 +4,7 @@ License: GPL-3.0-only
 AuthorName: tmo1
 SourceCode: https://github.com/tmo1/sms-ie
 IssueTracker: https://github.com/tmo1/sms-ie/issues
+Translation: https://hosted.weblate.org/engage/sms-import-export
 Changelog: https://github.com/tmo1/sms-ie/releases
 
 AutoName: SMS Import / Export

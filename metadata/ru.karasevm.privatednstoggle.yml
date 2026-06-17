@@ -5,6 +5,7 @@ AuthorName: Maksim Karasev
 AuthorWebSite: https://karasevm.com/
 SourceCode: https://github.com/karasevm/PrivateDNSAndroid
 IssueTracker: https://github.com/karasevm/PrivateDNSAndroid/issues
+Translation: https://hosted.weblate.org/engage/privatednsandroid
 Changelog: https://github.com/karasevm/PrivateDNSAndroid/releases
 
 AutoName: Private DNS Quick Toggle

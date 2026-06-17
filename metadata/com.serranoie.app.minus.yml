@@ -15,7 +15,7 @@ MaintainerNotes:
   ApkMatch: /foss-release/i
   ApkIgnore: /wear-release/i
   Fastlane: https://github.com/isaacsa51/Minus/blob/master/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
 
 AllowedAPKSigningKeys: d4d41200a0455788369e345d23627aad4c672025603b39f158be84d15221ed82
 

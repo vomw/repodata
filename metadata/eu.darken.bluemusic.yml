@@ -6,6 +6,7 @@ AuthorEmail: support@darken.eu
 AuthorWebSite: https://darken.eu/
 SourceCode: https://github.com/d4rken-org/bluemusic
 IssueTracker: https://github.com/d4rken-org/bluemusic/issues
+Translation: https://crowdin.com/project/bluemusic
 Changelog: https://github.com/d4rken-org/bluemusic/releases
 
 AutoName: Bluetooth Volume Manager

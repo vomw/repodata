@@ -5,6 +5,7 @@ AuthorName: Sasikanth Miriyampalli
 AuthorWebSite: https://sasikanth.dev/
 SourceCode: https://github.com/msasikanth/twine
 IssueTracker: https://github.com/msasikanth/twine/issues
+Translation: https://crowdin.com/project/twine-rss-reader
 Changelog: https://github.com/msasikanth/twine/releases
 
 AutoName: Reader
