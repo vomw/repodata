@@ -1,0 +1,26 @@
+Categories:
+  - Connectivity
+  - Internet
+License: GPL-3.0-only
+AuthorName: Adithya Mittapally
+WebSite: https://signalsense.vercel.app/
+SourceCode: https://github.com/adithya-creation/SignalSense
+IssueTracker: https://github.com/adithya-creation/SignalSense/issues
+Changelog: https://github.com/adithya-creation/SignalSense/releases
+Donate: https://github.com/sponsors/adithya-creation
+
+AutoName: SignalSense
+
+MaintainerNotes:
+  AppAdded: 2026-06-19
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/adithya-creation/SignalSense/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_PHONE_STATE: used to detect active phone calls for the Call-Aware Alerts feature
+
+AllowedAPKSigningKeys: 77fff658b2fe1004df6583d82d2c83c17b5a86e394d1b407b9772efee7fff6e3
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
