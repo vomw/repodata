@@ -14,7 +14,7 @@ MaintainerNotes:
   Method: codeberg-release
   GHSkipPre: 1
   Fastlane: https://codeberg.org/bg443/Skylib/src/branch/master/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   FlagIgnore:
     usesCleartextTraffic: used for self-hosted local instances
 

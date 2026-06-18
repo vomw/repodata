@@ -15,7 +15,7 @@ IssueTracker: https://github.com/UpAllNite-Software/simple-song-collector/issues
 Changelog: https://github.com/UpAllNite-Software/simple-song-collector/releases
 
 AutoName: Simple Song Collector
-ArchivePolicy: 2
+ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2024-07-25
