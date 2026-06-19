@@ -17,11 +17,14 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/pass-with-high-score/universal-installer/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: used to connect to unencrypted servers in local networks
   PermIgnore:
     android.permission.REQUEST_INSTALL_PACKAGES: required to install apps
     android.permission.REQUEST_DELETE_PACKAGES: required to uninstall apps
     android.permission.READ_EXTERNAL_STORAGE: to access installer packages on local storage
     android.permission.MANAGE_EXTERNAL_STORAGE: to access installer packages on local storage, OOB Data Installation, remove package file after install
+    android.permission.CAMERA: used by the integrated QR code scanner
 
 AllowedAPKSigningKeys: 40e1d86c6228809e07857a62edcf72952fea664e715317920150b937ef75f5de
 
