@@ -12,7 +12,6 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2023-04-16
-  Todo: 2026-03-19 check if auto-update handling is adjusted, else app needs to be removed; see https://github.com/deniscerri/ytdlnis/issues/393#issuecomment-4049746732
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /foss-arm64-v8a/i
