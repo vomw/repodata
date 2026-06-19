@@ -1,4 +1,7 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2026 IzzyOnDroid Team
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 set -euo pipefail
 
 does_file_exist (){
@@ -16,7 +19,7 @@ git fetch origin $CI_REPO_DEFAULT_BRANCH
 check_target="${CHECK_TARGET:-HEAD}"
 
 deleted=("$(git diff --name-only --diff-filter=D origin/$CI_REPO_DEFAULT_BRANCH $check_target | sed -n 's,metadata/\([^/]*\.yml\),\1,p')")
-added=("$(git diff --name-only --diff-filter=A origin/$CI_REPO_DEFAULT_BRANCH $check_target | sed -n 's,metadata/\([^/]*\.yml\),\1,p')")
+changed=("$(git diff --name-only --diff-filter=AM origin/$CI_REPO_DEFAULT_BRANCH $check_target | sed -n 's,metadata/\([^/]*\.yml\),\1,p')")
 
 global_error=false
 
@@ -42,12 +45,12 @@ else
   echo "✓ No deleted apps"
 fi
 
-# Check added apps
-if [[ -n "${added[*]}" ]]; then
-  for app in ${added[@]}; do
+# Check added/changed apps
+if [[ -n "${changed[*]}" ]]; then
+  for app in ${changed[@]}; do
       app_succeeded=true
       appid="$(basename "$app" .yml)"
-      echo "? Checking addition of $appid"
+      echo "? Checking addition/modification of $appid"
 
       metadata_file="${CI_WORKSPACE:-.}/metadata/${app}"
 
@@ -114,7 +117,7 @@ if [[ -n "${added[*]}" ]]; then
       fi
   done
 else
-  echo "✓ No added apps"
+  echo "✓ No added/changed apps"
 fi
 
 if $global_error; then
