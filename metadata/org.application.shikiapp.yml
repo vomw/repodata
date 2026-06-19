@@ -17,6 +17,7 @@ MaintainerNotes:
   AppAdded: 2024-07-21
   Method: github-release
   GHSkipPre: 1
+  ApkIgnore: /ShikiRip/i
   Fastlane: https://github.com/pewaru-333/ShikiApp/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   DoubleList: keep
