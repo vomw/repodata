@@ -35,8 +35,9 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: needed to access cached songs for offline playback on Android 8-12
   Status:
     - 2026-01-21 READ_MEDIA_AUDIO READ_EXTERNAL_STORAGE REQUEST_INSTALL_PACKAGES – https://github.com/koiverse/ArchiveTune/issues/208#issuecomment-3782097430
+    - 2026-06-20 applicationId suddenly changed, disabling updates for now; see https://github.com/ArchiveTuneApp/ArchiveTune/issues/847
 
 AllowedAPKSigningKeys: bb2e5b7e476c0de63b06686209c0f60e904f9988e9bb452da280596e8ae98e33
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
