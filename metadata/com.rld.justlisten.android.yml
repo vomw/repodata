@@ -18,6 +18,8 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /justlisten-foss-release/i
+  NameSpaces:
+    - /com/rld/justlisten
   Status:
     - 2025-11-12 last release/commit 10/2024, UCM Tags=>Static
     - 2026-06-16 development picked up again, now with flavors
