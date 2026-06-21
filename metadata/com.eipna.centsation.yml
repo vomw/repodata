@@ -14,8 +14,10 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/mowtiie/Centsation/tree/master/metadata
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  Status:
+    - 2026-06-21 packageName changed, updates disabled until clarified; see https://github.com/mowtiie/Centsation/issues/17
 
 AllowedAPKSigningKeys: 561f3fec72e1f9878c2749d079f8b2175d02131c842955714e63365da5301baa
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
