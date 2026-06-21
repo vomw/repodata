@@ -27,8 +27,9 @@ MaintainerNotes:
     - 2021-04-18 package name suddenly changed from org.tagspaces.mobile to org.tagspaces.mobileapp, [asked](https://github.com/tagspaces/tagspaces/issues/1313) which will persist
     - 2021-04-19 answer – Google’s fault (they unlisted org.tagspaces.mobile for some crazy reason, so package had to be renamed.
     - 2024-01-29 scanner reports android.permission.READ_EXTERNAL_STORAGE android.permission.REQUEST_INSTALL_PACKAGES – https://github.com/tagspaces/tagspaces/issues/2036
+    - 2026-06-21 scanner reports BillingClient & GMS, updates temporarily disabled; see https://github.com/tagspaces/tagspaces/issues/2448
   X-AutoUpdateMode: Version v%v tag names do only match desktop version; Android 1.0.0 = desktop 3.7.8
 
 AllowedAPKSigningKeys: c82d9443f539b6f1507fae33da5709f647ff76d33820395c41299a3ffdbd4181
 
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
