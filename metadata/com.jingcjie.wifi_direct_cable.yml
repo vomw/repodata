@@ -1,0 +1,27 @@
+Categories:
+  - Connectivity
+License: MIT
+AuthorName: jingcjie
+AuthorEmail: jingcjie@outlook.com
+SourceCode: https://github.com/jingcjie/WDCable_flutter
+IssueTracker: https://github.com/jingcjie/WDCable_flutter/issues
+Changelog: https://github.com/jingcjie/WDCable_flutter/releases
+
+AutoName: WD Cable
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-06-23
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-arm64-v8a-release/i
+  Fastlane: https://github.com/jingcjie/WDCable_flutter/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.RECORD_AUDIO: needed to transfer microphone input
+    android.permission.NEARBY_WIFI_DEVICES: needed to discover peers
+
+AllowedAPKSigningKeys: fd502fe307e688ff5d77d66fec3d593a69565e35f7ac94856f66733d4fac7acf
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
