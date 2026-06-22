@@ -1,8 +1,9 @@
 Categories:
   - Sports & Health
-License: GPL-3.0-only
+License: GPL-3.0-or-later
 AuthorName: Mirko Di
 SourceCode: https://codeberg.org/mirk0dex/BFP-Calculator
+Translation: https://translate.codeberg.org/engage/bfp-calculator/
 IssueTracker: https://codeberg.org/mirk0dex/BFP-Calculator/issues
 
 AutoName: BFP Calculator
