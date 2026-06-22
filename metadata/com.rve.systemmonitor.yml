@@ -1,0 +1,25 @@
+Categories:
+  - System
+License: GPL-3.0-only
+AuthorName: Radika
+AuthorEmail: rve27github@gmail.com
+SourceCode: https://github.com/Rve27/RvSystem-Monitor
+IssueTracker: https://github.com/Rve27/RvSystem-Monitor/issues
+Changelog: https://github.com/Rve27/RvSystem-Monitor/releases
+
+AutoName: RvSystem Monitor
+
+MaintainerNotes:
+  AppAdded: 2026-06-22
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /fdroid-release/i
+  Fastlane: https://github.com/Rve27/RvSystem-Monitor/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: needed for floating overlay features (FPS, CPU temp and usage, battery temp, ram usage, etc)
+
+AllowedAPKSigningKeys: 01217b9a05e17fca034b88b85bb52177b62d6eb28f7342c2ec259cf835d55a67
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
