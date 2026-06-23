@@ -11,8 +11,11 @@ AutoName: RTSP IP-Cam Viewer
 MaintainerNotes:
   AppAdded: 2020-10-17
   Method: github-release
+  ApkMatch: /withSAF/i
   GHSkipPre: 1
   Note: Warren [does not want to maintain fastlane](https://github.com/warren-bank/Android-Mock-Location/issues/31#issuecomment-4180570389), so we keep it locally here
+  FlagIgnore:
+    usesCleartextTraffic: needed to view RTSP video streams
   Status:
     - 2020-11-01 last update 1y 4m 29d ago, switching UCM from Tags to Static
     - 2023-08-07 last commit/release 6/2022
