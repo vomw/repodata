@@ -140,7 +140,7 @@ body:
         - 'Substantial – Used throughout development'
         - 'Dominant – Most code or content was "AI"-generated'
     validations:
-      required: false
+      required: true
 
   - type: input
     id: ai-tool
@@ -155,7 +155,7 @@ body:
     id: ai-usage-description
     attributes:
       label: 'What did the tools help with?'
-      description: 'Briefly describe what the tools were used for (e.g., brainstorming, boilerplate generation, architecture, UI-design, debugging, documentation, vibe-coding)'
+      description: 'Briefly describe what the tools were used for (e.g., brainstorming, boilerplate generation, architecture, UI-design, debugging, documentation, vibe-coding), and how they contributed.'
       placeholder: 'e.g., helped debug a concurrency issue.'
     validations:
       required: false
