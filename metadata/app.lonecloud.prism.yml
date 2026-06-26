@@ -12,7 +12,7 @@ MaintainerNotes:
   AppAdded: 2026-04-05
   Method: codeberg-release
   Note: GitLab account https://gitlab.com/lone-cloud
-  Fastlane: https://git.lonecloud.dev/lone-cloud/prism-android/tree/master/fastlane/metadata/android
+  Fastlane: https://git.lonecloud.dev/lone-cloud/prism-android/src/branch/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to list apps
