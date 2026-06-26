@@ -19,8 +19,9 @@ MaintainerNotes:
   Status:
     - 2025-12-23 signing key changed, see https://codeberg.org/mepi0011/OpeningHoursManager/issues/11 – UCM Tags=>Static until resolved
     - 2025-12-24 solved (was accidentally using the wrong key)
+    - 2026-06-26 same wrong key again
 
 AllowedAPKSigningKeys: 99202b2926a2ac0918d1f89d93970494feb4aa5941714ace3a93df802a177764
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
