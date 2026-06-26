@@ -2,18 +2,17 @@ Categories:
   - System
 License: AGPL-3.0-only
 AuthorName: lone-cloud
-SourceCode: https://github.com/lone-cloud/prism-android
-IssueTracker: https://github.com/lone-cloud/prism-android/issues
-Changelog: https://github.com/lone-cloud/prism-android/releases
+SourceCode: https://git.lonecloud.dev/lone-cloud/prism-android
+IssueTracker: https://git.lonecloud.dev/lone-cloud/prism-android/issues
+Changelog: https://git.lonecloud.dev/lone-cloud/prism-android/releases
 
 AutoName: Prism
 
 MaintainerNotes:
   AppAdded: 2026-04-05
-  Method: github-release
-  GHSkipPre: 1
+  Method: codeberg-release
   Note: GitLab account https://gitlab.com/lone-cloud
-  Fastlane: https://github.com/lone-cloud/prism-android/tree/master/fastlane/metadata/android
+  Fastlane: https://git.lonecloud.dev/lone-cloud/prism-android/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to list apps
