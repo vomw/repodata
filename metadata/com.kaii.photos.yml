@@ -23,7 +23,6 @@ MaintainerNotes:
     android.permission.READ_MEDIA_VIDEO: needed to access videos on-device
     android.permission.ACCESS_MEDIA_LOCATION: needed to show location information stored in media file‘s metadata
     android.permission.READ_EXTERNAL_STORAGE: needed to access media files outside the common locations
-    android.permission.REQUEST_INSTALL_PACKAGES: for the optional, opt-in self updater
   Status:
     - 2025-03-09 REQUEST_INSTALL_PACKAGES – https://github.com/kaii-lb/LavenderPhotos/issues/41
     - 2026-01-01 APK size now exceeds our per-app size limit (starting with v1.3.0, it is 40+ MB). Asked for per-ABI builds at https://github.com/kaii-lb/LavenderPhotos/issues/171
