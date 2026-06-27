@@ -1,0 +1,25 @@
+Categories:
+  - Development
+  - Science & Education
+License: MIT
+AuthorName: Amr Hesham
+AuthorEmail: amr96@programmer.net
+AuthorWebSite: https://amrdeveloper.medium.com/
+SourceCode: https://github.com/AmrDeveloper/Turtle
+IssueTracker: https://github.com/AmrDeveloper/Turtle/issues
+Changelog: https://github.com/AmrDeveloper/Turtle/releases
+
+AutoName: Turtle
+
+MaintainerNotes:
+  AppAdded: 2026-06-27
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
+  Fastlane: https://github.com/AmrDeveloper/Turtle/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 442303e6b0586fbcb56cc99ca88f1e91df61e941c9a6f1a9006a23ebbb491e1e
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
