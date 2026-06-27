@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: NodeLook Project
+WebSite: https://nodelook.github.io/android
+SourceCode: https://github.com/nodelook/android
+IssueTracker: https://github.com/nodelook/android/issues
+Changelog: https://github.com/nodelook/android/releases
+
+AutoName: NodeLook
+
+MaintainerNotes:
+  AppAdded: 2026-06-27
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/nodelook/android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: a9c58d56a4e30800b72dc8e0a7118776930d40e158b035775e2fb4942307bdb5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
