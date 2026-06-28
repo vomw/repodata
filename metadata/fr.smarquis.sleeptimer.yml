@@ -22,8 +22,9 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Status:
     - 2025-11-13 last release 11/2024, commits since then only renovateBot; UCM Tags=>Static
+    - 2026-06-27 more frequent updates meanwhile, UCM=>Tags again
 
 AllowedAPKSigningKeys: b6a5169994b5c74f7bfb3933818300bd91de5ffc67e5c22525a59b47d0249502
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
