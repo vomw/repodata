@@ -1,7 +1,7 @@
 AntiFeatures:
   NonFreeNet:
-    en-US: The app uses the online Bush translator, which depends on Google Translator.
-    de: Die App verwendet den Online-Übersetzer von Bush, der GoogleTranslate benutzt.
+    en-US: Depends on YouTube Music for playback. Optionally uses Bush translator (GoogleTranslate), and Kizzy for Discord activities.
+    de: Benötigt YouTube als Musikquelle. Der Online-Übersetzer von Bush, der GoogleTranslate benutzt, sowie Discord, sind opt-in.
 Categories:
   - Multimedia
 License: GPL-3.0-only
