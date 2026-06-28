@@ -16,8 +16,9 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Status:
     - 2025-08-01 upstreaming our local Fastlane metadata via https://github.com/vadimerenkov/Aucards/pull/10
+    - 2026-06-27 demoting to monthly track as versionCode was not increased, see https://github.com/vadimerenkov/Aucards/issues/69
 
 AllowedAPKSigningKeys: c456205063aaa6c9ad79d1d10011a45d366665255dd7b59b279bf5a5ce61501a
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
