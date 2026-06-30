@@ -18,8 +18,10 @@ MaintainerNotes:
   ApkMatch: /arm64-v8a/i
   Fastlane: https://github.com/AmrDeveloper/Turtle/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2026-06-30 disabling updates as RB now failed the 3rd time, with a rather huge diff – see https://github.com/AmrDeveloper/Turtle/issues/6#issuecomment-4845588301
 
 AllowedAPKSigningKeys: 442303e6b0586fbcb56cc99ca88f1e91df61e941c9a6f1a9006a23ebbb491e1e
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
