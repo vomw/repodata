@@ -20,8 +20,10 @@ MaintainerNotes:
   DoubleList: keep
   Status:
     - 2025-04-13 android.permission.SYSTEM_ALERT_WINDOW DEPENDENCY_INFO_BLOCK – https://github.com/Darkempire78/OpenCalc/issues/551#issuecomment-2800190208
+    - 2026-06-30 repo and Github account gone
 
 AllowedAPKSigningKeys: 21050fd6d36798d9758b6ca5202aeb50a5bbbdc756141d94e36f6c8c168c0959
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
+NoSourceSince: 3.2.1
