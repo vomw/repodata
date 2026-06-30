@@ -1,0 +1,24 @@
+Categories:
+  - Multimedia
+License: MIT
+AuthorName: Lena Tauchner
+AuthorWebSite: https://lukechriswalker.at/
+SourceCode: https://github.com/tiefseetauchner/tiefprompt
+IssueTracker: https://github.com/tiefseetauchner/tiefprompt/issues
+Changelog: https://github.com/tiefseetauchner/tiefprompt/release
+
+AutoName: tiefprompt
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-06-30
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /foss_app-arm64-v8a-release/i
+  Fastlane: https://github.com/Tiefseetauchner/tiefprompt/tree/main/metadata
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 9bf3d37843e226fe2178c34b15b536036484c4a7d0d7f7135297872accad574b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
