@@ -25,10 +25,7 @@ MaintainerNotes:
     android.permission.PACKAGE_USAGE_STATS: to see how much time you spend in your apps so it can help you stick to your limits
     android.permission.POST_NOTIFICATIONS: to send you goal reminders and keep you updated on your focus progress throughout the day
     android.permission.ACCESS_NOTIFICATION_POLICY: allows Bedtime Mode to automatically silence your phone so you can get a better night’s sleep
-    android.permission.BIND_ACCESSIBILITY_SERVICE: optional; to catch when you open a restricted app instantly
-    android.permission.BIND_NOTIFICATION_LISTENER_SERVICE: optional; to hide distracting notifications during your scheduled Focus sessions or Bedtime
     android.permission.SCHEDULE_EXACT_ALARM: optional; to make your reminders etc. happen exactly when they’re supposed to
-    android.permission.INTERNET: for the optional update check
 
 AllowedAPKSigningKeys: 0b8277c43fab0ed31518234a33435883faec5ca19ca76c0028781c5bf8065237
 
