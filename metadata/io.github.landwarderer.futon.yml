@@ -22,6 +22,7 @@ MaintainerNotes:
     - /eu/kanade/tachiyomi
     - /org/koitharu/kotatsu
   LibIgnore:
+    - /com/my/kizzyrpc
     - /io/sentry
   PermIgnore:
     android.permission.REQUEST_DELETE_PACKAGES: required for managing external manga source plugins and allow their direct uninstallation
@@ -37,6 +38,7 @@ MaintainerNotes:
   Status:
     - 2026-03-17 Sentry (added with 9.6.12) is now opt-in, starting with 9.6.13
     - 2026-04-28 self-updater, UCM tags=>Static; see https://github.com/AppFuton/Futon/issues/57#issuecomment-4338541758
+    - 2026-07-01 added Kizzy to LibIgnore as it is opt-in
 
 AllowedAPKSigningKeys: ef48b22ef2c54045531f6e7600c27ec3d03b71221e0b05ffb68e3357cf8e4d40
 
