@@ -13,7 +13,7 @@ MaintainerNotes:
   AppAdded: 2026-02-27
   Method: github-release
   GHSkipPre: 1
-  ApkIgnore: /Fdroid/i
+  ApkIgnore: /(Fdroid|unsigned)/i
   Fastlane: https://github.com/yjeanrenaud/yj_nearbyglasses/blob/main/Android/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Note: Fediverse contact @yjeanrenaud@tech.lgbt – changelogs start at 103, while APK is at 5
@@ -27,4 +27,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: 3ef59d2bf93c7564215b7c016ad1dc28964ecbd3095dfa5661174fb00104eba4
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
