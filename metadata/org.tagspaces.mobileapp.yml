@@ -22,14 +22,15 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: as a file manager, the app needs to access all files
-    android.permission.REQUEST_INSTALL_PACKAGES: used to let you install local APKs
+    android.permission.CAMERA: to capture photos directly within the app
   Status:
     - 2021-04-18 package name suddenly changed from org.tagspaces.mobile to org.tagspaces.mobileapp, [asked](https://github.com/tagspaces/tagspaces/issues/1313) which will persist
     - 2021-04-19 answer – Google’s fault (they unlisted org.tagspaces.mobile for some crazy reason, so package had to be renamed.
     - 2024-01-29 scanner reports android.permission.READ_EXTERNAL_STORAGE android.permission.REQUEST_INSTALL_PACKAGES – https://github.com/tagspaces/tagspaces/issues/2036
     - 2026-06-21 scanner reports BillingClient & GMS, updates temporarily disabled; see https://github.com/tagspaces/tagspaces/issues/2448
+    - 2026-07-01 Billing/GMS was removed, but additional permissions requested; CAMERA android.permission.MANAGE_EXTERNAL_STORAGE android.permission.RECORD_AUDIO – https://github.com/tagspaces/tagspaces/issues/2451
   X-AutoUpdateMode: Version v%v tag names do only match desktop version; Android 1.0.0 = desktop 3.7.8
 
 AllowedAPKSigningKeys: c82d9443f539b6f1507fae33da5709f647ff76d33820395c41299a3ffdbd4181
 
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
