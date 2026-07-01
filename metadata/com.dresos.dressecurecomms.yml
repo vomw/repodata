@@ -1,0 +1,36 @@
+Categories:
+  - Phone & SMS
+  - Security
+License: Apache-2.0
+AuthorName: DresOS
+AuthorEmail: crinkly-atom-rival@duck.com
+AuthorWebSite: https://dresoperatingsystems.github.io/
+SourceCode: https://github.com/DresOperatingSystems/DresSecureComms
+IssueTracker: https://github.com/DresOperatingSystems/DresSecureComms/issues
+Changelog: https://github.com/DresOperatingSystems/DresSecureComms/releases
+
+AutoName: DresSecureComms
+
+MaintainerNotes:
+  AppAdded: 2026-07-01
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /DresSecureComms\.apk/
+  Fastlane: https://github.com/DresOperatingSystems/DresSecureComms/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.RECEIVE_SMS: needed for the app’s SMS/MMS functionality
+    android.permission.READ_SMS: needed for the app’s SMS/MMS functionality
+    android.permission.SEND_SMS: needed for the app’s SMS/MMS functionality
+    android.permission.RECEIVE_MMS: needed for the app’s SMS/MMS functionality
+    android.permission.RECEIVE_WAP_PUSH: needed for the app’s SMS/MMS functionality
+    android.permission.READ_PHONE_STATE: needed for the app’s call functionality
+    android.permission.READ_CONTACTS: needed for the app’s contact management and call functionality
+    android.permission.READ_CALL_LOG: needed for the app’s contact management and call functionality
+    android.permission.WRITE_CALL_LOG: needed for the app’s contact management and call functionality
+    android.permission.ACCESS_FINE_LOCATION: needed for the Geo Spoofer functionality
+
+AllowedAPKSigningKeys: 54d55980c645748586c0b612da14b9a67983ca9e0d1ee5e6b72b99183d84ded9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
