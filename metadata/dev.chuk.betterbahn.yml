@@ -23,8 +23,9 @@ MaintainerNotes:
   Note: Fastlane is our starter package
   Status:
     - 2025-09-19 upstreaming our fastlane metadata via https://github.com/chukfinley/Besser-Bahn/pull/6
+    - 2026-07-01 signing key changed with 2.0.0, UCM Tags=>Static – https://github.com/chukfinley/Besser-Bahn/issues/9#issuecomment-4855321285
 
 AllowedAPKSigningKeys: 4e4225f1b2f9d1f037ce8dd597875a1e38669b97a4e51b7d9d5a16277bc0b438
 
-AutoUpdateMode: Version .*\+%c
-UpdateCheckMode: Tags
+AutoUpdateMode: Version %v\+\d+
+UpdateCheckMode: Static
