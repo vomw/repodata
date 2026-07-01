@@ -21,6 +21,8 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   LibIgnore:
     - /com/telemetrydeck/sdk
+  PermIgnore:
+    android.permission.CAMERA: needed for the integrated QR code scanner
   DoubleList: keep
   DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/7737#note_474064949
   Status:
