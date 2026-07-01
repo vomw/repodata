@@ -2,7 +2,9 @@ Categories:
   - Multimedia
 License: MIT
 AuthorName: Lena Tauchner
+AuthorEmail: admin@lukechriswalker.at
 AuthorWebSite: https://lukechriswalker.at/
+WebSite: https://tiefprompt.com/
 SourceCode: https://github.com/tiefseetauchner/tiefprompt
 IssueTracker: https://github.com/tiefseetauchner/tiefprompt/issues
 Changelog: https://github.com/tiefseetauchner/tiefprompt/release
