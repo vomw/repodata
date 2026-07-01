@@ -1,0 +1,24 @@
+Categories:
+  - Money
+License: GPL-3.0-or-later
+AuthorName: helcel.net
+SourceCode: https://github.com/helcel-net/cowspent
+IssueTracker: https://github.com/helcel-net/cowspent/issues
+Donate: https://ko-fi.com/I2I615VP5M
+
+AutoName: Cowspent
+
+MaintainerNotes:
+  AppAdded: 2026-07-01
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-signedRelease\.apk/
+  Fastlane: https://github.com/helcel-net/cowspent/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.CAMERA: needed for the integrated QR code scanner
+
+AllowedAPKSigningKeys: d3ee68a85a7f35a114d274b450aace8ced68eac81aa222e27ff50e984cc62972
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Static
