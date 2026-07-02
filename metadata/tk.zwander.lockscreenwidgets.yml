@@ -36,7 +36,6 @@ MaintainerNotes:
     android.permission.VIBRATE: used for haptic feedback
     android.permission.DISABLE_KEYGUARD: to prompt to dismiss the lock screen when needed
     android.permission.READ_EXTERNAL_STORAGE: needed on Android 12 and earlier to get the wallpaper for Masked Frame Mode
-    android.permission.READ_MEDIA_IMAGES: needed on Android 13 and later to get the wallpaper for Masked Frame Mode
     android.permission.QUERY_ALL_PACKAGES: to display the list of available widgets, as well as interact with the widgets as needed
     android.permission.CALL_PHONE: only requested if needed (e.g., when tapping a direct dial shortcut)
   Status:
