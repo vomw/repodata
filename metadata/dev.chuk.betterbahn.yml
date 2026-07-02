@@ -1,4 +1,7 @@
 AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes libraries from Google Mobile Services.
+    de: Die App enthält Bibliotheken von  Google Mobile Services.
   NonFreeNet:
     en-US: The app requires connections to bahn.de.
     de: Die App benötigt Verbindungen zu bahn.de.
@@ -25,6 +28,7 @@ MaintainerNotes:
     - 2025-09-19 upstreaming our fastlane metadata via https://github.com/chukfinley/Besser-Bahn/pull/6
     - 2026-07-01 signing key changed with 2.0.0, UCM Tags=>Static – https://github.com/chukfinley/Besser-Bahn/issues/9#issuecomment-4855321285
     - 2026-07-02 new signing key verified by mail. versionCode was reset with the change, so older releases had to be removed immediately.
+    - 2026-07-02 GMS was detected, adding NonFreeComp until removed again (by overriding geolocator) – https://github.com/chukfinley/Besser-Bahn/issues/10
 
 AllowedAPKSigningKeys: 6b5c491023d432b370d57e76de6cc3a3659d0a9b822a088bce668dbf592ed76e
 
