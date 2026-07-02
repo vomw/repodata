@@ -1,7 +1,7 @@
 AntiFeatures:
   NonFreeComp:
-    en-US: The app includes libraries from Google Mobile Services.
-    de: Die App enthält Bibliotheken von  Google Mobile Services.
+    en-US: The app includes libraries from Google Mobile Services and ObjectBox.
+    de: Die App enthält Bibliotheken von  Google Mobile Services und ObjectBox.
   NonFreeNet:
     en-US: The app requires connections to bahn.de.
     de: Die App benötigt Verbindungen zu bahn.de.
@@ -24,6 +24,9 @@ MaintainerNotes:
   Fastlane: https://github.com/chukfinley/Besser-Bahn/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: Fastlane is our starter package
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: to show your current position on the station map
+    android.permission.ACCESS_COARSE_LOCATION: to show your current position on the station map
   Status:
     - 2025-09-19 upstreaming our fastlane metadata via https://github.com/chukfinley/Besser-Bahn/pull/6
     - 2026-07-01 signing key changed with 2.0.0, UCM Tags=>Static – https://github.com/chukfinley/Besser-Bahn/issues/9#issuecomment-4855321285
