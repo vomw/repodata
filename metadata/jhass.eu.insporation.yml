@@ -22,6 +22,8 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   Note: has its own repo at https://jhass.github.io/insporation/fdroid/repo?fingerprint=EC792A58B39DF9FBB466FB100E30E3842F229FDBC6E28D32C417F6A5B30ECCAE
   X-AutoUpdateMode: Version v%v nightly builds only at the moment
+  Status:
+    - 2026-07-02 APK size beyond 60 MB meanwhile, asked for per-ABI builds at https://github.com/jhass/insporation/issues/131
 
 AllowedAPKSigningKeys: ec792a58b39df9fbb466fb100e30e3842f229fdbc6e28d32c417f6a5b30eccae
 
