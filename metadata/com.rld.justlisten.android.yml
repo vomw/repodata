@@ -18,6 +18,8 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /justlisten-foss-release/i
+  Fastlane: https://github.com/RLD-JL/Just-Listen/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,screenshots
   NameSpaces:
     - /com/rld/justlisten
   Status:
