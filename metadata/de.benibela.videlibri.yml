@@ -31,8 +31,9 @@ MaintainerNotes:
     - 2022-07-29 answer is it uses Dialog, so whitelisting ACRA.
     - 2024-02-24 scanner reports DEPENDENCY_INFO_BLOCK READ_EXTERNAL_STORAGE* – https://github.com/benibela/videlibri/issues/11
     - 2026-04-11 versionCode not being increased; UCM Tags=>Static until solved – https://github.com/benibela/videlibri/issues/19
+    - 2026-07-04 versionCode fixed, UCM=>Tags again
 
 AllowedAPKSigningKeys: 388988e3a53b6f91d1ae39784ea4b5f1a12b22d34f8e3363e5c7f70a1c57a6f4
 
 AutoUpdateMode: Version VIDELIBRI_%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
