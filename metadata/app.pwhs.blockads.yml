@@ -33,6 +33,8 @@ MaintainerNotes:
     android.net.VpnService: VPN needed for main functionality
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to filter apps by rules
+    android.permission.ACCESS_FINE_LOCATION: needed to read the connected Wi-Fi SSID for the Trusted Networks feature
+    android.permission.ACCESS_COARSE_LOCATION: needed to read the connected Wi-Fi SSID for the Trusted Networks feature
   Status:
     - 2026-03-07 adds play-services-cronet, which additionally drags in GMS; UCM Tags=>Static until solved, see https://github.com/pass-with-high-score/blockads-android/issues/50
     - 2026-03-08 solved (cronet was replaced by kwik), UCM back to Tags
