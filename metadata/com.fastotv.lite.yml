@@ -17,6 +17,7 @@ MaintainerNotes:
   Status:
     - 2022-11-07 no release for almost 2y, last commit 4/2022; switch from Tags to Static
     - 2025-11-11 seems to have gone proprietary; Readme links to Playstore, where it has newer releases using a different appId
+    - 2026-07-05 devs suggest removal, see https://github.com/fastogt/fastotvlite_mobile/issues/6#issuecomment-4887686705
 
 AllowedAPKSigningKeys: 7a098fe281b50c3c4c94f8b0045768d0b4cec59b8f9638e38145c16e49728374
 
