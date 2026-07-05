@@ -34,8 +34,9 @@ MaintainerNotes:
     - /org/acra
   Status:
     - 2025-03-21 Tracking via Aptabase, see https://github.com/roozbehzarei/filester/issues/50 (also Github.io for config & status, thanks to licaon for digging that up)
+    - 2026-07-05 disable updates as now it has a bunch of NonFreComp as well, see https://github.com/roozbehzarei/filester/issues/50#issuecomment-4884337306
 
 AllowedAPKSigningKeys: 5ec5a2e34b053299511dc08779b420375a446d6b91ebe2b813252e46cbeecc37
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
