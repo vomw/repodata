@@ -35,6 +35,7 @@ MaintainerNotes:
     - /riplay/composeapp/generated
   PermIgnore:
     android.permission.RECORD_AUDIO: required by the visualizer, which is disabled by default. See https://developer.android.com/reference/android/media/audiofx/Visualizer
+    android.permission.CAMERA: for the integrated QR code reader
     android.permission.READ_MEDIA_AUDIO: needed to play songs from your local media
     android.permission.READ_EXTERNAL_STORAGE: needed to play songs from your local media on Android 9 and before
     android.permission.QUERY_ALL_PACKAGES: needed to select an app for direct share
