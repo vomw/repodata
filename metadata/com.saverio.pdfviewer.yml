@@ -25,8 +25,9 @@ MaintainerNotes:
     - 2025-06-27 last commit/release 2024-02-06; UCM Tags=>Static
     - 2026-04-01 v2.0 comes with MLKit & Co – https://github.com/Sav22999/sav-pdf-viewer-pro/issues/66
     - 2026-04-28 no reponse at all despite of multiple pings; disabling updates and mark for removal.
+    - 2026-07-06 all issues solved, activating updates again
 
 AllowedAPKSigningKeys: 0c9713a615e07bc9f401862158d3f5bdce056ca510010035e0fa84c812aeb203
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
