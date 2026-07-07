@@ -12,14 +12,15 @@ MaintainerNotes:
   AppAdded: 2026-05-22
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /foss-release/i
-  ApkIgnore: /wear-release/i
+  ApkMatch: /Minus-v/i
+  ApkIgnore: /wear/i
   Fastlane: https://github.com/isaacsa51/Minus/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Status:
     - 2026-07-03 disabling updates as RB fails for the umpteenth time in a row now, and dev pushes releases without completing test+review, see https://github.com/isaacsa51/Minus/issues/47#issuecomment-4878939744
+    - 2026-07-07 all issues solved with v1.3.4, reactivating updates
 
 AllowedAPKSigningKeys: d4d41200a0455788369e345d23627aad4c672025603b39f158be84d15221ed82
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
