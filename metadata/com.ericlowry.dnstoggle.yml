@@ -1,0 +1,32 @@
+Categories:
+  - Security
+  - Internet
+License: MIT
+AuthorName: Eric Lowry
+AuthorWebSite: https://eric-lowry.com/
+SourceCode: https://github.com/ELowry/DNSToggle
+IssueTracker: https://github.com/ELowry/DNSToggle/issues
+Changelog: https://github.com/ELowry/DNSToggle/releases
+
+AutoName: DNS Toggle
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-07-08
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /dns_toggle_v.*\.apk/
+  Fastlane: https://github.com/ELowry/DNSToggle/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed for NEARBY_WIFI_DEVICES, to see the Wi-Fi name
+    android.permission.ACCESS_COARSE_LOCATION: needed for NEARBY_WIFI_DEVICES, to see the Wi-Fi name
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed for NEARBY_WIFI_DEVICES, to see the Wi-Fi name when the app runs in background
+    android.permission.NEARBY_WIFI_DEVICES: required only for Wi-Fi Blocklist automation, to identify the Wi-Fi network name (SSID) locally
+    android.permission.WRITE_SECURE_SETTINGS: required to modify system Private DNS settings. Must be granted via root or using ADB.
+    android.permission.INTERNET: optionally used to verify that your Custom DNS Provider is online and reachable before applying it.
+
+AllowedAPKSigningKeys: a2fc0ad31958329b9df09fcab9e618ff67f23bee0b46267c632ac97f9600f283
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
