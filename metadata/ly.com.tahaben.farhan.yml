@@ -16,6 +16,8 @@ MaintainerNotes:
   AppAdded: 2023-02-24
   Method: github-release
   GHSkipPre: 1
+  LibIgnore:
+    - /org/acra
   NameSpaces:
     - /ly/com/tahaben/core
     - /ly/com/tahaben/core_ui
