@@ -5,9 +5,6 @@ AntiFeatures:
   TetheredNet:
     en-US: The app depends on transfer.sh and uses Aptabase.
     de: Die App hängt ist auf transfer.sh angewiesen und verwendet Aptabase.
-  Tracking:
-    en-US: The app uses Aptabase analytics, which cannot be disabled.
-    de: Die App verwendet Analytics von Aptabase, die nicht deaktiviert werden können.
 Categories:
   - Internet
 License: GPL-3.0-only
@@ -27,6 +24,7 @@ MaintainerNotes:
   AddedBack: 2025-03-14
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /filester-foss-universal\.apk/
   Fastlane: https://github.com/rouzbehzarei/filester/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,video,icon,screenshots
   DoubleList: keep
@@ -35,8 +33,9 @@ MaintainerNotes:
   Status:
     - 2025-03-21 Tracking via Aptabase, see https://github.com/roozbehzarei/filester/issues/50 (also Github.io for config & status, thanks to licaon for digging that up)
     - 2026-07-05 disable updates as now it has a bunch of NonFreComp as well, see https://github.com/roozbehzarei/filester/issues/50#issuecomment-4884337306
+    - 2026-07-08 all issues solved, activating updates again
 
 AllowedAPKSigningKeys: 5ec5a2e34b053299511dc08779b420375a446d6b91ebe2b813252e46cbeecc37
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
