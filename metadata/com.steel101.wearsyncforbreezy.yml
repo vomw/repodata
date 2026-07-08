@@ -1,0 +1,27 @@
+AntiFeatures:
+  NonFreeComp:
+    en-US: The app includes libraries from Google Wear and Google Mobile Services.
+    de: Die App enthält Bibliotheken von Google Wear und Google Mobile Services.
+Categories:
+  - Connectivity
+  - Weather
+License: GPL-3.0-only
+AuthorName: steel johnson
+AuthorEmail: steelvargas@gmail.com
+SourceCode: https://github.com/steel101/Wear-Sync-for-Breezy
+IssueTracker: https://github.com/steel101/Wear-Sync-for-Breezy/issues
+
+AutoName: Wear Sync for Breezy
+
+MaintainerNotes:
+  AppAdded: 2026-07-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-release.*\.apk/
+  Fastlane: https://github.com/steel101/Wear-Sync-for-Breezy/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: db2337faad5dbc4c28d0936f6ba51a8ecb259fcbe9e20260c6e76856a296da80
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
