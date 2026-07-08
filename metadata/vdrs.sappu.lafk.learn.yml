@@ -12,7 +12,6 @@ ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-02-10
-  Todo: 2026-07-03 remove APKs before VC 2022, and old signing key 5c11004
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
@@ -24,9 +23,7 @@ MaintainerNotes:
     - 2026-04-01 signing key changed without notice – https://github.com/EkaAI-Tech/learn/issues/211
     - 2026-06-03 key verification completed via mail, UCM=>Tags again
 
-AllowedAPKSigningKeys:
-  - 5c1100494e222e297ba4e2e6b90707a94bc1c9322dce6de38f25f311d3f93dd0
-  - 8a21b93b031caff2b70100cbc8ccbba0fdbbbb214963a74159d57c4007942669
+AllowedAPKSigningKeys: 8a21b93b031caff2b70100cbc8ccbba0fdbbbb214963a74159d57c4007942669
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
