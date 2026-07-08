@@ -11,7 +11,6 @@ AutoName: Payload Dumper Android
 
 MaintainerNotes:
   AppAdded: 2025-02-25
-  Todo: 2026-06-26 remove old signing key 843a64c and APKs 20250225+6
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/rajmani7584/Payload-Dumper-Android/tree/main/fastlane/metadata/android
@@ -26,9 +25,7 @@ MaintainerNotes:
   Status:
     - 2026-05-26 signing key changed; new key was confirmed by mail 2025-07-25; https://github.com/rajmani7584/Payload-Dumper-Android/issues/25 – but also usesCleartextTraffic
 
-AllowedAPKSigningKeys:
-  - 843a64c1c718dea5aa72fcb47036e651cf4c724bbbc4f50b81b9f4189a5856c1
-  - 24cb175eab56f2af3c73b80a89ef0f02d619730673fa9eaa873d2c93ef8e92b3
+AllowedAPKSigningKeys: 24cb175eab56f2af3c73b80a89ef0f02d619730673fa9eaa873d2c93ef8e92b3
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
