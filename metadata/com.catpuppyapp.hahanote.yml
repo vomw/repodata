@@ -1,0 +1,27 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: Bandeapart1964
+SourceCode: https://github.com/catpuppyapp/HahaNote-Release
+IssueTracker: https://github.com/catpuppyapp/HahaNote-Release/issues
+Changelog: https://github.com/catpuppyapp/HahaNote-Release/releases
+
+AutoName: HahaNote
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-07-08
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-arm64-v8a-release\.apk/
+  Fastlane: https://github.com/catpuppyapp/HahaNote-Release/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,video,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: to read notes from anywhere on the device
+    android.permission.MANAGE_EXTERNAL_STORAGE: to edit notes anywhere on the device
+
+AllowedAPKSigningKeys: 48a23ec089cbf1a50a42789dd0cc44e11399b3c13b506c09551bcebf00bedbe9
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
