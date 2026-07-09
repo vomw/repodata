@@ -16,6 +16,7 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to show a list of all apps
+    android.permission.REQUEST_DELETE_PACKAGES: to allow uninstalling apps via the quick actions menu
 
 AllowedAPKSigningKeys: 467dc8172dd5e52ecdb98740a8898ef96bdf8d384a58fe7da5bfd97132ea3bb0
 
