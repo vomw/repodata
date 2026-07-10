@@ -15,7 +15,7 @@ MaintainerNotes:
   AppAdded: 2023-01-26
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/sk5s/countdateapp/tree/main/fastlane/metadata/android
+  Fastlane: https://github.com/sk5s/countdateapp/blob/main/fastlane/metadata/android
   FastlaneFeatures: video,title,shortdesc,fulldescMD,icon,featureGraphic,screenshotsJPG
 
 AllowedAPKSigningKeys: b01535e04aa7188f8423b067ed6d2c08cba298e13c86f6b6f2cec161fb597465
