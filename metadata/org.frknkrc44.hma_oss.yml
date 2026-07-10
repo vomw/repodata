@@ -23,8 +23,10 @@ MaintainerNotes:
     android.permission.QUERY_ALL_PACKAGES: to list the apps for configuration
   NameSpaces:
     - /icu/nullptr/hidemyapplist
+  Status:
+    - 2026-07-10 Android app (Xposed module) is being discontinued, dev switched to Magisk; see https://codeberg.org/IzzyOnDroid/repodata/issues/304
 
 AllowedAPKSigningKeys: 35caf9c5e4859a36a75a0645b5e8faf16adbdc48e28ae393671e6b859edf3d43
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
