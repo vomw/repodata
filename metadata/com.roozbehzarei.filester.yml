@@ -1,20 +1,21 @@
 AntiFeatures:
   NonFreeNet:
-    en-US: The app connects to Github.
-    de: Die App baut Verbindungen zu Github auf.
+    en-US: The app depends on third-party cloud storage services and does not function otherwise.
+    de: Die App ist auf Cloud-Speicherdienste von Drittanbietern angewiesen und funktioniert andernfalls nicht.
   TetheredNet:
-    en-US: The app depends on transfer.sh and uses Aptabase.
-    de: Die App hängt ist auf transfer.sh angewiesen und verwendet Aptabase.
+    en-US: The app depends on third-party file hosting services and does not function otherwise.
+    de: Die App ist auf Cloud-Speicherdienste von Drittanbietern angewiesen und funktioniert andernfalls nicht.
 Categories:
   - Internet
 License: GPL-3.0-only
 AuthorName: Roozbeh Zarei
 AuthorEmail: contact@roozbehzarei.com
-AuthorWebSite: https://roozbehzarei.com/
+AuthorWebSite: https://roozbehzarei.com
+WebSite: https://filester.roozbehzarei.com
 SourceCode: https://github.com/roozbehzarei/filester
 IssueTracker: https://github.com/roozbehzarei/filester/issues
 Changelog: https://github.com/roozbehzarei/filester/releases
-Bitcoin: bc1qwd7nufaddhvyzvtxllf3w7s9mypfwpg70uh3v9
+Donate: https://filester.roozbehzarei.com/donate.html
 
 AutoName: Filester
 
