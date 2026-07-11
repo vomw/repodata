@@ -5,7 +5,7 @@
 set -euo pipefail
 
 does_file_exist (){
-  return_code="$(curl -s -o /dev/null -w '%{http_code}' "$1" | cut -c1-1)"
+  return_code="$(curl -s -L -o /dev/null -w '%{http_code}' "$1" | cut -c1-1)"
   if [[ "$return_code" = "2" ]]; then
     exists=true
   else
