@@ -37,7 +37,6 @@ MaintainerNotes:
     android.permission.MODIFY_AUDIO_SETTINGS: for some TTS options, to eg. select an audio stream type and lower media volume when speaking
     android.permission.RECEIVE_BOOT_COMPLETED: to ensure the service gets enabled on device startup
     android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: to prevent the system from stopping the app
-    android.permission.INTERNET: to download TTS voices from the network
     android.permission.POST_NOTIFICATIONS: to have a persistent notification when the app is active, and another when it’s actively speaking
     android.permission.READ_PHONE_STATE: to keep the app from talking during phone calls
     android.permission.BIND_QUICK_SETTINGS_TILE: for a quick settings tile option to easily disable/enable SpeakThat
