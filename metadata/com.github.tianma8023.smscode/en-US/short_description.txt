@@ -1,1 +1,0 @@
-recognize, parse SMS code and copy it to clipboard
