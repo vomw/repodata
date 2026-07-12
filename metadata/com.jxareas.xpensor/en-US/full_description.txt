@@ -1,1 +1,0 @@
-<p><i>Xpensor</i> is a Local Expense Tracker App. As of now, this project still has certain functionalities being worked on, althought its backbone is already set up.</p>
