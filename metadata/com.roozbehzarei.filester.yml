@@ -2,9 +2,6 @@ AntiFeatures:
   NonFreeNet:
     en-US: The app depends on third-party cloud storage services and does not function otherwise.
     de: Die App ist auf Cloud-Speicherdienste von Drittanbietern angewiesen und funktioniert andernfalls nicht.
-  TetheredNet:
-    en-US: The app depends on third-party cloud storage services and does not function otherwise.
-    de: Die App ist auf Cloud-Speicherdienste von Drittanbietern angewiesen und funktioniert andernfalls nicht.
 Categories:
   - Internet
 License: GPL-3.0-only
