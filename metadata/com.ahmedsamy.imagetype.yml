@@ -17,6 +17,8 @@ MaintainerNotes:
   ApkMatch: /ImageType_.*\.apk/
   Fastlane: https://github.com/ahmedthebest31/ImageType-android-app/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.INTERNET: to optionally download additional fonts (which then will be cached on-device)
 
 AllowedAPKSigningKeys: 1c0cbaafa919c249dc6b55720884ac4ffb0ed5713b35d3ec6fe348e2327431ae
 
