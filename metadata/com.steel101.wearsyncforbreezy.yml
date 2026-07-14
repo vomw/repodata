@@ -17,11 +17,16 @@ MaintainerNotes:
   AppAdded: 2026-07-09
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /app-release.*\.apk/
+  ApkMatch: /floss-phone.*\.apk/
   Fastlane: https://github.com/steel101/Wear-Sync-for-Breezy/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.BLUETOOTH_SCAN: used to scan for watch to sync weather data to it
+    android.permission.READ_PHONE_STATE: needed to auto scan Bluetooth in background
+    android.permission.READ_EXTERNAL_STORAGE: for saving the watch APK to downloads for use with 3rd party apps to push it to watch
+    android.permission.WRITE_EXTERNAL_STORAGE: for saving the watch APK to downloads for use with 3rd party apps to push it to watch
 
 AllowedAPKSigningKeys: db2337faad5dbc4c28d0936f6ba51a8ecb259fcbe9e20260c6e76856a296da80
 
-AutoUpdateMode: Version v%v
+AutoUpdateMode: Version Release-Build-v%v
 UpdateCheckMode: Tags
