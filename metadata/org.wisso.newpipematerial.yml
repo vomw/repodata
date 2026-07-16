@@ -1,0 +1,32 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app depends on YouTube.
+    de: Die App benötigt YouTube.
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: WizDom13
+SourceCode: https://github.com/wizdom13/NewPipe_Material
+IssueTracker: https://github.com/wizdom13/NewPipe_Material/issues
+Changelog: https://github.com/wizdom13/NewPipe_Material/releases
+
+AutoName: NewPipe Material
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-07-17
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /NewPipeMaterial_.*\.apk/
+  Fastlane: https://github.com/wizdom13/NewPipe_Material/tree/pipe/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  LibIgnore:
+    - /org/acra
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: for the popup/floating player feature
+    android.permission.REQUEST_INSTALL_PACKAGES: for the opt-in self-updater
+
+AllowedAPKSigningKeys: 6773ba294b8112854f5132f912a0515fe1d43ea861b6e6016abe97041a7642b5
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
