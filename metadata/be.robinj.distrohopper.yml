@@ -18,6 +18,10 @@ MaintainerNotes:
   Method: github-release
   Fastlane: https://github.com/RobinJ1995/DistroHopper/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldesc,icon
+  PermIgnore:
+    android.permission.INTERNET: for use by lenses ("search sources") in the dash
+    android.permission.ACCESS_NETWORK_STATE: to detect whether the device is online, for correct handling of network failures in lenses
+    android.permission.READ_EXTERNAL_STORAGE: for use by the local files lens and to calculate the dominant colour of the wallpaper (only Android 12 and older)
   Status:
     - 2021-07-18 switching AUM from Tags to Static (last release was 6/2020)
     - 2022-07-28 asked whether ACRA is configured opt-out https://github.com/RobinJ1995/DistroHopper/issues/19#issuecomment-1198597866
