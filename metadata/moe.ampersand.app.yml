@@ -18,8 +18,10 @@ MaintainerNotes:
   ApkMatch: /arm64-release/
   Fastlane: https://github.com/NyaomiDEV/Ampersand/blob/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  Status:
+    - 2026-07-15 v0.3.0 adds Firebase, GMS, and more; UCM Tags=>Static – https://codeberg.org/Ampersand/app/issues/194
 
 AllowedAPKSigningKeys: 271d20acfd9d8fcf043b0b3f0591a98371f6adf5ae79bd8aa8ad9d86e208c213
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
