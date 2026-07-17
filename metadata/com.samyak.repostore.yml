@@ -11,6 +11,7 @@ IssueTracker: https://github.com/samyak2403/RepoStore/issues
 Changelog: https://github.com/samyak2403/RepoStore/releases
 
 AutoName: Repo Store
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2026-01-19
