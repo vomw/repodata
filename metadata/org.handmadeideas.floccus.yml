@@ -8,6 +8,7 @@ AuthorWebSite: https://marcelklehr.de/
 WebSite: https://floccus.org/
 SourceCode: https://github.com/floccusaddon/floccus
 IssueTracker: https://github.com/floccusaddon/floccus/issues
+Translation: https://explore.transifex.com/floccus
 Changelog: https://github.com/floccusaddon/floccus/releases
 
 AutoName: floccus bookmark sync

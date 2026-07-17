@@ -4,6 +4,7 @@ License: GPL-3.0-only
 AuthorName: Senxian Z
 SourceCode: https://github.com/flashsphere/private-dns-qs
 IssueTracker: https://github.com/flashsphere/private-dns-qs/issues
+Translation: https://hosted.weblate.org/projects/private-dns-qs/
 Changelog: https://github.com/flashsphere/private-dns-qs/releases
 
 AutoName: Private DNS Quick Setting (no launcher)

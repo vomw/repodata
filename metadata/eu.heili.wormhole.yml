@@ -5,6 +5,7 @@ AuthorName: Lukas Heiligenbrunner
 AuthorEmail: Lukas.Heiligenbrunner@gmail.com
 SourceCode: https://github.com/wormhole-app/wormhole
 IssueTracker: https://github.com/wormhole-app/wormhole/issues
+Translation: https://translate.codeberg.org/projects/wormhole
 Changelog: https://github.com/wormhole-app/wormhole/releases
 
 AutoName: Wormhole File Transfer

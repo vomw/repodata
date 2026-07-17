@@ -5,9 +5,10 @@ AuthorName: Lena Tauchner
 AuthorEmail: admin@lukechriswalker.at
 AuthorWebSite: https://lukechriswalker.at/
 WebSite: https://tiefprompt.com/
-SourceCode: https://github.com/tiefseetauchner/tiefprompt
-IssueTracker: https://github.com/tiefseetauchner/tiefprompt/issues
-Changelog: https://github.com/tiefseetauchner/tiefprompt/release
+SourceCode: https://github.com/Tiefseetauchner/tiefprompt
+IssueTracker: https://github.com/Tiefseetauchner/tiefprompt/issues
+Translation: https://hosted.weblate.org/projects/tiefprompt
+Changelog: https://github.com/Tiefseetauchner/tiefprompt/release
 
 AutoName: tiefprompt
 ArchivePolicy: 1

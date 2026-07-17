@@ -5,7 +5,9 @@ AuthorName: Christian Rowlands
 AuthorEmail: craxiomdev@gmail.com
 SourceCode: https://github.com/christianrowlands/android-network-survey
 IssueTracker: https://github.com/christianrowlands/android-network-survey/issues
+Translation: https://hosted.weblate.org/engage/network-survey-android-app/
 Changelog: https://github.com/christianrowlands/android-network-survey/releases
+
 AutoName: Network Survey
 
 MaintainerNotes:

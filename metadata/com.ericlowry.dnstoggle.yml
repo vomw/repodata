@@ -6,10 +6,10 @@ AuthorName: Eric Lowry
 AuthorWebSite: https://eric-lowry.com/
 SourceCode: https://github.com/ELowry/DNSToggle
 IssueTracker: https://github.com/ELowry/DNSToggle/issues
+Translation: https://hosted.weblate.org/engage/dns-toggle
 Changelog: https://github.com/ELowry/DNSToggle/releases
 
 AutoName: DNS Toggle
-ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2026-07-08

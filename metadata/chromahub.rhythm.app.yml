@@ -1,11 +1,12 @@
 Categories:
   - Multimedia
-License: MIT
+License: GPL-3.0-only
 AuthorName: Anjishnu Nandi
 AuthorWebSite: https://anjishnunandi.vercel.app/
 WebSite: https://rhythmweb.vercel.app/
 SourceCode: https://github.com/cromaguy/Rhythm
 IssueTracker: https://github.com/cromaguy/Rhythm/issues
+Translation: https://hosted.weblate.org/engage/rhythm/
 Changelog: https://github.com/cromaguy/Rhythm/releases
 
 AutoName: Rhythm
