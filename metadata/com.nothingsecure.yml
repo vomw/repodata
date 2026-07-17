@@ -2,9 +2,9 @@ Categories:
   - Security
 License: MIT
 AuthorName: cuadratico
-SourceCode: https://github.com/cuadratico/NothingK
-IssueTracker: https://github.com/cuadratico/NothingK/issues
-Changelog: https://github.com/cuadratico/NothingK/releases
+SourceCode: https://github.com/cuadratico/NowiVault
+IssueTracker: https://github.com/cuadratico/NowiVault/issues
+Changelog: https://github.com/cuadratico/NowiVault/releases
 
 AutoName: Nothing K
 
@@ -12,7 +12,7 @@ MaintainerNotes:
   AppAdded: 2025-07-27
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/cuadratico/NothingK/blob/V0.0.4/fastlane/metadata/android
+  Fastlane: https://github.com/cuadratico/NowiVault/blob/V0.0.4/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
 
 AllowedAPKSigningKeys: 9196480bd9b65ca5b8f25460ad9f411103c663efc79787bca9b1ca03a1b84672
