@@ -1,7 +1,3 @@
-AntiFeatures:
-  SourceArchived:
-    en-US: Upstream repo was archived 2024-10-19, there will be no updates anymore.
-    de: Das Quellrepo der App wurde am 2024-10-19 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Security
 License: GPL-3.0-only
@@ -28,8 +24,9 @@ MaintainerNotes:
   Status:
     - 2023-09-09 app reached F-Droid 2023-08-26, but Readme now carries both badges. Asked whether to keep at https://github.com/LibrePass/LibrePass-Android/issues/39
     - 2025-07-17 repo was archived 2024-10-19, disabling updates (Tags=>None)
+    - 2026-07-17 monthly quality check found the repo unarchived; Readme still states "no longer actively developed"
 
 AllowedAPKSigningKeys: 679bdee1b6cd07cd29696c6ef66d38c672455eb9e308bed8d76440b3addceba6
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Static

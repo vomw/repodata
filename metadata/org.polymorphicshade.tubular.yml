@@ -2,6 +2,9 @@ AntiFeatures:
   NonFreeNet:
     en-US: The app uses YouTube as source for its contents.
     de: Die App bezieht ihre Videos von YouTube.
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-07-07, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-07-07 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Multimedia
 License: GPL-3.0-only
@@ -38,4 +41,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: 8ad7025a8c911454e2a7b4515e360c52ca63ec0410a042ff46e9ad05b509e187
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
