@@ -13,7 +13,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/tymwitko/Recents/tree/main/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to show a list of all apps
     android.permission.REQUEST_DELETE_PACKAGES: to allow uninstalling apps via the quick actions menu

@@ -16,7 +16,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/AppFuton/Futon/blob/devel/metadata
-  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
   NameSpaces:
     - /eu/kanade/tachiyomi

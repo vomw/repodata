@@ -18,7 +18,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/leonlatsch/Photok/tree/develop/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   LibIgnore:
     - /com/telemetrydeck/sdk
   PermIgnore:
