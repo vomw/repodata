@@ -1,0 +1,28 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: steel johnson
+AuthorEmail: steelvargas@gmail.com
+SourceCode: https://github.com/steel101/music-player-
+IssueTracker: https://github.com/steel101/music-player-/issues
+
+AutoName: music player
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-07-18
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-release.*\.apk/
+  Fastlane: https://github.com/steel101/music-player-/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: to read audio from default music folder
+    android.permission.RECORD_AUDIO: to show audio wave form in now playing
+    android.permission.READ_EXTERNAL_STORAGE: to read audio files from any storage location
+    android.permission.MANAGE_EXTERNAL_STORAGE: to write id3 tags to audio files
+
+AllowedAPKSigningKeys: 875ef70f6a6dfe2e641098f595c3927fccd30e3aa27e92c6f194dc68ae7994c6
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
