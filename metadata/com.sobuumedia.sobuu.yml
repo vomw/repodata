@@ -19,7 +19,7 @@ MaintainerNotes:
   AppAdded: 2025-08-07
   Method: gitlab-tags
   GHSkipPre: 1
-  ApkMatch: /fdroid-release/i
+  ApkMatch: /Sobuu-.*\.apk/i
   Fastlane: https://gitlab.com/sobuu/sobuu/-/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: ACRA is optional and disabled by default, see https://gitlab.com/IzzyOnDroid/repo/-/work_items/817#note_2675273030
@@ -31,5 +31,5 @@ MaintainerNotes:
 
 AllowedAPKSigningKeys: b56c63b6bd0bf31114447748b781ad1bde4b10dbf9c0fc6e61b3dc71550f63a9
 
-AutoUpdateMode: Version v%v
+AutoUpdateMode: Version %v
 UpdateCheckMode: Tags
