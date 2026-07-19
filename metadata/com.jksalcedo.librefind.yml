@@ -24,8 +24,11 @@ MaintainerNotes:
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to list all installed apps to find alternatives for
     android.permission.INTERNET: to connect to the Supabase database holding the app definitions
+  Status:
+    - 2026-07-18 v1.0.1 adds REQUEST_INSTALL_PACKAGES – https://github.com/jksalcedo/librefind/issues/325
+    - 2026-07-19 turns out it is an automated self-updater; no opt-in or opt-out in the settings. Rolling back, UCM Tags=>Static for now.
 
 AllowedAPKSigningKeys: 3410f33370a808f7088ba127bf139adf19ec542442a410ef77f1801db50117ab
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
