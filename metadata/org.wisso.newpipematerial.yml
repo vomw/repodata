@@ -19,12 +19,14 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /NewPipeMaterial_.*\.apk/
   Fastlane: https://github.com/wizdom13/NewPipe_Material/tree/pipe/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   LibIgnore:
     - /org/acra
   PermIgnore:
     android.permission.SYSTEM_ALERT_WINDOW: for the popup/floating player feature
     android.permission.REQUEST_INSTALL_PACKAGES: for the opt-in self-updater
+    android.permission.READ_EXTERNAL_STORAGE: to select and save downloaded video, audio, and subtitle files
+    android.permission.WRITE_EXTERNAL_STORAGE: to select and save downloaded video, audio, and subtitle files
 
 AllowedAPKSigningKeys: 6773ba294b8112854f5132f912a0515fe1d43ea861b6e6016abe97041a7642b5
 
