@@ -1,0 +1,24 @@
+Categories:
+  - Theming
+License: Apache-2.0
+AuthorName: Kaustubh Ladiya
+AuthorEmail: k4ustu3h@gmail.com
+AuthorWebSite: https://k4ustu3h.vercel.app/
+SourceCode: https://github.com/k4ustu3h/monocons-android
+IssueTracker: https://github.com/k4ustu3h/monocons-android/issues
+Changelog: https://github.com/k4ustu3h/monocons-android/releases
+
+AutoName: Monocons
+
+MaintainerNotes:
+  AppAdded: 2026-07-19
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Monocons.*Izzy\.apk/
+  Fastlane: https://github.com/k4ustu3h/monocons-android/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: b66a31ab0f86579664a142978aca592926cc01f4750cf71a552b310ff9ad3436
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
