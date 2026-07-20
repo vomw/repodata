@@ -26,8 +26,9 @@ MaintainerNotes:
     - 2025-12-18 solved, antifeatures removed again.
     - 2026-05-03 v1.9.2 has versionCode from 1.9.1, UCM Tags=>Static until solved; https://github.com/jksalcedo/PassVault/issues/211
     - 2026-06-19 solved, v2.0.0 has versionCode increased again
+    - 2026-07-20 signing key changed with v2.1.0, temp disabling updates – see https://github.com/jksalcedo/PassVault/issues/230
 
 AllowedAPKSigningKeys: 2c4c96a28811405f6f0a3dd26ba0ffa34c4b962c35877c2efcb822a73a939f3a
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
