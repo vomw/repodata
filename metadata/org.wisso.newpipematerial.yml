@@ -6,9 +6,9 @@ Categories:
   - Multimedia
 License: GPL-3.0-or-later
 AuthorName: WizDom13
-SourceCode: https://github.com/wizdom13/NewPipe_Material
-IssueTracker: https://github.com/wizdom13/NewPipe_Material/issues
-Changelog: https://github.com/wizdom13/NewPipe_Material/releases
+SourceCode: https://github.com/wizdom13/WizeStream
+IssueTracker: https://github.com/wizdom13/WizeStream
+Changelog: https://github.com/wizdom13/WizeStream
 
 AutoName: NewPipe Material
 ArchivePolicy: 2
@@ -17,8 +17,8 @@ MaintainerNotes:
   AppAdded: 2026-07-17
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /NewPipeMaterial_.*\.apk/
-  Fastlane: https://github.com/wizdom13/NewPipe_Material/tree/pipe/fastlane/metadata/android
+  ApkMatch: /wizestream_v.*\.apk/
+  Fastlane: https://github.com/wizdom13/WizeStream/tree/pipe/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   LibIgnore:
     - /org/acra
