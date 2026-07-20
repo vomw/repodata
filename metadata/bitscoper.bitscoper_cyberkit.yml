@@ -30,5 +30,5 @@ MaintainerNotes:
 AllowedAPKSigningKeys: 117bf021dfef47fd618b142e4c116b008ec441d7846defd23fb307363670a9a0
 
 VercodeOperation: '%c -2000'
-AutoUpdateMode: Version v%v
+AutoUpdateMode: Version v%v\+\d+
 UpdateCheckMode: Tags
