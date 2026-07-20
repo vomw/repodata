@@ -15,6 +15,7 @@ RequiresRoot: true
 
 MaintainerNotes:
   AppAdded: 2022-10-22
+  Todo: 2026-08-20 remove on request by the new developer, after rebranding
   Method: github-release
   GHSkipPre: 1
   NameSpaces:
@@ -22,6 +23,7 @@ MaintainerNotes:
   Status:
     - 2025-10-28 our PR shipping fastlane was closed without comment, no reply at all even when explicitly asked; seems like contributions are not welcome; https://github.com/LSPosed/CorePatch/pull/138
     - 2026-07-19 package name changed to org.lsposed.corepatch, see https://github.com/LSPosed/CorePatch/issues/155 – UCM Tags=>None
+    - 2026-07-20 new developers request removal, and do not want the new module listed here.
 
 AllowedAPKSigningKeys: b2b5e7d0aed1ade16b3aa447cabc3f5a437df88f6b364beb0cf6e7c080db308a
 
