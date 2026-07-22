@@ -25,6 +25,7 @@ MaintainerNotes:
     android.permission.QUERY_ALL_PACKAGES: to show all apps and check which apps need to be updated
     android.permission.REQUEST_DELETE_PACKAGES: to uninstall apps (this is an app manager)
     android.permission.REQUEST_INSTALL_PACKAGES: to install apps (this is an app manager)
+    android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: for unattended updates
     android.permission.READ_EXTERNAL_STORAGE: implicitly granted by WRITE_EXTERNAL_STORAGE
     android.permission.WRITE_EXTERNAL_STORAGE: needed by DownloadManager
   Status:

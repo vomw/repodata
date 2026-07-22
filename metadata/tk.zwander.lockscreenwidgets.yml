@@ -24,6 +24,7 @@ MaintainerNotes:
   AppAdded: 2025-11-01
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /WidgetsAnywhere.*release\.apk/
   Fastlane: https://github.com/zacharee/LockscreenWidgets/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
@@ -40,8 +41,9 @@ MaintainerNotes:
     android.permission.CALL_PHONE: only requested if needed (e.g., when tapping a direct dial shortcut)
   Status:
     - 2025-11-02 upstreaming our local Fastlane metadata via https://github.com/zacharee/LockscreenWidgets/pull/83
+    - 2026-07-22 file naming pattern changed, and a beta is marked as release. Before picking that up, asking upstream if it was intentional at https://github.com/zacharee/LockscreenWidgets/issues/203
 
 AllowedAPKSigningKeys: 2ed2e38cd7f5f93c2a40594360cf3fb08cecfacf1f7994e59e1ce835272ccd85
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static

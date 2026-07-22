@@ -1,3 +1,7 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: The app reaches out to Github to look for updates without consent.
+    de: Die App schaut auf Github nach neuen Releases, was sich nicht deaktivieren lässt.
 Categories:
   - Time
 License: GPL-3.0-only
@@ -19,10 +23,14 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   LibIgnore:
     - /org/acra
+  PermIgnore:
+    android.permission.READ_CALENDAR: for calendar sync
+    android.permission.WRITE_CALENDAR: for calendar sync
   Status:
     - 2024-11-01 signing key changed, so UCM Tags=>Static until clarified – https://github.com/vishal2376/snaptick/issues/82
     - 2024-11-02 verified by mail, switching to new key
     - 2026-05-04 android.permission.READ_CALENDAR DEPENDENCY_INFO_BLOCK plus update checker – https://github.com/vishal2376/snaptick/issues/123
+    - 2026-07-22 same thing popped up with the next release, issue still not answered to. Added NonFreeNet for now, suggested to make the check opt-in. We might need to remove the app if this is still being ignored.
 
 AllowedAPKSigningKeys: 68253097450437107ac46c17904e102ce3ca3fa7ae5cecf367ac38bf48489072
 
