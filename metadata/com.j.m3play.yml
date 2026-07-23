@@ -18,7 +18,7 @@ MaintainerNotes:
   AppAdded: 2026-04-12
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /universal-release/i
+  ApkMatch: /M3Play\.apk/i
   NameSpaces:
     - /com/my/kizzy
   Fastlane: https://github.com/JAY01-CYBER/M3-Play/blob/main/fastlane/metadata/android
