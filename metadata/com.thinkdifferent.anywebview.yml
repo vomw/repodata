@@ -15,6 +15,7 @@ MaintainerNotes:
   AppAdded: 2023-04-07
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /AnyWebView.*\.apk/
   Status:
     - 2023-07-13 UCM Tags => Static (last release 5/2022, last commit 5/2022)
     - 2025-11-12 last release/commit 12/2024, keeping UCM=Static
