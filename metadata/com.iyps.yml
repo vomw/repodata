@@ -19,8 +19,10 @@ MaintainerNotes:
   Fastlane: https://github.com/StellarSand/IYPS/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   DoubleList: keep
+  Status:
+    - 2026-07-27 signing key changed, verification initiated by mail (until verified, UCM Tags=>Static)
 
 AllowedAPKSigningKeys: 4b5b907ed2bd44aa083a2ef86e1878250bcc33e44cdb6fc3b02b241990bc3b44
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
