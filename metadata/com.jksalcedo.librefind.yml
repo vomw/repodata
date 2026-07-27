@@ -27,8 +27,9 @@ MaintainerNotes:
   Status:
     - 2026-07-18 v1.0.1 adds REQUEST_INSTALL_PACKAGES – https://github.com/jksalcedo/librefind/issues/325
     - 2026-07-19 turns out it is an automated self-updater; no opt-in or opt-out in the settings. Rolling back, UCM Tags=>Static for now.
+    - 2026-07-27 updater has been removed again
 
 AllowedAPKSigningKeys: 3410f33370a808f7088ba127bf139adf19ec542442a410ef77f1801db50117ab
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
