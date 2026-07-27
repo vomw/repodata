@@ -11,6 +11,7 @@ AutoName: PassVault
 
 MaintainerNotes:
   AppAdded: 2025-11-08
+  Todo: 2026-08-27 check with upstream how long to keep both signing keys active, see see https://github.com/jksalcedo/PassVault/issues/230
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /universal-release/i
@@ -27,8 +28,11 @@ MaintainerNotes:
     - 2026-05-03 v1.9.2 has versionCode from 1.9.1, UCM Tags=>Static until solved; https://github.com/jksalcedo/PassVault/issues/211
     - 2026-06-19 solved, v2.0.0 has versionCode increased again
     - 2026-07-20 signing key changed with v2.1.0, temp disabling updates – see https://github.com/jksalcedo/PassVault/issues/230
+    - 2026-07-27 key rotation now properly implemented, v2.2.0 accepted by Android as update to 2.0.2
 
-AllowedAPKSigningKeys: 2c4c96a28811405f6f0a3dd26ba0ffa34c4b962c35877c2efcb822a73a939f3a
+AllowedAPKSigningKeys:
+  - 2c4c96a28811405f6f0a3dd26ba0ffa34c4b962c35877c2efcb822a73a939f3a
+  - 55dc4a86948ad1a47afc7ce29ae62385acd55c2634127fe1c514159e0deca8eb
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
