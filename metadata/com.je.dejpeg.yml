@@ -19,8 +19,6 @@ MaintainerNotes:
   Fastlane: https://codeberg.org/dryerlint/dejpeg/src/branch/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: Fastlane is our starter package
-  PermIgnore:
-    android.permission.READ_MEDIA_IMAGES: to access images to work on
   Status:
     - 2025-06-01 temporarily demoted from Tags to Static due to issues with current release, see https://gitlab.com/IzzyOnDroid/repo/-/issues/772#note_2537364705
     - 2026-01-05 repo moved to Codeberg, but we cannot build it anymore due to some missing pieces, so UCM=>Static again for now; see https://codeberg.org/dryerlint/dejpeg/issues/1
