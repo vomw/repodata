@@ -1,0 +1,24 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: cho3ek89
+AuthorEmail: kamilek.cholewa@gmail.com
+SourceCode: https://github.com/cho3ek89/ChronoRover
+IssueTracker: https://github.com/cho3ek89/ChronoRover/issues
+Changelog: https://github.com/cho3ek89/ChronoRover/releases
+
+AutoName: ChronoRover
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-07-29
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /ChronoRover_android-arm64.*\.apk/
+  Fastlane: https://github.com/cho3ek89/ChronoRover/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: eab617417c366545d55150606008b5edd4308dd8965292fa4cf8664a9a8e1ba2
+
+AutoUpdateMode: Version release/%v
+UpdateCheckMode: Tags
