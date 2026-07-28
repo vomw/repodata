@@ -2,10 +2,10 @@ Categories:
   - Graphics
 License: Apache-2.0
 AuthorName: Zakir Sheikh
-SourceCode: https://github.com/iZakirSheikh/Gallery
-IssueTracker: https://github.com/iZakirSheikh/Gallery/issues
+SourceCode: https://github.com/googol-apps/Gallery
+IssueTracker: https://github.com/googol-apps/Gallery/issues
 Translation: https://crowdin.com/project/gallery-photos-videos
-Changelog: https://github.com/iZakirSheikh/Gallery/releases
+Changelog: https://github.com/googol-apps/Gallery/releases
 
 AutoName: Gallery
 
@@ -15,7 +15,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /community/
   ApkIgnore: /standard/
-  Fastlane: https://github.com/iZakirSheikh/Gallery/blob/v1.0.4/fastlane/metadata/android
+  Fastlane: https://github.com/googol-apps/Gallery/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   NameSpaces:
     - /com/zs/gallery
