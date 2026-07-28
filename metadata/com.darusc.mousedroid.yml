@@ -16,6 +16,7 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon
   Status:
     - 2026-03-11 UCM Tags=>Static as versionCode was not increased – plus signingKey changed; https://github.com/darusc/Mousedroid/issues/33
+    - 2026-07-28 APK was silently replaced with a correctly signed one, without any response on the issue. Leaving UCM Static, as not much activity upstream anyway.
 
 AllowedAPKSigningKeys: 50cdcd3e18a3550eabe52864c2fae9079d4c282456d4a2ffed50caa58c5d4a22
 
