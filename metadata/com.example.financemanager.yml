@@ -19,6 +19,7 @@ MaintainerNotes:
     - 2025-07-28 v1.0.1 still claims to be 1.0+1, UCM Tags=>Static for now; https://github.com/Ethanscharlie/Cash-On-Track/issues/2
     - 2026-01-02 versionCode fixed, but now uses different signing key
     - 2026-02-01 signing key issue still unsolved, disabling updates entirely.
+    - 2026-06-28 app is planned to be superseded by io.github.ethanscharlie.cashontrack with a new repo, Ethan will notify us when ready.
 
 AllowedAPKSigningKeys: aaaeab0b1f478106290d8904901741bd853ae3241ae9e9f1c2d48097dc9608ee
 
