@@ -16,9 +16,12 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /AnyWebView.*\.apk/
+  Fastlane: https://github.com/neoblackxt/AnyWebView/tree/master/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,screenshots
   Status:
     - 2023-07-13 UCM Tags => Static (last release 5/2022, last commit 5/2022)
     - 2025-11-12 last release/commit 12/2024, keeping UCM=Static
+    - 2026-07-28 upstreamed our local fastlane metadata via https://github.com/neoblackxt/AnyWebView/pull/33
 
 AllowedAPKSigningKeys: 1f9efb5ba6b97f7e34ada302515244ff90e4d8e4802453fb242d593daa565640
 
