@@ -35,6 +35,7 @@ MaintainerNotes:
     - 2024-01-08 uses debug certificate https://github.com/Mobile-IoT-Security-Lab/HideDroid/issues/12 (not sure if it is working at all, see issue 11)
     - 2024-03-10 new release with proper cert, but scanner reports REQUEST_INSTALL_PACKAGES REQUEST_DELETE_PACKAGES READ_EXTERNAL_STORAGE*
     - 2025-11-13 last release/commit now 3/2024, keeping UCM=Static
+    - 2025-07-21 project currently inactive with no new releases planned, see https://github.com/0xdad0/HideDroid/issues/12#issuecomment-5031247722 – so no chance to get rid of the ApplicationDebuggable?
 
 AllowedAPKSigningKeys: 7866b2ed2dc735d7138255bd57d6d46367dd89a0b8831ee8d57ded4c03ab0c2a
 
