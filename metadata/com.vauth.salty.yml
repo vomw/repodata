@@ -1,0 +1,23 @@
+Categories:
+  - Security
+License: MIT
+AuthorName: Vauth
+SourceCode: https://github.com/Vauth/salty-app
+IssueTracker: https://github.com/Vauth/salty-app/issues
+
+AutoName: Salty
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-07-29
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-release\.apk/
+  Note: Matrix @ivuxy:matrix.org
+  Fastlane: https://github.com/Vauth/salty-app/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: baca0aeff43d98243cbd1a744a5381b28725549ba53c9fdb7f5a95171946d9df
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
