@@ -1,0 +1,29 @@
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: Googol Apps
+SourceCode: https://github.com/googol-apps/OnePlayer
+IssueTracker: https://github.com/googol-apps/OnePlayer/issues
+Changelog: https://github.com/googol-apps/OnePlayer/releases
+
+AutoName: One Player
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-07-29
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-community-release-unsigned-signed\.apk/
+  Fastlane: https://github.com/googol-apps/OnePlayer/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: to access media e.g. via local network
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: to access the media to play
+    android.permission.READ_MEDIA_VIDEO: to access the media to play
+    android.permission.READ_EXTERNAL_STORAGE: to access the media to play (on some older Android versions)
+
+AllowedAPKSigningKeys: 0c2d5027e33cd5db94b8f2ad564778e239c82892b05167d031b8ae8668d80466
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
