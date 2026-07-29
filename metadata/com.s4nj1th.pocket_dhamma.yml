@@ -20,8 +20,11 @@ MaintainerNotes:
   DoubleList: keep
   Status:
     - 2026-06-17 v1.2.3 uses wrong signing key, UCM Tags=>Static for now – https://github.com/s4nj1th/pocket-dhamma/issues/9
+    - 2026-07-20 authorship confirmed via original request at GitLab
 
-AllowedAPKSigningKeys: 8c70a6600f351180e1acda62756d7378ff824729c9ef08e016a8b58b4423cf30
+AllowedAPKSigningKeys:
+  - 8c70a6600f351180e1acda62756d7378ff824729c9ef08e016a8b58b4423cf30
+  - ea33f3e01911818225dfb9615ca87c1289379b0bb482d2324b5ea7269f1904c2
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
