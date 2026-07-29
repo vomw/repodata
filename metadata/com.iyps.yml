@@ -22,10 +22,11 @@ MaintainerNotes:
   DoubleList: keep
   Status:
     - 2026-07-27 signing key changed, verification initiated by mail (until verified, UCM Tags=>Static)
+    - 2026-07-30 new signing key confirmed via https://codeberg.org/IzzyOnDroid/repodata/pulls/410, UCM=>Tags again
 
 AllowedAPKSigningKeys:
   - 4b5b907ed2bd44aa083a2ef86e1878250bcc33e44cdb6fc3b02b241990bc3b44
   - 070c5f1b5e6044efa61caaae1cc8feff3814d3f546102005a2aabb2b432f2ac5
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
