@@ -1,0 +1,23 @@
+Categories:
+  - Writing
+License: GPL-3.0-only
+AuthorName: Omar
+AuthorWebSite: https://omawr.pages.dev/
+SourceCode: https://github.com/omaawr/tuisku
+IssueTracker: https://github.com/omaawr/tuisku/issues
+Changelog: https://github.com/omaawr/tuisku/releases
+
+AutoName: Tuisku
+
+MaintainerNotes:
+  AppAdded: 2026-07-30
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-release\.apk/
+  Fastlane: https://github.com/omaawr/tuisku/tree/main/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: db2911b11ba6b08a7a8ba317d168307743e4f211a51e9aa6db81dd3c9a53b2e9
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
