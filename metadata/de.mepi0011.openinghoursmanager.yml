@@ -12,6 +12,7 @@ MaintainerNotes:
   AppAdded: 2025-10-29
   Method: codeberg-release
   GHSkipPre: 1
+  ApkMatch: /OpeningHoursManager_signed\.apk/
   Fastlane: https://codeberg.org/mepi0011/OpeningHoursManager/src/branch/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   NameSpaces:
