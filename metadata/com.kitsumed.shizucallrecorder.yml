@@ -1,0 +1,28 @@
+Categories:
+  - Phone & SMS
+License: GPL-3.0-only
+AuthorName: kitsumed
+AuthorWebSite: https://kitsumed.github.io/
+SourceCode: https://github.com/kitsumed/ShizuCallRecorder
+IssueTracker: https://github.com/kitsumed/ShizuCallRecorder/issues
+Changelog: https://github.com/kitsumed/ShizuCallRecorder/releases
+
+AutoName: ShizuCallRecorder
+
+MaintainerNotes:
+  AppAdded: 2026-07-30
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /ShizuCallRecorder-.*\.apk/
+  Fastlane: https://github.com/kitsumed/ShizuCallRecorder/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.READ_PHONE_STATE: to detect incoming calls
+    android.permission.READ_CONTACTS: to associate phone numbers with names from contacts
+    android.permission.QUERY_ALL_PACKAGES: to show which app made the call
+    android.permission.READ_CALL_LOG: to associate phone numbers with names from contacts
+
+AllowedAPKSigningKeys: 9d3565f7c56e00ad830be8572684bb95b2f2a555e1c3ca403f948819125877ea
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
