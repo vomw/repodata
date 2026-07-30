@@ -1,0 +1,25 @@
+Categories:
+  - Internet
+  - Time
+License: AGPL-3.0-or-later
+AuthorName: Pascal Dietrich
+AuthorEmail: cameo007@mintux.de
+AuthorWebSite: https://rheinneckar.social/@cameo007
+SourceCode: https://codeberg.org/Cameo007/kueaplan-android
+IssueTracker: https://codeberg.org/Cameo007/kueaplan-android/issues
+Changelog: https://codeberg.org/Cameo007/kueaplan-android/releases
+
+AutoName: KüA-Plan
+
+MaintainerNotes:
+  AppAdded: 2026-07-30
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /app-release\.apk/
+  Fastlane: https://codeberg.org/Cameo007/kueaplan-android/src/branch/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: df2a8e2803fff7ed393e7e39ab1c56f061550393f91704c068386d7aa63e51ff
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
