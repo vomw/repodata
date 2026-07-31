@@ -24,8 +24,9 @@ MaintainerNotes:
     - 2025-09-30 upstreaming our Fastlane via https://github.com/xpavle00/Habo/pull/89
     - 2025-12-25 UCM back to Tags as releases picked up again
     - 2026-05-10 v4.0.0 comes with Google+Amazon iAP plus GMS/AmazonSDK – https://github.com/xpavle00/Habo/issues/90#issuecomment-4415643878
+    - 2026-07-31 UCM=>None now, as there is still no reply
 
 AllowedAPKSigningKeys: 12c07be0332afd01f422f543cc96f58ec19f3212ed6ce2749c115d5183aca5fa
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: None
