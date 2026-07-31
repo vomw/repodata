@@ -1,0 +1,33 @@
+AntiFeatures:
+  TetheredNet:
+    en-US: The app connects to api.colourswift.com (store API).
+    de: Die App benötigt Verbindungen zu ihrer Store-API (api.colourswift.com)
+Categories:
+  - System
+License: MIT
+AuthorName: MinosPrime
+AuthorWebSite: https://colourswift.com/
+WebSite: https://colourswift.com/safehaven
+SourceCode: https://github.com/phsycologicalFudge/SafeHaven-Store
+IssueTracker: https://github.com/phsycologicalFudge/SafeHaven-Store/issues
+Changelog: https://github.com/phsycologicalFudge/SafeHaven-Store/releases
+
+AutoName: Safe Haven
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-07-31
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /safehaven-store\.apk/
+  Fastlane: https://github.com/phsycologicalFudge/SafeHaven-Store/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.REQUEST_INSTALL_PACKAGES: this is an app store, so it needs to install packages
+    android.permission.REQUEST_DELETE_PACKAGES: this is an app store, so it needs to uninstall packages
+    android.permission.QUERY_ALL_PACKAGES: this is an app store, so it needs to see all packages
+
+AllowedAPKSigningKeys: 9c67f4224888f60e093cf7eab9b194e6d4cd73bb11313638c47b17f0d5f34ec4
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
