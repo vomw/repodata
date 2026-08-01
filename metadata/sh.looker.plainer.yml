@@ -1,0 +1,23 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: LooKeR
+AuthorWebSite: https://looker.sh/
+SourceCode: https://codeberg.org/Iamlooker/plainer
+IssueTracker: https://codeberg.org/Iamlooker/plainer/issues
+Changelog: https://codeberg.org/Iamlooker/plainer/releases
+
+AutoName: plainer
+
+MaintainerNotes:
+  AppAdded: 2026-08-02
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /app-release\.apk/
+  Fastlane: https://codeberg.org/Iamlooker/plainer/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 0ff89d1f3596d2a2fd5b25723ade771b5e2d9cc5aafd5e0b52ea11e2d579d1e3
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
