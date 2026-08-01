@@ -18,7 +18,7 @@ MaintainerNotes:
   NameSpaces:
     - /k4ustu3h/monocons
   Fastlane: https://github.com/k4ustu3h/monocons-android/tree/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots,changelogs
 
 AllowedAPKSigningKeys: b66a31ab0f86579664a142978aca592926cc01f4750cf71a552b310ff9ad3436
 
