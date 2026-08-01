@@ -13,6 +13,8 @@ MaintainerNotes:
   AppAdded: 2026-06-29
   Method: github-release
   GHSkipPre: 1
+  NameSpaces:
+    - /dev/soupslurpr/appverifier
   Fastlane: https://github.com/RoundSalmon4/AppVerifierBG/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   PermIgnore:

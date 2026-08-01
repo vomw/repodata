@@ -13,6 +13,8 @@ MaintainerNotes:
   Method: codeberg-release
   GHSkipPre: 1
   ApkMatch: /universal/i
+  NameSpaces:
+    - /dev/bg/sram
   Fastlane: https://codeberg.org/bg443/BikeBridge/src/branch/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   PermIgnore:

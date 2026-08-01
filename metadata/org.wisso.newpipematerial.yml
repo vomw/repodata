@@ -20,6 +20,8 @@ MaintainerNotes:
   ApkMatch: /wizestream_v.*\.apk/
   Fastlane: https://github.com/wizdom13/WizeStream/tree/pipe/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /org/schabi/newpipe
   LibIgnore:
     - /org/acra
   PermIgnore:

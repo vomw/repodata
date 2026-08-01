@@ -29,6 +29,7 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
   NameSpaces:
+    - /dev/zwander/lswinterconnect
     - /tk/zwander/common
     - /tk/zwander/widgetdrawer
   IntentFilterIgnore:

@@ -13,6 +13,7 @@ AutoName: Atomic - Periodic Table
 
 MaintainerNotes:
   AppAdded: 2021-12-01
+  Todo: 2026-08-20 disable updates here and in rbtlog if https://github.com/JLindemann42/Atomic-Periodic-Table.Android/issues/138 was not replied to
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /(A|a)tomic.*\.apk/i

@@ -24,6 +24,9 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/TeamNewPipe/NewPipe/blob/dev/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /net/newpipe/app
+    - /newpipe/shared
   DoubleList: keep
   LibIgnore:
     - /org/acra

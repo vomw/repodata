@@ -25,10 +25,12 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/juanro49/FeedTV/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: some feeds are not using TLS
   Status:
     - 2025-03-23 last release/commit 2024-01-03; UCM Tags=>Static
     - 2025-09-24 upstreaming DE+EN locale to fastlane with https://github.com/juanro49/FeedTV/pull/41 (finding 1 new release 8/2025)
 
 AllowedAPKSigningKeys: 01d83fd1855b65ed94b77cecbf35d237033674e0c61303f2bde02d0efda3f743
 
-UpdateCheckMode: Static
+UpdateCheckMode: Tags

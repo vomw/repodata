@@ -20,6 +20,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/tagspaces/tagspaces/tree/develop/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /org/tagspaces/plugins
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: as a file manager, the app needs to access all files
     android.permission.CAMERA: to capture photos directly within the app

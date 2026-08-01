@@ -16,6 +16,7 @@ Changelog: https://github.com/RobinJ1995/DistroHopper/releases
 MaintainerNotes:
   AppAdded: 2018-01-21
   Method: github-release
+  GHSkipPre: 1
   Fastlane: https://github.com/RobinJ1995/DistroHopper/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldesc,icon
   PermIgnore:

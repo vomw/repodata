@@ -18,7 +18,12 @@ MaintainerNotes:
   Fastlane: https://github.com/FoedusProgramme/Gramophone/tree/beta/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
   NameSpaces:
+    - /com/beatofthedrum/alacdecoder
+    - /org/nift4/alacdecoder
+    - /org/nift4/audiofxfwd
+    - /org/nift4/audiosysfwd
     - /org/nift4/gramophone
+    - /org/nift4/mediastorecompat
   PermIgnore:
     android.permission.READ_MEDIA_AUDIO: to access audio to play on recent Android versions
     android.permission.READ_MEDIA_IMAGES: to read album art like cover images

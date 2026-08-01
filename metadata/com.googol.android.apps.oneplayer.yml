@@ -14,6 +14,10 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /app-community-release-unsigned-signed\.apk/
+  NameSpaces:
+    - /com/zs/audiofy
+    - /com/zs/core
+    - /com/zs/feature
   Fastlane: https://github.com/googol-apps/OnePlayer/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   FlagIgnore:

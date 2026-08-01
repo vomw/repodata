@@ -21,6 +21,7 @@ MaintainerNotes:
   Note: Fastlane is our starter package
   NameSpaces:
     - /com/lorenzovainigli/foodexpirationdates
+    - /com/lorenzovainigli/news
   Status:
     - 2023-04-28 v0.8+10 added a load of trackers, so it was removed here again and updates disabled until the issue is solved https://github.com/lorenzovngl/FoodExpirationDates/issues/16
     - 2023-08-24 foss build variant was established, so we switch to that. applicationId changed from com.lorenzovainigli.foodexpirationdates to com.lorenzovainigli.foodexpirationdates.foss

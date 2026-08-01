@@ -17,6 +17,7 @@ ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2025-08-07
+  Todo: 2026-08-08 check if https://gitlab.com/sobuu/sobuu/-/work_items/5 is answered, might need to update NonFreeNet
   Method: gitlab-tags
   GHSkipPre: 1
   ApkMatch: /Sobuu-.*\.apk/i
@@ -25,9 +26,12 @@ MaintainerNotes:
   Note: ACRA is optional and disabled by default, see https://gitlab.com/IzzyOnDroid/repo/-/work_items/817#note_2675273030
   LibIgnore:
     - /org/acra
+    - /com/sobuumedia/crashreporter
   PermIgnore:
     android.permission.CAMERA: for the integrated barcode scanner, to scan the ISBN from a book
     android.permission.ACCESS_NETWORK_STATE: to check if a network connection is available
+  Status:
+    - 2026-08-01 on-device-test reveals connections to GitLab on first start, without transparency – https://gitlab.com/sobuu/sobuu/-/work_items/5
 
 AllowedAPKSigningKeys: b56c63b6bd0bf31114447748b781ad1bde4b10dbf9c0fc6e61b3dc71550f63a9
 

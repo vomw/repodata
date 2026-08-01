@@ -16,6 +16,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Note: original code at https://codeberg.org/Ampersand/app
   ApkMatch: /arm64-release/
+  NameSpaces:
+    - /moe/ampersand/track
   Fastlane: https://github.com/NyaomiDEV/Ampersand/blob/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Status:

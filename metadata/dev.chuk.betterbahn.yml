@@ -24,6 +24,7 @@ MaintainerNotes:
   PermIgnore:
     android.permission.ACCESS_FINE_LOCATION: to show your current position on the station map
     android.permission.ACCESS_COARSE_LOCATION: to show your current position on the station map
+    android.permission.ACCESS_BACKGROUND_LOCATION: to track your travel position when the app is not in foreground (optional GPS Exit Alarm)
   Status:
     - 2025-09-19 upstreaming our fastlane metadata via https://github.com/chukfinley/Besser-Bahn/pull/6
     - 2026-07-01 signing key changed with 2.0.0, UCM Tags=>Static – https://github.com/chukfinley/Besser-Bahn/issues/9#issuecomment-4855321285
