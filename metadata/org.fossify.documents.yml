@@ -1,0 +1,25 @@
+Categories:
+  - Office
+License: GPL-3.0-only
+AuthorName: Fossify
+AuthorEmail: hello@fossify.org
+AuthorWebSite: https://www.fossify.org/
+SourceCode: https://github.com/FossifyOrg/Documents
+IssueTracker: https://github.com/FossifyOrg/Documents/issues
+Changelog: https://github.com/FossifyOrg/Documents/releases
+
+AutoName: Documents
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-08-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /documents-.*-foss-release\.apk/
+  Fastlane: https://github.com/FossifyOrg/Documents/blob/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
