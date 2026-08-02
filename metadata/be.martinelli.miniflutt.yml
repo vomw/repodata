@@ -7,6 +7,7 @@ IssueTracker: https://github.com/DocMarty84/miniflutt/issues
 Changelog: https://github.com/DocMarty84/miniflutt/releases
 
 AutoName: Miniflutt for Miniflux
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2021-11-10
@@ -22,8 +23,9 @@ MaintainerNotes:
     - 2025-07-31 upstreaming our local Fastlane metadata via https://github.com/DocMarty84/miniflutt/pull/55
     - 2026-01-03 versionCode was decreased with 1.16.1, so UCM Tags=>Static for now; see https://github.com/DocMarty84/miniflutt/issues/59
     - 2026-02-03 still no reply, disabling updates altogether
+    - 2026-08-03 author reports fix, enabling updates again
 
 AllowedAPKSigningKeys: 3966da51b5b3e859f088fc5c9efdc6e9f80a475754f889d0cae98138ae688e5d
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
