@@ -1,0 +1,22 @@
+Categories:
+  - Phone & SMS
+License: GPL-3.0-only
+AuthorName: Dhangofa
+SourceCode: https://github.com/Dhangofa/NetToggle
+IssueTracker: https://github.com/Dhangofa/NetToggle/issues
+Changelog: https://github.com/Dhangofa/NetToggle/releases
+
+AutoName: NetToggle
+
+MaintainerNotes:
+  AppAdded: 2026-08-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /NetToggle\.apk/
+  Fastlane: https://github.com/Dhangofa/NetToggle/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: b55309ba4b158203ba430e34ade46618f387642abd346ef6b416d3e753b15611
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
