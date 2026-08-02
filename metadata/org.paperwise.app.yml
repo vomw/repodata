@@ -11,6 +11,7 @@ AutoName: PaperWise
 
 MaintainerNotes:
   AppAdded: 2025-06-27
+  Todo: 2026-08-15 check with https://github.com/prateek54353/PaperWise/issues/4 how to deal with versionCode re v2.0.0
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
@@ -22,6 +23,7 @@ MaintainerNotes:
   Status:
     - 2025-07-14 v2.0.1 did not increase versionCode, UCM Tags=>Static for now; https://github.com/prateek54353/PaperWise/issues/4
     - 2025-11-21 dev prepared pubspec.yaml for 2.2.0+16 in 8/2025, but still no new release; sent another ping.
+    - 2026-08-02 dev increased VC from 13 to 18, but v2.0.0 already had 2002
 
 AllowedAPKSigningKeys: 7452fd91a4bceb61f0cf258663fdee4c3c113405d07814218b72e3864f89efb5
 
