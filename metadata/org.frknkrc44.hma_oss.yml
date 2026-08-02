@@ -13,6 +13,7 @@ RequiresRoot: true
 
 MaintainerNotes:
   AppAdded: 2025-12-31
+  Todo: 2026-08-29 remove app on dev request, is continued as Magisk module
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /release/i
@@ -25,6 +26,7 @@ MaintainerNotes:
     - /icu/nullptr/hidemyapplist
   Status:
     - 2026-07-10 Android app (Xposed module) is being discontinued, dev switched to Magisk; see https://codeberg.org/IzzyOnDroid/repodata/issues/304
+    - 2026-07-29 Magisk module was listed now, marking the app here for removal as requested by dev
 
 AllowedAPKSigningKeys: 35caf9c5e4859a36a75a0645b5e8faf16adbdc48e28ae393671e6b859edf3d43
 
