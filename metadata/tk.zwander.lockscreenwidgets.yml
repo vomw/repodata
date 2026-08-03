@@ -24,7 +24,7 @@ MaintainerNotes:
   AppAdded: 2025-11-01
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /WidgetsAnywhere.*release\.apk/
+  ApkMatch: /WidgetsAnywhere.*\.apk/
   Fastlane: https://github.com/zacharee/LockscreenWidgets/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
@@ -47,4 +47,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: 2ed2e38cd7f5f93c2a40594360cf3fb08cecfacf1f7994e59e1ce835272ccd85
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
