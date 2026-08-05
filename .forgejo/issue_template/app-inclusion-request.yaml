@@ -3,7 +3,6 @@ description: 'This template is for requesting a new app to be added to our repos
 title: '[AppRequest] <App Name>'
 labels:
   - 'app-request'
-  - 'needs/on-device-test'
   - 'needs/apk-scan'
 body:
   - type: checkboxes
