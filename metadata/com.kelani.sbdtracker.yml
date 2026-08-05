@@ -1,0 +1,24 @@
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Kel B
+AuthorEmail: mburgosfr@gmail.com
+SourceCode: https://github.com/mburgosfr-star/kelani-sbd-tracker
+IssueTracker: https://github.com/mburgosfr-star/kelani-sbd-tracker/issues
+Changelog: https://github.com/mburgosfr-star/kelani-sbd-tracker/releases
+
+AutoName: Kelani SBD Tracker
+
+MaintainerNotes:
+  AppAdded: 2026-05-05
+  Method: github-release
+  GHSkipPre: 1
+  Fastlane: https://github.com/mburgosfr-star/kelani-sbd-tracker/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Status:
+    - 2026-08-05 app rebranded from com.kel.powerlifting
+
+AllowedAPKSigningKeys: 15d23f2e5ee95ebc2a530b48be6f27dad7a568f722bc819f4571b3470a2ff39d
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

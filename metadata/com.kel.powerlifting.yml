@@ -15,8 +15,10 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/mburgosfr-star/kelani-sbd-tracker/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Status:
+    - 2026-08-05 signing key was changed (at v2.0.0) because the original one got compromised (verified via mail + signed commits since v0.7.1). App rebranded to com.kelani.sbdtracker
 
 AllowedAPKSigningKeys: e94912533b5221a3add72475a6590dd9814b3bfbb00b4599b20713d4edc4e55b
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
