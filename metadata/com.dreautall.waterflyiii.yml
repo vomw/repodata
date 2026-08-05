@@ -16,6 +16,8 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
+  NameSpaces:
+    - /internal
   Fastlane: https://github.com/dreautall/waterfly-iii/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshotsJPG
   FlagIgnore:

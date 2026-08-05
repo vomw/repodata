@@ -23,22 +23,24 @@ MaintainerNotes:
   IntentFilterIgnore:
     android.accessibilityservice.AccessibilityService: uses to obtain the clipboard data
   PermIgnore:
-    android.permission.QUERY_ALL_PACKAGES: to get package names for syncing notifications
-    android.permission.MANAGE_EXTERNAL_STORAGE: needed for file transfer
-    android.permission.WRITE_EXTERNAL_STORAGE: needed for file transfer
-    android.permission.READ_EXTERNAL_STORAGE: implied by WRITE
+    android.permission.ACCESS_BACKGROUND_LOCATION: for auto-connection
     android.permission.ACCESS_COARSE_LOCATION: needed to access the WiFi SSID
     android.permission.ACCESS_FINE_LOCATION: needed to access the WiFi SSID
-    android.permission.ACCESS_BACKGROUND_LOCATION: for auto-connection
+    android.permission.BLUETOOTH_SCAN: used for the Bluetooth pairing flow with the desktop client
+    android.permission.CAMERA: required to scan QR codes
+    android.permission.MANAGE_EXTERNAL_STORAGE: needed for file transfer
+    android.permission.READ_EXTERNAL_STORAGE: implied by WRITE
+    android.permission.WRITE_EXTERNAL_STORAGE: needed for file transfer
+    android.permission.QUERY_ALL_PACKAGES: to get package names for syncing notifications
     android.permission.RECEIVE_SENSITIVE_NOTIFICATIONS: needed for the notification listener, to allow syncing sensitive notifications as well
-    android.permission.SEND_SMS: for the SMS texting functionality
     android.permission.READ_SMS: for the SMS texting functionality
-    android.permission.RECEIVE_SMS: for the SMS texting functionality
     android.permission.RECEIVE_MMS: for the SMS texting functionality
+    android.permission.RECEIVE_SMS: for the SMS texting functionality
+    android.permission.SEND_SMS: for the SMS texting functionality
+    android.permission.READ_CALL_LOG: used for the call notifier
     android.permission.READ_CONTACTS: to see who send you the SMS
     android.permission.READ_PHONE_STATE: used to find the active local phone number for SMS activity
-    android.permission.CAMERA: required to scan QR codes
-    android.permission.READ_CALL_LOG: used for the call notifier
+    android.permission.SYSTEM_ALERT_WINDOW: to show permission prompts when the app isn’t in the foreground
   Status:
     - 2025-01-24 permissions, dependencyInfo etc. https://github.com/shrimqy/Sefirah-Android/issues/6#issuecomment-2612052651
     - 2025-02-05 rebranded from com.komu.sekia

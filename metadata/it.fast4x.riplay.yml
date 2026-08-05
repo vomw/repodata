@@ -25,12 +25,14 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   NameSpaces:
     - /com/zionhuang/innertube
+    - /html_embeded_content/domain/factory
     - /it/fast4x/androidyoutubeplayer
     - /it/fast4x/audiotaginfo
     - /it/fast4x/environment
     - /it/fast4x/kugou
     - /it/fast4x/lastfm
     - /it/fast4x/lrclib
+    - /it/fast4x/musicbrainz
     - /it/fast4x/simpmusiclyrics
     - /riplay/composeapp/generated
   PermIgnore:
