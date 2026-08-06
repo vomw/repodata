@@ -16,14 +16,16 @@ ArchivePolicy: 1
 MaintainerNotes:
   AppAdded: 2020-09-20
   Method: github-release-manual
-  ManualHint: tag name "nightly" cannot be compared to versionName or versionCode
+  ManualHint: tag name "nightly" cannot be compared to versionName or versionCode; pick arm64 now and see if v1.3.0 is followed by properly named releases
   GHSkipPre: 0
+  ApkMatch: /arm64-v8a/
   Fastlane: https://github.com/jhass/insporation/tree/main/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   Note: has its own repo at https://jhass.github.io/insporation/fdroid/repo?fingerprint=EC792A58B39DF9FBB466FB100E30E3842F229FDBC6E28D32C417F6A5B30ECCAE
   X-AutoUpdateMode: Version v%v nightly builds only at the moment
   Status:
     - 2026-07-02 APK size beyond 60 MB meanwhile, asked for per-ABI builds at https://github.com/jhass/insporation/issues/131
+    - 2026-08-06 introduced per-ABI splits, setting ApkMatch to pick arm64
 
 AllowedAPKSigningKeys: ec792a58b39df9fbb466fb100e30e3842f229fdbc6e28d32c417f6a5b30eccae
 
