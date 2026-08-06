@@ -19,6 +19,7 @@ MaintainerNotes:
   PermIgnore:
     android.permission.READ_MEDIA_AUDIO: to access local audio files to play
     android.permission.READ_EXTERNAL_STORAGE: to access local audio files to play
+    android.permission.RECORD_AUDIO: used for the live equalizer animation
 
 AllowedAPKSigningKeys: ff2f2c3a37046a9f52bf73d0f6d538927dc2be0b30a4901b48ea10774a1fa20d
 
