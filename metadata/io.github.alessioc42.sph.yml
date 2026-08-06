@@ -11,7 +11,7 @@ SourceCode: https://github.com/lanis-mobile/lanis
 IssueTracker: https://github.com/lanis-mobile/lanis/issues
 Changelog: https://github.com/lanis-mobile/lanis/releases
 
-AutoName: SPH
+AutoName: Lanis (SPH)
 ArchivePolicy: 1
 
 MaintainerNotes:
@@ -26,10 +26,6 @@ MaintainerNotes:
     - /ly/count/dart/countly_flutter
   NameSpaces:
     - /com/example/app
-  PermIgnore:
-    android.permission.CAMERA: for the integrated document scanner
-    android.permission.READ_EXTERNAL_STORAGE: to select files for upload
-    android.permission.READ_MEDIA_IMAGES: to select images for upload
   Status:
     - 2023-12-20 AFs added, see https://github.com/alessioC42/lanis-mobile/issues/69
     - 2023-12-29 AFs removed; Countly is opt-in
