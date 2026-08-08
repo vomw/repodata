@@ -1,0 +1,25 @@
+Categories:
+  - Office
+License: Apache-2.0
+AuthorName: Adekunle Goodness
+AuthorEmail: agoodness922@gmail.com
+AuthorWebSite: https://d-e-vgoodify-portfolio.netlify.app/
+SourceCode: https://github.com/D-e-vGoodify/MatrixTinz
+IssueTracker: https://github.com/D-e-vGoodify/MatrixTinz/issues
+Changelog: https://github.com/D-e-vGoodify/MatrixTinz/releases
+
+AutoName: MatrixTinz
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-08-09
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /matrixtinz-release\.apk/
+  Fastlane: https://github.com/D-e-vGoodify/MatrixTinz/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
+
+AllowedAPKSigningKeys: 33ff79e746a89897fc3257d8f4554df98b1d8203c7bfa3d62a16ff165ff16b11
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
