@@ -18,6 +18,7 @@ MaintainerNotes:
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: needed to access the files to be sent
     android.permission.WRITE_EXTERNAL_STORAGE: used to store received files
+    android.permission.SYSTEM_ALERT_WINDOW: optionally used to access the clipboard in the background when using ClipShare functions from notifications
 
 AllowedAPKSigningKeys: 5742fd837b14f440e34d77920ed29f433df583176f21f5a10176976aab750f22
 
