@@ -19,8 +19,9 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
   DoubleList: keep
   PermIgnore:
-    android.permission.READ_CONTACTS: to sync birthday from Android contacts
     android.permission.READ_CALENDAR: to see events from the phone´s built-in calendar alongside everything else
+    android.permission.READ_CONTACTS: to sync birthday from Android contacts
+    android.permission.WRITE_CONTACTS: to sync contacts from your CalDAV account to your phone
   Status:
     - 2026-04-26 APK size almost tripled, so we had to reduce ArchivePolicy to 1 (and are still over size); https://github.com/KashCal/KashCal/issues/189
     - 2026-04-27 reverting ArchivePolicy to 2 as upstream managed to reduce APK size to 16 MB again
