@@ -1,7 +1,7 @@
 AntiFeatures:
   NonFreeNet:
-    en-US: The app depends on getsobuu.com, where you will need an account at.
-    de: Die App hängt von getsobuu.com ab, wo ein Account benötigt wird.
+    en-US: The app depends on getsobuu.com, where you will need an account at (and reaches out to GitLab at app start).
+    de: Die App hängt von getsobuu.com ab, wo ein Account benötigt wird (und baut bei App-Start Verbindung zu GitLab auf).
 Categories:
   - Reading
 License: Apache-2.0
@@ -17,7 +17,6 @@ ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2025-08-07
-  Todo: 2026-08-08 check if https://gitlab.com/sobuu/sobuu/-/work_items/5 is answered, might need to update NonFreeNet
   Method: gitlab-tags
   GHSkipPre: 1
   ApkMatch: /Sobuu-.*\.apk/i
