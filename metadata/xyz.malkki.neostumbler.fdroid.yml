@@ -31,6 +31,7 @@ MaintainerNotes:
     android.permission.READ_PHONE_STATE: required to collect cell towers
     android.permission.BLUETOOTH_SCAN: required to see Bluetooth beacons
     android.permission.ACCESS_WIFI_STATE: required to see WiFi devices
+    android.permission.NEARBY_WIFI_DEVICES: used for estimating distances to Wi-Fi access points
     android.permission.FOREGROUND_SERVICE_LOCATION: needed to keep the collector running even with the screen switched off
   Status:
     - 2024-06-15 showed up at F-Droid 2024-05-14, asked whether to keep at https://github.com/mjaakko/NeoStumbler/issues/18#issuecomment-2168898118 – answer is "keep"
