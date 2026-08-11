@@ -28,8 +28,9 @@ MaintainerNotes:
     - 2025-02-15 1.8.4.31 has them removed again
     - 2025-07-19 shipped de locale to upstream via https://github.com/Akylas/conty/pull/10
     - 2026-08-05 v1.11.2 comes signed with a different certificate, UCM Tags=>Static until clarified; https://github.com/Akylas/conty/issues/23
+    - 2026-08-11 original key rescued, v1.11.3 solves the problem; UCM=>Tags again
 
 AllowedAPKSigningKeys: 39ea68809209ba74af24f08eded1cb79d7beb69d473d99ffdf1a51540fa35472
 
 AutoUpdateMode: Version ^android/github/[^/]+/%c$
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
