@@ -1,0 +1,24 @@
+Categories:
+  - Multimedia
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: KiberBomzh
+SourceCode: https://github.com/KiberBomzh/songbook-gui
+IssueTracker: https://github.com/KiberBomzh/songbook-gui/issues
+Changelog: https://github.com/KiberBomzh/songbook-gui/releases
+
+AutoName: songbook
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-08-12
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-arm64-v8a-release\.apk/
+  Fastlane: https://github.com/KiberBomzh/songbook-gui/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: da05f783c2c21b5d8d8659d3092e85f5f7ba41cc35f5ae143180bc0b04b8bddd
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
