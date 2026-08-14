@@ -18,6 +18,7 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   PermIgnore:
     android.permission.SYSTEM_ALERT_WINDOW: needed for floating overlay features (FPS, CPU temp and usage, battery temp, ram usage, etc)
+    android.permission.QUERY_ALL_PACKAGES: used to retrieve a list of apps to select which to turn the floating overlay off for
 
 AllowedAPKSigningKeys: 01217b9a05e17fca034b88b85bb52177b62d6eb28f7342c2ec259cf835d55a67
 
