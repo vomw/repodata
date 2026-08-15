@@ -29,10 +29,9 @@ MaintainerNotes:
     - 2026-06-19 solved, v2.0.0 has versionCode increased again
     - 2026-07-20 signing key changed with v2.1.0, temp disabling updates – see https://github.com/jksalcedo/PassVault/issues/230
     - 2026-07-27 key rotation now properly implemented, v2.2.0 accepted by Android as update to 2.0.2
+    - 2026-08-15 remove old key from AllowedSigningKeys
 
-AllowedAPKSigningKeys:
-  - 2c4c96a28811405f6f0a3dd26ba0ffa34c4b962c35877c2efcb822a73a939f3a
-  - 55dc4a86948ad1a47afc7ce29ae62385acd55c2634127fe1c514159e0deca8eb
+AllowedAPKSigningKeys: 55dc4a86948ad1a47afc7ce29ae62385acd55c2634127fe1c514159e0deca8eb
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
