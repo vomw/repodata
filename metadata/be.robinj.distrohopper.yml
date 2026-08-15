@@ -17,8 +17,13 @@ MaintainerNotes:
   AppAdded: 2018-01-21
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /DistroHopper-.*-paranoia\.apk/
   Fastlane: https://github.com/RobinJ1995/DistroHopper/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  LibIgnore:
+    - /org/acra
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: for the swipe to open your notification tray guesture that can optionally be enabled
   PermIgnore:
     android.permission.INTERNET: for use by lenses ("search sources") in the dash
     android.permission.ACCESS_NETWORK_STATE: to detect whether the device is online, for correct handling of network failures in lenses
@@ -28,6 +33,7 @@ MaintainerNotes:
     - 2022-07-28 asked whether ACRA is configured opt-out https://github.com/RobinJ1995/DistroHopper/issues/19#issuecomment-1198597866
     - 2022-07-30 no answer yet so checking the code; `ACRA.getErrorReporter().handleSilentException(ex);`, yuck… Tracking AF set then. Sends to dev’s own server, though.
     - 2025-11-01 READ_EXTERNAL_STORAGE android.permission.SYSTEM_ALERT_WINDOW – https://github.com/RobinJ1995/DistroHopper/issues/19#issuecomment-3476123863
+    - 2026-08-15 Switch to paranoia build, which has ACRA disabled in the build we use here, see https://github.com/RobinJ1995/DistroHopper/issues/19#issuecomment-5299911214
 
 AllowedAPKSigningKeys: 6d8055b508c9426b5f9d0ff483bec3c160c0a2a8753dfee720cebea364bbd997
 
