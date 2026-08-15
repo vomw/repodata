@@ -18,6 +18,8 @@ MaintainerNotes:
   AppAdded: 2025-07-06
   Method: github-release
   GHSkipPre: 1
+  FlagIgnore:
+    usesCleartextTraffic: used to communicate with the local Torznab providers such as Jackett and Prowlarr
   Fastlane: https://github.com/prajwalch/TorrentSearch/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
 
