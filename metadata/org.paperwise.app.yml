@@ -18,6 +18,7 @@ MaintainerNotes:
   Fastlane: https://github.com/prateek54353/PaperWise/blob/v1.0.0/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   PermIgnore:
+    android.permission.CAMERA: to scan documents for PDF creation
     android.permission.READ_EXTERNAL_STORAGE: to access documents for conversion
     android.permission.READ_MEDIA_IMAGES: to access images for conversion
   Status:
@@ -25,8 +26,9 @@ MaintainerNotes:
     - 2025-11-21 dev prepared pubspec.yaml for 2.2.0+16 in 8/2025, but still no new release; sent another ping.
     - 2026-08-02 dev increased VC from 13 to 18, but v2.0.0 already had 2002
     - 2026-08-02 RB failed as well, once more not finding some code, so UCM=>None for now (RBs disabled as well); see https://github.com/prateek54353/PaperWise/issues/4#issuecomment-5159735752
+    - 2026-08-16 all solved with v2.5.5
 
 AllowedAPKSigningKeys: 7452fd91a4bceb61f0cf258663fdee4c3c113405d07814218b72e3864f89efb5
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
