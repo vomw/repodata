@@ -14,11 +14,11 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2021-06-07
-  Method: direct-link
-  ApkUrl: https://garlic-signage.com/downloads/ci-builds/latest_android_arm64-v8a_player.apk
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /garlic-player-armv8\.apk/
   Fastlane: https://github.com/garlic-signage/garlic-player/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon
-  FastlaneService: github
   Note: our starter package; see https://smil-control.com/magazine/what-is-a-digital-signage-player/ on what a SMIL player is
   PermIgnore:
     android.permission.ACCESS_FINE_LOCATION: used to show location-based content with DooH (optional)
@@ -33,6 +33,7 @@ MaintainerNotes:
     - 2024-03-01 per-ABI builds are available now, switching to arm64
     - 2025-08-18 upstreaming our Fastlane via https://github.com/garlic-signage/garlic-player/pull/53
     - 2025-12-05 update checks fail as website cert is expired, see https://github.com/garlic-signage/garlic-player/issues/54 (adding UCM=Static for now)
+    - 2026-08-17 moving from direct-link to github-release
 
 AllowedAPKSigningKeys: fcd5b21bf220696a491552afd9341c8d4a2d052c3559df62de4748062e26bf59
 UpdateCheckMode: Static
