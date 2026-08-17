@@ -27,6 +27,8 @@ MaintainerNotes:
   PermIgnore:
     android.permission.SYSTEM_ALERT_WINDOW: for the popup/floating player feature
     android.permission.REQUEST_INSTALL_PACKAGES: for the opt-in self-updater
+    android.permission.READ_MEDIA_AUDIO: for local music browsing and playback
+    android.permission.READ_MEDIA_VIDEO: for local video browsing and playback
     android.permission.READ_EXTERNAL_STORAGE: to select and save downloaded video, audio, and subtitle files
     android.permission.WRITE_EXTERNAL_STORAGE: to select and save downloaded video, audio, and subtitle files
     android.permission.CAMERA: to scan the pairing code for local device synchronization
