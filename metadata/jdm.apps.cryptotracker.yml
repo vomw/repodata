@@ -2,6 +2,9 @@ AntiFeatures:
   NonFreeNet:
     en-US: The app uses the CoinGecko API.
     de: Die App verwendet die CoinGecko API.
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-08-04, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-08-04 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Money
 License: MPL-2.0
@@ -24,4 +27,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: 2a0570409f41a05df17ed61ffc86997dcc920c812bffdf0dce123cedaebd4b0b
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None

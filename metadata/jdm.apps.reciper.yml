@@ -1,3 +1,7 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-08-04, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-08-04 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Sports & Health
 License: MPL-2.0
@@ -20,4 +24,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: 4803a48fa79f089e4b12d611135edf6efa4b4816f8781aba6707e1b310eb73be
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
