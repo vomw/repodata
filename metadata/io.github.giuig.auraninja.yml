@@ -16,7 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
   Fastlane: https://github.com/Giuig/auraninja/blob/main/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   FlagIgnore:
     usesCleartextTraffic: needed by some radio stations
 
