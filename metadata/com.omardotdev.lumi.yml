@@ -3,9 +3,10 @@ Categories:
   - Internet
 License: Apache-2.0
 AuthorName: Omar
-AuthorWebSite: https://omardotdev.github.io/
-SourceCode: https://github.com/omardotdev/lumi
-IssueTracker: https://github.com/omardotdev/lumi/issues
+AuthorWebSite: https://omawr.pages.dev/
+SourceCode: https://github.com/omaawr/lumi
+IssueTracker: https://github.com/omaawr/lumi/issues
+Changelog: https://github.com/omaawr/lumi/releases
 
 AutoName: Lumi
 
