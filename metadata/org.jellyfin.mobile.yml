@@ -10,7 +10,6 @@ Translation: https://translate.jellyfin.org/projects/jellyfin/jellyfin-android-n
 Changelog: https://github.com/jellyfin/jellyfin-android/releases
 
 AutoName: Jellyfin
-ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2020-10-18
