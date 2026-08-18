@@ -3,9 +3,9 @@ Categories:
 License: GPL-3.0-only
 AuthorName: LeanBitLab
 AuthorWebSite: https://www.reddit.com/r/LeanBitLab_/
-SourceCode: https://github.com/LeanBitLab/LtvLauncher
-IssueTracker: https://github.com/LeanBitLab/LtvLauncher/issues
-Changelog: https://github.com/LeanBitLab/LtvLauncher/releases
+SourceCode: https://github.com/leanbitlab-org/LtvLauncher
+IssueTracker: https://github.com/leanbitlab-org/LtvLauncher/issues
+Changelog: https://github.com/leanbitlab-org/LtvLauncher/releases
 
 AutoName: LTvLauncher
 
@@ -14,7 +14,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
-  Fastlane: https://github.com/LeanBitLab/LtvLauncher/blob/master/fastlane/metadata/android
+  Fastlane: https://github.com/leanbitlab-org/LtvLauncher/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   IntentFilterIgnore:
     android.accessibilityservice.AccessibilityService: to capture the KEYCODE_HOME event on Android TV remotes
