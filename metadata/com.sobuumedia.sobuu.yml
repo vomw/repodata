@@ -21,7 +21,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /Sobuu-.*\.apk/i
   Fastlane: https://gitlab.com/sobuu/sobuu/-/tree/master/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: ACRA is optional and disabled by default, see https://gitlab.com/IzzyOnDroid/repo/-/work_items/817#note_2675273030
   LibIgnore:
     - /org/acra
