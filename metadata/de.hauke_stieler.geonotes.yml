@@ -6,7 +6,9 @@ AuthorName: Hauke Stieler
 SourceCode: https://github.com/hauke96/GeoNotes
 IssueTracker: https://github.com/hauke96/GeoNotes/issues
 Changelog: https://github.com/hauke96/GeoNotes/releases
+
 AutoName: GeoNotes
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2020-12-03
@@ -25,6 +27,7 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: implicitly granted due to WRITE_EXTERNAL_STORAGE
   Status:
     - 2024-11-23 scanner reports MANAGE_EXTERNAL_STORAGE CAMERA READ_EXTERNAL_STORAGE* DEPENDENCY_INFO_BLOCK – https://github.com/hauke96/GeoNotes/issues/128
+    - 2026-08-18 APK size exploded from less than 7 MB to almost 60 MB with v1.8.0 (due to maplibre being added). Added ArchivePolicy, asking for per-ABI builds at https://github.com/hauke96/GeoNotes/issues/146
 
 AllowedAPKSigningKeys: 455b2fc545f6d3c8fc8f5946ddb5b7cb2502ae10feb6abe95ae350feb3d5f01b
 
