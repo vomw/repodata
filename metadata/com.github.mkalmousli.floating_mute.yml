@@ -2,9 +2,9 @@ Categories:
   - Multimedia
 License: GPL-3.0-only
 AuthorName: mkalmousli
-SourceCode: https://github.com/mkalmousli/FloatingMute
-IssueTracker: https://github.com/mkalmousli/FloatingMute/issues
-Changelog: https://github.com/mkalmousli/FloatingMute/releases
+SourceCode: https://github.com/al-mode/FloatingMute
+IssueTracker: https://github.com/al-mode/FloatingMute/issues
+Changelog: https://github.com/al-mode/FloatingMute/releases
 
 AutoName: Floating Mute
 
@@ -12,7 +12,7 @@ MaintainerNotes:
   AppAdded: 2025-04-08
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/mkalmousli/FloatingMute/blob/master/fastlane/metadata/android
+  Fastlane: https://github.com/al-mode/FloatingMute/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
 
