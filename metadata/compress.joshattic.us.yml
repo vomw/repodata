@@ -9,6 +9,7 @@ IssueTracker: https://github.com/JoshAtticus/Compressor/issues
 Changelog: https://github.com/JoshAtticus/Compressor/releases
 
 AutoName: Compressor
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2026-01-21
