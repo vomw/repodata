@@ -6,6 +6,7 @@ AuthorName: Piwigo
 AuthorWebSite: https://piwigo.org/
 SourceCode: https://github.com/Piwigo/piwigo-flutter-app
 IssueTracker: https://github.com/Piwigo/piwigo-flutter-app/issues
+Translation: https://crowdin.com/project/piwigo-ng
 Changelog: https://github.com/Piwigo/piwigo-flutter-app/releases
 
 AutoName: Piwigo NG
