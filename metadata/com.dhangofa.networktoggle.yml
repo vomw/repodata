@@ -15,6 +15,8 @@ MaintainerNotes:
   ApkMatch: /NetToggle\.apk/
   Fastlane: https://github.com/Dhangofa/NetToggle/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_PHONE_STATE: required to resolve active physical SIM slots
 
 AllowedAPKSigningKeys: b55309ba4b158203ba430e34ade46618f387642abd346ef6b416d3e753b15611
 
