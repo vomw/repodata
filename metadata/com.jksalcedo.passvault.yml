@@ -12,7 +12,6 @@ AutoName: PassVault
 
 MaintainerNotes:
   AppAdded: 2025-11-08
-  Todo: 2026-08-27 check with upstream how long to keep both signing keys active, see see https://github.com/jksalcedo/PassVault/issues/230
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /universal-release/i
