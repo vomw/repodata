@@ -21,6 +21,7 @@ MaintainerNotes:
   DoubleList: keep
   DoubleListRef: https://gitlab.com/fdroid/rfp/-/issues/1875#note_705569826
   PermIgnore:
+    android.permission.CAMERA: to add repositories by scanning their QR Codes
     android.permission.REQUEST_INSTALL_PACKAGES: needed to install/update apps
     android.permission.REQUEST_DELETE_PACKAGES: needed to delete apps
     android.permission.QUERY_ALL_PACKAGES: needed to show apps for deletion and to check for updates
