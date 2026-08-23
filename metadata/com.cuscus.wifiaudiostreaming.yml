@@ -18,6 +18,7 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: Fastlane is our starter package
   PermIgnore:
+    android.permission.CAMERA: for pairing via QR Codes
     android.permission.RECORD_AUDIO: used for an optional experimental feature that allows streaming microphone audio
   Status:
     - 2025-09-06 upstreaming our Fastlane metadata
