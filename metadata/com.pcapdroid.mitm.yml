@@ -22,8 +22,12 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon
   FlagIgnore:
     usesCleartextTraffic: the app needs to access all traffic
+  PermIgnore:
+    android.permission.MANAGE_EXTERNAL_STORAGE: to (optionally) allow custom addons to be loaded from and write to public directories
+    android.permission.READ_EXTERNAL_STORAGE: to (optionally) allow custom addons to be loaded from and write to public directories
   Status:
     - 2025-09-30 upstreaming our Fastlane via https://github.com/emanuele-f/PCAPdroid-mitm/pull/23
+    - 2026-08-24 manage/read external storage, see https://github.com/emanuele-f/PCAPdroid-mitm/issues/31 and https://emanuele-f.github.io/PCAPdroid/tls_decryption#36-custom-mitmproxy-addons
 
 AllowedAPKSigningKeys: ac701125e653189b2bbaa78fba60c1136b88b8780078db0dc4257f019c81c9fe
 
