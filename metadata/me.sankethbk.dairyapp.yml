@@ -27,7 +27,6 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.RECORD_AUDIO: Needed by the integrated audio recorder.
-    android.permission.READ_EXTERNAL_STORAGE: This permission is needed to access other app’s media files on Android 9 and below.
   NameSpaces:
     - /com/example/dairy_app
   Status:
