@@ -1,12 +1,8 @@
-AntiFeatures:
-  NonFreeNet:
-    en-US: The app downloads data definition files from Github at first start.
-    de: Die App lädt beim ersten Start Datendateien von Github.
 Categories:
   - Internet
 License: GPL-3.0-only
 AuthorName: Abdullah As-Sadeed
-AuthorEmail: bitscoper@tutanota.com
+AuthorEmail: abdullah_as-sadeed.bd@protonmail.com
 AuthorWebSite: https://bitscoper.dev/
 SourceCode: https://github.com/bitscoper/bitscoper_cyberkit
 IssueTracker: https://github.com/bitscoper/bitscoper_cyberkit/issues
