@@ -21,7 +21,9 @@ MaintainerNotes:
   Status:
     - 2021-06-23 last commit was 1/2020, switch UCM from Tags to Static
     - 2023-08-07 last release 1/2020, last commit 10/2022
+    - 2026-08-28 repo disappeared, marking the app NoSourceSince
 
 AllowedAPKSigningKeys: 3c85734f12be45b6325fd8d7a36a93570b68816e13feea68a3d1242922eb3f9d
 
-UpdateCheckMode: Static
+NoSourceSince: 5.3.2
+UpdateCheckMode: None
