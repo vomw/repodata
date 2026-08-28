@@ -10,6 +10,7 @@ AutoName: APlayer - Free Music Player
 
 MaintainerNotes:
   AppAdded: 2021-06-12
+  Todo: 2026-09-03 check if v2.1.1.1 is available to allow updates again
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /foss-release/i
@@ -27,8 +28,10 @@ MaintainerNotes:
     - 2025-08-23 upstreaming our local Fastlane metadata via https://github.com/rRemix/APlayer/pull/296
     - 2025-12-31 dev now provides build variant without updater, so no more REQUEST_INSTALL_PACKAGES
     - 2026-03-06 Bugly and BillingClient have been removed, so we dropped NonFreeComp, NonFreeNet, and Tracking
+    - 2026-08-27 RB failed with huge diff, so UCM Tags=>Static until clarified
+    - 2026-08-28 will be fixed with v2.1.1.1 (local mess-up), so we skip v2.1.1.0
 
 AllowedAPKSigningKeys: c7cf0940ef65a01535aa59280523d1f2723c347ff9b35ec96cb68baad2482ff7
 
 AutoUpdateMode: Version v%v\.\d+
-UpdateCheckMode: Tags
+UpdateCheckMode: None
