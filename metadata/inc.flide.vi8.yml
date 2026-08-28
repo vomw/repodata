@@ -21,6 +21,8 @@ MaintainerNotes:
   DoubleList: keep
   NameSpaces:
     - /inc/flide/vim8
+  IntentFilterIgnore:
+    android.view.InputMethod: this is needed for a keyboard app to act as keyboard.
   Status:
     - 2026-01-10 last commit 12/2024, last release 10/2024; UCM Tags=>Static
 
