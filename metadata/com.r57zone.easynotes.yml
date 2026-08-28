@@ -24,7 +24,8 @@ MaintainerNotes:
     - 2024-02-19 new release uses a different debug key and has versionCode decreased; setting UCM to Static to avoid unnecessary traffic
     - 2024-03-13 new release has APK signed with a proper release key, but VC was decreased from 10004 to 20; performung full switch removing the old one as uninstall/reinstall is needed anyway
     - 2025-08-13 upstreaming our Fastlane via https://github.com/r57zone/EasyNotes/pull/7
+    - 2026-08-28 author declared the project EOL (https://github.com/r57zone/EasyNotes/issues/13#issuecomment-5456882930), so UCM=>None.
 
 AllowedAPKSigningKeys: f0e71fc25954d7473636ccedc59378706d01d9cc5b7ae7ee3f069d5bc32a9ab2
 
-UpdateCheckMode: Static
+UpdateCheckMode: None
