@@ -26,9 +26,12 @@ MaintainerNotes:
   FlagIgnore:
     usesCleartextTraffic: required for the NewPipe Extractor to fetch stream metadata
   PermIgnore:
+    android.permission.CAMERA: for the integrated QR code scanner
     android.permission.READ_EXTERNAL_STORAGE: to auto recover downloaded videos if the app was deleted by mistake
     android.permission.READ_MEDIA_VIDEO: to auto recover downloaded videos if the app was deleted by mistake
     android.permission.MANAGE_EXTERNAL_STORAGE: to access storage for video downloads also for custom locations
+  Status:
+    - 2026-08-28 android.permission.SYSTEM_ALERT_WINDOW android.permission.READ_MEDIA_AUDIO android.permission.RECORD_AUDIO – https://github.com/A-EDev/Flow/discussions/971
 
 AllowedAPKSigningKeys: 4322294ed4caa2d4294140095818080ffe8acc1fbe3cdc76107df45c5286be40
 
