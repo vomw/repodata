@@ -27,11 +27,25 @@ MaintainerNotes:
     usesCleartextTraffic: required for the NewPipe Extractor to fetch stream metadata
   PermIgnore:
     android.permission.CAMERA: for the integrated QR code scanner
-    android.permission.READ_EXTERNAL_STORAGE: to auto recover downloaded videos if the app was deleted by mistake
-    android.permission.READ_MEDIA_VIDEO: to auto recover downloaded videos if the app was deleted by mistake
     android.permission.MANAGE_EXTERNAL_STORAGE: to access storage for video downloads also for custom locations
+    android.permission.RECORD_AUDIO: for microphone song recognition, the Shazam-style feature
+    android.permission.READ_EXTERNAL_STORAGE: to auto recover downloaded videos if the app was deleted by mistake
+    android.permission.READ_MEDIA_AUDIO: for the local media browser
+    android.permission.READ_MEDIA_VIDEO: to auto recover downloaded videos if the app was deleted by mistake
+    android.permission.SYSTEM_ALERT_WINDOW: for the fallback popup player on ROMs not supporting native PiP
+    android.permission.INTERNET: for streams and metadata, offline detection, retry logic, and the "Wi-Fi only" download constraint
+    android.permission.ACCESS_NETWORK_STATE: for offline detection, retry logic, and the "Wi-Fi only" download constraint
+    android.permission.ACCESS_WIFI_STATE: needed by DLNA casting and by Device Sync (host address goes into the QR)
+    android.permission.CHANGE_WIFI_MULTICAST_STATE: for multicast lock for SSDP discovery when searching for DLNA/UPnP renderers
+    android.permission.WAKE_LOCK: for background audio via the Media3 playback service
+    android.permission.FOREGROUND_SERVICE: for background audio via the Media3 playback service
+    android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK: for background audio via the Media3 playback service
+    android.permission.FOREGROUND_SERVICE_DATA_SYNC: for the download service and the Device Sync transfer service
+    android.permission.POST_NOTIFICATIONS: for media notification, download progress, optional new-video alerts
+    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: to keep the periodic check for new-video notifications working when the app is in background
+    android.permission.RECEIVE_BOOT_COMPLETED: to reschedule jobs after reboot (injected by androidx.core)
   Status:
-    - 2026-08-28 android.permission.SYSTEM_ALERT_WINDOW android.permission.READ_MEDIA_AUDIO android.permission.RECORD_AUDIO – https://github.com/A-EDev/Flow/discussions/971
+    - 2026-08-28 SYSTEM_ALERT_WINDOW READ_MEDIA_AUDIO RECORD_AUDIO – https://github.com/A-EDev/Flow/discussions/971
 
 AllowedAPKSigningKeys: 4322294ed4caa2d4294140095818080ffe8acc1fbe3cdc76107df45c5286be40
 
