@@ -1,7 +1,4 @@
 AntiFeatures:
-  NonFreeComp:
-    en-US: The app contains SuperNova, which has no license declared.
-    de: Die App enthält SuperNova, für das keine Lizenz deklariert ist.
   Tracking:
     en-US: The app might send detailed crash reports including stack traces to Nova developers private sentry.io instance in order to improve application quality.
     de: Die App kann detailierte Absturzberichte inkl. Stack Traces an die private sentry.io Instanz der Entwickler schicken.
