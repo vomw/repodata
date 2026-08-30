@@ -21,6 +21,7 @@ MaintainerNotes:
   Note: Fediverse contact https://fosstodon.org/@eddyizm
   NameSpaces:
     - /com/cappielloantonio/tempo
+    - /com/eddyizm/tempus
   FlagIgnore:
     usesCleartextTraffic: for connecting to media servers in the local network
 

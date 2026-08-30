@@ -22,6 +22,7 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   NameSpaces:
     - /org/schabi/newpipe
+    - /com/github/bravenewpipe/json2java4nanojson/bitchute
   LibIgnore:
     - /org/acra
   PermIgnore:
