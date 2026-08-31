@@ -1,10 +1,10 @@
 Categories:
   - Theming
 License: GPL-3.0-only
-AuthorName: Jack Eblan
-SourceCode: https://github.com/JackEblan/YagniLauncher
-IssueTracker: https://github.com/JackEblan/YagniLauncher/issues
-Changelog: https://github.com/JackEblan/YagniLauncher/releases
+AuthorName: T31n
+SourceCode: https://github.com/T31n/YagniLauncher
+IssueTracker: https://github.com/T31n/YagniLauncher/issues
+Changelog: https://github.com/T31n/YagniLauncher/releases
 
 AutoName: Yagni Launcher
 
@@ -12,7 +12,7 @@ MaintainerNotes:
   AppAdded: 2025-10-15
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/JackEblan/YagniLauncher/blob/master/fastlane/metadata/android
+  Fastlane: https://github.com/T31n/YagniLauncher/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   IntentFilterIgnore:
     android.accessibilityservice.AccessibilityService: for Gesture Actions most common in Android Launchers
