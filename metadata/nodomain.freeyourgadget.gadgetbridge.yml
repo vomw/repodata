@@ -32,10 +32,17 @@ MaintainerNotes:
     - /no/nordicsemi/android/error
     - /nodomain/freeyourgadget/internethelper
   PermIgnore:
-    android.permission.BLUETOOTH_SCAN: to find devices to connect
     android.permission.ACCESS_COARSE_LOCATION: e.g. for calculation of Sunrise/Sunset times
     android.permission.ACCESS_FINE_LOCATION: e.g. for calculation of Sunrise/Sunset times
     android.permission.ACCESS_BACKGROUND_LOCATION: e.g. for calculation of Sunrise/Sunset times while the app is in background
+    android.permission.ACCESS_NOTIFICATION_POLICY: to check and control do not disturb from connected gadgets
+    android.permission.ANSWER_PHONE_CALLS: to answer phone calls from connected gadgets
+    android.permission.BLUETOOTH: to connect to bluetooth gadgets
+    android.permission.BLUETOOTH_ADMIN: to receive bluetooth changes from the operating system
+    android.permission.BLUETOOTH_CONNECT: to connect to bluetooth gadgets
+    android.permission.BLUETOOTH_SCAN: to find devices to connect
+    android.permission.CALL_PHONE: to trigger phone calls from connected gadgets
+    android.permission.PROCESS_OUTGOING_CALLS: to allow gadgets to initiate calls
     android.permission.READ_CALL_LOG: to report caller details
     android.permission.READ_PHONE_STATE: to report incoming calls
     android.permission.RECEIVE_SMS: to report incoming SMS
@@ -45,7 +52,14 @@ MaintainerNotes:
     android.permission.CAMERA: to allow gadgets to take pictures remotely
     android.permission.SYSTEM_ALERT_WINDOW: to start activities from background using Intents
     android.permission.SEND_SMS: to reply to calls and SMS messages from gadgets
-    android.permission.PROCESS_OUTGOING_CALLS: to allow gadgets to initiate calls
+    android.permission.SCHEDULE_EXACT_ALARM: to react to daylight savings changes on time
+    android.permission.RECEIVE_BOOT_COMPLETED: to start on phone boot
+    android.permission.MEDIA_CONTENT_CONTROL: to control media playback from a connected gadget
+    android.permission.FOREGROUND_SERVICE_DATA_SYNC: to execute data sync operations in the background
+    android.permission.FOREGROUND_SERVICE: to stay running/connected in the background as a foreground service and react to events without delay
+    android.permission.POST_NOTIFICATIONS: to show notifications
+    android.permission.VIBRATE: to test notification patterns and vibrate the phone when triggering "find my phone" from a gadget
+    android.permission.WAKE_LOCK: to keep the device awake while executing time-sensitive operations (eg. time sync)
 
 AllowedAPKSigningKeys: 01cce9316fcb77ea02c6dea81fde9f3176469202c0cea0514c0e03cb969bc7be
 
