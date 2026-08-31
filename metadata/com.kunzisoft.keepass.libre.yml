@@ -31,7 +31,6 @@ MaintainerNotes:
   IntentFilterIgnore:
     android.view.InputMethod: needed for the auto-type functionality (Magikeyboard)
   PermIgnore:
-    android.permission.QUERY_ALL_PACKAGES: used to open applications directly from their applicationId from an "AndroidApp" field
     android.permission.FOREGROUND_SERVICE: needed to keep database operations working when the app itself is not in foreground
     android.permission.POST_NOTIFICATIONS: needed to post notifications
     android.permission.SCHEDULE_EXACT_ALARM: needed to manage timers for database closing
