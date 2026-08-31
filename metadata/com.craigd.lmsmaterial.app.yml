@@ -22,8 +22,6 @@ MaintainerNotes:
   FlagIgnore:
     usesCleartextTraffic: needed to connect to local LMS instances
   PermIgnore:
-    android.permission.READ_EXTERNAL_STORAGE: used to store album art next to the music files
-    android.permission.MANAGE_EXTERNAL_STORAGE: used to store album art next to the music files
     android.permission.READ_PHONE_STATE: used to detect incoming phone calls and stop playback
   Status:
     - 2025-06-22 DEPENDENCY_INFO_BLOCK usesCleartextTraffic READ_PHONE_STATE READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE – https://github.com/CDrummond/lms-material-app/issues/47
