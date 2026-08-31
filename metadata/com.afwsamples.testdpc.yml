@@ -22,6 +22,7 @@ MaintainerNotes:
     - 2022-12-11 Tags=>Static (last release 10/2021 but still active with last commit 12/2022)
     - 2023-08-06 no new releases, but last commit 6/2023
     - 2024-02-01 scanner reports READ_EXTERNAL_STORAGE ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION QUERY_ALL_PACKAGES
+    - 2026-08-21 https://codeberg.org/IzzyOnDroid/repodata/issues/483 reports new releases from PlayStore; we have 9.0.12, Play 9.0.16, and no new releases at Github, so no updates possible
 
 AllowedAPKSigningKeys: 8090f6630b4e8962479123249087cb4658feaae36a1b57dbeafd74d109b333dc
 
