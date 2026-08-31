@@ -12,7 +12,6 @@ AutoName: IYPS - Is Your Password Secure?
 
 MaintainerNotes:
   AppAdded: 2022-01-24
-  Todo: 2026-08-28 remove old signing key 4b5b907 and associated APKs (up to 158)
   AppRemoved: 2022-06-20 reached F-Droid 2022-06-09
   AddedBack: 2025-03-15
   Method: github-release
@@ -24,9 +23,7 @@ MaintainerNotes:
     - 2026-07-27 signing key changed, verification initiated by mail (until verified, UCM Tags=>Static)
     - 2026-07-30 new signing key confirmed via https://codeberg.org/IzzyOnDroid/repodata/pulls/410, UCM=>Tags again
 
-AllowedAPKSigningKeys:
-  - 4b5b907ed2bd44aa083a2ef86e1878250bcc33e44cdb6fc3b02b241990bc3b44
-  - 070c5f1b5e6044efa61caaae1cc8feff3814d3f546102005a2aabb2b432f2ac5
+AllowedAPKSigningKeys: 070c5f1b5e6044efa61caaae1cc8feff3814d3f546102005a2aabb2b432f2ac5
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
