@@ -1,10 +1,3 @@
-AntiFeatures:
-  NonFreeComp:
-    en-US: The app contains non-free libraries (Fido, Google Play Core, Google Mobile Services).
-    de: Die App enthält unfreie Bibliotheken (Fido, Google Play Core, Google Mobile Services).
-  NonFreeNet:
-    en-US: The app establishes connections to Google servers.
-    de: Die App baut Verbindungen zu Google-Servern auf.
 Categories:
   - Messaging
 License: GPL-3.0-only
