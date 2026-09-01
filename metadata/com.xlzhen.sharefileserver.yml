@@ -26,6 +26,7 @@ MaintainerNotes:
     - 2024-02-07 uses debug key https://github.com/xlzhen-940218/ShareFileServer/issues/1
     - 2024-02-22 last release 9/2022, last commit 3/2023, UCM Tags=>Static
     - 2024-02-23 author provided APK signed with release key
+    - 2026-09-01 signing key changed, see https://github.com/xlzhen-940218/ShareFileServer/issues/2
 
 AllowedAPKSigningKeys: ed5ac1c05d25d792fd60cf5159869bb96a30b0af8b2fa886d8c6ecefa09e35df
 

@@ -22,6 +22,7 @@ MaintainerNotes:
   DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/9722#note_675305291
   Status:
     - 2022-11-07 no release since 9/2021, last code commit 9/2021; switch from Tags to Static
+    - 2026-09-01 v1.04 had to be quarantined, see https://github.com/mirfatif/NoorUlHuda/issues/33
 
 AllowedAPKSigningKeys: 6c1557797bfb6cf8f62e8374f49a89255809d1c93d91fd242545540489182e06
 

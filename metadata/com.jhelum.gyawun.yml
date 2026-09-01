@@ -15,6 +15,7 @@ ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2022-12-14
+  Todo: 2026-11-01 check if there’s progress at https://github.com/sheikhhaziq/gyawun_music/issues/436 (so we can pick up updates again)
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
@@ -32,8 +33,9 @@ MaintainerNotes:
     - 2023-11-01 new release with new packageName is out, but no answer to the issue. Implementing proposal then; this package gets sunset and replaced by the other.
     - 2025-10-13 usesCleartextTraffic READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE DEPENDENCY_INFO_BLOCK – https://github.com/jhelumcorp/gyawun/issues/284
     - 2026-03-22 UCM Tags=>Static as NonFreeComps were added (Cronet, GMS) – https://github.com/sheikhhaziq/gyawun_music/issues/436
+    - 2026-09-01 disable updates entirely now, as there’s still no new commit
 
 AllowedAPKSigningKeys: d1ce3aba3f77ebc4582f8350dae1815aecce1bf05d678527cce8d0e6cd244ad0
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: None
