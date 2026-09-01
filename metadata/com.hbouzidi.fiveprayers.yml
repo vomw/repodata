@@ -14,11 +14,15 @@ MaintainerNotes:
   GHSkipPre: 1
   NameSpaces:
     - /com/hbouzidi/compassqibla
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: for the Qibla compass
+    android.permission.ACCESS_COARSE_LOCATION: for the Qibla compass
   Status:
     - 2023-08-29 had to add NonFreeComp, see https://github.com/Five-Prayers/five-prayers-android/issues/57 (fixed the very next day)
     - 2023-10-02 AFs back again https://github.com/Five-Prayers/five-prayers-android/issues/57#issuecomment-1743631558
     - 2023-11-19 all AFs gone \o/
     - 2024-11-19 last release 11/2023, last commit 9/2023; UCM Tags=>Static
+    - 2026-09-01 android.permission.SYSTEM_ALERT_WINDOW android.permission.ACCESS_BACKGROUND_LOCATION android.permission.ACCESS_FINE_LOCATION android.permission.ACCESS_COARSE_LOCATION android.permission.READ_EXTERNAL_STORAGE* – https://github.com/Five-Prayers/five-prayers-android/issues/79
 
 AllowedAPKSigningKeys: 61495ba0f12514c921519dcd91ecc061b958f88afb4d08a5008defc600c071ce
 

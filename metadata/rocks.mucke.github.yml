@@ -16,9 +16,12 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/moritz-weber/mucke/blob/master/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: needed to access audio files to play
   Status:
     - 2023-01-17 MR at F-Droid was merged, author likes to keep the app here https://gitlab.com/fdroid/fdroiddata/-/merge_requests/12193#note_1243229056
     - 2024-11-15 last release/commit 9/2023, UCM Tags=>Static
+    - 2026-09-01 android.permission.MANAGE_EXTERNAL_STORAGE android.permission.READ_EXTERNAL_STORAGE – https://github.com/moritz-weber/mucke/issues/189
 
 AllowedAPKSigningKeys: 1c2bca1f73a931043a5e8043f9ea181a334a116db2a4d7ba07f90a59c787eee5
 
