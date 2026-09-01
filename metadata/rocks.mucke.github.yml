@@ -18,6 +18,8 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshotsJPG
   PermIgnore:
     android.permission.READ_MEDIA_AUDIO: needed to access audio files to play
+    android.permission.MANAGE_EXTERNAL_STORAGE: used to read the music files
+    android.permission.READ_EXTERNAL_STORAGE: used to read the music files
   Status:
     - 2023-01-17 MR at F-Droid was merged, author likes to keep the app here https://gitlab.com/fdroid/fdroiddata/-/merge_requests/12193#note_1243229056
     - 2024-11-15 last release/commit 9/2023, UCM Tags=>Static
