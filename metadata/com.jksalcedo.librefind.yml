@@ -4,7 +4,7 @@ AntiFeatures:
     de: Die App benötigt Verbindung zu ihrer zentralen Datenbank (Supabase).
 Categories:
   - System
-License: MIT
+License: GPL-3.0-only
 AuthorName: Jaressen Kyle Salcedo
 AuthorEmail: jksalcedo_dev@getgoogleoff.me
 SourceCode: https://github.com/jksalcedo/librefind
