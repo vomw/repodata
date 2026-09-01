@@ -17,11 +17,12 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /arm64/i
   Fastlane: https://github.com/likhithpraveenk/storii/tree/main/metadata/android
-  FastlaneFeatures: video,title,shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: video,title,shortdesc,fulldescMD,changelogs,icon,screenshots
   FlagIgnore:
     usesCleartextTraffic: to connect to instances in the local network
 
 AllowedAPKSigningKeys: 94732296445ca0c2511fac8a6f744b87fed67ced37d16428ef88985e0ba8676a
 
 AutoUpdateMode: Version v%v
+VercodeOperation: '(%c -2) / 10'
 UpdateCheckMode: Tags
