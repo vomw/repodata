@@ -16,6 +16,7 @@ AutoName: Polar Alert
 
 MaintainerNotes:
   AppAdded: 2024-11-22
+  Todo: 2026-10-15 check if https://github.com/nikashitsa/heart-alert-android/issues/3 + 6 are answered. Else, consider removal
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/nikashitsa/heart-alert-android/tree/master/fastlane/metadata/android
