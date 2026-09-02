@@ -17,6 +17,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/pass-with-high-score/universal-installer/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /app/pwhs/updater
   FlagIgnore:
     usesCleartextTraffic: used to connect to unencrypted servers in local networks
   PermIgnore:
