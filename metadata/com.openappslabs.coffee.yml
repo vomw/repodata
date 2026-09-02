@@ -3,6 +3,7 @@ Categories:
 License: GPL-3.0-only
 AuthorName: OpenAppsLabs
 AuthorWebSite: https://openappslabs.github.io/OpenAppsLabs/
+AuthorEmail: openappslabs@gmail.com
 WebSite: https://openappslabs.github.io/OpenAppsLabs/Coffee/
 SourceCode: https://github.com/OpenAppsLabs/Coffee
 IssueTracker: https://github.com/OpenAppsLabs/Coffee/issues
@@ -16,6 +17,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/OpenAppsLabs/Coffee/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Status:
+    - 2026-09-02 AuthorEmail provided at https://github.com/OpenAppsLabs/5G/issues/7#issuecomment-5509444673
 
 AllowedAPKSigningKeys: d753f0b3167ecbf2addfbc4fd5d152c1204c9c636bbd8dcf90ec89406aa6bb1c
 

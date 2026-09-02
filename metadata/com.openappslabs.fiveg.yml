@@ -2,6 +2,7 @@ Categories:
   - Phone & SMS
 License: GPL-3.0-only
 AuthorName: OpenAppsLabs
+AuthorEmail: openappslabs@gmail.com
 SourceCode: https://github.com/OpenAppsLabs/5G
 IssueTracker: https://github.com/OpenAppsLabs/5G/issues
 Changelog: https://github.com/OpenAppsLabs/5G/releases
@@ -14,6 +15,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/OpenAppsLabs/5G/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
+  Status:
+    - 2026-09-02 AuthorEmail provided at https://github.com/OpenAppsLabs/5G/issues/7#issuecomment-5509444673
 
 AllowedAPKSigningKeys: cac4cc2a36e0b87e5d601d90c0ac15e8ab4b43a2d8d9cf2067eb19500fdec4c7
 

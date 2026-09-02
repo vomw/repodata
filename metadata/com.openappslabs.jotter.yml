@@ -2,6 +2,7 @@ Categories:
   - Writing
 License: GPL-3.0-only
 AuthorName: OpenAppsLabs
+AuthorEmail: openappslabs@gmail.com
 SourceCode: https://github.com/OpenAppsLabs/Jotter
 IssueTracker: https://github.com/OpenAppsLabs/Jotter/issues
 Changelog: https://github.com/OpenAppsLabs/Jotter/releases
@@ -14,6 +15,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/OpenAppsLabs/Jotter/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  Status:
+    - 2026-09-02 AuthorEmail provided at https://github.com/OpenAppsLabs/5G/issues/7#issuecomment-5509444673
 
 AllowedAPKSigningKeys: b5e38f24eda1b1fea87ddb9097620c82632bc3b2acd4a7eeca9872ae32bb8bb6
 
