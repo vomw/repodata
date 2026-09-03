@@ -16,9 +16,9 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescNL,icon,screenshots
   Status:
     - 2026-03-12 repo and Github account are gone
+    - 2026-09-03 both returned, RB re-established
 
 AllowedAPKSigningKeys: e4995ace981e9553c493a768b19dbce44d66bcf275a9405027e3cf34324cacfd
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
-NoSourceSince: 1.0.4
+UpdateCheckMode: Tags
