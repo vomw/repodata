@@ -22,8 +22,10 @@ MaintainerNotes:
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: to list apps for the firewall features
     android.permission.REQUEST_DELETE_PACKAGES: to allow deleting unwanted apps
+  Status:
+    - 2026-09-03 UCM Tags=>Static, as RB failed with huge differences, indicating missing code (not committed/pushed) – https://github.com/dorumrr/de1984/issues/102
 
 AllowedAPKSigningKeys: bab21cbef4a2ff537f079a50ced123da0335759255d945b3d702f3b97bfd575a
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
