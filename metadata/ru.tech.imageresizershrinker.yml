@@ -45,8 +45,9 @@ MaintainerNotes:
     - 2025-03-09 android.permission.MANAGE_EXTERNAL_STORAGE – https://github.com/T8RIN/ImageToolbox/issues/1732
     - 2025-07-15 usesCleartextTraffic + broken fastlane description – https://github.com/T8RIN/ImageToolbox/issues/2060
     - 2026-08-19 APK size is really an issue here (currently ~85 MB). Dev still tries to find ways, see https://github.com/T8RIN/ImageToolbox/issues/2686#issuecomment-5007742282
+    - 2026-09-05 4.2.0 sums up to 112 MB now, and adds JUnrar (NonFreeDep). Disabling updates for now; see https://github.com/T8RIN/ImageToolbox/issues/3124
 
 AllowedAPKSigningKeys: 20d7689de0874f00015ea3e31fa067c15c03457d362d41d5e793db3a864fa534
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
