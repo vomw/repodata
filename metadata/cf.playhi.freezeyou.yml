@@ -18,6 +18,8 @@ MaintainerNotes:
   DoubleListRef: https://gitlab.com/fdroid/fdroiddata/-/merge_requests/10507#note_833301514
   Fastlane: https://github.com/FreezeYou/FreezeYou/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,screenshotsJPG
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: to active the functions to avoid freezing foreground applications, and related functionality
   Status:
     - 2022-02-07 author wants to keep the app here, see https://gitlab.com/fdroid/fdroiddata/-/merge_requests/10507#note_833301514
     - 2023-07-13 UCM Tags => Static (last release 5/2022, last commit 3/2023)

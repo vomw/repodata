@@ -13,6 +13,8 @@ MaintainerNotes:
   AppAdded: 2023-03-13
   Method: github-release
   GHSkipPre: 1
+  FlagIgnore:
+    usesCleartextTraffic: needed to connect to Subsonic servers in the local network
   Status:
     - 2024-12-10 last release/commit 7/2023; UCM Tags=>Static
     - 2025-09-26 since around 8/2023, not even issues are replied to anymore. 8/2023 was also the last recorded activity of the author at Github.
