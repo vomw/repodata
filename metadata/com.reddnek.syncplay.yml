@@ -20,9 +20,6 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   FlagIgnore:
     usesCleartextTraffic: needed to allow unencrypted sessions in local environments (LAN)
-  PermIgnore:
-    android.permission.READ_EXTERNAL_STORAGE: needed to access local media to play and sync
-    android.permission.SYSTEM_ALERT_WINDOW: needed for the Pip (picture-in-picture) feature
   NameSpaces:
     - /app/home
     - /app/klipy
