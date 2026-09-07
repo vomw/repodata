@@ -16,6 +16,7 @@ MaintainerNotes:
   ManualHint: uses tag names with slashes in ("service/v02.01.08" for versionName "002.01.08-03API")
   Note: Warren [does not want to maintain fastlane](https://github.com/warren-bank/Android-Mock-Location/issues/31#issuecomment-4180570389), so we keep it locally here
   PermIgnore:
+    android.permission.ACCESS_BACKGROUND_LOCATION: to update the mock location even when the app runs in background
     android.permission.ACCESS_COARSE_LOCATION: to allow for mock location relative to the real one
     android.permission.ACCESS_FINE_LOCATION: to allow for mock location relative to the real oneto allow for mock location relative to the real one
     android.permission.ACCESS_MOCK_LOCATION: the purpose of this app

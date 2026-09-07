@@ -15,6 +15,8 @@ MaintainerNotes:
   Fastlane: https://github.com/al-mode/FloatingMute/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
+  PermIgnore:
+    android.permission.SYSTEM_ALERT_WINDOW: to show the floating button
 
 AllowedAPKSigningKeys: 2248c5fa900222741f2b94f0c9ed68c1590bdb27ae2ff5d72e3c5dc10601d9b9
 
