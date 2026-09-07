@@ -19,6 +19,10 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   PermIgnore:
     android.permission.SYSTEM_ALERT_WINDOW: to allow a floating version of the chat screen to draw over other apps
+    android.permission.ACCESS_NETWORK_STATE: to allow the app to know when it should reconnect
+    android.permission.FOREGROUND_SERVICE_SPECIAL_USE: to allow the app to stay active longer than 8+ hours
+    android.permission.RECEIVE_BOOT_COMPLETED: for the start on restart option in Settings, and bring connections back up (user needs to manually enable this in Settings)
+    android.permission.VIBRATE: to allow for notifications to use custom vibration setting
 
 AllowedAPKSigningKeys: e1ded97f0c949958a990f72fc0a8c14533cc31bf1c0daf41922f7301e2537213
 
