@@ -1,0 +1,36 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: ssalggnikool
+AuthorWebSite: https://paige.moe/
+WebSite: https://navic.app/
+SourceCode: https://github.com/ssalggnikool/Navic
+IssueTracker: https://github.com/ssalggnikool/Navic/issues
+Translation: https://hosted.weblate.org/engage/navic/
+Changelog: https://github.com/ssalggnikool/Navic/releases
+
+AutoName: Navic
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-09-07
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Navic\.apk/
+  Fastlane: https://github.com/ssalggnikool/Navic/blob/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FlagIgnore:
+    usesCleartextTraffic: needed for self-hosted local servers
+  PermIgnore:
+    android.permission.INTERNET: needed to access the streaming servers
+    android.permission.ACCESS_NETWORK_STATE: to check if network is available
+    android.permission.ACCESS_LOCAL_NETWORK: to access local servers
+    android.permission.MODIFY_AUDIO_SETTINGS: needed for the equalizer feature
+    android.permission.RECEIVE_BOOT_COMPLETED: to initialize widgets after boot
+    android.permission.FOREGROUND_SERVICE: to continue playing even if the app is not in foreground
+    android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK: to continue playing even if the app is not in foreground
+
+AllowedAPKSigningKeys: db7363e8fd71e4cdd13d14c073d6208588b02bb2791dd197c55f9cba9d7a52e4
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
