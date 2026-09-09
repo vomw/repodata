@@ -28,8 +28,10 @@ MaintainerNotes:
     android.permission.BLUETOOTH: required to communicate with the InputStick
     android.permission.BLUETOOTH_SCAN: required to find the InputStick
     android.permission.ACCESS_FINE_LOCATION: required by Android if an app wants to use Bluetooth
+  Status:
+    - 2026-09-09 updates disabled on dev request
 
 AllowedAPKSigningKeys: c3739db8216f5ab4b6bacb29156eaabba3e4cb2166c9b2d7f788731f3beea008
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
