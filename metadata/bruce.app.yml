@@ -11,6 +11,7 @@ AutoName: Bruce
 
 MaintainerNotes:
   AppAdded: 2025-08-02
+  Todo: 2026-10-09 remove if neither https://github.com/pr3y/BruceApp/issues/6 nor https://github.com/BruceDevices/App/issues/10 have been replied to
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/BruceDevices/App/tree/main/fastlane/metadata/android
@@ -21,6 +22,7 @@ MaintainerNotes:
     - 2025-10-01 pinged author again as still no response
     - 2025-11-01 still no answer; sent a last comment to the issue. Disabling updates here and for RB entirely until solved.
     - 2026-04-27 does not answer any issues. Development stopped 10/2025, author still active.
+    - 2026-09-10 no answer to https://github.com/BruceDevices/App/issues/10 either, marking app for removal
 
 AllowedAPKSigningKeys: dacfffb305db3f818b610fdf8368d9496945b79bd8852b39af57799963427400
 
