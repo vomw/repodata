@@ -19,6 +19,8 @@ MaintainerNotes:
   Note: fulldesc lacks linebreaks
   DoubleList: keep
   DoubleListRef: https://github.com/amnesica/KryptEY/issues/19#issuecomment-1586828779
+  IntentFilterIgnore:
+    android.view.InputMethod: required as this is a keyboard app
   Status:
     - 2023-06-12 reached F-Droid 2023-05-28, readme now carries both badges. Asked for clarification at https://github.com/amnesica/KryptEY/issues/19#issuecomment-1586828779
     - 2024-12-10 last release/commit 5/2023; UCM Tags=>Static
