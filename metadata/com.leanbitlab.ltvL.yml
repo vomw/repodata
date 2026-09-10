@@ -8,12 +8,13 @@ IssueTracker: https://github.com/leanbitlab-org/LtvLauncher/issues
 Changelog: https://github.com/leanbitlab-org/LtvLauncher/releases
 
 AutoName: LTvLauncher
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2026-03-24
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /arm64-v8a/i
+  ApkMatch: /LTvLauncher-universal-release\.apk/i
   Fastlane: https://github.com/leanbitlab-org/LtvLauncher/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   IntentFilterIgnore:
@@ -21,9 +22,10 @@ MaintainerNotes:
   PermIgnore:
     android.permission.REQUEST_DELETE_PACKAGES: to allow removing unwanted apps directly from the launcher
     android.permission.SYSTEM_ALERT_WINDOW: optional; to display popup banners/alert cards over other apps when a notification is received
+  Status:
+    - 2026-09-10 switch from arm64 to universal build, as many TVs are 32bit; see https://github.com/leanbitlab-org/LtvLauncher/issues/135
 
 AllowedAPKSigningKeys: df819e5940a514f3d2d5d19d852c18e4cbe2d1d636cb92011b8c101dac72aa9a
 
-VercodeOperation: '%c -2000'
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
