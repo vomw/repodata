@@ -25,8 +25,10 @@ MaintainerNotes:
   Note: Fastlane is our starter package
   Status:
     - 2025-10-17 monthly quality check found repo archived
+    - 2026-08-31 upstream repo disappeared
 
 AllowedAPKSigningKeys: 9a6f05c6545c8f13b9d1efe0cfccad31772c146cd2295110f40a71c5475dd52b
 
 AutoUpdateMode: Version %v
 UpdateCheckMode: None
+NoSourceSince: '1.7'
