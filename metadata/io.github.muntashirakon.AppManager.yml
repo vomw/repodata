@@ -21,6 +21,7 @@ MaintainerNotes:
   DoubleList: keep
   NameSpaces:
     - /io/github/muntashirakon/adapters
+    - /io/github/muntashirakon/algo
     - /io/github/muntashirakon/compat
     - /io/github/muntashirakon/csv
     - /io/github/muntashirakon/dialog
@@ -32,6 +33,7 @@ MaintainerNotes:
     - /io/github/muntashirakon/svg
     - /io/github/muntashirakon/text
     - /io/github/muntashirakon/ui
+    - /io/github/muntashirakon/util
     - /io/github/muntashirakon/view
     - /io/github/muntashirakon/widget
   IntentFilterIgnore:
