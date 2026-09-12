@@ -29,6 +29,7 @@ MaintainerNotes:
     android.permission.MANAGE_EXTERNAL_STORAGE: needed on newer Android verions to access the eBooks to read anywhere on external storage
   Status:
     - 2026-09-05 disable updates as direct-link gives 404 now, see https://github.com/edeso/bubble2/issues/30
+    - 2026-09-12 enable updates again as the APK is back. Asked once more to have them available at their corresponding releases
 
 AllowedAPKSigningKeys: 9f4e353789018e11f797da2fe73188bd3d1b65c329c68457a8052f3a78ebdaab
-UpdateCheckMode: None
+UpdateCheckMode: Static
