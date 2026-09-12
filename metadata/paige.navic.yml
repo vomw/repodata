@@ -16,7 +16,7 @@ MaintainerNotes:
   AppAdded: 2026-09-07
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /Navic\.apk/
+  ApkMatch: /Navic.fdroid\.apk/
   Fastlane: https://github.com/ssalggnikool/Navic/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   FlagIgnore:
