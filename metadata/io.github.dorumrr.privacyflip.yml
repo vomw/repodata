@@ -19,6 +19,8 @@ MaintainerNotes:
   DoubleList: keep
   IntentFilterIgnore:
     android.accessibilityservice.AccessibilityService: for side button lock support
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: used for the app excemption list
 
 AllowedAPKSigningKeys: 67bd90caf57ebc3c947f037cb262ebf6bd188293dbc907c92d51924fcf2b9975
 
