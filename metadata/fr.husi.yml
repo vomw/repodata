@@ -1,26 +1,22 @@
-AntiFeatures:
-  SourceArchived:
-    en-US: Upstream repo was archived 2026-07-23, there will be no updates anymore.
-    de: Das Quellrepo der App wurde am 2026-07-23 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Internet
 License: GPL-3.0-or-later
 AuthorName: HystericalDragon
 AuthorEmail: HystericalDragons@proton.me
-SourceCode: https://codeberg.org/xchacha20-poly1305/husi
-IssueTracker: https://codeberg.org/xchacha20-poly1305/husi/issues
+SourceCode: https://github.com/xchacha20-poly1305/husi
+IssueTracker: https://github.com/xchacha20-poly1305/husi/issues
 Translation: https://hosted.weblate.org/engage/husi/
-Changelog: https://codeberg.org/xchacha20-poly1305/husi/releases
+Changelog: https://github.com/xchacha20-poly1305/husi/releases
 
 AutoName: husi
 ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-01-25
-  Method: codeberg-release
+  Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
-  Fastlane: https://codeberg.org/xchacha20-poly1305/husi/src/branch/dev/fastlane/metadata/android
+  Fastlane: https://github.com/xchacha20-poly1305/husi/tree/dev/fastlane/metadata/android/
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   FastlaneIgnore: changelogs
   Note: changelogs just have default.txt with content saying look at commits
@@ -41,8 +37,9 @@ MaintainerNotes:
     - 2026-03-19 app repo moved to Codeberg, UCM=>Tags again
     - 2026-08-18 our quality checker found the repo archived, disabling updates
     - 2026-08-28 received a mail reporting the repo moved back to https://github.com/xchacha20-poly1305/husi – check confirmed, but 2 LLMs involved there. Most likely moved back because https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html (timing matches)
+    - 2026-09-13 repository confirmed active on GitHub; SourceArchived removed
 
 AllowedAPKSigningKeys: 55d8507c1b28d64236004ebb5da704e37ace3f102e9f90c6e4ec4182cd390e9e
 
-AutoUpdateMode: Version ^v%v
+AutoUpdateMode: Version v%v
 UpdateCheckMode: None
