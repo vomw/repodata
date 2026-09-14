@@ -26,7 +26,6 @@ MaintainerNotes:
     android.permission.REQUEST_DELETE_PACKAGES: to allow uninstalling unwanted apps directly from the drawer
     android.permission.REQUEST_INSTALL_PACKAGES: used to install extensions
     android.permission.SYSTEM_ALERT_WINDOW: used by the Wellbeing Feature to display details over other apps
-    android.permission.READ_PHONE_STATE: used by the status bar to get info about the connectivity states
   Status:
     - 2026-04-11 REQUEST_INSTALL_PACKAGES SYSTEM_ALERT_WINDOW READ_PHONE_STATE – https://github.com/Elnix90/Dragon-Launcher/issues/239#issuecomment-4229966271
     - 2026-09-05 RB failed for 4.1.3, with differences showing missing code. UCM Tags=>Static until cleared, see https://github.com/Elnix90/Dragon-Launcher/issues/416
