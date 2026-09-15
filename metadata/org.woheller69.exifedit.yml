@@ -16,7 +16,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/woheller69/exifedit/tree/master/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   NameSpaces:
     - /com/exifedit/databinding
   PermIgnore:
