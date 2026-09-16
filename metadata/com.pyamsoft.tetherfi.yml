@@ -1,10 +1,3 @@
-AntiFeatures:
-  NonFreeComp:
-    en-US: The app includes non-free Google libraries (BillingClient, Google Mobile Services, Google Play Core).
-    de: Die App enthält unfreie Google Bibliotheken (BillingClient, Google Mobile Services, Google Play Core).
-  NonFreeNet:
-    en-US: The app connects to Google services (billing).
-    de: Die App verbindet sich zu Google Servern (Billing).
 Categories:
   - Internet
 License: Apache-2.0
