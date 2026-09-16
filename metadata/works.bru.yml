@@ -1,0 +1,33 @@
+Categories:
+  - Phone & SMS
+  - Messaging
+  - Connectivity
+License: MIT
+AuthorName: Sverre Johann Bjørke
+AuthorEmail: sverrejb@gmail.com
+AuthorWebSite: https://sverre.me/
+WebSite: https://bru.works/
+SourceCode: https://github.com/sverrejb/bru
+IssueTracker: https://github.com/sverrejb/bru/issues
+Changelog: https://github.com/sverrejb/bru/releases
+
+AutoName: Bru
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-09-16
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /works.bru-arm64-v8a\.apk/
+  Fastlane: https://github.com/sverrejb/bru/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.CAMERA: to scan the pairing QR code. Can be done with a pairing code instead, too
+    android.permission.READ_SMS: needed for the core functionality, to read SMS
+    android.permission.SEND_SMS: needed for the core functionality, to send SMS
+    android.permission.READ_CONTACTS: to show names instead of bare phone numbers
+
+AllowedAPKSigningKeys: 09cc90c8d6561deef614cf37e4d3958f4762a8af767063c16c177106ba616310
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
