@@ -22,7 +22,6 @@ MaintainerNotes:
   PermIgnore:
     android.permission.ACCESS_FINE_LOCATION: needed to find current location for weather
     android.permission.ACCESS_COARSE_LOCATION: needed to find current location for weather
-    android.permission.ACCESS_BACKGROUND_LOCATION: needed to find current location for weather when running in background
   Status:
     - 2024-10-07 signing key changed, UCM Tags=>Static until clarified – https://github.com/PranshulGG/WeatherMaster/issues/61
     - 2024-10-08 solved (original keystore restored), UCM Static=>Tags again
