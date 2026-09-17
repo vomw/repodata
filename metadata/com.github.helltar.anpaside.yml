@@ -1,7 +1,3 @@
-AntiFeatures:
-  SourceArchived:
-    en-US: Upstream repo was archived 2023-07-19, there will be no updates anymore.
-    de: Das Quellrepo der App wurde am 2023-07-19 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Development
 License: MIT
@@ -11,6 +7,7 @@ IssueTracker: https://github.com/Helltar/ANPASIDE/issues
 Changelog: https://github.com/Helltar/ANPASIDE/releases
 
 AutoName: ANPASIDE
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2021-11-12
@@ -20,8 +17,9 @@ MaintainerNotes:
   FastlaneFeatures: title,video,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
   Status:
     - 2023-08-17 repo was archived 2023-07-19, disabling update check (was Tags)
+    - 2026-09-17 repo was unarchived, development continues – re-enabling updates
 
 AllowedAPKSigningKeys: fda253bf0918e2340c9d155c805d5e52f3b056dba8aac3d857aa9c95d3d3055d
 
-AutoUpdateMode: Version v.+-%c
-UpdateCheckMode: None
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
