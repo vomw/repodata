@@ -9,7 +9,7 @@ Translation: https://hosted.weblate.org/engage/oss-document-scanner
 Changelog: https://github.com/ossappscollective/OSS-DocumentScanner/releases
 
 AutoName: OSS Card Wallet
-ArchivePolicy: 1
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-06-11

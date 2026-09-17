@@ -16,7 +16,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/rosuH/EasyWatermark/tree/master/fastlane/metadata/android
-  FastlaneFeatures: title,fulldescMD,shortdesc,icon
+  FastlaneFeatures: title,fulldescMD,shortdesc,featureGraphic,icon
   FastlaneIgnore: screenshots
   Note: Fastlane fulldesc is (not-well-formatted) Markdown; screenshots framed
   DoubleList: keep

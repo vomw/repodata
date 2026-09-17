@@ -19,7 +19,9 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   NameSpaces:
     - /de/monocles/browser
+  Status:
+    - 2026-09-17 UCM Tags=>Static as no commits since 2025-08-17
 
 AllowedAPKSigningKeys: 8fac1f5cd463125a91e9e531bb10dda14934f6ffd658913fbd9d296828afdcfd
 
-UpdateCheckMode: Tags
+UpdateCheckMode: Static

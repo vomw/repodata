@@ -5,9 +5,9 @@ AuthorName: Nikolaos Sagiadinos
 AuthorEmail: ns@smil-control.com
 AuthorWebSite: https://smil-control.com/
 WebSite: https://garlic-signage.com/garlic-player/
-SourceCode: https://github.com/sagiadinos/garlic-player
-IssueTracker: https://github.com/sagiadinos/garlic-player/issues
-Changelog: https://raw.githubusercontent.com/sagiadinos/garlic-player/HEAD/Changelog.txt
+SourceCode: https://github.com/garlic-signage/garlic-player
+IssueTracker: https://github.com/garlic-signage/garlic-player/issues
+Changelog: https://raw.githubusercontent.com/garlic-signage/garlic-player/HEAD/Changelog.txt
 
 AutoName: garlic-player
 ArchivePolicy: 1

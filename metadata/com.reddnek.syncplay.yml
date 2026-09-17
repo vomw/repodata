@@ -17,7 +17,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /exo-only/i
   Fastlane: https://github.com/yuroyami/syncplay-mobile/tree/master/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   FlagIgnore:
     usesCleartextTraffic: needed to allow unencrypted sessions in local environments (LAN)
   NameSpaces:

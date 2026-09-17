@@ -15,7 +15,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/Sztorm/NoteCalendar/tree/master/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Status:
     - 2025-08-18 upstreaming our Fastlane via https://github.com/Sztorm/NoteCalendar/pull/15
 

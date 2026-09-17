@@ -12,6 +12,7 @@ IssueTracker: https://github.com/thrillfall/OeffiSounds/issues
 Translation: https://hosted.weblate.org/projects/antennapod/
 
 AutoName: Öffi Sounds
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2026-02-19

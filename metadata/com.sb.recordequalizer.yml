@@ -31,8 +31,9 @@ MaintainerNotes:
   Status:
     - 2025-08-18 upstreaming our Fastlane via https://gitlab.com/YuryShchasny/recordequalizer/-/merge_requests/17
     - 2026-04-06 APK size beyond 60 MB now, asking for per-ABI builds at https://gitlab.com/YuryShchasny/recordequalizer/-/work_items/2
+    - 2026-09-17 UCM Tags=>Static, as no commits since 2025-09-08
 
 AllowedAPKSigningKeys: caeca8867004bbd79160adef8b0e8f94a898be860a0c3d99688591a53b617c43
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static

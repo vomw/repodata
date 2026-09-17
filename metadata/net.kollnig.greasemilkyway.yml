@@ -3,8 +3,8 @@ Categories:
 License: GPL-3.0-only
 AuthorName: Konrad Kollnig
 AuthorEmail: grease@trackercontrol.org
-SourceCode: https://github.com/kasnder/redd-focus-android
-IssueTracker: https://github.com/kasnder/redd-focus-android/issues
+SourceCode: https://github.com/digitalhabits/dh-focus-android
+IssueTracker: https://github.com/digitalhabits/dh-focus-android/issues
 
 AutoName: GreaseMilkyway (Beta)
 
@@ -12,7 +12,7 @@ MaintainerNotes:
   AppAdded: 2025-06-03
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/kasnder/redd-focus-android/tree/main/fastlane/metadata/android
+  Fastlane: https://github.com/digitalhabits/dh-focus-android/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
   NameSpaces:

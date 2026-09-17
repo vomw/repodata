@@ -23,6 +23,7 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2022-11-06
+  Todo: 2026-10-18 remove if no answer to https://github.com/aburdiss/scale-practice/issues/33#issuecomment-5714361167 (or dev confirms we shall remove)
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/aburdiss/scale-practice/tree/master/fastlane/metadata/android
