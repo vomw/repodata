@@ -31,7 +31,6 @@ MaintainerNotes:
     android.permission.INTERNET: 'for online features: lyrics, updates'
     android.permission.READ_EXTERNAL_STORAGE: to access media files on Android 12 and below
     android.permission.READ_MEDIA_AUDIO: to access audio files to play on Android 13+
-    android.permission.READ_MEDIA_IMAGES: to show album art stored next to the audio files on Android 13+
     android.permission.FOREGROUND_SERVICE: to allow the app to satay active in background
     android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK: to continue playback with the app in background
     android.permission.REQUEST_INSTALL_PACKAGES: for the integrated self-updater
