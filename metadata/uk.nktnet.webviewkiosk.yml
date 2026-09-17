@@ -15,7 +15,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/nktnet1/webview-kiosk/tree/main/metadata
-  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
   DoubleList: keep
   PermIgnore:
     android.permission.CAMERA: for use with WebApps, e.g. messenger apps
@@ -28,6 +28,7 @@ MaintainerNotes:
   Status:
     - 2025-10-10 CAMERA RECORD_AUDIO ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION – https://github.com/nktnet1/webview-kiosk/issues/44
     - 2025-10-11 details on camera, microphone, and location access in https://github.com/nktnet1/webview-kiosk/discussions/27
+    - 2026-09-18 dev requests to use plain text rendering for fullDesc, see https://github.com/nktnet1/webview-kiosk/issues/222#issuecomment-5722430565
 
 AllowedAPKSigningKeys: 2fe10de0ec70a07f383a87892ca45667214ea13c4eeea4a3254f3a331a7a6b15
 
