@@ -18,6 +18,7 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2025-01-15
+  Todo: 2026-10-18 remove, as app rebranded to ac.mdiq.Podcini.A
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /free.*arm64/i
@@ -31,8 +32,9 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: to read stored podcasts
   Status:
     - 2026-02-15 tag naming pattern changes with next release, see https://github.com/XilinJia/Podcini.X/issues/47#issuecomment-3904486189
+    - 2026-09-18 rebranding to ac.mdiq.podcini.A
 
 AllowedAPKSigningKeys: cd1328fb5c2ccf50cb99e3ff076eb5fe88298fe28366989dcf9d9899d5eb6940
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
