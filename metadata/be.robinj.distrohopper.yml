@@ -1,7 +1,3 @@
-AntiFeatures:
-  Tracking:
-    en-US: The app uses ACRA (crash reporter) with automated reports enabled.
-    de: Die App verwendet den Crash-Reporter ACRA mit aktivierten automatischen Reports.
 Categories:
   - System
 License: GPL-3.0-only
