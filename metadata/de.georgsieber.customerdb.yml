@@ -1,10 +1,3 @@
-AntiFeatures:
-  NonFreeComp:
-    en-US: The app includes the Google BillingClient.
-    de: Die App enthält den Google BillingClient.
-  NonFreeNet:
-    en-US: The app connects to Google servers (billing).
-    de: Die App verbindet sich zu Google Servern (Billing).
 Categories:
   - Office
 License: GPL-3.0-only
