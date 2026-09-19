@@ -23,6 +23,8 @@ MaintainerNotes:
   DoubleList: keep
   NameSpaces:
     - /com/zell_mbc/publicartexplorer
+  FlagIgnore:
+    usesCleartextTraffic: for legacy images sitting behind a http:// address
   LibIgnore:
     - /org/acra
   PermIgnore:
