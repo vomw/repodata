@@ -23,6 +23,7 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
   NameSpaces:
     - /com/vitorpamplona/ammolite
+    - /com/vitorpamplona/marmotquic
     - /com/vitorpamplona/nestsclient
     - /com/vitorpamplona/quartz
     - /com/vitorpamplona/quic

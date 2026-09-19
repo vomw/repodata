@@ -13,6 +13,20 @@ MaintainerNotes:
   AppAdded: 2021-11-12
   Method: github-release
   GHSkipPre: 1
+  NameSpaces:
+    - /com/kddi
+    - /com/motorola/funlight
+    - /com/motorola/midi
+    - /com/siemens/mp
+    - /com/sonyericsson/accelerometer
+    - /com/sprintpcs/media
+    - /com/sun/midp/midlet
+    - /com/vodafone/util
+    - /com/vodafone/v10
+    - /javax/wireless/messaging
+    - /mmpp/media
+    - /ru/playsoftware/j2meloader
+    - /ru/woesss/j2me
   Fastlane: https://github.com/Helltar/ANPASIDE/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,video,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
   Status:

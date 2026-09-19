@@ -18,42 +18,7 @@ MaintainerNotes:
   Note: Fastlane is our starter package
   DoubleList: keep
   NameSpaces:
-    - /com/rk/activities
-    - /com/rk/application
-    - /com/rk/animations
-    - /com/rk/color
-    - /com/rk/commands
-    - /com/rk/components
-    - /com/rk/compose/filetree
-    - /com/rk/controlpanel
-    - /com/rk/crashhandler
-    - /com/rk/editor
-    - /com/rk/exec
-    - /com/rk/externaleditor
-    - /com/rk/extension
-    - /com/rk/file
-    - /com/rk/filetree
-    - /com/rk/file_wrapper
-    - /com/rk/git
-    - /com/rk/icons
-    - /com/rk/karbon_exec
-    - /com/rk/libcommons
-    - /com/rk/libPlugin
-    - /com/rk/librunner
-    - /com/rk/lsp
-    - /com/rk/mutator_engine
-    - /com/rk/mutation
-    - /com/rk/pluginApi
-    - /com/rk/resources
-    - /com/rk/runner
-    - /com/rk/scriptingengine
-    - /com/rk/search
-    - /com/rk/settings
-    - /com/rk/tabs
-    - /com/rk/terminal
-    - /com/rk/theme
-    - /com/rk/utils
-    - /com/rk/xedplugin
+    - /com/rk
     - /org/robok/engine
   FlagIgnore:
     usesCleartextTraffic: for the local (on-device) HTTP server to handle HTML or Markdown previews
