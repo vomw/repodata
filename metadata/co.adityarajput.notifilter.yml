@@ -1,0 +1,30 @@
+Categories:
+  - Automation
+  - System
+License: GPL-3.0-only
+AuthorName: Aditya Rajput
+WebSite: https://github.com/BURG3R5/NotiFilter/wiki
+SourceCode: https://github.com/BURG3R5/NotiFilter
+IssueTracker: https://github.com/BURG3R5/NotiFilter/issues
+Changelog: https://github.com/BURG3R5/NotiFilter/releases
+
+AutoName: NotiFilter
+
+MaintainerNotes:
+  AppAdded: 2026-09-20
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /NotiFilter.*\.apk/
+  Fastlane: https://github.com/BURG3R5/NotiFilter/blob/dev/metadata
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  LibIgnore:
+    - /org/acra
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: needed for the TAP_NOTIFICATION action
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: to list apps for filter definitions
+
+AllowedAPKSigningKeys: 560a309b4f01ac3d2865eac6e3c33559ecc7e9ad8ea79ecd58d256b4b6458a0e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
