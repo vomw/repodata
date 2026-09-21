@@ -28,7 +28,6 @@ MaintainerNotes:
     android.permission.CAMERA: Required to scan QR Code for MQTT Broker connection setting.
     android.permission.READ_CALL_LOG: This is required for the CDR (Call Detail Record) feature, see https://github.com/christianrowlands/android-network-survey#cdr-log-files
     android.permission.READ_SMS: This is required for the CDR (Call Detail Record) feature, see https://github.com/christianrowlands/android-network-survey#cdr-log-files
-    android.permission.RECEIVE_SMS: This is required for the CDR (Call Detail Record) feature, see https://github.com/christianrowlands/android-network-survey#cdr-log-files
     android.permission.READ_PHONE_NUMBERS: This is required for the CDR (Call Detail Record) feature, see https://github.com/christianrowlands/android-network-survey#cdr-log-files
     android.permission.READ_PHONE_STATE: Needed to log the connection state etc. during the survey – especially for cell tower details.
     android.permission.READ_EXTERNAL_STORAGE: Required to access the Download folder on Android 9 and below. The download folder is where log files are written to.
