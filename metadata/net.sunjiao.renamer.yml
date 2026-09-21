@@ -17,10 +17,6 @@ MaintainerNotes:
   Fastlane: https://github.com/sun-jiao/flut-renamer/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   PermIgnore:
-    android.permission.READ_MEDIA_IMAGES: needed to access the files for renaming
-    android.permission.READ_EXTERNAL_STORAGE: needed to access the files for renaming
-    android.permission.WRITE_EXTERNAL_STORAGE: needed to access the files for renaming
-    android.permission.MANAGE_EXTERNAL_STORAGE: needed to access the files for renaming
     android.permission.ACCESS_MEDIA_LOCATION: needed to use Exif data for renaming
   Status:
     - 2025-08-22 upstreaming metadata via https://github.com/sun-jiao/flut-renamer/pull/51 – just a short response on 2025-11-24 so far
