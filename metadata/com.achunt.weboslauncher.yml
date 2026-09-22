@@ -13,7 +13,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/achunt2143/W-Launcher/tree/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldesc,icon,screenshotsJPG
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,screenshots
   Note: Fastlane is our starter package
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to get the installed apps for the app drawer and launcher
