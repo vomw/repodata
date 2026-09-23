@@ -1,7 +1,7 @@
 AntiFeatures:
-  NonFreeNet:
-    en-US: The app depends on GetBible.net (proprietary).
-    de: Die App benötigt zwingend GetBible.net (proprietär).
+  TetheredNet:
+    en-US: The app depends on GetBible.net.
+    de: Die App benötigt zwingend GetBible.net.
 Categories:
   - Religion
   - Reading
