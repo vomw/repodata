@@ -1,0 +1,30 @@
+Categories:
+  - Phone & SMS
+  - Messaging
+License: AGPL-3.0-only
+AuthorName: Pavel D.
+AuthorEmail: pvd367@gmail.com
+SourceCode: https://github.com/teslor/sms-telebot
+IssueTracker: https://github.com/teslor/sms-telebot/issues
+Changelog: https://github.com/teslor/sms-telebot/releases
+
+AutoName: SMS Telebot
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-09-23
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /sms-telebot-.*-arm64\.apk/
+  Fastlane: https://github.com/teslor/sms-telebot/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  PermIgnore:
+    android.permission.RECEIVE_SMS: to catch SMS for forwarding
+    android.permission.SEND_SMS: to forward SMS as SMS to another number
+    android.permission.READ_PHONE_STATE: to notify about incoming calls
+    android.permission.READ_CALL_LOG: needed for incoming call notifications
+
+AllowedAPKSigningKeys: f02791e43633deb60ae90873a9ff83900705ee6f1624b6f65fad2b72d97670d9
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
