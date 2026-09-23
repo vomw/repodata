@@ -20,7 +20,7 @@ MaintainerNotes:
   Fastlane: https://github.com/sak96/read_later/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   FlagIgnore:
-    usesCleartextTraffic: to allow bookmarking local files
+    usesCleartextTraffic: to fetch HTTP article for bookmarking
   Status:
     - 2026-04-19 temporarily UCM Tags=>Static, see https://github.com/sak96/read_later/issues/2#issuecomment-4276513781
     - 2026-04-22 problems solved, reactivating
