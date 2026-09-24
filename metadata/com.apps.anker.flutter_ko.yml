@@ -24,9 +24,10 @@ MaintainerNotes:
   Status:
     - 2024-11-14 seems abandoned; last commit/release 3/2023; UCM Tags=>Static
     - 2026-04-28 development has picked up again, but only universal APKs are attached to releases now (60+ MB). Asked for per-ABI builds at https://github.com/dasmikko/knocky/issues/93
+    - 2026-09-23 a closer look reveals, rebranded to com.rekna.knocky, versionCode frozen at 1, versionName down from 2.3.3 to 1.0.6; disabling updates entirely now.
 
 AllowedAPKSigningKeys: ad15a367efb107a7e5aeb9b506b7c7a725ec9ffad5deee3a42c91f9c44b6246d
 
 VercodeOperation: '%c -1000'
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: None
