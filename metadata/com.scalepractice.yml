@@ -24,10 +24,11 @@ MaintainerNotes:
     - 2024-12-28 proprietary tracking libraries have been added (Install Referrer) – https://github.com/aburdiss/ScalePractice/issues/31
     - 2026-04-06 APK size now beyond 60 MB. Request for per-ABI builds already open at https://github.com/aburdiss/scale-practice/issues/33
     - 2026-09-20 both solved; install referrer gone, APK size down to ~30 MB. But signing key changed (confirmation by mail)
+    - 2026-09-24 APK size up to 90 MB again, disabling updates – that did not hold long :(
 
 AllowedAPKSigningKeys:
   - b2cc9bdf5f43c45f9f4863cca0ee830fedfb746eb313edb22a9a432b0af499f0
   - 27d476a460e60ff1c1c17e23dd2b60f8e532027acca745548dfada04a1c5f598
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
