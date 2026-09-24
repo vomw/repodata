@@ -12,13 +12,18 @@ RequiresRoot: true
 
 MaintainerNotes:
   AppAdded: 2025-11-30
+  Todo: 2026-10-24 remove old signing key 4b91ac9 (adding it to blocked keys, see linked issue) and APK with VC 1
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/by-architect/Operator/blob/master/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
-  Note: Static for now, as the APK at release v1.0.0 is v0.0.7; https://github.com/by-architect/Operator/issues/1
+  Status:
+    - 2025-11-30 Static for now, as the APK at release v1.0.0 is v0.0.7; https://github.com/by-architect/Operator/issues/1
+    - 2026-09-24 keystore was exposed in the git repo, forcing a switch. Git history has been rewritten. Validation via email (as taken from our local git clone commit history before the rewrite)
 
-AllowedAPKSigningKeys: 4b91ac9e5840314237ee845a2a045a562478c0a2c9e292fc295bce99c09f6cd4
+AllowedAPKSigningKeys:
+  - 4b91ac9e5840314237ee845a2a045a562478c0a2c9e292fc295bce99c09f6cd4
+  - 8c74ae8fd94d7122d50d6d2db3f50b79be06e57b82aee1d07e6a89c45e14895e
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
