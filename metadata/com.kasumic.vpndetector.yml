@@ -18,8 +18,11 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to scan installed packages to detect known active VPN/Proxy clients
+  Status:
+    - 2026-09-24 upstream repository and account disappeared
 
 AllowedAPKSigningKeys: c4ccaeb2ab85d48bc55bce0580a14388958d0904f73ea0d51df4f6d9da34fbf1
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None
+NoSourceSince: 1.6.3
