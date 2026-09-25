@@ -14,6 +14,7 @@ MaintainerNotes:
   AppAdded: 2024-04-06
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /app-arm64-v8a-release\.apk/
   Fastlane: https://github.com/ZTFtrue/MonsterMusic/tree/main/metadata
   FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
