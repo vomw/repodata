@@ -2,19 +2,19 @@ Categories:
   - Writing
 License: GPL-3.0-only
 AuthorName: Lorenzo Rovati
-SourceCode: https://github.com/rovati/noteapp
-IssueTracker: https://github.com/rovati/noteapp/issues
-Changelog: https://github.com/rovati/noteapp/releases
+SourceCode: https://codeberg.org/rova-dev/notes-android
+IssueTracker: https://codeberg.org/rova-dev/notes-android/issues
+Changelog: https://codeberg.org/rova-dev/notes-android/releases
 
 AutoName: notes
 ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2023-08-31
-  Method: github-release
+  Method: codeberg-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
-  Fastlane: https://github.com/rovati/noteapp/tree/main/fastlane/metadata/android
+  Fastlane: https://codeberg.org/rova-dev/notes-android/src/branch/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: Fastlane is our starter package
   NameSpaces:
@@ -24,6 +24,7 @@ MaintainerNotes:
     - 2025-10-03 sending our Fastlane upstream via https://github.com/rovati/noteapp/pull/10
     - 2025-11-13 last release 12/2024, keeping UCM=Static
     - 2026-04-06 APK size doubled, adding ArchivePolicy; UCM back to Tags, as there were more than 3 releases since 12/2025 again
+    - 2026-09-27 repo moved from Github to Codeberg
 
 AllowedAPKSigningKeys: adf9a7f2cc26a284c03381dbe2636b4c1bba34c4fb0f9c18694d2fe77408f782
 
