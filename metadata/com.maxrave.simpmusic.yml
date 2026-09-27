@@ -23,7 +23,8 @@ MaintainerNotes:
   Fastlane: https://github.com/maxrave-dev/SimpMusic/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshotsJPG
   PermIgnore:
-    android.permission.READ_MEDIA_AUDIO: This is needed to access your local audio media files.
+    android.permission.READ_MEDIA_AUDIO: needed to access your local audio media files
+    android.permission.CAMERA: for the integrated QR code scanner
   NameSpaces:
     - /com/maxrave/data
     - /com/maxrave/kotlinytmusicscraper
