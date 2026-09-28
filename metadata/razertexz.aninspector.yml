@@ -1,0 +1,25 @@
+Categories:
+  - System
+  - Development
+License: GPL-3.0-only
+AuthorName: RazerTexz
+SourceCode: https://github.com/RazerTexz/aninspector
+IssueTracker: https://github.com/RazerTexz/aninspector/issues
+Changelog: https://github.com/RazerTexz/aninspector/releases
+
+AutoName: AnInspector
+
+MaintainerNotes:
+  AppAdded: 2026-09-28
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /AnInspector.*\.apk/
+  Fastlane: https://github.com/RazerTexz/aninspector/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.QUERY_ALL_PACKAGES: required to list and inspect installed packages
+
+AllowedAPKSigningKeys: 103429ee647582eb3a44f9685012e7859780bcf5d4151e2f864a39015ff77510
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
