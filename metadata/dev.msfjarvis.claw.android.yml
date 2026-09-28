@@ -32,8 +32,9 @@ MaintainerNotes:
   Status:
     - 2024-03-07 scanner reports android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE – https://github.com/msfjarvis/compose-lobsters/issues/475
     - 2025-08-19 upstreaming our fastlane metadata via https://github.com/msfjarvis/compose-lobsters/pull/917
+    - 2026-09-28 v1.72.0 comes with proprietary components, UCM Tags=>Static for now; https://github.com/msfjarvis/compose-lobsters/issues/1290
 
 AllowedAPKSigningKeys: 02b3980c669e1d46277b407bf3c41192cfc7652343ec12dd7f7d74198b3dd9d9
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
