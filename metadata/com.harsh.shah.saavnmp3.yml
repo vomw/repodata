@@ -17,7 +17,7 @@ MaintainerNotes:
   AppAdded: 2025-10-04
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /nofirebaseRelease/
+  ApkMatch: /Melotune.*release\.apk/
   Fastlane: https://github.com/Harshshah6/SaavnMp3-Android/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: Fastlane is our starter package
