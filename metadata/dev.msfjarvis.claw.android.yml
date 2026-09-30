@@ -23,6 +23,7 @@ MaintainerNotes:
   AppAdded: 2023-07-10
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /fossRelease/i
   Fastlane: https://github.com/msfjarvis/compose-lobsters/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   NameSpaces:
@@ -37,4 +38,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: 02b3980c669e1d46277b407bf3c41192cfc7652343ec12dd7f7d74198b3dd9d9
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
