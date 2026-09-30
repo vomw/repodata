@@ -24,8 +24,9 @@ MaintainerNotes:
     - 2025-08-11 READ_MEDIA_IMAGES android.permission.READ_MEDIA_VIDEO android.permission.READ_MEDIA_AUDIO READ_EXTERNAL_STORAGE – https://github.com/gmag11/Paperless_ngx_uploader/issues/4
     - 2025-08-31 versionCode for 1.7.1 was already used for 1.7.0 – https://github.com/gmag11/Paperless_ngx_uploader/issues/11
     - 2026-05-04 versionCode was decreased, UCM Tags=>Static for now – https://github.com/gmag11/Paperless_ngx_uploader/issues/18
+    - 2026-09-30 versionCode solved, UCM Tags again
 
 AllowedAPKSigningKeys: db4737b51964dec5aae1d67b792dddfd774fa02b483e395baa4e3b0eb528c9e3
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
