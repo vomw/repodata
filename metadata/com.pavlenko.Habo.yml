@@ -16,7 +16,7 @@ MaintainerNotes:
   Todo: 2026-09-15 check if https://github.com/xpavle00/Habo/issues/90 was answered, or remove the app
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /arm64-v8a/i
+  ApkMatch: /app-arm64-v8a-release.*\.apk/
   Fastlane: https://github.com/xpavle00/Habo/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
@@ -26,8 +26,9 @@ MaintainerNotes:
     - 2025-12-25 UCM back to Tags as releases picked up again
     - 2026-05-10 v4.0.0 comes with Google+Amazon iAP plus GMS/AmazonSDK – https://github.com/xpavle00/Habo/issues/90#issuecomment-4415643878
     - 2026-07-31 UCM=>None now, as there is still no reply; also mark for removal as NonFreeDep+LLM+noReply
+    - 2026-10-03 solved with v4.0.0-foss (foss branch)
 
 AllowedAPKSigningKeys: 12c07be0332afd01f422f543cc96f58ec19f3212ed6ce2749c115d5183aca5fa
 
-AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+AutoUpdateMode: Version v%v-foss
+UpdateCheckMode: Tags
