@@ -1,0 +1,32 @@
+Categories:
+  - Messaging
+  - Social Network
+License: AGPL-3.0-only
+AuthorName: Sable
+AuthorEmail: hi@sable.moe
+AuthorWebSite: https://docs.sable.moe/
+WebSite: https://app.sable.moe/
+SourceCode: https://github.com/SableClient/Sable
+IssueTracker: https://github.com/SableClient/Sable/issues
+Changelog: https://github.com/SableClient/Sable/releases
+
+AutoName: Sable
+ArchivePolicy: 1
+
+MaintainerNotes:
+  AppAdded: 2026-10-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Sable-.*-android-arm64-foss\.apk/
+  Fastlane: https://github.com/SableClient/Sable/tree/dev/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.CAMERA: for the integrated QR Code scanner, and video calls
+    android.permission.RECORD_AUDIO: for voice and video calls
+    android.permission.ACCESS_FINE_LOCATION: for location sharing
+    android.permission.ACCESS_COARSE_LOCATION: for location sharing
+
+AllowedAPKSigningKeys: bc9f83a1ac9c332df73975962e78b55724d06aeee73eff8b7b785261ad48628b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
