@@ -14,14 +14,16 @@ MaintainerNotes:
   AppAdded: 2026-03-11
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /subrosa.*\.apk/
   Fastlane: https://github.com/naive-HA/subrosa/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   Status:
     - 2026-07-17 starting with v2.0, APK size went from 4 MB to 42 MB. Asked for per-ABI splits at https://github.com/naive-HA/subrosa/issues/4
     - 2026-08-22 temporarily disabling updates as packageName was changed, see https://github.com/naive-HA/subrosa/issues/5
     - 2026-10-01 disabling updates entirely as the issue is still unsolved
+    - 2026-10-03 solved, packageName change reverted; re-enable updates
 
 AllowedAPKSigningKeys: 512ccef51ab8ba405c22f193ea1205629f7888be8be069b67bea768bc0e536ac
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
