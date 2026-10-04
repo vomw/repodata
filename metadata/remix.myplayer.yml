@@ -10,7 +10,6 @@ AutoName: APlayer - Free Music Player
 
 MaintainerNotes:
   AppAdded: 2021-06-12
-  Todo: 2026-09-03 check if v2.1.1.1 is available to allow updates again
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /foss-release/i
@@ -34,4 +33,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: c7cf0940ef65a01535aa59280523d1f2723c347ff9b35ec96cb68baad2482ff7
 
 AutoUpdateMode: Version v%v\.\d+
-UpdateCheckMode: None
+UpdateCheckMode: Tags
