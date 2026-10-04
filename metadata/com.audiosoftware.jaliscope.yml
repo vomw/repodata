@@ -1,0 +1,28 @@
+Categories:
+  - Graphics
+  - Multimedia
+  - Science & Education
+License: GPL-3.0-only
+AuthorName: CalibratedMind
+AuthorEmail: calibrated_mind06@protonmail.com
+SourceCode: https://codeberg.org/CalibratedMind/Jaliscope
+IssueTracker: https://codeberg.org/CalibratedMind/Jaliscope/issues
+Changelog: https://codeberg.org/CalibratedMind/Jaliscope/releases
+
+AutoName: Jaliscope
+
+MaintainerNotes:
+  AppAdded: 2026-10-04
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /Jaliscope\.apk/
+  Fastlane: https://codeberg.org/CalibratedMind/Jaliscope/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: needed to access audio files to visualize
+    android.permission.READ_EXTERNAL_STORAGE: needed to access audio files to visualize
+
+AllowedAPKSigningKeys: 9083796d0decfa523f446b9d6f2c88dd8d98d58a28a4d16797792170df206ebb
+
+AutoUpdateMode: Version release-%v
+UpdateCheckMode: Tags
