@@ -13,7 +13,6 @@ ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2023-02-04
-  Todo: 2026-09-15 check if https://github.com/xpavle00/Habo/issues/90 was answered, or remove the app
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /app-arm64-v8a-release.*\.apk/
