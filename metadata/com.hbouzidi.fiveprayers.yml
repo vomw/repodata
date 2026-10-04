@@ -10,6 +10,7 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2022-07-19
+  Todo: 2026-10-21 check if source code for recent releases has become available again, otherwise remove the app; see https://github.com/Five-Prayers/five-prayers-android/issues/80
   Method: github-release
   GHSkipPre: 1
   NameSpaces:
