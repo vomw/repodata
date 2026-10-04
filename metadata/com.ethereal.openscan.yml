@@ -14,13 +14,14 @@ MaintainerNotes:
   AppAdded: 2021-01-02
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /armeabi-v7a/i
+  ApkMatch: /app-arm64-v8a-release\.apk/
   Fastlane: https://github.com/ethereal-developers/OpenScan/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
   Status:
     - 2022-11-07 no release since 9/2021, last code commit 9/2021; switch from Tags to Static
+    - 2026-10-04 switch from armeabi to arm64, see https://github.com/ethereal-developers/OpenScan/issues/125#issuecomment-5977418289
 
 AllowedAPKSigningKeys: 58c2f0a39850578d7c17c4385fd4af2b12912e3a2beff8f3c793f2d1b0ec6c79
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
