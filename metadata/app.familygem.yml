@@ -28,7 +28,7 @@ MaintainerNotes:
   Fastlane: https://github.com/michelesalvador/FamilyGem/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon
   FlagIgnore:
-    usesCleartextTraffic: needed to access api.geonames.org which still has no proper cert
+    usesCleartextTraffic: needed to access api.geonames.org with Android 7 and below
   Status:
     - 2024-02-09 scanner reports usesCleartextTraffic READ_EXTERNAL_STORAGE READ_MEDIA_IMAGES READ_MEDIA_VIDEO READ_MEDIA_AUDIO – https://github.com/michelesalvador/FamilyGem/issues/131
     - 2025-09-10 Play Install Referrer Library is no longer detected, but app still requests BIND_GET_INSTALL_REFERRER_SERVICE
