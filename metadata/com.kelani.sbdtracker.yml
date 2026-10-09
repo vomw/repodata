@@ -15,6 +15,9 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/mburgosfr-star/kelani-sbd-tracker/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_CALENDAR: used by the optional calendar integration to list available writable calendars
+    android.permission.READ_EXTERNAL_STORAGE: used on Android 10 and below to read back and verify Kelani’s automatic JSON backup
   Status:
     - 2026-08-05 app rebranded from com.kel.powerlifting
 
