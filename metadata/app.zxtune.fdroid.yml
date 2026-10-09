@@ -1,4 +1,7 @@
 AntiFeatures:
+  NonFreeNet:
+    en-US: The app uses storage.zxtune.ru as CDN for all sources.
+    de: Die App verwendet storage.zxtune.ru als CDN für alle Quellen.
   Tracking:
     en-US: The app uses a custom analytics tracker which cannot be disabled.
     de: Die App verwendet einen eigenen Analysetracker, der nicht deaktiviert werden kann.
