@@ -24,6 +24,8 @@ MaintainerNotes:
     - /com/eddyizm/tempus
   FlagIgnore:
     usesCleartextTraffic: for connecting to media servers in the local network
+  PermIgnore:
+    android.permission.NEARBY_WIFI_DEVICES: required to discover other devices through UPnP and Chromecast
 
 AllowedAPKSigningKeys: b78501b934d04e0aca8d94afd6726a4d1dce65797f1d41710f643c2900eb1d1d
 
