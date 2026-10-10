@@ -14,7 +14,6 @@ Translation: https://crowdin.com/project/nova-video-player
 Changelog: https://github.com/nova-video-player/aos-AVP/raw/nova/CHANGELOG.md
 
 AutoName: Nova Video Player
-
 ArchivePolicy: 1
 
 MaintainerNotes:
@@ -24,9 +23,6 @@ MaintainerNotes:
   ApkMatch: /armeabi/i
   Fastlane: https://github.com/nova-video-player/aos-AVP/tree/nova/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
-  X-LibIgnore: |-
-    - /this_is_from_nova-video-player/aos-Video__not__nova-video-player/SuperNOVA
-    - /org/courville/supernova
   FlagIgnore:
     usesCleartextTraffic: for local resources like Kodi
   PermIgnore:
@@ -45,7 +41,8 @@ MaintainerNotes:
     - 2025-08-22 upstreaming our local Fastlane metadata via https://github.com/nova-video-player/aos-AVP/pull/1502
     - 2025-11-23 had to apply NonFreeComp, as there was no reaction on our request to declare a license on SuperNova, see https://github.com/nova-video-player/SuperNOVA/issues/1
     - 2025-11-24 false positive, see issue; this SuperNOVA comes from https://github.com/nova-video-player/aos-Video
+    - 2026-10-10 v6.5.5 adds android.permission.REQUEST_INSTALL_PACKAGES, scanner rejected update; UCM Tags=>Static until clarified; see https://github.com/nova-video-player/aos-AVP/issues/1992
 
 AllowedAPKSigningKeys: 05af6804bcad9e7e6d22d2ffc39fca1857a4aeb4385097cad91b11e5bac1f615
 
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
