@@ -1,0 +1,31 @@
+Categories:
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Abdeltwab
+AuthorEmail: me@abdeltwab.xyz
+AuthorWebSite: https://abdeltwab.xyz/
+WebSite: https://loc.abdeltwab.xyz/
+SourceCode: https://github.com/AbdeltwabMF/loc
+IssueTracker: https://github.com/AbdeltwabMF/loc/issues
+Changelog: https://github.com/AbdeltwabMF/loc/releases
+
+AutoName: Loc
+ArchivePolicy: 2
+
+MaintainerNotes:
+  AppAdded: 2026-10-10
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /Loc-.*-arm64-v8a\.apk/
+  Fastlane: https://github.com/AbdeltwabMF/loc/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: required for the main functionality
+    android.permission.ACCESS_COARSE_LOCATION: required for the main functionality
+    android.permission.ACCESS_BACKGROUND_LOCATION: required for the main functionality, when the app is not in foreground
+
+AllowedAPKSigningKeys: 9e437ae632a5ea07688de12e0a0ea56eb6e5b4184585c86a27f5a4201ae4cc42
+
+VercodeOperation: '%c -2000'
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
