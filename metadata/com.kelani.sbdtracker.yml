@@ -17,7 +17,15 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   PermIgnore:
     android.permission.READ_CALENDAR: used by the optional calendar integration to list available writable calendars
+    android.permission.WRITE_CALENDAR: used by the optional calendar integration to create workout events and their reminders, and update or remove events identified as Kelani’s own.
     android.permission.READ_EXTERNAL_STORAGE: used on Android 10 and below to read back and verify Kelani’s automatic JSON backup
+    android.permission.WRITE_EXTERNAL_STORAGE: used to write Kelani’s automatic JSON backup to Documents on Android 10 and older.
+    android.permission.INTERNET: used to request public release metadata from GitHub when the user checks for updates. Automatic checks are disabled by default.
+    android.permission.POST_NOTIFICATIONS: used for the local notification when the workout rest timer expires.
+    android.permission.SCHEDULE_EXACT_ALARM: used to deliver the rest timer alarm at the intended time, including while the app is in the background.
+    android.permission.RECEIVE_BOOT_COMPLETED: used to restore notifications scheduled through that plugin after a device restart.
+    android.permission.WAKE_LOCK: declared by the Capacitor Local Notifications dependency; not used by Kelani itself.
+    com.kelani.sbdtracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: an AndroidX-generated, app-specific permission used to protect internal broadcast receivers from other apps.
   Status:
     - 2026-08-05 app rebranded from com.kel.powerlifting
 
