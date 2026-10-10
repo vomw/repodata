@@ -12,6 +12,7 @@ MaintainerNotes:
   AppAdded: 2026-02-17
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /EliteMemoPro-.*-universal\.apk/
   Fastlane: https://github.com/deepanjanxyz/notepad/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,icon,screenshots
   Status:
