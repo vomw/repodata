@@ -19,10 +19,8 @@ MaintainerNotes:
   PermIgnore:
     android.permission.READ_MEDIA_IMAGES: needed to load images for the lock screen
     android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to load images for the lock screen
-  Status:
-    - 2026-10-09 rolling back version 2.3 as it seemingly was not built from the indicated source, and disabling updates until solved (also for RB); see https://github.com/DaKlok/BibleLockScreen/issues/16
 
 AllowedAPKSigningKeys: 3746ebbe2f387752148cbe59d1faeaf749180e03dca05800d80bbf449632a9d7
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
