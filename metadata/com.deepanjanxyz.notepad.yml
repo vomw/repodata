@@ -16,8 +16,16 @@ MaintainerNotes:
   Fastlane: https://github.com/deepanjanxyz/notepad/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
   PermIgnore:
-    android.permission.READ_EXTERNAL_STORAGE: to use the optional backup feature on Android 9 and below
-    android.permission.WRITE_EXTERNAL_STORAGE: to use the optional backup feature on Android 9 and below
+    android.permission.READ_EXTERNAL_STORAGE: to use the optional backup feature on Android 9 and below.
+    android.permission.WRITE_EXTERNAL_STORAGE: to use the optional backup feature on Android 9 and below.
+    android.permission.POST_NOTIFICATIONS: used exclusively to display scheduled note reminders. Not used for tracking or advertising.
+    android.permission.VIBRATE: used to provide haptic feedback/vibration when note reminders or scheduled notifications trigger.
+    android.permission.USE_BIOMETRIC: used for the optional biometric app lock, allowing to protect notes using device authentication. No biometric data is ever collected or transmitted.
+    android.permission.USE_FINGERPRINT: used for the optional biometric app lock, allowing to protect notes using device authentication. No biometric data is ever collected or transmitted.
+    android.permission.RECEIVE_BOOT_COMPLETED: used by WorkManager to reschedule scheduled note reminders automatically after device reboots.
+    android.permission.WAKE_LOCK: to allow WorkManager to briefly keep the processor active so background tasks/reminders execute reliably on time.
+    android.permission.FOREGROUND_SERVICE: declared internally by AndroidX WorkManager to manage long-running background tasks when required.
+    android.permission.ACCESS_NETWORK_STATE: pulled in by WorkManager. Since the app doesn’t request INTERNET access at all, it’s strictly local.
   Status:
     - 2026-03-12 repo and Github account are gone
     - 2026-09-03 both returned, RB re-established
