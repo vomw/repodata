@@ -6,19 +6,19 @@ AuthorName: Sable
 AuthorEmail: hi@sable.moe
 AuthorWebSite: https://docs.sable.moe/
 WebSite: https://app.sable.moe/
-SourceCode: https://github.com/SableClient/Sable
-IssueTracker: https://github.com/SableClient/Sable/issues
-Changelog: https://github.com/SableClient/Sable/releases
+SourceCode: https://git.sable.moe/SableClient/sable-next
+IssueTracker: https://git.sable.moe/SableClient/sable-next/issues
+Changelog: https://git.sable.moe/SableClient/sable-next/releases
 
 AutoName: Sable
 ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2026-10-02
-  Method: github-release
+  Method: codeberg-release
   GHSkipPre: 1
-  ApkMatch: /Sable-.*-android-arm64-foss\.apk/
-  Fastlane: https://github.com/SableClient/Sable/tree/dev/fastlane/metadata/android
+  ApkMatch: /sable-.*-android-aarch64-foss\.apk/
+  Fastlane: https://git.sable.moe/SableClient/sable-next/src/branch/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   PermIgnore:
     android.permission.CAMERA: for the integrated QR Code scanner, and video calls
