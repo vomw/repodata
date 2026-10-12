@@ -20,6 +20,10 @@ MaintainerNotes:
     android.permission.READ_MEDIA_AUDIO: to access local audio files to play
     android.permission.READ_EXTERNAL_STORAGE: to access local audio files to play
     android.permission.RECORD_AUDIO: used for the live equalizer animation
+    android.permission.ACCESS_FINE_LOCATION: needed for NearBy
+    android.permission.ACCESS_COARSE_LOCATION: needed for NearBy
+    android.permission.NEARBY_WIFI_DEVICES: needed with Wi-Fi Direct for Orbit
+    android.permission.CAMERA: for QR-code based join
 
 AllowedAPKSigningKeys: ff2f2c3a37046a9f52bf73d0f6d538927dc2be0b30a4901b48ea10774a1fa20d
 
