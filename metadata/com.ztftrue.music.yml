@@ -20,6 +20,7 @@ MaintainerNotes:
   Note: Fastlane is our starter package
   PermIgnore:
     android.permission.READ_MEDIA_AUDIO: needed on newer Android versions to access local music files to play
+    android.permission.READ_MEDIA_VIDEO: needed for the integrated video player to access local video files to play
     android.permission.READ_EXTERNAL_STORAGE: needed on lower Android versions to access local music files to play
   DoubleList: keep
   DoubleListRef: https://github.com/ZTFtrue/MonsterMusic/issues/2#issuecomment-2132803101
