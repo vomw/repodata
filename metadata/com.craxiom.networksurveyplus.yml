@@ -23,6 +23,9 @@ MaintainerNotes:
   PermIgnore:
     android.permission.ACCESS_COARSE_LOCATION: needed to tag each cellular OTA message in the pcap file with a lat/lon
     android.permission.ACCESS_FINE_LOCATION: needed to tag each cellular OTA message in the pcap file with a lat/lon
+    android.permission.WRITE_EXTERNAL_STORAGE: needed on Android 10 and below to save pcap files to the Downloads directory
+    android.permission.ACCESS_SUPERUSER: required to access the cellular modem to get the cellular OTA messages
+    android.permission.FOREGROUND_SERVICE: needed to prevent Android from killing this app while capturing the cellular OTA messages to the pcap file
   Status:
     - 2022-11-07 no release since 9/2021, last code commit 9/2021; switch from Tags to Static
 
