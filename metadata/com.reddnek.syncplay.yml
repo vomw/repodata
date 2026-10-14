@@ -23,16 +23,20 @@ MaintainerNotes:
   NameSpaces:
     - /app/home
     - /app/klipy
-    - /app/player/mpv
+    - /app/player
+    - /app/preferences
     - /app/protocol
     - /app/room
     - /app/server
     - /app/subtitles
     - /app/theme
+    - /app/uicomponents
     - /com/chromaticnoob/colorpreference
     - /com/reddnek/syncplay
     - /com/yuroyami/syncplay
     - /is/xyz/mpv
+  PermIgnore:
+    android.permission.READ_MEDIA_VIDEO: needed to access local videos to play
   Status:
     - 2022-07-10 rebranded from com.gintoki.syncplay which was originally added 2022-05-06
     - 2022-08-31 rebranded again from com.chromaticnoob.syncplay (should it happen once more this year, we better drop the app from the repo) https://github.com/Reddnek/syncplay-android/issues/35

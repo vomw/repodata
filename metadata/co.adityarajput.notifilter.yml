@@ -17,6 +17,8 @@ MaintainerNotes:
   ApkMatch: /NotiFilter.*\.apk/
   Fastlane: https://github.com/BURG3R5/NotiFilter/blob/dev/metadata
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  NameSpaces:
+    - /co/adityarajput/evaluator
   LibIgnore:
     - /org/acra
   IntentFilterIgnore:

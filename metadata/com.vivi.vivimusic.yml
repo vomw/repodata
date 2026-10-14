@@ -26,6 +26,7 @@ MaintainerNotes:
     - /com/dpi
     - /com/music
     - /com/my/kizzy
+    - /com/metrolist/innertubex
   PermIgnore:
     android.permission.RECORD_AUDIO: for music recognition
   Status:

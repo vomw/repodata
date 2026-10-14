@@ -34,6 +34,7 @@ MaintainerNotes:
     - /it/fast4x/lrclib
     - /it/fast4x/musicbrainz
     - /it/fast4x/simpmusiclyrics
+    - /it/fast4x/spotifymeta
     - /riplay/composeapp/generated
   PermIgnore:
     android.permission.RECORD_AUDIO: required by the visualizer, which is disabled by default. See https://developer.android.com/reference/android/media/audiofx/Visualizer

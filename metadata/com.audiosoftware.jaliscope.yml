@@ -18,6 +18,8 @@ MaintainerNotes:
   ApkMatch: /Jaliscope\.apk/
   Fastlane: https://codeberg.org/CalibratedMind/Jaliscope/src/branch/main/fastlane/metadata/android
   FastlaneFeatures: video,title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  NameSpaces:
+    - /com/audiosoftwares/cm
   PermIgnore:
     android.permission.READ_MEDIA_AUDIO: needed to access audio files to visualize
     android.permission.READ_EXTERNAL_STORAGE: needed to access audio files to visualize
