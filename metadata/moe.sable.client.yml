@@ -23,7 +23,6 @@ MaintainerNotes:
   PermIgnore:
     android.permission.CAMERA: for the integrated QR Code scanner, and video calls
     android.permission.RECORD_AUDIO: for voice and video calls
-    android.permission.ACCESS_FINE_LOCATION: for location sharing
     android.permission.ACCESS_COARSE_LOCATION: for location sharing
 
 AllowedAPKSigningKeys: bc9f83a1ac9c332df73975962e78b55724d06aeee73eff8b7b785261ad48628b
