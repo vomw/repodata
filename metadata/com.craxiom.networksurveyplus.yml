@@ -1,7 +1,3 @@
-AntiFeatures:
-  Tracking:
-    en-US: The app sends analytics to Cloud Audit Logs.
-    de: Die App übermittelt Analysedaten an Cloud Audit Logs.
 Categories:
   - Connectivity
 License: Apache-2.0
