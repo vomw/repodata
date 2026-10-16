@@ -26,6 +26,7 @@ MaintainerNotes:
     android.permission.POST_NOTIFICATIONS: to send you goal reminders and keep you updated on your focus progress throughout the day
     android.permission.ACCESS_NOTIFICATION_POLICY: allows Bedtime Mode to automatically silence your phone so you can get a better night’s sleep
     android.permission.SCHEDULE_EXACT_ALARM: optional; to make your reminders etc. happen exactly when they’re supposed to
+    android.permission.CAMERA: for the integrated QR code scanner (QR scan task)
 
 AllowedAPKSigningKeys: 0b8277c43fab0ed31518234a33435883faec5ca19ca76c0028781c5bf8065237
 

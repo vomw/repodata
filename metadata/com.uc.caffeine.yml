@@ -16,6 +16,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/ohuc/CaffeineHealth/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.CAMERA: for the integrated barcode scanner
 
 AllowedAPKSigningKeys: c76cc07ef96d4a42abc6e42acfecb55c6a17574f5d557208fa024bfc1b74e12a
 
