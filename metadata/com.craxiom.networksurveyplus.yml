@@ -19,7 +19,7 @@ MaintainerNotes:
   PermIgnore:
     android.permission.ACCESS_COARSE_LOCATION: needed to tag each cellular OTA message in the pcap file with a lat/lon
     android.permission.ACCESS_FINE_LOCATION: needed to tag each cellular OTA message in the pcap file with a lat/lon
-    android.permission.ACCESS_BACKGROUND_LOCATION: needed so the app can obtain the location even when running in background
+    android.permission.ACCESS_BACKGROUND_LOCATION: needed to have the app auto-start when the phone is turned on. If that feature is not needed, then the permission can be denied
     android.permission.WRITE_EXTERNAL_STORAGE: needed on Android 10 and below to save pcap files to the Downloads directory
     android.permission.READ_EXTERNAL_STORAGE: granted implicitly by WRITE_EXTERNAL_STORAGE
     android.permission.ACCESS_SUPERUSER: required to access the cellular modem to get the cellular OTA messages
