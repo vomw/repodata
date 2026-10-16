@@ -14,6 +14,7 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2023-02-11
+  Todo: 2026-11-16 might have to remove the app if https://github.com/T8RIN/ImageToolbox/issues/3124 (lite version; the current one is already > 110 MB) cannot be solved
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /foss-arm64-v8a/i
@@ -50,4 +51,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: 20d7689de0874f00015ea3e31fa067c15c03457d362d41d5e793db3a864fa534
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: None
