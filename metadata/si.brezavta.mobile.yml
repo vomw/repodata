@@ -1,0 +1,24 @@
+Categories:
+  - Navigation
+License: GPL-3.0-or-later
+AuthorName: DERP
+SourceCode: https://gitlab.com/derp-si/slovenijaRT
+IssueTracker: https://gitlab.com/derp-si/slovenijaRT/-/work_items
+
+AutoName: brezavta.si
+
+MaintainerNotes:
+  AppAdded: 2026-10-18
+  Method: gitlab-tags
+  GHSkipPre: 1
+  ApkMatch: /brezavta.*\.apk/
+  Fastlane: https://gitlab.com/derp-si/slovenijaRT/-/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.ACCESS_COARSE_LOCATION: needed to find stations near you
+    android.permission.ACCESS_FINE_LOCATION: needed to find stations near you
+
+AllowedAPKSigningKeys: c7a16c1fe6bcef2cbb3bc1435b584147d5cef18a5e2331127a7bba42734569ce
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
