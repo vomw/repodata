@@ -14,7 +14,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /EliteMemoPro-.*-universal\.apk/
   Fastlane: https://github.com/deepanjanxyz/notepad/blob/main/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescNL,changelogs,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: to use the optional backup feature on Android 9 and below.
     android.permission.WRITE_EXTERNAL_STORAGE: to use the optional backup feature on Android 9 and below.

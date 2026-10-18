@@ -14,7 +14,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/DennisBauer/RecurringExpenseTracker/tree/main/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Note: uses git-lfs, which the Github API cannot handle; links returned only show metadata, not the files, see e.g. https://raw.githubusercontent.com/DennisBauer/RecurringExpenseTracker/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png
   NameSpaces:
     - /model/database

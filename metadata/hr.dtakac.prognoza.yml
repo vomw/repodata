@@ -1,3 +1,7 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-10-01, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-10-01 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - Science & Education
 License: MIT
@@ -11,12 +15,14 @@ AutoName: Prognoza
 
 MaintainerNotes:
   AppAdded: 2022-11-30
+  Todo: 2026-11-17 remove; successor is com.davidtakac.bura
   Method: github-release
   GHSkipPre: 1
   Status:
     - 2024-11-21 last commit/release 5/2023; UCM Tags=>Static
+    - 2026-10-17 monthly quality check found repo archived, with note that com.davidtakac.bura is the successor
 
 AllowedAPKSigningKeys: 3a330de2838ca6c9dcf76eb7e502786e1e7f1750f90454304e76a5ff21776eff
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: None

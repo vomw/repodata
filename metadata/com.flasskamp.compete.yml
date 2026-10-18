@@ -21,8 +21,10 @@ MaintainerNotes:
   Fastlane: https://codeberg.org/epinez/Compete/src/branch/main/app/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   DoubleList: keep
+  Status:
+    - 2026-10-17 last release/commit 10/2025; UCM Tags=>Static
 
 AllowedAPKSigningKeys: a2fdf47278740e26baad8a1dce96cd75b94fa25f9ba17014167d6c2d9ea512a8
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static

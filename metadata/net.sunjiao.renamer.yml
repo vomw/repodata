@@ -8,6 +8,7 @@ SourceCode: https://github.com/sun-jiao/flut-renamer
 IssueTracker: https://github.com/sun-jiao/flut-renamer/issues
 
 AutoName: Renamer - bulk file renamer
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-03-25

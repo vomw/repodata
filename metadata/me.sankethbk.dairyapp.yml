@@ -24,7 +24,7 @@ MaintainerNotes:
   ApkMatch: /arm64-v8a/i
   ApkIgnore: /x86/i
   Fastlane: https://github.com/SankethBK/diaryvault/tree/master/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.RECORD_AUDIO: Needed by the integrated audio recorder.
   NameSpaces:

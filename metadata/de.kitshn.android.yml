@@ -9,6 +9,7 @@ Translation: https://hosted.weblate.org/projects/kitshn
 Changelog: https://github.com/kitshn-app/kitshn/releases
 
 AutoName: kitshn (for Tandoor)
+ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-08-19

@@ -4,10 +4,10 @@ Categories:
 License: Apache-2.0
 AuthorName: DresOS
 AuthorEmail: crinkly-atom-rival@duck.com
-AuthorWebSite: https://dresoperatingsystems.github.io/
-SourceCode: https://github.com/DresOperatingSystems/DresSecureComms
-IssueTracker: https://github.com/DresOperatingSystems/DresSecureComms/issues
-Changelog: https://github.com/DresOperatingSystems/DresSecureComms/releases
+AuthorWebSite: https://dresos.org/
+SourceCode: https://github.com/The-DresOS-Foundation/DresSecureComms
+IssueTracker: https://github.com/The-DresOS-Foundation/DresSecureComms/issues
+Changelog: https://github.com/The-DresOS-Foundation/DresSecureComms/releases
 
 AutoName: DresSecureComms
 
@@ -16,7 +16,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /DresSecureComms\.apk/
-  Fastlane: https://github.com/DresOperatingSystems/DresSecureComms/tree/main/fastlane/metadata/android
+  Fastlane: https://github.com/The-DresOS-Foundation/DresSecureComms/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   PermIgnore:
     android.permission.RECEIVE_SMS: needed for the app’s SMS/MMS functionality

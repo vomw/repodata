@@ -7,7 +7,6 @@ IssueTracker: https://github.com/by-architect/Operator/issues
 Changelog: https://github.com/by-architect/Operator/releases
 
 AutoName: Operator
-ArchivePolicy: 2
 RequiresRoot: true
 
 MaintainerNotes:
@@ -17,7 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /(O|o)perator.*\.apk/
   Fastlane: https://github.com/by-architect/Operator/blob/master/metadata
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   Status:
     - 2025-11-30 Static for now, as the APK at release v1.0.0 is v0.0.7; https://github.com/by-architect/Operator/issues/1
     - 2026-09-24 keystore was exposed in the git repo, forcing a switch. Git history has been rewritten. Validation via email (as taken from our local git clone commit history before the rewrite)

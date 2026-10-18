@@ -23,6 +23,7 @@ MaintainerNotes:
     android.permission.FOREGROUND_SERVICE: needed to continue playing when the app is not in foreground
   Status:
     - 2024-02-16 signing key changed, see https://codeberg.org/coleblvck/AntiiQ/issues/4 (UCM Tags=>Static until clarified)
+    - 2026-10-17 APK size now exceeds our per-app size limit. Seems the build is not optimized; asked for that at https://codeberg.org/coleblvck/AntiiQ/issues/29#issuecomment-25515421
 
 AllowedAPKSigningKeys: c7eaa41affff2f07da93e5b03596a243ce76f3f47d1de40c8c51a7a6d1a6d38d
 

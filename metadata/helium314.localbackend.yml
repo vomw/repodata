@@ -1,3 +1,7 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-09-26, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-09-26 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - System
   - Navigation
@@ -26,8 +30,10 @@ MaintainerNotes:
     android.permission.ACCESS_COARSE_LOCATION: needed to collect location data
     android.permission.ACCESS_FINE_LOCATION: needed to collect location data
     android.permission.ACCESS_BACKGROUND_LOCATION: needed to collect location data when in background
+  Status:
+    - 2026-10-17 monthly quality check found repo archived; UCM Tags=>None
 
 AllowedAPKSigningKeys: 29c5f93a4c2a7a226af8fbf615a5198a511a76e9bc921acb910640c68632d58d
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None

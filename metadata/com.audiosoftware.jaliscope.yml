@@ -17,7 +17,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /Jaliscope\.apk/
   Fastlane: https://codeberg.org/CalibratedMind/Jaliscope/src/branch/main/fastlane/metadata/android
-  FastlaneFeatures: video,title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  FastlaneFeatures: video,title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   NameSpaces:
     - /com/audiosoftwares/cm
   PermIgnore:

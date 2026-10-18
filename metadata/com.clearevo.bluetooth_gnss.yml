@@ -1,7 +1,3 @@
-AntiFeatures:
-  SourceArchived:
-    en-US: Upstream repo was archived 2026-04-23, there will be no updates anymore. While the repo itself was unarchived in 7/2026, the app itself is no longer maintained.
-    de: Das Quellrepo der App wurde am 2026-04-23 archiviert, es gibt daher keine Updates mehr. Obwohl das Repo 7/2026 wieder geöffnet wurde, wird die App selbst nicht weiter gepflegt.
 Categories:
   - Navigation
 License: GPL-2.0-or-later
@@ -38,6 +34,7 @@ MaintainerNotes:
     - 2025-06-10 fastlane tree was removed at 2024-08-10, most likely by accident – https://github.com/ykasidit/bluetooth_gnss/issues/89
     - 2025-07-27 v2.0.5 introduces GMS, probably via the Flutter geolocation plugin – https://github.com/ykasidit/bluetooth_gnss/issues/97
     - 2025-07-31 GMS replaced by microG, see https://github.com/ykasidit/bluetooth_gnss/issues/97#issuecomment-3138280119
+    - 2026-04-23 app is no longer maintained, see Readme
 
 AllowedAPKSigningKeys: a7788592bd7fe689a0a3557663391b86f8718c33b201dd045d4ba9d7a575a794
 

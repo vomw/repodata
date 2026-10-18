@@ -22,7 +22,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /moelist-.*-universal-release\.apk/i
   Fastlane: https://github.com/axiel7/MoeListKMP/tree/master/fastlane/metadata/android
-  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
   Status:
     - 2026-09-24 repo moved, see https://github.com/axiel7/MoeList/issues/469#issuecomment-5801535628

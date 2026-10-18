@@ -24,6 +24,7 @@ MaintainerNotes:
     - 2024-08-04 attention, APK size blew up from 16 MB to 63 MB, see https://github.com/jmiskovic/hexpress/issues/10#issuecomment-2267649263
     - 2024-09-07 author now provides per-ABI builds, switching to arm64
     - 2026-01-09 last release/commit 9/2024, UCM Tags=>Static
+    - 2026-10-17 APK size now close to our limit. Seems dev does not optimize, so asked to apply that at https://github.com/jmiskovic/hexpress/issues/21
 
 AllowedAPKSigningKeys: 2bc5f4f1017ac6cc0826437d3ed0a83cc1c015349f1c92e9775df622d9117e86
 

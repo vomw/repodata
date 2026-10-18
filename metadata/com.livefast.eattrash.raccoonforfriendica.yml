@@ -29,6 +29,8 @@ MaintainerNotes:
     - /com/livefast/eattrash/feature
     - /raccoonforfriendica
   DoubleList: keep
+  Status:
+    - 2026-10-17 APK size beyond 80 MB now; https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/issues/1430
 
 AllowedAPKSigningKeys: a58deb540d4df4715c47ed4d4d70ce07d8cab92588973b0c4ae776f5d04164e5
 

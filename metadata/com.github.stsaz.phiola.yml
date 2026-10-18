@@ -13,8 +13,8 @@ MaintainerNotes:
   AppAdded: 2023-11-19
   Method: github-release
   GHSkipPre: 1
-  Fastlane: https://github.com/stsaz/phiola/blob/beta/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  Fastlane: https://github.com/stsaz/phiola/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldesc,icon,screenshots
   Note: Fastlane is our starter package
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: needed for the integrated file explorer on Android 10 and before

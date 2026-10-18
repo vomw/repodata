@@ -9,6 +9,8 @@ IssueTracker: https://github.com/RobinJ1995/DistroHopper/issues
 Translation: https://explore.transifex.com/distrohopper/
 Changelog: https://github.com/RobinJ1995/DistroHopper/releases
 
+ArchivePolicy: 2
+
 MaintainerNotes:
   AppAdded: 2018-01-21
   Method: github-release

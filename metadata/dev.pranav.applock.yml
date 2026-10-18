@@ -1,3 +1,7 @@
+AntiFeatures:
+  SourceArchived:
+    en-US: Upstream repo was archived 2026-10-16, there will be no updates anymore.
+    de: Das Quellrepo der App wurde am 2026-10-16 archiviert, es gibt daher keine Updates mehr.
 Categories:
   - System
 License: MIT
@@ -24,8 +28,9 @@ MaintainerNotes:
     - 2025-07-15 AccessibilityService SYSTEM_ALERT_WINDOW https://github.com/PranavPurwar/AppLock/issues/15#issuecomment-3075791914
     - 2026-02-17 all releases are gone, disabling update check (UCM Tags=>None). Contacted author by mail for clarification.
     - 2026-02-17 response by mail pointed to the repo having moved. APKs there match signature, commit authors (also of newer commits) too – re-enabling updates
+    - 2026-10-17 monthly quality check found repo archived; UCM Tags=>None
 
 AllowedAPKSigningKeys: af7f36023c6a7750847252e5d4d14a992b621364600705e1d8b0fe44d1ac8c81
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: None

@@ -15,7 +15,7 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/christianrowlands/android-network-survey-rooted/tree/develop/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphicJPG,screenshots
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphicJPG,screenshots
   PermIgnore:
     android.permission.ACCESS_COARSE_LOCATION: needed to tag each cellular OTA message in the pcap file with a lat/lon
     android.permission.ACCESS_FINE_LOCATION: needed to tag each cellular OTA message in the pcap file with a lat/lon

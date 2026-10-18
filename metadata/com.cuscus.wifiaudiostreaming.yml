@@ -22,6 +22,7 @@ MaintainerNotes:
     android.permission.RECORD_AUDIO: used for an optional experimental feature that allows streaming microphone audio
   Status:
     - 2025-09-06 upstreaming our Fastlane metadata
+    - 2025-10-17 APK size now reaches our per-app size limit. Opened https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android/-/work_items/4 to ask for optimization and per-ABI splits.
 
 AllowedAPKSigningKeys: e69d57816fe692018c8d6fd343c9d077753adb2a21e8227076a46d8f0a23c097
 

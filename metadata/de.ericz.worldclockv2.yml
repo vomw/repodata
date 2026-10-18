@@ -9,7 +9,6 @@ IssueTracker: https://github.com/EricZeller/flutter-world-clock-v2/issues
 Changelog: https://github.com/EricZeller/flutter-world-clock-v2/releases
 
 AutoName: World Clock v2
-ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2024-06-04
@@ -18,7 +17,7 @@ MaintainerNotes:
   ApkMatch: /arm64/i
   ApkIgnore: /x86/i
   Fastlane: https://github.com/EricZeller/flutter-world-clock-v2/tree/main/fastlane/metadata/android
-  FastlaneFeatures: shortdesc,fulldesc,icon,screenshots
+  FastlaneFeatures: title,shortdesc,fulldesc,changelogs,icon,screenshots
   Note: Fastlane is our starter package
   NameSpaces:
     - /com/example/world_clock_v2

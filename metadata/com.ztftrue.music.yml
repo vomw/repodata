@@ -16,7 +16,7 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /app-arm64-v8a-release\.apk/
   Fastlane: https://github.com/ZTFtrue/MonsterMusic/tree/main/metadata
-  FastlaneFeatures: shortdesc,fulldesc,icon,featureGraphic,screenshots
+  FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,featureGraphic,screenshots
   Note: Fastlane is our starter package
   PermIgnore:
     android.permission.READ_MEDIA_AUDIO: needed on newer Android versions to access local music files to play

@@ -24,6 +24,13 @@ MaintainerNotes:
     android.permission.READ_EXTERNAL_STORAGE: needed on older Android versions to access all files
     android.permission.MANAGE_EXTERNAL_STORAGE: needed on newer Android versions to access all files
     android.permission.NEARBY_WIFI_DEVICES: for sharing via nearby WiFi
+    android.permission.FOREGROUND_SERVICE: to keep the HTTP server (and private hotspot) running while the app is in the background
+    android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE: to keep the HTTP server (and private hotspot) running while the app is in the background
+    android.permission.POST_NOTIFICATIONS: to show an ongoing notification while a file is being shared, with the option to stop sharing
+    android.permission.WAKE_LOCK: to keep the device awake while a download is in progress, so it isn’t stalled by the screen turning off
+    android.permission.CHANGE_WIFI_STATE: to create and stop the private hotspot
+    android.permission.ACCESS_WIFI_STATE: to check whether the device can host a hotspot while staying connected to Wi-Fi
+    android.permission.ACCESS_NETWORK_STATE: to notice IP address changes while sharing, so the QR code can follow
   Status:
     - 2026-01-16 UCM Tags=>Static as versionCode was decreased; Flutter bug, see https://github.com/uintdev/qrserv/issues/27#issuecomment-3757610580
     - 2026-02-26 UCM=>Tags again; switched to arm64 (builds only that one, so no VercodeOperation needed anymore) and has versionCode properly increased again
