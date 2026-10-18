@@ -1,0 +1,23 @@
+Categories:
+  - Office
+  - Time
+License: GPL-3.0-only
+AuthorName: tymwitko
+SourceCode: https://github.com/tymwitko/ToReplace
+IssueTracker: https://github.com/tymwitko/ToReplace/issues
+Changelog: https://github.com/tymwitko/ToReplace/releases
+
+AutoName: ToReplace
+
+MaintainerNotes:
+  AppAdded: 2026-10-18
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-release\.apk/
+  Fastlane: https://github.com/tymwitko/ToReplace/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
+
+AllowedAPKSigningKeys: 0a786b74e37809ff90f011dd933ea21fb727d1fab723ddaf87a882309bc0b68b
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
