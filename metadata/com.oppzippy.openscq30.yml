@@ -16,6 +16,8 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/Oppzippy/OpenSCQ30/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: needed for Bluetooth paired-device discovery on Android 10–11
   Status:
     - 2025-12-19 with v2.0.0, size of the universal APK jumped from 8 to 24 MB. Multiple APKs at releases now, updater picked the wrong one – so UCM Static until solved, see https://github.com/Oppzippy/OpenSCQ30/issues/196
 

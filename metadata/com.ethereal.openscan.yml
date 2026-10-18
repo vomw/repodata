@@ -17,6 +17,8 @@ MaintainerNotes:
   ApkMatch: /app-arm64-v8a-release\.apk/
   Fastlane: https://github.com/ethereal-developers/OpenScan/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: needed to scan
   Status:
     - 2022-11-07 no release since 9/2021, last code commit 9/2021; switch from Tags to Static
     - 2026-10-04 switch from armeabi to arm64, see https://github.com/ethereal-developers/OpenScan/issues/125#issuecomment-5977418289
