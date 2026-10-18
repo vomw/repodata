@@ -13,7 +13,6 @@ ArchivePolicy: 1
 
 MaintainerNotes:
   AppAdded: 2022-11-06
-  Todo: 2026-10-18 remove old signing key – or add it to the block list, see https://github.com/aburdiss/scale-practice/issues/33#issuecomment-5747001689
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/aburdiss/scale-practice/tree/master/fastlane/metadata/android
@@ -26,9 +25,7 @@ MaintainerNotes:
     - 2026-09-20 both solved; install referrer gone, APK size down to ~30 MB. But signing key changed (confirmation by mail)
     - 2026-09-24 APK size up to 90 MB again, disabling updates – that did not hold long :(
 
-AllowedAPKSigningKeys:
-  - b2cc9bdf5f43c45f9f4863cca0ee830fedfb746eb313edb22a9a432b0af499f0
-  - 27d476a460e60ff1c1c17e23dd2b60f8e532027acca745548dfada04a1c5f598
+AllowedAPKSigningKeys: 27d476a460e60ff1c1c17e23dd2b60f8e532027acca745548dfada04a1c5f598
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: None
