@@ -13,6 +13,7 @@ MaintainerNotes:
   AppAdded: 2022-11-21
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /arm64-v8a/i
   NameSpaces:
     - /bugfix/osmdroid/tileprovider
   Status:
