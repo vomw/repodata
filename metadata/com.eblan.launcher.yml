@@ -19,6 +19,7 @@ MaintainerNotes:
     android.accessibilityservice.AccessibilityService: for Gesture Actions most common in Android Launchers
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: to show all apps in the app drawer
+    android.permission.REQUEST_DELETE_PACKAGES: for the app uninstall button
   Status:
     - 2026-02-13 after having renamed from Eblan Launcher to Einstein Launcher in 12/2025, dev renamed again now to Yagni Launcher
 

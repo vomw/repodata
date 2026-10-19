@@ -21,6 +21,7 @@ MaintainerNotes:
   PermIgnore:
     android.permission.READ_EXTERNAL_STORAGE: needed on Android 9 and before to access your media so you can e.g. include your photos with your diary
     android.permission.ACCESS_MEDIA_LOCATION: needed to preserve location data when importing media
+    android.permission.RECORD_AUDIO: used to record audio attachments for your entries
   Status:
     - 2024-01-06 scanner reported android.permission.MANAGE_EXTERNAL_STORAGE, issue is already open for that https://github.com/Demizo/Daily_You/issues/55
     - 2024-01-28 switched from debug key to release key signing while scanner also reports READ_EXTERNAL_STORAGE while MANAGE_EXTERNAL_STORAGE is gone now
