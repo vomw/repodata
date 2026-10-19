@@ -10,14 +10,18 @@ AutoName: OpenBl
 
 MaintainerNotes:
   AppAdded: 2023-03-02
+  Todo: 2026-11-19 remove old signing key 5be8fdd and APKs before VC 12
   Method: github-release
   GHSkipPre: 1
   Fastlane: https://github.com/Ounzy/OpenBl/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshotsJPG
   Status:
     - 2024-12-10 last release 4/2023, last commit 10/2023; UCM Tags=>Static
+    - 2026-10-19 signing key changed, see https://github.com/Ounzy/OpenBl/issues/6 (verified via Bnyro in the issue)
 
-AllowedAPKSigningKeys: 5be8fdd39ea8e6c59164cd3187446bb7848547b830136d5b2382e21544631f39
+AllowedAPKSigningKeys:
+  - 5be8fdd39ea8e6c59164cd3187446bb7848547b830136d5b2382e21544631f39
+  - e06509f01c3dd4576c66efc70bcc5f4012885fbaa4c8adf069713c6bdc305a95
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Static
