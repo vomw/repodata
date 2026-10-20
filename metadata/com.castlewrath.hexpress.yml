@@ -15,6 +15,8 @@ MaintainerNotes:
   Method: github-release
   GHSkipPre: 1
   ApkMatch: /arm64-v8a/i
+  PermIgnore:
+    android.permission.RECORD_AUDIO: optionally used for the Voice instrument
   Status:
     - 2020-09-19 app was not updated for 1y 1m 17d; switching UCM from Tags to Static
     - 2020-09-20 author responded and has added missing tags; switching back from Static to Tags as he (hopefully) is aware now ;)
