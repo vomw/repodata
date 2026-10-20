@@ -33,7 +33,8 @@ MaintainerNotes:
     - 2021-09-06 restored at request of author, see https://gitlab.com/IzzyOnDroid/applists/-/issues/14#note_669819439
     - 2024-03-04 scanner reports android.permission.READ_PHONE_STATE DEPENDENCY_INFO_BLOCK – https://github.com/apk-editor/APK-Explorer-Editor/issues/73
     - 2026-09-07 RB failing for v0.36 with a huge diff in DEX, rolling back and disabling updates for now (also for RB); see https://github.com/apk-editor/APK-Explorer-Editor/issues/199#issuecomment-5575296524
+    - 2026-10-20 disabling updates altogether, as still no response
 
 AllowedAPKSigningKeys: b4a4ed79c28af444b0b09e012c88e4b207b393310707d4b9bb418d2961119c46
 
-UpdateCheckMode: Static
+UpdateCheckMode: None
