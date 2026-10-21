@@ -21,6 +21,12 @@ MaintainerNotes:
     - /ua/itaysonlab/hfsdk
   Fastlane: https://github.com/NeoApplications/Neo-Feed/tree/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldesc,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_EXTERNAL_STORAGE: required for importing setup (opml/bookmarks) on lower Android versions
+    android.permission.WRITE_EXTERNAL_STORAGE: required for exporting setup (opml/bookmarks) on lower Android versions
+    android.permission.SYSTEM_ALERT_WINDOW: needed to be able to show the bottom sheet as layout over the system
+    android.permission.ACCESS_COARSE_LOCATION: needed for the weather widget
+    android.permission.ACCESS_FINE_LOCATION: needed for the weather widget
   Status:
     - 2024-08-18 Saul lost his keystore, Toni now manages it. Change confirmed on secure channel with Toni.
 
