@@ -26,8 +26,9 @@ MaintainerNotes:
     - 2026-08-02 dev increased VC from 13 to 18, but v2.0.0 already had 2002
     - 2026-08-02 RB failed as well, once more not finding some code, so UCM=>None for now (RBs disabled as well); see https://github.com/prateek54353/PaperWise/issues/4#issuecomment-5159735752
     - 2026-08-16 all solved with v2.5.5
+    - 2026-10-22 v2.7.1 adds Crashlytics, Firebase, GMS, etc, UCM Tags=>Static until solved; https://github.com/prateek54353/PaperWise/issues/10
 
 AllowedAPKSigningKeys: 7452fd91a4bceb61f0cf258663fdee4c3c113405d07814218b72e3864f89efb5
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
