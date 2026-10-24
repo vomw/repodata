@@ -20,6 +20,8 @@ MaintainerNotes:
   GHSkipPre: 1
   ApkMatch: /Musify-arm64-v8a/i
   ApkIgnore: /fdroid/i
+  FlagIgnore:
+    usesCleartextTraffic: needed to connect to a local proxy
   Fastlane: https://github.com/gokadzev/Musify/tree/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   Status:
@@ -27,6 +29,7 @@ MaintainerNotes:
     - 2024-01-17 scanner reports android.permission.REQUEST_INSTALL_PACKAGES – https://github.com/gokadzev/Musify/issues/336
     - 2024-01-18 the only difference to the F-Droid build is the included self-updater, so we agreed to remove the app here
     - 2025-03-15 returning the app. REQUEST_INSTALL_PACKAGES is no longer present – and app is RB now.
+    - 2026-10-24 usesCleartextTraffic per https://github.com/gokadzev/Musify/issues/1007
 
 AllowedAPKSigningKeys: a3fdd79dae938381b8582553b1382f96f1bc78a3b7028ffd07ec061c1842823a
 
