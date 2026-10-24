@@ -27,6 +27,7 @@ MaintainerNotes:
     - 2024-02-15 scanner reports android.permission.READ_EXTERNAL_STORAGE android.permission.READ_MEDIA_IMAGES android.permission.READ_MEDIA_VIDEO android.permission.READ_MEDIA_AUDIO DEPENDENCY_INFO_BLOCK – https://github.com/JellyBookOrg/JellyBook/issues/164
     - 2024-02-16 scanner reports Sentry. Asked at the existing issue whether it is opt-in – it is opt-in
     - 2025-06-27 last release 2024-02-19; UCM Tags=>Static
+    - 2026-10-22 v1.4.1 has been blocked because of cleartextTraffic, see https://github.com/JellyBookOrg/JellyBook/issues/228
 
 AllowedAPKSigningKeys: 829c569d05272086807649236b6544113388fc3b1ebe3f34957551f4ab38fb3b
 
