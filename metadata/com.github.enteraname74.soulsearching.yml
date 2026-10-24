@@ -28,9 +28,10 @@ MaintainerNotes:
   Status:
     - 2024-01-07 applicationId changed from com.github.soulsearching
     - 2026-10-22 v0.17.0 adds self-updater; UCM Tags=>Static for now; see https://github.com/enteraname74/SoulSearching/issues/98#issuecomment-6349586738
+    - 2026-10-24 fixed with v0.17.2 (including RB), UCM=>Tags again
 
 AllowedAPKSigningKeys: ce1e274879e9609ad9eb36f27a0a01bb8442cc02affb6f3338ef3828d4998ca1
 
 ArchivePolicy: 2
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
