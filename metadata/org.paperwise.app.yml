@@ -27,8 +27,9 @@ MaintainerNotes:
     - 2026-08-02 RB failed as well, once more not finding some code, so UCM=>None for now (RBs disabled as well); see https://github.com/prateek54353/PaperWise/issues/4#issuecomment-5159735752
     - 2026-08-16 all solved with v2.5.5
     - 2026-10-22 v2.7.1 adds Crashlytics, Firebase, GMS, etc, UCM Tags=>Static until solved; https://github.com/prateek54353/PaperWise/issues/10
+    - 2026-10-24 v3.0.0 removed all offenders again, UCM=>Tags again
 
 AllowedAPKSigningKeys: 7452fd91a4bceb61f0cf258663fdee4c3c113405d07814218b72e3864f89efb5
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
