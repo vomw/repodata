@@ -39,8 +39,9 @@ MaintainerNotes:
     - 2025-10-05 update checker – or self updater? https://github.com/maxrave-dev/SimpMusic/issues/1094#issuecomment-3369219407
     - 2026-02-03 android.permission.READ_PHONE_STATE android.permission.READ_EXTERNAL_STORAGE – https://github.com/maxrave-dev/SimpMusic/issues/227#issuecomment-3838439557
     - 2026-10-11 v2.3.0 comes with proprietary libraries (Cast, GMS) and tracking (Sentry); UCM Tags=Static for now, see https://github.com/maxrave-dev/SimpMusic/issues/2637
+    - 2026-10-25 v2.4.0 solved this, UCM back to Tags
 
 AllowedAPKSigningKeys: 76c53bd813ae8f1ce2778f7814b515785719bf9a82c6bee03b8b2dfd706055a1
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
