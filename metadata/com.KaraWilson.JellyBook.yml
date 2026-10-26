@@ -19,6 +19,8 @@ MaintainerNotes:
   FastlaneFeatures: title,shortdesc,fulldesc,icon,featureGraphic,screenshots
   LibIgnore:
     - /io/sentry
+  FlagIgnore:
+    usesCleartextTraffic: for unencrypted traffic in local networks
   Status:
     - 2023-08-12 today’s release has an APK with different signature, reported https://github.com/Kara-Zor-El/JellyBook/issues/107
     - 2023-08-30 Kara confirmed to be Kara by providing the recent build signed with the original key (26926063ecd5ae5d4cc9c56f220dd48f942a4712cc86a25f06be4cef8c8a4a3f), so we could switch to the new one (a2fa8444bc3a0b5c08b9aa48cc5a284f147da6e2bd654aac73b1464031c19b6f)
@@ -28,6 +30,7 @@ MaintainerNotes:
     - 2024-02-16 scanner reports Sentry. Asked at the existing issue whether it is opt-in – it is opt-in
     - 2025-06-27 last release 2024-02-19; UCM Tags=>Static
     - 2026-10-22 v1.4.1 has been blocked because of cleartextTraffic, see https://github.com/JellyBookOrg/JellyBook/issues/228
+    - 2026-10-26 cleartextTraffic explained, but signing key changed
 
 AllowedAPKSigningKeys: 829c569d05272086807649236b6544113388fc3b1ebe3f34957551f4ab38fb3b
 
