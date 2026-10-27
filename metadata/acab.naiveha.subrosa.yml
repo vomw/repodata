@@ -8,13 +8,12 @@ Changelog: https://github.com/naive-HA/subrosa/releases
 Bitcoin: 1HwgShr1TniuBxNQwy2xAhpQaNuZhtw6sh
 
 AutoName: sub rosa
-ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2026-03-11
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /subrosa.*\.apk/
+  ApkMatch: /subrosa.*-arm64-v8a\.apk/
   Fastlane: https://github.com/naive-HA/subrosa/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   Status:
