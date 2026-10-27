@@ -20,7 +20,7 @@ MaintainerNotes:
   AppAdded: 2026-02-09
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /foss-release/i
+  ApkMatch: /RiPlay-.*-foss.*\.apk/
   Fastlane: https://github.com/fast4x/RiPlay/tree/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   NameSpaces:
