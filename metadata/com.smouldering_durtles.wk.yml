@@ -13,6 +13,7 @@ MaintainerNotes:
   AppAdded: 2023-12-21
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /smouldering_durtles_.*_arm64_signed\.apk/
   Fastlane: https://github.com/jerryhcooke/smouldering_durtles/blob/main/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,featureGraphic,screenshots
   FastlaneIgnore: video
