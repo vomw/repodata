@@ -15,6 +15,7 @@ MaintainerNotes:
   AppAdded: 2024-01-22
   Method: github-release
   GHSkipPre: 1
+  ApkMatch: /android_FlyingCarpet_.*\.apk/i
   Fastlane: https://github.com/spieglt/FlyingCarpet/blob/main/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,screenshots
   DoubleList: keep
