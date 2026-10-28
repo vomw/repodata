@@ -107,6 +107,7 @@ else $files = glob($file);
 
 #--=[ validate specified YAML file(s) ]=--
 foreach ( $files as $datafile ) {
+  $datafile = escapeshellarg($datafile); // safeguard against e.g. code injection by bad file names
   if ( !empty($first) && basename($datafile) < $first ) continue; // skip everything before the file specified by "-F"
   if ( !empty($last) && basename($datafile) > $last ) break; // stop when the file specified by "-L" has been reached
 
