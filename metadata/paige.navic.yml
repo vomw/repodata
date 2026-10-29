@@ -17,7 +17,7 @@ MaintainerNotes:
   Method: codeberg-release
   GHSkipPre: 1
   ApkMatch: /Navic.fdroid\.apk/
-  Fastlane: https://codeberg.org/paige/Navic/blob/master/fastlane/metadata/android
+  Fastlane: https://codeberg.org/paige/Navic/src/branch/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   FlagIgnore:
     usesCleartextTraffic: needed for self-hosted local servers
