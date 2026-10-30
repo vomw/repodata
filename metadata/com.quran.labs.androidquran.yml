@@ -15,6 +15,7 @@ Changelog: https://github.com/quran/quran_android/releases
 
 MaintainerNotes:
   AppAdded: 2016-11-29
+  Todo: 2026-11-30 remove app if closed parts are still not made FOSS, see https://github.com/quran/quran_android/issues/755#issuecomment-6524254027
   Method: github-release
   ApkMatch: /quran.*no-google\.apk$/i
   ApkIgnore: /(naskh|warsh|qaloon)/i
