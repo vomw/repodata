@@ -1,0 +1,27 @@
+AntiFeatures:
+  NonFreeDep:
+    en-US: The app is bound to the Google Maps app.
+    de: Die App ist an die Google Maps App gebunden.
+Categories:
+  - Automation
+  - Navigation
+License: GPL-3.0-only
+AuthorName: Frank Knoll
+AuthorEmail: Knoll_Frank@web.de
+SourceCode: https://github.com/KnollFrank/ExtensionsForMaps
+IssueTracker: https://github.com/KnollFrank/ExtensionsForMaps/issues
+
+AutoName: Extensions for Maps
+
+MaintainerNotes:
+  AppAdded: 2026-10-30
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /app-release\.apk/
+  Fastlane: https://github.com/KnollFrank/ExtensionsForMaps/tree/master/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+
+AllowedAPKSigningKeys: 45c5b92e107876f58f0203e795ddfb017d1fd3d172628ee3cbc1470e2539988e
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
