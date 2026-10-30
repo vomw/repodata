@@ -1,0 +1,27 @@
+Categories:
+  - Connectivity
+License: AGPL-3.0-only
+AuthorName: s1m
+SourceCode: https://codeberg.org/s1m/bubble-share
+IssueTracker: https://codeberg.org/s1m/bubble-share/issues
+Translation: https://translate.codeberg.org/projects/bubble-share/
+Changelog: https://codeberg.org/s1m/bubble-share/releases
+Liberapay: S1m
+
+AutoName: Bubble Share
+
+MaintainerNotes:
+  AppAdded: 2026-10-30
+  Method: codeberg-release
+  GHSkipPre: 1
+  ApkMatch: /bubbleshare\.apk/
+  Fastlane: https://codeberg.org/s1m/bubble-share/src/branch/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.NEARBY_WIFI_DEVICES: to find nearby WiFi devices to share with
+    android.permission.ACCESS_FINE_LOCATION: required by NEARBY_WIFI_DEVICES
+
+AllowedAPKSigningKeys: 4f438fed8fb5093ac6707804389e293e07e14a5d78fcf41e5878d6e2ca8139a8
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
