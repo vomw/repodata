@@ -25,7 +25,6 @@ MaintainerNotes:
     android.permission.MANAGE_ACCOUNTS: for profile operations from Dhizuku or other DPCs
     android.permission.REQUEST_PASSWORD_COMPLEXITY: required to change advanced settings for screen lock password
     android.permission.READ_EXTERNAL_STORAGE: required to retrieve the complete file data
-    android.permission.MANAGE_EXTERNAL_STORAGE: shared with the client app
     moe.shizuku.manager.permission.API_V23: required to enable features via Shizuku
   Status:
     - 2024-10-08 scanner reports READ_EXTERNAL_STORAGE MANAGE_EXTERNAL_STORAGE – https://github.com/iamr0s/Dhizuku/issues/11#issuecomment-2403306807
