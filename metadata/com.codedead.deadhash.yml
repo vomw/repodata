@@ -19,11 +19,6 @@ MaintainerNotes:
   Fastlane: https://github.com/CodeDead/DeadHash-android/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
   DoubleList: keep
-  PermIgnore:
-    android.permission.READ_EXTERNAL_STORAGE: for reading files to create hashes of
-    android.permission.READ_MEDIA_AUDIO: for reading files to create hashes of
-    android.permission.READ_MEDIA_IMAGES: for reading files to create hashes of
-    android.permission.READ_MEDIA_VIDEO: for reading files to create hashes of
   Status:
     - 2025-07-19 upstreamed local fastlane adjustments via https://github.com/CodeDead/DeadHash-android/pull/43
 
