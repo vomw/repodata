@@ -18,6 +18,8 @@ MaintainerNotes:
   ApkIgnore: /wear/i
   Fastlane: https://github.com/isaacsa51/Minus/blob/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.CAMERA: needed for receipt scanning with camera and OCR
   Status:
     - 2026-07-03 disabling updates as RB fails for the umpteenth time in a row now, and dev pushes releases without completing test+review, see https://github.com/isaacsa51/Minus/issues/47#issuecomment-4878939744
     - 2026-07-07 all issues solved with v1.3.4, reactivating updates
