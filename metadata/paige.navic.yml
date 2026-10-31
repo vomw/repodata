@@ -16,7 +16,7 @@ MaintainerNotes:
   AppAdded: 2026-09-07
   Method: codeberg-release
   GHSkipPre: 1
-  ApkMatch: /Navic.fdroid\.apk/
+  ApkMatch: /Navic.foss\.apk/
   Fastlane: https://codeberg.org/paige/Navic/src/branch/master/fastlane/metadata/android
   FastlaneFeatures: title,shortdesc,fulldescMD,icon,screenshots
   FlagIgnore:
@@ -32,8 +32,9 @@ MaintainerNotes:
   Status:
     - 2026-10-29 repo moved from Github to Codeberg, see https://codeberg.org/paige/Navic/issues/461
     - 2026-10-30 v1.0.0-beta01 introduces proprietary Discord Social SDK, updates temporarily disabled; see https://codeberg.org/paige/Navic/issues/468
+    - 2026-10-31 v1.0.0-beta02 introduces foss build flavor without Discord
 
 AllowedAPKSigningKeys: db7363e8fd71e4cdd13d14c073d6208588b02bb2791dd197c55f9cba9d7a52e4
 
 AutoUpdateMode: Version %v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
