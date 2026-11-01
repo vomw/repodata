@@ -15,6 +15,8 @@ MaintainerNotes:
   Fastlane: https://github.com/JoestarLabs/CerberusTiles/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,screenshots
   Note: Fastlane is our starter package
+  IntentFilterIgnore:
+    android.accessibilityservice.AccessibilityService: used for the „Smart Pixels“ feature, which uses an Accessibility Overlay
 
 AllowedAPKSigningKeys: d41423d8614d7bb1afb8ac13fbb9afbd42fa91eb363bb54fcc12dc7cc113a8a3
 
