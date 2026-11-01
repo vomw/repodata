@@ -42,7 +42,8 @@ MaintainerNotes:
     - 2025-11-23 had to apply NonFreeComp, as there was no reaction on our request to declare a license on SuperNova, see https://github.com/nova-video-player/SuperNOVA/issues/1
     - 2025-11-24 false positive, see issue; this SuperNOVA comes from https://github.com/nova-video-player/aos-Video
     - 2026-10-10 v6.5.5 adds android.permission.REQUEST_INSTALL_PACKAGES, scanner rejected update; UCM Tags=>Static until clarified; see https://github.com/nova-video-player/aos-AVP/issues/1992
+    - 2026-11-01 v6.6.2 has this solved, UCM back to Tags
 
 AllowedAPKSigningKeys: 05af6804bcad9e7e6d22d2ffc39fca1857a4aeb4385097cad91b11e5bac1f615
 
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
