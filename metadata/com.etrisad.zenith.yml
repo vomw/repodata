@@ -30,8 +30,9 @@ MaintainerNotes:
     android.permission.CAMERA: for the integrated QR code scanner (QR scan task)
   Status:
     - 2026-10-30 RB for v1.6.3 failed with huge diff in classes.dex, temporarily disabling updates until clarified; see https://github.com/1372Slash/Zenith/issues/100
+    - 2026-11-01 fixed with v1.6.3.1 (build tree was messed up); UCM=>Tags again
 
 AllowedAPKSigningKeys: 0b8277c43fab0ed31518234a33435883faec5ca19ca76c0028781c5bf8065237
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: None
+UpdateCheckMode: Tags
