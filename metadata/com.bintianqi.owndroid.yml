@@ -20,9 +20,11 @@ MaintainerNotes:
     android.permission.QUERY_ALL_PACKAGES: this app is intended a.o. to manage your apps
     android.permission.ACCESS_FINE_LOCATION: needed to access the saved Wi-Fi list
     android.permission.ACCESS_COARSE_LOCATION: needed to access the saved Wi-Fi list
+    android.permission.CAMERA: used for settings Transfer using QR code
   Status:
     - 2024-04-21 previously listed as com.binbin.androidowner
     - 2025-01-01 scanner reports DEPENDENCY_INFO_BLOCK ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION – https://github.com/BinTianqi/OwnDroid/issues/89
+    - 2026-11-01 CAMERA permission, see https://github.com/BinTianqi/OwnDroid/issues/381
 
 AllowedAPKSigningKeys: e5d5db176a742c566ba6020ac24d93fabda5f6952d7fccae9e3a46e9848e83b5
 
