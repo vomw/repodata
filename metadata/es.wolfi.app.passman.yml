@@ -11,13 +11,12 @@ Donate: https://passman.cc/#contact
 Bitcoin: 1H2c5tkGX54n48yEtM4Wm4UrAGTW85jQpe
 
 AutoName: Passman
-ArchivePolicy: 2
 
 MaintainerNotes:
   AppAdded: 2021-08-17
   Method: github-release
   GHSkipPre: 1
-  ApkMatch: /app-arm64-v8a-release\.apk/i
+  ApkMatch: /app-universal-release\.apk/i
   NameSpaces:
     - /es/wolfi/app/ResponseHandlers
     - /es/wolfi/passman
@@ -38,4 +37,4 @@ MaintainerNotes:
 AllowedAPKSigningKeys: f0a4792b8b4dbd3339f9653b51cebd7a3aa433d0b0f701233cb55a7a4fa73d64
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Static
+UpdateCheckMode: Tags
