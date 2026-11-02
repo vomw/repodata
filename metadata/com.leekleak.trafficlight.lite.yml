@@ -19,6 +19,7 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
   PermIgnore:
     android.permission.ACCESS_FINE_LOCATION: required by some Android versions for WiFi access
+    android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: to prevent the app being killed when running in background
 
 AllowedAPKSigningKeys: 5dc00106c77cb285c0b2c51881eee95073e5dd0c5f6d9f099807d7a3d7accf37
 
