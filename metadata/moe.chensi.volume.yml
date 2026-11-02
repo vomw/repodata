@@ -17,8 +17,10 @@ MaintainerNotes:
   FastlaneFeatures: shortdesc,fulldescMD,screenshots
   Status:
     - 2025-08-18 upstreaming our local Fastlane metadata via https://github.com/yume-chan/VolumeManager/pull/14
+    - 2026-10-31 android.accessibilityservice.AccessibilityService and failed RB; https://github.com/yume-chan/VolumeManager/issues/76
+    - 2026-11-02 still no reply; temporarily ddemoting to monthly track and disable updates for RB
 
 AllowedAPKSigningKeys: 74cdd6422595d84f046eab3e96bf29401b2346532300c6155d50122d589235dc
 
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
