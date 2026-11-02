@@ -1,0 +1,26 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: leekleak
+AuthorWebSite: https://tintotint.eu/
+SourceCode: https://github.com/leekleak/traffic-light
+IssueTracker: https://github.com/leekleak/traffic-light/issues
+Translation: https://hosted.weblate.org/engage/traffic-light/
+Changelog: https://github.com/leekleak/traffic-light/releases
+
+AutoName: Traffic Light
+
+MaintainerNotes:
+  AppAdded: 2026-11-02
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /com.leekleak.trafficlight-.*-lite-release\.apk/
+  Fastlane: https://github.com/leekleak/traffic-light/tree/main/fastlane/metadata/android
+  FastlaneFeatures: shortdesc,fulldescMD,changelogs,icon,featureGraphic,screenshots
+  PermIgnore:
+    android.permission.ACCESS_FINE_LOCATION: required by some Android versions for WiFi access
+
+AllowedAPKSigningKeys: 5dc00106c77cb285c0b2c51881eee95073e5dd0c5f6d9f099807d7a3d7accf37
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
