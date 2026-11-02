@@ -17,6 +17,10 @@ MaintainerNotes:
   Note: Fastlane is our starter package
   IntentFilterIgnore:
     android.accessibilityservice.AccessibilityService: used for the „Smart Pixels“ feature, which uses an Accessibility Overlay
+  PermIgnore:
+    android.permission.ACCESS_NOTIFICATION_POLICY: required by Android to toggle ringer and vibration modes without crashing when DND is active
+    android.permission.WRITE_SETTINGS: used by Quick Settings tiles and shortcuts to toggle adaptive brightness and apply display brightness presets
+    android.permission.WRITE_SECURE_SETTINGS: granted via ADB to toggle Pixel’s 80% charging limit and for the network speed limiter feature
 
 AllowedAPKSigningKeys: d41423d8614d7bb1afb8ac13fbb9afbd42fa91eb363bb54fcc12dc7cc113a8a3
 
