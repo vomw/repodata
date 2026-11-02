@@ -26,9 +26,10 @@ MaintainerNotes:
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to list apps to filter trackers for
     android.permission.READ_PHONE_STATE: needed to disable the VPN on ongoing calls, to mitigate problems with VPN and Voice-over-IP service
+    android.permission.CAMERA: to import WireGuard profiles by QR code
   Status:
     - 2022-07-28 white-listing ACRA, see https://github.com/TrackerControl/tracker-control-android/issues/174
-    - 2024-12-15 scanner reports android.permission.READ_PHONE_STATE DEPENDENCY_INFO_BLOCK – https://github.com/TrackerControl/tracker-control-android/issues/440
+    - 2024-12-15 scanner reports READ_PHONE_STATE DEPENDENCY_INFO_BLOCK – https://github.com/TrackerControl/tracker-control-android/issues/440
 
 AllowedAPKSigningKeys: 7f48f74781632067cae334734ff2bdf54eb2a977c061a327499ca9109202d680
 
