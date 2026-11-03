@@ -24,7 +24,6 @@ MaintainerNotes:
   PermIgnore:
     android.permission.QUERY_ALL_PACKAGES: needed to list all apps in the app drawer
     android.permission.REQUEST_DELETE_PACKAGES: to allow uninstalling unwanted apps directly from the drawer
-    android.permission.REQUEST_INSTALL_PACKAGES: used to install extensions
     android.permission.SYSTEM_ALERT_WINDOW: used by the Wellbeing Feature to display details over other apps
   Status:
     - 2026-04-11 REQUEST_INSTALL_PACKAGES SYSTEM_ALERT_WINDOW READ_PHONE_STATE – https://github.com/Elnix90/Dragon-Launcher/issues/239#issuecomment-4229966271
