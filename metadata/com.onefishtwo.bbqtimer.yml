@@ -15,8 +15,10 @@ MaintainerNotes:
   GHSkipPre: 1
   Fastlane: https://github.com/1fish2/BBQTimer/tree/master/fastlane/metadata/android
   FastlaneFeatures: shortdesc,fulldescMD,icon,featureGraphic,screenshots
+  Status:
+    - 2026-11-03 v5.0 adds proprietary libs (WearOS, GMS), UCM Tags=>Static for now; see https://github.com/1fish2/BBQTimer/issues/10#issuecomment-6601465921
 
 AllowedAPKSigningKeys: 71571360b521f21c8608256e69a57068543f822788667634e6631a00ddeaccce
 
 AutoUpdateMode: Version release-%v
-UpdateCheckMode: Tags
+UpdateCheckMode: Static
