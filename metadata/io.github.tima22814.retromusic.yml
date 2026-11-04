@@ -1,0 +1,25 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: tima22814
+SourceCode: https://github.com/tima22814/RetroMusic
+IssueTracker: https://github.com/tima22814/RetroMusic/issues
+Changelog: https://github.com/tima22814/RetroMusic/releases
+
+AutoName: Retro Music
+
+MaintainerNotes:
+  AppAdded: 2026-11-05
+  Method: github-release
+  GHSkipPre: 1
+  ApkMatch: /RetroMusic-.*\.apk/
+  Fastlane: https://github.com/tima22814/RetroMusic/tree/main/fastlane/metadata/android
+  FastlaneFeatures: title,shortdesc,fulldescMD,changelogs,icon,screenshots
+  PermIgnore:
+    android.permission.READ_MEDIA_AUDIO: to access audio files to play
+    android.permission.READ_EXTERNAL_STORAGE: to access audio files to play
+
+AllowedAPKSigningKeys: d2d2c04b7a62d5b784733c3ddd359f4cd0d1aad2945d208eaaa5bc58b4c569ae
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
